@@ -44,7 +44,7 @@ Stop after this step for anything other than `write`, and return the summary (St
 
 ## Step 3 — Classify
 
-Using the schema's controlled values, set `category`, `lines` (taxonomy root IDs), `difficulty`, `usageFrequency` and `mostRelevantFor`.
+Using the schema's controlled values, set `category`, `lines` (taxonomy root IDs), `difficulty` and `usageFrequency`.
 
 - `usageFrequency` is how often the term appears across US policies, quotes, claims and industry work. It is **not** difficulty. A newly requested term is usually `Low` or `Medium`; use `High` only for everyday words.
 - Pick `relatedTerms` only from IDs that exist in `data/insurance-glossary.csv` or `src/content/terms/`. Check each one.

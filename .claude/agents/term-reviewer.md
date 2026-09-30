@@ -37,7 +37,7 @@ Go through every group. Collect all findings before deciding.
 
 ### 3. Schema
 - Valid YAML; `id` is a lowercase slug and matches the file name.
-- Every required field is present; only allowed values are used for `category`, `lines`, `usageFrequency`, `difficulty`, `mostRelevantFor`, `whereYoullSeeIt`, `flowStages` and the visual `template`.
+- Every required field is present; only allowed values are used for `category`, `lines`, `usageFrequency`, `difficulty`, `whereYoullSeeIt`, `flowStages` and the visual `template`.
 - Limits: `quickAnswer` 40–60 words, `seo.metaTitle` ≤ 60 characters, `seo.metaDescription` 140–160 characters, FAQ answers ≤ 50 words, 2–4 FAQs, 2–6 related terms.
 - Every `relatedTerms` ID exists.
 - `meta.source` is `ai`, dates are valid ISO dates.
@@ -60,7 +60,7 @@ Go through every group. Collect all findings before deciding.
 - No real people, companies or brands. Nothing offensive, and no links other than in `sources`.
 
 ### 7. Classification
-- `usageFrequency`, `difficulty`, `category`, `lines` and `mostRelevantFor` are reasonable. `usageFrequency` reflects how common the term is, not how hard it is.
+- `usageFrequency`, `difficulty`, `category`, and `lines` are reasonable. `usageFrequency` reflects how common the term is, not how hard it is.
 
 ## Verdict
 

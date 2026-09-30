@@ -12,6 +12,7 @@ Grey-box wireframes for LearnInsurance. They show layout and flow, not final col
 | 1 | Home | [Home](preview/Home.html) |
 | 2 | Search & request a term | [Search](preview/Search.html) |
 | 3 | Term detail (Endorsement) | [Term](preview/Term.html) |
+| 3b | Report an issue | [ReportIssue](preview/ReportIssue.html) |
 | 4 | Terms A–Z | [Glossary](preview/Glossary.html) |
 | 5 | Insurance types tree | [Types](preview/Types.html) |
 | 5b | Insurance type page (Cyber) | [TypePage](preview/TypePage.html) |
@@ -26,6 +27,7 @@ Grey-box wireframes for LearnInsurance. They show layout and flow, not final col
 | 12 | Auto term pipeline | [Pipeline](preview/Pipeline.html) |
 | 13 | Account settings | [Settings](preview/Settings.html) |
 | 14 | Page not found (404) | [NotFound](preview/NotFound.html) |
+| 15 | Admin: manual review | [Admin](preview/Admin.html) |
 | M1 | Home (mobile) | [MHome](preview/MHome.html) |
 | M2 | Term page (mobile) | [MTerm](preview/MTerm.html) |
 | M3 | Learn card (mobile) | [MLearn](preview/MLearn.html) |

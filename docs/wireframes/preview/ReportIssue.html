@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Report an issue</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#1f1f1c;background:#f4f4f1;font-size:15px;line-height:1.5}
+a{color:#1f1f1c}a:hover{color:#1d4ed8}
+h1,h2,h3,h4,p{margin:0}
+.hdr{display:flex;align-items:center;gap:32px;height:72px;padding:0 48px;background:#ffffff;border-bottom:1px solid #cfcfca;box-sizing:border-box}
+.logo{display:flex;gap:10px;align-items:center;font-weight:600;font-size:18px;text-decoration:none}
+.logomark{width:26px;height:26px;border:2px solid #1f1f1c;border-radius:6px;box-sizing:border-box}
+.nav{display:flex;gap:28px;font-size:15px;flex-grow:1}
+.nav a{text-decoration:none;color:#44443f}
+.nav a.on{color:#1f1f1c;font-weight:600;text-decoration:underline;text-underline-offset:6px}
+.box{background:#ffffff;border:1px solid #cfcfca;border-radius:10px;box-sizing:border-box}
+.ph{background:#e4e4df;border-radius:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:8px;border:1.5px solid #1f1f1c;background:#ffffff;font:inherit;font-weight:500;text-decoration:none;color:#1f1f1c;box-sizing:border-box;white-space:nowrap}
+.btn.pri{background:#1f1f1c;color:#ffffff}
+.btn.ghost{border-color:#cfcfca}
+.chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:14px;border:1px solid #bdbdb7;font-size:13px;background:#ffffff;color:#33332f;text-decoration:none;white-space:nowrap;box-sizing:border-box}
+.chip.dark{background:#1f1f1c;color:#ffffff;border-color:#1f1f1c}
+.chip.fill{background:#e4e4df;border-color:#e4e4df}
+.chip.ai{border:1.5px dashed #1d4ed8;color:#1d4ed8;font-weight:500}
+.muted{color:#5b5b55}
+.small{font-size:13px}
+.label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5b5b55}
+.state{display:inline-flex;font-family:'IBM Plex Mono',monospace;font-size:12px;padding:4px 10px;border:1px dashed #5b5b55;border-radius:4px;color:#44443f;background:#ffffff}
+.bar{height:8px;background:#e1e1dc;border-radius:4px;overflow:hidden}
+.bar>div{height:100%;background:#1f1f1c}
+.input{display:flex;align-items:center;gap:12px;height:56px;padding:0 20px;border:1.5px solid #1f1f1c;border-radius:10px;background:#ffffff;box-sizing:border-box}
+.input input{border:0;outline:0;font:inherit;font-size:17px;flex-grow:1;background:transparent;color:#1f1f1c}
+.input input::placeholder{color:#5b5b55}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:500}
+.field input,.field select{height:44px;border:1px solid #9a9a94;border-radius:8px;padding:0 12px;font:inherit;background:#ffffff}
+.stage{display:flex;align-items:center;justify-content:center;height:44px;padding:0 14px;border:1.5px solid #bdbdb7;border-radius:8px;font-size:13px;font-weight:500;background:#ffffff;color:#44443f;white-space:nowrap}
+.stage.on{border-color:#1d4ed8;background:#1d4ed8;color:#ffffff}
+.arrow{color:#8a8a84;font-size:16px}
+.tree a{text-decoration:none}
+.row{display:flex;align-items:center}
+.ftr{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:72px;border-top:1px solid #cfcfca;background:#ffffff;font-size:13px;color:#5b5b55;box-sizing:border-box}
+</style>
+<div style="position: relative; width: 1280px; height: 900px; box-sizing: border-box; display: flex; flex-direction: column; background: #f4f4f1; overflow: hidden">
+<header class="hdr"><a href="Home.html" class="logo"><span class="logomark"></span>LearnInsurance</a><nav class="nav"><a href="Glossary.html" class="on">Terms A–Z</a><a href="Types.html">Insurance types</a><a href="Paths.html">Learning paths</a></nav><label class="input" style="height: 44px; width: 260px; border-width: 1px; border-color: #9a9a94"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input type="search" placeholder="Search a term" aria-label="Search a term" style="font-size: 14px"></label><a href="SignIn.html" class="btn ghost">Sign in</a><a href="SignIn.html" class="btn pri">Sign up</a></header>
+<div style="flex-grow: 1; background: #d8d8d3; display: flex; align-items: center; justify-content: center; padding: 40px">
+<div class="box" role="dialog" aria-label="Report an issue" style="width: 560px; padding: 32px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 12px 40px rgba(0,0,0,0.12)">
+<div class="row" style="justify-content: space-between"><h2 style="font-size: 22px">Report an issue with “Endorsement”</h2><a href="Term.html" aria-label="Close" class="small">Close</a></div>
+<span class="label">What’s wrong?</span>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px"><label class="row" style="gap: 12px; min-height: 44px; padding: 0 14px; border-radius: 8px; background: #ffffff; border: 2px solid #1d4ed8; background: #eef2ff"><input type="radio" name="r" checked="checked">Wrong information</label><label class="row" style="gap: 12px; min-height: 44px; padding: 0 14px; border-radius: 8px; background: #ffffff; border: 1px solid #bdbdb7"><input type="radio" name="r">Out of date</label><label class="row" style="gap: 12px; min-height: 44px; padding: 0 14px; border-radius: 8px; background: #ffffff; border: 1px solid #bdbdb7"><input type="radio" name="r">Hard to understand</label><label class="row" style="gap: 12px; min-height: 44px; padding: 0 14px; border-radius: 8px; background: #ffffff; border: 1px solid #bdbdb7"><input type="radio" name="r">Typo or broken link</label></div>
+<label class="field">Tell us more (optional)<textarea rows="4" placeholder="e.g. The premium example doesn’t add up." style="border: 1px solid #9a9a94; border-radius: 8px; padding: 10px 12px; font: inherit; resize: vertical"></textarea></label>
+<p class="small muted">This creates a fix request. Our AI writer corrects the term, a second AI reviews it, and you’ll see the update on the page.</p>
+<div class="row" style="justify-content: flex-end; gap: 8px"><a href="Term.html" class="btn ghost">Cancel</a><a href="Term.html" class="btn pri">Send report</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

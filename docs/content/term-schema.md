@@ -4,7 +4,7 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 
 - **Location:** `src/content/terms/<id>.yaml` (to be confirmed when the Astro + Keystatic app is scaffolded)
 - **Market:** US only
-- **Seed data:** `data/insurance-glossary.csv` (existing terms), `data/insurance-taxonomy.csv` (insurance types)
+- **Seed data:** `data/insurance-glossary.csv` (existing terms), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
 
 ## Fields
 
@@ -17,7 +17,6 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 | `lines` | yes | List of **line IDs** below. Use `[all]` when the term applies everywhere. |
 | `usageFrequency` | yes | `High`, `Medium` or `Low`: how often the term shows up in US policies, quotes, claims and industry work. Not the same as difficulty. |
 | `difficulty` | yes | `Beginner`, `Intermediate` or `Advanced`. |
-| `mostRelevantFor` | yes | Any of `Individuals`, `Developers`, `Underwriters`, `Product Owners`. |
 | `quickAnswer` | yes | 40–60 words. Answers "What is X?" directly in the first sentence. Used for AEO. |
 | `definition` | yes | Plain-English explanation, 2–4 short sentences. |
 | `example` | yes | One concrete, everyday example. |
@@ -163,7 +162,6 @@ category: Policy Wording
 lines: [all]
 usageFrequency: Medium
 difficulty: Beginner
-mostRelevantFor: [Individuals, Developers, Product Owners]
 quickAnswer: >-
   An endorsement is an official written change to an insurance policy after it starts, such as a new address,
   an added driver or extra coverage. It becomes part of the policy and can raise or lower the premium.

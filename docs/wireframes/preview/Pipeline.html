@@ -43,7 +43,7 @@ h1,h2,h3,h4,p{margin:0}
 .row{display:flex;align-items:center}
 .ftr{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:72px;border-top:1px solid #cfcfca;background:#ffffff;font-size:13px;color:#5b5b55;box-sizing:border-box}
 </style>
-<div style="position: relative; width: 1280px; height: 900px; box-sizing: border-box; display: flex; flex-direction: column; background: #f4f4f1; overflow: hidden">
+<div style="position: relative; width: 1280px; height: 1100px; box-sizing: border-box; display: flex; flex-direction: column; background: #f4f4f1; overflow: hidden">
 <header class="hdr"><a href="Home.html" class="logo"><span class="logomark"></span>LearnInsurance</a><nav class="nav"><a href="Glossary.html">Terms A–Z</a><a href="Types.html">Insurance types</a><a href="Paths.html">Learning paths</a></nav><label class="input" style="height: 44px; width: 260px; border-width: 1px; border-color: #9a9a94"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input type="search" placeholder="Search a term" aria-label="Search a term" style="font-size: 14px"></label><a href="SignIn.html" class="btn ghost">Sign in</a><a href="SignIn.html" class="btn pri">Sign up</a></header>
 <div style="padding: 40px 48px; display: flex; flex-direction: column; gap: 28px">
 <div style="display: flex; flex-direction: column; gap: 8px"><span class="label">Behind the scenes · no manual steps</span><h1 style="font-size: 34px; font-weight: 600">How a requested term gets published</h1></div>
@@ -52,15 +52,19 @@ h1,h2,h3,h4,p{margin:0}
 <div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step 2 · GitHub</span><div style="font-weight: 600">GitHub issue created</div><p class="small muted">Labelled term-request, with the term and context.</p></div><div class="row"><span class="arrow" aria-hidden="true" style="font-size: 22px">→</span></div>
 <div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step 3 · Claude</span><div style="font-weight: 600">Writer agent</div><p class="small muted">Validates it’s a real US term, researches, writes the full entry.</p></div><div class="row"><span class="arrow" aria-hidden="true" style="font-size: 22px">→</span></div>
 <div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step 4 · Claude</span><div style="font-weight: 600">Reviewer agent</div><p class="small muted">Checks accuracy and format. Sends it back to the writer if needed.</p></div><div class="row"><span class="arrow" aria-hidden="true" style="font-size: 22px">→</span></div>
-<div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step 5 · Keystatic + Vercel</span><div style="font-weight: 600">Publish</div><p class="small muted">Commits the content file with the AI tag. Vercel redeploys. Issue closed.</p></div>
+<div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step 5 · Keystatic + Vercel</span><div style="font-weight: 600">Publish</div><p class="small muted">Commits the content file with the AI tag. Vercel redeploys. Issue closed. Listed in your admin screen for a spot-check.</p></div>
 </div>
 <div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
 <h2 style="font-size: 18px">What the writer agent creates for each term</h2>
 <div class="row" style="gap: 8px; flex-wrap: wrap"><span class="chip fill">Quick answer (AEO)</span><span class="chip fill">Plain-English definition</span><span class="chip fill">Example</span><span class="chip fill">Policy-flow stages</span><span class="chip fill">Person story (e.g. Tom)</span><span class="chip fill">Visual (pick a diagram template)</span><span class="chip fill">Check-yourself question</span><span class="chip fill">FAQs + schema</span><span class="chip fill">Meta title &amp; description (SEO)</span><span class="chip fill">Related terms</span><span class="chip fill">Usage frequency</span><span class="chip fill">Difficulty</span><span class="chip fill">Insurance types</span><span class="chip fill">US notes</span><span class="chip fill">AI-generated tag</span></div>
 </div>
 <div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="font-size: 18px">Issue reports use the same pipeline</h2>
+<p class="muted">“Report an issue” on a term creates a GitHub issue labelled <b>term-fix</b>. The writer agent fixes the term, the reviewer agent checks it, and it is republished. Anything the agents can’t resolve lands in the admin screen.</p>
+</div>
+<div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
 <h2 style="font-size: 18px">Stack</h2>
-<div class="row" style="gap: 8px; flex-wrap: wrap"><span class="chip">Astro</span><span class="chip">Keystatic</span><span class="chip">Pagefind search</span><span class="chip">Vercel</span><span class="chip">Clerk auth</span><span class="chip">PostHog analytics</span><span class="chip">Google Search Console</span><span class="chip">GitHub Issues + Actions</span><span class="chip">Claude agents</span></div>
+<div class="row" style="gap: 8px; flex-wrap: wrap"><span class="chip">Astro</span><span class="chip">Keystatic</span><span class="chip">Pagefind search</span><span class="chip">Vercel</span><span class="chip">Clerk auth</span><span class="chip">Neon Postgres (progress, requests, reports)</span><span class="chip">PostHog analytics</span><span class="chip">Google Search Console</span><span class="chip">GitHub Issues + Actions</span><span class="chip">Claude agents</span></div>
 </div>
 </div>
 <div style="flex-grow: 1"></div>

@@ -191,7 +191,6 @@ search = header() + f"""
 <p class="muted">Request it and we’ll add it automatically. You’ll get a plain-English definition, an example and a real-life story.</p>
 <label class="field">Term<input type="text" placeholder="hammer clause"></label>
 <label class="field">Where did you see it? (optional)<input type="text" placeholder="e.g. my professional liability policy"></label>
-<label class="field">Email me when it’s ready (optional)<input type="email" placeholder="you@example.com"></label>
 <button class="btn pri" style="align-self: flex-start">Request this term</button>
 <div class="row" style="gap: 8px"><span class="small muted">Did you mean:</span>{chips(["Consent to settle","Settlement"], href="Term.dc.html")}</div>
 </div>
@@ -307,10 +306,6 @@ term = header("terms") + f"""
 {faq("What is the difference between an endorsement and a rider?", "", False)}
 </div>
 
-<div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 10px; border-style: dashed; background: transparent">
-<div class="row" style="justify-content: space-between"><h2 style="font-size: 18px">Comments</h2><span class="state">Next phase · tool not decided</span></div>
-<div class="ph" style="height: 56px"></div>
-</div>
 <div class="box" style="padding: 14px 18px; background: transparent; border-style: dashed"><p class="small"><b>Educational only.</b> This is a general explanation, not advice. What’s covered depends on your own policy wording. Ask your insurer or agent about your policy.</p></div>
 <p class="small muted">Last updated Sep 30, 2026 · Source: LearnInsurance editorial + AI writer, AI reviewer</p>
 </main>
@@ -318,7 +313,7 @@ term = header("terms") + f"""
 <aside style="width: 340px; flex-shrink: 0; display: flex; flex-direction: column; gap: 20px">
 <div class="box" style="padding: 20px">
 <h2 style="font-size: 16px; margin-bottom: 6px">At a glance</h2>
-{glance("Usage","Medium")}{glance("Difficulty","Beginner")}{glance("Category","Policy wording")}{glance("Insurance types","All")}{glance("Most useful for","Individuals, Developers, Product owners")}
+{glance("Usage","Medium")}{glance("Difficulty","Beginner")}{glance("Category","Policy wording")}{glance("Insurance types","All")}
 </div>
 <div class="box" style="padding: 20px; display: flex; flex-direction: column; gap: 10px">
 <h2 style="font-size: 16px">Related terms</h2>
@@ -332,7 +327,7 @@ term = header("terms") + f"""
 <div class="box" style="padding: 20px; display: flex; flex-direction: column; gap: 8px">
 <h2 style="font-size: 16px">Something wrong?</h2>
 <p class="small muted">Report an error in this explanation.</p>
-<button class="btn ghost" style="align-self: flex-start">Report an issue</button>
+<a href="ReportIssue.dc.html" class="btn ghost" style="align-self: flex-start">Report an issue</a>
 </div>
 </aside>
 </div>
@@ -370,7 +365,6 @@ glossary = header("terms") + f"""
 {filt("Usage", [check("High",True),check("Medium",True),check("Low")])}
 {filt("Difficulty", [check("Beginner"),check("Intermediate"),check("Advanced")])}
 {filt("Insurance type", [check("Life"),check("Health"),check("Auto"),check("Property"),check("Cyber / specialty"),'<a href="Glossary.dc.html" class="small">+ 8 more</a>'])}
-{filt("Useful for", [check("Individuals"),check("Developers"),check("Underwriters"),check("Product owners")])}
 </aside>
 <div class="box" style="flex-grow: 1; overflow: hidden">
 <div style="display: grid; grid-template-columns: 220px minmax(0, 1fr) 120px 120px; gap: 16px; padding: 12px 20px; background: #f4f4f1"><span class="label">Term</span><span class="label">Plain English</span><span class="label">Usage</span><span class="label">Level</span></div>
@@ -664,7 +658,7 @@ signin = header("paths") + f"""
 boards["SignIn.dc.html"] = ("11 · Sign in / sign up", H, page("Sign in", H, signin))
 
 # ---------------- 12. Pipeline ----------------
-H = 900
+H = 1100
 step = lambda n, t, d, who: f'<div class="box" style="width: 200px; padding: 18px; display: flex; flex-direction: column; gap: 8px; flex-shrink: 0"><span class="label">Step {n} · {who}</span><div style="font-weight: 600">{t}</div><p class="small muted">{d}</p></div>'
 arr = '<span class="arrow" aria-hidden="true" style="font-size: 22px">→</span>'
 pipe = header() + f"""
@@ -675,15 +669,19 @@ pipe = header() + f"""
 {step(2,"GitHub issue created","Labelled term-request, with the term and context.","GitHub")}<div class="row">{arr}</div>
 {step(3,"Writer agent","Validates it’s a real US term, researches, writes the full entry.","Claude")}<div class="row">{arr}</div>
 {step(4,"Reviewer agent","Checks accuracy and format. Sends it back to the writer if needed.","Claude")}<div class="row">{arr}</div>
-{step(5,"Publish","Commits the content file with the AI tag. Vercel redeploys. Issue closed.","Keystatic + Vercel")}
+{step(5,"Publish","Commits the content file with the AI tag. Vercel redeploys. Issue closed. Listed in your admin screen for a spot-check.","Keystatic + Vercel")}
 </div>
 <div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
 <h2 style="font-size: 18px">What the writer agent creates for each term</h2>
 <div class="row" style="gap: 8px; flex-wrap: wrap">{chips(["Quick answer (AEO)","Plain-English definition","Example","Policy-flow stages","Person story (e.g. Tom)","Visual (pick a diagram template)","Check-yourself question","FAQs + schema","Meta title &amp; description (SEO)","Related terms","Usage frequency","Difficulty","Insurance types","US notes","AI-generated tag"],"chip fill")}</div>
 </div>
 <div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="font-size: 18px">Issue reports use the same pipeline</h2>
+<p class="muted">“Report an issue” on a term creates a GitHub issue labelled <b>term-fix</b>. The writer agent fixes the term, the reviewer agent checks it, and it is republished. Anything the agents can’t resolve lands in the admin screen.</p>
+</div>
+<div class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
 <h2 style="font-size: 18px">Stack</h2>
-<div class="row" style="gap: 8px; flex-wrap: wrap">{chips(["Astro","Keystatic","Pagefind search","Vercel","Clerk auth","PostHog analytics","Google Search Console","GitHub Issues + Actions","Claude agents"],"chip")}</div>
+<div class="row" style="gap: 8px; flex-wrap: wrap">{chips(["Astro","Keystatic","Pagefind search","Vercel","Clerk auth","Neon Postgres (progress, requests, reports)","PostHog analytics","Google Search Console","GitHub Issues + Actions","Claude agents"],"chip")}</div>
 </div>
 </div>
 <div style="flex-grow: 1"></div>
@@ -750,15 +748,12 @@ settings = header("", True) + f"""
 <div style="display: flex; gap: 24px; padding: 24px 48px 48px; align-items: flex-start">
 <nav class="box" style="width: 240px; flex-shrink: 0; padding: 12px; display: flex; flex-direction: column; gap: 2px" aria-label="Settings">
 <a href="Settings.dc.html" style="padding: 10px 12px; border-radius: 6px; background: #1f1f1c; color: #ffffff; text-decoration: none">Profile</a>
-<a href="Settings.dc.html" style="padding: 10px 12px; text-decoration: none">Email preferences</a>
 <a href="Settings.dc.html" style="padding: 10px 12px; text-decoration: none">Privacy &amp; data</a></nav>
 <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 20px">
 <section class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 16px"><div class="row" style="justify-content: space-between"><h2 style="font-size: 20px">Profile</h2><span class="state">Managed by Clerk</span></div>
 <div class="row" style="gap: 16px"><div style="width: 64px; height: 64px; border-radius: 32px; background: #1f1f1c; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 600">R</div><div><div style="font-weight: 600">Ram</div><div class="small muted">ram@example.com · Signed in with Google</div></div></div>
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px"><label class="field">Display name<input type="text" placeholder="Ram"></label><label class="field">Email<input type="email" placeholder="ram@example.com"></label></div>
 <button class="btn pri" style="align-self: flex-start">Save changes</button></section>
-<section class="box" style="padding: 24px; display: flex; flex-direction: column"><h2 style="font-size: 20px; margin-bottom: 8px">Email preferences</h2>
-{toggle("Term request updates", "When a term you requested is published.", True)}{toggle("Product news", "New learning paths and features. About once a month.", False)}</section>
 <section class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px"><h2 style="font-size: 20px">Privacy &amp; data</h2>
 {toggle("Analytics cookies", "Helps us see which terms are useful.", True)}
 <div class="row" style="justify-content: space-between; padding-top: 16px; border-top: 1px solid #e4e4df"><div><div style="font-weight: 500">Delete account</div><div class="small muted">Removes your account and all learning progress. This can’t be undone.</div></div><button class="btn" style="border-color: #b42318; color: #b42318">Delete account</button></div></section>
@@ -853,6 +848,78 @@ mlearn = mhdr + f"""
 <div style="flex-grow: 1"></div>
 """
 boards["MLearn.dc.html"] = ("M3 · Learn card (mobile)", H, page("Learn mobile", H, mlearn, w=MW))
+
+# ---------------- Report an issue ----------------
+H = 900
+def radio(name, label, on=False):
+    c = ' checked="checked"' if on else ""
+    st = "border: 2px solid #1d4ed8; background: #eef2ff" if on else "border: 1px solid #bdbdb7"
+    return f'<label class="row" style="gap: 12px; min-height: 44px; padding: 0 14px; border-radius: 8px; background: #ffffff; {st}"><input type="radio" name="{name}"{c}>{label}</label>'
+report = header("terms") + f"""
+<div style="flex-grow: 1; background: #d8d8d3; display: flex; align-items: center; justify-content: center; padding: 40px">
+<div class="box" role="dialog" aria-label="Report an issue" style="width: 560px; padding: 32px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 12px 40px rgba(0,0,0,0.12)">
+<div class="row" style="justify-content: space-between"><h2 style="font-size: 22px">Report an issue with “Endorsement”</h2><a href="Term.dc.html" aria-label="Close" class="small">Close</a></div>
+<span class="label">What’s wrong?</span>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">{radio("r","Wrong information",True)}{radio("r","Out of date")}{radio("r","Hard to understand")}{radio("r","Typo or broken link")}</div>
+<label class="field">Tell us more (optional)<textarea rows="4" placeholder="e.g. The premium example doesn’t add up." style="border: 1px solid #9a9a94; border-radius: 8px; padding: 10px 12px; font: inherit; resize: vertical"></textarea></label>
+<p class="small muted">This creates a fix request. Our AI writer corrects the term, a second AI reviews it, and you’ll see the update on the page.</p>
+<div class="row" style="justify-content: flex-end; gap: 8px"><a href="Term.dc.html" class="btn ghost">Cancel</a><a href="Term.dc.html" class="btn pri">Send report</a></div>
+</div>
+</div>
+"""
+# TODO(edge-cases): rate limiting / spam protection on report submissions (see docs/requirements.md).
+boards["ReportIssue.dc.html"] = ("3b · Report an issue", H, page("Report an issue", H, report))
+
+# ---------------- Admin ----------------
+H = 1640
+def kpi(n, l, hl=False):
+    b = "border: 2px solid #1d4ed8" if hl else ""
+    return f'<div class="box" style="padding: 18px; display: flex; flex-direction: column; gap: 2px; {b}"><div style="font-size: 30px; font-weight: 600">{n}</div><div class="small muted">{l}</div></div>'
+def trow(cells, cols):
+    return f'<div style="display: grid; grid-template-columns: {cols}; gap: 14px; align-items: center; padding: 12px 16px; border-top: 1px solid #e4e4df">' + "".join(cells) + '</div>'
+def thead(labels, cols):
+    return f'<div style="display: grid; grid-template-columns: {cols}; gap: 14px; padding: 10px 16px; background: #f4f4f1">' + "".join(f'<span class="label">{l}</span>' for l in labels) + '</div>'
+def status(t, dark=False):
+    return f'<span class="chip {"dark" if dark else "fill"}" style="justify-self: start">{t}</span>'
+def acts(*a):
+    return '<div class="row" style="gap: 6px">' + "".join(f'<button class="btn {"pri" if i == 0 else "ghost"}" style="min-height: 34px; padding: 0 10px; font-size: 13px">{x}</button>' for i, x in enumerate(a)) + '</div>'
+C1 = "minmax(0, 1.4fr) 130px 150px 110px 230px"
+review_rows = "".join(trow([f'<div><div style="font-weight: 600">{t}</div><div class="small muted">{d}</div></div>', f'<span class="small">{k}</span>', status(s, s=="Needs attention"), f'<a href="Admin.dc.html" class="small">{src}</a>', acts(*a)], C1) for t, d, k, s, src, a in [
+    ("hammer clause", "Reviewer asked for changes twice; still failing: sources disagree.", "Term request", "Needs attention", "Issue #41", ("Open", "Reject")),
+    ("silent cyber", "Published by AI 2 hours ago.", "AI-published term", "Spot-check", "Issue #39", ("Looks good", "Unpublish")),
+    ("endorsement", "Reported: “premium example doesn’t add up”. Fix published.", "Issue report", "Spot-check", "Issue #40", ("Looks good", "Reopen")),
+    ("life.term · US Notes", "Held from fact-check: source measures premium, not policy count.", "Data item", "Held", "Verification", ("Edit", "Dismiss")),
+    ("premium-tax · Usage", "Held from fact-check: High → Medium?", "Data item", "Held", "Verification", ("Edit", "Dismiss")),
+])
+C2 = "minmax(0, 1fr) 150px 120px 120px"
+req_rows = "".join(trow([f'<span style="font-weight: 500">{t}</span>', status(s, s in ("Published",)), f'<span class="small muted">{w}</span>', f'<a href="Admin.dc.html" class="small">{i}</a>'], C2) for t, s, w, i in [
+    ("hammer clause","Needs attention","2 days ago","#41"),("silent cyber","Published","2 hours ago","#39"),("coinsurance penalty","In review","10 min ago","#42"),("blanket limit","Writing","just now","#43"),("pizza","Rejected: not insurance","1 day ago","#38")])
+admin = header("", True) + f"""
+<div style="display: flex; flex-grow: 1">
+<nav style="width: 240px; flex-shrink: 0; background: #ffffff; border-right: 1px solid #cfcfca; padding: 24px 16px; display: flex; flex-direction: column; gap: 2px" aria-label="Admin">
+<span class="label" style="padding: 0 12px 10px">Admin</span>
+{"".join(f'<a href="Admin.dc.html" class="row" style="justify-content: space-between; padding: 10px 12px; border-radius: 6px; text-decoration: none; {"background: #1f1f1c; color: #ffffff" if i == 0 else ""}"><span>{n}</span><span class="small" style="{"color: #ffffff" if i == 0 else "color: #5b5b55"}">{c}</span></a>' for i, (n, c) in enumerate([("Needs my review","5"),("Term requests","12"),("Issue reports","3"),("AI-published terms","48"),("Held data items","2"),("Missed searches",""),("Content (Keystatic)","")]))}
+</nav>
+<main style="flex-grow: 1; padding: 28px 32px; display: flex; flex-direction: column; gap: 20px; min-width: 0">
+<div class="row" style="justify-content: space-between"><h1 style="font-size: 30px; font-weight: 600">Needs my review</h1><span class="state">Admin only · Clerk role “admin”</span></div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px">{kpi("1","Needs attention (agents stuck)",True)}{kpi("2","AI-published, not spot-checked")}{kpi("3","Open issue reports")}{kpi("2","Held data items")}</div>
+<section class="box" style="overflow: hidden">
+<div class="row" style="justify-content: space-between; padding: 16px"><h2 style="font-size: 18px">Review queue</h2><div class="row" style="gap: 6px">{chips(["All"],"chip dark")}{chips(["Needs attention","Spot-check","Held"])}</div></div>
+{thead(["Item","Type","Status","Source","Actions"], C1)}{review_rows}
+</section>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+<section class="box" style="overflow: hidden"><div style="padding: 16px"><h2 style="font-size: 18px">Term requests pipeline</h2><p class="small muted">Requested → Writing → In review → Published / Rejected / Needs attention</p></div>
+{thead(["Term","Status","Updated","Issue"], C2)}{req_rows}</section>
+<section class="box" style="padding: 16px; display: flex; flex-direction: column; gap: 8px"><div class="row" style="justify-content: space-between"><h2 style="font-size: 18px">Missed searches this week</h2><span class="state">From PostHog</span></div>
+<p class="small muted">Searches with no result. Request any of them with one click.</p>
+{"".join(f'<div class="row" style="justify-content: space-between; padding: 8px 0; border-top: 1px solid #e4e4df"><span>{t}</span><div class="row" style="gap: 10px"><span class="small muted">{n} searches</span><button class="btn ghost" style="min-height: 32px; padding: 0 10px; font-size: 13px">Request</button></div></div>' for t, n in [("named storm deductible",14),("umbrella vs excess",9),("ACV vs RCV",7),("gap insurance",5)])}
+</section>
+</div>
+<p class="small muted">TODO(edge-cases): bulk actions, audit log of admin actions, and handling for requests the agents keep failing are for the edge-case session.</p>
+</main>
+</div>
+"""
+boards["Admin.dc.html"] = ("15 · Admin: manual review", H, page("Admin", H, admin))
 
 # write every board file (including ones not in rows_def)
 for f, (title, h, html) in boards.items():

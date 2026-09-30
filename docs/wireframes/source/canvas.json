@@ -1,0 +1,256 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Home.dc.html": {
+      "h": 1100,
+      "is_interactive": true,
+      "title": "1 · Home",
+      "w": 1280,
+      "x": 0,
+      "y": 0
+    },
+    "Search.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "2 · Search & request a term",
+      "w": 1280,
+      "x": 1360,
+      "y": 0
+    },
+    "Term.dc.html": {
+      "h": 2760,
+      "is_interactive": true,
+      "title": "3 · Term detail",
+      "w": 1280,
+      "x": 2720,
+      "y": 0
+    },
+    "Glossary.dc.html": {
+      "h": 1240,
+      "is_interactive": true,
+      "title": "4 · Terms A–Z",
+      "w": 1280,
+      "x": 0,
+      "y": 3180
+    },
+    "Types.dc.html": {
+      "h": 1200,
+      "is_interactive": true,
+      "title": "5 · Insurance types tree",
+      "w": 1280,
+      "x": 1360,
+      "y": 3180
+    },
+    "TypePage.dc.html": {
+      "is_interactive": true,
+      "title": "5b · Insurance type page",
+      "x": 2720,
+      "y": 3180,
+      "w": 1280,
+      "h": 1640
+    },
+    "Paths.dc.html": {
+      "h": 1240,
+      "is_interactive": true,
+      "title": "6 · Learning paths",
+      "w": 1280,
+      "x": 0,
+      "y": 5240
+    },
+    "PathDetail.dc.html": {
+      "h": 1300,
+      "is_interactive": true,
+      "title": "7 · Path detail (Ram’s cyber path)",
+      "w": 1280,
+      "x": 1360,
+      "y": 5240
+    },
+    "Review.dc.html": {
+      "h": 1300,
+      "is_interactive": true,
+      "title": "7b · Quick review (start of each session)",
+      "w": 1280,
+      "x": 2720,
+      "y": 5240
+    },
+    "Learn.dc.html": {
+      "h": 1180,
+      "is_interactive": true,
+      "title": "8 · Learn one term at a time",
+      "w": 1280,
+      "x": 4080,
+      "y": 5240
+    },
+    "GuestLearn.dc.html": {
+      "is_interactive": true,
+      "title": "8b · Learning as a guest",
+      "x": 5440,
+      "y": 5240,
+      "w": 1280,
+      "h": 1300
+    },
+    "Quiz.dc.html": {
+      "h": 1000,
+      "is_interactive": true,
+      "title": "9 · Quiz",
+      "w": 1280,
+      "x": 6800,
+      "y": 5240
+    },
+    "Dashboard.dc.html": {
+      "h": 1080,
+      "is_interactive": true,
+      "title": "10 · My progress",
+      "w": 1280,
+      "x": 8160,
+      "y": 5240
+    },
+    "SignIn.dc.html": {
+      "h": 900,
+      "is_interactive": true,
+      "title": "11 · Sign in / sign up",
+      "w": 1280,
+      "x": 9520,
+      "y": 5240
+    },
+    "Settings.dc.html": {
+      "is_interactive": true,
+      "title": "13 · Account settings",
+      "x": 0,
+      "y": 6960,
+      "w": 1280,
+      "h": 1040
+    },
+    "NotFound.dc.html": {
+      "is_interactive": true,
+      "title": "14 · Page not found (404)",
+      "x": 1360,
+      "y": 6960,
+      "w": 1280,
+      "h": 820
+    },
+    "Pipeline.dc.html": {
+      "h": 900,
+      "is_interactive": true,
+      "title": "12 · Auto term pipeline",
+      "w": 1280,
+      "x": 2720,
+      "y": 6960
+    },
+    "MHome.dc.html": {
+      "is_interactive": true,
+      "title": "M1 · Home (mobile)",
+      "x": 0,
+      "y": 8420,
+      "w": 390,
+      "h": 1500
+    },
+    "MTerm.dc.html": {
+      "is_interactive": true,
+      "title": "M2 · Term page (mobile)",
+      "x": 470,
+      "y": 8420,
+      "w": 390,
+      "h": 2100
+    },
+    "MLearn.dc.html": {
+      "is_interactive": true,
+      "title": "M3 · Learn card (mobile)",
+      "x": 940,
+      "y": 8420,
+      "w": 390,
+      "h": 1100
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-09-30T17:52:54Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "open": {
+      "fill": "orange",
+      "size": 24,
+      "text": "Open for next phase:\n• Comments tool (users without GitHub)\n• Where progress data lives (Clerk metadata)\n• Edge cases for the auto pipeline",
+      "w": 380,
+      "x": 4080,
+      "y": 520
+    },
+    "row0": {
+      "kind": "title1",
+      "maxW": 4000,
+      "text": "Discover",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "row1": {
+      "kind": "title1",
+      "maxW": 4000,
+      "text": "Browse",
+      "w": 240,
+      "x": 0,
+      "y": 2880
+    },
+    "row2": {
+      "kind": "title1",
+      "maxW": 10800,
+      "text": "Learn",
+      "w": 240,
+      "x": 0,
+      "y": 4940
+    },
+    "row3": {
+      "kind": "title1",
+      "maxW": 4000,
+      "text": "Account, site & behind the scenes",
+      "w": 240,
+      "x": 0,
+      "y": 6660
+    },
+    "seo": {
+      "fill": "blue",
+      "size": 24,
+      "text": "SEO / AEO / GEO on every term page (not visible in the layout):\n• Clean URL /terms/endorsement\n• Meta title + description\n• Quick answer at top (AEO)\n• FAQ + DefinedTerm schema\n• llms.txt, sitemap, last-updated date (GEO)",
+      "w": 380,
+      "x": 4080,
+      "y": 0
+    },
+    "row4": {
+      "kind": "title1",
+      "w": 240,
+      "text": "Mobile",
+      "x": 0,
+      "y": 8120,
+      "maxW": 1330
+    }
+  },
+  "order": [
+    "Home.dc.html",
+    "Search.dc.html",
+    "Term.dc.html",
+    "Glossary.dc.html",
+    "Types.dc.html",
+    "TypePage.dc.html",
+    "Paths.dc.html",
+    "PathDetail.dc.html",
+    "Review.dc.html",
+    "Learn.dc.html",
+    "GuestLearn.dc.html",
+    "Quiz.dc.html",
+    "Dashboard.dc.html",
+    "SignIn.dc.html",
+    "Settings.dc.html",
+    "NotFound.dc.html",
+    "Pipeline.dc.html",
+    "MHome.dc.html",
+    "MTerm.dc.html",
+    "MLearn.dc.html"
+  ],
+  "pages": [],
+  "title": "Learn Insurance Wireframes"
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Account settings</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;font-family:'IBM Plex Sans',system-ui,sans-serif;color:#1f1f1c;background:#f4f4f1;font-size:15px;line-height:1.5}
+a{color:#1f1f1c}a:hover{color:#1d4ed8}
+h1,h2,h3,h4,p{margin:0}
+.hdr{display:flex;align-items:center;gap:32px;height:72px;padding:0 48px;background:#ffffff;border-bottom:1px solid #cfcfca;box-sizing:border-box}
+.logo{display:flex;gap:10px;align-items:center;font-weight:600;font-size:18px;text-decoration:none}
+.logomark{width:26px;height:26px;border:2px solid #1f1f1c;border-radius:6px;box-sizing:border-box}
+.nav{display:flex;gap:28px;font-size:15px;flex-grow:1}
+.nav a{text-decoration:none;color:#44443f}
+.nav a.on{color:#1f1f1c;font-weight:600;text-decoration:underline;text-underline-offset:6px}
+.box{background:#ffffff;border:1px solid #cfcfca;border-radius:10px;box-sizing:border-box}
+.ph{background:#e4e4df;border-radius:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:8px;border:1.5px solid #1f1f1c;background:#ffffff;font:inherit;font-weight:500;text-decoration:none;color:#1f1f1c;box-sizing:border-box;white-space:nowrap}
+.btn.pri{background:#1f1f1c;color:#ffffff}
+.btn.ghost{border-color:#cfcfca}
+.chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:14px;border:1px solid #bdbdb7;font-size:13px;background:#ffffff;color:#33332f;text-decoration:none;white-space:nowrap;box-sizing:border-box}
+.chip.dark{background:#1f1f1c;color:#ffffff;border-color:#1f1f1c}
+.chip.fill{background:#e4e4df;border-color:#e4e4df}
+.chip.ai{border:1.5px dashed #1d4ed8;color:#1d4ed8;font-weight:500}
+.muted{color:#5b5b55}
+.small{font-size:13px}
+.label{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5b5b55}
+.state{display:inline-flex;font-family:'IBM Plex Mono',monospace;font-size:12px;padding:4px 10px;border:1px dashed #5b5b55;border-radius:4px;color:#44443f;background:#ffffff}
+.bar{height:8px;background:#e1e1dc;border-radius:4px;overflow:hidden}
+.bar>div{height:100%;background:#1f1f1c}
+.input{display:flex;align-items:center;gap:12px;height:56px;padding:0 20px;border:1.5px solid #1f1f1c;border-radius:10px;background:#ffffff;box-sizing:border-box}
+.input input{border:0;outline:0;font:inherit;font-size:17px;flex-grow:1;background:transparent;color:#1f1f1c}
+.input input::placeholder{color:#5b5b55}
+.field{display:flex;flex-direction:column;gap:6px;font-size:14px;font-weight:500}
+.field input,.field select{height:44px;border:1px solid #9a9a94;border-radius:8px;padding:0 12px;font:inherit;background:#ffffff}
+.stage{display:flex;align-items:center;justify-content:center;height:44px;padding:0 14px;border:1.5px solid #bdbdb7;border-radius:8px;font-size:13px;font-weight:500;background:#ffffff;color:#44443f;white-space:nowrap}
+.stage.on{border-color:#1d4ed8;background:#1d4ed8;color:#ffffff}
+.arrow{color:#8a8a84;font-size:16px}
+.tree a{text-decoration:none}
+.row{display:flex;align-items:center}
+.ftr{display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:72px;border-top:1px solid #cfcfca;background:#ffffff;font-size:13px;color:#5b5b55;box-sizing:border-box}
+</style>
+</helmet>
+<div style="position: relative; width: 1280px; height: 1040px; box-sizing: border-box; display: flex; flex-direction: column; background: #f4f4f1; overflow: hidden">
+<header class="hdr"><a href="Home.dc.html" class="logo"><span class="logomark"></span>LearnInsurance</a><nav class="nav"><a href="Glossary.dc.html">Terms A–Z</a><a href="Types.dc.html">Insurance types</a><a href="Paths.dc.html">Learning paths</a></nav><label class="input" style="height: 44px; width: 260px; border-width: 1px; border-color: #9a9a94"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input type="search" placeholder="Search a term" aria-label="Search a term" style="font-size: 14px"></label><a href="Dashboard.dc.html" class="btn ghost">My progress</a><div style="width: 40px; height: 40px; border-radius: 20px; background: #1f1f1c; color: #ffffff; display: flex; align-items: center; justify-content: center; font-weight: 600" aria-label="Ram&#39;s account">R</div></header>
+<div style="padding: 32px 48px 0"><h1 style="font-size: 34px; font-weight: 600">Account settings</h1></div>
+<div style="display: flex; gap: 24px; padding: 24px 48px 48px; align-items: flex-start">
+<nav class="box" style="width: 240px; flex-shrink: 0; padding: 12px; display: flex; flex-direction: column; gap: 2px" aria-label="Settings">
+<a href="Settings.dc.html" style="padding: 10px 12px; border-radius: 6px; background: #1f1f1c; color: #ffffff; text-decoration: none">Profile</a>
+<a href="Settings.dc.html" style="padding: 10px 12px; text-decoration: none">Email preferences</a>
+<a href="Settings.dc.html" style="padding: 10px 12px; text-decoration: none">Privacy &amp; data</a></nav>
+<div style="flex-grow: 1; display: flex; flex-direction: column; gap: 20px">
+<section class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 16px"><div class="row" style="justify-content: space-between"><h2 style="font-size: 20px">Profile</h2><span class="state">Managed by Clerk</span></div>
+<div class="row" style="gap: 16px"><div style="width: 64px; height: 64px; border-radius: 32px; background: #1f1f1c; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 600">R</div><div><div style="font-weight: 600">Ram</div><div class="small muted">ram@example.com · Signed in with Google</div></div></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px"><label class="field">Display name<input type="text" placeholder="Ram"></label><label class="field">Email<input type="email" placeholder="ram@example.com"></label></div>
+<button class="btn pri" style="align-self: flex-start">Save changes</button></section>
+<section class="box" style="padding: 24px; display: flex; flex-direction: column"><h2 style="font-size: 20px; margin-bottom: 8px">Email preferences</h2>
+<label class="row" style="gap: 16px; padding: 16px 0; border-top: 1px solid #e4e4df; justify-content: space-between"><span><span style="font-weight: 500; display: block">Term request updates</span><span class="small muted">When a term you requested is published.</span></span><input type="checkbox" checked="checked" style="width: 22px; height: 22px"></label><label class="row" style="gap: 16px; padding: 16px 0; border-top: 1px solid #e4e4df; justify-content: space-between"><span><span style="font-weight: 500; display: block">Product news</span><span class="small muted">New learning paths and features. About once a month.</span></span><input type="checkbox" style="width: 22px; height: 22px"></label></section>
+<section class="box" style="padding: 24px; display: flex; flex-direction: column; gap: 12px"><h2 style="font-size: 20px">Privacy &amp; data</h2>
+<label class="row" style="gap: 16px; padding: 16px 0; border-top: 1px solid #e4e4df; justify-content: space-between"><span><span style="font-weight: 500; display: block">Analytics cookies</span><span class="small muted">Helps us see which terms are useful.</span></span><input type="checkbox" checked="checked" style="width: 22px; height: 22px"></label>
+<div class="row" style="justify-content: space-between; padding-top: 16px; border-top: 1px solid #e4e4df"><div><div style="font-weight: 500">Delete account</div><div class="small muted">Removes your account and all learning progress. This can’t be undone.</div></div><button class="btn" style="border-color: #b42318; color: #b42318">Delete account</button></div></section>
+</div>
+</div>
+<div style="flex-grow: 1"></div>
+<footer class="ftr" style="height: 96px"><div style="display: flex; flex-direction: column; gap: 2px"><span style="font-weight: 500; color: #1f1f1c">LearnInsurance · US insurance, in plain English</span><span>Educational only. Not insurance, legal or financial advice. Your policy wording decides what is covered.</span></div><div style="display: flex; gap: 20px"><a href="Glossary.dc.html">Terms</a><a href="Types.dc.html">Types</a><a href="Paths.dc.html">Paths</a><a href="Pipeline.dc.html">How terms are made</a><a href="NotFound.dc.html">Privacy</a><a href="NotFound.dc.html">Terms of use</a><a href="Home.dc.html">Cookie settings</a></div></footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1040}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

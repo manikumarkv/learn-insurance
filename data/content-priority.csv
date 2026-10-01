@@ -1,0 +1,1017 @@
+Order,ID,Term,Priority,TMHCC Types,Reason
+1,general-liability-insurance,General Liability Insurance,P1,Contractors general liability; Special event liability,Core term for 2 TMHCC types
+2,commercial-general-liability,Commercial General Liability,P1,Contractors general liability,Core term for Contractors general liability
+3,pre-existing-condition,Pre-Existing Condition,P1,Travel medical,Core term for Travel medical
+4,umbrella-insurance,Umbrella Insurance,P1,Contractors excess liability,Core term for Contractors excess liability
+5,errors-and-omissions-insurance,Errors and Omissions Insurance,P1,Contractors professional liability; Technology E&O; Medical billing E&O; Financial institutions E&O / D&O; Architects & engineers PL; Insurance agents E&O; Accountants E&O; Miscellaneous PL; Real estate E&O,Core term for 9 TMHCC types
+6,professional-liability-insurance,Professional Liability Insurance,P1,Contractors professional liability; Medical billing E&O; Allied healthcare PL; Architects & engineers PL; Accountants E&O; Miscellaneous PL; Real estate E&O,Core term for 7 TMHCC types
+7,cyber-insurance,Cyber Insurance,P1,Business cyber; Technology E&O; Personal cyber,Core term for 3 TMHCC types
+8,additional-insured,Additional Insured,P1,Contractors general liability,Core term for Contractors general liability
+9,third-party-administrator,Third-Party Administrator,P1,Medical stop-loss,Core term for Medical stop-loss
+10,disability-insurance,Disability Insurance,P1,High-limit disability; Key person disability; Buy-sell disability; Athlete disability,Core term for 4 TMHCC types
+11,travel-insurance,Travel Insurance,P1,Travel medical; Annual multi-trip travel; Trip cancellation / interruption; International student medical,Core term for 4 TMHCC types
+12,accident-insurance,Accident Insurance,P1,AD&D,Core term for AD&D
+13,supplemental-insurance,Supplemental Insurance,P1,Group medical gap,Core term for Group medical gap
+14,trip-cancellation,Trip Cancellation Insurance,P1,Trip cancellation / interruption,Core term for Trip cancellation / interruption
+15,self-funded-plan,Self-Funded Plan,P1,Medical stop-loss; Organ transplant carve-out; Cell & gene therapy carve-out; Multiemployer (Taft-Hartley) health plan,Core term for 4 TMHCC types
+16,employee-retirement-income-security-act,Employee Retirement Income Security Act,P1,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Fiduciary liability,Core term for 3 TMHCC types
+17,obligee,Obligee,P1,Game promotion bond; Surety (contract & commercial bonds); Oil & gas bonds,Core term for 3 TMHCC types
+18,principal,Principal,P1,Game promotion bond; Surety (contract & commercial bonds); Oil & gas bonds,Core term for 3 TMHCC types
+19,surety-bond,Surety Bond,P1,Game promotion bond; Surety (contract & commercial bonds); Oil & gas bonds,Core term for 3 TMHCC types
+20,wrongful-act,Wrongful Act,P1,Fiduciary liability; Directors & officers; Employment practices liability,Core term for 3 TMHCC types
+21,crime-insurance,Crime Insurance,P1,Financial institution bond; Commercial crime,Core term for 2 TMHCC types
+22,directors-and-officers-liability,Directors and Officers Liability,P1,Directors & officers; Financial institutions E&O / D&O,Core term for 2 TMHCC types
+23,employee-dishonesty,Employee Dishonesty,P1,Financial institution bond; Commercial crime,Core term for 2 TMHCC types
+24,high-deductible-health-plan,High-Deductible Health Plan,P1,Medicare MSA; Group medical gap,Core term for 2 TMHCC types
+25,social-engineering-fraud,Social Engineering Fraud,P1,Business cyber; Commercial crime,Core term for 2 TMHCC types
+26,accidental-death-and-dismemberment,Accidental Death and Dismemberment,P1,AD&D,Core term for AD&D
+27,agreed-value,Agreed Value,P1,Aviation hull & liability,Core term for Aviation hull & liability
+28,benefit-period,Benefit Period,P1,High-limit disability,Core term for High-limit disability
+29,breach-response,Breach Response Costs,P1,Business cyber,Core term for Business cyber
+30,builders-risk,Builders Risk,P1,Renewable energy,Core term for Renewable energy
+31,business-interruption-insurance,Business Interruption Insurance,P1,Restaurant recovery,Core term for Restaurant recovery
+32,captive-insurance-company,Captive Insurance Company,P1,Medical stop-loss captive,Core term for Medical stop-loss captive
+33,cargo-insurance,Cargo Insurance,P1,Marine cargo,Core term for Marine cargo
+34,crop-insurance,Crop Insurance,P1,Crop,Core term for Crop
+35,elimination-period,Elimination Period,P1,High-limit disability,Core term for High-limit disability
+36,employment-practices-liability,Employment Practices Liability,P1,Employment practices liability,Core term for Employment practices liability
+37,equipment-breakdown-insurance,Equipment Breakdown Insurance,P1,Renewable energy,Core term for Renewable energy
+38,excess-insurance,Excess Insurance,P1,Contractors excess liability,Core term for Contractors excess liability
+39,fully-insured-plan,Fully Insured Plan,P1,Medical stop-loss,Core term for Medical stop-loss
+40,hold-harmless-agreement,Hold Harmless Agreement,P1,Contractors general liability,Core term for Contractors general liability
+41,hospital-indemnity-insurance,Hospital Indemnity Insurance,P1,Group medical gap,Core term for Group medical gap
+42,insolvency,Insolvency,P1,Trade credit,Core term for Trade credit
+43,key-person-insurance,Key Person Insurance,P1,Key person disability,Core term for Key person disability
+44,liquor-liability,Liquor Liability,P1,Special event liability,Core term for Special event liability
+45,medical-malpractice-insurance,Medical Malpractice Insurance,P1,Allied healthcare PL,Core term for Allied healthcare PL
+46,medicare-advantage,Medicare Advantage,P1,Medicare MSA,Core term for Medicare MSA
+47,mortgage-insurance,Mortgage Insurance,P1,Mortgage (re)insurance,Core term for Mortgage (re)insurance
+48,network-security-liability,Network Security and Privacy Liability,P1,Business cyber,Core term for Business cyber
+49,payment-bond,Payment Bond,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+50,performance-bond,Performance Bond,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+51,premium-audit,Premium Audit,P1,Contractors general liability,Core term for Contractors general liability
+52,product-liability-insurance,Product Liability Insurance,P1,Product contamination,Core term for Product contamination
+53,products-completed-operations,Products-Completed Operations,P1,Contractors general liability,Core term for Contractors general liability
+54,ransomware,Ransomware,P1,Business cyber,Core term for Business cyber
+55,retention,Retention,P1,Transactional R&W,Core term for Transactional R&W
+56,self-insurance,Self-Insurance,P1,Medical stop-loss,Core term for Medical stop-loss
+57,surety,Surety,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+58,title-insurance,Title Insurance,P1,Title (re)insurance,Core term for Title (re)insurance
+59,underlying-insurance,Underlying Insurance,P1,Contractors excess liability,Core term for Contractors excess liability
+60,war-exclusion,War Exclusion,P1,"Political risk (CEND, contract frustration, political violence)","Core term for Political risk (CEND, contract frustration, political violence)"
+61,stop-loss-insurance,Stop-Loss Insurance,P1,Medical stop-loss; Medical stop-loss captive; Organ transplant carve-out; Cell & gene therapy carve-out; Multiemployer (Taft-Hartley) health plan,Core term for 5 TMHCC types
+62,attachment-point,Attachment Point,P1,Medical stop-loss; Contractors excess liability,Core term for 2 TMHCC types
+63,follow-form,Follow Form,P1,Contractors excess liability,Core term for Contractors excess liability
+64,fronting,Fronting,P1,Medical stop-loss captive,Core term for Medical stop-loss captive
+65,layer,Layer,P1,Contractors excess liability,Core term for Contractors excess liability
+66,pollution-exclusion,Pollution Exclusion,P1,Energy (oil & gas),Core term for Energy (oil & gas)
+67,tower,Tower,P1,Contractors excess liability,Core term for Contractors excess liability
+68,waiver-of-subrogation,Waiver of Subrogation,P1,Contractors general liability,Core term for Contractors general liability
+69,risk-pooling,Risk Pooling,P1,Medical stop-loss captive; Public entity package,Core term for 2 TMHCC types
+70,identity-theft-insurance,Identity Theft Insurance,P1,Personal cyber,Core term for Personal cyber
+71,wedding-insurance,Wedding Insurance,P1,Wedding / private event cancellation,Core term for Wedding / private event cancellation
+72,fidelity-bond,Fidelity Bond,P1,Fiduciary liability; Financial institution bond; Commercial crime,Core term for 3 TMHCC types
+73,event-cancellation-insurance,Event Cancellation Insurance,P1,Event cancellation; Wedding / private event cancellation,Core term for 2 TMHCC types
+74,hull-insurance,Hull Insurance,P1,Aviation hull & liability; Marine hull,Core term for 2 TMHCC types
+75,license-and-permit-bond,License and Permit Bond,P1,Game promotion bond; Surety (contract & commercial bonds),Core term for 2 TMHCC types
+76,ocean-marine-insurance,Ocean Marine Insurance,P1,Marine cargo; Marine hull,Core term for 2 TMHCC types
+77,product-recall-insurance,Product Recall Insurance,P1,Product contamination; Restaurant recovery,Core term for 2 TMHCC types
+78,agent-errors-and-omissions,Agent Errors and Omissions,P1,Insurance agents E&O,Core term for Insurance agents E&O
+79,aviation-insurance,Aviation Insurance,P1,Aviation hull & liability,Core term for Aviation hull & liability
+80,bid-bond,Bid Bond,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+81,cancel-for-any-reason,Cancel for Any Reason,P1,Trip cancellation / interruption,Core term for Trip cancellation / interruption
+82,crop-hail,Crop-Hail Insurance,P1,Crop,Core term for Crop
+83,emergency-medical-evacuation,Emergency Medical Evacuation,P1,Travel medical,Core term for Travel medical
+84,force-majeure,Force Majeure,P1,Event cancellation,Core term for Event cancellation
+85,index-insurance,Index Insurance,P1,Event weather,Core term for Event weather
+86,management-liability,Management Liability,P1,Directors & officers,Core term for Directors & officers
+87,media-liability,Media Liability,P1,Business cyber,Core term for Business cyber
+88,multi-peril-crop-insurance,Multi-Peril Crop Insurance,P1,Crop,Core term for Crop
+89,office-of-foreign-assets-control,Office of Foreign Assets Control,P1,"Political risk (CEND, contract frustration, political violence)","Core term for Political risk (CEND, contract frustration, political violence)"
+90,parametric-trigger,Parametric Trigger,P1,Event weather,Core term for Event weather
+91,risk-management-agency,Risk Management Agency,P1,Crop,Core term for Crop
+92,sanctions-clause,Sanctions Clause,P1,"Political risk (CEND, contract frustration, political violence)","Core term for Political risk (CEND, contract frustration, political violence)"
+93,sudden-and-accidental,Sudden and Accidental,P1,Energy (oil & gas),Core term for Energy (oil & gas)
+94,technology-errors-and-omissions,Technology Errors and Omissions,P1,Technology E&O,Core term for Technology E&O
+95,general-average,General Average,P1,Marine cargo; Marine hull,Core term for 2 TMHCC types
+96,kidnap-and-ransom,Kidnap and Ransom,P1,Kidnap & ransom; Maritime piracy,Core term for 2 TMHCC types
+97,particular-average,Particular Average,P1,Marine cargo; Marine hull,Core term for 2 TMHCC types
+98,war-risk-insurance,War Risk Insurance,P1,"Political risk (CEND, contract frustration, political violence); Maritime piracy",Core term for 2 TMHCC types
+99,abandonment,Abandonment,P1,Marine hull,Core term for Marine hull
+100,actual-production-history,Actual Production History,P1,Crop,Core term for Crop
+101,administrative-services-only,Administrative Services Only,P1,Medical stop-loss,Core term for Medical stop-loss
+102,aggregate-excess-of-loss,Aggregate Excess of Loss,P1,Medical stop-loss,Core term for Medical stop-loss
+103,aggregate-stop-loss,Aggregate Stop-Loss,P1,Medical stop-loss,Core term for Medical stop-loss
+104,aircraft-liability,Aircraft Liability,P1,Aviation hull & liability,Core term for Aviation hull & liability
+105,any-occupation,Any Occupation,P1,High-limit disability,Core term for High-limit disability
+106,blanket-waiver-of-subrogation,Blanket Waiver of Subrogation,P1,Contractors general liability,Core term for Contractors general liability
+107,buy-sell-agreement,Buy-Sell Agreement,P1,Buy-sell disability,Core term for Buy-sell disability
+108,charterers-liability,Charterer's Liability,P1,Marine hull,Core term for Marine hull
+109,constructive-total-loss,Constructive Total Loss,P1,Marine hull,Core term for Marine hull
+110,contractual-liability,Contractual Liability,P1,Contractors general liability,Core term for Contractors general liability
+111,dependent-business-interruption,Dependent Business Interruption (Cyber),P1,Business cyber,Core term for Business cyber
+112,dram-shop-law,Dram Shop Law,P1,Special event liability,Core term for Special event liability
+113,drop-down,Drop Down,P1,Contractors excess liability,Core term for Contractors excess liability
+114,environmental-impairment-liability,Environmental Impairment Liability,P1,Energy (oil & gas),Core term for Energy (oil & gas)
+115,erisa-preemption,ERISA Preemption,P1,Medical stop-loss,Core term for Medical stop-loss
+116,federal-crop-insurance-corporation,Federal Crop Insurance Corporation,P1,Crop,Core term for Crop
+117,fiduciary-liability,Fiduciary Liability,P1,Fiduciary liability,Core term for Fiduciary liability
+118,indemnity-agreement,General Indemnity Agreement,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+119,incoterms,Incoterms,P1,Marine cargo,Core term for Marine cargo
+120,inherent-vice,Inherent Vice,P1,Marine cargo,Core term for Marine cargo
+121,institute-cargo-clauses,Institute Cargo Clauses,P1,Marine cargo,Core term for Marine cargo
+122,insured-vs-insured-exclusion,Insured vs. Insured Exclusion,P1,Directors & officers,Core term for Directors & officers
+123,level-funded-plan,Level-Funded Plan,P1,Medical stop-loss,Core term for Medical stop-loss
+124,miller-act,Miller Act,P1,Surety (contract & commercial bonds),Core term for Surety (contract & commercial bonds)
+125,own-occupation,Own Occupation,P1,High-limit disability,Core term for High-limit disability
+126,pasture-rangeland-forage,"Pasture, Rangeland, Forage",P1,Crop,Core term for Crop
+127,prevented-planting,Prevented Planting,P1,Crop,Core term for Crop
+128,products-completed-operations-aggregate,Products-Completed Operations Aggregate,P1,Contractors general liability,Core term for Contractors general liability
+129,protection-and-indemnity,Protection and Indemnity,P1,Marine hull,Core term for Marine hull
+130,revenue-protection,Revenue Protection,P1,Crop,Core term for Crop
+131,securities-claim,Securities Claim,P1,Directors & officers,Core term for Directors & officers
+132,side-a,Side A Coverage,P1,Directors & officers,Core term for Directors & officers
+133,side-b,Side B Coverage,P1,Directors & officers,Core term for Directors & officers
+134,side-c,Side C Coverage,P1,Directors & officers,Core term for Directors & officers
+135,specific-stop-loss,Specific Stop-Loss,P1,Medical stop-loss,Core term for Medical stop-loss
+136,standard-reinsurance-agreement,Standard Reinsurance Agreement,P1,Crop,Core term for Crop
+137,third-party-employment-practices-liability-insurance,Third-Party Employment Practices Liability Insurance,P1,Employment practices liability,Core term for Employment practices liability
+138,trade-credit-insurance,Trade Credit Insurance,P1,Trade credit,Core term for Trade credit
+139,warehouse-to-warehouse,Warehouse to Warehouse Clause,P1,Marine cargo,Core term for Marine cargo
+140,yield-protection,Yield Protection,P1,Crop,Core term for Crop
+141,york-antwerp-rules,York-Antwerp Rules,P1,Marine hull,Core term for Marine hull
+142,accident,Accident,P2,,High-usage general term
+143,actual-cash-value,Actual Cash Value,P2,,High-usage general term
+144,affordable-care-act,Affordable Care Act,P2,,High-usage general term
+145,insurance-agent,Agent,P2,,High-usage general term
+146,annuity,Annuity,P2,,High-usage general term
+147,appeal,Appeal,P2,,High-usage general term
+148,application,Application,P2,,High-usage general term
+149,beneficiary,Beneficiary,P2,,High-usage general term
+150,binding,Binding,P2,,High-usage general term
+151,bodily-injury,Bodily Injury,P2,,High-usage general term
+152,bodily-injury-liability,Bodily Injury Liability,P2,,High-usage general term
+153,broker,Broker,P2,,High-usage general term
+154,business-owners-policy,Business Owners Policy,P2,,High-usage general term
+155,cancellation,Cancellation,P2,,High-usage general term
+156,cash-value,Cash Value,P2,,High-usage general term
+157,certificate-of-insurance,Certificate of Insurance,P2,Contractors general liability; Special event liability,Supporting term used across TMHCC specialty lines; High usage
+158,claim,Claim,P2,,High-usage general term
+159,claim-denial,Claim Denial,P2,,High-usage general term
+160,claim-number,Claim Number,P2,,High-usage general term
+161,claim-settlement,Claim Settlement,P2,,High-usage general term
+162,claimant,Claimant,P2,,High-usage general term
+163,claims-adjuster,Claims Adjuster,P2,,High-usage general term
+164,coinsurance-health,Coinsurance (Health),P2,Group medical gap,Supporting term used across TMHCC specialty lines; High usage
+165,collision-coverage,Collision Coverage,P2,,High-usage general term
+166,combined-ratio,Combined Ratio,P2,,High-usage general term
+167,commercial-auto-insurance,Commercial Auto Insurance,P2,,High-usage general term
+168,commercial-lines,Commercial Lines,P2,,High-usage general term
+169,commercial-property-insurance,Commercial Property Insurance,P2,,High-usage general term
+170,commission,Commission,P2,,High-usage general term
+171,comprehensive-coverage,Comprehensive Coverage,P2,,High-usage general term
+172,conditions,Conditions,P2,,High-usage general term
+173,copayment,Copayment,P2,,High-usage general term
+174,coverage,Coverage,P2,,High-usage general term
+175,death-benefit,Death Benefit,P2,,High-usage general term
+176,declarations-page,Declarations Page,P2,,High-usage general term
+177,deductible,Deductible,P2,Group medical gap,Supporting term used across TMHCC specialty lines; High usage
+178,definitions-section,Definitions,P2,,High-usage general term
+179,depreciation,Depreciation,P2,,High-usage general term
+180,dwelling-coverage,Dwelling Coverage,P2,,High-usage general term
+181,effective-date,Effective Date,P2,,High-usage general term
+182,estimate,Estimate,P2,,High-usage general term
+183,exclusion,Exclusion,P2,,High-usage general term
+184,expiration-date,Expiration Date,P2,,High-usage general term
+185,explanation-of-benefits,Explanation of Benefits,P2,,High-usage general term
+186,first-notice-of-loss,First Notice of Loss,P2,,High-usage general term
+187,flood-insurance,Flood Insurance,P2,,High-usage general term
+188,formulary,Formulary,P2,,High-usage general term
+189,free-look-period,Free Look Period,P2,,High-usage general term
+190,grace-period,Grace Period,P2,,High-usage general term
+191,health-insurance,Health Insurance,P2,,High-usage general term
+192,health-maintenance-organization,Health Maintenance Organization,P2,,High-usage general term
+193,ho-4,HO-4,P2,,High-usage general term
+194,homeowners-insurance,Homeowners Insurance,P2,,High-usage general term
+195,in-force,In Force,P2,,High-usage general term
+196,in-network,In-Network,P2,,High-usage general term
+197,installment-plan,Installment Plan,P2,,High-usage general term
+198,insurance,Insurance,P2,,High-usage general term
+199,insurance-id-card,Insurance ID Card,P2,,High-usage general term
+200,insurance-policy,Insurance Policy,P2,,High-usage general term
+201,insured,Insured,P2,,High-usage general term
+202,insurer,Insurer,P2,,High-usage general term
+203,issuance,Issuance,P2,,High-usage general term
+204,lapse,Lapse,P2,,High-usage general term
+205,liability,Liability,P2,,High-usage general term
+206,life-insurance,Life Insurance,P2,,High-usage general term
+207,limit-of-liability,Limit of Liability,P2,,High-usage general term
+208,line-of-business,Line of Business,P2,,High-usage general term
+209,loss,Loss,P2,,High-usage general term
+210,loss-history,Loss History,P2,,High-usage general term
+211,medicaid,Medicaid,P2,,High-usage general term
+212,medicare,Medicare,P2,Medicare MSA,Supporting term used across TMHCC specialty lines; High usage
+213,named-insured,Named Insured,P2,,High-usage general term
+214,new-business,New Business,P2,,High-usage general term
+215,non-renewal,Non-Renewal,P2,,High-usage general term
+216,notice-of-loss,Notice of Loss,P2,,High-usage general term
+217,open-enrollment-period,Open Enrollment Period,P2,,High-usage general term
+218,out-of-network,Out-of-Network,P2,,High-usage general term
+219,out-of-pocket-maximum,Out-of-Pocket Maximum,P2,Group medical gap,Supporting term used across TMHCC specialty lines; High usage
+220,peril,Peril,P2,,High-usage general term
+221,personal-auto-policy,Personal Auto Policy,P2,,High-usage general term
+222,personal-lines,Personal Lines,P2,,High-usage general term
+223,personal-property-coverage,Personal Property Coverage,P2,,High-usage general term
+224,policy-number,Policy Number,P2,,High-usage general term
+225,policy-period,Policy Period,P2,,High-usage general term
+226,policy-status,Policy Status,P2,,High-usage general term
+227,policyholder,Policyholder,P2,,High-usage general term
+228,preferred-provider-organization,Preferred Provider Organization,P2,,High-usage general term
+229,premium,Premium,P2,,High-usage general term
+230,property-and-casualty,Property and Casualty,P2,,High-usage general term
+231,property-damage,Property Damage,P2,,High-usage general term
+232,property-damage-liability,Property Damage Liability,P2,,High-usage general term
+233,provider-network,Provider Network,P2,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Organ transplant carve-out; Cell & gene therapy carve-out,Supporting term used across TMHCC specialty lines; High usage
+234,quote,Quote,P2,,High-usage general term
+235,reinsurance,Reinsurance,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines; High usage
+236,renewal,Renewal,P2,,High-usage general term
+237,replacement-cost,Replacement Cost,P2,,High-usage general term
+238,return-premium,Return Premium,P2,,High-usage general term
+239,risk,Risk,P2,,High-usage general term
+240,schedule,Schedule,P2,,High-usage general term
+241,state-department-of-insurance,State Department of Insurance,P2,,High-usage general term
+242,term-life-insurance,Term Life Insurance,P2,,High-usage general term
+243,third-party,Third Party,P2,,High-usage general term
+244,total-loss,Total Loss,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines; High usage
+245,underwriter,Underwriter,P2,,High-usage general term
+246,underwriting,Underwriting,P2,,High-usage general term
+247,uninsured-motorist-coverage,Uninsured Motorist Coverage,P2,,High-usage general term
+248,waiting-period,Waiting Period,P2,"Trade credit; Political risk (CEND, contract frustration, political violence); High-limit disability",Supporting term used across TMHCC specialty lines; High usage
+249,whole-life-insurance,Whole Life Insurance,P2,,High-usage general term
+250,workers-compensation-insurance,Workers' Compensation Insurance,P2,Public entity package,Supporting term used across TMHCC specialty lines; High usage
+251,aggregate-limit,Aggregate Limit,P2,Contractors general liability; Contractors excess liability; Special event liability; Product contamination,Supporting term used across TMHCC specialty lines; High usage
+252,catastrophe,Catastrophe,P2,Energy (oil & gas); Renewable energy; Marine hull,Supporting term used across TMHCC specialty lines; High usage
+253,consolidated-omnibus-budget-reconciliation-act,Consolidated Omnibus Budget Reconciliation Act,P2,,High-usage general term
+254,damages,Damages,P2,,High-usage general term
+255,earned-premium,Earned Premium,P2,,High-usage general term
+256,exposure,Exposure,P2,,High-usage general term
+257,form,Form,P2,,High-usage general term
+258,health-insurance-portability-and-accountability-act,Health Insurance Portability and Accountability Act,P2,,High-usage general term
+259,ho-3,HO-3,P2,,High-usage general term
+260,negligence,Negligence,P2,,High-usage general term
+261,occurrence,Occurrence,P2,,High-usage general term
+262,per-occurrence-limit,Per-Occurrence Limit,P2,Contractors general liability; Contractors excess liability; Special event liability; Product contamination,Supporting term used across TMHCC specialty lines; High usage
+263,policy-administration-system,Policy Administration System,P2,,High-usage general term
+264,prior-authorization,Prior Authorization,P2,,High-usage general term
+265,producer,Producer,P2,,High-usage general term
+266,rate,Rate,P2,,High-usage general term
+267,rating-factor,Rating Factor,P2,,High-usage general term
+268,reinstatement,Reinstatement,P2,,High-usage general term
+269,reserves,Reserves,P2,,High-usage general term
+270,sublimit,Sublimit,P2,Kidnap & ransom; Business cyber; Directors & officers; Event cancellation; Commercial crime,Supporting term used across TMHCC specialty lines; High usage
+271,submission,Submission,P2,,Supporting term used across TMHCC specialty lines; High usage
+272,written-premium,Written Premium,P2,,High-usage general term
+273,employer-sponsored-insurance,Employer-Sponsored Insurance,P2,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Organ transplant carve-out; Cell & gene therapy carve-out,Supporting term used across TMHCC specialty lines
+274,first-party-coverage,First-Party Coverage,P2,,Supporting term used across TMHCC specialty lines
+275,insurable-interest,Insurable Interest,P2,Commercial crime; Financial institution bond,Supporting term used across TMHCC specialty lines
+276,partial-loss,Partial Loss,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines
+277,policy-territory,Policy Territory,P2,,Supporting term used across TMHCC specialty lines
+278,reinsurer,Reinsurer,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+279,short-term-disability-insurance,Short-Term Disability Insurance,P2,High-limit disability; Key person disability; Athlete disability; AD&D,Supporting term used across TMHCC specialty lines
+280,third-party-coverage,Third-Party Coverage,P2,,Supporting term used across TMHCC specialty lines
+281,utmost-good-faith,Utmost Good Faith,P2,,Supporting term used across TMHCC specialty lines
+282,accidental-death-benefit-rider,Accidental Death Benefit Rider,P2,High-limit disability; Key person disability; Athlete disability; AD&D,Supporting term used across TMHCC specialty lines
+283,admitted-insurer,Admitted Insurer,P2,,Supporting term used across TMHCC specialty lines
+284,binding-authority,Binding Authority,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+285,bordereau,Bordereau,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+286,ceded-premium,Ceded Premium,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+287,ceding-company,Ceding Company,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+288,class-code,Class Code,P2,Contractors general liability; Special event liability,Supporting term used across TMHCC specialty lines
+289,current-procedural-terminology-code,Current Procedural Terminology Code,P2,Medical billing E&O,Supporting term used across TMHCC specialty lines
+290,defense-costs,Defense Costs,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+291,deposit-premium,Deposit Premium,P2,,Supporting term used across TMHCC specialty lines
+292,excess-of-loss,Excess of Loss,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive; Trade credit,Supporting term used across TMHCC specialty lines
+293,extra-expense,Extra Expense,P2,Energy (oil & gas); Renewable energy; Restaurant recovery; Business cyber,Supporting term used across TMHCC specialty lines
+294,facultative-reinsurance,Facultative Reinsurance,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+295,hard-market,Hard Market,P2,,Supporting term used across TMHCC specialty lines
+296,health-savings-account,Health Savings Account,P2,Medicare MSA,Supporting term used across TMHCC specialty lines
+297,indication,Indication,P2,,Supporting term used across TMHCC specialty lines
+298,inland-marine-insurance,Inland Marine Insurance,P2,Marine cargo,Supporting term used across TMHCC specialty lines
+299,insuring-agreement,Insuring Agreement,P2,,Supporting term used across TMHCC specialty lines
+300,international-classification-of-diseases-10th-revision,"International Classification of Diseases, 10th Revision",P2,Medical billing E&O,Supporting term used across TMHCC specialty lines
+301,lloyds,Lloyd's,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+302,long-term-disability-insurance,Long-Term Disability Insurance,P2,High-limit disability; Key person disability; Athlete disability; AD&D,Supporting term used across TMHCC specialty lines
+303,loss-run,Loss Run,P2,,Supporting term used across TMHCC specialty lines
+304,managing-general-agent,Managing General Agent,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+305,material-fact,Material Fact,P2,,Supporting term used across TMHCC specialty lines
+306,minimum-premium,Minimum Premium,P2,"Event cancellation; Prize indemnity; Political risk (CEND, contract frustration, political violence); Kidnap & ransom",Supporting term used across TMHCC specialty lines
+307,non-admitted-insurer,Non-Admitted Insurer,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+308,occurrence-policy,Occurrence Policy,P2,Contractors general liability; Contractors excess liability; Special event liability; Product contamination,Supporting term used across TMHCC specialty lines
+309,protected-health-information,Protected Health Information,P2,Business cyber; Personal cyber,Supporting term used across TMHCC specialty lines
+310,quota-share,Quota Share,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+311,recovery,Recovery,P2,,Supporting term used across TMHCC specialty lines
+312,risk-appetite,Risk Appetite,P2,,Supporting term used across TMHCC specialty lines
+313,salvage,Salvage,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines
+314,soft-market,Soft Market,P2,,Supporting term used across TMHCC specialty lines
+315,specialty-insurance,Specialty Insurance,P2,Contractors general liability; Contractors excess liability,Supporting term used across TMHCC specialty lines
+316,subrogation,Subrogation,P2,,Supporting term used across TMHCC specialty lines
+317,summary-plan-description,Summary Plan Description,P2,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Organ transplant carve-out; Cell & gene therapy carve-out,Supporting term used across TMHCC specialty lines
+318,surplus-lines,Surplus Lines,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+319,surplus-lines-broker,Surplus Lines Broker,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+320,treaty-reinsurance,Treaty Reinsurance,P2,Mortgage (re)insurance; Title (re)insurance; Crop; Medical stop-loss captive,Supporting term used across TMHCC specialty lines
+321,underwriting-authority,Underwriting Authority,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+322,underwriting-guidelines,Underwriting Guidelines,P2,,Supporting term used across TMHCC specialty lines
+323,wholesale-broker,Wholesale Broker,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+324,capacity,Capacity,P2,,Supporting term used across TMHCC specialty lines
+325,claims-made-policy,Claims-Made Policy,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+326,clearance,Clearance,P2,,Supporting term used across TMHCC specialty lines
+327,contingent-business-interruption,Contingent Business Interruption,P2,Energy (oil & gas); Renewable energy; Restaurant recovery; Business cyber,Supporting term used across TMHCC specialty lines
+328,defense-within-limits,Defense Within Limits,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+329,duty-to-defend,Duty to Defend,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+330,extended-reporting-period,Extended Reporting Period,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+331,fully-earned-premium,Fully Earned Premium,P2,"Event cancellation; Prize indemnity; Political risk (CEND, contract frustration, political violence); Kidnap & ransom",Supporting term used across TMHCC specialty lines
+332,other-insurance-clause,Other Insurance Clause,P2,,Supporting term used across TMHCC specialty lines
+333,period-of-restoration,Period of Restoration,P2,Energy (oil & gas); Renewable energy; Restaurant recovery; Business cyber,Supporting term used across TMHCC specialty lines
+334,prior-acts-coverage,Prior Acts Coverage,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+335,punitive-damages,Punitive Damages,P2,Directors & officers; Employment practices liability; Business cyber; Transactional R&W,Supporting term used across TMHCC specialty lines
+336,reservation-of-rights,Reservation of Rights,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+337,retroactive-date,Retroactive Date,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+338,self-insured-retention,Self-Insured Retention,P2,Medical stop-loss; Transactional R&W; Directors & officers; Business cyber; Public entity package,Supporting term used across TMHCC specialty lines
+339,tail-coverage,Tail Coverage,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+340,terrorism-risk-insurance-act,Terrorism Risk Insurance Act,P2,"Event cancellation; Political risk (CEND, contract frustration, political violence); Trade credit; Kidnap & ransom; Marine cargo; Marine hull",Supporting term used across TMHCC specialty lines
+341,warranty,Warranty,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines
+342,yacht-insurance,Yacht Insurance,P2,Marine hull,Supporting term used across TMHCC specialty lines
+343,alternative-risk-transfer,Alternative Risk Transfer,P2,Medical stop-loss captive; Public entity package,Supporting term used across TMHCC specialty lines
+344,auditable-policy,Auditable Policy,P2,Contractors general liability; Special event liability,Supporting term used across TMHCC specialty lines
+345,bail-bond,Bail Bond,P2,Surety (contract & commercial bonds),Supporting term used across TMHCC specialty lines
+346,cooperation-clause,Cooperation Clause,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+347,duty-of-disclosure,Duty of Disclosure,P2,,Supporting term used across TMHCC specialty lines
+348,managing-general-underwriter,Managing General Underwriter,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+349,motor-truck-cargo,Motor Truck Cargo,P2,Marine cargo,Supporting term used across TMHCC specialty lines
+350,nuclear-exclusion,Nuclear Exclusion,P2,"Event cancellation; Political risk (CEND, contract frustration, political violence); Trade credit; Kidnap & ransom; Marine cargo; Marine hull",Supporting term used across TMHCC specialty lines
+351,per-member-per-month,Per Member Per Month,P2,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Organ transplant carve-out; Cell & gene therapy carve-out,Supporting term used across TMHCC specialty lines
+352,risk-retention,Risk Retention,P2,Medical stop-loss captive; Public entity package,Supporting term used across TMHCC specialty lines
+353,valued-policy,Valued Policy,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines
+354,aggregation,Accumulation,P2,Trade credit,Supporting term used across TMHCC specialty lines
+355,average,Average,P2,Marine hull; Marine cargo; Aviation hull & liability; Athlete disability,Supporting term used across TMHCC specialty lines
+356,cms-1500,CMS-1500,P2,Medical billing E&O,Supporting term used across TMHCC specialty lines
+357,condition-precedent,Condition Precedent,P2,,Supporting term used across TMHCC specialty lines
+358,coverholder,Coverholder,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+359,delegated-authority-data,Delegated Authority Data,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+360,duty-to-indemnify,Duty to Indemnify,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+361,exposure-management,Exposure Management,P2,,Supporting term used across TMHCC specialty lines
+362,data-security-model-law,Insurance Data Security Model Law,P2,Business cyber; Personal cyber,Supporting term used across TMHCC specialty lines
+363,jones-act,Jones Act,P2,Marine hull; Energy (oil & gas),Supporting term used across TMHCC specialty lines
+364,long-tail,Long-Tail Line,P2,,Supporting term used across TMHCC specialty lines
+365,maximum-foreseeable-loss,Maximum Foreseeable Loss,P2,Energy (oil & gas); Renewable energy; Marine hull,Supporting term used across TMHCC specialty lines
+366,nose-coverage,Nose Coverage,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+367,pension-benefit-guaranty-corporation,Pension Benefit Guaranty Corporation,P2,Fiduciary liability; Medical stop-loss,Supporting term used across TMHCC specialty lines
+368,probable-maximum-loss,Probable Maximum Loss,P2,Energy (oil & gas); Renewable energy; Marine hull,Supporting term used across TMHCC specialty lines
+369,program-administrator,Program Administrator,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+370,program-business,Program Business,P2,Event cancellation; Medical stop-loss; Crop; Travel medical; Public entity package; Contractors general liability,Supporting term used across TMHCC specialty lines
+371,purchasing-group,Purchasing Group,P2,Medical stop-loss captive; Public entity package,Supporting term used across TMHCC specialty lines
+372,residual-disability,Residual Disability,P2,High-limit disability; Key person disability; Athlete disability; AD&D,Supporting term used across TMHCC specialty lines
+373,risk-retention-group,Risk Retention Group,P2,Medical stop-loss captive; Public entity package,Supporting term used across TMHCC specialty lines
+374,severability-of-interests,Severability of Interests,P2,Directors & officers; Employment practices liability; Fiduciary liability; Technology E&O; Business cyber; Contractors professional liability; Miscellaneous PL; Architects & engineers PL; Accountants E&O; Real estate E&O; Insurance agents E&O; Allied healthcare PL; Medical billing E&O; Transactional R&W,Supporting term used across TMHCC specialty lines
+375,slip,Slip,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+376,syndicate,Syndicate,P2,"Event cancellation; Kidnap & ransom; Political risk (CEND, contract frustration, political violence); Product contamination; Marine cargo; Aviation hull & liability; Energy (oil & gas)",Supporting term used across TMHCC specialty lines
+377,terrorism-exclusion,Terrorism Exclusion,P2,"Event cancellation; Political risk (CEND, contract frustration, political violence); Trade credit; Kidnap & ransom; Marine cargo; Marine hull",Supporting term used across TMHCC specialty lines
+378,united-states-longshore-and-harbor-workers-compensation,United States Longshore and Harbor Workers' Compensation,P2,Marine hull; Energy (oil & gas),Supporting term used across TMHCC specialty lines
+379,usual-customary-reasonable,"Usual, Customary and Reasonable",P2,Medical stop-loss; Multiemployer (Taft-Hartley) health plan; Organ transplant carve-out; Cell & gene therapy carve-out,Supporting term used across TMHCC specialty lines
+380,act-of-god,Act of God,P3,,Not specific to TMHCC lines
+381,actuary,Actuary,P3,,Not specific to TMHCC lines
+382,additional-living-expense,Additional Living Expense,P3,,Not specific to TMHCC lines
+383,additional-premium,Additional Premium,P3,,Not specific to TMHCC lines
+384,aggregator,Aggregator,P3,,Not specific to TMHCC lines
+385,annual-maximum,Annual Maximum,P3,,Not specific to TMHCC lines
+386,annuitant,Annuitant,P3,,Not specific to TMHCC lines
+387,book-of-business,Book of Business,P3,,Not specific to TMHCC lines
+388,captive-agent,Captive Agent,P3,,Not specific to TMHCC lines
+389,casualty-insurance,Casualty Insurance,P3,,Not specific to TMHCC lines
+390,claim-investigation,Claim Investigation,P3,,Not specific to TMHCC lines
+391,contingent-beneficiary,Contingent Beneficiary,P3,,Not specific to TMHCC lines
+392,core-systems,Core Systems,P3,,Not specific to TMHCC lines
+393,cost-sharing,Cost Sharing,P3,,Not specific to TMHCC lines
+394,customer-portal,Customer Portal,P3,,Not specific to TMHCC lines
+395,declination,Declination,P3,,Not specific to TMHCC lines
+396,dental-insurance,Dental Insurance,P3,,Not specific to TMHCC lines
+397,direct-writer,Direct Writer,P3,,Not specific to TMHCC lines
+398,duties-after-loss,Duties After Loss,P3,,Not specific to TMHCC lines
+399,earth-movement-exclusion,Earth Movement Exclusion,P3,,Not specific to TMHCC lines
+400,endorsement,Endorsement,P3,,Not specific to TMHCC lines
+401,face-amount,Face Amount,P3,,Not specific to TMHCC lines
+402,fair-market-value,Fair Market Value,P3,,Not specific to TMHCC lines
+403,federal-emergency-management-agency,Federal Emergency Management Agency,P3,,Not specific to TMHCC lines
+404,final-expense-insurance,Final Expense Insurance,P3,,Not specific to TMHCC lines
+405,flood-exclusion,Flood Exclusion,P3,,Not specific to TMHCC lines
+406,gap-insurance,Gap Insurance,P3,,Not specific to TMHCC lines
+407,garaging-address,Garaging Address,P3,,Not specific to TMHCC lines
+408,glass-coverage,Glass Coverage,P3,,Not specific to TMHCC lines
+409,good-driver-discount,Good Driver Discount,P3,,Not specific to TMHCC lines
+410,group-insurance,Group Insurance,P3,,Not specific to TMHCC lines
+411,group-life-insurance,Group Life Insurance,P3,,Not specific to TMHCC lines
+412,hazard,Hazard,P3,,Not specific to TMHCC lines
+413,health-insurance-marketplace,Health Insurance Marketplace,P3,,Not specific to TMHCC lines
+414,indemnity,Indemnity,P3,,Not specific to TMHCC lines
+415,independent-agent,Independent Agent,P3,,Not specific to TMHCC lines
+416,inspection,Inspection,P3,,Not specific to TMHCC lines
+417,insurance-commissioner,Insurance Commissioner,P3,,Not specific to TMHCC lines
+418,insurance-fraud,Insurance Fraud,P3,,Not specific to TMHCC lines
+419,insurtech,Insurtech,P3,,Not specific to TMHCC lines
+420,issue-age,Issue Age,P3,,Not specific to TMHCC lines
+421,landlord-insurance,Landlord Insurance,P3,,Not specific to TMHCC lines
+422,level-term,Level Term,P3,,Not specific to TMHCC lines
+423,lienholder,Lienholder,P3,,Not specific to TMHCC lines
+424,litigation,Litigation,P3,,Not specific to TMHCC lines
+425,loss-of-use,Loss of Use,P3,,Not specific to TMHCC lines
+426,loss-ratio,Loss Ratio,P3,,Not specific to TMHCC lines
+427,medical-payments-to-others,Medical Payments to Others,P3,,Not specific to TMHCC lines
+428,medicare-part-a,Medicare Part A,P3,,Not specific to TMHCC lines
+429,medicare-part-b,Medicare Part B,P3,,Not specific to TMHCC lines
+430,medicare-part-d,Medicare Part D,P3,,Not specific to TMHCC lines
+431,metal-tiers,Metal Tiers,P3,,Not specific to TMHCC lines
+432,motor-vehicle-report,Motor Vehicle Report,P3,,Not specific to TMHCC lines
+433,multi-policy-discount,Multi-Policy Discount,P3,,Not specific to TMHCC lines
+434,named-perils,Named Perils,P3,,Not specific to TMHCC lines
+435,national-association-of-insurance-commissioners,National Association of Insurance Commissioners,P3,,Not specific to TMHCC lines
+436,notice-of-cancellation,Notice of Cancellation,P3,,Not specific to TMHCC lines
+437,occupancy,Occupancy,P3,,Not specific to TMHCC lines
+438,other-structures-coverage,Other Structures Coverage,P3,,Not specific to TMHCC lines
+439,paid-losses,Paid Losses,P3,,Not specific to TMHCC lines
+440,permanent-life-insurance,Permanent Life Insurance,P3,,Not specific to TMHCC lines
+441,personal-liability-coverage,Personal Liability Coverage,P3,,Not specific to TMHCC lines
+442,pet-insurance,Pet Insurance,P3,,Not specific to TMHCC lines
+443,plan-year,Plan Year,P3,,Not specific to TMHCC lines
+444,policy-anniversary,Policy Anniversary,P3,,Not specific to TMHCC lines
+445,preventive-care,Preventive Care,P3,,Not specific to TMHCC lines
+446,primary-beneficiary,Primary Beneficiary,P3,,Not specific to TMHCC lines
+447,primary-care-physician,Primary Care Physician,P3,,Not specific to TMHCC lines
+448,privacy-notice,Privacy Notice,P3,,Not specific to TMHCC lines
+449,pro-rata,Pro Rata,P3,,Not specific to TMHCC lines
+450,producer-license,Producer License,P3,,Not specific to TMHCC lines
+451,qualifying-life-event,Qualifying Life Event,P3,,Not specific to TMHCC lines
+452,referral-health,Referral (Health),P3,,Not specific to TMHCC lines
+453,renewal-offer,Renewal Offer,P3,,Not specific to TMHCC lines
+454,rental-reimbursement,Rental Reimbursement,P3,,Not specific to TMHCC lines
+455,rider,Rider,P3,,Not specific to TMHCC lines
+456,risk-management,Risk Management,P3,,Not specific to TMHCC lines
+457,roadside-assistance,Roadside Assistance,P3,,Not specific to TMHCC lines
+458,scheduled-personal-property,Scheduled Personal Property,P3,,Not specific to TMHCC lines
+459,staff-adjuster,Staff Adjuster,P3,,Not specific to TMHCC lines
+460,summary-of-benefits-and-coverage,Summary of Benefits and Coverage,P3,,Not specific to TMHCC lines
+461,tobacco-rating,Tobacco Rating,P3,,Not specific to TMHCC lines
+462,vehicle-identification-number,Vehicle Identification Number,P3,,Not specific to TMHCC lines
+463,vision-insurance,Vision Insurance,P3,,Not specific to TMHCC lines
+464,water-backup-coverage,Water Backup Coverage,P3,,Not specific to TMHCC lines
+465,wear-and-tear,Wear and Tear,P3,,Not specific to TMHCC lines
+466,accelerated-death-benefit-rider,Accelerated Death Benefit Rider,P3,,Not specific to TMHCC lines
+467,accelerated-underwriting,Accelerated Underwriting,P3,,Not specific to TMHCC lines
+468,acord-forms,ACORD Forms,P3,,Not specific to TMHCC lines
+469,acquisition-costs,Acquisition Costs,P3,,Not specific to TMHCC lines
+470,activities-of-daily-living,Activities of Daily Living,P3,,Not specific to TMHCC lines
+471,adverse-selection,Adverse Selection,P3,,Not specific to TMHCC lines
+472,agency-bill,Agency Bill,P3,,Not specific to TMHCC lines
+473,agency-management-system,Agency Management System,P3,,Not specific to TMHCC lines
+474,allowed-amount,Allowed Amount,P3,,Not specific to TMHCC lines
+475,annuitization,Annuitization,P3,,Not specific to TMHCC lines
+476,appointment,Appointment,P3,,Not specific to TMHCC lines
+477,appraisal-clause,Appraisal Clause,P3,,Not specific to TMHCC lines
+478,arbitration-clause,Arbitration Clause,P3,,Not specific to TMHCC lines
+479,assignment-of-benefits,Assignment of Benefits,P3,,Not specific to TMHCC lines
+480,association-for-cooperative-operations-research-and-development,Association for Cooperative Operations Research and Development,P3,,Not specific to TMHCC lines
+481,balance-billing,Balance Billing,P3,,Not specific to TMHCC lines
+482,base-rate,Base Rate,P3,,Not specific to TMHCC lines
+483,billing-system,Billing System,P3,,Not specific to TMHCC lines
+484,binder,Binder,P3,,Not specific to TMHCC lines
+485,blanket-coverage,Blanket Coverage,P3,,Not specific to TMHCC lines
+486,broker-of-record,Broker of Record,P3,,Not specific to TMHCC lines
+487,cancellation-clause,Cancellation Clause,P3,,Not specific to TMHCC lines
+488,cash-surrender-value,Cash Surrender Value,P3,,Not specific to TMHCC lines
+489,centers-for-medicare-and-medicaid-services,Centers for Medicare & Medicaid Services,P3,,Not specific to TMHCC lines
+490,certificate-of-coverage,Certificate of Coverage,P3,,Not specific to TMHCC lines
+491,childrens-health-insurance-program,Children's Health Insurance Program,P3,,Not specific to TMHCC lines
+492,claim-adjudication,Claim Adjudication,P3,,Not specific to TMHCC lines
+493,claim-reserve,Claim Reserve,P3,,Not specific to TMHCC lines
+494,claims-management-system,Claims Management System,P3,,Not specific to TMHCC lines
+495,combined-single-limit,Combined Single Limit,P3,,Not specific to TMHCC lines
+496,commercial-package-policy,Commercial Package Policy,P3,,Not specific to TMHCC lines
+497,comparative-negligence,Comparative Negligence,P3,,Not specific to TMHCC lines
+498,compensatory-damages,Compensatory Damages,P3,,Not specific to TMHCC lines
+499,comprehensive-loss-underwriting-exchange-report,Comprehensive Loss Underwriting Exchange Report,P3,,Not specific to TMHCC lines
+500,concealment,Concealment,P3,,Not specific to TMHCC lines
+501,conditional-renewal,Conditional Renewal,P3,,Not specific to TMHCC lines
+502,construction-type,Construction Type,P3,,Not specific to TMHCC lines
+503,construction-occupancy-protection-exposure,"Construction, Occupancy, Protection, Exposure",P3,,Not specific to TMHCC lines
+504,contestable-period,Contestable Period,P3,,Not specific to TMHCC lines
+505,continuation-coverage,Continuation Coverage,P3,,Not specific to TMHCC lines
+506,contribution,Contribution,P3,,Not specific to TMHCC lines
+507,convertible-term,Convertible Term,P3,,Not specific to TMHCC lines
+508,coordination-of-benefits,Coordination of Benefits,P3,,Not specific to TMHCC lines
+509,coverage-part,Coverage Part,P3,,Not specific to TMHCC lines
+510,credit-based-insurance-score,Credit-Based Insurance Score,P3,,Not specific to TMHCC lines
+511,critical-illness-insurance,Critical Illness Insurance,P3,,Not specific to TMHCC lines
+512,deferred-annuity,Deferred Annuity,P3,,Not specific to TMHCC lines
+513,desk-adjuster,Desk Adjuster,P3,,Not specific to TMHCC lines
+514,diminished-value,Diminished Value,P3,,Not specific to TMHCC lines
+515,direct-bill,Direct Bill,P3,,Not specific to TMHCC lines
+516,direct-repair-program,Direct Repair Program,P3,,Not specific to TMHCC lines
+517,driving-record-points,Driving Record Points,P3,,Not specific to TMHCC lines
+518,drug-tier,Drug Tier,P3,,Not specific to TMHCC lines
+519,dwelling-fire-policy,Dwelling Fire Policy,P3,,Not specific to TMHCC lines
+520,earthquake-insurance,Earthquake Insurance,P3,,Not specific to TMHCC lines
+521,embedded-insurance,Embedded Insurance,P3,,Not specific to TMHCC lines
+522,essential-health-benefits,Essential Health Benefits,P3,,Not specific to TMHCC lines
+523,exception,Exception,P3,,Not specific to TMHCC lines
+524,excluded-driver,Excluded Driver,P3,,Not specific to TMHCC lines
+525,exclusive-provider-organization,Exclusive Provider Organization,P3,,Not specific to TMHCC lines
+526,expense-ratio,Expense Ratio,P3,,Not specific to TMHCC lines
+527,extended-warranty,Extended Warranty,P3,,Not specific to TMHCC lines
+528,external-review,External Review,P3,,Not specific to TMHCC lines
+529,fair-access-to-insurance-requirements-plan,Fair Access to Insurance Requirements Plan,P3,,Not specific to TMHCC lines
+530,fee-for-service,Fee-for-Service,P3,,Not specific to TMHCC lines
+531,field-adjuster,Field Adjuster,P3,,Not specific to TMHCC lines
+532,financial-responsibility-law,Financial Responsibility Law,P3,,Not specific to TMHCC lines
+533,financial-strength-rating,Financial Strength Rating,P3,,Not specific to TMHCC lines
+534,fixed-annuity,Fixed Annuity,P3,,Not specific to TMHCC lines
+535,flexible-spending-account,Flexible Spending Account,P3,,Not specific to TMHCC lines
+536,flood-zone,Flood Zone,P3,,Not specific to TMHCC lines
+537,frequency,Frequency,P3,,Not specific to TMHCC lines
+538,guaranteed-issue,Guaranteed Issue,P3,,Not specific to TMHCC lines
+539,guaranty-fund,Guaranty Fund,P3,,Not specific to TMHCC lines
+540,hired-and-non-owned-auto,Hired and Non-Owned Auto,P3,,Not specific to TMHCC lines
+541,ho-5,HO-5,P3,,Not specific to TMHCC lines
+542,ho-6,HO-6,P3,,Not specific to TMHCC lines
+543,hurricane-deductible,Hurricane Deductible,P3,,Not specific to TMHCC lines
+544,immediate-annuity,Immediate Annuity,P3,,Not specific to TMHCC lines
+545,incontestability-clause,Incontestability Clause,P3,,Not specific to TMHCC lines
+546,incurred-losses,Incurred Losses,P3,,Not specific to TMHCC lines
+547,independent-adjuster,Independent Adjuster,P3,,Not specific to TMHCC lines
+548,insurance-services-office,Insurance Services Office,P3,,Not specific to TMHCC lines
+549,insurance-to-value,Insurance to Value,P3,,Not specific to TMHCC lines
+550,intentional-acts-exclusion,Intentional Acts Exclusion,P3,,Not specific to TMHCC lines
+551,investment-income,Investment Income,P3,,Not specific to TMHCC lines
+552,long-term-care-insurance,Long-Term Care Insurance,P3,,Not specific to TMHCC lines
+553,long-term-care-rider,Long-Term Care Rider,P3,,Not specific to TMHCC lines
+554,loss-control,Loss Control,P3,,Not specific to TMHCC lines
+555,loss-payee,Loss Payee,P3,,Not specific to TMHCC lines
+556,loss-reserve,Loss Reserve,P3,,Not specific to TMHCC lines
+557,market-conduct-examination,Market Conduct Examination,P3,,Not specific to TMHCC lines
+558,master-policy,Master Policy,P3,,Not specific to TMHCC lines
+559,medical-loss-ratio,Medical Loss Ratio,P3,,Not specific to TMHCC lines
+560,medical-necessity,Medical Necessity,P3,,Not specific to TMHCC lines
+561,medical-payments-coverage,Medical Payments Coverage,P3,,Not specific to TMHCC lines
+562,medical-underwriting,Medical Underwriting,P3,,Not specific to TMHCC lines
+563,annual-enrollment-period,Medicare Annual Enrollment Period,P3,,Not specific to TMHCC lines
+564,medigap,Medigap,P3,,Not specific to TMHCC lines
+565,misrepresentation,Misrepresentation,P3,,Not specific to TMHCC lines
+566,moral-hazard,Moral Hazard,P3,,Not specific to TMHCC lines
+567,mortgagee-clause,Mortgagee Clause,P3,,Not specific to TMHCC lines
+568,motor-carrier,Motor Carrier Coverage,P3,,Not specific to TMHCC lines
+569,mutual-insurance-company,Mutual Insurance Company,P3,,Not specific to TMHCC lines
+570,narrow-network,Narrow Network,P3,,Not specific to TMHCC lines
+571,national-council-on-compensation-insurance,National Council on Compensation Insurance,P3,,Not specific to TMHCC lines
+572,national-flood-insurance-program,National Flood Insurance Program,P3,,Not specific to TMHCC lines
+573,no-surprises-act,No Surprises Act,P3,,Not specific to TMHCC lines
+574,no-fault-insurance,No-Fault Insurance,P3,,Not specific to TMHCC lines
+575,non-qualified-annuity,Non-Qualified Annuity,P3,,Not specific to TMHCC lines
+576,north-american-industry-classification-system-code,North American Industry Classification System Code,P3,,Not specific to TMHCC lines
+577,open-perils,Open Perils,P3,,Not specific to TMHCC lines
+578,ordinance-or-law-coverage,Ordinance or Law Coverage,P3,,Not specific to TMHCC lines
+579,paramedical-exam,Paramedical Exam,P3,,Not specific to TMHCC lines
+580,payout-option,Payout Option,P3,,Not specific to TMHCC lines
+581,percentage-deductible,Percentage Deductible,P3,,Not specific to TMHCC lines
+582,permissive-user,Permissive User,P3,,Not specific to TMHCC lines
+583,personal-and-advertising-injury,Personal and Advertising Injury,P3,,Not specific to TMHCC lines
+584,personal-injury-protection,Personal Injury Protection,P3,,Not specific to TMHCC lines
+585,pharmacy-benefit-manager,Pharmacy Benefit Manager,P3,,Not specific to TMHCC lines
+586,policy-delivery,Policy Delivery,P3,,Not specific to TMHCC lines
+587,dividend,Policy Dividend,P3,,Not specific to TMHCC lines
+588,illustration,Policy Illustration,P3,,Not specific to TMHCC lines
+589,policy-loan,Policy Loan,P3,,Not specific to TMHCC lines
+590,portability,Portability,P3,,Not specific to TMHCC lines
+591,portfolio,Portfolio,P3,,Not specific to TMHCC lines
+592,predictive-model,Predictive Model,P3,,Not specific to TMHCC lines
+593,premium-finance,Premium Finance,P3,,Not specific to TMHCC lines
+594,premium-tax,Premium Tax,P3,,Not specific to TMHCC lines
+595,premium-tax-credit,Premium Tax Credit,P3,,Not specific to TMHCC lines
+596,primary-insurance,Primary Insurance,P3,,Not specific to TMHCC lines
+597,pro-rata-cancellation,Pro Rata Cancellation,P3,,Not specific to TMHCC lines
+598,product-configurator,Product Configurator,P3,,Not specific to TMHCC lines
+599,proof-of-loss,Proof of Loss,P3,,Not specific to TMHCC lines
+600,protection-class,Protection Class,P3,,Not specific to TMHCC lines
+601,public-adjuster,Public Adjuster,P3,,Not specific to TMHCC lines
+602,qualified-annuity,Qualified Annuity,P3,,Not specific to TMHCC lines
+603,rate-filing,Rate Filing,P3,,Not specific to TMHCC lines
+604,rating-basis,Rating Basis,P3,,Not specific to TMHCC lines
+605,rating-engine,Rating Engine,P3,,Not specific to TMHCC lines
+606,recorded-statement,Recorded Statement,P3,,Not specific to TMHCC lines
+607,referral,Referral,P3,,Not specific to TMHCC lines
+608,release,Release,P3,,Not specific to TMHCC lines
+609,replacement,Replacement,P3,,Not specific to TMHCC lines
+610,required-minimum-distribution,Required Minimum Distribution,P3,,Not specific to TMHCC lines
+611,retention-ratio,Retention Ratio,P3,,Not specific to TMHCC lines
+612,risk-class,Risk Class,P3,,Not specific to TMHCC lines
+613,salvage-title,Salvage Title,P3,,Not specific to TMHCC lines
+614,severity,Severity,P3,,Not specific to TMHCC lines
+615,short-rate-cancellation,Short-Rate Cancellation,P3,,Not specific to TMHCC lines
+616,short-term-health-insurance,Short-Term Health Insurance,P3,,Not specific to TMHCC lines
+617,simplified-issue,Simplified Issue,P3,,Not specific to TMHCC lines
+618,solvency,Solvency,P3,,Not specific to TMHCC lines
+619,special-enrollment-period,Special Enrollment Period,P3,,Not specific to TMHCC lines
+620,special-form,Special Form,P3,,Not specific to TMHCC lines
+621,special-investigations-unit,Special Investigations Unit,P3,,Not specific to TMHCC lines
+622,split-limits,Split Limits,P3,,Not specific to TMHCC lines
+623,sr-22,SR-22,P3,,Not specific to TMHCC lines
+624,stated-value,Stated Value,P3,,Not specific to TMHCC lines
+625,straight-through-processing,Straight-Through Processing,P3,,Not specific to TMHCC lines
+626,suicide-clause,Suicide Clause,P3,,Not specific to TMHCC lines
+627,supplement,Supplement,P3,,Not specific to TMHCC lines
+628,surrender-charge,Surrender Charge,P3,,Not specific to TMHCC lines
+629,telematics,Telematics,P3,,Not specific to TMHCC lines
+630,territory,Territory,P3,,Not specific to TMHCC lines
+631,third-party-data,Third-Party Data,P3,,Not specific to TMHCC lines
+632,underinsurance,Underinsurance,P3,,Not specific to TMHCC lines
+633,underinsured-motorist-coverage,Underinsured Motorist Coverage,P3,,Not specific to TMHCC lines
+634,underwriting-profit,Underwriting Profit,P3,,Not specific to TMHCC lines
+635,underwriting-rules-engine,Underwriting Rules Engine,P3,,Not specific to TMHCC lines
+636,unearned-premium,Unearned Premium,P3,,Not specific to TMHCC lines
+637,unfair-claims-settlement-practices,Unfair Claims Settlement Practices,P3,,Not specific to TMHCC lines
+638,universal-life-insurance,Universal Life Insurance,P3,,Not specific to TMHCC lines
+639,usage-based-insurance,Usage-Based Insurance,P3,,Not specific to TMHCC lines
+640,vacancy-clause,Vacancy Clause,P3,,Not specific to TMHCC lines
+641,waiver-of-premium-rider,Waiver of Premium Rider,P3,,Not specific to TMHCC lines
+642,accident-year,Accident Year,P3,,Not specific to TMHCC lines
+643,allocated-loss-adjustment-expense,Allocated Loss Adjustment Expense,P3,,Not specific to TMHCC lines
+644,annual-statement,Annual Statement,P3,,Not specific to TMHCC lines
+645,bad-faith,Bad Faith,P3,,Not specific to TMHCC lines
+646,catastrophe-excess-of-loss,Catastrophe Excess of Loss,P3,,Not specific to TMHCC lines
+647,catastrophe-model,Catastrophe Model,P3,,Not specific to TMHCC lines
+648,coinsurance-clause,Coinsurance Clause,P3,,Not specific to TMHCC lines
+649,cost-of-insurance,Cost of Insurance,P3,,Not specific to TMHCC lines
+650,direct-physical-loss,Direct Physical Loss,P3,,Not specific to TMHCC lines
+651,edi-837,EDI 837,P3,,Not specific to TMHCC lines
+652,employers-liability,Employers Liability,P3,,Not specific to TMHCC lines
+653,experience-modification-factor,Experience Modification Factor,P3,,Not specific to TMHCC lines
+654,experience-rating,Experience Rating,P3,,Not specific to TMHCC lines
+655,fixed-indexed-annuity,Fixed Indexed Annuity,P3,,Not specific to TMHCC lines
+656,generally-accepted-accounting-principles,Generally Accepted Accounting Principles,P3,,Not specific to TMHCC lines
+657,health-reimbursement-arrangement,Health Reimbursement Arrangement,P3,,Not specific to TMHCC lines
+658,incurred-but-not-reported,Incurred But Not Reported,P3,,Not specific to TMHCC lines
+659,indexed-universal-life,Indexed Universal Life,P3,,Not specific to TMHCC lines
+660,life-settlement,Life Settlement,P3,,Not specific to TMHCC lines
+661,loss-adjustment-expense,Loss Adjustment Expense,P3,,Not specific to TMHCC lines
+662,loss-cost,Loss Cost,P3,,Not specific to TMHCC lines
+663,loss-trend,Loss Trend,P3,,Not specific to TMHCC lines
+664,net-written-premium,Net Written Premium,P3,,Not specific to TMHCC lines
+665,proximate-cause,Proximate Cause,P3,,Not specific to TMHCC lines
+666,rating-algorithm,Rating Algorithm,P3,,Not specific to TMHCC lines
+667,rescission,Rescission,P3,,Not specific to TMHCC lines
+668,risk-based-capital,Risk-Based Capital,P3,,Not specific to TMHCC lines
+669,schedule-rating,Schedule Rating,P3,,Not specific to TMHCC lines
+670,social-inflation,Social Inflation,P3,,Not specific to TMHCC lines
+671,statutory-accounting-principles,Statutory Accounting Principles,P3,,Not specific to TMHCC lines
+672,table-rating,Table Rating,P3,,Not specific to TMHCC lines
+673,variable-annuity,Variable Annuity,P3,,Not specific to TMHCC lines
+674,variable-universal-life,Variable Universal Life,P3,,Not specific to TMHCC lines
+675,accident-forgiveness,Accident Forgiveness,P3,,Not specific to TMHCC lines
+676,compulsory-insurance,Compulsory Insurance,P3,,Not specific to TMHCC lines
+677,consumer-complaint,Consumer Complaint,P3,,Not specific to TMHCC lines
+678,coverage-verification,Coverage Verification,P3,,Not specific to TMHCC lines
+679,digital-distribution,Digital Distribution,P3,,Not specific to TMHCC lines
+680,drone-insurance,Drone Insurance,P3,,Not specific to TMHCC lines
+681,fdic-insurance,FDIC Insurance,P3,,Not specific to TMHCC lines
+682,insured-life,Insured (Life),P3,,Not specific to TMHCC lines
+683,legacy-system,Legacy System,P3,,Not specific to TMHCC lines
+684,new-car-replacement,New Car Replacement,P3,,Not specific to TMHCC lines
+685,social-insurance,Social Insurance,P3,,Not specific to TMHCC lines
+686,term-rider,Term Rider,P3,,Not specific to TMHCC lines
+687,unemployment-insurance,Unemployment Insurance,P3,,Not specific to TMHCC lines
+688,accumulation-phase,Accumulation Phase,P3,,Not specific to TMHCC lines
+689,adverse-action-notice,Adverse Action Notice,P3,,Not specific to TMHCC lines
+690,aerial-imagery,Aerial Imagery,P3,,Not specific to TMHCC lines
+691,affinity-group,Affinity Group,P3,,Not specific to TMHCC lines
+692,am-best,AM Best,P3,,Not specific to TMHCC lines
+693,ambiguity,Ambiguity,P3,,Not specific to TMHCC lines
+694,annual-renewable-term,Annual Renewable Term,P3,,Not specific to TMHCC lines
+695,anti-money-laundering,Anti-Money Laundering,P3,,Not specific to TMHCC lines
+696,assigned-risk-plan,Assigned Risk Plan,P3,,Not specific to TMHCC lines
+697,assignment,Assignment,P3,,Not specific to TMHCC lines
+698,attained-age,Attained Age,P3,,Not specific to TMHCC lines
+699,auto-adjudication,Auto-Adjudication,P3,,Not specific to TMHCC lines
+700,automatic-coverage,Automatic Coverage,P3,,Not specific to TMHCC lines
+701,automatic-premium-loan,Automatic Premium Loan,P3,,Not specific to TMHCC lines
+702,bancassurance,Bancassurance,P3,,Not specific to TMHCC lines
+703,basic-form,Basic Form,P3,,Not specific to TMHCC lines
+704,betterment,Betterment,P3,,Not specific to TMHCC lines
+705,birthday-rule,Birthday Rule,P3,,Not specific to TMHCC lines
+706,bona-fide,Bona Fide,P3,,Not specific to TMHCC lines
+707,broad-form,Broad Form,P3,,Not specific to TMHCC lines
+708,california-earthquake-authority,California Earthquake Authority,P3,,Not specific to TMHCC lines
+709,catastrophe-adjuster,Catastrophe Adjuster,P3,,Not specific to TMHCC lines
+710,catastrophic-plan,Catastrophic Plan,P3,,Not specific to TMHCC lines
+711,caveat-emptor,Caveat Emptor,P3,,Not specific to TMHCC lines
+712,cession,Cession,P3,,Not specific to TMHCC lines
+713,chargeback,Chargeback,P3,,Not specific to TMHCC lines
+714,churning,Churning,P3,,Not specific to TMHCC lines
+715,citizens-property-insurance,Citizens Property Insurance Corporation,P3,,Not specific to TMHCC lines
+716,classic-car-insurance,Classic Car Insurance,P3,,Not specific to TMHCC lines
+717,clean-claim,Clean Claim,P3,,Not specific to TMHCC lines
+718,clearinghouse,Clearinghouse,P3,,Not specific to TMHCC lines
+719,comparative-rater,Comparative Rater,P3,,Not specific to TMHCC lines
+720,master-policy-condo,Condo Master Policy,P3,,Not specific to TMHCC lines
+721,contractors-equipment,Contractors' Equipment Floater,P3,,Not specific to TMHCC lines
+722,conversion-right,Conversion Right,P3,,Not specific to TMHCC lines
+723,coverage-code,Coverage Code,P3,,Not specific to TMHCC lines
+724,credit-insurance,Credit Insurance,P3,,Not specific to TMHCC lines
+725,de-minimis,De Minimis,P3,,Not specific to TMHCC lines
+726,decreasing-term,Decreasing Term,P3,,Not specific to TMHCC lines
+727,dispute-resolution,Dispute Resolution,P3,,Not specific to TMHCC lines
+728,document-generation,Document Generation,P3,,Not specific to TMHCC lines
+729,domicile,Domicile,P3,,Not specific to TMHCC lines
+730,duck-creek,Duck Creek,P3,,Not specific to TMHCC lines
+731,duty-of-care,Duty of Care,P3,,Not specific to TMHCC lines
+732,employer-mandate,Employer Mandate,P3,,Not specific to TMHCC lines
+733,entire-contract-clause,Entire Contract Clause,P3,,Not specific to TMHCC lines
+734,evidence-of-property-insurance,Evidence of Property Insurance,P3,,Not specific to TMHCC lines
+735,ex-gratia-payment,Ex Gratia Payment,P3,,Not specific to TMHCC lines
+736,extended-replacement-cost,Extended Replacement Cost,P3,,Not specific to TMHCC lines
+737,fair-credit-reporting-act,Fair Credit Reporting Act,P3,,Not specific to TMHCC lines
+738,fair-rental-value,Fair Rental Value,P3,,Not specific to TMHCC lines
+739,farmowners-policy,Farmowners Policy,P3,,Not specific to TMHCC lines
+740,file-and-use,File and Use,P3,,Not specific to TMHCC lines
+741,fine-art-insurance,Fine Art Insurance,P3,,Not specific to TMHCC lines
+742,flat-cancellation,Flat Cancellation,P3,,Not specific to TMHCC lines
+743,form-filing,Form Filing,P3,,Not specific to TMHCC lines
+744,form-number,Form Number,P3,,Not specific to TMHCC lines
+745,forms-schedule,Forms Schedule,P3,,Not specific to TMHCC lines
+746,fraternal-benefit-society,Fraternal Benefit Society,P3,,Not specific to TMHCC lines
+747,free-withdrawal-provision,Free Withdrawal Provision,P3,,Not specific to TMHCC lines
+748,garage-liability,Garage Liability,P3,,Not specific to TMHCC lines
+749,general-damages,General Damages,P3,,Not specific to TMHCC lines
+750,general-ledger,General Ledger,P3,,Not specific to TMHCC lines
+751,geocoding,Geocoding,P3,,Not specific to TMHCC lines
+752,graded-death-benefit,Graded Death Benefit,P3,,Not specific to TMHCC lines
+753,gramm-leach-bliley-act,Gramm-Leach-Bliley Act,P3,,Not specific to TMHCC lines
+754,guaranteed-insurability-rider,Guaranteed Insurability Rider,P3,,Not specific to TMHCC lines
+755,guaranteed-replacement-cost,Guaranteed Replacement Cost,P3,,Not specific to TMHCC lines
+756,guaranteed-universal-life,Guaranteed Universal Life,P3,,Not specific to TMHCC lines
+757,guidewire,Guidewire,P3,,Not specific to TMHCC lines
+758,hard-fraud,Hard Fraud,P3,,Not specific to TMHCC lines
+759,individual-mandate,Individual Mandate,P3,,Not specific to TMHCC lines
+760,insurable-risk,Insurable Risk,P3,,Not specific to TMHCC lines
+761,data-warehouse,Insurance Data Warehouse,P3,,Not specific to TMHCC lines
+762,irrevocable-beneficiary,Irrevocable Beneficiary,P3,,Not specific to TMHCC lines
+763,joint-life,Joint Life,P3,,Not specific to TMHCC lines
+764,know-your-customer,Know Your Customer,P3,,Not specific to TMHCC lines
+765,law-of-large-numbers,Law of Large Numbers,P3,,Not specific to TMHCC lines
+766,lead-generation,Lead Generation,P3,,Not specific to TMHCC lines
+767,life-only-annuity,Life Only Annuity,P3,,Not specific to TMHCC lines
+768,lines-of-authority,Lines of Authority,P3,,Not specific to TMHCC lines
+769,livestock-insurance,Livestock Insurance,P3,,Not specific to TMHCC lines
+770,loss-adjustment,Loss Adjustment,P3,,Not specific to TMHCC lines
+771,loss-assessment-coverage,Loss Assessment Coverage,P3,,Not specific to TMHCC lines
+772,maturity-date,Maturity Date,P3,,Not specific to TMHCC lines
+773,mccarran-ferguson-act,McCarran-Ferguson Act,P3,,Not specific to TMHCC lines
+774,mid-term-adjustment,Mid-Term Adjustment,P3,,Not specific to TMHCC lines
+775,misstatement-of-age-clause,Misstatement of Age Clause,P3,,Not specific to TMHCC lines
+776,model-law,Model Law,P3,,Not specific to TMHCC lines
+777,mold-exclusion,Mold Exclusion,P3,,Not specific to TMHCC lines
+778,morale-hazard,Morale Hazard,P3,,Not specific to TMHCC lines
+779,mortgage-protection-insurance,Mortgage Protection Insurance,P3,,Not specific to TMHCC lines
+780,national-insurance-producer-registry,National Insurance Producer Registry,P3,,Not specific to TMHCC lines
+781,national-producer-number,National Producer Number,P3,,Not specific to TMHCC lines
+782,non-proportional-reinsurance,Non-Proportional Reinsurance,P3,,Not specific to TMHCC lines
+783,nonforfeiture-options,Nonforfeiture Options,P3,,Not specific to TMHCC lines
+784,participating-policy,Participating Policy,P3,,Not specific to TMHCC lines
+785,per-capita,Per Capita,P3,,Not specific to TMHCC lines
+786,per-stirpes,Per Stirpes,P3,,Not specific to TMHCC lines
+787,period-certain,Period Certain,P3,,Not specific to TMHCC lines
+788,persistency,Persistency,P3,,Not specific to TMHCC lines
+789,personal-contract,Personal Contract,P3,,Not specific to TMHCC lines
+790,physical-hazard,Physical Hazard,P3,,Not specific to TMHCC lines
+791,point-of-service-plan,Point of Service Plan,P3,,Not specific to TMHCC lines
+792,prior-approval,Prior Approval,P3,,Not specific to TMHCC lines
+793,prompt-pay-law,Prompt Pay Law,P3,,Not specific to TMHCC lines
+794,proportional-reinsurance,Proportional Reinsurance,P3,,Not specific to TMHCC lines
+795,pure-risk,Pure Risk,P3,,Not specific to TMHCC lines
+796,quote-to-bind-ratio,Quote-to-Bind Ratio,P3,,Not specific to TMHCC lines
+797,rate-table,Rate Table,P3,,Not specific to TMHCC lines
+798,rebating,Rebating,P3,,Not specific to TMHCC lines
+799,recoverable-depreciation,Recoverable Depreciation,P3,,Not specific to TMHCC lines
+800,reduced-paid-up,Reduced Paid-Up Insurance,P3,,Not specific to TMHCC lines
+801,reinsurance-broker,Reinsurance Broker,P3,,Not specific to TMHCC lines
+802,reopened-claim,Reopened Claim,P3,,Not specific to TMHCC lines
+803,representation,Representation,P3,,Not specific to TMHCC lines
+804,residual-market,Residual Market,P3,,Not specific to TMHCC lines
+805,retail-agent,Retail Agent,P3,,Not specific to TMHCC lines
+806,return-of-premium-term,Return of Premium Term,P3,,Not specific to TMHCC lines
+807,rideshare-coverage,Rideshare Coverage,P3,,Not specific to TMHCC lines
+808,risk-selection,Risk Selection,P3,,Not specific to TMHCC lines
+809,risk-transfer,Risk Transfer,P3,,Not specific to TMHCC lines
+810,roof-payment-schedule,Roof Payment Schedule,P3,,Not specific to TMHCC lines
+811,social-security-disability,Social Security Disability Insurance,P3,,Not specific to TMHCC lines
+812,soft-fraud,Soft Fraud,P3,,Not specific to TMHCC lines
+813,special-damages,Special Damages,P3,,Not specific to TMHCC lines
+814,speculative-risk,Speculative Risk,P3,,Not specific to TMHCC lines
+815,spoilage-coverage,Spoilage Coverage,P3,,Not specific to TMHCC lines
+816,standard-industrial-classification-code,Standard Industrial Classification Code,P3,,Not specific to TMHCC lines
+817,stock-insurance-company,Stock Insurance Company,P3,,Not specific to TMHCC lines
+818,sub-account,Sub-Account,P3,,Not specific to TMHCC lines
+819,subrogation-demand,Subrogation Demand,P3,,Not specific to TMHCC lines
+820,suitability,Suitability,P3,,Not specific to TMHCC lines
+821,survivorship-life,Survivorship Life,P3,,Not specific to TMHCC lines
+822,system-for-electronic-rates-and-forms-filing,System for Electronic Rates and Forms Filing,P3,,Not specific to TMHCC lines
+823,tort,Tort,P3,,Not specific to TMHCC lines
+824,total-incurred,Total Incurred,P3,,Not specific to TMHCC lines
+825,total-loss-threshold,Total Loss Threshold,P3,,Not specific to TMHCC lines
+826,transaction-type,Transaction Type,P3,,Not specific to TMHCC lines
+827,twisting,Twisting,P3,,Not specific to TMHCC lines
+828,underwriting-workbench,Underwriting Workbench,P3,,Not specific to TMHCC lines
+829,unfair-trade-practices,Unfair Trade Practices,P3,,Not specific to TMHCC lines
+830,void-policy,Void Policy,P3,,Not specific to TMHCC lines
+831,wildfire-risk-score,Wildfire Risk Score,P3,,Not specific to TMHCC lines
+832,wind-mitigation,Wind Mitigation,P3,,Not specific to TMHCC lines
+833,windstorm-pool,Windstorm Insurance Pool,P3,,Not specific to TMHCC lines
+834,section-1035-exchange,1035 Exchange,P3,,Not specific to TMHCC lines
+835,seven-pay-test,7-Pay Test,P3,,Not specific to TMHCC lines
+836,ab-initio,Ab Initio,P3,,Not specific to TMHCC lines
+837,acord-al3,ACORD AL3,P3,,Not specific to TMHCC lines
+838,actuarial-value,Actuarial Value,P3,,Not specific to TMHCC lines
+839,adverse-development-cover,Adverse Development Cover,P3,,Not specific to TMHCC lines
+840,age-nearest-birthday,Age Nearest Birthday,P3,,Not specific to TMHCC lines
+841,aleatory-contract,Aleatory Contract,P3,,Not specific to TMHCC lines
+842,american-association-of-insurance-services,American Association of Insurance Services,P3,,Not specific to TMHCC lines
+843,anti-concurrent-causation-clause,Anti-Concurrent Causation Clause,P3,,Not specific to TMHCC lines
+844,appointed-actuary,Appointed Actuary,P3,,Not specific to TMHCC lines
+845,asbestos-and-environmental,Asbestos and Environmental,P3,,Not specific to TMHCC lines
+846,assumed-premium,Assumed Premium,P3,,Not specific to TMHCC lines
+847,attorney-in-fact,Attorney-in-Fact,P3,,Not specific to TMHCC lines
+848,automated-property-loss-underwriting-system-report,Automated Property Loss Underwriting System Report,P3,,Not specific to TMHCC lines
+849,average-annual-loss,Average Annual Loss,P3,,Not specific to TMHCC lines
+850,backdating,Backdating,P3,,Not specific to TMHCC lines
+851,bornhuetter-ferguson-method,Bornhuetter-Ferguson Method,P3,,Not specific to TMHCC lines
+852,bulk-reserve,Bulk Reserve,P3,,Not specific to TMHCC lines
+853,business-associate-agreement,Business Associate Agreement,P3,,Not specific to TMHCC lines
+854,calendar-year,Calendar Year,P3,,Not specific to TMHCC lines
+855,cap-rate,Cap Rate,P3,,Not specific to TMHCC lines
+856,capitation,Capitation,P3,,Not specific to TMHCC lines
+857,case-reserve-development,Case Reserve Development,P3,,Not specific to TMHCC lines
+858,catastrophe-bond,Catastrophe Bond,P3,,Not specific to TMHCC lines
+859,ceding-commission,Ceding Commission,P3,,Not specific to TMHCC lines
+860,certified-reinsurer,Certified Reinsurer,P3,,Not specific to TMHCC lines
+861,chain-ladder-method,Chain Ladder Method,P3,,Not specific to TMHCC lines
+862,chronic-illness-rider,Chronic Illness Rider,P3,,Not specific to TMHCC lines
+863,civil-authority-coverage,Civil Authority Coverage,P3,,Not specific to TMHCC lines
+864,claim-leakage,Claims Leakage,P3,,Not specific to TMHCC lines
+865,collateralized-reinsurance,Collateralized Reinsurance,P3,,Not specific to TMHCC lines
+866,community-rating,Community Rating,P3,,Not specific to TMHCC lines
+867,state-fund,Competitive State Fund,P3,,Not specific to TMHCC lines
+868,concurrent-causation,Concurrent Causation,P3,,Not specific to TMHCC lines
+869,conditional-contract,Conditional Contract,P3,,Not specific to TMHCC lines
+870,contingent-commission,Contingent Commission,P3,,Not specific to TMHCC lines
+871,contra-proferentem,Contra Proferentem,P3,,Not specific to TMHCC lines
+872,contract-of-adhesion,Contract of Adhesion,P3,,Not specific to TMHCC lines
+873,contributory-negligence,Contributory Negligence,P3,,Not specific to TMHCC lines
+874,cost-sharing-reductions,Cost-Sharing Reductions,P3,,Not specific to TMHCC lines
+875,covered-auto-symbols,Covered Auto Symbols,P3,,Not specific to TMHCC lines
+876,credibility,Credibility,P3,,Not specific to TMHCC lines
+877,credit-for-reinsurance,Credit for Reinsurance,P3,,Not specific to TMHCC lines
+878,cut-through-clause,Cut-Through Clause,P3,,Not specific to TMHCC lines
+879,data-call,Data Call,P3,,Not specific to TMHCC lines
+880,defense-outside-limits,Defense Outside Limits,P3,,Not specific to TMHCC lines
+881,deferred-acquisition-costs,Deferred Acquisition Costs,P3,,Not specific to TMHCC lines
+882,demutualization,Demutualization,P3,,Not specific to TMHCC lines
+883,diligent-search,Diligent Search,P3,,Not specific to TMHCC lines
+884,direct-written-premium,Direct Written Premium,P3,,Not specific to TMHCC lines
+885,dual-eligible,Dual Eligible,P3,,Not specific to TMHCC lines
+886,edi-834,EDI 834,P3,,Not specific to TMHCC lines
+887,edi-835,EDI 835,P3,,Not specific to TMHCC lines
+888,effective-dating,Effective Dating,P3,,Not specific to TMHCC lines
+889,elevation-certificate,Elevation Certificate,P3,,Not specific to TMHCC lines
+890,endowment,Endowment,P3,,Not specific to TMHCC lines
+891,ensuing-loss,Ensuing Loss,P3,,Not specific to TMHCC lines
+892,estoppel,Estoppel,P3,,Not specific to TMHCC lines
+893,examination-under-oath,Examination Under Oath,P3,,Not specific to TMHCC lines
+894,exceedance-probability,Exceedance Probability,P3,,Not specific to TMHCC lines
+895,excepted-benefits,Excepted Benefits,P3,,Not specific to TMHCC lines
+896,excess-of-policy-limits,Excess of Policy Limits,P3,,Not specific to TMHCC lines
+897,excess-verdict,Excess Verdict,P3,,Not specific to TMHCC lines
+898,exclusion-ratio,Exclusion Ratio,P3,,Not specific to TMHCC lines
+899,exclusive-remedy,Exclusive Remedy,P3,,Not specific to TMHCC lines
+900,expense-load,Expense Load,P3,,Not specific to TMHCC lines
+901,extended-period-of-indemnity,Extended Period of Indemnity,P3,,Not specific to TMHCC lines
+902,extended-term-insurance,Extended Term Insurance,P3,,Not specific to TMHCC lines
+903,extra-contractual-obligations,Extra-Contractual Obligations,P3,,Not specific to TMHCC lines
+904,financial-examination,Financial Examination,P3,,Not specific to TMHCC lines
+905,finite-risk-insurance,Finite Risk Insurance,P3,,Not specific to TMHCC lines
+906,flat-extra,Flat Extra,P3,,Not specific to TMHCC lines
+907,float,Float,P3,,Not specific to TMHCC lines
+908,floor-rate,Floor,P3,,Not specific to TMHCC lines
+909,florida-hurricane-catastrophe-fund,Florida Hurricane Catastrophe Fund,P3,,Not specific to TMHCC lines
+910,follow-the-fortunes,Follow the Fortunes,P3,,Not specific to TMHCC lines
+911,form-a,Form A,P3,,Not specific to TMHCC lines
+912,generalized-linear-model,Generalized Linear Model,P3,,Not specific to TMHCC lines
+913,guaranteed-living-benefit,Guaranteed Living Benefit,P3,,Not specific to TMHCC lines
+914,guaranteed-minimum-death-benefit,Guaranteed Minimum Death Benefit,P3,,Not specific to TMHCC lines
+915,healthcare-common-procedure-coding-system,Healthcare Common Procedure Coding System,P3,,Not specific to TMHCC lines
+916,hierarchical-condition-categories,Hierarchical Condition Categories,P3,,Not specific to TMHCC lines
+917,ho-8,HO-8,P3,,Not specific to TMHCC lines
+918,hours-clause,Hours Clause,P3,,Not specific to TMHCC lines
+919,hybrid-life-long-term-care,Hybrid Life/Long-Term Care,P3,,Not specific to TMHCC lines
+920,industry-loss-warranty,Industry Loss Warranty,P3,,Not specific to TMHCC lines
+921,innocent-co-insured,Innocent Co-Insured,P3,,Not specific to TMHCC lines
+922,installation-floater,Installation Floater,P3,,Not specific to TMHCC lines
+923,insurance-holding-company,Insurance Holding Company,P3,,Not specific to TMHCC lines
+924,insurance-linked-securities,Insurance-Linked Securities,P3,,Not specific to TMHCC lines
+925,inter-company-arbitration,Inter-Company Arbitration,P3,,Not specific to TMHCC lines
+926,jewelers-block,Jewelers Block,P3,,Not specific to TMHCC lines
+927,lapse-rate,Lapse Rate,P3,,Not specific to TMHCC lines
+928,suit-against-us-clause,Legal Action Against Us,P3,,Not specific to TMHCC lines
+929,liberalization-clause,Liberalization Clause,P3,,Not specific to TMHCC lines
+930,line,Line,P3,,Not specific to TMHCC lines
+931,litigation-hold,Litigation Hold,P3,,Not specific to TMHCC lines
+932,loss-development,Loss Development,P3,,Not specific to TMHCC lines
+933,loss-development-factor,Loss Development Factor,P3,,Not specific to TMHCC lines
+934,loss-development-triangle,Loss Development Triangle,P3,,Not specific to TMHCC lines
+935,loss-ratio-corridor,Loss Ratio Corridor,P3,,Not specific to TMHCC lines
+936,loss-sensitive-program,Loss-Sensitive Program,P3,,Not specific to TMHCC lines
+937,market-value-adjustment,Market Value Adjustment,P3,,Not specific to TMHCC lines
+938,mass-tort,Mass Tort,P3,,Not specific to TMHCC lines
+939,mcs-90,MCS-90,P3,,Not specific to TMHCC lines
+940,medicaid-managed-care,Medicaid Managed Care,P3,,Not specific to TMHCC lines
+941,medical-information-bureau,Medical Information Bureau,P3,,Not specific to TMHCC lines
+942,mental-health-parity,Mental Health Parity,P3,,Not specific to TMHCC lines
+943,modified-endowment-contract,Modified Endowment Contract,P3,,Not specific to TMHCC lines
+944,monopolistic-state-fund,Monopolistic State Fund,P3,,Not specific to TMHCC lines
+945,morbidity-rate,Morbidity Rate,P3,,Not specific to TMHCC lines
+946,mortality-rate,Mortality Rate,P3,,Not specific to TMHCC lines
+947,mortality-table,Mortality Table,P3,,Not specific to TMHCC lines
+948,net-amount-at-risk,Net Amount at Risk,P3,,Not specific to TMHCC lines
+949,network-adequacy,Network Adequacy,P3,,Not specific to TMHCC lines
+950,no-lapse-guarantee,No-Lapse Guarantee,P3,,Not specific to TMHCC lines
+951,operating-ratio,Operating Ratio,P3,,Not specific to TMHCC lines
+952,out-of-sequence-endorsement,Out-of-Sequence Endorsement,P3,,Not specific to TMHCC lines
+953,override,Override,P3,,Not specific to TMHCC lines
+954,own-risk-and-solvency-assessment,Own Risk and Solvency Assessment,P3,,Not specific to TMHCC lines
+955,paid-up-additions,Paid-Up Additions,P3,,Not specific to TMHCC lines
+956,participation-rate,Participation Rate,P3,,Not specific to TMHCC lines
+957,per-risk-excess,Per Risk Excess of Loss,P3,,Not specific to TMHCC lines
+958,policy-reserve,Policy Reserve,P3,,Not specific to TMHCC lines
+959,policy-year,Policy Year,P3,,Not specific to TMHCC lines
+960,policyholder-surplus,Policyholders' Surplus,P3,,Not specific to TMHCC lines
+961,portfolio-transfer,Portfolio Transfer,P3,,Not specific to TMHCC lines
+962,premium-to-surplus-ratio,Premium-to-Surplus Ratio,P3,,Not specific to TMHCC lines
+963,principle-based-reserving,Principle-Based Reserving,P3,,Not specific to TMHCC lines
+964,product-model,Product Model,P3,,Not specific to TMHCC lines
+965,profit-commission,Profit Commission,P3,,Not specific to TMHCC lines
+966,property-claim-services-catastrophe,Property Claim Services Catastrophe,P3,,Not specific to TMHCC lines
+967,pure-premium,Pure Premium,P3,,Not specific to TMHCC lines
+968,rate-adequacy,Rate Adequacy,P3,,Not specific to TMHCC lines
+969,rate-indication,Rate Indication,P3,,Not specific to TMHCC lines
+970,rate-version,Rate Version,P3,,Not specific to TMHCC lines
+971,reasonable-expectations-doctrine,Reasonable Expectations Doctrine,P3,,Not specific to TMHCC lines
+972,receivership,Receivership,P3,,Not specific to TMHCC lines
+973,reciprocal-exchange,Reciprocal Insurance Exchange,P3,,Not specific to TMHCC lines
+974,registered-index-linked-annuity,Registered Index-Linked Annuity,P3,,Not specific to TMHCC lines
+975,reinstatement-premium,Reinstatement Premium,P3,,Not specific to TMHCC lines
+976,reserve-development,Reserve Development,P3,,Not specific to TMHCC lines
+977,respondeat-superior,Respondeat Superior,P3,,Not specific to TMHCC lines
+978,retrocession,Retrocession,P3,,Not specific to TMHCC lines
+979,retrocessionaire,Retrocessionaire,P3,,Not specific to TMHCC lines
+980,retrospective-rating,Retrospective Rating,P3,,Not specific to TMHCC lines
+981,return-period,Return Period,P3,,Not specific to TMHCC lines
+982,risk-adjustment,Risk Adjustment,P3,,Not specific to TMHCC lines
+983,risk-rating-2,Risk Rating 2.0,P3,,Not specific to TMHCC lines
+984,risk-transfer-testing,Risk Transfer Testing,P3,,Not specific to TMHCC lines
+985,run-off,Run-Off,P3,,Not specific to TMHCC lines
+986,schedule-p,Schedule P,P3,,Not specific to TMHCC lines
+987,short-tail,Short-Tail Line,P3,,Not specific to TMHCC lines
+988,space-insurance,Space Insurance,P3,,Not specific to TMHCC lines
+989,statistical-plan,Statistical Plan,P3,,Not specific to TMHCC lines
+990,statistical-reporting,Statistical Reporting,P3,,Not specific to TMHCC lines
+991,stranger-originated-life-insurance,Stranger-Originated Life Insurance,P3,,Not specific to TMHCC lines
+992,strict-liability,Strict Liability,P3,,Not specific to TMHCC lines
+993,supplementary-payments,Supplementary Payments,P3,,Not specific to TMHCC lines
+994,surplus-treaty,Surplus Treaty,P3,,Not specific to TMHCC lines
+995,tort-threshold,Tort Threshold,P3,,Not specific to TMHCC lines
+996,treaty-renewal-date,Treaty Renewal Date,P3,,Not specific to TMHCC lines
+997,ub-04,UB-04,P3,,Not specific to TMHCC lines
+998,uberrimae-fidei,Uberrimae Fidei,P3,,Not specific to TMHCC lines
+999,ultimate-loss,Ultimate Loss,P3,,Not specific to TMHCC lines
+1000,umpire,Umpire,P3,,Not specific to TMHCC lines
+1001,unallocated-loss-adjustment-expense,Unallocated Loss Adjustment Expense,P3,,Not specific to TMHCC lines
+1002,underwriting-cycle,Underwriting Cycle,P3,,Not specific to TMHCC lines
+1003,underwriting-year,Underwriting Year,P3,,Not specific to TMHCC lines
+1004,unearned-premium-reserve,Unearned Premium Reserve,P3,,Not specific to TMHCC lines
+1005,unfair-discrimination,Unfair Discrimination,P3,,Not specific to TMHCC lines
+1006,unilateral-contract,Unilateral Contract,P3,,Not specific to TMHCC lines
+1007,use-and-file,Use and File,P3,,Not specific to TMHCC lines
+1008,utilization-review,Utilization Review,P3,,Not specific to TMHCC lines
+1009,value-based-care,Value-Based Care,P3,,Not specific to TMHCC lines
+1010,variable-life-insurance,Variable Life Insurance,P3,,Not specific to TMHCC lines
+1011,symbol-rating,Vehicle Symbol,P3,,Not specific to TMHCC lines
+1012,viatical-settlement,Viatical Settlement,P3,,Not specific to TMHCC lines
+1013,vicarious-liability,Vicarious Liability,P3,,Not specific to TMHCC lines
+1014,voidable-policy,Voidable Policy,P3,,Not specific to TMHCC lines
+1015,waiver,Waiver,P3,,Not specific to TMHCC lines
+1016,write-your-own,Write Your Own Program,P3,,Not specific to TMHCC lines

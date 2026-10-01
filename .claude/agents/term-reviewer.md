@@ -27,7 +27,8 @@ Go through every group. Collect all findings before deciding.
 
 ### 1. Is this the right term?
 - It is a real US insurance term and matches what was requested.
-- It isn't a duplicate of an existing term or alias in `data/insurance-glossary.csv` or `src/content/terms/`.
+- It isn't a duplicate of an existing term, abbreviation or alias in `data/insurance-glossary.csv` or `src/content/terms/`.
+- Abbreviation rules are followed: `term` is the full form, `abbreviation` is correct for US usage, `abbreviationIsCommonName` is sensible, and neither appears again in `alsoKnownAs`.
 
 ### 2. Accuracy (most important)
 - Independently verify the meaning with **at least 2 credible sources of your own** (schema source priority). Don't rely only on the writer's `sources`.

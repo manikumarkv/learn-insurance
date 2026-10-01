@@ -28,7 +28,7 @@ Decide one outcome before writing anything:
 | Outcome | When |
 |---|---|
 | `write` | A real term used in US insurance, not already covered. |
-| `duplicate` | The term or an alias already exists. Search `data/insurance-glossary.csv` (Term, Also Known As, ID) and `src/content/terms/` by name and likely aliases. Report the existing `id`. |
+| `duplicate` | The term or an alias already exists. Search `data/insurance-glossary.csv` (Term, Abbreviation, Also Known As, ID) and `src/content/terms/` by name and likely aliases. Report the existing `id`. |
 | `not-insurance` | Not an insurance term (general finance, random word, spam, offensive text). |
 | `not-us` | Only used outside the US (e.g. UK or India-only terms). If a US equivalent exists, name it. |
 | `unclear` | Too vague or misspelled to identify with confidence. Suggest the closest real terms. |
@@ -43,6 +43,8 @@ Stop after this step for anything other than `write`, and return the summary (St
 - If you can't find 2 credible sources, change the outcome to `unclear` and stop.
 
 ## Step 3 — Classify
+
+Follow the schema's **Abbreviations** rules: `term` is the full form, the abbreviation goes in `abbreviation` (with `abbreviationIsCommonName`), and `id` is the slug of the full form. A request may arrive as just an abbreviation ("FNOL"); look up the full form before checking for duplicates.
 
 Using the schema's controlled values, set `category`, `lines` (taxonomy root IDs), `difficulty` and `usageFrequency`.
 

@@ -19,7 +19,8 @@ A web app that explains US insurance terms in plain English. This file records w
 - One page per term at `/terms/<id>` with: quick answer, plain-English definition, example, a visual (diagram template), where it happens in the policy flow, a person story (e.g. Tom), a "check yourself" question, FAQs, related terms, US notes.
 - Tags: usage frequency (High / Medium / Low), difficulty, category, insurance types. **No "Most useful for" role tag.**
 - AI-written terms show an "AI-generated · AI-reviewed" badge.
-- Terms A–Z page with filters for usage, difficulty and insurance type.
+- Terms A–Z page with filters for usage, difficulty, insurance type and abbreviations.
+- **Abbreviations:** each term has its full name plus an optional abbreviation (211 terms have one). Search finds either; `/terms/acv` redirects to the full term; the title shows "HMO (Health Maintenance Organization)" when the abbreviation is the common name.
 - Seed data: `data/insurance-glossary.csv` (1,016 terms).
 
 ### Insurance types

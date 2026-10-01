@@ -4,15 +4,17 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 
 - **Location:** `src/content/terms/<id>.yaml` (to be confirmed when the Astro + Keystatic app is scaffolded)
 - **Market:** US only
-- **Seed data:** `data/insurance-glossary.csv` (existing terms), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
+- **Seed data:** `data/insurance-glossary.csv` (existing terms; its "Abbreviation" and "Abbreviation Is Common Name" columns map to `abbreviation` and `abbreviationIsCommonName`), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
 
 ## Fields
 
 | Field | Required | Rules |
 |---|---|---|
-| `id` | yes | Lowercase slug, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
-| `term` | yes | Display name, e.g. `Endorsement`. |
-| `alsoKnownAs` | no | List of other names or acronym expansions. |
+| `id` | yes | Lowercase slug of the full-form `term`, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
+| `term` | yes | The **full form**, e.g. `Actual Cash Value`, `Health Maintenance Organization`. See **Abbreviations**. |
+| `abbreviation` | no | The abbreviation or acronym, e.g. `ACV`, `HMO`. |
+| `abbreviationIsCommonName` | if `abbreviation` | `true` when people mostly say the abbreviation (HMO, COBRA, FNOL); the page then shows "HMO (Health Maintenance Organization)". `false` otherwise (ACV). |
+| `alsoKnownAs` | no | Other real names for the term. Never the abbreviation or the term itself. |
 | `category` | yes | One of the **categories** below. |
 | `lines` | yes | List of **line IDs** below. Use `[all]` when the term applies everywhere. |
 | `usageFrequency` | yes | `High`, `Medium` or `Low`: how often the term shows up in US policies, quotes, claims and industry work. Not the same as difficulty. |
@@ -72,6 +74,18 @@ The seed glossary CSV uses older names. Map them when importing:
 ### Flow stages
 
 `Quote`, `Underwriting`, `Bind`, `Issue`, `Changes`, `Claim`, `Renewal`
+
+## Abbreviations
+
+- `term` is always the full form. Exception: names that are officially just letters or form numbers (AM Best, CMS-1500, HO-3, SR-22) stay as written with no `abbreviation`.
+- `abbreviation` holds the main abbreviation. A second common abbreviation goes in `alsoKnownAs`.
+- If an abbreviation belongs to a synonym rather than the term (e.g. BAP for Business Auto Policy on a "Commercial Auto Insurance" entry), keep it in `alsoKnownAs` and leave `abbreviation` blank.
+- The site:
+  - **Search** matches the term, the abbreviation and every `alsoKnownAs` entry.
+  - **Title** shows "HMO (Health Maintenance Organization)" when `abbreviationIsCommonName` is true, otherwise "Actual Cash Value (ACV)".
+  - **Short URLs:** `/terms/<abbreviation in lowercase>` redirects to `/terms/<id>`, e.g. `/terms/acv`. Old IDs from `docs/verification/abbreviation-id-changes.csv` also redirect.
+  - **Terms A–Z** has an "Abbreviations" filter.
+- TODO(edge-cases): the same abbreviation can mean two terms (ART, BI, COI, RP, GL; see `docs/verification/abbreviations.md`). Short URLs and search need a "did you mean" choice for these.
 
 ## Story
 

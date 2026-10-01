@@ -31,7 +31,7 @@ I reduced the 92 TMHCC generic types to 58 type labels, for example "Medical sto
 | **3** | P3 | 600 |
 | **Ongoing** | User term requests and issue-report fixes, through the automatic pipeline | — |
 
-Terms not filled yet still have a basic page (definition, example, US notes from the seed data) unless decided otherwise.
+**Decided:** terms not filled yet are still published with a basic page: definition, example, abbreviation, related terms and US notes from the seed data, plus a short "Full explanation coming soon" note. They appear in search and Terms A–Z from launch.
 
 ## How the writer pipeline uses it
 

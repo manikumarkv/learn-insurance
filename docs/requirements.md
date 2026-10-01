@@ -97,5 +97,4 @@ Deliberately postponed to a separate session. When code needs to handle one, lea
 
 ## Open items
 
-- Two fact-check items held for manual review (see `docs/verification/applied.md`).
 - A few facts change often and should be re-checked before launch: TRIA reauthorization, NFIP authorization date, ACA open-enrollment dates, short-term health plan rules.

@@ -13,8 +13,8 @@ Confidence decides whether an item is applied, not Severity. So many items marke
 
 ## Held for manual review (Low confidence)
 
-- **Taxonomy `life.term`, US Notes.** The proposal replaces "most common individual life product by policy count" with "one of the most widely bought… whole life and indexed UL now bring in more new premium". The source (LIMRA) measures premium, not policy count, so this needs a human decision.
-- **Glossary `premium-tax`, Usage Frequency.** The proposal changes High to Medium. This is a judgement call with no source.
+- **Taxonomy `life.term`, US Notes.** The proposal replaces "most common individual life product by policy count" with "one of the most widely bought… whole life and indexed UL now bring in more new premium". The source (LIMRA) measures premium, not policy count, so this needed a human decision. **Approved and applied on 2026-10-01.**
+- **Glossary `premium-tax`, Usage Frequency.** The proposal changes High to Medium. This is a judgement call with no source. **Approved and applied on 2026-10-01.**
 
 ## Skipped
 

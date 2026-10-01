@@ -6,6 +6,7 @@ A web app that explains US insurance terms in plain English. This file records w
 - **Term content format:** [docs/content/term-schema.md](content/term-schema.md)
 - **Learning research:** [docs/research/how-people-like-to-learn.md](research/how-people-like-to-learn.md)
 - **Data fact-check:** [docs/verification/applied.md](verification/applied.md)
+- **MCP servers:** [docs/mcp-servers.md](mcp-servers.md)
 
 ## Audience and scope
 

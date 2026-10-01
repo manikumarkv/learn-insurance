@@ -4,15 +4,17 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 
 - **Location:** `src/content/terms/<id>.yaml` (to be confirmed when the Astro + Keystatic app is scaffolded)
 - **Market:** US only
-- **Seed data:** `data/insurance-glossary.csv` (existing terms), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
+- **Seed data:** `data/insurance-glossary.csv` (existing terms; its "Abbreviation" and "Abbreviation Is Common Name" columns map to `abbreviation` and `abbreviationIsCommonName`), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
 
 ## Fields
 
 | Field | Required | Rules |
 |---|---|---|
-| `id` | yes | Lowercase slug, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
-| `term` | yes | Display name, e.g. `Endorsement`. |
-| `alsoKnownAs` | no | List of other names or acronym expansions. |
+| `id` | yes | Lowercase slug of the full-form `term`, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
+| `term` | yes | The **full form**, e.g. `Actual Cash Value`, `Health Maintenance Organization`. See **Abbreviations**. |
+| `abbreviation` | no | The abbreviation or acronym, e.g. `ACV`, `HMO`. |
+| `abbreviationIsCommonName` | if `abbreviation` | `true` when people mostly say the abbreviation (HMO, COBRA, FNOL); the page then shows "HMO (Health Maintenance Organization)". `false` otherwise (ACV). |
+| `alsoKnownAs` | no | Other real names for the term. Never the abbreviation or the term itself. |
 | `category` | yes | One of the **categories** below. |
 | `lines` | yes | List of **line IDs** below. Use `[all]` when the term applies everywhere. |
 | `usageFrequency` | yes | `High`, `Medium` or `Low`: how often the term shows up in US policies, quotes, claims and industry work. Not the same as difficulty. |
@@ -24,7 +26,7 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 | `flowStages` | yes | List from **flow stages** below: where the term matters in a policy's life. |
 | `story` | yes | Real-life story, see **Story**. |
 | `visual` | yes | One diagram template, see **Visual**. |
-| `checkYourself` | yes | One multiple-choice question, see **Check yourself**. |
+| `questions` | yes | Pool of multiple-choice questions: 10 for High usage, 6 for Medium, 4 for Low. See **Questions**. |
 | `faqs` | yes | 2–4 items of `{ question, answer }`. The first question is "What is <term> in insurance?". Answers ≤ 50 words. |
 | `relatedTerms` | yes | 2–6 IDs of terms that already exist. |
 | `usNotes` | no | Federal or state differences. Only facts you can back with a source. |
@@ -73,6 +75,18 @@ The seed glossary CSV uses older names. Map them when importing:
 
 `Quote`, `Underwriting`, `Bind`, `Issue`, `Changes`, `Claim`, `Renewal`
 
+## Abbreviations
+
+- `term` is always the full form. Exception: names that are officially just letters or form numbers (AM Best, CMS-1500, HO-3, SR-22) stay as written with no `abbreviation`.
+- `abbreviation` holds the main abbreviation. A second common abbreviation goes in `alsoKnownAs`.
+- If an abbreviation belongs to a synonym rather than the term (e.g. BAP for Business Auto Policy on a "Commercial Auto Insurance" entry), keep it in `alsoKnownAs` and leave `abbreviation` blank.
+- The site:
+  - **Search** matches the term, the abbreviation and every `alsoKnownAs` entry.
+  - **Title** shows "HMO (Health Maintenance Organization)" when `abbreviationIsCommonName` is true, otherwise "Actual Cash Value (ACV)".
+  - **Short URLs:** `/terms/<abbreviation in lowercase>` redirects to `/terms/<id>`, e.g. `/terms/acv`. Old IDs from `docs/verification/abbreviation-id-changes.csv` also redirect.
+  - **Terms A–Z** has an "Abbreviations" filter.
+- TODO(edge-cases): the same abbreviation can mean two terms (ART, BI, COI, RP, GL; see `docs/verification/abbreviations.md`). Short URLs and search need a "did you mean" choice for these.
+
 ## Story
 
 A short story that follows one person through the policy's life and shows the term in action.
@@ -120,20 +134,39 @@ visual:
 
 Numbers in `who-pays` parts must add up to `total`. `timeline` shares must add up to 100.
 
-## Check yourself
+## Questions
+
+Each term has a pool of questions. The app shows **3 at random** wherever the term is tested (term page, learn card, module and final quizzes, quick review) and avoids questions the user has seen recently.
+
+Pool size depends on `usageFrequency`:
+
+| Usage | Questions in pool |
+|---|---|
+| High | 10 |
+| Medium | 6 |
+| Low | 4 |
 
 ```yaml
-checkYourself:
-  question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
-  options: [A claim, An endorsement, A renewal, A binder]
-  answer: 1              # zero-based index into options
-  explanation: Adding a driver changes the policy while it is active, which is done with an endorsement.
+questions:
+  - type: scenario
+    question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
+    options: [A claim, An endorsement, A renewal, A binder]
+    answer: 1              # zero-based index into options
+    explanation: Adding a driver changes the policy while it is active, which is done with an endorsement.
+  - type: meaning
+    question: Which best describes an endorsement?
+    options: [A new policy that replaces the old one, A written change to an active policy, A request for payment after a loss, A discount for safe drivers]
+    answer: 1
+    explanation: An endorsement updates part of an existing policy; it doesn't replace it.
 ```
 
 Rules:
-- A short scenario, not "What is the definition of X?".
-- 3–4 options, all real insurance terms, exactly one correct.
-- The correct answer isn't always in the same position.
+- `type` is one of `scenario` (a short real-life situation), `meaning` (which description fits), or `difference` (tell this term apart from a similar one). Mix the types; at least half are `scenario`.
+- 3–4 options, all plausible and drawn from real insurance terms or ideas, exactly one correct.
+- Each question tests the term from a different angle. No near-duplicates, rewordings of another question, or trick questions.
+- The correct answer isn't always in the same position across the pool.
+- `explanation` says why the answer is right in one or two sentences.
+- Questions follow the same writing style, accuracy and US-only rules as the rest of the entry.
 
 ## Writing style
 
@@ -185,11 +218,37 @@ visual:
     before: { label: "Policy · Jan 1", lines: ["$100/month", "Old address", "Liability only"] }
     change: Endorsement
     after: { label: "Policy · Jan 20", lines: ["$120/month", "New address", "Liability + collision"] }
-checkYourself:
-  question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
-  options: [A claim, An endorsement, A renewal, A binder]
-  answer: 1
-  explanation: Adding a driver changes the active policy, which is done with an endorsement.
+questions:                # Medium usage: 6 questions
+  - type: scenario
+    question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
+    options: [A claim, An endorsement, A renewal, A binder]
+    answer: 1
+    explanation: Adding a driver changes the active policy, which is done with an endorsement.
+  - type: meaning
+    question: Which best describes an endorsement?
+    options: [A new policy that replaces the old one, A written change to an active policy, A request for payment after a loss, A discount for safe drivers]
+    answer: 1
+    explanation: An endorsement updates part of an existing policy; it doesn't replace it.
+  - type: scenario
+    question: Maria moves to a new city in the middle of her home policy term. How does her insurer update the address?
+    options: [With an endorsement, By cancelling the policy, By filing a claim, By waiting for renewal]
+    answer: 0
+    explanation: A change of address during the term is made with an endorsement.
+  - type: difference
+    question: Which of these is a change to an existing policy rather than a new one?
+    options: [A binder, A quote, An endorsement, An application]
+    answer: 2
+    explanation: Binders, quotes and applications come before a policy exists; an endorsement changes one that does.
+  - type: scenario
+    question: Sam adds collision coverage to his car policy mid-term. What usually happens to his premium?
+    options: [It stays the same, It goes up, It is refunded, The policy is cancelled]
+    answer: 1
+    explanation: Adding coverage adds risk for the insurer, so the endorsement usually raises the premium.
+  - type: meaning
+    question: Where does an endorsement end up once it is issued?
+    options: [In a separate new policy, In a claim file only, As part of the existing policy, Nowhere; it is verbal only]
+    answer: 2
+    explanation: An endorsement is a written document that becomes part of the policy it changes.
 faqs:
   - { question: What is an endorsement in insurance?, answer: "An official written change to your policy after it starts, like a new address or added coverage." }
   - { question: Does an endorsement change my premium?, answer: "It can. Adding coverage or risk usually raises the premium; removing it can lower it." }

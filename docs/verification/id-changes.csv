@@ -1,2 +1,3 @@
 Old ID,New ID
 health.disability.add,health.supplemental.add
+health.major_medical.group_health.stop_loss,health.employer_risk_financing.stop_loss

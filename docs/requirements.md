@@ -19,12 +19,15 @@ A web app that explains US insurance terms in plain English. This file records w
 - One page per term at `/terms/<id>` with: quick answer, plain-English definition, example, a visual (diagram template), where it happens in the policy flow, a person story (e.g. Tom), a "check yourself" question, FAQs, related terms, US notes.
 - Tags: usage frequency (High / Medium / Low), difficulty, category, insurance types. **No "Most useful for" role tag.**
 - AI-written terms show an "AI-generated · AI-reviewed" badge.
-- Terms A–Z page with filters for usage, difficulty and insurance type.
+- Terms A–Z page with filters for usage, difficulty, insurance type and abbreviations.
+- **Abbreviations:** each term has its full name plus an optional abbreviation (211 terms have one). Search finds either; `/terms/acv` redirects to the full term; the title shows "HMO (Health Maintenance Organization)" when the abbreviation is the common name.
 - Seed data: `data/insurance-glossary.csv` (1,016 terms).
 
 ### Insurance types
-- Expandable tree of all US insurance types (`data/insurance-taxonomy.csv`, 551 types).
+- Expandable tree of all US insurance types (`data/insurance-taxonomy.csv`, 580 types).
 - One page per type at `/types/<slug>` with quick answer, visual, sub-types, key terms (most used first), FAQs, US notes and a link to its learning path.
+
+- **Content priority:** `data/content-priority.csv` orders all terms for content filling (P1: terms central to Tokio Marine HCC specialty lines, P2: supporting and High-usage terms, P3: the rest). `docs/content/missing-terms-tmhcc.csv` lists 111 terms to request first. See `docs/content/priority.md`.
 
 ### Search and term requests
 - Search across terms and types (Pagefind).
@@ -38,7 +41,8 @@ A web app that explains US insurance terms in plain English. This file records w
 
 ### Learning
 - Learning paths: **Insurance basics**, plus **one path per insurance type**. No role-based paths.
-- Learn one term at a time: text and visual side by side, then a check-yourself question.
+- Learn one term at a time: text and visual side by side, then check-yourself questions.
+- **Question pools:** each term stores 10 questions (High usage), 6 (Medium) or 4 (Low). The app shows 3 at random wherever the term is tested and avoids ones the user saw recently. Quizzes and reviews are built from the terms' pools; there is no separate quiz content.
 - Progress % counts terms answered **correctly**, not pages viewed.
 - Quick review of 3–5 earlier terms at the start of each session; missed terms come back. "All caught up" when nothing is due.
 - Module quizzes and a final quiz per path.

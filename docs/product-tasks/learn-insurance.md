@@ -15,7 +15,7 @@ Milestones (M1 Public glossary, M2 Learning, M3 Automation & admin, Content) are
 | Epic 5: Legal & site basics | #39 | M1 | 7 |
 | Epic 6: Accounts, data & analytics | #47 | M2 | 6 |
 | Epic 7: Learning paths, questions & progress | #54 | M2 | 9 |
-| Epic 8: Term request & issue pipeline | #64 | M3 | 6 |
+| Epic 8: Term request & issue pipeline | #64 | M3 | 9 |
 | Epic 9: Admin | #71 | M3 | 5 |
 | Epic 10: Content production | #77 | Content | 7 |
 
@@ -71,12 +71,15 @@ Milestones (M1 Public glossary, M2 Learning, M3 Automation & admin, Content) are
 | #61 | 7.7 Module and final quizzes | Epic 7 | M | Open |
 | #62 | 7.8 Guest learning | Epic 7 | M | Open |
 | #63 | 7.9 My progress page | Epic 7 | S | Open |
+| #86 | 8.0 Agent dry run | Epic 8 | M | Open |
 | #65 | 8.1 Request a term | Epic 8 | M | Open |
 | #66 | 8.2 Report an issue | Epic 8 | S | Open |
 | #67 | 8.3 Writer and reviewer GitHub Action | Epic 8 | L | Open |
 | #68 | 8.4 Auto-publish | Epic 8 | M | Open |
 | #69 | 8.5 Request status | Epic 8 | S | Open |
 | #70 | 8.6 Batch fill | Epic 8 | M | Open |
+| #87 | 8.7 Pipeline secrets and permissions | Epic 8 | S | Open |
+| #88 | 8.8 Daily run cap | Epic 8 | S | Open |
 | #72 | 9.1 Admin layout and access | Epic 9 | S | Open |
 | #73 | 9.2 Review queue | Epic 9 | M | Open |
 | #74 | 9.3 Term requests pipeline view | Epic 9 | S | Open |

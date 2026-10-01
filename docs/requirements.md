@@ -38,7 +38,8 @@ A web app that explains US insurance terms in plain English. This file records w
 
 ### Learning
 - Learning paths: **Insurance basics**, plus **one path per insurance type**. No role-based paths.
-- Learn one term at a time: text and visual side by side, then a check-yourself question.
+- Learn one term at a time: text and visual side by side, then check-yourself questions.
+- **Question pools:** each term stores 10 questions (High usage), 6 (Medium) or 4 (Low). The app shows 3 at random wherever the term is tested and avoids ones the user saw recently. Quizzes and reviews are built from the terms' pools; there is no separate quiz content.
 - Progress % counts terms answered **correctly**, not pages viewed.
 - Quick review of 3–5 earlier terms at the start of each session; missed terms come back. "All caught up" when nothing is due.
 - Module quizzes and a final quiz per path.

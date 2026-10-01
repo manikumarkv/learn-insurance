@@ -24,7 +24,7 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 | `flowStages` | yes | List from **flow stages** below: where the term matters in a policy's life. |
 | `story` | yes | Real-life story, see **Story**. |
 | `visual` | yes | One diagram template, see **Visual**. |
-| `checkYourself` | yes | One multiple-choice question, see **Check yourself**. |
+| `questions` | yes | Pool of multiple-choice questions: 10 for High usage, 6 for Medium, 4 for Low. See **Questions**. |
 | `faqs` | yes | 2–4 items of `{ question, answer }`. The first question is "What is <term> in insurance?". Answers ≤ 50 words. |
 | `relatedTerms` | yes | 2–6 IDs of terms that already exist. |
 | `usNotes` | no | Federal or state differences. Only facts you can back with a source. |
@@ -120,20 +120,39 @@ visual:
 
 Numbers in `who-pays` parts must add up to `total`. `timeline` shares must add up to 100.
 
-## Check yourself
+## Questions
+
+Each term has a pool of questions. The app shows **3 at random** wherever the term is tested (term page, learn card, module and final quizzes, quick review) and avoids questions the user has seen recently.
+
+Pool size depends on `usageFrequency`:
+
+| Usage | Questions in pool |
+|---|---|
+| High | 10 |
+| Medium | 6 |
+| Low | 4 |
 
 ```yaml
-checkYourself:
-  question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
-  options: [A claim, An endorsement, A renewal, A binder]
-  answer: 1              # zero-based index into options
-  explanation: Adding a driver changes the policy while it is active, which is done with an endorsement.
+questions:
+  - type: scenario
+    question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
+    options: [A claim, An endorsement, A renewal, A binder]
+    answer: 1              # zero-based index into options
+    explanation: Adding a driver changes the policy while it is active, which is done with an endorsement.
+  - type: meaning
+    question: Which best describes an endorsement?
+    options: [A new policy that replaces the old one, A written change to an active policy, A request for payment after a loss, A discount for safe drivers]
+    answer: 1
+    explanation: An endorsement updates part of an existing policy; it doesn't replace it.
 ```
 
 Rules:
-- A short scenario, not "What is the definition of X?".
-- 3–4 options, all real insurance terms, exactly one correct.
-- The correct answer isn't always in the same position.
+- `type` is one of `scenario` (a short real-life situation), `meaning` (which description fits), or `difference` (tell this term apart from a similar one). Mix the types; at least half are `scenario`.
+- 3–4 options, all plausible and drawn from real insurance terms or ideas, exactly one correct.
+- Each question tests the term from a different angle. No near-duplicates, rewordings of another question, or trick questions.
+- The correct answer isn't always in the same position across the pool.
+- `explanation` says why the answer is right in one or two sentences.
+- Questions follow the same writing style, accuracy and US-only rules as the rest of the entry.
 
 ## Writing style
 
@@ -185,11 +204,37 @@ visual:
     before: { label: "Policy · Jan 1", lines: ["$100/month", "Old address", "Liability only"] }
     change: Endorsement
     after: { label: "Policy · Jan 20", lines: ["$120/month", "New address", "Liability + collision"] }
-checkYourself:
-  question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
-  options: [A claim, An endorsement, A renewal, A binder]
-  answer: 1
-  explanation: Adding a driver changes the active policy, which is done with an endorsement.
+questions:                # Medium usage: 6 questions
+  - type: scenario
+    question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?
+    options: [A claim, An endorsement, A renewal, A binder]
+    answer: 1
+    explanation: Adding a driver changes the active policy, which is done with an endorsement.
+  - type: meaning
+    question: Which best describes an endorsement?
+    options: [A new policy that replaces the old one, A written change to an active policy, A request for payment after a loss, A discount for safe drivers]
+    answer: 1
+    explanation: An endorsement updates part of an existing policy; it doesn't replace it.
+  - type: scenario
+    question: Maria moves to a new city in the middle of her home policy term. How does her insurer update the address?
+    options: [With an endorsement, By cancelling the policy, By filing a claim, By waiting for renewal]
+    answer: 0
+    explanation: A change of address during the term is made with an endorsement.
+  - type: difference
+    question: Which of these is a change to an existing policy rather than a new one?
+    options: [A binder, A quote, An endorsement, An application]
+    answer: 2
+    explanation: Binders, quotes and applications come before a policy exists; an endorsement changes one that does.
+  - type: scenario
+    question: Sam adds collision coverage to his car policy mid-term. What usually happens to his premium?
+    options: [It stays the same, It goes up, It is refunded, The policy is cancelled]
+    answer: 1
+    explanation: Adding coverage adds risk for the insurer, so the endorsement usually raises the premium.
+  - type: meaning
+    question: Where does an endorsement end up once it is issued?
+    options: [In a separate new policy, In a claim file only, As part of the existing policy, Nowhere; it is verbal only]
+    answer: 2
+    explanation: An endorsement is a written document that becomes part of the policy it changes.
 faqs:
   - { question: What is an endorsement in insurance?, answer: "An official written change to your policy after it starts, like a new address or added coverage." }
   - { question: Does an endorsement change my premium?, answer: "It can. Adding coverage or risk usually raises the premium; removing it can lower it." }

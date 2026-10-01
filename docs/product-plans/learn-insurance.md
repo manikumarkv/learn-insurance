@@ -542,6 +542,16 @@ _Goal: Ram can learn a path step by step and see real progress._
 ### Epic 8: Term request & issue pipeline
 _Goal: missing terms and errors get fixed with no manual step._
 
+#### Story 8.0 — Agent dry run
+**As** Mani, **I want** the writer and reviewer agents proven on real terms before automation, **so that** the pipeline publishes good content from day one.
+**Size:** M
+**Depends on:** 2.2
+
+**Acceptance Criteria:**
+- [ ] Run `term-writer` and `term-reviewer` by hand on ~5 sample terms (mix of P0, a missing TMHCC term, an abbreviation request, a non-insurance word, a duplicate).
+- [ ] Every approved output passes `pnpm validate:content`; rejections give the right reason.
+- [ ] Prompts tuned for any recurring problems; findings recorded in `docs/content/agent-dry-run.md`.
+
 #### Story 8.1 — Request a term
 **As** Priya, **I want** to request a missing term, **so that** it gets added.
 **Size:** M
@@ -563,7 +573,7 @@ _Goal: missing terms and errors get fixed with no manual step._
 #### Story 8.3 — Writer and reviewer GitHub Action
 **As** Mani, **I want** new requests and reports handled by the agents, **so that** I don't write content by hand.
 **Size:** L
-**Depends on:** 2.2
+**Depends on:** 8.0
 
 **Acceptance Criteria:**
 - [ ] Action runs `term-writer`, then `term-reviewer`, with up to 2 revise rounds.
@@ -594,6 +604,27 @@ _Goal: missing terms and errors get fixed with no manual step._
 
 **Acceptance Criteria:**
 - [ ] Manually triggered Action fills N terms from `data/content-priority.csv` (P0 first), one PR per batch.
+
+#### Story 8.7 — Pipeline secrets and permissions
+**As** Mani, **I want** the Action set up with the right credentials and permissions, **so that** it can work without bypassing branch protection.
+**Size:** S
+**Depends on:** 8.3
+
+**Acceptance Criteria:**
+- [ ] Claude credentials stored as a repository secret (API key or Claude Code GitHub App); never in code or logs.
+- [ ] Workflow token has only the permissions it needs (issues, pull requests, contents).
+- [ ] Publishing goes through a PR with auto-merge after checks pass; nothing pushes to `main` directly.
+- [ ] Setup steps documented.
+
+#### Story 8.8 — Daily run cap
+**As** Mani, **I want** a daily limit on agent runs, **so that** costs stay predictable.
+**Size:** S
+**Depends on:** 8.3
+
+**Acceptance Criteria:**
+- [ ] Configurable daily cap (e.g. `MAX_AGENT_RUNS_PER_DAY`); requests over the cap wait for the next day.
+- [ ] Queued requests are labelled so they show in the admin pipeline view.
+- [ ] TODO(edge-cases) noted for spam and abuse handling.
 
 ### Epic 9: Admin
 _Goal: Mani reviews everything that needs a human look on one screen._

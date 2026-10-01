@@ -23,11 +23,13 @@ A web app that explains US insurance terms in plain English. This file records w
 - **Abbreviations:** each term has its full name plus an optional abbreviation (211 terms have one). Search finds either; `/terms/acv` redirects to the full term; the title shows "HMO (Health Maintenance Organization)" when the abbreviation is the common name.
 - Seed data: `data/insurance-glossary.csv` (1,016 terms).
 
+- **Unfilled terms:** all 1,016 terms are live from launch. Terms whose full content isn't written yet show a basic page (definition, example, abbreviation, related terms, US notes) with a "Full explanation coming soon" note.
+
 ### Insurance types
 - Expandable tree of all US insurance types (`data/insurance-taxonomy.csv`, 580 types).
 - One page per type at `/types/<slug>` with quick answer, visual, sub-types, key terms (most used first), FAQs, US notes and a link to its learning path.
 
-- **Content priority:** `data/content-priority.csv` orders all terms for content filling (P1: terms central to Tokio Marine HCC specialty lines, P2: supporting and High-usage terms, P3: the rest). `docs/content/missing-terms-tmhcc.csv` lists 111 terms to request first. See `docs/content/priority.md`.
+- **Content priority:** `data/content-priority.csv` orders all terms for content filling (P0: 194 foundation terms used across all insurance, P1: terms central to Tokio Marine HCC specialty lines, P2: supporting terms, P3: the rest). `docs/content/missing-terms-tmhcc.csv` lists 111 terms to request first. See `docs/content/priority.md`.
 
 ### Search and term requests
 - Search across terms and types (Pagefind).

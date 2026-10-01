@@ -1,6 +1,6 @@
 # Content priority
 
-The term writer agent fills in each glossary term's content: story, visual, question pool, FAQs and SEO. This list sets the order. Terms used in Tokio Marine HCC (TMHCC) specialty lines come first, because the product owner works with those lines.
+The term writer agent fills in each glossary term's content: story, visual, question pool, FAQs and SEO. This list sets the order. Foundation terms that every insurance type uses come first, then terms used in Tokio Marine HCC (TMHCC) specialty lines, because the product owner works with those lines.
 
 - **Priority list:** `data/content-priority.csv` (all 1,016 glossary terms, each listed once)
 - **Missing terms:** `docs/content/missing-terms-tmhcc.csv` (111 term requests)
@@ -12,19 +12,33 @@ I reduced the 92 TMHCC generic types to 58 type labels, for example "Medical sto
 
 | Priority | Rule | Count |
 |---|---|---|
-| **P1** | Central to one or more TMHCC types: the type's own term and its core mechanics. Examples: specific and aggregate stop-loss, attachment point, obligee, bid bond, Side A/B/C, institute cargo clauses, actual production history. | **141** |
-| **P2** | Supporting terms used across TMHCC lines, such as claims-made, retroactive date, sublimit, retention, excess, surplus lines, MGA, binding authority, bordereau, Lloyd's and fully earned premium (122 terms). P2 also includes every remaining High-usage general term (116 terms), because learners need those to understand anything. | **238** |
-| **P3** | Everything else, mostly personal auto, homeowners, life, annuity and ACA health terms. | **637** |
+| **P0** | **Foundation:** every Core Concept and Lifecycle term plus every High-usage term (insured, policy, quote, binding, coverage, premium, deductible, claim, renewal, cancellation…). These are taken out of P1–P3 and done first. | **194** |
+| **P1** | Central to one or more TMHCC types: the type's own term and its core mechanics. Examples: specific and aggregate stop-loss, attachment point, obligee, bid bond, Side A/B/C, institute cargo clauses, actual production history. | **127** (after moving 14 to P0) |
+| **P2** | Supporting terms used across TMHCC lines, such as claims-made, retroactive date, sublimit, retention, excess, surplus lines, MGA, binding authority, bordereau, Lloyd's and fully earned premium (High-usage terms moved to P0). | **95** (after moving 143 to P0) |
+| **P3** | Everything else, mostly personal auto, homeowners, life, annuity and ACA health terms. | **600** (after moving 37 to P0) |
 
-**Order within a priority:** Usage Frequency first (High, then Medium, then Low), then Difficulty (Beginner first). Within P1, a term that serves more TMHCC types comes first. P3 uses the same sort. The `Order` column runs from 1 to 1,016 across all three priorities.
+**Order within a priority:** Usage Frequency first (High, then Medium, then Low), then Difficulty (Beginner first). Within P1, a term that serves more TMHCC types comes first. P3 uses the same sort. P0 is sorted by Usage Frequency, then Difficulty, then name. The `Order` column runs from 1 to 1,016 across all priorities.
 
 **TMHCC Types column:** lists the types a term serves, separated by semicolons. It is filled for P1 terms and for type-specific P2 support terms. It is blank for general High-usage terms, for general cross-line mechanics and for all P3 terms.
 
+## Phases
+
+| Phase | What gets full content | Count |
+|---|---|---|
+| **0: Foundation** | All P0 terms. The Insurance basics learning path is built from these. | 194 |
+| **1: TMHCC focus** | The 111 missing TMHCC terms (written new), then P1 | ~238 |
+| **2** | P2 | 95 |
+| **3** | P3 | 600 |
+| **Ongoing** | User term requests and issue-report fixes, through the automatic pipeline | — |
+
+**Decided:** terms not filled yet are still published with a basic page: definition, example, abbreviation, related terms and US notes from the seed data, plus a short "Full explanation coming soon" note. They appear in search and Terms A–Z from launch.
+
 ## How the writer pipeline uses it
 
-1. **Missing terms first.** Before the writer enriches the P1 terms of a TMHCC type, it requests that type's missing terms from `missing-terms-tmhcc.csv` (for example "Non-Appearance Insurance" before the event cancellation terms). This lets the new pages link to each other.
-2. **Then P1** in `Order` sequence.
-3. **Then P2**, then **P3**.
+1. **P0 Foundation first.**
+2. **Missing terms next.** Before the writer enriches the P1 terms of a TMHCC type, it requests that type's missing terms from `missing-terms-tmhcc.csv` (for example "Non-Appearance Insurance" before the event cancellation terms). This lets the new pages link to each other.
+3. **Then P1** in `Order` sequence.
+4. **Then P2**, then **P3**.
 
 Each term is written to the schema in `docs/content/term-schema.md`.
 

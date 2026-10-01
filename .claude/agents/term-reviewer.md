@@ -56,7 +56,7 @@ Go through every group. Collect all findings before deciding.
 - The correct answer's position varies across the pool.
 
 ### 6. Style and safety
-- Plain English a newcomer understands; sentences of about 20 words or fewer; jargon either explained or linked in `relatedTerms`.
+- Plain English a newcomer understands; sentences of about 20 words or fewer; every insurance term used is either explained in the sentence or exists in the glossary so it gets linked (see the schema's **Term links**); `[[...]]` overrides point at real term IDs; no `[[!...]]` used to hide a term that needed explaining.
 - US only.
 - Explains, never advises. No recommendations to buy, cancel or choose products.
 - No real people, companies or brands. Nothing offensive, and no links other than in `sources`.

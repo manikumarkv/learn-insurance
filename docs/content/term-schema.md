@@ -168,10 +168,20 @@ Rules:
 - `explanation` says why the answer is right in one or two sentences.
 - Questions follow the same writing style, accuracy and US-only rules as the rest of the entry.
 
+## Term links
+
+Text fields (`quickAnswer`, `definition`, `example`, story steps, FAQ answers, `usNotes`, question explanations) are linked to other terms like a wiki.
+
+- **Automatic:** at build time the site links mentions of other terms' `term`, `abbreviation` and `alsoKnownAs`. Writers don't need to tag anything.
+- **Rules:** whole words, case-insensitive; longest match wins ("actual cash value" before "cash value"); only the first mention per section; never a link to the page itself; at most 5 links per section.
+- **Overrides:** `[[premium]]` forces a link (use the term ID, or `[[premium|premiums]]` to show different text); `[[!policy]]` stops one where the word is used in its everyday sense.
+- **Display:** term links have a dotted underline and show a preview (quick answer + "Open term") on hover or tap; normal links keep a solid underline.
+- **Missing terms:** a jargon word with no glossary entry can't be linked. The writer lists it in its summary so it can be requested.
+
 ## Writing style
 
 - Plain English for a smart reader with no insurance background. Aim for grade 8 reading level.
-- Sentences of 20 words or fewer. No unexplained jargon; if another term is needed, it must be in `relatedTerms`.
+- Sentences of 20 words or fewer. No unexplained jargon: any other insurance term you use must exist in the glossary (so it is linked, see **Term links**) or be explained in the sentence.
 - US market only. Say when something varies by state.
 - Explain, never advise. No "you should buy", "always", "never", or statements about a specific company's product.
 - No real people, companies or brands in examples and stories.

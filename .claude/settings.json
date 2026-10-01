@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "devrunway": {
+      "source": {
+        "source": "github",
+        "repo": "manikumarkv/devrunway-claude-plugin"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "devrunway@devrunway": true
+  }
+}

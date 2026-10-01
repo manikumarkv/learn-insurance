@@ -68,9 +68,11 @@ Admin-only screen (Clerk role `admin`) with everything that needs a human look:
 
 | Area | Choice |
 |---|---|
-| Framework | Astro |
+| Framework | Astro, with React for interactive parts (quiz, learn cards, search, admin) |
 | Content | Keystatic (Git-based content files) |
 | Styling | Tailwind CSS |
+| Validation | Zod |
+| Package manager | pnpm |
 | Design system | **Paper Design** |
 | Search | Pagefind |
 | Hosting | Vercel |
@@ -78,7 +80,8 @@ Admin-only screen (Clerk role `admin`) with everything that needs a human look:
 | Database | **Neon Postgres**: learning progress, quiz results, term requests and reports status |
 | Analytics | PostHog + Google Search Console |
 | Automation | GitHub Issues + GitHub Actions running Claude agents (`.claude/agents/term-writer.md`, `term-reviewer.md`) |
-| Coding standards | devrunway Claude Code plugin (installed before the app is scaffolded) |
+| Coding standards | devrunway Claude Code plugin, project scope (`.claude/settings.json`, `stack.json`). Policy: no direct commits to `main`. |
+| Error monitoring | None for now (Vercel logs) |
 
 ## Not doing (for now)
 
@@ -94,6 +97,5 @@ Deliberately postponed to a separate session. When code needs to handle one, lea
 
 ## Open items
 
-- Devrunway layers for Astro, Keystatic, Clerk, Pagefind and PostHog analytics are being added in the plugin; install devrunway in this repo before scaffolding.
 - Two fact-check items held for manual review (see `docs/verification/applied.md`).
 - A few facts change often and should be re-checked before launch: TRIA reauthorization, NFIP authorization date, ACA open-enrollment dates, short-term health plan rules.

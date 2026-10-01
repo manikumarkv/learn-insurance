@@ -3,6 +3,8 @@ import glob, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 for path in sorted(glob.glob(os.path.join(HERE, "source", "*.dc.html"))):
+    if os.path.basename(path).startswith("PD"):
+        continue  # Paper Design mockups need the canvas runtime
     html = open(path).read()
     html = html.replace('<script src="./support.js"></script>\n', "")
     html = re.sub(r'<script type="text/x-dc".*?</script>\n', "", html, flags=re.S)

@@ -177,13 +177,45 @@
       "h": 1640,
       "title": "15 · Admin: manual review",
       "is_interactive": true
+    },
+    "PDHome.dc.html": {
+      "x": 0,
+      "y": 11540,
+      "w": 1280,
+      "h": 1560,
+      "title": "PD1 · Home (Paper Design)",
+      "is_interactive": true
+    },
+    "PDTerm.dc.html": {
+      "x": 1360,
+      "y": 11540,
+      "w": 1280,
+      "h": 2480,
+      "title": "PD2 · Term page (Paper Design)",
+      "is_interactive": true
+    },
+    "PDLearn.dc.html": {
+      "x": 2720,
+      "y": 11540,
+      "w": 1280,
+      "h": 1300,
+      "title": "PD3 · Learn card (Paper Design)",
+      "is_interactive": true
     }
   },
   "createdOnFiles": {
     "at": "2026-09-30T17:52:54Z",
     "v": 1
   },
-  "designSystems": [],
+  "designSystems": [
+    {
+      "title": "Paper Design",
+      "namespace": "paperdesign",
+      "artifact": "https://claude.ai/artifact/6y9ciABHRUexAtuPi5Hxnn",
+      "version": "1790803041-bc2e",
+      "copiedAt": "2026-10-01T20:30:00Z"
+    }
+  ],
   "launch": {
     "view": "canvas"
   },
@@ -243,6 +275,14 @@
       "w": 380,
       "x": 5440,
       "y": 0
+    },
+    "row5": {
+      "kind": "title1",
+      "text": "Paper Design (real look)",
+      "x": 0,
+      "y": 11240,
+      "maxW": 4000,
+      "w": 240
     }
   },
   "order": [
@@ -267,7 +307,10 @@
     "Admin.dc.html",
     "MHome.dc.html",
     "MTerm.dc.html",
-    "MLearn.dc.html"
+    "MLearn.dc.html",
+    "PDHome.dc.html",
+    "PDTerm.dc.html",
+    "PDLearn.dc.html"
   ],
   "pages": [],
   "title": "Learn Insurance Wireframes"

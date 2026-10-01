@@ -66,6 +66,8 @@ Follow the schema's writing style: plain English, short sentences, US only, expl
 
 Only create or edit this one file. Never change other terms, the seed data or site code.
 
+Term links: the site links other terms automatically (schema **Term links**). Use `[[id]]` only to force a link the automatic matcher would miss, and `[[!word]]` only where a word like "policy" is used in its everyday sense. If you use a jargon word that has no glossary entry, list it under `missingTerms` in your summary.
+
 ## Step 5 — Self-check
 
 Before finishing, re-read your file and confirm:
@@ -91,6 +93,7 @@ End with a short JSON block the pipeline can read:
   "file": "src/content/terms/endorsement.yaml",
   "existingId": null,
   "suggestions": [],
+  "missingTerms": [],
   "sources": ["https://..."],
   "notes": "One or two plain sentences for the GitHub issue comment."
 }

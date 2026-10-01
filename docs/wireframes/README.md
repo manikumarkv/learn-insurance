@@ -31,6 +31,9 @@ Grey-box wireframes for LearnInsurance. They show layout and flow, not final col
 | M1 | Home (mobile) | [MHome](preview/MHome.html) |
 | M2 | Term page (mobile) | [MTerm](preview/MTerm.html) |
 | M3 | Learn card (mobile) | [MLearn](preview/MLearn.html) |
+| PD1 | Home in Paper Design | Live canvas only |
+| PD2 | Term page in Paper Design | Live canvas only |
+| PD3 | Learn card in Paper Design | Live canvas only |
 
 ## Files
 
@@ -39,6 +42,7 @@ Grey-box wireframes for LearnInsurance. They show layout and flow, not final col
 | `build.py` | Generates every artboard. Edit this to change a screen. |
 | `source/*.dc.html` | Artboards in the canvas format, as published to the live canvas. |
 | `source/canvas.json` | Canvas layout: where each artboard sits, row titles and sticky notes. |
+| `build_paper.py` | Generates the Paper Design mockups (`source/PD*.dc.html`). They use the real Paper Design components installed on the canvas, so they have no plain-HTML preview. Each has a Theme tweak (soft light, soft dark, high contrast light and dark). |
 | `preview.py` | Converts `source/` into plain HTML in `preview/`. |
 | `preview/*.html` | Plain HTML previews. Links between screens work. |
 

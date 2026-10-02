@@ -14,8 +14,8 @@ const { pathname } = Astro.url;
       LearnInsurance
     </a>
 
-    <!-- Desktop (768px and up) -->
-    <nav aria-label="Main" class="hidden flex-1 md:block">
+    <!-- Desktop (1024px and up). Narrower screens use the menu below. -->
+    <nav aria-label="Main" class="hidden flex-1 lg:block">
       <ul class="m-0 flex list-none gap-6 p-0">
         {MAIN_NAV.map((item) => {
           const active = isActive(pathname, item.href);
@@ -24,7 +24,10 @@ const { pathname } = Astro.url;
               <a
                 href={item.href}
                 aria-current={active ? 'page' : undefined}
-                class:list={['text-label-lg', active ? 'underline' : 'no-underline']}
+                class:list={[
+                  'text-label-lg whitespace-nowrap',
+                  active ? 'underline' : 'no-underline',
+                ]}
               >
                 {item.label}
               </a>
@@ -33,11 +36,15 @@ const { pathname } = Astro.url;
         })}
       </ul>
     </nav>
-    <div class="hidden items-center gap-3 md:flex">
-      <div class="w-56">
+    <div class="hidden items-center gap-3 lg:flex">
+      <div class="hidden w-56 xl:block">
         <SearchForm id="header-search" />
       </div>
-      <div class="w-48">
+      <!-- TODO(story 4.2): /search shows results. -->
+      <a href="/search" class="pd-btn pd-btn-secondary pd-btn-icon xl:hidden" aria-label="Search">
+        <Icon name="search" size={20} />
+      </a>
+      <div class="w-44">
         <ThemeToggle compact client:only="react" />
       </div>
       <!-- TODO(story 6.1): show the account menu when signed in. -->
@@ -46,8 +53,8 @@ const { pathname } = Astro.url;
       </a>
     </div>
 
-    <!-- Mobile (below 768px): a disclosure menu that works without JavaScript. -->
-    <details class="group ml-auto md:hidden">
+    <!-- Below 1024px: a disclosure menu that works without JavaScript. -->
+    <details class="group ml-auto lg:hidden">
       <summary
         class="pd-btn pd-btn-secondary list-none [&::-webkit-details-marker]:hidden"
         aria-label="Menu"

@@ -10,7 +10,7 @@ test('theme follows the device by default', async ({ browser }) => {
 
 test('chosen theme is applied and remembered after reload', async ({ page }) => {
   await page.goto('/design');
-  const picker = page.getByRole('banner').getByLabel('Theme').first();
+  const picker = page.getByRole('banner').getByRole('combobox', { name: 'Theme' });
   await picker.selectOption('dark-hc');
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark-hc');
   await page.reload();

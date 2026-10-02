@@ -7,6 +7,7 @@ import { CheckYourself } from '../../features/terms/CheckYourself';
 import Disclaimer from '../../features/terms/Disclaimer.astro';
 import { displayTitle, formatDate, seoFor, shortName } from '../../features/terms/display';
 import Section from '../../features/terms/Section.astro';
+import TermText from '../../features/terms/TermText.astro';
 import FlowStrip from '../../features/terms/visuals/FlowStrip.astro';
 import TermVisual from '../../features/terms/visuals/TermVisual.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
@@ -66,7 +67,9 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
           <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
             Quick answer
           </h2>
-          <p class="text-body-lg m-0">{t.quickAnswer}</p>
+          <p class="text-body-lg m-0">
+            <TermText text={t.quickAnswer} selfId={entry.id} />
+          </p>
         </section>
       )}
 
@@ -89,11 +92,15 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
       )}
 
       <Section title="In plain English" id="definition">
-        <p class="text-body-lg m-0">{t.definition}</p>
+        <p class="text-body-lg m-0">
+          <TermText text={t.definition} selfId={entry.id} />
+        </p>
       </Section>
 
       <Section title="Example" id="example">
-        <p class="text-body-lg m-0">{t.example}</p>
+        <p class="text-body-lg m-0">
+          <TermText text={t.example} selfId={entry.id} />
+        </p>
       </Section>
 
       {full && flowHighlight.length > 0 && (
@@ -120,7 +127,9 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
                     {step.stage}
                     {step.highlight && <span> · this is the {shortName(t).toLowerCase()}</span>}
                   </p>
-                  <p class="text-body m-0">{step.text}</p>
+                  <p class="text-body m-0">
+                    <TermText text={step.text} selfId={entry.id} />
+                  </p>
                 </div>
               </li>
             ))}
@@ -142,7 +151,9 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
             {t.faqs.map((f, i) => (
               <details class="border-ink rounded-md border-2 px-4 py-3" open={i === 0}>
                 <summary class="text-label-lg cursor-pointer">{f.question}</summary>
-                <p class="text-body mt-2 mb-0">{f.answer}</p>
+                <p class="text-body mt-2 mb-0">
+                  <TermText text={f.answer} selfId={entry.id} />
+                </p>
               </details>
             ))}
           </div>
@@ -151,7 +162,9 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
 
       {t.usNotes && (
         <Section title="US notes" id="us-notes">
-          <p class="text-body m-0">{t.usNotes}</p>
+          <p class="text-body m-0">
+            <TermText text={t.usNotes} selfId={entry.id} />
+          </p>
         </Section>
       )}
 
@@ -210,3 +223,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
     </aside>
   </div>
 </SiteLayout>
+
+<script>
+  import '../../features/terms/term-preview';
+</script>

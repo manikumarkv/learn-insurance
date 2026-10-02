@@ -38,7 +38,7 @@ const { pathname } = Astro.url;
     </nav>
     <div class="hidden items-center gap-3 lg:flex">
       <div class="hidden w-56 xl:block">
-        <SearchForm id="header-search" />
+        <SearchForm id="header-search" landmark="Site search" />
       </div>
       <a href="/search" class="pd-btn pd-btn-secondary pd-btn-icon xl:hidden" aria-label="Search">
         <Icon name="search" size={20} />
@@ -63,7 +63,7 @@ const { pathname } = Astro.url;
         <span class="hidden group-open:inline">Close</span>
       </summary>
       <div class="bg-paper border-ink absolute inset-x-0 z-10 mt-3 flex flex-col gap-4 border-b-2 px-4 pb-6">
-        <SearchForm id="menu-search" showLabel />
+        <SearchForm id="menu-search" showLabel landmark="Site search" />
         <nav aria-label="Main">
           <ul class="m-0 flex list-none flex-col gap-3 p-0">
             {MAIN_NAV.map((item) => (

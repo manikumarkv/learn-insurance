@@ -59,7 +59,12 @@ export function SearchPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <form role="search" className="flex items-end gap-2" onSubmit={(e) => e.preventDefault()}>
+      <form
+        role="search"
+        aria-label="Search terms and insurance types"
+        className="flex items-end gap-2"
+        onSubmit={(e) => e.preventDefault()}
+      >
         <div className="pd-field min-w-0 flex-1">
           <label className="pd-label" htmlFor={inputId}>
             Search terms and insurance types

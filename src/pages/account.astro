@@ -1,0 +1,19 @@
+---
+import { UserProfile } from '@clerk/astro/components';
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+// Rendered on request so src/middleware.ts can send signed-out visitors to /sign-in.
+export const prerender = false;
+---
+
+<SiteLayout
+  title="Your account · LearnInsurance"
+  description="Your LearnInsurance account."
+  noindex
+>
+  <div class="flex flex-col gap-6">
+    <h1 class="text-headline m-0">Your account</h1>
+    <!-- TODO(story 6.4): progress export and delete-my-data controls. -->
+    <UserProfile routing="hash" />
+  </div>
+</SiteLayout>

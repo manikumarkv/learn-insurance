@@ -1,0 +1,37 @@
+---
+import { Show, UserButton } from '@clerk/astro/components';
+
+interface Props {
+  /** Full-width button in the mobile menu. */
+  wide?: boolean;
+}
+
+const { wide = false } = Astro.props;
+---
+
+<!--
+  The "Sign in" link works without JavaScript and shows until Clerk knows the person is signed in.
+  Then the account menu (avatar) replaces it.
+-->
+<div class="flex items-center" data-account-menu>
+  <a
+    href="/sign-in"
+    data-signed-out
+    class:list={['ui-btn ui-btn-primary', !wide && 'ui-btn-sm', wide && 'w-full']}
+  >
+    Sign in
+  </a>
+  <Show when="signed-in">
+    <UserButton userProfileUrl="/account" userProfileMode="navigation" />
+  </Show>
+</div>
+
+<script>
+  import { $authStore } from '@clerk/astro/client';
+
+  $authStore.subscribe(({ userId }) => {
+    for (const link of document.querySelectorAll<HTMLElement>('[data-signed-out]')) {
+      link.hidden = !!userId;
+    }
+  });
+</script>

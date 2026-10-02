@@ -1,4 +1,5 @@
 ---
+import AccountMenu from '../../features/account/AccountMenu.astro';
 import { ThemeToggle } from '../ThemeToggle';
 import { Icon } from '../ui/Icon';
 import SearchForm from './SearchForm.astro';
@@ -51,10 +52,7 @@ const { pathname } = Astro.url;
       <div class="w-44">
         <ThemeToggle compact client:only="react" />
       </div>
-      <!-- TODO(story 6.1): show the account menu when signed in. -->
-      <a href="/sign-in" class="ui-btn ui-btn-primary ui-btn-sm">
-        Sign in
-      </a>
+      <AccountMenu />
     </div>
 
     <!-- Below 1024px: a disclosure menu that works without JavaScript. -->
@@ -85,9 +83,7 @@ const { pathname } = Astro.url;
           </ul>
         </nav>
         <ThemeToggle client:only="react" />
-        <a href="/sign-in" class="ui-btn ui-btn-primary">
-          Sign in
-        </a>
+        <AccountMenu wide />
       </div>
     </details>
   </div>

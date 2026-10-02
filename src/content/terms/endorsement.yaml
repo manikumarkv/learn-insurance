@@ -1,7 +1,6 @@
 term: Endorsement
 contentStatus: full
 alsoKnownAs:
-  - Policy Change
   - Amendment
 category: Policy Wording
 lines:
@@ -99,14 +98,14 @@ questions:
     answer: 0
     explanation: Both are written changes to a policy. "Rider" is the name most often used for life and health policies.
   - type: scenario
-    question: A bakery owner gets an endorsement on her business policy that excludes mold damage. What does this endorsement do?
+    question: At renewal, a bakery owner's insurer adds an endorsement to her business policy. Which of these could it do?
     options:
-      - It adds mold coverage to the policy
-      - It cancels the whole policy
-      - It takes mold damage out of the policy's coverage
-      - It doubles the premium
-    answer: 2
-    explanation: Endorsements can remove or exclude coverage, not only add it. This one means mold damage is not covered.
+      - Only add new coverage
+      - Exclude a type of damage, such as mold
+      - Cancel the whole policy
+      - Pay a claim
+    answer: 1
+    explanation: Endorsements can remove or exclude coverage, not only add it.
   - type: scenario
     question: Dev wants to add coverage for his art collection. His home policy renews next month. When can an endorsement be added?
     options:
@@ -133,7 +132,7 @@ relatedTerms:
   - premium
   - exclusion
 usNotes: >-
-  Insurers file their policy forms, including endorsement forms, with state insurance regulators.
+  Most insurers must file their policy forms, including endorsement forms, with state insurance regulators.
   Review rules vary by state. In Texas, for example, a residential property endorsement must be
   filed and approved before it is used.
 seo:

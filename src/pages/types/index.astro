@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import { buildTree } from '../../features/types/tree';
+import { TypesTree } from '../../features/types/TypesTree';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const types = await getCollection('types');
+const roots = buildTree(
+  types.map(({ id, data }) => ({
+    id,
+    name: data.name,
+    parent: data.parent,
+    description: data.description,
+    example: data.example,
+  })),
+);
+---
+
+<SiteLayout
+  title="Insurance types · LearnInsurance"
+  description={`See how ${types.length} US insurance types fit together, from life and health to cyber and crop insurance, explained in plain English.`}
+>
+  <div class="flex flex-col gap-6">
+    <header>
+      <h1 class="text-headline m-0">Insurance types</h1>
+      <p class="text-body text-ink-muted m-0">
+        How {types.length} US insurance types fit together. Open a branch to see what sits under it.
+      </p>
+    </header>
+    <!-- Rendered on the server too, so the top-level types are in the HTML. -->
+    <TypesTree client:load roots={roots} total={types.length} />
+  </div>
+</SiteLayout>

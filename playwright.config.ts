@@ -10,6 +10,17 @@ export default defineConfig({
   reporter: process.env.CI ? 'github' : 'list',
   use: {
     baseURL: `http://localhost:${port}`,
+    // Most tests run as a visitor who has already made a cookie choice, so the banner stays out of the way.
+    // tests/e2e/cookies.spec.ts clears it to test the banner itself.
+    storageState: {
+      cookies: [],
+      origins: [
+        {
+          origin: `http://localhost:${port}`,
+          localStorage: [{ name: 'cookie-consent', value: 'necessary' }],
+        },
+      ],
+    },
     trace: 'on-first-retry',
   },
   projects: [

@@ -1,23 +1,156 @@
 term: Endorsement
-contentStatus: basic
+contentStatus: full
 alsoKnownAs:
-  - Rider
-  - Policy Change
   - Amendment
 category: Policy Wording
 lines:
   - all
 usageFrequency: Medium
 difficulty: Beginner
-definition: A written change added to a policy that adds, removes or changes coverage.
-example: Adding an endorsement for water backup coverage to a home policy.
+quickAnswer: >-
+  An endorsement is a written change to an insurance policy that adds, removes or changes coverage.
+  It can be added when you buy the policy, during the term or at renewal. It becomes part of the
+  policy contract, and it can raise or lower the premium. Examples include adding a driver or
+  covering jewelry.
+definition: >-
+  An endorsement is a written change to an insurance policy. It can add coverage, remove it,
+  exclude a risk or change a limit. Once issued, it becomes part of the policy and takes priority
+  over the original wording it changes. In life and health insurance, the same kind of change is
+  usually called a rider.
+example: >-
+  A standard home policy may not cover water that backs up through a drain. Adding a water backup
+  endorsement covers that damage, up to a set limit, for an extra premium.
 whereYoullSeeIt:
   - Policy document
   - Declarations page
+  - Agent/broker communications
+  - Policy administration system
+  - Regulatory filings
+flowStages:
+  - Issue
+  - Changes
+  - Renewal
+story:
+  person: Maria
+  steps:
+    - stage: Bind
+      text: Maria buys home insurance for $1,200 a year. Her policy does not cover water that backs up through a drain.
+    - stage: Changes
+      highlight: true
+      text: Six months in, Maria adds water backup coverage. Her insurer makes the change with an endorsement that costs $60 a year.
+    - stage: Result
+      text: Only half the year is left, so Maria pays $30 more for the rest of this term.
+    - stage: Claim
+      text: Later, a storm pushes water up through her basement drain. The endorsement covers the damage, minus her deductible.
+    - stage: Renewal
+      text: At renewal, her premium is $1,260 a year, with water backup coverage still included.
+visual:
+  caption: Same policy, one change. The endorsement adds water backup coverage for $60 a year.
+  diagram:
+    discriminant: before-after
+    value:
+      before:
+        label: Policy · Month 1
+        lines:
+          - $1,200/year
+          - No water backup coverage
+      change: Water backup endorsement
+      after:
+        label: Policy · Month 7
+        lines:
+          - $1,260/year
+          - Water backup covered
+questions:
+  - type: scenario
+    question: Jen buys an expensive engagement ring. Her home policy pays only a small amount for stolen jewelry. How can she add more coverage to the same policy?
+    options:
+      - File a claim
+      - Add an endorsement
+      - Wait for the policy to expire
+      - Ask for a binder
+    answer: 1
+    explanation: An endorsement can raise the coverage for valuable items like jewelry without buying a new policy.
+  - type: meaning
+    question: Which best describes an endorsement?
+    options:
+      - A written change that becomes part of the policy
+      - A new policy that replaces the old one
+      - A request for payment after a loss
+      - A bill for the next premium
+    answer: 0
+    explanation: An endorsement changes part of an existing policy and becomes part of that contract. It does not replace the policy.
+  - type: scenario
+    question: Carlos sells his second car halfway through his auto policy term. He wants to keep the policy for his other car. How is the sold car removed?
+    options:
+      - With a new quote
+      - With a cancellation notice
+      - With a claim form
+      - With an endorsement
+    answer: 3
+    explanation: Removing a vehicle changes the active policy while it keeps running. That change is made with an endorsement.
+  - type: difference
+    question: How is an endorsement different from a rider?
+    options:
+      - They do the same job; "rider" is the usual word in life and health insurance
+      - An endorsement only removes coverage, while a rider only adds it
+      - A rider is a separate policy, while an endorsement is not
+      - A rider is spoken, while an endorsement is written
+    answer: 0
+    explanation: Both are written changes to a policy. "Rider" is the name most often used for life and health policies.
+  - type: scenario
+    question: At renewal, a bakery owner's insurer adds an endorsement to her business policy. Which of these could it do?
+    options:
+      - Only add new coverage
+      - Exclude a type of damage, such as mold
+      - Cancel the whole policy
+      - Pay a claim
+    answer: 1
+    explanation: Endorsements can remove or exclude coverage, not only add it.
+  - type: scenario
+    question: Dev wants to add coverage for his art collection. His home policy renews next month. When can an endorsement be added?
+    options:
+      - Only when the policy is first bought
+      - Only at renewal
+      - At purchase, during the term or at renewal
+      - Only after a claim is paid
+    answer: 2
+    explanation: An endorsement can be issued when the policy is bought, in the middle of the term or at renewal.
+faqs:
+  - question: What is an endorsement in insurance?
+    answer: An endorsement is a written change to an insurance policy. It can add, remove or change coverage, and it becomes part of the policy contract.
+  - question: Does an endorsement change the premium?
+    answer: It depends on the change. Adding coverage usually raises the premium, and reducing coverage can lower it.
+  - question: Is an endorsement the same as a rider?
+    answer: They work the same way. Both are written changes to a policy. "Rider" is the usual word for life and health policies. "Endorsement" is more common for home, auto and business policies.
+  - question: How long does an endorsement last?
+    answer: Usually until the policy ends. Some endorsements have their own shorter term. At renewal, an endorsement may carry over with the rest of the policy.
 relatedTerms:
   - rider
   - mid-term-adjustment
   - form
-usNotes: Endorsement forms usually must be filed with the state department of insurance.
+  - declarations-page
+  - premium
+  - exclusion
+usNotes: >-
+  Most insurers must file their policy forms, including endorsement forms, with state insurance regulators.
+  Review rules vary by state. In Texas, for example, a residential property endorsement must be
+  filed and approved before it is used.
+seo:
+  metaTitle: What Is an Endorsement? Insurance Definition & Example
+  metaDescription: An endorsement is a written change to an insurance policy that adds, removes or changes coverage. See a plain-English definition, examples and premium effects.
+sources:
+  - title: "NAIC: What is an Insurance Endorsement or Rider?"
+    url: https://content.naic.org/article/consumer-insight-what-insurance-endorsement-or-rider
+  - title: "Maryland Insurance Administration: How Insurance Endorsements and Riders Work"
+    url: https://insurance.maryland.gov/Consumer/Documents/publicnew/ConsumerAdvisory-Endorsement.pdf
+  - title: "Louisiana Department of Insurance: Insurance 101, What is an Insurance Endorsement or Rider?"
+    url: https://www.ldi.la.gov/docs/default-source/documents/publicaffairs/january-insurance-101-endorsement-or-rider.pdf
+  - title: "Texas Department of Insurance: Review Requirements Checklist, Residential Property"
+    url: https://www.tdi.texas.gov/COMMERCIAL/pcckhome.html
+  - title: "NAIC: System for Electronic Rates and Forms Filing (SERFF)"
+    url: https://content.naic.org/index.php/industry/serff
 meta:
-  source: editorial
+  source: ai
+  createdAt: 2026-10-02
+  updatedAt: 2026-10-02
+  reviewedBy: term-reviewer

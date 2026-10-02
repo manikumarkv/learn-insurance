@@ -148,6 +148,7 @@ const roots = buildTree(
               <span class="text-body-sm text-ink-muted">
                 {p.data.modules.reduce((n, m) => n + m.terms.length, 0)} terms
               </span>
+              {/* TODO(story 7.2): the path detail page at /paths/<id>. */}
               <a href={`/paths/${p.id}`} class="ui-btn ui-btn-primary ui-btn-sm self-start">
                 Start
               </a>

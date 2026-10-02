@@ -27,10 +27,11 @@ pnpm format       # Prettier write
 pnpm typecheck    # astro check
 pnpm test         # Vitest unit tests
 pnpm test:e2e     # Playwright (builds and serves the site)
+pnpm validate:content   # check src/content against the term schema
 pnpm build
 ```
 
-Run `lint`, `typecheck`, `test` and `test:e2e` before every push. CI runs the same checks on every PR.
+Run `lint`, `typecheck`, `test`, `validate:content` and `test:e2e` before every push. CI runs the same checks on every PR.
 
 ## Stack
 

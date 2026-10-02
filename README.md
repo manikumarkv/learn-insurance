@@ -13,16 +13,17 @@ pnpm dev          # http://localhost:4321
 
 ## Scripts
 
-| Script           | What it does                                                  |
-| ---------------- | ------------------------------------------------------------- |
-| `pnpm dev`       | Start the dev server                                          |
-| `pnpm build`     | Build the static site into `dist/`                            |
-| `pnpm preview`   | Serve the built site                                          |
-| `pnpm lint`      | ESLint, then a Prettier check                                 |
-| `pnpm format`    | Format all files with Prettier                                |
-| `pnpm typecheck` | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)   |
-| `pnpm test`      | Unit tests (Vitest)                                           |
-| `pnpm test:e2e`  | Browser tests (Playwright). Builds and serves the site first. |
+| Script                  | What it does                                                  |
+| ----------------------- | ------------------------------------------------------------- |
+| `pnpm dev`              | Start the dev server                                          |
+| `pnpm build`            | Build the static site into `dist/`                            |
+| `pnpm preview`          | Serve the built site                                          |
+| `pnpm lint`             | ESLint, then a Prettier check                                 |
+| `pnpm format`           | Format all files with Prettier                                |
+| `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)   |
+| `pnpm test`             | Unit tests (Vitest)                                           |
+| `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first. |
+| `pnpm validate:content` | Checks every file in `src/content/` against the term schema   |
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 
@@ -45,7 +46,7 @@ The UI uses **Paper Design**: ink on paper, Lato, solid ink borders, no colour, 
 
 ## CI
 
-Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests and build in one job, and browser tests in another. Both must pass before merging to `main`.
+Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests, content validation and build in one job, and browser tests in another. Both must pass before merging to `main`.
 
 ## Deploys
 

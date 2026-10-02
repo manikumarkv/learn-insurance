@@ -1,0 +1,28 @@
+---
+import SearchForm from '../components/layout/SearchForm.astro';
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="Page not found · LearnInsurance"
+  description="We couldn't find that page."
+  noindex
+>
+  <div class="flex max-w-xl flex-col gap-6">
+    <p class="text-label-sm text-ink-muted m-0">404 · page not found</p>
+    <h1 class="text-headline m-0">We couldn’t find that page</h1>
+    <p class="text-body m-0">
+      It may have moved. Try searching for the term, or request it if it’s missing.
+    </p>
+    <SearchForm id="not-found-search" showLabel placeholder="e.g. deductible" />
+    <div class="flex flex-wrap gap-3">
+      <a href="/" class="pd-btn pd-btn-secondary">
+        Go home
+      </a>
+      <!-- TODO(story 8.1): the request form lives at /request. -->
+      <a href="/request" class="pd-btn pd-btn-primary">
+        Request a term
+      </a>
+    </div>
+  </div>
+</SiteLayout>

@@ -1,0 +1,26 @@
+---
+import SiteFooter from '../components/layout/SiteFooter.astro';
+import SiteHeader from '../components/layout/SiteHeader.astro';
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+}
+
+const { title, description, noindex } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} noindex={noindex}>
+  <a href="#main" class="pd-btn pd-btn-primary sr-only focus:not-sr-only focus:absolute focus:m-2">
+    Skip to content
+  </a>
+  <div class="flex min-h-screen flex-col">
+    <SiteHeader />
+    <main id="main" class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+      <slot />
+    </main>
+    <SiteFooter />
+  </div>
+</BaseLayout>

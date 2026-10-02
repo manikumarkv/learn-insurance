@@ -1,0 +1,83 @@
+---
+import { ThemeToggle } from '../ThemeToggle';
+import { Icon } from '../ui/Icon';
+import SearchForm from './SearchForm.astro';
+import { isActive, MAIN_NAV } from './nav';
+
+const { pathname } = Astro.url;
+---
+
+<header class="border-ink border-b-2">
+  <div class="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
+    <a href="/" class="text-title-md flex items-center gap-2 no-underline">
+      <span class="border-ink inline-block size-6 rounded-md border-3" aria-hidden="true"></span>
+      LearnInsurance
+    </a>
+
+    <!-- Desktop (768px and up) -->
+    <nav aria-label="Main" class="hidden flex-1 md:block">
+      <ul class="m-0 flex list-none gap-6 p-0">
+        {MAIN_NAV.map((item) => {
+          const active = isActive(pathname, item.href);
+          return (
+            <li>
+              <a
+                href={item.href}
+                aria-current={active ? 'page' : undefined}
+                class:list={['text-label-lg', active ? 'underline' : 'no-underline']}
+              >
+                {item.label}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+    <div class="hidden items-center gap-3 md:flex">
+      <div class="w-56">
+        <SearchForm id="header-search" />
+      </div>
+      <div class="w-48">
+        <ThemeToggle compact client:only="react" />
+      </div>
+      <!-- TODO(story 6.1): show the account menu when signed in. -->
+      <a href="/sign-in" class="pd-btn pd-btn-primary pd-btn-sm">
+        Sign in
+      </a>
+    </div>
+
+    <!-- Mobile (below 768px): a disclosure menu that works without JavaScript. -->
+    <details class="group ml-auto md:hidden">
+      <summary
+        class="pd-btn pd-btn-secondary list-none [&::-webkit-details-marker]:hidden"
+        aria-label="Menu"
+      >
+        <Icon name="menu" size={20} />
+        <span class="group-open:hidden">Menu</span>
+        <span class="hidden group-open:inline">Close</span>
+      </summary>
+      <div class="bg-paper border-ink absolute inset-x-0 z-10 mt-3 flex flex-col gap-4 border-b-2 px-4 pb-6">
+        <SearchForm id="menu-search" showLabel />
+        <nav aria-label="Main">
+          <ul class="m-0 flex list-none flex-col gap-3 p-0">
+            {MAIN_NAV.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-current={isActive(pathname, item.href) ? 'page' : undefined}
+                  class="text-label-lg"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <ThemeToggle client:only="react" />
+        <a href="/sign-in" class="pd-btn pd-btn-primary">
+          Sign in
+        </a>
+      </div>
+    </details>
+  </div>
+</header>

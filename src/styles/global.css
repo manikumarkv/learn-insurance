@@ -2,7 +2,7 @@
 @import '@fontsource/lato/400.css';
 @import '@fontsource/lato/700.css';
 @import './tokens.css';
-@import './components.css';
+@import './components.css' layer(components);
 
 /*
  * Tailwind theme = Paper Design only. The default palette, shadows and animations are removed,
@@ -69,18 +69,20 @@
   --shadow-focus: var(--focus-ring);
 }
 
-body {
-  margin: 0;
-  font-family: var(--font-sans);
-  font-size: 18px;
-  line-height: 28px;
-  background: var(--paper);
-  color: var(--ink);
-  -webkit-font-smoothing: antialiased;
-}
+@layer base {
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 28px;
+    background: var(--paper);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
 
-a {
-  color: var(--link);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }

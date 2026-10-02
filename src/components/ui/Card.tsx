@@ -10,14 +10,14 @@ export interface CardProps {
   className?: string;
 }
 
-/** Flat paper sheet with a 3px ink border. At most one primary button in `actions`. */
+/** White card with a thin border and a soft shadow. At most one primary button in `actions`. */
 export function Card({ title, headingLevel = 3, children, actions, className }: CardProps) {
   const Heading = `h${headingLevel}` as const;
   return (
-    <div className={['pd-card', className].filter(Boolean).join(' ')}>
-      {title && <Heading className="pd-card-title">{title}</Heading>}
-      {children && <div className="pd-card-body">{children}</div>}
-      {actions && <div className="pd-card-actions">{actions}</div>}
+    <div className={['ui-card', className].filter(Boolean).join(' ')}>
+      {title && <Heading className="ui-card-title">{title}</Heading>}
+      {children && <div className="ui-card-body">{children}</div>}
+      {actions && <div className="ui-card-actions">{actions}</div>}
     </div>
   );
 }

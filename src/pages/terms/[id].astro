@@ -78,15 +78,18 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
         )}
         <div class="flex flex-wrap gap-2" data-pagefind-ignore>
           <Badge>{t.usageFrequency} usage</Badge>
-          <Badge tone="muted">{t.difficulty}</Badge>
+          <Badge tone="success">{t.difficulty}</Badge>
           <Badge tone="muted">{t.category}</Badge>
           {isAi && full && <Badge icon="info">AI-generated · AI-reviewed</Badge>}
         </div>
       </header>
 
       {full && t.quickAnswer && (
-        <section aria-labelledby="quick-answer" class="pd-card" data-pagefind-body>
-          <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
+        <section aria-labelledby="quick-answer" class="ui-callout" data-pagefind-body>
+          <h2
+            id="quick-answer"
+            class="text-label-sm text-primary-ink m-0 mb-2 tracking-wider uppercase"
+          >
             Quick answer
           </h2>
           <p class="text-body-lg m-0">
@@ -97,7 +100,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
 
       {!full && (
         <p
-          class="border-ink text-body m-0 flex items-start gap-3 rounded-md border-2 border-dashed p-4"
+          class="border-line-strong text-body m-0 flex items-start gap-3 rounded-md border border-dashed p-4"
           role="note"
         >
           <Icon name="info" />
@@ -138,10 +141,10 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
               <li
                 class:list={[
                   'flex gap-4 rounded-md p-4',
-                  step.highlight ? 'border-ink border-3' : 'border-ink border-2',
+                  step.highlight ? 'border-primary bg-primary-soft border-2' : 'border-line border',
                 ]}
               >
-                <span class="text-label border-ink flex size-8 flex-none items-center justify-center rounded-full border-2">
+                <span class="text-label bg-primary text-on-primary flex size-8 flex-none items-center justify-center rounded-full">
                   {i + 1}
                 </span>
                 <div>
@@ -161,7 +164,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
 
       {full && t.questions.length > 0 && (
         <Section title="Check yourself" id="check-yourself">
-          <div class="pd-card">
+          <div class="ui-card">
             <CheckYourself client:only="react" questions={t.questions} />
           </div>
         </Section>
@@ -171,7 +174,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
         <Section title="Frequently asked questions" id="faqs">
           <div class="flex flex-col gap-2">
             {t.faqs.map((f, i) => (
-              <details class="border-ink rounded-md border-2 px-4 py-3" open={i === 0}>
+              <details class="border-line bg-surface rounded-md border px-4 py-3" open={i === 0}>
                 <summary class="text-label-lg cursor-pointer">{f.question}</summary>
                 <p class="text-body mt-2 mb-0">
                   <TermText text={f.answer} selfId={entry.id} />
@@ -199,7 +202,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
     </article>
 
     <aside class="flex flex-col gap-6" aria-label="At a glance">
-      <div class="pd-card flex flex-col gap-3">
+      <div class="ui-card flex flex-col gap-3">
         <h2 class="text-title-sm m-0">At a glance</h2>
         <dl class="text-body-sm m-0 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2">
           <dt class="text-ink-muted">Usage</dt>
@@ -220,7 +223,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
       </div>
 
       {related.length > 0 && (
-        <nav class="pd-card flex flex-col gap-3" aria-labelledby="related">
+        <nav class="ui-card flex flex-col gap-3" aria-labelledby="related">
           <h2 id="related" class="text-title-sm m-0">
             Related terms
           </h2>
@@ -234,11 +237,11 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
         </nav>
       )}
 
-      <div class="pd-card flex flex-col gap-2">
+      <div class="ui-card flex flex-col gap-2">
         <h2 class="text-title-sm m-0">Something wrong?</h2>
         <p class="text-body-sm m-0">Tell us and we’ll fix the explanation.</p>
         <!-- TODO(story 8.2): the report form lives at /report. -->
-        <a href={`/report?term=${entry.id}`} class="pd-btn pd-btn-secondary pd-btn-sm self-start">
+        <a href={`/report?term=${entry.id}`} class="ui-btn ui-btn-secondary ui-btn-sm self-start">
           Report an issue
         </a>
       </div>

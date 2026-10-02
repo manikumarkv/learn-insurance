@@ -66,7 +66,7 @@ export function GlossaryBrowser({ lines }: Props) {
           <li>
             <button
               type="button"
-              className={`pd-btn pd-btn-sm ${filters.letter ? 'pd-btn-ghost' : 'pd-btn-primary'}`}
+              className={`ui-btn ui-btn-sm ${filters.letter ? 'ui-btn-ghost' : 'ui-btn-primary'}`}
               aria-pressed={!filters.letter}
               onClick={() => update({ letter: undefined })}
             >
@@ -77,7 +77,7 @@ export function GlossaryBrowser({ lines }: Props) {
             <li key={l}>
               <button
                 type="button"
-                className={`pd-btn pd-btn-sm pd-btn-icon ${filters.letter === l ? 'pd-btn-primary' : 'pd-btn-ghost'}`}
+                className={`ui-btn ui-btn-sm ui-btn-icon ${filters.letter === l ? 'ui-btn-primary' : 'ui-btn-ghost'}`}
                 aria-pressed={filters.letter === l}
                 aria-label={l === '#' ? 'Numbers' : l}
                 disabled={items !== null && !lettersWithTerms.has(l)}
@@ -137,7 +137,7 @@ export function GlossaryBrowser({ lines }: Props) {
 
       <ul className="m-0 flex list-none flex-col gap-3 p-0">
         {pageItems.map((t) => (
-          <li key={t.id} className="border-ink rounded-md border-2 p-4">
+          <li key={t.id} className="ui-card">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <a href={`/terms/${t.id}`} className="text-title-sm">
                 {t.title}
@@ -194,13 +194,13 @@ function Select({
 }) {
   const id = `filter-${label.toLowerCase().replace(/\W+/g, '-')}`;
   return (
-    <div className="pd-field">
-      <label className="pd-label" htmlFor={id}>
+    <div className="ui-field">
+      <label className="ui-label" htmlFor={id}>
         {label}
       </label>
       <select
         id={id}
-        className="pd-input pd-input-sm"
+        className="ui-input ui-input-sm"
         value={value}
         onChange={(e) => onChange(e.target.value)}
       >

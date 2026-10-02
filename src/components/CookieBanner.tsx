@@ -37,7 +37,7 @@ export function CookieBanner() {
   return (
     <section
       aria-labelledby="cookie-banner-title"
-      className="bg-paper border-ink fixed inset-x-0 bottom-0 z-30 border-t-3"
+      className="bg-surface border-line fixed inset-x-0 bottom-0 z-30 border-t shadow-md"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col gap-1">

@@ -81,7 +81,7 @@ Admin-only screen (Clerk role `admin`) with everything that needs a human look:
 | Styling | Tailwind CSS |
 | Validation | Zod |
 | Package manager | pnpm |
-| Design system | **Paper Design** |
+| Design system | **Clear Blue** (chose option A of three colour directions; replaces Paper Design) |
 | Search | Pagefind |
 | Hosting | Vercel |
 | Auth | Clerk |

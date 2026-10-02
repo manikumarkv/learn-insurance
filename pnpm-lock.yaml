@@ -17,7 +17,7 @@ importers:
       '@astrojs/vercel':
         specifier: ^11.0.11
         version: 11.0.11(astro@7.3.5(@types/node@22.20.5)(@vercel/functions@3.9.9(ws@8.22.0))(idb-keyval@6.3.0)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))(react@19.3.0)(ws@8.22.0)
-      '@fontsource/lato':
+      '@fontsource/figtree':
         specifier: ^5.3.0
         version: 5.3.0
       '@keystatic/astro':
@@ -761,8 +761,8 @@ packages:
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
 
-  '@fontsource/lato@5.3.0':
-    resolution: {integrity: sha512-0WhF/4rhrw+ErIyneKvhHn2YAl+xf8GDtllgOgOzDmeaSlLQtjpChXaQOpWhG2BchQW0WJy2zLV12Hdg0ndOMw==}
+  '@fontsource/figtree@5.3.0':
+    resolution: {integrity: sha512-/iTcTXL1eRBGhvD7NN9dnKzXzWqDLVZVEUFI9xIxAC1G/hXU8tCyYeXCAuPOuvSYPInFUP7H6KLGgygmDfy1SA==}
 
   '@formatjs/ecma402-abstract@2.3.6':
     resolution: {integrity: sha512-HJnTFeRM2kVFVr5gr5kH1XP6K0JcJtE7Lzvtr3FS/so5f1kpsqqqxy5JF+FRaO6H2qmcMfAUIox7AJteieRtVw==}
@@ -5446,7 +5446,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.12': {}
 
-  '@fontsource/lato@5.3.0': {}
+  '@fontsource/figtree@5.3.0': {}
 
   '@formatjs/ecma402-abstract@2.3.6':
     dependencies:

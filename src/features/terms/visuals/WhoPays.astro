@@ -8,10 +8,10 @@ const { total, parts } = Astro.props;
 
 <div class="flex flex-col gap-3">
   <p class="text-label m-0">Total {formatMoney(total)}</p>
-  <div class="border-ink flex h-10 overflow-hidden rounded-md border-2">
+  <div class="border-line-strong flex h-11 overflow-hidden rounded-md border">
     {parts.map((p, i) => (
       <div
-        class:list={[`pd-fill-${p.paidBy}`, i > 0 && 'border-ink border-l-2']}
+        class:list={[`ui-fill-${p.paidBy}`, i > 0 && 'border-surface border-l-2']}
         style={`flex: ${p.amount} 1 0%`}
       />
     ))}
@@ -19,7 +19,7 @@ const { total, parts } = Astro.props;
   <ul class="m-0 flex list-none flex-col gap-1 p-0 sm:flex-row sm:gap-6">
     {parts.map((p) => (
       <li class="flex items-center gap-2">
-        <span class={`pd-swatch pd-fill-${p.paidBy}`} />
+        <span class={`ui-swatch ui-fill-${p.paidBy}`} />
         <span>
           <span class="text-label">{formatMoney(p.amount)}</span>
           <span class="text-body-sm text-ink-muted">

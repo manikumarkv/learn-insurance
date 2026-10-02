@@ -51,25 +51,33 @@ const roots = buildTree(
   description={`${terms.length.toLocaleString('en-US')} US insurance terms and ${types.length} insurance types explained in plain English, with examples, stories and quick checks.`}
 >
   <div class="flex flex-col gap-16">
-    <section aria-labelledby="hero" class="flex max-w-3xl flex-col gap-5">
-      <p class="text-label-sm text-ink-muted m-0">
+    <section
+      aria-labelledby="hero"
+      class="bg-primary-soft flex flex-col gap-5 rounded-lg px-5 py-8 sm:px-10 sm:py-12"
+    >
+      <p class="text-label-sm text-primary-ink m-0 tracking-wider uppercase">
         US insurance · {terms.length.toLocaleString('en-US')} terms · {types.length} types
       </p>
-      <h1 id="hero" class="text-headline m-0 sm:text-[40px] sm:leading-[48px]">
+      <h1 id="hero" class="text-headline m-0 max-w-3xl sm:text-[44px] sm:leading-[52px]">
         Insurance words, in plain English
       </h1>
-      <p class="text-body-lg m-0">
+      <p class="text-body-lg text-ink-muted m-0 max-w-2xl">
         For people reading their policy and anyone new to working in insurance.
       </p>
-      <SearchForm
-        id="home-search"
-        showLabel
-        placeholder="Search a term, e.g. deductible, subrogation"
-      />
+      <div class="max-w-2xl">
+        <SearchForm
+          id="home-search"
+          showLabel
+          placeholder="Search a term, e.g. deductible, subrogation"
+        />
+      </div>
       <div class="flex flex-wrap items-center gap-2">
         <span class="text-label">Most used:</span>
         {mostUsed.map((t) => (
-          <a href={`/terms/${t.id}`} class="pd-badge no-underline">
+          <a
+            href={`/terms/${t.id}`}
+            class="ui-badge bg-surface border-line hover:border-primary border no-underline"
+          >
             {shortName(t.data)}
           </a>
         ))}
@@ -82,7 +90,7 @@ const roots = buildTree(
       </h2>
       <ol class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-7">
         {FLOW.map((f, i) => (
-          <li class="border-ink flex flex-col gap-1 rounded-md border-2 p-3">
+          <li class="bg-surface-sunken flex flex-col gap-1 rounded-md p-3">
             <span class="text-label-sm text-ink-muted">Step {i + 1}</span>
             {termIds.has(f.id) ? (
               <a href={`/terms/${f.id}`} class="text-title-sm">
@@ -112,10 +120,7 @@ const roots = buildTree(
       <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
         {roots.map((r) => (
           <li>
-            <a
-              href={`/types/${r.id}`}
-              class="border-ink hover:bg-paper-sunken flex items-center justify-between gap-3 rounded-md border-2 p-4 no-underline"
-            >
+            <a href={`/types/${r.id}`} class="ui-card flex items-center justify-between gap-3">
               <span class="text-title-sm">{r.name}</span>
               <span class="text-label-sm text-ink-muted flex flex-none items-center gap-1 whitespace-nowrap">
                 {countDescendants(r)} types <Icon name="chevron-right" size={16} />
@@ -138,19 +143,19 @@ const roots = buildTree(
       {paths.length > 0 ? (
         <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-4">
           {paths.map((p) => (
-            <li class="pd-card flex flex-col gap-2">
+            <li class="ui-card flex flex-col gap-2">
               <span class="text-title-sm">{p.data.title}</span>
               <span class="text-body-sm text-ink-muted">
                 {p.data.modules.reduce((n, m) => n + m.terms.length, 0)} terms
               </span>
-              <a href={`/paths/${p.id}`} class="pd-btn pd-btn-primary pd-btn-sm self-start">
+              <a href={`/paths/${p.id}`} class="ui-btn ui-btn-primary ui-btn-sm self-start">
                 Start
               </a>
             </li>
           ))}
         </ul>
       ) : (
-        <p class="pd-card text-body m-0">
+        <p class="ui-card text-body m-0">
           Learning paths are coming soon, starting with Insurance basics. Until then, start with the
           most used terms above.
         </p>

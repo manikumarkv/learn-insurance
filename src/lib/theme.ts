@@ -6,8 +6,8 @@ export const THEME_STORAGE_KEY = 'theme';
 
 export const THEME_LABELS: Record<ThemeChoice, string> = {
   system: 'Match my device',
-  light: 'Soft light',
-  dark: 'Soft dark',
+  light: 'Light',
+  dark: 'Dark',
   'light-hc': 'High contrast light',
   'dark-hc': 'High contrast dark',
 };

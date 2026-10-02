@@ -65,13 +65,13 @@ export function SearchPage() {
         className="flex items-end gap-2"
         onSubmit={(e) => e.preventDefault()}
       >
-        <div className="pd-field min-w-0 flex-1">
-          <label className="pd-label" htmlFor={inputId}>
+        <div className="ui-field min-w-0 flex-1">
+          <label className="ui-label" htmlFor={inputId}>
             Search terms and insurance types
           </label>
           <input
             id={inputId}
-            className="pd-input w-full"
+            className="ui-input w-full"
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -109,7 +109,7 @@ function Results({ title, hits }: { title: string; hits: SearchHit[] }) {
       <h2 className="text-title-md m-0">{title}</h2>
       <ul className="m-0 flex list-none flex-col gap-3 p-0">
         {hits.map((h) => (
-          <li key={h.url} className="border-ink rounded-md border-2 p-4">
+          <li key={h.url} className="ui-card">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <a href={h.url} className="text-title-sm">
                 {h.title}
@@ -176,7 +176,7 @@ function DidYouMean({ query }: { query: string }) {
 function NoResults({ query }: { query: string }) {
   // TODO(story 6.6): record the missed search for analytics after cookie consent.
   return (
-    <div className="pd-card flex flex-col gap-4">
+    <div className="ui-card flex flex-col gap-4">
       <h2 className="text-title-md m-0">No terms match “{query}”</h2>
       <p className="text-body m-0">
         If it’s an insurance word we haven’t explained yet, ask for it and we’ll add it.
@@ -184,7 +184,7 @@ function NoResults({ query }: { query: string }) {
       {/* TODO(story 8.1): /request creates the term request; until then it shows the request page. */}
       <a
         href={`/request?term=${encodeURIComponent(query)}`}
-        className="pd-btn pd-btn-primary self-start"
+        className="ui-btn ui-btn-primary self-start"
       >
         Request this term
       </a>

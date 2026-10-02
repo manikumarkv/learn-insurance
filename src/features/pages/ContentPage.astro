@@ -13,7 +13,7 @@ const page = await readPage(name);
 ---
 
 <SiteLayout title={`${page.title} · LearnInsurance`} description={description}>
-  <article class="prose-paper flex max-w-3xl flex-col gap-4">
+  <article class="prose flex max-w-3xl flex-col gap-4">
     <h1 class="text-headline m-0">{page.title}</h1>
     {page.updatedAt && (
       <p class="text-body-sm text-ink-muted m-0">Last updated {formatDate(page.updatedAt)}</p>

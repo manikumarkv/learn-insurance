@@ -43,7 +43,7 @@ export interface IconProps {
 export function Icon({ name, size = 24, strokeWidth = 2, label, className }: IconProps) {
   return (
     <svg
-      className={['pd-icon', className].filter(Boolean).join(' ')}
+      className={['ui-icon', className].filter(Boolean).join(' ')}
       width={size}
       height={size}
       viewBox="0 0 24 24"

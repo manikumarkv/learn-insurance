@@ -8,9 +8,9 @@ export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement
 /** For choices that apply on submit. For settings that apply at once, use Switch. */
 export function Checkbox({ label, ...rest }: CheckboxProps) {
   return (
-    <label className="pd-check">
+    <label className="ui-check">
       <input type="checkbox" {...rest} />
-      <span className="pd-box">
+      <span className="ui-box">
         <Icon name="check" size={17} strokeWidth={3} />
       </span>
       {label}

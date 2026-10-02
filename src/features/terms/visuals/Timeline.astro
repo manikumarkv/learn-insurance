@@ -11,10 +11,10 @@ const { start, end, segments } = Astro.props;
     <span>{start}</span>
     <span class="text-right">{end}</span>
   </div>
-  <div class="border-ink flex h-10 overflow-hidden rounded-md border-2">
+  <div class="border-line-strong flex h-11 overflow-hidden rounded-md border">
     {segments.map((s, i) => (
       <div
-        class:list={[`pd-fill-${s.paidBy}`, i > 0 && 'border-ink border-l-2']}
+        class:list={[`ui-fill-${s.paidBy}`, i > 0 && 'border-surface border-l-2']}
         style={`flex: ${s.share} 1 0%`}
       />
     ))}
@@ -22,7 +22,7 @@ const { start, end, segments } = Astro.props;
   <ol class="m-0 flex list-none flex-col gap-1 p-0 sm:flex-row sm:gap-6">
     {segments.map((s) => (
       <li class="flex items-center gap-2">
-        <span class={`pd-swatch pd-fill-${s.paidBy}`} />
+        <span class={`ui-swatch ui-fill-${s.paidBy}`} />
         <span class="text-body-sm">{s.label}</span>
       </li>
     ))}

@@ -7,10 +7,15 @@ import { isActive, MAIN_NAV } from './nav';
 const { pathname } = Astro.url;
 ---
 
-<header class="border-ink border-b-2">
+<header class="border-line bg-surface border-b">
   <div class="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
-    <a href="/" class="text-title-md flex items-center gap-2 no-underline">
-      <span class="border-ink inline-block size-6 rounded-md border-3" aria-hidden="true"></span>
+    <a href="/" class="text-title-md text-ink flex items-center gap-2 no-underline">
+      <span
+        class="bg-primary text-on-primary inline-flex size-7 items-center justify-center rounded-lg text-[15px] font-extrabold"
+        aria-hidden="true"
+      >
+        L
+      </span>
       LearnInsurance
     </a>
 
@@ -26,7 +31,7 @@ const { pathname } = Astro.url;
                 aria-current={active ? 'page' : undefined}
                 class:list={[
                   'text-label-lg whitespace-nowrap',
-                  active ? 'underline' : 'no-underline',
+                  active ? 'text-primary-ink underline' : 'text-ink no-underline hover:underline',
                 ]}
               >
                 {item.label}
@@ -40,14 +45,14 @@ const { pathname } = Astro.url;
       <div class="hidden w-56 xl:block">
         <SearchForm id="header-search" landmark="Site search" />
       </div>
-      <a href="/search" class="pd-btn pd-btn-secondary pd-btn-icon xl:hidden" aria-label="Search">
+      <a href="/search" class="ui-btn ui-btn-secondary ui-btn-icon xl:hidden" aria-label="Search">
         <Icon name="search" size={20} />
       </a>
       <div class="w-44">
         <ThemeToggle compact client:only="react" />
       </div>
       <!-- TODO(story 6.1): show the account menu when signed in. -->
-      <a href="/sign-in" class="pd-btn pd-btn-primary pd-btn-sm">
+      <a href="/sign-in" class="ui-btn ui-btn-primary ui-btn-sm">
         Sign in
       </a>
     </div>
@@ -55,14 +60,14 @@ const { pathname } = Astro.url;
     <!-- Below 1024px: a disclosure menu that works without JavaScript. -->
     <details class="group ml-auto lg:hidden">
       <summary
-        class="pd-btn pd-btn-secondary list-none [&::-webkit-details-marker]:hidden"
+        class="ui-btn ui-btn-secondary list-none [&::-webkit-details-marker]:hidden"
         aria-label="Menu"
       >
         <Icon name="menu" size={20} />
         <span class="group-open:hidden">Menu</span>
         <span class="hidden group-open:inline">Close</span>
       </summary>
-      <div class="bg-paper border-ink absolute inset-x-0 z-10 mt-3 flex flex-col gap-4 border-b-2 px-4 pb-6">
+      <div class="bg-surface border-line absolute inset-x-0 z-10 mt-3 flex flex-col gap-4 border-b px-4 pb-6 shadow-md">
         <SearchForm id="menu-search" showLabel landmark="Site search" />
         <nav aria-label="Main">
           <ul class="m-0 flex list-none flex-col gap-3 p-0">
@@ -80,7 +85,7 @@ const { pathname } = Astro.url;
           </ul>
         </nav>
         <ThemeToggle client:only="react" />
-        <a href="/sign-in" class="pd-btn pd-btn-primary">
+        <a href="/sign-in" class="ui-btn ui-btn-primary">
           Sign in
         </a>
       </div>

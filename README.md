@@ -41,11 +41,11 @@ Terms, insurance types, learning paths and the About, Privacy, Terms of use and 
 
 ## Design system
 
-The UI uses **Paper Design**: ink on paper, Lato, solid ink borders, no colour, no shadows, no motion.
+The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a light shadow, orange for "what you pay" in diagrams, and the Figtree font.
 
-- Tokens: `src/styles/tokens.css` (CSS variables for the four themes) and the Tailwind theme in `src/styles/global.css`. The default Tailwind colours, shadows and animations are removed, so only Paper Design values exist (`bg-paper`, `text-ink`, `text-body`, `rounded-md`, …).
-- Components: `src/components/ui/` (Button, Badge, Card, Input, Checkbox, Switch, Icon). Styles are in `src/styles/components.css` with the `pd-` prefix.
-- Themes: soft light, soft dark, high contrast light and dark. They follow the device by default, and the theme picker (`ThemeToggle`) remembers a choice on the device.
+- Tokens: `src/styles/tokens.css` (CSS variables for the four themes) and the Tailwind theme in `src/styles/global.css`. The default Tailwind colours, shadows and animations are removed, so only Clear Blue values exist (`bg-surface`, `bg-primary`, `text-ink`, `border-line`, `shadow-md`, `text-body`, `rounded-md`, …).
+- Components: `src/components/ui/` (Button, Badge, Card, Input, Checkbox, Switch, Icon). Styles are in `src/styles/components.css` with the `ui-` prefix (`ui-btn`, `ui-card`, `ui-callout`, `ui-badge`, …).
+- Themes: light, dark, high contrast light and dark. They follow the device by default, and the theme picker (`ThemeToggle`) remembers a choice on the device.
 - See every component at `/design` (not indexed by search engines).
 
 ## Search
@@ -87,7 +87,7 @@ Code is grouped by feature. Tests live next to the code they test.
 src/
   pages/        Routes. Each file is a URL (src/pages/terms/[id].astro → /terms/<id>).
   layouts/      Page shells: <head>, header, footer.
-  components/   Shared UI used by more than one feature (Paper Design components go here).
+  components/   Shared UI used by more than one feature (the Clear Blue components go here).
   features/     One folder per feature (terms, search, learn, quiz, progress, admin),
                 holding its components, logic and tests together.
   content/      Content files edited through Keystatic (terms, types, paths).

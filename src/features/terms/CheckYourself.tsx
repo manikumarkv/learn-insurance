@@ -35,7 +35,7 @@ export function CheckYourself({ questions, count = 3 }: Props) {
         You got {correct} of {picked.length} right.{' '}
         <button
           type="button"
-          className="pd-btn pd-btn-ghost pd-btn-sm"
+          className="ui-btn ui-btn-ghost ui-btn-sm"
           onClick={() => window.location.reload()}
         >
           Try other questions
@@ -72,9 +72,9 @@ export function CheckYourself({ questions, count = 3 }: Props) {
             <label
               key={option}
               className={[
-                'border-ink flex cursor-pointer items-center gap-3 rounded-md px-4 py-3',
-                selected || showRight ? 'border-3' : 'border-2',
-                checked ? 'cursor-default' : 'hover:bg-paper-sunken',
+                'flex cursor-pointer items-center gap-3 rounded-md px-4 py-3',
+                selected || showRight ? 'border-primary border-2' : 'border-line-strong border',
+                checked ? 'cursor-default' : 'hover:bg-surface-sunken',
               ].join(' ')}
             >
               <input
@@ -88,7 +88,7 @@ export function CheckYourself({ questions, count = 3 }: Props) {
               />
               <span className="flex-1">{option}</span>
               {showRight && (
-                <span className="pd-badge pd-badge-solid">
+                <span className="ui-badge ui-badge-solid">
                   <Icon name="check" size={16} strokeWidth={2.5} /> Correct answer
                 </span>
               )}
@@ -97,7 +97,7 @@ export function CheckYourself({ questions, count = 3 }: Props) {
         })}
       </fieldset>
       {checked && (
-        <div className="pd-card" role="status">
+        <div className="ui-card" role="status">
           <p className="text-label m-0 flex items-center gap-2">
             <Icon name={isRight ? 'check' : 'x'} size={20} />
             {isRight ? 'Correct.' : 'Not quite.'}

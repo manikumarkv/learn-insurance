@@ -8,7 +8,12 @@ interface Props {
 const { label, lines, emphasis = false } = Astro.props;
 ---
 
-<div class:list={['border-ink flex-1 rounded-md p-4', emphasis ? 'border-3' : 'border-2']}>
+<div
+  class:list={[
+    'flex-1 rounded-md p-4',
+    emphasis ? 'border-primary bg-primary-soft border-2' : 'border-line bg-surface border',
+  ]}
+>
   <p class="text-label m-0">{label}</p>
   <ul class="m-0 mt-2 flex list-none flex-col gap-1 p-0">
     {lines.map((line) => (

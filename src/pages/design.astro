@@ -68,14 +68,15 @@ import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '
 
 <SiteLayout
   title="Design system · LearnInsurance"
-  description="Paper Design components used on LearnInsurance."
+  description="Clear Blue components used on LearnInsurance."
   noindex
 >
   <div class="flex max-w-3xl flex-col gap-8">
     <div>
-      <h1 class="text-headline m-0">Paper Design</h1>
+      <h1 class="text-headline m-0">Clear Blue</h1>
       <p class="text-body-sm text-ink-muted m-0">
-        Ink on paper. No colour, no shadows, no motion. Switch themes with the picker in the header.
+        One confident blue, soft cards and orange for what you pay. Switch themes with the picker in
+        the header.
       </p>
     </div>
 
@@ -104,7 +105,8 @@ import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '
         <Badge tone="solid" icon="check">
           Answered
         </Badge>
-        <Badge tone="muted">Beginner</Badge>
+        <Badge tone="success">Beginner</Badge>
+        <Badge tone="muted">Coverage</Badge>
         <Badge icon="info">AI-generated · AI-reviewed</Badge>
       </div>
     </section>
@@ -142,7 +144,7 @@ import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '
         Diagrams
       </h2>
       {diagrams.map((d) => (
-        <div class="pd-card">
+        <div class="ui-card">
           <TermVisual diagram={d.diagram} caption={d.caption} />
         </div>
       ))}

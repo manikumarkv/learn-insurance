@@ -1,8 +1,13 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
+import keystatic from '@keystatic/astro';
 import vercel from '@astrojs/vercel';
 import tailwindcss from '@tailwindcss/vite';
+
+// The Keystatic editor (/keystatic) is only added to the dev server for now, so production
+// has no editor. TODO(story 2.5): also add it in production when KEYSTATIC_STORAGE=github.
+const isDev = process.argv.includes('dev');
 
 // https://docs.astro.build/en/reference/configuration-reference/
 // Pages are static by default. A page that needs per-request data (sign-in, admin)
@@ -13,7 +18,7 @@ export default defineConfig({
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : 'http://localhost:4321',
   adapter: vercel(),
-  integrations: [react()],
+  integrations: [react(), ...(isDev ? [keystatic()] : [])],
   vite: {
     plugins: [tailwindcss()],
   },

@@ -26,6 +26,14 @@ pnpm dev          # http://localhost:4321
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 
+## Content (Keystatic)
+
+Terms, insurance types, learning paths and the About, Privacy, Terms of use and Disclaimer pages are files in `src/content/`, edited with Keystatic.
+
+- Run `pnpm dev` and open http://localhost:4321/keystatic. Saving writes the file; commit it like code.
+- The editor is only on the dev server for now. Production editing (GitHub mode) comes in story 2.5.
+- Field rules are in `docs/content/term-schema.md`. Allowed values are shared in `src/content/schema/values.ts`.
+
 ## Design system
 
 The UI uses **Paper Design**: ink on paper, Lato, solid ink borders, no colour, no shadows, no motion.

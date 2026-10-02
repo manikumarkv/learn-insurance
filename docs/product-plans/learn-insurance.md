@@ -733,7 +733,7 @@ _Goal: fill terms in priority order. Runs alongside the other epics from Epic 2 
 ## Open Questions
 | Question | Owner | Status |
 |---|---|---|
-| Database access library for Neon (Drizzle suggested; check the devrunway Neon layer) | Dev | Open |
+| Database access library for Neon | Dev | Decided: Drizzle (story 6.2) |
 | Privacy policy and terms of use: self-reviewed or lawyer-reviewed before launch? | Mani | Open |
 | Domain name | Mani | Open |
 | Edge cases (spam, rate limits, shared abbreviations, stuck agents) | Mani | Deferred to edge-case session |

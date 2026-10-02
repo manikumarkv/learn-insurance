@@ -17,6 +17,8 @@ pnpm dev          # http://localhost:4321
 | ----------------------- | ------------------------------------------------------------------------------------------------------- |
 | `pnpm dev`              | Start the dev server                                                                                    |
 | `pnpm build`            | Build the site into `dist/` and `.vercel/output/`, then the Pagefind search index                       |
+| `pnpm db:generate`      | Write a SQL migration in `drizzle/` after changing `src/lib/db/schema.ts`                               |
+| `pnpm db:migrate`       | Apply migrations to the database in `DATABASE_URL`                                                      |
 | `pnpm preview`          | Serve the built static site (`dist/client/`). Pages rendered on request (e.g. /account) need `pnpm dev` |
 | `pnpm lint`             | ESLint, then a Prettier check                                                                           |
 | `pnpm format`           | Format all files with Prettier                                                                          |
@@ -54,6 +56,14 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 - Pages: `/sign-in`, `/sign-up` (static) and `/account` (rendered on request, signed-in only). The header shows "Sign in", or the account menu once signed in.
 - Protected pages are listed in `src/middleware.ts`. A signed-out visitor goes to `/sign-in` and comes back after signing in.
 - Without the publishable key (CI, a fresh clone), the build uses stand-ins from `src/features/account/clerk-off/`: everything else works and the sign-in page says sign-in isn't set up.
+
+## Database (Neon + Drizzle)
+
+- Tables are defined in `src/lib/db/schema.ts`: question attempts, term progress, saved terms and term requests. The only personal data is the Clerk user ID.
+- Server code gets a client with `getDb()` from `src/lib/db/client.ts` (needs `DATABASE_URL`).
+- To change the schema: edit `schema.ts`, run `pnpm db:generate` (writes a SQL migration to `drizzle/`), and commit both.
+- Migrations run automatically during production deploys on Vercel (`scripts/migrate.ts` in `pnpm build`). Run them by hand with `pnpm db:migrate`.
+- `src/lib/db/schema.test.ts` applies the migrations to an in-memory Postgres (PGlite), so CI tests them without a real database.
 
 ## Search
 

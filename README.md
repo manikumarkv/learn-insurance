@@ -23,6 +23,7 @@ pnpm dev          # http://localhost:4321
 | `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)                       |
 | `pnpm test`             | Unit tests (Vitest)                                                               |
 | `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first.                     |
+| `pnpm test:lighthouse`  | Lighthouse budget (90+ performance, accessibility, SEO) on the built site         |
 | `pnpm validate:content` | Checks every file in `src/content/` against the term schema                       |
 | `pnpm import:content`   | Creates term and insurance type files from `data/*.csv` (safe to re-run)          |
 
@@ -52,7 +53,7 @@ Pagefind indexes the term and type pages after `astro build` (`scripts/index-sea
 
 ## CI
 
-Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests, content validation and build in one job, and browser tests in another. Both must pass before merging to `main`.
+Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests, content validation and build in one job, browser tests in another, and the Lighthouse budget in a third. All must pass before merging to `main`.
 
 ## Deploys
 

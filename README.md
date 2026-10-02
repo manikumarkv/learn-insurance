@@ -72,6 +72,13 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 - Put the endpoint in its feature folder with a test next to it, and serve it from `src/pages/api/` with `export const prerender = false` (test files can't live in `src/pages/`, because every file there becomes a route).
 - Example: `/api/saved-terms` (`src/features/saved-terms/api.ts`), tested against an in-memory database.
 
+## Analytics (PostHog)
+
+- `src/lib/analytics.ts`: `track(event, props)` sends an event only after the visitor accepts analytics cookies and when `PUBLIC_POSTHOG_KEY` is set. PostHog's script isn't even downloaded before that.
+- Events: page views, `search`, `search_missed`, `term_view`, `answer`, `sign_up`. People are never identified: no Clerk ID, name or email is sent.
+- Keys: `PUBLIC_POSTHOG_KEY` (project token, `phc_…`) and `PUBLIC_POSTHOG_HOST` (`https://us.i.posthog.com` or `https://eu.i.posthog.com`).
+- In PostHog, turn on Project settings → **Discard client IP data**.
+
 ## Search
 
 Pagefind indexes the term and type pages after `astro build` (`scripts/index-search.ts`). It indexes each page's name, abbreviation, other names and quick answer. Search only works on a built site: run `pnpm build && pnpm preview`. The dev server shows a short note instead.

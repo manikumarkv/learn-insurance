@@ -38,6 +38,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.5",
     "drizzle-orm": "^0.45.3",
+    "posthog-js": "^1.435.8",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "tailwindcss": "^4.3.3"

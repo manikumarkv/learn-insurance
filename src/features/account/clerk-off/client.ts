@@ -7,3 +7,11 @@ export const $authStore = {
     return () => {};
   },
 };
+
+/** Nobody is signed in, so there is never a user. */
+export const $userStore = {
+  subscribe(listener: (user: null) => void) {
+    listener(null);
+    return () => {};
+  },
+};

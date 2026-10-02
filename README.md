@@ -55,6 +55,7 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 - Clerk handles sign-up and sign-in (Google or email). Keys: `PUBLIC_CLERK_PUBLISHABLE_KEY` (or `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, the name Clerk's Vercel integration uses) and `CLERK_SECRET_KEY`, in Vercel or in `.env` locally.
 - Pages: `/sign-in`, `/sign-up` (static) and `/account` (rendered on request, signed-in only). The header shows "Sign in", or the account menu once signed in.
 - Protected pages are listed in `src/middleware.ts`. A signed-out visitor goes to `/sign-in` and comes back after signing in.
+- **Admins:** a Clerk user with `{ "role": "admin" }` in their public metadata (Clerk dashboard → Users → the user → Metadata → Public). `/admin` and its sub-pages are admin-only (signed-out → sign-in, others → 403), and API endpoints use `route({ access: 'admin' })`.
 - Without the publishable key (CI, a fresh clone), the build uses stand-ins from `src/features/account/clerk-off/`: everything else works and the sign-in page says sign-in isn't set up.
 
 ## Database (Neon + Drizzle)
@@ -67,7 +68,7 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 
 ## Server endpoints
 
-- Write endpoints with `route()` from `src/lib/api/route.ts`. It checks who may call (`access: 'public' | 'user'`), validates input with Zod, gives the handler the user ID and database, and returns `{ data }` or `{ error: { code, message, details? } }`.
+- Write endpoints with `route()` from `src/lib/api/route.ts`. It checks who may call (`access: 'public' | 'user' | 'admin'`), validates input with Zod, gives the handler the user ID and database, and returns `{ data }` or `{ error: { code, message, details? } }`.
 - Put the endpoint in its feature folder with a test next to it, and serve it from `src/pages/api/` with `export const prerender = false` (test files can't live in `src/pages/`, because every file there becomes a route).
 - Example: `/api/saved-terms` (`src/features/saved-terms/api.ts`), tested against an in-memory database.
 

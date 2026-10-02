@@ -10,6 +10,7 @@
 import type { APIContext, APIRoute } from 'astro';
 import { z } from 'zod';
 import { getDb, type Db } from '../db/client';
+import { isAdmin } from './admin';
 
 export type ErrorCode =
   'unauthenticated' | 'forbidden' | 'invalid_request' | 'not_found' | 'internal_error';
@@ -34,8 +35,8 @@ export function fail(
   return Response.json(body, { status });
 }
 
-/** Who may call the endpoint. `admin` arrives with story 6.5. */
-export type Access = 'public' | 'user';
+/** Who may call the endpoint: anyone, any signed-in person, or admins only. */
+export type Access = 'public' | 'user' | 'admin';
 
 interface Auth {
   userId: string | null;
@@ -58,7 +59,7 @@ export interface RouteOptions<A extends Access, S extends z.ZodType | undefined>
   input?: S;
   handler: (args: {
     input: Input<S>;
-    userId: A extends 'user' ? string : string | null;
+    userId: A extends 'public' ? string | null : string;
     db: Db;
     context: APIContext;
   }) => Promise<Response>;
@@ -77,8 +78,17 @@ export function route<A extends Access, S extends z.ZodType | undefined = undefi
 ): APIRoute {
   return async (context) => {
     const { userId } = getAuth(context);
-    if (options.access === 'user' && !userId) {
+    if (options.access !== 'public' && !userId) {
       return fail(401, 'unauthenticated', 'Sign in to do this.');
+    }
+    if (options.access === 'admin') {
+      const admin = await isAdmin(context, userId).catch((error: unknown) => {
+        console.error(error);
+        return null;
+      });
+      if (admin === null)
+        return fail(500, 'internal_error', 'Something went wrong on our side. Please try again.');
+      if (!admin) return fail(403, 'forbidden', 'Only admins can do this.');
     }
 
     let input: unknown;
@@ -104,7 +114,7 @@ export function route<A extends Access, S extends z.ZodType | undefined = undefi
     try {
       return await options.handler({
         input: input as Input<S>,
-        userId: userId as A extends 'user' ? string : string | null,
+        userId: userId as A extends 'public' ? string | null : string,
         db: getDb(),
         context,
       });

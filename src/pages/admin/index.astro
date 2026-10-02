@@ -1,0 +1,14 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+// Rendered on request; src/middleware.ts lets only admins in (story 6.5).
+export const prerender = false;
+---
+
+<SiteLayout title="Admin · LearnInsurance" description="Admin area." noindex>
+  <div class="flex flex-col gap-4">
+    <h1 class="text-headline m-0">Admin</h1>
+    <p class="text-body m-0">You're signed in as an admin.</p>
+    <!-- TODO(story 9.1): admin layout with sidebar; TODO(story 9.2): review queue. -->
+  </div>
+</SiteLayout>

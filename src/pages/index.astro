@@ -1,8 +1,160 @@
 ---
+import { getCollection, getEntries } from 'astro:content';
+import { Icon } from '../components/ui/Icon';
+import SearchForm from '../components/layout/SearchForm.astro';
+import { shortName } from '../features/terms/display';
+import { buildTree, countDescendants } from '../features/types/tree';
 import SiteLayout from '../layouts/SiteLayout.astro';
+
+const terms = await getCollection('terms');
+const types = await getCollection('types');
+const paths = await getCollection('paths');
+
+const MOST_USED = [
+  'insured',
+  'insurance-policy',
+  'premium',
+  'quote',
+  'deductible',
+  'claim',
+  'coverage',
+  'renewal',
+];
+const mostUsed = (
+  await getEntries(MOST_USED.map((id) => ({ collection: 'terms' as const, id })))
+).filter(Boolean);
+
+/** Each stage of a policy's life, linked to the term that explains it. */
+const FLOW = [
+  { stage: 'Quote', id: 'quote', text: 'You ask what it would cost.' },
+  { stage: 'Underwriting', id: 'underwriting', text: 'The insurer checks the risk.' },
+  { stage: 'Bind', id: 'binding', text: 'Cover is agreed and starts.' },
+  { stage: 'Issue', id: 'issuance', text: 'You get the policy documents.' },
+  { stage: 'Changes', id: 'endorsement', text: 'Updates during the term.' },
+  { stage: 'Claim', id: 'claim', text: 'You ask the insurer to pay for a loss.' },
+  { stage: 'Renewal', id: 'renewal', text: 'The policy continues for another term.' },
+];
+const termIds = new Set(terms.map((t) => t.id));
+
+const roots = buildTree(
+  types.map(({ id, data }) => ({
+    id,
+    name: data.name,
+    parent: data.parent,
+    description: data.description,
+  })),
+);
 ---
 
-<SiteLayout title="LearnInsurance" description="US insurance terms explained in plain English.">
-  <h1 class="text-headline m-0">LearnInsurance</h1>
-  <p class="text-body-lg mt-4">US insurance terms explained in plain English.</p>
+<SiteLayout
+  title="LearnInsurance: US insurance terms in plain English"
+  description={`${terms.length.toLocaleString('en-US')} US insurance terms and ${types.length} insurance types explained in plain English, with examples, stories and quick checks.`}
+>
+  <div class="flex flex-col gap-16">
+    <section aria-labelledby="hero" class="flex max-w-3xl flex-col gap-5">
+      <p class="text-label-sm text-ink-muted m-0">
+        US insurance · {terms.length.toLocaleString('en-US')} terms · {types.length} types
+      </p>
+      <h1 id="hero" class="text-headline m-0 sm:text-[40px] sm:leading-[48px]">
+        Insurance words, in plain English
+      </h1>
+      <p class="text-body-lg m-0">
+        For people reading their policy and anyone new to working in insurance.
+      </p>
+      <SearchForm
+        id="home-search"
+        showLabel
+        placeholder="Search a term, e.g. deductible, subrogation"
+      />
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-label">Most used:</span>
+        {mostUsed.map((t) => (
+          <a href={`/terms/${t.id}`} class="pd-badge no-underline">
+            {shortName(t.data)}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="how-it-works" class="flex flex-col gap-4">
+      <h2 id="how-it-works" class="text-title-lg m-0">
+        How a policy works
+      </h2>
+      <ol class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-7">
+        {FLOW.map((f, i) => (
+          <li class="border-ink flex flex-col gap-1 rounded-md border-2 p-3">
+            <span class="text-label-sm text-ink-muted">Step {i + 1}</span>
+            {termIds.has(f.id) ? (
+              <a href={`/terms/${f.id}`} class="text-title-sm">
+                {f.stage}
+              </a>
+            ) : (
+              <span class="text-title-sm">{f.stage}</span>
+            )}
+            <span class="text-body-sm">{f.text}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="text-body-sm text-ink-muted m-0">
+        Every term page shows where it fits in this flow, with a short real-life story.
+      </p>
+    </section>
+
+    <section aria-labelledby="types" class="flex flex-col gap-4">
+      <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="types" class="text-title-lg m-0">
+          Insurance types
+        </h2>
+        <a href="/types" class="text-label">
+          See the full tree
+        </a>
+      </div>
+      <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
+        {roots.map((r) => (
+          <li>
+            <a
+              href={`/types/${r.id}`}
+              class="border-ink hover:bg-paper-sunken flex items-center justify-between gap-3 rounded-md border-2 p-4 no-underline"
+            >
+              <span class="text-title-sm">{r.name}</span>
+              <span class="text-label-sm text-ink-muted flex flex-none items-center gap-1 whitespace-nowrap">
+                {countDescendants(r)} types <Icon name="chevron-right" size={16} />
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-labelledby="paths" class="flex flex-col gap-4">
+      <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="paths" class="text-title-lg m-0">
+          Learning paths
+        </h2>
+        <a href="/paths" class="text-label">
+          All paths
+        </a>
+      </div>
+      {paths.length > 0 ? (
+        <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-4">
+          {paths.map((p) => (
+            <li class="pd-card flex flex-col gap-2">
+              <span class="text-title-sm">{p.data.title}</span>
+              <span class="text-body-sm text-ink-muted">
+                {p.data.modules.reduce((n, m) => n + m.terms.length, 0)} terms
+              </span>
+              <a href={`/paths/${p.id}`} class="pd-btn pd-btn-primary pd-btn-sm self-start">
+                Start
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="pd-card text-body m-0">
+          Learning paths are coming soon, starting with Insurance basics. Until then, start with the
+          most used terms above.
+        </p>
+      )}
+    </section>
+  </div>
 </SiteLayout>

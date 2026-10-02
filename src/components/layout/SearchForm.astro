@@ -7,12 +7,25 @@ interface Props {
   placeholder?: string;
   /** Show the label visibly instead of only to screen readers. */
   showLabel?: boolean;
+  /** Name of the search landmark; each one on a page needs its own. */
+  landmark?: string;
 }
 
-const { id, placeholder = 'Search terms', showLabel = false } = Astro.props;
+const {
+  id,
+  placeholder = 'Search terms',
+  showLabel = false,
+  landmark = 'Search terms',
+} = Astro.props;
 ---
 
-<form action="/search" method="get" role="search" class="flex items-end gap-2">
+<form
+  action="/search"
+  method="get"
+  role="search"
+  aria-label={landmark}
+  class="flex items-end gap-2"
+>
   <div class="pd-field min-w-0 flex-1">
     <label for={id} class={showLabel ? 'pd-label' : 'sr-only'}>
       Search terms

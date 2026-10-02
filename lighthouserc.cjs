@@ -11,7 +11,8 @@ module.exports = {
         'http://localhost/terms/endorsement/index.html',
         'http://localhost/search/index.html',
       ],
-      numberOfRuns: 1,
+      // Three runs per page; assertions use the median, so a slow first (cold) run on a CI runner doesn't fail the build.
+      numberOfRuns: 3,
       settings: { chromeFlags: '--no-sandbox --headless=new' },
     },
     assert: {
@@ -19,14 +20,16 @@ module.exports = {
         {
           matchingUrlPattern: '.*',
           assertions: {
-            'categories:performance': ['error', { minScore: 0.9 }],
-            'categories:accessibility': ['error', { minScore: 0.9 }],
+            'categories:performance': ['error', { minScore: 0.9, aggregationMethod: 'median' }],
+            'categories:accessibility': ['error', { minScore: 0.9, aggregationMethod: 'median' }],
           },
         },
         {
           // The search page is noindex on purpose, which Lighthouse's SEO score counts against it.
           matchingUrlPattern: '^(?!.*/search/).*$',
-          assertions: { 'categories:seo': ['error', { minScore: 0.9 }] },
+          assertions: {
+            'categories:seo': ['error', { minScore: 0.9, aggregationMethod: 'median' }],
+          },
         },
       ],
     },

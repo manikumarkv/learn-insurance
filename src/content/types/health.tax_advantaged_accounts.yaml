@@ -1,0 +1,6 @@
+name: Tax-Advantaged Health Accounts
+parent: health
+alsoKnownAs: Health spending accounts
+description: Savings or reimbursement accounts that pay medical costs with pre-tax money. They are not insurance but are closely linked to health plans.
+example: An employee pays a deductible from an HSA.
+segment: Personal

@@ -1,0 +1,20 @@
+term: System for Electronic Rates and Forms Filing
+contentStatus: basic
+abbreviation: SERFF
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The NAIC's online system insurers use to submit rate and form filings to states.
+example: Product filings for a new auto program go through SERFF.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - rate-filing
+  - form-filing
+  - national-association-of-insurance-commissioners
+meta:
+  source: editorial

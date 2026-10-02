@@ -1,0 +1,18 @@
+term: Market Conduct Examination
+contentStatus: basic
+alsoKnownAs:
+  - Market Conduct Exam
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A regulatory review of how an insurer treats customers in sales, underwriting, claims and complaints.
+example: A state exam finds late claim payments and fines the insurer.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - financial-examination
+  - unfair-claims-settlement-practices
+meta:
+  source: editorial

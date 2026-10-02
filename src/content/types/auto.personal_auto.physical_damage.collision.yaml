@@ -1,0 +1,5 @@
+name: Collision Coverage
+parent: auto.personal_auto.physical_damage
+description: Pays for damage to your car from hitting another vehicle or object, regardless of fault.
+example: A driver slides into a guardrail on ice and collision pays for repairs.
+segment: Personal

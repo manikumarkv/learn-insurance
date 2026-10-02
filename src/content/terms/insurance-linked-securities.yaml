@@ -1,0 +1,20 @@
+term: Insurance-Linked Securities
+contentStatus: basic
+abbreviation: ILS
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: Financial instruments whose value depends on insurance losses, like cat bonds and collateralized reinsurance.
+example: A pension fund invests in ILS for diversification.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - catastrophe-bond
+  - collateralized-reinsurance
+meta:
+  source: editorial

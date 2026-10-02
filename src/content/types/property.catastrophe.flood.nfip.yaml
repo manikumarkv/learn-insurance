@@ -1,0 +1,7 @@
+name: National Flood Insurance Program (NFIP)
+parent: property.catastrophe.flood
+alsoKnownAs: Federal flood insurance
+description: The federal flood program run by FEMA, sold through private insurers ("Write Your Own") and agents. Covers up to $250,000 for a home's building and $100,000 for contents.
+example: A homeowner in a flood zone buys NFIP cover required by the lender.
+segment: Both
+usNotes: Premiums set by FEMA's Risk Rating 2.0 method; usually a 30-day waiting period. The program needs periodic reauthorization by Congress (most recently extended to Dec 11, 2026); if it lapses, FEMA pays claims but cannot sell or renew policies.

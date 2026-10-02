@@ -1,0 +1,19 @@
+term: Cargo Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Marine Cargo
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers goods in transit by sea, air or land.
+example: Coffee damaged by seawater during shipping.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ocean-marine-insurance
+  - institute-cargo-clauses
+  - warehouse-to-warehouse
+meta:
+  source: editorial

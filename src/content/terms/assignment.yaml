@@ -1,0 +1,16 @@
+term: Assignment
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Transferring rights under a policy to someone else.
+example: A life policyowner assigns the policy to a bank as loan collateral.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - assignment-of-benefits
+meta:
+  source: editorial

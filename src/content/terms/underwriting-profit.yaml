@@ -1,0 +1,19 @@
+term: Underwriting Profit
+contentStatus: basic
+alsoKnownAs:
+  - Underwriting Result
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Earned premium minus losses and expenses, excluding investment income.
+example: $100M premium minus $95M losses and expenses is $5M profit.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - combined-ratio
+  - investment-income
+  - operating-ratio
+meta:
+  source: editorial

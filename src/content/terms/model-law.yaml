@@ -1,0 +1,18 @@
+term: Model Law
+contentStatus: basic
+alsoKnownAs:
+  - Model Act
+  - Model Regulation
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A draft law written by the NAIC that states can adopt, sometimes with changes.
+example: The NAIC Insurance Data Security Model Law adopted by many states.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - national-association-of-insurance-commissioners
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Hybrid Life/Long-Term Care
+contentStatus: basic
+abbreviation: Hybrid Life/LTC
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Linked Benefit Policy
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A life insurance or annuity product combined with long-term care benefits.
+example: A single-premium policy that pays LTC or a death benefit.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - long-term-care-insurance
+  - long-term-care-rider
+meta:
+  source: editorial

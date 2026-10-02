@@ -1,0 +1,18 @@
+term: Rate Filing
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Submitting proposed rates and rating rules to a state regulator.
+example: An insurer files a 9% auto rate increase in Texas.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - prior-approval
+  - file-and-use
+  - system-for-electronic-rates-and-forms-filing
+meta:
+  source: editorial

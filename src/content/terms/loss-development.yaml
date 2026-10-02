@@ -1,0 +1,18 @@
+term: Loss Development
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The pattern of how total losses for a period grow as more claims are reported and paid.
+example: Liability losses may take 10 years to fully develop.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development-triangle
+  - loss-development-factor
+  - reserve-development
+meta:
+  source: editorial

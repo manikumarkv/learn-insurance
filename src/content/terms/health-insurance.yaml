@@ -1,0 +1,21 @@
+term: Health Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Medical Insurance
+  - Major Medical
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance that pays for medical care such as doctor visits, hospital stays and prescriptions.
+example: Your employer plan pays most of a $20,000 surgery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - deductible
+  - copayment
+  - coinsurance-health
+  - out-of-pocket-maximum
+meta:
+  source: editorial

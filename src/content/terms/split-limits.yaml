@@ -1,0 +1,19 @@
+term: Split Limits
+contentStatus: basic
+alsoKnownAs:
+  - 25/50/25
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: "Auto liability limits shown as three numbers: per-person bodily injury, per-accident bodily injury and property damage (in thousands)."
+example: 100/300/100 means $100k per person, $300k per accident, $100k property.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - combined-single-limit
+  - bodily-injury-liability
+usNotes: State minimums range widely (e.g., 25/50/25 or 15/30/5).
+meta:
+  source: editorial

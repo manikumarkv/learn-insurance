@@ -1,0 +1,18 @@
+term: Retail Agent
+contentStatus: basic
+alsoKnownAs:
+  - Retail Broker
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The agent who deals directly with the customer.
+example: A retail agent works with a wholesaler for an unusual risk.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - wholesale-broker
+  - insurance-agent
+meta:
+  source: editorial

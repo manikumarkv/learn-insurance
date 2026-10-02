@@ -1,0 +1,5 @@
+name: Special Needs Plan (SNP)
+parent: health.medicare_private.medicare_advantage
+description: A Medicare Advantage plan for people who are also on Medicaid (D-SNP), have certain chronic conditions (C-SNP) or live in institutions (I-SNP).
+example: A low-income senior on both Medicare and Medicaid joins a D-SNP.
+segment: Personal

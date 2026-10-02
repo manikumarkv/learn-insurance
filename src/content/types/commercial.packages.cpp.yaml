@@ -1,0 +1,7 @@
+name: Commercial Package Policy (CPP)
+parent: commercial.packages
+alsoKnownAs: Modular package
+description: A package for larger businesses built from separate ISO coverage parts (property, GL, crime, inland marine, equipment breakdown).
+example: A mid-size manufacturer builds a CPP with property, GL and crime.
+segment: Commercial
+usNotes: Qualifies for a package discount when property and GL are combined.

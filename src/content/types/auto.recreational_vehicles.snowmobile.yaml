@@ -1,0 +1,5 @@
+name: Snowmobile
+parent: auto.recreational_vehicles
+description: Covers snowmobiles and their riders' liability.
+example: A snowmobiler hits a fence and liability pays.
+segment: Personal

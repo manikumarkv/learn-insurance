@@ -1,0 +1,20 @@
+term: Tort
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A wrongful act, other than a breach of contract, that harms someone and allows them to sue for damages.
+example: Negligent driving that injures a pedestrian is a tort.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - negligence
+  - liability
+  - damages
+meta:
+  source: editorial

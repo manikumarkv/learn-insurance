@@ -1,0 +1,6 @@
+name: Fee-for-Service Indemnity Plan
+parent: health.major_medical.plan_types
+alsoKnownAs: Traditional indemnity
+description: Pays a share of any provider's bills with no network; now rare and expensive.
+example: A patient sees any doctor and is reimbursed 80% after the deductible.
+segment: Both

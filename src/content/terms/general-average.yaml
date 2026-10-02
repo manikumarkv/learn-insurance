@@ -1,0 +1,17 @@
+term: General Average
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: A maritime rule where all parties in a sea voyage share losses from a deliberate sacrifice made to save the voyage.
+example: Cargo is thrown overboard to save the ship; all cargo owners share the loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - particular-average
+  - york-antwerp-rules
+meta:
+  source: editorial

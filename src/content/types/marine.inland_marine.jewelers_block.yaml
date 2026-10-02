@@ -1,0 +1,5 @@
+name: Jewelers Block
+parent: marine.inland_marine
+description: Open-peril cover for jewelry retailers' and wholesalers' stock, including customers' items.
+example: A jewelry store's safe is burglarized.
+segment: Commercial

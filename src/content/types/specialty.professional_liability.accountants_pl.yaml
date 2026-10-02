@@ -1,0 +1,6 @@
+name: Accountants Professional Liability
+parent: specialty.professional_liability
+alsoKnownAs: CPA E&O
+description: Covers accountants and bookkeepers against claims of errors in audits, tax or advice.
+example: A CPA misses a deduction and the client is fined.
+segment: Commercial

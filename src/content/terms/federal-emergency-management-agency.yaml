@@ -1,0 +1,18 @@
+term: Federal Emergency Management Agency
+contentStatus: basic
+abbreviation: FEMA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - property
+  - social
+usageFrequency: Medium
+difficulty: Beginner
+definition: The federal agency that responds to disasters and runs the NFIP.
+example: FEMA provides disaster grants after a hurricane.
+whereYoullSeeIt: []
+relatedTerms:
+  - national-flood-insurance-program
+meta:
+  source: editorial

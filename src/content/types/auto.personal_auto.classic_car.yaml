@@ -1,0 +1,7 @@
+name: Classic / Collector Car
+parent: auto.personal_auto
+alsoKnownAs: Agreed value auto
+description: Covers vintage and collector cars at an agreed value, usually with mileage and storage rules.
+example: A 1967 Mustang owner insures the car for its agreed value of $60,000.
+segment: Personal
+usNotes: Specialist carriers include Hagerty and Grundy.

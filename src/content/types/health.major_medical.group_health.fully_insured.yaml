@@ -1,0 +1,6 @@
+name: Fully Insured Plan
+parent: health.major_medical.group_health
+description: The employer pays premiums and the insurer carries the claims risk.
+example: A 50-person firm buys a standard group plan from an insurer.
+segment: Commercial
+usNotes: Subject to state insurance mandates.

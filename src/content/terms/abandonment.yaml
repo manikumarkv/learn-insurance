@@ -1,0 +1,18 @@
+term: Abandonment
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Giving up ownership of damaged property to the insurer in exchange for a total loss payment.
+example: A shipowner abandons a wrecked vessel to the insurers.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - constructive-total-loss
+  - salvage
+usNotes: Property policies usually say the insured cannot abandon property to the insurer.
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Exclusion Ratio
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: The part of each non-qualified annuity payment that is a tax-free return of your original investment.
+example: 60% of each payment is tax-free.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - non-qualified-annuity
+meta:
+  source: editorial

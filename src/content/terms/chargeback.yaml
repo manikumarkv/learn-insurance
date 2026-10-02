@@ -1,0 +1,19 @@
+term: Chargeback
+contentStatus: basic
+alsoKnownAs:
+  - Commission Chargeback
+category: Distribution
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: Taking back commission from an agent when a policy lapses or is cancelled early.
+example: An agent repays part of the commission after the policy lapses in month 4.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - commission
+  - lapse
+meta:
+  source: editorial

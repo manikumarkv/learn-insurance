@@ -1,0 +1,16 @@
+term: Period Certain
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A payout option guaranteeing payments for a set number of years even if the annuitant dies.
+example: 10-year certain means heirs get payments until year 10.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - payout-option
+meta:
+  source: editorial

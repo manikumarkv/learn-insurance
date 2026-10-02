@@ -1,0 +1,18 @@
+term: Definitions
+contentStatus: basic
+alsoKnownAs:
+  - Definitions Section
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The section that explains the exact meaning of key words used in the policy. Defined words are often shown in bold or quotes.
+example: The policy defines 'your covered auto' to mean vehicles listed on the declarations.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insuring-agreement
+  - ambiguity
+meta:
+  source: editorial

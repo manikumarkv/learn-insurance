@@ -1,0 +1,7 @@
+name: Private Medicare Plans
+parent: health
+alsoKnownAs: Medicare private options
+description: Private insurance products that work with or replace federal Medicare benefits.
+example: A 65-year-old chooses between Medigap and a Medicare Advantage plan.
+segment: Personal
+usNotes: Regulated by CMS (federal) plus state insurance departments for Medigap. Original Medicare itself is under Social & Government Programs.

@@ -1,0 +1,17 @@
+term: Core Systems
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: "An insurer's main operational systems: policy administration, billing and claims."
+example: Replacing core systems is a multi-year project.
+whereYoullSeeIt: []
+relatedTerms:
+  - policy-administration-system
+  - billing-system
+  - claims-management-system
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Risk Transfer Testing
+contentStatus: basic
+alsoKnownAs:
+  - 10-10 Rule
+category: Finance & Actuarial
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: Accounting tests to confirm a reinsurance contract transfers enough risk to count as insurance.
+example: An auditor checks there's at least a 10% chance the reinsurer loses at least 10% of the premium (on a present-value basis).
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - finite-risk-insurance
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Federal Workers' Compensation Programs
+parent: casualty.workers_comp
+description: Federal laws that replace state workers' comp for certain workers.
+example: A dock worker is covered under the Longshore Act.
+segment: Commercial

@@ -1,0 +1,6 @@
+name: HO-8 Modified Coverage Form
+parent: property.homeowners
+alsoKnownAs: Older home form
+description: For older homes whose rebuilding cost is far above market value; pays for repair using standard materials or actual cash value.
+example: A 1900s house with ornate plaster is insured under an HO-8.
+segment: Personal

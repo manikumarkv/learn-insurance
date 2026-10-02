@@ -1,0 +1,21 @@
+term: Business Owners Policy
+contentStatus: basic
+abbreviation: BOP
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: A package policy for small businesses combining property, liability and business income coverage.
+example: A small accounting firm buys a BOP.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-general-liability
+  - commercial-property-insurance
+meta:
+  source: editorial

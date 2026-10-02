@@ -1,0 +1,7 @@
+name: Personal Umbrella
+parent: casualty.personal_liability
+alsoKnownAs: Excess personal liability
+description: Extra liability cover (often $1 million or more) above your home and auto limits.
+example: A driver causes a serious crash and the umbrella pays the amount above the auto limit.
+segment: Personal
+usNotes: Insurers usually require minimum underlying auto and home limits.

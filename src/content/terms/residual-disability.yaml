@@ -1,0 +1,17 @@
+term: Residual Disability
+contentStatus: basic
+alsoKnownAs:
+  - Partial Disability
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Benefits paid when you can work but earn less due to disability.
+example: You return part-time and receive partial benefits.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - disability-insurance
+meta:
+  source: editorial

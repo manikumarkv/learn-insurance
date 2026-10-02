@@ -1,0 +1,17 @@
+term: Professional Liability Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: Coverage for professionals like accountants, lawyers and consultants against claims of negligent services.
+example: A lawyer misses a filing deadline and is sued.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - errors-and-omissions-insurance
+  - medical-malpractice-insurance
+meta:
+  source: editorial

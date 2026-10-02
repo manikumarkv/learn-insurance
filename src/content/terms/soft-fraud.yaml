@@ -1,0 +1,18 @@
+term: Soft Fraud
+contentStatus: basic
+alsoKnownAs:
+  - Opportunistic Fraud
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Exaggerating a genuine claim or lying on an application to pay less.
+example: Adding a laptop that wasn't stolen to a real burglary claim.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - insurance-fraud
+  - hard-fraud
+meta:
+  source: editorial

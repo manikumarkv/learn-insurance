@@ -1,0 +1,17 @@
+term: Sudden and Accidental
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Wording meaning damage must happen quickly and unexpectedly, not over time, to be covered.
+example: A burst pipe is sudden; a slow leak over months isn't.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - wear-and-tear
+  - exclusion
+meta:
+  source: editorial

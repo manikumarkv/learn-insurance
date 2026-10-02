@@ -1,0 +1,19 @@
+term: Waiver of Subrogation
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: An agreement that the insurer will not seek recovery from a certain party after paying a claim.
+example: A lease requires both landlord and tenant insurers to waive subrogation.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - subrogation
+  - endorsement
+meta:
+  source: editorial

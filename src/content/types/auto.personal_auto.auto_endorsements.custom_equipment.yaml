@@ -1,0 +1,6 @@
+name: Custom Parts & Equipment
+parent: auto.personal_auto.auto_endorsements
+alsoKnownAs: CPE
+description: Covers aftermarket add-ons such as custom wheels or stereos.
+example: A stolen custom sound system is replaced.
+segment: Personal

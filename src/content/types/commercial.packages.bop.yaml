@@ -1,0 +1,6 @@
+name: Business Owner's Policy (BOP)
+parent: commercial.packages
+description: A package for small and mid-sized businesses combining property, business income and general liability.
+example: A small retail shop buys a BOP for about $1,000 a year.
+segment: Commercial
+usNotes: Eligibility limited by size and class (e.g. offices, retail, restaurants, contractors).

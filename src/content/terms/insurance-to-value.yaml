@@ -1,0 +1,22 @@
+term: Insurance to Value
+contentStatus: basic
+abbreviation: ITV
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: How close the insured amount is to the true replacement cost of the property.
+example: An underwriter checks ITV to make sure the $500,000 limit matches rebuild cost.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - underinsurance
+  - coinsurance-clause
+  - replacement-cost
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Commercial Umbrella
+parent: casualty.umbrella_excess
+description: Adds limits above several primary policies and may cover some gaps they leave, after a self-insured retention.
+example: A manufacturer buys a $5 million umbrella over GL, auto and EL.
+segment: Commercial

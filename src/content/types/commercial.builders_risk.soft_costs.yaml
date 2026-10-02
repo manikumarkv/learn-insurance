@@ -1,0 +1,5 @@
+name: Soft Costs / Delay in Completion
+parent: commercial.builders_risk
+description: Covers extra interest, fees and lost rent when a project is delayed by covered damage.
+example: A storm delays an apartment building's opening by 3 months.
+segment: Commercial

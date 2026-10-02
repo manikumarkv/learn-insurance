@@ -1,0 +1,17 @@
+term: Term Rider
+contentStatus: basic
+alsoKnownAs:
+  - Child Term Rider
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Beginner
+definition: A rider adding term coverage for the insured or family members to a base policy.
+example: A child term rider covers each child for $10,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rider
+meta:
+  source: editorial

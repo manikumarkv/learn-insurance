@@ -1,0 +1,18 @@
+term: Product Recall Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Contaminated Products Insurance
+category: Line-Specific
+lines:
+  - commercial
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers costs of recalling products that are defective or contaminated.
+example: A food maker recalls peanut butter due to salmonella.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - product-liability-insurance
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Extended Warranty
+contentStatus: basic
+alsoKnownAs:
+  - Service Contract
+  - Vehicle Service Contract
+category: Line-Specific
+lines:
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A contract to repair or replace a product after the manufacturer's warranty ends; often not legally insurance.
+example: A 3-year plan on a new laptop.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - warranty
+usNotes: Regulated under state service contract laws, not always insurance law.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Regulatory Defense & Penalties
+parent: specialty.cyber.cyber_third_party
+description: Covers regulatory investigations and fines where insurable by law.
+example: A company is investigated by a state attorney general after a breach.
+segment: Commercial
+usNotes: Insurability of fines varies by state.

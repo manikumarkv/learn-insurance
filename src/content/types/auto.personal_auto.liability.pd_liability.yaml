@@ -1,0 +1,6 @@
+name: Property Damage Liability
+parent: auto.personal_auto.liability
+alsoKnownAs: PD
+description: Pays for damage you cause to other people's property, such as cars, fences or buildings.
+example: A driver hits a mailbox and a parked car, and both are paid for.
+segment: Personal

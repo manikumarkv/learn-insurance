@@ -1,0 +1,5 @@
+name: Public Company D&O
+parent: specialty.management_liability.do
+description: D&O for listed companies, focused on securities class actions and SEC investigations.
+example: A company's directors are sued after a missed earnings forecast.
+segment: Commercial

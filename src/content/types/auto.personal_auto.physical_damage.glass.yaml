@@ -1,0 +1,7 @@
+name: Full Glass Coverage
+parent: auto.personal_auto.physical_damage
+alsoKnownAs: Zero-deductible glass
+description: Pays to repair or replace windshields and windows with no deductible.
+example: A cracked windshield is replaced at no cost.
+segment: Personal
+usNotes: Required to be offered with no deductible in some states (e.g. Florida, Kentucky, South Carolina).

@@ -1,0 +1,6 @@
+name: Title Insurance
+parent: financial
+description: Protects against losses from defects in the legal ownership of real estate, such as unknown liens, forged deeds or missing heirs. Paid once at closing.
+example: A buyer is protected when an unknown heir claims the house.
+segment: Both
+usNotes: Rates are promulgated by the state in some states (e.g. Texas, New Mexico); Iowa prohibits private title insurance and uses a state title guaranty division.

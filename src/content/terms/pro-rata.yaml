@@ -1,0 +1,19 @@
+term: Pro Rata
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Latin for 'in proportion'. Something is divided or calculated in proportion to time or share.
+example: Cancel a $1,200 annual policy after 3 months and you get $900 back on a pro rata basis.
+whereYoullSeeIt:
+  - Policy document
+  - Billing statement
+relatedTerms:
+  - pro-rata-cancellation
+  - short-rate-cancellation
+  - contribution
+meta:
+  source: editorial

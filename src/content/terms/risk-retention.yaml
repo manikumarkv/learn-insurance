@@ -1,0 +1,18 @@
+term: Risk Retention
+contentStatus: basic
+alsoKnownAs:
+  - Self-Insurance
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Choosing to pay for certain losses yourself instead of insuring them.
+example: A company pays small property losses under $25,000 out of its own budget.
+whereYoullSeeIt: []
+relatedTerms:
+  - self-insurance
+  - deductible
+  - self-insured-retention
+meta:
+  source: editorial

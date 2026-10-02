@@ -1,0 +1,20 @@
+term: Occupancy
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Beginner
+definition: How a building is used, such as owner-occupied home, rental or restaurant.
+example: A restaurant is a different occupancy from an office.
+whereYoullSeeIt:
+  - Application form
+  - Underwriting system
+relatedTerms:
+  - construction-type
+  - construction-occupancy-protection-exposure
+  - vacancy-clause
+meta:
+  source: editorial

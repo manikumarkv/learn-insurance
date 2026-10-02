@@ -1,0 +1,19 @@
+term: Cost Sharing
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The part of health care costs you pay yourself through deductibles, copays and coinsurance.
+example: Your cost sharing for the year totaled $2,300.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - deductible
+  - copayment
+  - coinsurance-health
+  - cost-sharing-reductions
+meta:
+  source: editorial

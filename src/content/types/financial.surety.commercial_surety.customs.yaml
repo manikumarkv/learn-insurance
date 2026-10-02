@@ -1,0 +1,6 @@
+name: Customs Bonds
+parent: financial.surety.commercial_surety
+description: Guarantees importers will pay duties and follow US Customs rules.
+example: An importer buys a continuous customs bond.
+segment: Commercial
+usNotes: Required by US Customs and Border Protection.

@@ -1,0 +1,7 @@
+name: Pension Risk Transfer (Group Annuity)
+parent: life.annuities
+alsoKnownAs: Pension buyout; Group annuity contract
+description: An employer pays an insurer to take over its pension obligations, and the insurer pays retirees' pensions.
+example: A manufacturer transfers its retirees' pensions to a life insurer.
+segment: Commercial
+usNotes: Governed by ERISA and Department of Labor Interpretive Bulletin 95-1 on selecting annuity providers.

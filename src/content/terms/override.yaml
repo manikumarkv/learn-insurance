@@ -1,0 +1,18 @@
+term: Override
+contentStatus: basic
+alsoKnownAs:
+  - Override Commission
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A commission paid to a managing agent or MGA on business written by agents under it.
+example: An MGA earns a 5% override.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - commission
+  - managing-general-agent
+meta:
+  source: editorial

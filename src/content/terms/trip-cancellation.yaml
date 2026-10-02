@@ -1,0 +1,17 @@
+term: Trip Cancellation Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - specialty
+usageFrequency: Medium
+difficulty: Beginner
+definition: Reimburses prepaid, non-refundable trip costs if you must cancel for a covered reason.
+example: A family emergency cancels a $5,000 trip.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - travel-insurance
+  - cancel-for-any-reason
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Medicaid Long-Term Services & Supports (LTSS)
+parent: social.medicaid
+description: Pays for nursing home care and home and community-based services for eligible people with limited assets.
+example: A widow who has spent down her savings has nursing home costs paid.
+segment: Personal
+usNotes: Subject to a 5-year look-back on asset transfers.

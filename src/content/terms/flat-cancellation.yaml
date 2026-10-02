@@ -1,0 +1,17 @@
+term: Flat Cancellation
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Cancelling a policy as of its start date so that no premium is charged.
+example: A policy bound in error is flat cancelled.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - cancellation
+  - rescission
+meta:
+  source: editorial

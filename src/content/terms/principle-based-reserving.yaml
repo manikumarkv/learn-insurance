@@ -1,0 +1,21 @@
+term: Principle-Based Reserving
+contentStatus: basic
+abbreviation: PBR
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - VM-20
+category: Finance & Actuarial
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A US method of calculating life reserves using company-specific assumptions and scenarios instead of fixed formulas.
+example: An insurer calculates VM-20 reserves for its term portfolio.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - policy-reserve
+usNotes: Introduced through the NAIC Valuation Manual, effective January 1, 2017, with a three-year transition; required for new life business from 2020.
+meta:
+  source: editorial

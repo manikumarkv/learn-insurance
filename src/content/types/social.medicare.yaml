@@ -1,0 +1,6 @@
+name: Medicare
+parent: social
+description: Federal health insurance for people 65 and older, and younger people with certain disabilities, ESRD or ALS.
+example: A 65-year-old enrolls in Medicare Parts A and B.
+segment: Personal
+usNotes: Run by the Centers for Medicare & Medicaid Services (CMS). Private Medicare Advantage, Part D and Medigap plans are under Health Insurance > Private Medicare Plans.

@@ -1,0 +1,17 @@
+term: Accident Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance paying set amounts for injuries from accidents, such as fractures or ER visits.
+example: $500 for a broken arm.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - accidental-death-and-dismemberment
+  - critical-illness-insurance
+meta:
+  source: editorial

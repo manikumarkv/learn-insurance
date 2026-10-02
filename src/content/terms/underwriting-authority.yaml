@@ -1,0 +1,20 @@
+term: Underwriting Authority
+contentStatus: basic
+alsoKnownAs:
+  - Binding Authority
+  - Letter of Authority
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The limits within which an underwriter or agent can accept risks without approval from someone higher up.
+example: A junior underwriter can approve policies up to $1M limit.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - referral
+  - binding-authority
+  - managing-general-agent
+meta:
+  source: editorial

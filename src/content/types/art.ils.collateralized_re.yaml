@@ -1,0 +1,5 @@
+name: Collateralized Reinsurance
+parent: art.ils
+description: Reinsurance fully backed by cash collateral from investors instead of a rated reinsurer's balance sheet.
+example: An ILS fund writes collateralized cat cover for a regional insurer.
+segment: Commercial

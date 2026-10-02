@@ -1,0 +1,19 @@
+term: Stop-Loss Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Excess Risk Insurance
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Advanced
+definition: Insurance that protects self-funded employers against unexpectedly high claims.
+example: Stop-loss pays for any employee's claims above $100,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - self-funded-plan
+  - specific-stop-loss
+  - aggregate-stop-loss
+meta:
+  source: editorial

@@ -1,0 +1,22 @@
+term: Umbrella Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Umbrella Policy
+  - Personal Umbrella
+category: Line-Specific
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Extra liability coverage above your auto, home or business liability policies, which may also cover some gaps.
+example: A $1M personal umbrella pays after your auto limit is used up.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - excess-insurance
+  - drop-down
+  - underlying-insurance
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: ACORD Forms
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Standardized application and certificate forms used across the US industry, such as ACORD 25 (certificate of liability insurance) and ACORD 125.
+example: A broker fills out ACORD 125 and 126 for a commercial GL submission.
+whereYoullSeeIt:
+  - Application form
+  - Agent/broker communications
+relatedTerms:
+  - association-for-cooperative-operations-research-and-development
+  - certificate-of-insurance
+  - application
+meta:
+  source: editorial

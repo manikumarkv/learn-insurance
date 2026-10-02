@@ -1,0 +1,18 @@
+term: Side B Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Corporate Reimbursement
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: D&O coverage reimbursing the company when it indemnifies its directors and officers.
+example: The company pays a CEO's legal fees and is reimbursed.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - side-a
+  - side-c
+meta:
+  source: editorial

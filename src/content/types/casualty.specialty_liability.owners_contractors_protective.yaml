@@ -1,0 +1,5 @@
+name: Owners & Contractors Protective (OCP)
+parent: casualty.specialty_liability
+description: Covers a project owner for liability arising from a contractor's work, bought by the contractor.
+example: A city requires a road contractor to buy OCP naming the city.
+segment: Commercial

@@ -1,0 +1,6 @@
+name: Private Mortgage Insurance (PMI)
+parent: financial.mortgage
+description: Required on conventional loans with less than 20% down; it can be cancelled once equity reaches 20% and must end automatically at 22%.
+example: A first-time buyer pays PMI until their loan-to-value falls to 80%.
+segment: Personal
+usNotes: Cancellation rules set by the federal Homeowners Protection Act of 1998. Required by Fannie Mae and Freddie Mac for high-LTV loans.

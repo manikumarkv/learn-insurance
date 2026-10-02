@@ -1,0 +1,19 @@
+term: Maximum Foreseeable Loss
+contentStatus: basic
+abbreviation: MFL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: The largest loss that could happen at a location if all protection systems failed.
+example: The MFL assumes the sprinklers fail and the whole warehouse burns.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - probable-maximum-loss
+meta:
+  source: editorial

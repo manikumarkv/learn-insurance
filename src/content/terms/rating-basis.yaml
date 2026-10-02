@@ -1,0 +1,19 @@
+term: Rating Basis
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The measure an insurer uses to price a policy, such as payroll, sales, area or units.
+example: General liability for a restaurant may be rated on gross sales.
+whereYoullSeeIt:
+  - Rating engine
+  - Declarations page
+relatedTerms:
+  - exposure
+  - premium-audit
+meta:
+  source: editorial

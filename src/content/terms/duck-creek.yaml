@@ -1,0 +1,18 @@
+term: Duck Creek
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A software platform for P&C insurers covering policy, billing, claims and rating.
+example: A carrier uses Duck Creek Rating.
+whereYoullSeeIt: []
+relatedTerms:
+  - policy-administration-system
+meta:
+  source: editorial

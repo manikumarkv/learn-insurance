@@ -1,0 +1,22 @@
+term: Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The amount you pay the insurer to keep your coverage in force. It can be paid all at once or in installments.
+example: Your auto policy costs $1,500 a year, paid as $125 each month.
+whereYoullSeeIt:
+  - Declarations page
+  - Quote
+  - Billing statement
+relatedTerms:
+  - rate
+  - earned-premium
+  - written-premium
+  - grace-period
+usNotes: Premium tax is charged by each state on premiums written there.
+meta:
+  source: editorial

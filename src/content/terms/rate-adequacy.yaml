@@ -1,0 +1,18 @@
+term: Rate Adequacy
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Whether rates are high enough to cover expected losses, expenses and a reasonable profit.
+example: An actuary finds rates are 8% inadequate.
+whereYoullSeeIt:
+  - Rating engine
+  - Financial statements
+relatedTerms:
+  - rate-filing
+  - rate-indication
+meta:
+  source: editorial

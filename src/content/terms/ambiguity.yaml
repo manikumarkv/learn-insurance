@@ -1,0 +1,17 @@
+term: Ambiguity
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Policy wording that can reasonably be read in more than one way.
+example: "'Flood' might or might not include sewer backup; that is an ambiguity."
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - contra-proferentem
+  - reasonable-expectations-doctrine
+meta:
+  source: editorial

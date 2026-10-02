@@ -1,0 +1,19 @@
+term: Wind Mitigation
+contentStatus: basic
+alsoKnownAs:
+  - Wind Mitigation Inspection
+category: Underwriting
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Features that reduce hurricane damage, like hurricane straps and impact windows, which can earn premium discounts.
+example: A wind mitigation report saves 20% on a Florida premium.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - hurricane-deductible
+  - inspection
+usNotes: Florida law requires insurers to offer wind mitigation discounts.
+meta:
+  source: editorial

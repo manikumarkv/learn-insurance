@@ -1,0 +1,5 @@
+name: Terminal Illness Rider
+parent: life.life_riders.abr
+description: Pays part of the death benefit early if life expectancy is 12 or 24 months or less.
+example: A cancer patient receives 75% of the benefit early.
+segment: Personal

@@ -1,0 +1,17 @@
+term: Representation
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A statement made by the applicant that they believe to be true, used by the insurer to decide on the risk.
+example: You state your home has a smoke detector.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - warranty
+  - misrepresentation
+meta:
+  source: editorial

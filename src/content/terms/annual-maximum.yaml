@@ -1,0 +1,19 @@
+term: Annual Maximum
+contentStatus: basic
+alsoKnownAs:
+  - Annual Benefit Maximum
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The most a plan (commonly dental) will pay in a year.
+example: A dental plan's $1,500 annual maximum.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dental-insurance
+  - limit-of-liability
+usNotes: ACA bans annual dollar limits on essential health benefits, but dental maximums remain for adults.
+meta:
+  source: editorial

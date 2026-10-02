@@ -1,0 +1,18 @@
+term: Aviation Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Coverage for aircraft hull damage and liability for passengers and third parties.
+example: An airline insures its fleet.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hull-insurance
+  - aircraft-liability
+meta:
+  source: editorial

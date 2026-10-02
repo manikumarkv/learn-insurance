@@ -1,0 +1,19 @@
+term: Duty to Indemnify
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: The insurer's obligation to pay judgments or settlements for covered claims.
+example: The insurer pays a $300,000 settlement.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - duty-to-defend
+  - indemnity
+meta:
+  source: editorial

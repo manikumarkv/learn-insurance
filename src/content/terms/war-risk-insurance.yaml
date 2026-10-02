@@ -1,0 +1,17 @@
+term: War Risk Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: Separate coverage for ships, cargo or aircraft against war and related perils excluded from standard policies.
+example: A tanker transiting a conflict zone buys war cover.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - war-exclusion
+meta:
+  source: editorial

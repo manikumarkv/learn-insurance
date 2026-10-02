@@ -1,0 +1,19 @@
+term: Estimate
+contentStatus: basic
+alsoKnownAs:
+  - Repair Estimate
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: A written calculation of what it will cost to repair damage.
+example: A body shop estimate of $3,200.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - claims-adjuster
+  - supplement
+meta:
+  source: editorial

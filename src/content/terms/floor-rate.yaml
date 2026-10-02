@@ -1,0 +1,18 @@
+term: Floor
+contentStatus: basic
+alsoKnownAs:
+  - Floor Rate
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: The minimum interest credited to an indexed product, often 0%, so you don't lose money when the index falls.
+example: The index falls 20%; you're credited 0%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cap-rate
+  - participation-rate
+meta:
+  source: editorial

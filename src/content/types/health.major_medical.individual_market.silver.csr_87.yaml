@@ -1,0 +1,6 @@
+name: Silver 87% CSR Variant
+parent: health.major_medical.individual_market.silver
+alsoKnownAs: Enhanced silver 87
+description: A silver plan version with about 87% actuarial value for incomes of 150-200% of the federal poverty level.
+example: A single adult at 175% of poverty pays a much lower deductible.
+segment: Personal

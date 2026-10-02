@@ -1,0 +1,22 @@
+term: Coinsurance (Health)
+contentStatus: basic
+alsoKnownAs:
+  - Coinsurance
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: Your share of the cost of a covered service as a percentage, after the deductible is met.
+example: With 20% coinsurance on a $1,000 bill, you pay $200.
+whereYoullSeeIt:
+  - Explanation of benefits
+  - Policy document
+relatedTerms:
+  - copayment
+  - deductible
+  - out-of-pocket-maximum
+  - coinsurance-clause
+usNotes: Not the same as the property coinsurance clause.
+meta:
+  source: editorial

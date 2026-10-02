@@ -1,0 +1,6 @@
+name: Ordinance or Law Coverage
+parent: property.home_endorsements
+alsoKnownAs: Building code upgrade
+description: Pays extra rebuilding costs to meet current building codes.
+example: A rebuilt home must meet new electrical codes.
+segment: Personal

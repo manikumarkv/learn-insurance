@@ -1,0 +1,17 @@
+term: Continuation Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Continuing group health coverage after it would otherwise end, such as through COBRA or state law.
+example: Your spouse continues coverage after divorce.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - consolidated-omnibus-budget-reconciliation-act
+  - portability
+meta:
+  source: editorial

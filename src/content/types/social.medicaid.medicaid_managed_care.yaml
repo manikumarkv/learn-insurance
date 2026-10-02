@@ -1,0 +1,5 @@
+name: Medicaid Managed Care
+parent: social.medicaid
+description: States contract with private health plans (MCOs) to deliver Medicaid benefits.
+example: A Medicaid enrollee picks among three managed care plans in their county.
+segment: Personal

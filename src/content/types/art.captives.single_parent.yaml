@@ -1,0 +1,6 @@
+name: Single-Parent (Pure) Captive
+parent: art.captives
+alsoKnownAs: Pure captive
+description: A captive owned by one company that insures only that company and its affiliates.
+example: A retailer's captive insures its general liability deductible.
+segment: Commercial

@@ -1,0 +1,22 @@
+term: Accumulation
+contentStatus: basic
+alsoKnownAs:
+  - Aggregation
+  - Concentration Risk
+category: Underwriting
+lines:
+  - property
+  - commercial
+  - financial
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The build-up of many insured risks exposed to the same event.
+example: Too many insured homes in one coastal county.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - catastrophe-model
+  - probable-maximum-loss
+meta:
+  source: editorial

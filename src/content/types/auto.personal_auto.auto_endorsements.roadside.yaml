@@ -1,0 +1,6 @@
+name: Roadside Assistance
+parent: auto.personal_auto.auto_endorsements
+alsoKnownAs: Towing and labor
+description: Helps with towing, flat tires, dead batteries and lock-outs.
+example: A car breaks down on a highway and is towed to a garage.
+segment: Personal

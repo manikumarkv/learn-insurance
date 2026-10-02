@@ -1,0 +1,18 @@
+term: Credit for Reinsurance
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Rules letting a ceding insurer reduce its liabilities for reinsurance, often requiring collateral from unauthorized reinsurers.
+example: A cedent holds a letter of credit from an offshore reinsurer.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - reinsurance
+  - certified-reinsurer
+usNotes: Based on NAIC credit for reinsurance model laws.
+meta:
+  source: editorial

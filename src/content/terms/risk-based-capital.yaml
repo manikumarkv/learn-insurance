@@ -1,0 +1,21 @@
+term: Risk-Based Capital
+contentStatus: basic
+abbreviation: RBC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: A regulatory formula that sets the minimum capital an insurer needs based on its risks.
+example: An insurer whose capital falls below 200% of its Authorized Control Level RBC must file a corrective plan with its regulator; stronger regulator action follows at lower levels.
+whereYoullSeeIt:
+  - Regulatory filings
+  - Financial statements
+relatedTerms:
+  - solvency
+  - insolvency
+  - national-association-of-insurance-commissioners
+meta:
+  source: editorial

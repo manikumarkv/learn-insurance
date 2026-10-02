@@ -1,0 +1,7 @@
+name: Catastrophe Bonds
+parent: art.ils
+alsoKnownAs: Cat bonds
+description: Bonds where investors lose some or all of their principal if a defined catastrophe happens, with the money paying the insurer's claims.
+example: A state wind pool issues a cat bond covering Texas hurricanes.
+segment: Commercial
+usNotes: Issuers include Citizens (FL), CEA, TWIA and FEMA (for the NFIP).

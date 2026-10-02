@@ -1,0 +1,7 @@
+name: Non-Standard Auto
+parent: auto.personal_auto
+alsoKnownAs: High-risk auto
+description: Auto insurance for drivers with poor records, lapses in cover or no credit history.
+example: A driver with two speeding tickets and a lapse buys non-standard cover.
+segment: Personal
+usNotes: Drivers who can't find cover can use state auto insurance plans (assigned risk).

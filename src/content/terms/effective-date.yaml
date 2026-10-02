@@ -1,0 +1,19 @@
+term: Effective Date
+contentStatus: basic
+alsoKnownAs:
+  - Inception Date
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The date and time coverage begins.
+example: Your policy is effective at 12:01 a.m. on March 1.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - policy-period
+  - expiration-date
+  - binding
+meta:
+  source: editorial

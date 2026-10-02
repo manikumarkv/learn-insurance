@@ -1,0 +1,20 @@
+term: Deposit Premium
+contentStatus: basic
+alsoKnownAs:
+  - Estimated Premium
+category: Finance & Actuarial
+lines:
+  - casualty
+  - commercial
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A premium paid at the start based on estimated exposures, later adjusted.
+example: A $50,000 deposit premium later adjusted to $55,000.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - premium-audit
+  - minimum-premium
+meta:
+  source: editorial

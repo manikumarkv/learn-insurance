@@ -1,0 +1,6 @@
+name: Group Captive
+parent: art.captives
+alsoKnownAs: Association captive
+description: A captive owned by several companies (often in the same industry) that pool risk.
+example: Fifty trucking firms share a group captive for auto liability.
+segment: Commercial

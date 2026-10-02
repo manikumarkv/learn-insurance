@@ -1,0 +1,6 @@
+name: Occupational Accident Insurance
+parent: casualty.workers_comp
+alsoKnownAs: Occ acc
+description: Accident cover for independent contractors, such as owner-operator truckers, who aren't eligible for workers' comp.
+example: An owner-operator trucker injured while loading gets medical and disability benefits.
+segment: Commercial

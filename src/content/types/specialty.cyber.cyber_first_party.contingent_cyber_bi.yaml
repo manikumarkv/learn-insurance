@@ -1,0 +1,5 @@
+name: Dependent (Contingent) Cyber BI
+parent: specialty.cyber.cyber_first_party
+description: Covers lost income when a vendor or cloud provider you rely on suffers an outage or attack.
+example: A pharmacy chain loses sales when its claims processor is hacked.
+segment: Commercial

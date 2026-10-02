@@ -1,0 +1,6 @@
+name: Federal Employees Health Benefits (FEHB)
+parent: social.federal_programs
+description: The health insurance program for federal employees and retirees, offering a choice of private plans.
+example: A federal worker picks a Blue Cross plan during open season.
+segment: Personal
+usNotes: Run by OPM; the Postal Service Health Benefits program split off in 2025.

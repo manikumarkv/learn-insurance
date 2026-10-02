@@ -1,0 +1,5 @@
+name: Institutional SNP (I-SNP)
+parent: health.medicare_private.medicare_advantage.snp
+description: For people who live in nursing homes or need that level of care at home.
+example: A nursing home resident's plan provides on-site care teams.
+segment: Personal

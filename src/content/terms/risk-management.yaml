@@ -1,0 +1,17 @@
+term: Risk Management
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The process of identifying risks and deciding how to handle them, such as avoiding, reducing, retaining or transferring them.
+example: A factory installs sprinklers and buys property insurance as part of risk management.
+whereYoullSeeIt: []
+relatedTerms:
+  - risk-transfer
+  - risk-retention
+  - loss-control
+meta:
+  source: editorial

@@ -1,0 +1,22 @@
+term: Agent
+contentStatus: basic
+alsoKnownAs:
+  - Insurance Agent
+  - Producer
+category: Distribution
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A licensed person or firm who sells insurance on behalf of one or more insurers.
+example: A local State Farm agent sells you home and auto insurance.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - captive-agent
+  - independent-agent
+  - broker
+  - producer
+usNotes: Agents must hold a state license for each line and state.
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Adverse Selection
+contentStatus: basic
+alsoKnownAs:
+  - Anti-Selection
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: When people who are more likely to have a loss are more likely to buy insurance, making the pool riskier.
+example: People who know they need surgery sign up for health insurance right before.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - open-enrollment-period
+  - individual-mandate
+meta:
+  source: editorial

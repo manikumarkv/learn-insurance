@@ -1,0 +1,20 @@
+term: Broker
+contentStatus: basic
+alsoKnownAs:
+  - Insurance Broker
+category: Distribution
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A licensed intermediary who represents the buyer and places coverage with insurers.
+example: A large business uses a broker to build its insurance program.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - insurance-agent
+  - wholesale-broker
+  - broker-of-record
+usNotes: In many states 'broker' and 'agent' are both licensed as producers; the legal distinction varies.
+meta:
+  source: editorial

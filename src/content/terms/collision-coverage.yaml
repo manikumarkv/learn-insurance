@@ -1,0 +1,18 @@
+term: Collision Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: Pays for damage to your car from hitting another car or object, or from rolling over.
+example: Your car hits a pole; collision pays after the deductible.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - comprehensive-coverage
+  - deductible
+usNotes: Optional by law, but usually required by lenders.
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Pharmacy Benefit Manager
+contentStatus: basic
+abbreviation: PBM
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A company that manages prescription drug benefits for health plans, including formularies, pharmacy networks and pricing.
+example: A PBM processes your prescription at the pharmacy counter.
+whereYoullSeeIt: []
+relatedTerms:
+  - formulary
+usNotes: Many states have passed PBM transparency laws.
+meta:
+  source: editorial

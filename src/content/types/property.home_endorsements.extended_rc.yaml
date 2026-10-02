@@ -1,0 +1,6 @@
+name: Extended / Guaranteed Replacement Cost
+parent: property.home_endorsements
+description: Pays extra (e.g. 125%) or the full cost to rebuild if costs exceed the dwelling limit.
+example: Construction costs surge after a wildfire, and the extra 25% covers the gap.
+segment: Personal
+usNotes: Guaranteed replacement cost has become rare.

@@ -1,0 +1,5 @@
+name: Business Overhead Expense (BOE)
+parent: health.disability
+description: Pays a small business's fixed expenses (rent, staff wages) while the owner is disabled.
+example: A dentist's rent and staff salaries are paid during recovery.
+segment: Commercial

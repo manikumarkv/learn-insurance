@@ -1,0 +1,21 @@
+term: Claims-Made Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A policy that covers claims first made against you during the policy period, for incidents after the retroactive date.
+example: A lawyer's malpractice policy responds to a suit filed this year about work done two years ago.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - occurrence-policy
+  - retroactive-date
+  - extended-reporting-period
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Chronic Illness Rider
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A rider paying part of the death benefit if you can't perform two of six activities of daily living or have severe cognitive impairment.
+example: Dementia triggers monthly payments from the rider.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - accelerated-death-benefit-rider
+  - activities-of-daily-living
+meta:
+  source: editorial

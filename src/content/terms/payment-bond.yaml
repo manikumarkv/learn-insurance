@@ -1,0 +1,18 @@
+term: Payment Bond
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A surety bond guaranteeing that a contractor will pay subcontractors and suppliers.
+example: A supplier is paid by the surety after the contractor defaults.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - performance-bond
+  - miller-act
+meta:
+  source: editorial

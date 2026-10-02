@@ -1,0 +1,18 @@
+term: Loss Trend
+contentStatus: basic
+alsoKnownAs:
+  - Trend
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The expected rate at which claim costs grow over time due to inflation and other factors.
+example: A 6% annual severity trend for auto liability.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - social-inflation
+  - severity
+meta:
+  source: editorial

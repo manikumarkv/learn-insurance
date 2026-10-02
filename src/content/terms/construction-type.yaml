@@ -1,0 +1,21 @@
+term: Construction Type
+contentStatus: basic
+alsoKnownAs:
+  - Construction Class
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: How a building is built, such as frame, masonry or fire-resistive, which affects fire risk.
+example: A frame (wood) house costs more to insure than a masonry one.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - construction-occupancy-protection-exposure
+  - occupancy
+usNotes: ISO uses construction classes 1 through 6.
+meta:
+  source: editorial

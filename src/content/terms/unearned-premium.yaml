@@ -1,0 +1,18 @@
+term: Unearned Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The part of the premium for the time remaining on the policy; it would be refunded if the policy were cancelled.
+example: After 3 months on a $1,200 annual policy, $900 is unearned.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - earned-premium
+  - unearned-premium-reserve
+  - return-premium
+meta:
+  source: editorial

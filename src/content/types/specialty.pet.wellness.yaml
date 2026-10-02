@@ -1,0 +1,6 @@
+name: Wellness / Routine Care Add-On
+parent: specialty.pet
+description: Covers routine vaccinations, checkups and flea prevention.
+example: A puppy's vaccinations are covered.
+segment: Personal
+usNotes: Wellness plans are not insurance under the NAIC model law.

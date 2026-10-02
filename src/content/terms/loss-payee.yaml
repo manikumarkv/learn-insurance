@@ -1,0 +1,18 @@
+term: Loss Payee
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A party, often a lender, that is paid from the claim along with or instead of the insured.
+example: The bank financing your car is a loss payee.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - mortgagee-clause
+  - lienholder
+meta:
+  source: editorial

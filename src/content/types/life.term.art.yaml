@@ -1,0 +1,7 @@
+name: Annually Renewable Term (ART)
+parent: life.term
+alsoKnownAs: Yearly renewable term (YRT)
+description: One-year cover that can be renewed each year without a new medical exam, with the premium rising as you age.
+example: A person needs cover for a short, uncertain period and renews year by year.
+segment: Personal
+usNotes: YRT is also the most common basis for life reinsurance.

@@ -1,0 +1,6 @@
+name: Limited Pay Whole Life
+parent: life.permanent.whole
+alsoKnownAs: 10-pay; 20-pay; Paid-up at 65
+description: Whole life where premiums are paid for a set number of years or until a certain age, but cover lasts for life.
+example: A 40-year-old pays for 20 years so nothing is owed in retirement.
+segment: Personal

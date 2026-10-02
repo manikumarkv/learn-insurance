@@ -1,0 +1,5 @@
+name: Medigap Plan G
+parent: health.medicare_private.medigap
+description: Covers almost all gaps except the Part B deductible; the most popular plan for new enrollees.
+example: A new retiree picks Plan G for predictable costs.
+segment: Personal

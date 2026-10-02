@@ -1,0 +1,18 @@
+term: Driving Record Points
+contentStatus: basic
+alsoKnownAs:
+  - Surcharge Points
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Points added for accidents and violations that raise auto premiums.
+example: An at-fault accident adds a 3-year surcharge.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - motor-vehicle-report
+usNotes: Some states regulate insurer surcharge plans.
+meta:
+  source: editorial

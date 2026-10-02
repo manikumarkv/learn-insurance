@@ -1,0 +1,6 @@
+name: Tenant User Liability (TULIP)
+parent: casualty.specialty_liability.special_events_liability
+alsoKnownAs: Tenant user liability insurance policy; Facility user liability
+description: A venue's own program that lets people who rent its space buy the event liability cover the venue requires.
+example: A couple renting a town hall for a wedding buys liability cover through the hall's online link.
+segment: Both

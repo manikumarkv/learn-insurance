@@ -1,0 +1,18 @@
+term: Formulary
+contentStatus: basic
+alsoKnownAs:
+  - Drug List
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: The list of prescription drugs a health plan covers.
+example: Your brand-name drug is not on the formulary, but a generic is.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - drug-tier
+  - pharmacy-benefit-manager
+meta:
+  source: editorial

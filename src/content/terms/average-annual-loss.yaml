@@ -1,0 +1,19 @@
+term: Average Annual Loss
+contentStatus: basic
+abbreviation: AAL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The expected yearly loss from catastrophes, averaged over many simulated years.
+example: A portfolio's hurricane AAL is $12M.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - catastrophe-model
+meta:
+  source: editorial

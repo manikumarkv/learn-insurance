@@ -1,0 +1,7 @@
+name: Credit-Related Insurance (Consumer)
+parent: financial.credit
+alsoKnownAs: Credit insurance; Payment protection
+description: Pays a borrower's loan payments if they die, become disabled or lose their job.
+example: A car loan's payments are made while the borrower is disabled.
+segment: Personal
+usNotes: Includes credit life, credit disability and involuntary unemployment; sales practices regulated by state consumer credit insurance laws.

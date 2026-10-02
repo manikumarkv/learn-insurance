@@ -1,0 +1,7 @@
+name: HO-6 Condo Insurance
+parent: property.homeowners
+alsoKnownAs: Unit-owners policy
+description: Covers a condo owner's belongings, interior walls, fixtures and improvements, and liability; the building shell is covered by the association's master policy.
+example: A condo owner claims for new kitchen cabinets after a pipe burst.
+segment: Personal
+usNotes: Coverage needed depends on the HOA's master policy ("bare walls" vs "all-in").

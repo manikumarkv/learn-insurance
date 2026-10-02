@@ -1,0 +1,23 @@
+term: North American Industry Classification System Code
+contentStatus: basic
+abbreviation: NAICS Code
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A standard code classifying businesses by industry, used in underwriting and data.
+example: NAICS 722511 means full-service restaurants.
+whereYoullSeeIt:
+  - Application form
+  - Underwriting system
+relatedTerms:
+  - class-code
+  - standard-industrial-classification-code
+meta:
+  source: editorial

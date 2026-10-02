@@ -1,0 +1,20 @@
+term: Claim Adjudication
+contentStatus: basic
+alsoKnownAs:
+  - Adjudication
+category: Claims
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Deciding how much of a health claim the plan will pay based on coverage, network and cost sharing.
+example: A $1,000 bill is adjudicated to a $600 allowed amount with $120 patient coinsurance.
+whereYoullSeeIt:
+  - Claims system
+  - Explanation of benefits
+relatedTerms:
+  - explanation-of-benefits
+  - allowed-amount
+  - auto-adjudication
+meta:
+  source: editorial

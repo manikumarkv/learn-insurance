@@ -1,0 +1,15 @@
+term: Insurance Data Warehouse
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A central database that combines policy, claims and billing data for reporting and analytics.
+example: Actuaries pull loss triangles from the warehouse.
+whereYoullSeeIt: []
+relatedTerms:
+  - loss-development-triangle
+meta:
+  source: editorial

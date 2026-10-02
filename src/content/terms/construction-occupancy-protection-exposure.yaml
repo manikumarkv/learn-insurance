@@ -1,0 +1,21 @@
+term: Construction, Occupancy, Protection, Exposure
+contentStatus: basic
+abbreviation: COPE
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: "The four key factors used to underwrite property: construction, occupancy, protection and exposure."
+example: A brick building with sprinklers near a fire station scores well on COPE.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - construction-type
+  - occupancy
+  - protection-class
+meta:
+  source: editorial

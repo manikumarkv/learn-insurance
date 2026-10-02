@@ -1,0 +1,23 @@
+term: Claims Adjuster
+contentStatus: basic
+alsoKnownAs:
+  - Adjuster
+  - Claims Handler
+  - Claims Examiner
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A person who investigates a claim, determines coverage and decides how much to pay.
+example: An adjuster inspects your hail-damaged roof.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - independent-adjuster
+  - public-adjuster
+  - staff-adjuster
+usNotes: Most states license independent adjusters (about 35); licensing of insurer-employed staff adjusters varies by state.
+meta:
+  source: editorial

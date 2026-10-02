@@ -1,0 +1,6 @@
+name: Open Cargo Policy
+parent: marine.ocean_marine.cargo
+alsoKnownAs: Open cover
+description: Automatically covers all shipments over time under agreed terms, with each shipment reported.
+example: An importer reports each shipment under an annual open policy.
+segment: Commercial

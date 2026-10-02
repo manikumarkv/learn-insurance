@@ -1,0 +1,6 @@
+name: Tail Coverage (ERP)
+parent: specialty.professional_liability.medical_malpractice
+alsoKnownAs: Extended reporting period
+description: Extends a claims-made policy's reporting window after it ends, such as when a doctor retires or changes jobs.
+example: A retiring doctor buys tail cover for claims filed later.
+segment: Both

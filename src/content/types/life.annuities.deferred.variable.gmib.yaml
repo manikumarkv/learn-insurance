@@ -1,0 +1,6 @@
+name: Guaranteed Minimum Income Benefit (GMIB)
+parent: life.annuities.deferred.variable
+description: A rider guaranteeing a minimum level of lifetime income if the contract is annuitized after a waiting period.
+example: An owner annuitizes at 70 using a guaranteed income base.
+segment: Personal
+usNotes: Less widely sold today than GLWBs.

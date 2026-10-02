@@ -1,0 +1,17 @@
+term: Space Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers satellites during launch and in orbit.
+example: A satellite fails after launch.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - aviation-insurance
+meta:
+  source: editorial

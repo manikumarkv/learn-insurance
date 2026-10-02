@@ -1,0 +1,17 @@
+term: Underwriter
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The person who evaluates risks and decides whether and how to insure them.
+example: A commercial underwriter approves a warehouse policy with a sprinkler warranty.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - underwriting-authority
+meta:
+  source: editorial

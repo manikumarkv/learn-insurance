@@ -1,0 +1,6 @@
+name: FECA (Federal Employees)
+parent: casualty.workers_comp.federal_comp
+description: Covers federal government employees' work injuries.
+example: A postal worker hurt on the job receives FECA benefits.
+segment: Commercial
+usNotes: Administered by the Department of Labor; not bought from insurers.

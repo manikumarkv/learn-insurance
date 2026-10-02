@@ -1,0 +1,23 @@
+term: Open Perils
+contentStatus: basic
+alsoKnownAs:
+  - All Risks
+  - Special Form
+  - All-Risk
+category: Policy Wording
+lines:
+  - property
+  - commercial
+  - marine
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage for all causes of loss except those specifically excluded.
+example: An HO-3 covers the dwelling on an open perils basis.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - named-perils
+  - special-form
+  - exclusion
+meta:
+  source: editorial

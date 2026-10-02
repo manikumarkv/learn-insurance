@@ -1,0 +1,17 @@
+term: Fiduciary Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers people who manage employee benefit plans against claims of mismanagement.
+example: Employees sue over high 401(k) fees.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - employee-retirement-income-security-act
+  - fidelity-bond
+meta:
+  source: editorial

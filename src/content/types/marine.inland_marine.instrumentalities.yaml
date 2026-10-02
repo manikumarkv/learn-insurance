@@ -1,0 +1,6 @@
+name: Instrumentalities of Transportation
+parent: marine.inland_marine
+alsoKnownAs: Bridges, tunnels and pipelines
+description: Covers fixed property used in transportation and communication, such as bridges, tunnels, pipelines and cell towers.
+example: A toll bridge authority insures its bridge.
+segment: Commercial

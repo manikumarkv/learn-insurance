@@ -1,0 +1,6 @@
+name: Contractual Bonus Insurance
+parent: specialty.event
+alsoKnownAs: Performance bonus insurance
+description: Pays a team, sponsor or studio the bonus it owes an athlete or entertainer who hits a performance target in their contract.
+example: A team owes its quarterback a $1 million bonus for reaching the playoffs and the policy pays it.
+segment: Commercial

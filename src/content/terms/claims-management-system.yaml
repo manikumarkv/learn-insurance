@@ -1,0 +1,18 @@
+term: Claims Management System
+contentStatus: basic
+alsoKnownAs:
+  - Claims System
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software that manages claims from first notice through payment and closure.
+example: Guidewire ClaimCenter tracks reserves and payments.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - first-notice-of-loss
+  - policy-administration-system
+meta:
+  source: editorial

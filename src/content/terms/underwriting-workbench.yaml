@@ -1,0 +1,17 @@
+term: Underwriting Workbench
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A tool bringing together submissions, data, rules and workflow for underwriters in one place.
+example: An underwriter reviews a submission and third-party data on one screen.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting-rules-engine
+  - submission
+meta:
+  source: editorial

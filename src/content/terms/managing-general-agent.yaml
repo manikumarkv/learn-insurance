@@ -1,0 +1,20 @@
+term: Managing General Agent
+contentStatus: basic
+abbreviation: MGA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A firm given authority by insurers to underwrite, bind, issue policies and sometimes handle claims on their behalf.
+example: An MGA writes pet insurance backed by a large carrier.
+whereYoullSeeIt: []
+relatedTerms:
+  - binding-authority
+  - program-business
+  - fronting
+usNotes: MGAs are regulated under state MGA laws based on an NAIC model act.
+meta:
+  source: editorial

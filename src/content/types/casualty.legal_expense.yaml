@@ -1,0 +1,7 @@
+name: Legal Expense Insurance
+parent: casualty
+alsoKnownAs: Prepaid legal plans
+description: Pays for access to lawyers for personal legal matters such as wills, traffic tickets and disputes.
+example: An employee uses a prepaid legal plan to draft a will.
+segment: Personal
+usNotes: Often offered as a voluntary employee benefit; regulated differently by state.

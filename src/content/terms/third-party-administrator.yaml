@@ -1,0 +1,19 @@
+term: Third-Party Administrator
+contentStatus: basic
+abbreviation: TPA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: A company hired to handle claims or administration for an insurer or self-insured organization.
+example: A TPA processes workers' comp claims for a self-insured employer.
+whereYoullSeeIt: []
+relatedTerms:
+  - self-insurance
+  - administrative-services-only
+usNotes: Many states license TPAs.
+meta:
+  source: editorial

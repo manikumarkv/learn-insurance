@@ -1,0 +1,7 @@
+name: Farm & Ranch Liability
+parent: agriculture
+alsoKnownAs: Farm liability
+description: Liability for farm operations, such as injuries to visitors or damage from livestock straying onto roads.
+example: Escaped cattle cause a car crash and the farm is sued.
+segment: Commercial
+usNotes: Many states have agritourism liability shield laws.

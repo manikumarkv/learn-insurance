@@ -1,0 +1,16 @@
+term: Profit Commission
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: An extra commission paid to the cedent if the reinsured business is profitable.
+example: 20% of profits returned to the ceding company.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - ceding-commission
+meta:
+  source: editorial

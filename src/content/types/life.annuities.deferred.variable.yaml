@@ -1,0 +1,6 @@
+name: Variable Annuity
+parent: life.annuities.deferred
+description: Money is invested in sub-accounts, so value can rise or fall; optional riders can guarantee income or a death benefit.
+example: An investor holds funds inside a variable annuity with a lifetime income rider.
+segment: Personal
+usNotes: Sold with a prospectus; FINRA Rule 2330 governs suitability.

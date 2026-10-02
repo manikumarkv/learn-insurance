@@ -1,0 +1,18 @@
+term: California Earthquake Authority
+contentStatus: basic
+abbreviation: CEA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - property
+  - social
+usageFrequency: Low
+difficulty: Intermediate
+definition: A publicly managed, privately funded entity that sells residential earthquake insurance through participating insurers.
+example: You buy a CEA policy through your home insurer.
+whereYoullSeeIt: []
+relatedTerms:
+  - earthquake-insurance
+meta:
+  source: editorial

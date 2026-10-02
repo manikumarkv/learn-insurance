@@ -1,0 +1,17 @@
+term: Accumulation Phase
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: The period when money in a deferred annuity grows before payouts start.
+example: Contributions grow tax-deferred in the accumulation phase.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - deferred-annuity
+  - annuitization
+meta:
+  source: editorial

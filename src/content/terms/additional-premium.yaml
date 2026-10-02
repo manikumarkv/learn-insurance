@@ -1,0 +1,19 @@
+term: Additional Premium
+contentStatus: basic
+abbreviation: AP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Extra premium charged because of a mid-term change that increases the risk.
+example: Adding a pool to your home policy costs $80 additional premium.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - return-premium
+  - mid-term-adjustment
+meta:
+  source: editorial

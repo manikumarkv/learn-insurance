@@ -1,0 +1,18 @@
+term: Assigned Risk Plan
+contentStatus: basic
+alsoKnownAs:
+  - Automobile Insurance Plan
+category: Regulation
+lines:
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A residual market plan that assigns hard-to-insure drivers or employers to insurers.
+example: A high-risk driver is assigned to an insurer by the state plan.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - residual-market
+meta:
+  source: editorial

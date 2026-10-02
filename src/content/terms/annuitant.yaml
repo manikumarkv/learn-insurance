@@ -1,0 +1,16 @@
+term: Annuitant
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: The person whose life expectancy determines annuity payments; often also the owner.
+example: The annuitant is 65 and receives monthly income.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuity
+meta:
+  source: editorial

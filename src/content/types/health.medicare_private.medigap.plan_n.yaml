@@ -1,0 +1,5 @@
+name: Medigap Plan N
+parent: health.medicare_private.medigap
+description: Lower premium than G, with small copays for office and ER visits.
+example: A retiree who rarely sees a doctor picks Plan N.
+segment: Personal

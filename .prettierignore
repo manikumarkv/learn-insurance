@@ -7,3 +7,5 @@ test-results/
 data/
 docs/
 .claude/
+src/content/**/*.yaml
+src/content/**/*.mdoc

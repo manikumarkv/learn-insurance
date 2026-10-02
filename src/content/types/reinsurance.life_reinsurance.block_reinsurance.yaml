@@ -1,0 +1,7 @@
+name: Block / Closed-Block Reinsurance
+parent: reinsurance.life_reinsurance
+alsoKnownAs: Legacy transactions
+description: Reinsuring an existing, closed block of policies, often to exit a line of business.
+example: An insurer reinsures its old long-term care block to exit the business.
+segment: Commercial
+usNotes: Many deals use offshore (e.g. Bermuda) reinsurers owned by private equity-backed firms.

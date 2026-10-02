@@ -1,0 +1,6 @@
+name: TNC Commercial Policy
+parent: auto.commercial_auto
+description: Policies bought by rideshare companies like Uber and Lyft covering drivers once a ride is accepted.
+example: A crash during an Uber ride is covered by Uber's insurer.
+segment: Commercial
+usNotes: State TNC laws typically require $1 million liability while a passenger is on board.

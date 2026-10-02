@@ -1,0 +1,18 @@
+term: Free Withdrawal Provision
+contentStatus: basic
+alsoKnownAs:
+  - Penalty-Free Withdrawal
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Lets you withdraw a portion, often 10% a year, from an annuity without surrender charges.
+example: You take out 10% in year 3 without penalty.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surrender-charge
+  - annuity
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Reinsurer
+contentStatus: basic
+alsoKnownAs:
+  - Assuming Company
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Beginner
+definition: The company that accepts risk from an insurer in a reinsurance deal.
+example: Munich Re takes part of a US insurer's catastrophe risk.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - reinsurance
+  - ceding-company
+meta:
+  source: editorial

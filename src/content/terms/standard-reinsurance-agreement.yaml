@@ -1,0 +1,20 @@
+term: Standard Reinsurance Agreement
+contentStatus: basic
+abbreviation: SRA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - agriculture
+  - social
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The contract between the FCIC and private crop insurers setting how losses and gains are shared.
+example: The SRA governs a crop insurer's risk sharing with the government.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - federal-crop-insurance-corporation
+meta:
+  source: editorial

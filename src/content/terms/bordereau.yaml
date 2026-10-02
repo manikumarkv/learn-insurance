@@ -1,0 +1,19 @@
+term: Bordereau
+contentStatus: basic
+alsoKnownAs:
+  - Bordereaux
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A regular report listing policies written or claims paid, sent from an MGA or cedent to an insurer or reinsurer.
+example: An MGA sends a monthly premium bordereau.
+whereYoullSeeIt:
+  - Reinsurance contract
+  - Policy administration system
+relatedTerms:
+  - managing-general-agent
+  - delegated-authority-data
+meta:
+  source: editorial

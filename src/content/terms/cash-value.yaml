@@ -1,0 +1,21 @@
+term: Cash Value
+contentStatus: basic
+alsoKnownAs:
+  - Policy Value
+  - Account Value
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: The savings portion of a permanent life policy that grows over time and can be borrowed or withdrawn.
+example: After 20 years your whole life policy has $40,000 cash value.
+whereYoullSeeIt:
+  - Policy document
+  - Billing statement
+relatedTerms:
+  - cash-surrender-value
+  - policy-loan
+  - permanent-life-insurance
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Self-Insured Retention (SIR)
+parent: art.self_insurance
+description: The business pays losses up to the SIR itself before the policy responds.
+example: A manufacturer pays the first $1M of each GL claim.
+segment: Commercial

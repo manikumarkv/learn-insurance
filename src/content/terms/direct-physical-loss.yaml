@@ -1,0 +1,19 @@
+term: Direct Physical Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Actual physical damage to or loss of property, which is usually required before a property policy pays.
+example: A fire burning your store is direct physical loss; losing customers due to a recession is not.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - business-interruption-insurance
+  - peril
+usNotes: Many COVID-19 business interruption suits turned on this phrase.
+meta:
+  source: editorial

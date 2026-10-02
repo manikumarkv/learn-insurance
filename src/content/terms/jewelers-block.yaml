@@ -1,0 +1,17 @@
+term: Jewelers Block
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: Inland marine coverage for jewelry retailers' and wholesalers' stock.
+example: A jewelry store robbery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inland-marine-insurance
+meta:
+  source: editorial

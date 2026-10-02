@@ -1,0 +1,20 @@
+term: Key Person Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Key Man Insurance
+category: Line-Specific
+lines:
+  - life
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Life or disability insurance a business buys on an important employee, with the business as beneficiary.
+example: A startup insures its founder for $2M.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - buy-sell-agreement
+  - business-owners-policy
+usNotes: Employer-owned policies must meet IRS notice and consent rules (Section 101(j)).
+meta:
+  source: editorial

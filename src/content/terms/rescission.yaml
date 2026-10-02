@@ -1,0 +1,20 @@
+term: Rescission
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: Cancelling a policy as if it never existed, usually because of material misrepresentation, with premium refunded.
+example: An insurer rescinds a life policy after finding undisclosed cancer treatment.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - misrepresentation
+  - ab-initio
+  - void-policy
+  - incontestability-clause
+usNotes: The ACA limits rescission of health coverage to fraud or intentional misrepresentation.
+meta:
+  source: editorial

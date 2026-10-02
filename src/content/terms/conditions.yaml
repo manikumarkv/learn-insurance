@@ -1,0 +1,18 @@
+term: Conditions
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The rules and duties both you and the insurer must follow for the policy to work, such as reporting claims promptly.
+example: You must notify the insurer 'as soon as practicable' after a loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insuring-agreement
+  - notice-of-loss
+  - duties-after-loss
+meta:
+  source: editorial

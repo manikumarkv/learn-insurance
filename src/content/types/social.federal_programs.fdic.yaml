@@ -1,0 +1,6 @@
+name: FDIC Deposit Insurance
+parent: social.federal_programs
+description: Protects bank deposits up to $250,000 per depositor, per bank, per ownership category if an insured bank fails.
+example: Depositors are repaid when their bank fails.
+segment: Personal
+usNotes: Funded by premiums paid by banks. Credit unions have equivalent NCUA share insurance.

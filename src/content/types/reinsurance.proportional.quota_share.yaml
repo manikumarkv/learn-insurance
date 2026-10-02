@@ -1,0 +1,6 @@
+name: Quota Share
+parent: reinsurance.proportional
+description: The reinsurer takes a fixed percentage of every policy in the portfolio.
+example: A new insurer cedes 50% of all policies to grow faster with less capital.
+segment: Commercial
+usNotes: Common for startups and insurtechs to support growth.

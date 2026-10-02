@@ -1,0 +1,6 @@
+name: Transit Coverage
+parent: marine.inland_marine
+alsoKnownAs: Transportation floater
+description: Covers the insured's own goods while transported by its own trucks or by carriers.
+example: A manufacturer's goods are damaged on its own truck.
+segment: Commercial

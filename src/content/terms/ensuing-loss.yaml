@@ -1,0 +1,17 @@
+term: Ensuing Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: A covered loss that follows from an excluded cause.
+example: Faulty wiring (excluded) causes a fire (covered); the fire damage is an ensuing loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - exception
+meta:
+  source: editorial

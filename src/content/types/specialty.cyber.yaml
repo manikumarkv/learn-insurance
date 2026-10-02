@@ -1,0 +1,7 @@
+name: Cyber Insurance
+parent: specialty
+alsoKnownAs: Cyber liability; Cyber risk
+description: Covers losses and liabilities from data breaches, hacking, ransomware and IT failures.
+example: A clinic hit by ransomware gets help restoring systems and notifying patients.
+segment: Both
+usNotes: All 50 states have data breach notification laws; SEC rules (2023) require public companies to disclose material cyber incidents.

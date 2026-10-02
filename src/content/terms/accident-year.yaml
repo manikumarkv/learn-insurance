@@ -1,0 +1,23 @@
+term: Accident Year
+contentStatus: basic
+abbreviation: AY
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Grouping of losses by the year the accident happened.
+example: All losses from accidents in 2024 belong to AY 2024.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - policy-year
+  - calendar-year
+  - underwriting-year
+meta:
+  source: editorial

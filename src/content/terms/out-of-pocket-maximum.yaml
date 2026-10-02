@@ -1,0 +1,22 @@
+term: Out-of-Pocket Maximum
+contentStatus: basic
+abbreviation: OOP Max
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Out-of-Pocket Limit
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: The most you'll pay for covered care in a plan year; after that, the plan pays 100%.
+example: After paying $9,000, all covered care is free for the rest of the year.
+whereYoullSeeIt:
+  - Policy document
+  - Explanation of benefits
+relatedTerms:
+  - deductible
+  - cost-sharing
+usNotes: The ACA sets a federal maximum each year for in-network essential health benefits ($10,600 self-only / $21,200 family for 2026).
+meta:
+  source: editorial

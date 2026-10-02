@@ -1,0 +1,19 @@
+term: Contributory Negligence
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: An older rule that bars you from recovering anything if you were even slightly at fault.
+example: A plaintiff 5% at fault gets nothing under contributory negligence.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - comparative-negligence
+  - negligence
+usNotes: Still used in a handful of jurisdictions (e.g., Alabama, Maryland, North Carolina, Virginia and D.C.).
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Irrevocable Beneficiary
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A beneficiary who cannot be changed without their consent.
+example: A divorce decree requires an ex-spouse to be irrevocable beneficiary.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - beneficiary
+meta:
+  source: editorial

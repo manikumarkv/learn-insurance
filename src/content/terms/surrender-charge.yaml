@@ -1,0 +1,17 @@
+term: Surrender Charge
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A fee charged if you cancel a life policy or annuity in its early years.
+example: A 7% surrender charge in year one, declining yearly.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cash-surrender-value
+  - annuity
+meta:
+  source: editorial

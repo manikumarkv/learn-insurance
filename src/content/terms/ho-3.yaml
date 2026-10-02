@@ -1,0 +1,20 @@
+term: HO-3
+contentStatus: basic
+alsoKnownAs:
+  - Special Form Homeowners
+category: Line-Specific
+lines:
+  - property
+usageFrequency: High
+difficulty: Intermediate
+definition: "The most common US homeowners form: open perils on the house, named perils on belongings."
+example: Most homeowners buy an HO-3.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - homeowners-insurance
+  - ho-5
+  - open-perils
+usNotes: Based on ISO form HO 00 03.
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Portfolio
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A group of policies managed or analyzed together.
+example: An insurer's Florida homeowners portfolio.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - book-of-business
+  - portfolio-transfer
+meta:
+  source: editorial

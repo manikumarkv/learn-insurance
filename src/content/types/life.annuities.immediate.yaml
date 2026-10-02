@@ -1,0 +1,6 @@
+name: Immediate Annuity
+parent: life.annuities
+alsoKnownAs: Single Premium Immediate Annuity (SPIA); Income annuity
+description: A lump sum is paid in and income starts right away, usually within a year.
+example: A 67-year-old pays $200,000 and receives about $1,200 a month for life.
+segment: Personal

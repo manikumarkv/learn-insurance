@@ -1,0 +1,21 @@
+term: Public Adjuster
+contentStatus: basic
+abbreviation: PA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A licensed adjuster hired by the policyholder, not the insurer, to negotiate a claim for a percentage fee.
+example: A business hires a public adjuster for 10% of the settlement.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - claims-adjuster
+  - appraisal-clause
+usNotes: Licensed in most states. Only some states cap public adjuster fees (often at 10–20% of the claim payment), and several set lower caps after declared catastrophes, e.g., Florida's 10% cap on claims in the first year after a hurricane emergency.
+meta:
+  source: editorial

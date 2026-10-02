@@ -1,0 +1,5 @@
+name: Exclusive Provider Organization (EPO)
+parent: health.major_medical.plan_types
+description: Like a PPO with no referrals, but only in-network care is covered (except emergencies).
+example: A worker happy with the local network picks an EPO to save money.
+segment: Both

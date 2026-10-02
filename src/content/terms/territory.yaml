@@ -1,0 +1,20 @@
+term: Territory
+contentStatus: basic
+alsoKnownAs:
+  - Rating Territory
+category: Underwriting
+lines:
+  - property
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A geographic area used as a rating factor because losses differ by location.
+example: Urban ZIP codes are in a higher-rated auto territory.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - rating-factor
+  - base-rate
+meta:
+  source: editorial

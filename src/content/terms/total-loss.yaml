@@ -1,0 +1,23 @@
+term: Total Loss
+contentStatus: basic
+alsoKnownAs:
+  - Totaled
+category: Claims
+lines:
+  - property
+  - auto
+  - marine
+usageFrequency: High
+difficulty: Beginner
+definition: When insured property is destroyed or repair costs exceed its value (or a set percentage of it).
+example: A car with $9,000 damage worth $10,000 is a total loss.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - constructive-total-loss
+  - actual-cash-value
+  - salvage
+  - total-loss-threshold
+meta:
+  source: editorial

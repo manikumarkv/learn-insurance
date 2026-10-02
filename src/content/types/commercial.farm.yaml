@@ -1,0 +1,7 @@
+name: Farm & Ranch Property
+parent: commercial
+alsoKnownAs: Farmowners
+description: Package cover for farm dwellings, barns, equipment and livestock plus farm liability.
+example: A dairy farm insures its barns and milking equipment.
+segment: Commercial
+usNotes: Crop insurance is separate (see Agricultural). ISO and AAIS publish farm forms.

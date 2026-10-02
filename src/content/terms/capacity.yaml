@@ -1,0 +1,19 @@
+term: Capacity
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The amount of insurance an insurer or market is able and willing to write, limited by capital and appetite.
+example: After a big hurricane season, property capacity in Florida shrinks.
+whereYoullSeeIt:
+  - Underwriting system
+  - Agent/broker communications
+relatedTerms:
+  - risk-appetite
+  - hard-market
+  - reinsurance
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Subrogation Demand
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: A request sent to a responsible party or their insurer to repay the claim.
+example: Your insurer sends a subrogation demand to the at-fault driver's carrier.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - subrogation
+  - inter-company-arbitration
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Death Benefit
+contentStatus: basic
+alsoKnownAs:
+  - Face Amount
+  - Sum Assured
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: The amount paid to beneficiaries when the insured person dies.
+example: A $250,000 death benefit paid to your spouse.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - face-amount
+  - life-insurance
+  - beneficiary
+meta:
+  source: editorial

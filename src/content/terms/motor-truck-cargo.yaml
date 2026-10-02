@@ -1,0 +1,18 @@
+term: Motor Truck Cargo
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - auto
+  - marine
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers freight hauled by a trucker against damage or loss.
+example: A load of TVs is stolen from a trailer.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - motor-carrier
+  - cargo-insurance
+meta:
+  source: editorial

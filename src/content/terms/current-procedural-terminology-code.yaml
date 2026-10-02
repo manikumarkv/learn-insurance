@@ -1,0 +1,20 @@
+term: Current Procedural Terminology Code
+contentStatus: basic
+abbreviation: CPT Code
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Codes that describe medical procedures and services on claims, maintained by the American Medical Association.
+example: 99213 is a common office visit code.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - international-classification-of-diseases-10th-revision
+  - healthcare-common-procedure-coding-system
+meta:
+  source: editorial

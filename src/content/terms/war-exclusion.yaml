@@ -1,0 +1,17 @@
+term: War Exclusion
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Excludes losses caused by war, invasion or military action.
+example: Damage from an act of war is not covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - terrorism-risk-insurance-act
+meta:
+  source: editorial

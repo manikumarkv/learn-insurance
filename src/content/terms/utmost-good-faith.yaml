@@ -1,0 +1,22 @@
+term: Utmost Good Faith
+contentStatus: basic
+alsoKnownAs:
+  - Uberrimae Fidei
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Both you and the insurer must be completely honest with each other, especially about facts that affect the risk.
+example: Hiding that you smoke on a life application breaks this duty and may void the policy.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - uberrimae-fidei
+  - material-fact
+  - misrepresentation
+  - concealment
+  - duty-of-disclosure
+meta:
+  source: editorial

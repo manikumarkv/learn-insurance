@@ -1,0 +1,6 @@
+name: Level Term
+parent: life.term
+alsoKnownAs: Guaranteed level term
+description: The death benefit and premium stay the same for the whole term (e.g. 10, 15, 20 or 30 years).
+example: A family buys $500,000 of cover that stays at $500,000 for 20 years.
+segment: Personal

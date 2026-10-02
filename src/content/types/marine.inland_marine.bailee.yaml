@@ -1,0 +1,5 @@
+name: Bailee's Customers
+parent: marine.inland_marine
+description: Covers customers' property held by a business, such as a dry cleaner or repair shop.
+example: A fire at a dry cleaner destroys customers' clothes.
+segment: Commercial

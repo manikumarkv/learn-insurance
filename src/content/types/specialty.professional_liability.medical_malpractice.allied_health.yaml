@@ -1,0 +1,5 @@
+name: Allied Health / Nurses
+parent: specialty.professional_liability.medical_malpractice
+description: Covers nurses, therapists, pharmacists and other health workers.
+example: A physical therapist is sued for a patient's injury.
+segment: Both

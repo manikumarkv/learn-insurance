@@ -1,0 +1,5 @@
+name: Aggregate Excess / Stop Loss
+parent: reinsurance.non_proportional
+description: Pays when total losses for a year exceed a set amount or loss ratio.
+example: A reinsurer pays once the insurer's loss ratio exceeds 80%.
+segment: Commercial

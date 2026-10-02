@@ -1,0 +1,18 @@
+term: Forms Schedule
+contentStatus: basic
+alsoKnownAs:
+  - Forms List
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A list on the policy of all the form and endorsement numbers that make up the contract.
+example: The dec page lists 'CG 00 01 04 13; CG 21 47 12 07'.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - form
+  - endorsement
+meta:
+  source: editorial

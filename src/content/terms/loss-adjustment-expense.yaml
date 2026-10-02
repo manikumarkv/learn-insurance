@@ -1,0 +1,20 @@
+term: Loss Adjustment Expense
+contentStatus: basic
+abbreviation: LAE
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The costs of investigating and settling claims, separate from the claim payments themselves.
+example: Adjuster fees and legal costs are LAE.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - allocated-loss-adjustment-expense
+  - unallocated-loss-adjustment-expense
+  - loss-ratio
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Grace Period
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Extra time after a premium due date during which coverage stays in force before the policy lapses.
+example: A life policy gives a 31-day grace period.
+whereYoullSeeIt:
+  - Policy document
+  - Billing statement
+relatedTerms:
+  - lapse
+  - reinstatement
+  - premium
+usNotes: ACA marketplace enrollees receiving subsidies get a 3-month grace period; life policies typically have 30–31 days by state law.
+meta:
+  source: editorial

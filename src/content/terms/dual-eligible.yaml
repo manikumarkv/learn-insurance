@@ -1,0 +1,19 @@
+term: Dual Eligible
+contentStatus: basic
+alsoKnownAs:
+  - Duals
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: People who qualify for both Medicare and Medicaid.
+example: A low-income 70-year-old gets both programs.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - medicaid
+usNotes: Special Needs Plans (D-SNPs) serve this group.
+meta:
+  source: editorial

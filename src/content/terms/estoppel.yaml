@@ -1,0 +1,15 @@
+term: Estoppel
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A rule preventing a party from denying something it earlier led someone else to rely on.
+example: An agent told you a loss was covered, so the insurer may be estopped from denying it.
+whereYoullSeeIt: []
+relatedTerms:
+  - waiver
+meta:
+  source: editorial

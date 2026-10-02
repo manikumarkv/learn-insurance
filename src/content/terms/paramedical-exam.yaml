@@ -1,0 +1,19 @@
+term: Paramedical Exam
+contentStatus: basic
+alsoKnownAs:
+  - Paramed
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A basic health exam for a life insurance application, often including blood and urine samples, done by a trained examiner.
+example: A nurse visits your home to take blood pressure and a blood sample.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - medical-underwriting
+  - accelerated-underwriting
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Livestock Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Livestock Mortality
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers death of livestock from accidents, disease or other causes; federal price-risk livestock plans also exist.
+example: A prize bull dies from lightning.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crop-insurance
+meta:
+  source: editorial

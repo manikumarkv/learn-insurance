@@ -1,0 +1,19 @@
+term: Vicarious Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Being held responsible for harm caused by someone else, such as an employee.
+example: An employer is liable when its delivery driver causes a crash on the job.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - respondeat-superior
+  - liability
+meta:
+  source: editorial

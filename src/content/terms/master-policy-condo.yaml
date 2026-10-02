@@ -1,0 +1,20 @@
+term: Condo Master Policy
+contentStatus: basic
+alsoKnownAs:
+  - HOA Master Policy
+category: Line-Specific
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: The policy bought by a condo association to cover common areas and often the building structure.
+example: The HOA master policy covers the roof and hallways.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ho-6
+  - loss-assessment-coverage
+usNotes: Florida and other states set condo association insurance requirements.
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Finite Risk Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: A multi-year insurance contract that transfers limited risk and focuses on spreading loss costs over time.
+example: A company's losses are funded over five years with limited risk transfer.
+whereYoullSeeIt: []
+relatedTerms:
+  - alternative-risk-transfer
+  - risk-transfer-testing
+meta:
+  source: editorial

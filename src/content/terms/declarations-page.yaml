@@ -1,0 +1,21 @@
+term: Declarations Page
+contentStatus: basic
+alsoKnownAs:
+  - Declarations
+  - Dec Page
+  - Schedule
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The summary page of your policy showing who is insured, what is covered, limits, deductibles, premium and policy dates.
+example: Your auto dec page lists your cars, drivers, coverages and six-month premium.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - insurance-policy
+  - named-insured
+  - policy-period
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Dram Shop Law
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: State laws making businesses that serve alcohol liable for harm caused by intoxicated customers.
+example: A bar that over-served a customer is sued.
+whereYoullSeeIt: []
+relatedTerms:
+  - liquor-liability
+usNotes: Rules differ by state; some states have no dram shop liability.
+meta:
+  source: editorial

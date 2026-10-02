@@ -1,0 +1,19 @@
+term: HO-6
+contentStatus: basic
+alsoKnownAs:
+  - Condo Insurance
+  - Condominium Unit Owners
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance for condo owners covering their unit's interior, belongings and liability.
+example: Covers new kitchen cabinets after a fire in your condo unit.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - master-policy-condo
+  - loss-assessment-coverage
+meta:
+  source: editorial

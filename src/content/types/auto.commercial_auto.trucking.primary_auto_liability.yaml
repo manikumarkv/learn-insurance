@@ -1,0 +1,5 @@
+name: Primary Auto Liability
+parent: auto.commercial_auto.trucking
+description: The main liability cover for a truck fleet, meeting federal minimums.
+example: A carrier carries $1 million primary liability.
+segment: Commercial

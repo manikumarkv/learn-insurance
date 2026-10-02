@@ -1,0 +1,6 @@
+name: High-Risk Health Pools (Historical)
+parent: social.state_residual_markets
+description: State pools that insured people denied health cover due to pre-existing conditions.
+example: Before 2014, a cancer survivor bought cover from a state pool.
+segment: Personal
+usNotes: Mostly closed after the ACA banned pre-existing condition exclusions in 2014.

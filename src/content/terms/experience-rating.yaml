@@ -1,0 +1,19 @@
+term: Experience Rating
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - health
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Adjusting premium based on the insured's own past loss experience compared with the average.
+example: A company with fewer claims than average gets a lower workers' comp premium.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - experience-modification-factor
+  - retrospective-rating
+meta:
+  source: editorial

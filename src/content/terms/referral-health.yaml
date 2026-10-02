@@ -1,0 +1,18 @@
+term: Referral (Health)
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Approval from your primary care doctor to see a specialist, required by some plans.
+example: Your HMO needs a referral before a cardiology visit.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - health-maintenance-organization
+  - primary-care-physician
+  - prior-authorization
+meta:
+  source: editorial

@@ -1,0 +1,22 @@
+term: Form
+contentStatus: basic
+alsoKnownAs:
+  - Policy Form
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: A standard printed document that makes up part of a policy, identified by a form number.
+example: The ISO homeowners form HO 00 03.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+  - Policy administration system
+relatedTerms:
+  - insurance-services-office
+  - endorsement
+  - forms-schedule
+usNotes: Most personal lines forms must be filed with and approved by state regulators; filing rules for commercial forms vary, and some large commercial risks are exempt.
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Ocean Marine Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Marine Insurance
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance for ships, cargo and marine liability for goods moving by sea.
+example: A container of electronics lost overboard.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hull-insurance
+  - cargo-insurance
+  - protection-and-indemnity
+meta:
+  source: editorial

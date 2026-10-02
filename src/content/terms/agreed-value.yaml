@@ -1,0 +1,22 @@
+term: Agreed Value
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - auto
+  - marine
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A value the insured and insurer agree on in advance, which is paid for a total loss without arguing about depreciation.
+example: A classic car is insured for an agreed value of $60,000.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - actual-cash-value
+  - stated-value
+  - valued-policy
+meta:
+  source: editorial

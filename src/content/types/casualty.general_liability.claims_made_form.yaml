@@ -1,0 +1,5 @@
+name: Claims-Made Form
+parent: casualty.general_liability
+description: Covers claims first made during the policy period, subject to a retroactive date; tail cover extends the reporting window.
+example: A claim made in 2025 is handled by the 2025 policy.
+segment: Commercial

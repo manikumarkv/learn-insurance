@@ -1,0 +1,21 @@
+term: Employee Retirement Income Security Act
+contentStatus: basic
+abbreviation: ERISA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A 1974 federal law that sets standards for most private employer benefit plans, including health and life plans.
+example: An ERISA plan must follow federal appeal procedures.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - self-funded-plan
+  - summary-plan-description
+  - erisa-preemption
+meta:
+  source: editorial

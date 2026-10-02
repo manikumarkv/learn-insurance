@@ -1,0 +1,7 @@
+name: Catastrophe Excess of Loss
+parent: reinsurance.non_proportional
+alsoKnownAs: Cat XL; Property cat
+description: Pays when the total losses from one catastrophe exceed the retention.
+example: A hurricane causes $300M of claims and the reinsurer pays above $100M.
+segment: Commercial
+usNotes: Florida insurers also buy mandatory reinsurance from the Florida Hurricane Catastrophe Fund (FHCF).

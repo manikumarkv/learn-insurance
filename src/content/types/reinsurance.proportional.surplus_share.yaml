@@ -1,0 +1,6 @@
+name: Surplus Share
+parent: reinsurance.proportional
+alsoKnownAs: Surplus treaty
+description: The insurer keeps a fixed amount (its "line") on each risk and cedes the amount above it, so larger risks are ceded more.
+example: An insurer keeps $1M of each risk and cedes the rest of a $5M building.
+segment: Commercial

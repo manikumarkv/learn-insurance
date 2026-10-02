@@ -1,0 +1,21 @@
+term: Inspection
+contentStatus: basic
+alsoKnownAs:
+  - Risk Survey
+  - Loss Control Survey
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Beginner
+definition: A visit to evaluate a property or operation for hazards before or after issuing coverage.
+example: An inspector photographs a home's roof for underwriting.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - loss-control
+  - underwriting
+meta:
+  source: editorial

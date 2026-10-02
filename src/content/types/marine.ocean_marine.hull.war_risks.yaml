@@ -1,0 +1,5 @@
+name: Marine War Risks
+parent: marine.ocean_marine.hull
+description: Covers ships and cargo against war, strikes, terrorism and piracy excluded by standard hull and cargo terms.
+example: A ship passing through a conflict zone buys extra war cover.
+segment: Commercial

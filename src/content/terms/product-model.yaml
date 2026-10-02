@@ -1,0 +1,18 @@
+term: Product Model
+contentStatus: basic
+alsoKnownAs:
+  - Product Definition
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A structured description of an insurance product's coverages, options, limits, deductibles, rules and forms used by systems.
+example: A homeowners product model with 20 coverages and 5 deductible options.
+whereYoullSeeIt:
+  - Product specification
+relatedTerms:
+  - product-configurator
+  - coverage-code
+meta:
+  source: editorial

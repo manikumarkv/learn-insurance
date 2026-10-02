@@ -1,0 +1,17 @@
+term: Use and File
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Insurers can start using rates and then file them within a set time.
+example: Rates used immediately and filed within 30 days.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - file-and-use
+  - prior-approval
+meta:
+  source: editorial

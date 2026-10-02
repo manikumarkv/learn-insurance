@@ -1,0 +1,20 @@
+term: Warranty
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+  - marine
+usageFrequency: Medium
+difficulty: Advanced
+definition: A promise by the insured that certain facts are true or that certain things will or won't be done. Breaking it can void coverage.
+example: A jewelry store warrants that its alarm will be on whenever it is closed.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - representation
+  - condition-precedent
+usNotes: Many states soften strict warranty law so a breach only voids coverage if it increased the risk or contributed to the loss.
+meta:
+  source: editorial

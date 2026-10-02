@@ -1,0 +1,5 @@
+name: Extra Expense
+parent: commercial.business_income
+description: Pays extra costs to keep running after damage, such as renting temporary space.
+example: An office rents a temporary floor while its own is repaired.
+segment: Commercial

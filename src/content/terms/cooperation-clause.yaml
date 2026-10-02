@@ -1,0 +1,19 @@
+term: Cooperation Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A condition requiring you to help the insurer investigate and defend claims.
+example: You must attend depositions in a lawsuit your insurer is defending.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - conditions
+  - duty-to-defend
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Cancer Insurance
+parent: health.supplemental
+description: Pays benefits specifically for cancer diagnosis and treatment.
+example: A person with a family history of cancer buys a cancer-only policy.
+segment: Personal
+usNotes: Some states prohibit or restrict disease-specific policies.

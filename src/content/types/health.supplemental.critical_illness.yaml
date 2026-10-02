@@ -1,0 +1,6 @@
+name: Critical Illness Insurance
+parent: health.supplemental
+alsoKnownAs: Specified disease insurance
+description: Pays a lump sum on diagnosis of a listed serious illness like cancer, heart attack or stroke.
+example: A woman diagnosed with breast cancer receives $20,000 to use as she wishes.
+segment: Personal

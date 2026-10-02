@@ -1,0 +1,5 @@
+name: Weather Insurance
+parent: specialty
+description: Pays when weather such as rain, snow or temperature is worse than agreed; often parametric. Unlike a weather derivative, which is a traded financial contract and not insurance, it covers the buyer's own weather-related loss.
+example: An outdoor festival is paid if more than 0.5 inches of rain falls.
+segment: Both

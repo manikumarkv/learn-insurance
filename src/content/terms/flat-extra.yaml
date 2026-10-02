@@ -1,0 +1,17 @@
+term: Flat Extra
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: An extra premium per $1,000 of coverage charged for a specific risk, like a dangerous hobby.
+example: A pilot pays an extra $2.50 per $1,000 of coverage.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - table-rating
+  - risk-class
+meta:
+  source: editorial

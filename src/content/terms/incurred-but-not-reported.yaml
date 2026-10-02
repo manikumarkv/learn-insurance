@@ -1,0 +1,21 @@
+term: Incurred But Not Reported
+contentStatus: basic
+abbreviation: IBNR
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: A reserve for claims that have happened but haven't yet been reported to the insurer.
+example: A December accident reported in February is part of year-end IBNR.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-reserve
+  - case-reserve-development
+  - bulk-reserve
+  - loss-development
+meta:
+  source: editorial

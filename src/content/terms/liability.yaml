@@ -1,0 +1,22 @@
+term: Liability
+contentStatus: basic
+alsoKnownAs:
+  - Legal Liability
+category: Core Concept
+lines:
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: High
+difficulty: Beginner
+definition: Legal responsibility to pay for harm you cause to someone else or their property.
+example: If your dog bites a visitor, you may have liability for their medical bills.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - negligence
+  - third-party-coverage
+  - general-liability-insurance
+meta:
+  source: editorial

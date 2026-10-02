@@ -1,0 +1,7 @@
+name: Part B (Medical Insurance)
+parent: social.medicare
+alsoKnownAs: SMI
+description: Covers doctor visits, outpatient care, preventive services and medical equipment, with 20% coinsurance.
+example: A retiree's annual checkup and lab tests are covered.
+segment: Personal
+usNotes: Monthly premium, with higher income-related premiums (IRMAA) for high earners. Late enrollment penalties apply.

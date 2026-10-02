@@ -1,0 +1,22 @@
+term: Indexed Universal Life
+contentStatus: basic
+abbreviation: IUL
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: Universal life where cash value interest is linked to a stock market index, with a floor and cap.
+example: Credited interest follows the S&P 500 up to a 10% cap, with a 0% floor.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - universal-life-insurance
+  - cap-rate
+  - participation-rate
+  - floor-rate
+usNotes: NAIC Actuarial Guideline 49-A (2020), updated by AG 49-B (2023), limits illustrated rates and multiplier/volatility-controlled index features.
+meta:
+  source: editorial

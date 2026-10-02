@@ -1,0 +1,15 @@
+term: Caveat Emptor
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Latin for 'let the buyer beware'. It is the opposite of utmost good faith and does not apply to insurance.
+example: Unlike used car sales, insurance does not follow caveat emptor.
+whereYoullSeeIt: []
+relatedTerms:
+  - utmost-good-faith
+meta:
+  source: editorial

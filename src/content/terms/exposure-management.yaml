@@ -1,0 +1,19 @@
+term: Exposure Management
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - commercial
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Tracking and analyzing where insured values are concentrated to manage catastrophe risk.
+example: Mapping all insured homes within 1 mile of the coast.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - aggregation
+  - catastrophe-model
+meta:
+  source: editorial

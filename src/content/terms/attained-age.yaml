@@ -1,0 +1,18 @@
+term: Attained Age
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: The insured's current age, used for premiums that rise with age.
+example: Medigap attained-age pricing rises each year.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - issue-age
+  - community-rating
+meta:
+  source: editorial

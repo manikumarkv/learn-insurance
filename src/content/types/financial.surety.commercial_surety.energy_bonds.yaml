@@ -1,0 +1,7 @@
+name: Oil & Gas Bonds
+parent: financial.surety.commercial_surety
+alsoKnownAs: Plugging and abandonment bonds; Decommissioning bonds; Lease bonds
+description: Surety bonds that guarantee energy operators will meet lease duties such as plugging wells and removing platforms.
+example: An offshore operator posts a bond so the government is not left paying to remove its platform.
+segment: Commercial
+usNotes: Offshore, BOEM requires base lease bonds and may require supplemental financial assurance for decommissioning (30 CFR Part 556, Subpart I).

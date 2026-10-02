@@ -1,0 +1,19 @@
+term: Nonforfeiture Options
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: "Choices for using cash value if you stop paying premiums: take cash, buy reduced paid-up insurance or extended term."
+example: You choose reduced paid-up insurance of $30,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cash-surrender-value
+  - reduced-paid-up
+  - extended-term-insurance
+usNotes: Required by state standard nonforfeiture laws.
+meta:
+  source: editorial

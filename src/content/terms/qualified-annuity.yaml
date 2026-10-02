@@ -1,0 +1,17 @@
+term: Qualified Annuity
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An annuity funded with pre-tax retirement money such as an IRA or 401(k).
+example: Rolling a 401(k) into an IRA annuity.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - non-qualified-annuity
+  - required-minimum-distribution
+meta:
+  source: editorial

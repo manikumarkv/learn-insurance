@@ -269,7 +269,10 @@ const types = collection({
         description:
           'Dotted path from data/insurance-taxonomy.csv, e.g. life.term. URL: /types/<id>.',
         validation: {
-          pattern: { regex: /^[a-z0-9.-]+$/, message: 'Use a–z, 0–9, dots and hyphens.' },
+          pattern: {
+            regex: /^[a-z0-9._-]+$/,
+            message: 'Use a–z, 0–9, dots, underscores and hyphens.',
+          },
         },
       },
     }),

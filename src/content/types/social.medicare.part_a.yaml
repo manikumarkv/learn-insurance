@@ -1,0 +1,7 @@
+name: Part A (Hospital Insurance)
+parent: social.medicare
+alsoKnownAs: HI
+description: Covers inpatient hospital stays, skilled nursing facility care, hospice and some home health care.
+example: A patient's 4-day hospital stay is covered after the Part A deductible.
+segment: Personal
+usNotes: Premium-free for people with 40 quarters of work; funded by the Medicare payroll tax.

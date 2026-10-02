@@ -1,0 +1,5 @@
+name: Tax Liability Insurance
+parent: specialty.transactional
+description: Covers the risk that the IRS or a state challenges a tax position.
+example: A deal's tax structure is challenged and extra tax is paid.
+segment: Commercial

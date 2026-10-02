@@ -1,0 +1,5 @@
+name: Catastrophic Coverage (CAT)
+parent: agriculture.federal_crop
+description: Basic cover at 50% of yield and 55% of price, with the premium fully paid by the government; the farmer pays only an administrative fee.
+example: A small farm takes CAT for a $655 administrative fee per crop per county.
+segment: Commercial

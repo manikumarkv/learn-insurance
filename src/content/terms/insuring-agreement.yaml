@@ -1,0 +1,18 @@
+term: Insuring Agreement
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The part of the policy stating what the insurer promises to cover.
+example: "'We will pay those sums the insured becomes legally obligated to pay as damages because of bodily injury...'"
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - conditions
+  - definitions-section
+meta:
+  source: editorial

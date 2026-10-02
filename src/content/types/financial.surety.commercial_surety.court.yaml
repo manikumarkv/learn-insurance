@@ -1,0 +1,5 @@
+name: Court / Judicial Bonds
+parent: financial.surety.commercial_surety
+description: Required in legal proceedings, such as appeal bonds and bonds for estate executors.
+example: An executor posts a probate bond.
+segment: Both

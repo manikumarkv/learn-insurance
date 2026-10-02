@@ -1,0 +1,6 @@
+name: Short-Term Disability (STD)
+parent: health.disability
+description: Pays part of your salary for a short period, typically 3 to 6 months, after a short waiting period.
+example: An employee on leave after surgery gets 60% pay for 8 weeks.
+segment: Both
+usNotes: Mandatory state programs exist in CA, HI, NJ, NY, RI and PR (see Social & Government Programs).

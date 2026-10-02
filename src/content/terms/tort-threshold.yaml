@@ -1,0 +1,16 @@
+term: Tort Threshold
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: The level of injury or cost that must be reached before you can sue in a no-fault state.
+example: You can sue only for 'serious injury' in New York.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - no-fault-insurance
+meta:
+  source: editorial

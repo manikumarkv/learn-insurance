@@ -1,0 +1,16 @@
+term: Policy Territory
+contentStatus: basic
+alsoKnownAs:
+  - Coverage Territory
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The geographic area where the policy provides coverage.
+example: A US auto policy covers the US, its territories and Canada.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms: []
+meta:
+  source: editorial

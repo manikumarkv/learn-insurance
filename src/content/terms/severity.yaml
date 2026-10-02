@@ -1,0 +1,19 @@
+term: Severity
+contentStatus: basic
+alsoKnownAs:
+  - Claim Severity
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The average cost of each loss or claim.
+example: If 10 claims cost $50,000 total, severity is $5,000.
+whereYoullSeeIt:
+  - Financial statements
+  - Underwriting system
+relatedTerms:
+  - frequency
+  - loss-cost
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Treaty Reinsurance
+contentStatus: basic
+alsoKnownAs:
+  - Treaty
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A reinsurance agreement covering a whole class or portfolio of policies automatically.
+example: All homeowners policies in Texas are ceded under one treaty.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - facultative-reinsurance
+  - quota-share
+  - excess-of-loss
+meta:
+  source: editorial

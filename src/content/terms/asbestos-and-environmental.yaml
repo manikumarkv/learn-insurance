@@ -1,0 +1,19 @@
+term: Asbestos and Environmental
+contentStatus: basic
+abbreviation: A&E
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - casualty
+usageFrequency: Low
+difficulty: Advanced
+definition: Long-tail liability claims from asbestos exposure and pollution that have cost insurers heavily for decades.
+example: An insurer increases A&E reserves.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - long-tail
+  - run-off
+meta:
+  source: editorial

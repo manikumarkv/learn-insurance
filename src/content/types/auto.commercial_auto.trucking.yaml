@@ -1,0 +1,7 @@
+name: Trucking Insurance
+parent: auto.commercial_auto
+alsoKnownAs: Motor carrier coverage
+description: Cover for businesses that haul goods for others.
+example: A regional carrier insures 40 tractor-trailers.
+segment: Commercial
+usNotes: Interstate for-hire carriers file proof of insurance with FMCSA (MCS-90 endorsement).

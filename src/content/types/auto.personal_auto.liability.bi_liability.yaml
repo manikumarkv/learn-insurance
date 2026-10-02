@@ -1,0 +1,6 @@
+name: Bodily Injury Liability
+parent: auto.personal_auto.liability
+alsoKnownAs: BI
+description: Pays for injuries you cause to other people, including medical costs, lost wages and legal claims.
+example: A driver who injures a pedestrian has the victim's bills paid by the policy.
+segment: Personal

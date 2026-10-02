@@ -1,0 +1,19 @@
+term: Elimination Period
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The number of days you must be disabled or need care before a disability or long-term care policy starts paying.
+example: A 90-day elimination period on a long-term disability policy.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - waiting-period
+  - long-term-disability-insurance
+meta:
+  source: editorial

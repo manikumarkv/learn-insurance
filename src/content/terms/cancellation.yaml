@@ -1,0 +1,21 @@
+term: Cancellation
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Ending a policy before its expiration date, either by the policyholder or the insurer.
+example: You cancel your auto policy when you sell your car.
+whereYoullSeeIt:
+  - Policy administration system
+  - Policy document
+relatedTerms:
+  - non-renewal
+  - pro-rata-cancellation
+  - short-rate-cancellation
+  - flat-cancellation
+usNotes: States limit insurer cancellation after 60 days of a personal lines policy to reasons like non-payment or fraud.
+meta:
+  source: editorial

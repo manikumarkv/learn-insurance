@@ -1,0 +1,17 @@
+term: Mental Health Parity
+contentStatus: basic
+alsoKnownAs:
+  - MHPAEA
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Federal rules requiring mental health and substance use benefits to be no more restrictive than medical benefits.
+example: Therapy visits can't have higher copays than other doctor visits.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - essential-health-benefits
+meta:
+  source: editorial

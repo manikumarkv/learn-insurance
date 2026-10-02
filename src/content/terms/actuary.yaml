@@ -1,0 +1,17 @@
+term: Actuary
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A professional who uses math and statistics to price insurance, set reserves and measure risk.
+example: An actuary calculates how much to charge 30-year-old non-smokers for term life.
+whereYoullSeeIt: []
+relatedTerms:
+  - law-of-large-numbers
+  - reserves
+usNotes: Credentialed by the CAS (property/casualty) or SOA (life/health).
+meta:
+  source: editorial

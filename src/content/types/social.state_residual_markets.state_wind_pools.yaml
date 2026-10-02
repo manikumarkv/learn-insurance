@@ -1,0 +1,7 @@
+name: State Wind & Beach Pools
+parent: social.state_residual_markets
+alsoKnownAs: Citizens; TWIA
+description: State insurers or pools covering coastal wind risk.
+example: A Florida homeowner is covered by Citizens Property Insurance.
+segment: Both
+usNotes: See Home & Personal Property Insurance > Windstorm and FAIR Plans.

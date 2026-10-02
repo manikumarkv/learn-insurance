@@ -1,0 +1,7 @@
+name: Home Warranty
+parent: property
+alsoKnownAs: Home service contract
+description: A service contract that pays to repair or replace home systems and appliances that break from normal wear.
+example: A home warranty pays to fix a failed furnace in winter.
+segment: Personal
+usNotes: Regulated as service contracts rather than insurance in many states.

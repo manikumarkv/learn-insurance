@@ -1,0 +1,18 @@
+term: Earthquake Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage for damage from earthquakes, usually sold separately with a high percentage deductible.
+example: A 15% deductible earthquake policy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - earth-movement-exclusion
+  - percentage-deductible
+usNotes: In California it is often bought from the California Earthquake Authority (CEA).
+meta:
+  source: editorial

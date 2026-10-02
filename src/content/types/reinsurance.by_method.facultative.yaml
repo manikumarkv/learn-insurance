@@ -1,0 +1,6 @@
+name: Facultative Reinsurance
+parent: reinsurance.by_method
+alsoKnownAs: Fac
+description: Reinsurance negotiated for a single policy or risk, which the reinsurer can accept or decline.
+example: An insurer reinsures most of a large chemical plant's property policy with a fac placement.
+segment: Commercial

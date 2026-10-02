@@ -1,0 +1,19 @@
+term: Inherent Vice
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - property
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: Damage caused by a natural quality of the item itself, not an outside event. It is usually excluded.
+example: Fruit rotting in transit because of its own ripening is inherent vice.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - wear-and-tear
+meta:
+  source: editorial

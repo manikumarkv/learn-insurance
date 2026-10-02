@@ -1,0 +1,21 @@
+term: Scheduled Personal Property
+contentStatus: basic
+alsoKnownAs:
+  - Personal Articles Floater
+  - Floater
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Specific valuable items listed individually with their own limits, often with broader coverage.
+example: A $10,000 engagement ring scheduled on your home policy.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - sublimit
+  - inland-marine-insurance
+  - endorsement
+meta:
+  source: editorial

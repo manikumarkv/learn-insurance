@@ -1,0 +1,17 @@
+term: General Liability Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Broad term for insurance covering a business's legal liability for injuries and property damage to others.
+example: A contractor buys general liability to win jobs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-general-liability
+meta:
+  source: editorial

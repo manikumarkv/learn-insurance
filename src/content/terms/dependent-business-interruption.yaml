@@ -1,0 +1,18 @@
+term: Dependent Business Interruption (Cyber)
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: Cyber coverage for lost income when a key technology vendor suffers an outage or attack.
+example: A cloud provider's outage stops your online store.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cyber-insurance
+  - contingent-business-interruption
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Hospital Indemnity
+parent: health.supplemental
+alsoKnownAs: Hospital confinement indemnity
+description: Pays a fixed amount per day or per admission while hospitalized, regardless of actual bills.
+example: A patient gets $200 per day for a 5-day hospital stay.
+segment: Personal

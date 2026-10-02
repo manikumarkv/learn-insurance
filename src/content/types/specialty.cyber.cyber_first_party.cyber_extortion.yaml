@@ -1,0 +1,6 @@
+name: Cyber Extortion / Ransomware
+parent: specialty.cyber.cyber_first_party
+description: Covers ransom demands (where legal) and negotiation costs.
+example: A firm's data is encrypted and negotiators are hired.
+segment: Commercial
+usNotes: Payments to sanctioned groups are barred by OFAC (Treasury) rules.

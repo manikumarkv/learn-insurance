@@ -1,0 +1,7 @@
+name: Commercial Auto
+parent: auto
+alsoKnownAs: Business auto
+description: Cover for vehicles used for business, such as vans, trucks, delivery vehicles and limos.
+example: A plumbing company insures its five vans.
+segment: Commercial
+usNotes: Based on the ISO Business Auto Policy (BAP). Federal FMCSA minimum limits apply to interstate carriers ($750,000+ for general freight).

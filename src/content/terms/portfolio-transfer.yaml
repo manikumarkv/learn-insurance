@@ -1,0 +1,20 @@
+term: Portfolio Transfer
+contentStatus: basic
+alsoKnownAs:
+  - Loss Portfolio Transfer
+  - LPT
+category: Reinsurance
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: Transferring a block of existing liabilities, such as old claims, to another insurer or reinsurer.
+example: An insurer transfers its asbestos reserves to a run-off specialist.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - run-off
+  - adverse-development-cover
+meta:
+  source: editorial

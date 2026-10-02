@@ -1,0 +1,7 @@
+name: Flexible Spending Account (FSA)
+parent: health.tax_advantaged_accounts
+alsoKnownAs: Health FSA
+description: An employer account funded by pre-tax salary for medical costs; unused money is mostly lost at year end.
+example: An employee sets aside $2,000 for glasses and copays.
+segment: Personal
+usNotes: Limited carryover or grace period allowed by IRS.

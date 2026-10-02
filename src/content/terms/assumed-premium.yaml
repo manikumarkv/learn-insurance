@@ -1,0 +1,16 @@
+term: Assumed Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Premium a reinsurer receives for risk it takes on from another insurer.
+example: A reinsurer books $10M assumed premium.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - ceded-premium
+meta:
+  source: editorial

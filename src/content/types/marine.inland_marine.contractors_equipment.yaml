@@ -1,0 +1,5 @@
+name: Contractor's Equipment Floater
+parent: marine.inland_marine
+description: Covers mobile construction equipment wherever it is.
+example: A stolen skid-steer loader is replaced.
+segment: Commercial

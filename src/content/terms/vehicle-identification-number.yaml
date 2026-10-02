@@ -1,0 +1,19 @@
+term: Vehicle Identification Number
+contentStatus: basic
+abbreviation: VIN
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A unique 17-character code identifying a vehicle, used for rating and claims.
+example: The VIN decoder fills in make, model and year.
+whereYoullSeeIt:
+  - Application form
+  - Declarations page
+relatedTerms:
+  - symbol-rating
+meta:
+  source: editorial

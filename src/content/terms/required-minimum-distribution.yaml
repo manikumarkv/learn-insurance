@@ -1,0 +1,19 @@
+term: Required Minimum Distribution
+contentStatus: basic
+abbreviation: RMD
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The minimum amount you must withdraw each year from qualified retirement accounts, including qualified annuities, after a certain age.
+example: At 73 you must start RMDs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - qualified-annuity
+usNotes: "The starting age is set by federal law (SECURE 2.0): 73 for people born 1951–1959, and 75 for people born in 1960 or later."
+meta:
+  source: editorial

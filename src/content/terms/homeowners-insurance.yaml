@@ -1,0 +1,21 @@
+term: Homeowners Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Home Insurance
+  - HO Policy
+category: Line-Specific
+lines:
+  - property
+usageFrequency: High
+difficulty: Beginner
+definition: A package policy covering your house, belongings and personal liability.
+example: An HO-3 policy covering a single-family home.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ho-3
+  - dwelling-coverage
+  - personal-property-coverage
+  - personal-liability-coverage
+meta:
+  source: editorial

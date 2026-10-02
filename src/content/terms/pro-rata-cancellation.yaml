@@ -1,0 +1,19 @@
+term: Pro Rata Cancellation
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A cancellation where the refund is exactly proportional to the unused time.
+example: Cancel halfway through a $1,000 policy, get $500 back.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - short-rate-cancellation
+  - pro-rata
+  - return-premium
+usNotes: Insurer-initiated cancellations are normally pro rata.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Lender's (Loan) Title Policy
+parent: financial.title
+description: Protects the lender's lien on the property up to the loan amount.
+example: A lender requires a loan policy before funding the mortgage.
+segment: Both
+usNotes: Required by virtually all mortgage lenders.

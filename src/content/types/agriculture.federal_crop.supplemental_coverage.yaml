@@ -1,0 +1,7 @@
+name: Supplemental & Enhanced Coverage Options
+parent: agriculture.federal_crop
+alsoKnownAs: SCO; ECO
+description: Area-based add-ons that cover part of the deductible on an individual crop policy.
+example: A farmer adds SCO to cover losses between 86% and their 75% policy level.
+segment: Commercial
+usNotes: SCO was created by the 2014 Farm Bill; ECO added by RMA in 2021. From the 2026 crop year the premium subsidy for SCO and ECO rose to 80% (One Big Beautiful Bill Act).

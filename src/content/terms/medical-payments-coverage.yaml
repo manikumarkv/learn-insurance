@@ -1,0 +1,17 @@
+term: Medical Payments Coverage
+contentStatus: basic
+alsoKnownAs:
+  - MedPay
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Pays medical bills for you and passengers after an accident, regardless of fault, usually in smaller amounts than PIP.
+example: $5,000 MedPay covers an ER visit.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - personal-injury-protection
+meta:
+  source: editorial

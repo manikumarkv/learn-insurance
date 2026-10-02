@@ -1,0 +1,18 @@
+term: Actuarial Value
+contentStatus: basic
+abbreviation: AV
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The percentage of total average costs for covered benefits that a plan pays.
+example: A silver plan has about 70% actuarial value.
+whereYoullSeeIt:
+  - Product specification
+relatedTerms:
+  - metal-tiers
+meta:
+  source: editorial

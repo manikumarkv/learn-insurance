@@ -1,0 +1,6 @@
+name: Silver 94% CSR Variant
+parent: health.major_medical.individual_market.silver
+alsoKnownAs: Enhanced silver 94
+description: A silver plan version with about 94% actuarial value for incomes of 100-150% of the federal poverty level.
+example: A low-income worker gets near-platinum cost sharing at a silver price.
+segment: Personal

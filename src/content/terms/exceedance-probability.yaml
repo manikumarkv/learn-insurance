@@ -1,0 +1,22 @@
+term: Exceedance Probability
+contentStatus: basic
+abbreviation: EP
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - EP Curve
+category: Finance & Actuarial
+lines:
+  - property
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The chance that losses will exceed a certain amount in a year.
+example: A 1% exceedance probability corresponds to a 100-year loss.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - catastrophe-model
+  - probable-maximum-loss
+  - return-period
+meta:
+  source: editorial

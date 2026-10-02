@@ -1,0 +1,18 @@
+term: Flood Exclusion
+contentStatus: basic
+alsoKnownAs:
+  - Water Exclusion
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Excludes damage from flooding, surface water, waves and similar water.
+example: River overflow damaging your basement is not covered by standard home insurance.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - flood-insurance
+meta:
+  source: editorial

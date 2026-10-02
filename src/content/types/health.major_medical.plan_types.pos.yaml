@@ -1,0 +1,5 @@
+name: Point of Service (POS)
+parent: health.major_medical.plan_types
+description: "A hybrid: you choose a PCP and need referrals like an HMO, but can go out of network at higher cost like a PPO."
+example: A family wants a gatekeeper doctor with some out-of-network flexibility.
+segment: Both

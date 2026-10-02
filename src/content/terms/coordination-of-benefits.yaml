@@ -1,0 +1,23 @@
+term: Coordination of Benefits
+contentStatus: basic
+abbreviation: COB
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - health
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Rules that decide which plan pays first when you are covered by more than one plan, so total payments don't exceed the bill.
+example: Your plan pays first and your spouse's plan pays some of what is left.
+whereYoullSeeIt:
+  - Explanation of benefits
+  - Claims system
+relatedTerms:
+  - primary-insurance
+  - birthday-rule
+  - other-insurance-clause
+usNotes: NAIC model rules are used by states; Medicare has its own secondary payer rules.
+meta:
+  source: editorial

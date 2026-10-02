@@ -1,0 +1,7 @@
+name: Guaranteed Lifetime Withdrawal Benefit (GLWB)
+parent: life.annuities.deferred.variable
+alsoKnownAs: GMWB; Lifetime income rider
+description: A rider that lets you withdraw a set percentage each year for life, even if the account value runs out.
+example: A retiree withdraws 5% of a $400,000 benefit base every year for life.
+segment: Personal
+usNotes: The most common living benefit rider on US variable and indexed annuities.

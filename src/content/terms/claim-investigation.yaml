@@ -1,0 +1,17 @@
+term: Claim Investigation
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Gathering facts, statements and evidence to determine whether and how much to pay on a claim.
+example: Collecting a police report and witness statements.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claims-adjuster
+  - recorded-statement
+meta:
+  source: editorial

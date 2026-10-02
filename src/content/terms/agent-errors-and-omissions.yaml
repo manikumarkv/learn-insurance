@@ -1,0 +1,18 @@
+term: Agent Errors and Omissions
+contentStatus: basic
+abbreviation: Agent E&O
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Agents Errors and Omissions
+category: Distribution
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Professional liability coverage for insurance agents against claims of mistakes in placing coverage.
+example: A client sues an agent who forgot to add flood coverage.
+whereYoullSeeIt: []
+relatedTerms:
+  - errors-and-omissions-insurance
+meta:
+  source: editorial

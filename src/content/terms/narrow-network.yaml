@@ -1,0 +1,17 @@
+term: Narrow Network
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A plan with a small group of providers, usually in exchange for lower premiums.
+example: A marketplace plan limited to one hospital system.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - provider-network
+  - network-adequacy
+meta:
+  source: editorial

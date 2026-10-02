@@ -1,0 +1,18 @@
+term: Title Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Protects property buyers and lenders against losses from defects in the property's legal title, like undisclosed liens.
+example: A forged prior deed is discovered after you buy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - lienholder
+usNotes: Paid once at closing; rates are regulated or promulgated in some states like Texas.
+meta:
+  source: editorial

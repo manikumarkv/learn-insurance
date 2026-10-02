@@ -1,0 +1,17 @@
+term: Pet Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+usageFrequency: Medium
+difficulty: Beginner
+definition: Covers veterinary bills for pets due to accidents and illness.
+example: Pays 80% of a dog's $4,000 surgery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - pre-existing-condition
+usNotes: NAIC Pet Insurance Model Act adopted by several states.
+meta:
+  source: editorial

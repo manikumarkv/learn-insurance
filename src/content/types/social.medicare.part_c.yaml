@@ -1,0 +1,7 @@
+name: Part C (Medicare Advantage)
+parent: social.medicare
+alsoKnownAs: MA
+description: The option to receive Medicare benefits through a private plan.
+example: A retiree chooses an MA plan instead of Original Medicare.
+segment: Personal
+usNotes: See Health Insurance > Private Medicare Plans.

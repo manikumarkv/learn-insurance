@@ -1,0 +1,18 @@
+term: Void Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy that has no legal effect at all, as if it never existed.
+example: A policy on property you have no insurable interest in is void.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - voidable-policy
+  - rescission
+  - ab-initio
+meta:
+  source: editorial

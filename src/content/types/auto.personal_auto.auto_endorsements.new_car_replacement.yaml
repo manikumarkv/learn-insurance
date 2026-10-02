@@ -1,0 +1,5 @@
+name: New Car Replacement
+parent: auto.personal_auto.auto_endorsements
+description: Replaces a totaled new car with a brand-new one of the same model rather than paying its depreciated value.
+example: A 1-year-old car is totaled and replaced with a new one.
+segment: Personal

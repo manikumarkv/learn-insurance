@@ -1,0 +1,6 @@
+name: Federal Employees' Group Life Insurance (FEGLI)
+parent: social.federal_programs
+description: Group term life for federal civilian employees.
+example: A federal employee has basic life equal to salary plus $2,000.
+segment: Personal
+usNotes: Administered by OPM, underwritten by MetLife.

@@ -1,0 +1,17 @@
+term: Annuitization
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Converting the annuity's value into a stream of regular payments.
+example: You annuitize at age 70 for life income.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuity
+  - payout-option
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Homeowners Endorsements
+parent: property
+alsoKnownAs: Riders; Add-ons
+description: Optional changes to a home policy that add or broaden cover.
+example: A homeowner adds sewer backup and replacement cost for contents.
+segment: Personal

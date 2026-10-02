@@ -1,0 +1,5 @@
+name: Credit Insurance
+parent: financial
+description: Protects lenders or sellers when borrowers or customers don't pay.
+example: A wholesaler is paid when a big customer goes bankrupt.
+segment: Both

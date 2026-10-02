@@ -1,0 +1,20 @@
+term: Total Incurred
+contentStatus: basic
+alsoKnownAs:
+  - Incurred Loss
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Paid losses plus case reserves for a claim or group of claims.
+example: Paid $30,000 plus reserve $20,000 equals $50,000 incurred.
+whereYoullSeeIt:
+  - Financial statements
+  - Claims system
+relatedTerms:
+  - incurred-losses
+  - claim-reserve
+  - paid-losses
+meta:
+  source: editorial

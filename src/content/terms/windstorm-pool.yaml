@@ -1,0 +1,19 @@
+term: Windstorm Insurance Pool
+contentStatus: basic
+alsoKnownAs:
+  - Beach Plan
+  - TWIA
+category: Regulation
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: State-created insurers that provide wind coverage in coastal areas where private insurers won't.
+example: The Texas Windstorm Insurance Association covers a Galveston home.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - residual-market
+  - fair-access-to-insurance-requirements-plan
+meta:
+  source: editorial

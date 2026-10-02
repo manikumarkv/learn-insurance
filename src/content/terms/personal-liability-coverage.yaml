@@ -1,0 +1,19 @@
+term: Personal Liability Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Coverage E
+category: Policy Wording
+lines:
+  - property
+  - casualty
+usageFrequency: Medium
+difficulty: Beginner
+definition: Covers you if you're legally responsible for injuring someone or damaging their property.
+example: A guest trips on your stairs and sues; Coverage E pays.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - medical-payments-to-others
+  - liability
+meta:
+  source: editorial

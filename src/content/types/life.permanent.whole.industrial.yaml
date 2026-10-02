@@ -1,0 +1,7 @@
+name: Industrial / Home Service Life
+parent: life.permanent.whole
+alsoKnownAs: Debit life
+description: Very small whole life policies historically sold door to door with weekly or monthly premium collection.
+example: A family in the 1950s paid a collector each week for a small burial policy.
+segment: Personal
+usNotes: Largely a legacy product; few new sales today.

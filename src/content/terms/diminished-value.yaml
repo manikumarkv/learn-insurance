@@ -1,0 +1,17 @@
+term: Diminished Value
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The loss in a car's resale value after it has been in an accident, even when fully repaired.
+example: A repaired luxury car is worth $3,000 less due to its accident history.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - actual-cash-value
+usNotes: Third-party diminished value claims are recognized in most states; first-party claims mainly in Georgia.
+meta:
+  source: editorial

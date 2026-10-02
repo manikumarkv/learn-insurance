@@ -1,0 +1,23 @@
+term: Health Maintenance Organization
+contentStatus: basic
+abbreviation: HMO
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A health plan that usually covers only in-network care and requires a primary care doctor and referrals for specialists.
+example: You need a referral from your PCP to see a dermatologist.
+whereYoullSeeIt:
+  - Policy document
+  - Insurance ID card
+relatedTerms:
+  - preferred-provider-organization
+  - exclusive-provider-organization
+  - point-of-service-plan
+  - primary-care-physician
+  - referral-health
+meta:
+  source: editorial

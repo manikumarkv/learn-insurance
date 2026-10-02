@@ -1,0 +1,6 @@
+name: ALTA Endorsements
+parent: financial.title
+description: Standard add-ons from the American Land Title Association covering specific issues like zoning, access or environmental liens.
+example: A commercial buyer adds a zoning endorsement.
+segment: Both
+usNotes: ALTA forms are used in most states; Texas and some others use their own forms.

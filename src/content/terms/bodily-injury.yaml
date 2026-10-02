@@ -1,0 +1,19 @@
+term: Bodily Injury
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Physical injury, sickness or disease to a person, including resulting death.
+example: A customer breaks a leg in your store.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - property-damage
+  - bodily-injury-liability
+meta:
+  source: editorial

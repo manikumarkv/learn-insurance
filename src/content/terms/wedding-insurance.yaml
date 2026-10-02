@@ -1,0 +1,17 @@
+term: Wedding Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Special Event Insurance
+category: Line-Specific
+lines:
+  - specialty
+usageFrequency: Low
+difficulty: Beginner
+definition: Covers cancellation costs and liability for weddings and private events.
+example: A venue closes unexpectedly.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - event-cancellation-insurance
+meta:
+  source: editorial

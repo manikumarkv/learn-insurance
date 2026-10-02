@@ -1,0 +1,19 @@
+term: Direct Repair Program
+contentStatus: basic
+abbreviation: DRP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A network of body shops approved by an insurer to repair cars with streamlined claims handling.
+example: You take your car to a DRP shop and the insurer pays it directly.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claims-adjuster
+usNotes: Most states let consumers choose their own repair shop.
+meta:
+  source: editorial

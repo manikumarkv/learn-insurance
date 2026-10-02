@@ -1,0 +1,18 @@
+term: Life Only Annuity
+contentStatus: basic
+alsoKnownAs:
+  - Straight Life Annuity
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Payments continue for the annuitant's life and stop at death, with nothing to heirs.
+example: Payments stop when the annuitant dies.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - payout-option
+  - period-certain
+meta:
+  source: editorial

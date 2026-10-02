@@ -1,0 +1,16 @@
+term: Aircraft Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers injury to passengers and third parties caused by aircraft operations.
+example: A plane crash injures people on the ground.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - aviation-insurance
+meta:
+  source: editorial

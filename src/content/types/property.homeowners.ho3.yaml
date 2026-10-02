@@ -1,0 +1,6 @@
+name: HO-3 Special Form
+parent: property.homeowners
+description: "The most common US home policy: the house is covered for all causes of loss except those excluded (open perils), while belongings are covered for named perils."
+example: Most mortgage-holding homeowners have an HO-3.
+segment: Personal
+usNotes: Accounts for the large majority of US homeowners policies. Flood and earthquake are excluded.

@@ -1,0 +1,18 @@
+term: Claim Number
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A unique reference number assigned to a claim.
+example: Quote claim number 00-123456 when calling.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - claim
+  - policy-number
+meta:
+  source: editorial

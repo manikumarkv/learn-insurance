@@ -1,0 +1,18 @@
+term: Accelerated Death Benefit Rider
+contentStatus: basic
+alsoKnownAs:
+  - Living Benefits Rider
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rider that lets you receive part of the death benefit early if you are terminally, chronically or critically ill.
+example: You receive 50% of the benefit after a terminal diagnosis.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rider
+  - chronic-illness-rider
+meta:
+  source: editorial

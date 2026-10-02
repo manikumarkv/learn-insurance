@@ -1,0 +1,16 @@
+term: ACORD AL3
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An older ACORD standard file format used to download policy data from carriers to agency systems.
+example: A carrier sends daily AL3 downloads to agents.
+whereYoullSeeIt:
+  - Data exchange/integration specs
+relatedTerms:
+  - association-for-cooperative-operations-research-and-development
+meta:
+  source: editorial

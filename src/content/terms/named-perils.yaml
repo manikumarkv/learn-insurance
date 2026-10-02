@@ -1,0 +1,21 @@
+term: Named Perils
+contentStatus: basic
+alsoKnownAs:
+  - Specified Perils
+category: Policy Wording
+lines:
+  - property
+  - marine
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage only for the causes of loss specifically listed in the policy.
+example: A policy covering fire, lightning, windstorm and hail only.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - open-perils
+  - peril
+  - basic-form
+  - broad-form
+meta:
+  source: editorial

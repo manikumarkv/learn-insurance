@@ -1,0 +1,5 @@
+name: Life & Health Reinsurance
+parent: reinsurance
+description: Reinsurance of life, annuity and health risks.
+example: A life insurer reinsures 90% of mortality risk on new term policies.
+segment: Commercial

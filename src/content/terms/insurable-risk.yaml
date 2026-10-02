@@ -1,0 +1,18 @@
+term: Insurable Risk
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A risk that insurers are willing and able to cover because losses are accidental, measurable and not catastrophic for everyone at once.
+example: House fire is insurable; a stock market crash is not.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - pure-risk
+  - law-of-large-numbers
+  - catastrophe
+meta:
+  source: editorial

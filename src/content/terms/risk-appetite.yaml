@@ -1,0 +1,18 @@
+term: Risk Appetite
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The types and amount of risk an insurer is willing to accept.
+example: An insurer's appetite excludes restaurants with deep fryers.
+whereYoullSeeIt:
+  - Underwriting system
+  - Agent/broker communications
+relatedTerms:
+  - underwriting-guidelines
+  - capacity
+meta:
+  source: editorial

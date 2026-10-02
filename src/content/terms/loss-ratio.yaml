@@ -1,0 +1,18 @@
+term: Loss Ratio
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Losses (usually including loss adjustment expenses) divided by earned premium.
+example: $60M losses on $100M earned premium is a 60% loss ratio.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - combined-ratio
+  - expense-ratio
+  - medical-loss-ratio
+meta:
+  source: editorial

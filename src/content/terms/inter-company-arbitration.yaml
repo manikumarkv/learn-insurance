@@ -1,0 +1,19 @@
+term: Inter-Company Arbitration
+contentStatus: basic
+alsoKnownAs:
+  - Arbitration Forums
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A process where insurers resolve subrogation disputes between themselves without going to court.
+example: Two auto insurers resolve fault through Arbitration Forums, Inc.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - subrogation
+  - subrogation-demand
+meta:
+  source: editorial

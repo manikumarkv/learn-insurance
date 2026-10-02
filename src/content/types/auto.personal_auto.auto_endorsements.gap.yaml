@@ -1,0 +1,7 @@
+name: GAP Insurance
+parent: auto.personal_auto.auto_endorsements
+alsoKnownAs: Guaranteed Asset Protection; Loan/lease payoff
+description: Covers the difference between what you owe on a car loan or lease and the car's value if it is totaled.
+example: A new car is totaled six months after purchase and GAP covers the loan shortfall.
+segment: Personal
+usNotes: Sold by insurers or as a dealer waiver; a few states limit dealer GAP.

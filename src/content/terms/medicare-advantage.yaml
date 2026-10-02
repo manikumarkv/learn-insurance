@@ -1,0 +1,21 @@
+term: Medicare Advantage
+contentStatus: basic
+abbreviation: MA
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Medicare Part C
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Private health plans approved by Medicare that replace Original Medicare coverage, often with extra benefits and a network.
+example: An MA HMO includes dental and vision.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - medigap
+  - risk-adjustment
+meta:
+  source: editorial

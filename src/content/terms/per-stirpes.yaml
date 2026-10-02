@@ -1,0 +1,18 @@
+term: Per Stirpes
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Latin for 'by branch'. If a beneficiary dies first, their share goes to their own descendants.
+example: Your son dies before you; his share goes to his children.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - beneficiary
+  - per-capita
+meta:
+  source: editorial

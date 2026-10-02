@@ -1,0 +1,17 @@
+term: Twisting
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Persuading someone to replace an existing policy through misleading comparisons, to the customer's detriment.
+example: An agent exaggerates a new policy's benefits to earn a commission.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - churning
+  - replacement
+meta:
+  source: editorial

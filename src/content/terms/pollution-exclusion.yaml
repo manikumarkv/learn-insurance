@@ -1,0 +1,21 @@
+term: Pollution Exclusion
+contentStatus: basic
+alsoKnownAs:
+  - Absolute Pollution Exclusion
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: An exclusion removing coverage for injury or damage caused by pollutants.
+example: A chemical leak contaminating a river is not covered under a standard CGL.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - environmental-impairment-liability
+usNotes: Courts in different states interpret its scope differently.
+meta:
+  source: editorial

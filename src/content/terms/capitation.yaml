@@ -1,0 +1,16 @@
+term: Capitation
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Paying a provider a fixed amount per member per month regardless of how much care is used.
+example: A clinic gets $40 per member per month.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - per-member-per-month
+meta:
+  source: editorial

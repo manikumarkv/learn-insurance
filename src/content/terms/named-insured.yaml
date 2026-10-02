@@ -1,0 +1,20 @@
+term: Named Insured
+contentStatus: basic
+alsoKnownAs:
+  - First Named Insured
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The person or business specifically listed on the declarations page, who has the main rights and duties under the policy.
+example: "'Jane Smith' is shown as named insured on the declarations page of her home policy."
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - insured
+  - additional-insured
+  - declarations-page
+meta:
+  source: editorial

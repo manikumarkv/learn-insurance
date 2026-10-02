@@ -1,0 +1,7 @@
+name: Commercial General Liability (CGL)
+parent: casualty
+alsoKnownAs: General liability; GL
+description: Covers a business against third-party claims for bodily injury, property damage, and personal and advertising injury.
+example: A cafe pays a customer's claim after they burn themselves on a faulty cup.
+segment: Commercial
+usNotes: Standard ISO CG 00 01 (occurrence) and CG 00 02 (claims-made) forms. Commonly required in leases and contracts.

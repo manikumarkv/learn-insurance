@@ -1,0 +1,20 @@
+term: Frequency
+contentStatus: basic
+alsoKnownAs:
+  - Claim Frequency
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: How often losses or claims happen, usually measured per exposure.
+example: 5 claims per 100 cars per year is a frequency of 5%.
+whereYoullSeeIt:
+  - Financial statements
+  - Underwriting system
+relatedTerms:
+  - severity
+  - loss-cost
+  - pure-premium
+meta:
+  source: editorial

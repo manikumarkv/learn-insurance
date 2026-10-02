@@ -1,0 +1,16 @@
+term: Prevented Planting
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Advanced
+definition: Crop insurance payments when weather stops a farmer from planting by the final planting date.
+example: Flooded fields prevent corn planting.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - multi-peril-crop-insurance
+meta:
+  source: editorial

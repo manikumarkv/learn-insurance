@@ -1,0 +1,18 @@
+term: Policy Year
+contentStatus: basic
+alsoKnownAs:
+  - Underwriting Year
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Grouping of losses and premium by the year the policy started.
+example: Losses on policies written in 2024.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - accident-year
+  - calendar-year
+meta:
+  source: editorial

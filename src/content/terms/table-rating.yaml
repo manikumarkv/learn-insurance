@@ -1,0 +1,18 @@
+term: Table Rating
+contentStatus: basic
+alsoKnownAs:
+  - Substandard Rating
+category: Underwriting
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: An extra premium charged for higher-risk life applicants, often in steps of 25% above standard.
+example: Table 4 adds 100% to the standard premium.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - risk-class
+  - flat-extra
+meta:
+  source: editorial

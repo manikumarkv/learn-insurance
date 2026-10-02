@@ -1,0 +1,17 @@
+term: Respondeat Superior
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Latin for 'let the master answer'. An employer is legally responsible for acts of employees done within their job.
+example: A hospital is liable for a nurse's error during a shift.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - vicarious-liability
+meta:
+  source: editorial

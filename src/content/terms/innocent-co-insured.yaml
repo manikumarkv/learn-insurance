@@ -1,0 +1,17 @@
+term: Innocent Co-Insured
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: An insured who didn't take part in a wrongful act, such as arson by a spouse, and may still recover.
+example: A wife whose husband set fire to their home may still be paid for her share.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - severability-of-interests
+usNotes: Many states protect innocent co-insureds by statute, especially in domestic violence cases.
+meta:
+  source: editorial

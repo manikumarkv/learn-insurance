@@ -1,0 +1,23 @@
+term: Limit of Liability
+contentStatus: basic
+alsoKnownAs:
+  - Limit
+  - Limit of Insurance
+  - Policy Limit
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The most the insurer will pay for a covered loss or during the policy period.
+example: A liability policy with a $1,000,000 limit will not pay more than $1 million for a lawsuit.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - aggregate-limit
+  - per-occurrence-limit
+  - sublimit
+  - split-limits
+meta:
+  source: editorial

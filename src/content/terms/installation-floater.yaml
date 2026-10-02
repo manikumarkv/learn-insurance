@@ -1,0 +1,17 @@
+term: Installation Floater
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - commercial
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers materials and equipment being installed until the job is accepted.
+example: HVAC units in transit and during install.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inland-marine-insurance
+meta:
+  source: editorial

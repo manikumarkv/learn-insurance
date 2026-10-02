@@ -1,0 +1,7 @@
+name: Paid-Up Additions Rider
+parent: life.life_riders
+alsoKnownAs: PUA rider
+description: Lets you pay extra premium into a whole life policy to buy small amounts of fully paid-up cover, boosting cash value.
+example: A policyholder adds $5,000 a year of PUAs to grow cash value faster.
+segment: Personal
+usNotes: Must be managed to avoid MEC status.

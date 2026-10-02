@@ -1,0 +1,18 @@
+term: Accelerated Underwriting
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Using data and algorithms to approve some life applicants without a medical exam.
+example: A healthy 30-year-old is approved in minutes without blood tests.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - medical-underwriting
+  - paramedical-exam
+  - predictive-model
+meta:
+  source: editorial

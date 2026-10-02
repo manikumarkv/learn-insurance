@@ -1,0 +1,18 @@
+term: Competitive State Fund
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - commercial
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: A state-created workers' comp insurer that competes with private insurers, often as a market of last resort.
+example: California's State Compensation Insurance Fund.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - monopolistic-state-fund
+  - residual-market
+meta:
+  source: editorial

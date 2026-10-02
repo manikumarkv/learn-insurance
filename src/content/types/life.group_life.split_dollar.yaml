@@ -1,0 +1,6 @@
+name: Split-Dollar Life
+parent: life.group_life
+description: An arrangement where an employer and employee share the cost and benefits of a permanent life policy.
+example: A company pays premiums on an executive's policy and recovers them at death.
+segment: Commercial
+usNotes: Taxed under IRS split-dollar regulations (2003).

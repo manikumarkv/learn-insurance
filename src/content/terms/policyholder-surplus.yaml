@@ -1,0 +1,19 @@
+term: Policyholders' Surplus
+contentStatus: basic
+alsoKnownAs:
+  - Surplus
+  - Capital and Surplus
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An insurer's assets minus liabilities under statutory accounting; the cushion that protects policyholders.
+example: An insurer with $2B surplus can absorb big losses.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - risk-based-capital
+  - premium-to-surplus-ratio
+meta:
+  source: editorial

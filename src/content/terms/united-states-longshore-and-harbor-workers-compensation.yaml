@@ -1,0 +1,21 @@
+term: United States Longshore and Harbor Workers' Compensation
+contentStatus: basic
+abbreviation: USL&H
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Longshore and Harbor Workers' Compensation Act
+category: Line-Specific
+lines:
+  - commercial
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Workers' compensation required by the federal Longshore and Harbor Workers' Compensation Act for maritime workers such as dockworkers and ship repairers, usually bought from private insurers.
+example: A shipyard worker's injury is covered under USL&H.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - jones-act
+  - workers-compensation-insurance
+meta:
+  source: editorial

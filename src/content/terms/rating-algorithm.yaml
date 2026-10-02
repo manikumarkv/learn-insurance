@@ -1,0 +1,20 @@
+term: Rating Algorithm
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The step-by-step formula that combines base rates and factors to calculate the premium.
+example: Premium = base rate × territory × age × vehicle × discounts.
+whereYoullSeeIt:
+  - Rating engine
+  - Regulatory filings
+relatedTerms:
+  - rating-engine
+  - base-rate
+  - rating-factor
+usNotes: Filed with state regulators as part of rate filings.
+meta:
+  source: editorial

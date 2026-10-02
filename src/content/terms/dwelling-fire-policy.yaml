@@ -1,0 +1,21 @@
+term: Dwelling Fire Policy
+contentStatus: basic
+alsoKnownAs:
+  - DP-1
+  - DP-2
+  - DP-3
+  - Landlord Policy
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A property policy for homes, often rentals, that doesn't include the full homeowners package.
+example: A landlord insures a rental house on a DP-3.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - homeowners-insurance
+  - landlord-insurance
+meta:
+  source: editorial

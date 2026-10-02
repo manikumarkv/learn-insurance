@@ -1,0 +1,18 @@
+term: Contestable Period
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The period, usually the first two years, during which the insurer can investigate and contest a life policy for misstatements.
+example: A death in year one triggers a review of the application.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - incontestability-clause
+  - rescission
+meta:
+  source: editorial

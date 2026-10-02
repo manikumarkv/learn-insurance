@@ -1,0 +1,19 @@
+term: Employment Practices Liability
+contentStatus: basic
+abbreviation: EPLI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers employers against claims by employees of discrimination, harassment, wrongful termination and similar issues.
+example: A former employee sues for wrongful termination.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - directors-and-officers-liability
+  - third-party-employment-practices-liability-insurance
+meta:
+  source: editorial

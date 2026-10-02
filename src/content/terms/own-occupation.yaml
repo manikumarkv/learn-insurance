@@ -1,0 +1,18 @@
+term: Own Occupation
+contentStatus: basic
+alsoKnownAs:
+  - Own Occ
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A disability definition that pays if you can't do your specific job, even if you could do another.
+example: A surgeon who can't operate is paid even while teaching.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - any-occupation
+  - disability-insurance
+meta:
+  source: editorial

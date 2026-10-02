@@ -1,0 +1,6 @@
+name: Bronze Plan
+parent: health.major_medical.individual_market
+description: "Covers about 60% of average costs: lowest premium, highest out-of-pocket."
+example: A young healthy person wants protection mostly against large bills.
+segment: Personal
+usNotes: Actuarial value approx. 60%.

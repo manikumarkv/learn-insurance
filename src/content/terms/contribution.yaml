@@ -1,0 +1,21 @@
+term: Contribution
+contentStatus: basic
+alsoKnownAs:
+  - Other Insurance
+category: Core Concept
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: When more than one policy covers the same loss, the insurers share the cost instead of paying twice.
+example: Two home policies each covering a painting split a $5,000 theft loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - other-insurance-clause
+  - indemnity
+  - pro-rata
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Cover
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The protection a policy provides against specified losses.
+example: Your policy has coverage for theft but not for flood.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insurance-policy
+  - coverage-part
+meta:
+  source: editorial

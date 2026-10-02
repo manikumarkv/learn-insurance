@@ -1,0 +1,5 @@
+name: Blanket Coverage
+parent: commercial.commercial_property
+description: One limit applies across several buildings or locations rather than separate limits for each.
+example: A retailer with 10 stores uses a blanket limit.
+segment: Commercial

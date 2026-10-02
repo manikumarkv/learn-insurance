@@ -1,0 +1,5 @@
+name: Medicare Advantage PPO
+parent: health.medicare_private.medicare_advantage
+description: A Medicare Advantage plan that also partly covers out-of-network care.
+example: A retiree who spends winters in another state picks a PPO.
+segment: Personal

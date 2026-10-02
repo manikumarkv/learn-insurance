@@ -1,0 +1,16 @@
+term: Coverholder
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A company authorized by a Lloyd's managing agent to bind insurance on its behalf.
+example: A US MGA acting as a Lloyd's coverholder.
+whereYoullSeeIt: []
+relatedTerms:
+  - lloyds
+  - managing-general-agent
+meta:
+  source: editorial

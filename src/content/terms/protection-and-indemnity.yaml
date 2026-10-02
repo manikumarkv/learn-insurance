@@ -1,0 +1,19 @@
+term: Protection and Indemnity
+contentStatus: basic
+abbreviation: P&I
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Marine liability coverage for shipowners, including crew injury, pollution and collision liabilities, often from mutual P&I clubs.
+example: A P&I club pays for an oil spill cleanup.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ocean-marine-insurance
+  - jones-act
+meta:
+  source: editorial

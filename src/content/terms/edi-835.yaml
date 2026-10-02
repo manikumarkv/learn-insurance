@@ -1,0 +1,19 @@
+term: EDI 835
+contentStatus: basic
+alsoKnownAs:
+  - X12 835
+  - Electronic Remittance Advice
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The HIPAA standard electronic format for health plan payment and remittance information sent to providers.
+example: A hospital auto-posts payments from 835 files.
+whereYoullSeeIt:
+  - Data exchange/integration specs
+relatedTerms:
+  - edi-837
+  - explanation-of-benefits
+meta:
+  source: editorial

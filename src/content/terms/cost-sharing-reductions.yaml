@@ -1,0 +1,19 @@
+term: Cost-Sharing Reductions
+contentStatus: basic
+abbreviation: CSR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Extra savings for lower-income people on silver marketplace plans that lower deductibles and copays.
+example: A CSR silver plan with a $500 deductible instead of $5,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - premium-tax-credit
+  - metal-tiers
+meta:
+  source: editorial

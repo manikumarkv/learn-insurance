@@ -1,0 +1,21 @@
+term: Preferred Provider Organization
+contentStatus: basic
+abbreviation: PPO
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A health plan that lets you see any provider, paying less in-network, without needing referrals.
+example: You see an out-of-network specialist and pay 40% coinsurance.
+whereYoullSeeIt:
+  - Policy document
+  - Insurance ID card
+relatedTerms:
+  - health-maintenance-organization
+  - exclusive-provider-organization
+  - point-of-service-plan
+meta:
+  source: editorial

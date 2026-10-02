@@ -1,0 +1,6 @@
+name: Architects & Engineers (A&E)
+parent: specialty.professional_liability
+alsoKnownAs: Design professional liability
+description: Covers design professionals against claims of design errors.
+example: An engineer's calculation error causes a building defect.
+segment: Commercial

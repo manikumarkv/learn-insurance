@@ -1,0 +1,19 @@
+term: Association for Cooperative Operations Research and Development
+contentStatus: basic
+abbreviation: ACORD
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A nonprofit that sets data standards (XML, JSON, forms) for exchanging insurance information.
+example: Agency software sends ACORD XML to a carrier.
+whereYoullSeeIt:
+  - Data exchange/integration specs
+relatedTerms:
+  - acord-forms
+  - acord-al3
+meta:
+  source: editorial

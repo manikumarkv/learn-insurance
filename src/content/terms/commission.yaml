@@ -1,0 +1,19 @@
+term: Commission
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Payment to an agent or broker, usually a percentage of premium, for selling a policy.
+example: A 15% commission on a $2,000 policy is $300.
+whereYoullSeeIt:
+  - Agent/broker communications
+  - Financial statements
+relatedTerms:
+  - contingent-commission
+  - override
+  - expense-ratio
+meta:
+  source: editorial

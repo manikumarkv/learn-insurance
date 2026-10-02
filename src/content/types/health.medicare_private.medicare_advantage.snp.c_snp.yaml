@@ -1,0 +1,5 @@
+name: Chronic Condition SNP (C-SNP)
+parent: health.medicare_private.medicare_advantage.snp
+description: For people with specific severe chronic conditions such as diabetes, heart failure or ESRD.
+example: A retiree with heart failure joins a plan with specialised care coordination.
+segment: Personal

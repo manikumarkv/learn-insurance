@@ -1,0 +1,18 @@
+term: No Surprises Act
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A federal law, signed in December 2020 and in effect since January 1, 2022, that protects patients from surprise bills for most emergency care and some out-of-network care at in-network facilities.
+example: An out-of-network anesthesiologist can't balance bill you after in-network surgery.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - balance-billing
+  - out-of-network
+usNotes: Many states had their own surprise billing laws before this federal law.
+meta:
+  source: editorial

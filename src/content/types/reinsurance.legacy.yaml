@@ -1,0 +1,6 @@
+name: Loss Portfolio Transfer (LPT) & Adverse Development Cover (ADC)
+parent: reinsurance
+alsoKnownAs: Run-off reinsurance
+description: Transfers past liabilities (LPT) or protects against past claims costing more than expected (ADC).
+example: An insurer transfers old asbestos claims to a run-off specialist.
+segment: Commercial

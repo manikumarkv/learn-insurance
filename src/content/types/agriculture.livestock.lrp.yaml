@@ -1,0 +1,6 @@
+name: Livestock Risk Protection (LRP)
+parent: agriculture.livestock
+description: Federal price insurance that pays if livestock prices fall below a chosen level.
+example: A cattle feeder is paid when feeder cattle prices fall.
+segment: Commercial
+usNotes: Covers feeder cattle, fed cattle, swine and lamb.

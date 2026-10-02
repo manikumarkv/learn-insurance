@@ -1,0 +1,25 @@
+term: Loss Run
+contentStatus: basic
+alsoKnownAs:
+  - Loss History Report
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A report from an insurer listing the claims a policyholder has had over a period.
+example: A business gives five years of loss runs to a new insurer.
+whereYoullSeeIt:
+  - Underwriting system
+  - Agent/broker communications
+relatedTerms:
+  - loss-history
+  - submission
+  - experience-rating
+usNotes: Several states require insurers to provide loss runs within a set time of request.
+meta:
+  source: editorial

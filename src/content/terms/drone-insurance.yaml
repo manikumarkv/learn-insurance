@@ -1,0 +1,18 @@
+term: Drone Insurance
+contentStatus: basic
+alsoKnownAs:
+  - UAS Insurance
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Beginner
+definition: Liability and hull coverage for unmanned aircraft.
+example: A drone crashes into a car during filming.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - aviation-insurance
+meta:
+  source: editorial

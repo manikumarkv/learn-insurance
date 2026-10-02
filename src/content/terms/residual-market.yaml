@@ -1,0 +1,23 @@
+term: Residual Market
+contentStatus: basic
+alsoKnownAs:
+  - Assigned Risk
+  - Shared Market
+  - Market of Last Resort
+category: Regulation
+lines:
+  - property
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: State-run or state-mandated plans that provide insurance to people who can't get it in the normal market.
+example: A driver with many violations gets auto insurance through the state assigned risk plan.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - fair-access-to-insurance-requirements-plan
+  - assigned-risk-plan
+  - citizens-property-insurance
+meta:
+  source: editorial

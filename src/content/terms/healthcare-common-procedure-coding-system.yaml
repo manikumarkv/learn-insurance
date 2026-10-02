@@ -1,0 +1,18 @@
+term: Healthcare Common Procedure Coding System
+contentStatus: basic
+abbreviation: HCPCS
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A coding system for supplies, equipment, drugs and services, including CPT as Level I.
+example: A HCPCS code for a wheelchair.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - current-procedural-terminology-code
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Uninsured Motorist Coverage
+contentStatus: basic
+abbreviation: UM
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: Pays for your injuries (and in some states damage) when a driver without insurance or a hit-and-run driver is at fault.
+example: A hit-and-run driver injures you; UM pays your medical costs.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - underinsured-motorist-coverage
+usNotes: Required in about 20 states; must be offered in most others.
+meta:
+  source: editorial

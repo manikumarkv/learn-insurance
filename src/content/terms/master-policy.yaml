@@ -1,0 +1,19 @@
+term: Master Policy
+contentStatus: basic
+alsoKnownAs:
+  - Group Policy
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The single contract issued to an employer or organization for group insurance.
+example: The employer holds the master policy; employees get certificates.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - group-insurance
+  - certificate-of-coverage
+meta:
+  source: editorial

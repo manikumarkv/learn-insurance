@@ -1,0 +1,19 @@
+term: Expiration Date
+contentStatus: basic
+alsoKnownAs:
+  - Expiry Date
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The date and time coverage ends unless renewed.
+example: Your policy expires on March 1 next year.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - policy-period
+  - renewal
+  - lapse
+meta:
+  source: editorial

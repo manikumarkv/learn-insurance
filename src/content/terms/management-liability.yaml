@@ -1,0 +1,17 @@
+term: Management Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A package of D&O, EPLI, fiduciary and crime coverages for private companies or nonprofits.
+example: A nonprofit buys a management liability package.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - directors-and-officers-liability
+  - employment-practices-liability
+meta:
+  source: editorial

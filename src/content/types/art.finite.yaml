@@ -1,0 +1,7 @@
+name: Finite Risk Reinsurance
+parent: art
+alsoKnownAs: Financial reinsurance
+description: Multi-year contracts that transfer limited risk and smooth results over time.
+example: An insurer spreads a large loss over several years.
+segment: Commercial
+usNotes: Must transfer significant insurance risk to qualify for reinsurance accounting (SSAP 62R / ASC 944).

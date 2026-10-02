@@ -1,0 +1,23 @@
+term: Actual Cash Value
+contentStatus: basic
+abbreviation: ACV
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - property
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: "The value of property at the time of loss: replacement cost minus depreciation."
+example: A 5-year-old TV that costs $1,000 new may be worth $400 ACV.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - replacement-cost
+  - depreciation
+  - indemnity
+usNotes: Some states define ACV by statute or case law, including whether labor can be depreciated.
+meta:
+  source: editorial

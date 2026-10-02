@@ -1,0 +1,19 @@
+term: Flexible Spending Account
+contentStatus: basic
+abbreviation: FSA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An employer account where you set aside pre-tax money for medical costs; money left at year-end is lost unless your plan offers a limited carryover or a grace period.
+example: You put $1,500 in an FSA for glasses and copays.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - health-savings-account
+  - health-reimbursement-arrangement
+meta:
+  source: editorial

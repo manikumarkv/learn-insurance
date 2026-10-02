@@ -1,0 +1,6 @@
+name: Trade Credit Insurance
+parent: financial.credit
+alsoKnownAs: Accounts receivable insurance
+description: Protects a business when customers fail to pay invoices due to insolvency or long delays.
+example: A supplier is paid 90% of an unpaid invoice after a retailer goes bankrupt.
+segment: Commercial

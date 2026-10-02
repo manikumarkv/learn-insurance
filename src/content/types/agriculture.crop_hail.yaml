@@ -1,0 +1,6 @@
+name: Crop-Hail Insurance
+parent: agriculture
+description: Private policies that pay for hail and fire damage to crops per acre, without the federal program's deductibles.
+example: A wheat farmer is paid for hail damage on 40 acres.
+segment: Commercial
+usNotes: Not federally subsidized; often bought alongside MPCI.

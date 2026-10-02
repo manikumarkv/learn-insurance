@@ -1,0 +1,7 @@
+name: Mobile / Manufactured Home Insurance
+parent: property.homeowners
+alsoKnownAs: Manufactured home insurance; HO-7 (non-ISO label)
+description: Covers mobile and manufactured homes, which often need specialised cover.
+example: A retiree insures a manufactured home in a park.
+segment: Personal
+usNotes: Many insurers use their own mobile home forms or an endorsement to HO-2/HO-3.

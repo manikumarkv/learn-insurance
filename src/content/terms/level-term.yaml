@@ -1,0 +1,17 @@
+term: Level Term
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: Term life where the premium and death benefit stay the same for the whole term.
+example: A 30-year level term policy at $40 a month.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - term-life-insurance
+  - annual-renewable-term
+meta:
+  source: editorial

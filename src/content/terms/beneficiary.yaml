@@ -1,0 +1,21 @@
+term: Beneficiary
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - life
+  - health
+  - financial
+usageFrequency: High
+difficulty: Beginner
+definition: The person or organization that receives the money when a claim is paid, especially from a life insurance policy.
+example: A husband names his wife as beneficiary of his life policy.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - contingent-beneficiary
+  - primary-beneficiary
+  - policyholder
+meta:
+  source: editorial

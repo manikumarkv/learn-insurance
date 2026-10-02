@@ -1,0 +1,6 @@
+name: Current Assumption Universal Life
+parent: life.permanent.universal
+alsoKnownAs: Traditional UL; Fixed UL
+description: The cash value earns an interest rate declared by the insurer, with a minimum guaranteed rate.
+example: A buyer wants flexible permanent cover with steady, insurer-declared interest.
+segment: Personal

@@ -1,0 +1,18 @@
+term: Installment Plan
+contentStatus: basic
+alsoKnownAs:
+  - Payment Plan
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Paying the premium in parts, such as monthly or quarterly, sometimes with a fee.
+example: A $1,200 policy paid in 12 installments of $100 plus $5 fee.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - premium
+  - premium-finance
+meta:
+  source: editorial

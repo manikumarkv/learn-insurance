@@ -1,0 +1,18 @@
+term: Network Security and Privacy Liability
+contentStatus: basic
+alsoKnownAs:
+  - Third-Party Cyber
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers claims from others harmed by your data breach or security failure.
+example: Customers sue after their card data is stolen.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cyber-insurance
+meta:
+  source: editorial

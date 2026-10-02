@@ -1,0 +1,21 @@
+term: American Association of Insurance Services
+contentStatus: basic
+abbreviation: AAIS
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - commercial
+  - marine
+  - agriculture
+usageFrequency: Low
+difficulty: Advanced
+definition: An advisory organization, owned by member insurers, that provides standard forms and loss costs, similar to ISO.
+example: A mutual insurer uses AAIS farm forms.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insurance-services-office
+meta:
+  source: editorial

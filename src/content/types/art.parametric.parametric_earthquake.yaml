@@ -1,0 +1,6 @@
+name: Earthquake Parametric
+parent: art.parametric
+description: Pays based on earthquake magnitude and distance.
+example: A homeowner receives $20,000 automatically after a nearby magnitude 6.5 quake.
+segment: Both
+usNotes: Personal parametric quake products are sold in California.

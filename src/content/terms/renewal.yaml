@@ -1,0 +1,18 @@
+term: Renewal
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Continuing a policy for another term, often with updated price or terms.
+example: Your auto policy renews every six months.
+whereYoullSeeIt:
+  - Renewal notice
+relatedTerms:
+  - non-renewal
+  - expiration-date
+  - renewal-offer
+meta:
+  source: editorial

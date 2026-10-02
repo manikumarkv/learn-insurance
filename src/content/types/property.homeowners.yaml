@@ -1,0 +1,7 @@
+name: Homeowners Insurance (HO Forms)
+parent: property
+alsoKnownAs: HO policy
+description: Package policy for homes that combines cover for the dwelling, other structures, belongings, loss of use (extra living costs) and personal liability. The current ISO homeowners forms are HO-2, HO-3, HO-4, HO-5, HO-6 and HO-8; HO-1 has been withdrawn in nearly all states, and 'HO-7' is an industry label for mobile home cover, not an ISO form.
+example: A family's HO-3 pays to rebuild the roof after a storm and to put them up in a hotel.
+segment: Personal
+usNotes: Not legally required, but mortgage lenders require it. Coverage parts are labelled A (Dwelling), B (Other Structures), C (Personal Property), D (Loss of Use), E (Personal Liability), F (Medical Payments).

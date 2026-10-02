@@ -1,0 +1,19 @@
+term: Appointment
+contentStatus: basic
+alsoKnownAs:
+  - Carrier Appointment
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Official authorization from an insurer for an agent to represent it, often filed with the state.
+example: An agent is appointed with five carriers.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insurance-agent
+  - producer-license
+usNotes: Most states require insurers to file appointments.
+meta:
+  source: editorial

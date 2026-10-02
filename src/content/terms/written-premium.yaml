@@ -1,0 +1,20 @@
+term: Written Premium
+contentStatus: basic
+alsoKnownAs:
+  - Gross Written Premium
+  - GWP
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: The total premium on policies issued during a period, whether or not it has been earned yet.
+example: Policies sold in 2025 total $50M written premium.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - earned-premium
+  - unearned-premium
+  - net-written-premium
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Difference in Conditions (DIC)
+parent: commercial.commercial_property
+description: Fills gaps in a main property policy, usually adding earthquake and flood.
+example: A California office building buys DIC for earthquake.
+segment: Commercial

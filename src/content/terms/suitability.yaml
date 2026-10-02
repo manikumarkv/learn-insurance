@@ -1,0 +1,20 @@
+term: Suitability
+contentStatus: basic
+alsoKnownAs:
+  - Best Interest Standard
+category: Regulation
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A requirement that an agent recommend annuities or policies that fit the customer's needs and finances.
+example: An agent documents why a fixed annuity suits a 70-year-old's goals.
+whereYoullSeeIt:
+  - Regulatory filings
+  - Application form
+relatedTerms:
+  - annuity
+  - replacement
+usNotes: Most states adopted the 2020 NAIC Best Interest annuity model.
+meta:
+  source: editorial

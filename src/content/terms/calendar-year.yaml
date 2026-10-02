@@ -1,0 +1,17 @@
+term: Calendar Year
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Grouping of financial transactions by the year they were recorded, regardless of when the policy or accident happened.
+example: Calendar year 2025 losses include reserve changes on older claims.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - accident-year
+  - policy-year
+meta:
+  source: editorial

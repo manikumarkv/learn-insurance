@@ -1,0 +1,6 @@
+name: Pet Insurance
+parent: specialty
+description: Pays vet bills for pets' illnesses and injuries, usually by reimbursing you after you pay the vet.
+example: A dog's surgery for a torn ligament is reimbursed.
+segment: Personal
+usNotes: The NAIC Pet Insurance Model Act (2022) has been adopted by a growing number of states.

@@ -1,0 +1,17 @@
+term: Billing System
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software that manages invoicing, payment plans, collections and commissions for policies.
+example: The billing system issues a cancellation notice after missed payment.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - policy-administration-system
+  - installment-plan
+meta:
+  source: editorial

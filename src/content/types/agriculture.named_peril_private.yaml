@@ -1,0 +1,5 @@
+name: Private Named-Peril Crop
+parent: agriculture
+description: Private cover for specific perils or crops the federal program doesn't handle well.
+example: A farmer buys private wind cover for sugarcane.
+segment: Commercial

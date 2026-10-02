@@ -1,0 +1,17 @@
+term: Morbidity Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The rate of illness or disability in a group.
+example: Disability insurers price based on morbidity rates.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - mortality-rate
+meta:
+  source: editorial

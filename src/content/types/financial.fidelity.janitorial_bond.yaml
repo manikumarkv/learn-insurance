@@ -1,0 +1,6 @@
+name: Business Service Bond
+parent: financial.fidelity
+alsoKnownAs: Janitorial bond
+description: A bond small service firms buy to reassure clients against employee theft.
+example: A cleaning company advertises that it is bonded.
+segment: Commercial

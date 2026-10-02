@@ -1,0 +1,5 @@
+name: Cyber Third-Party Liability
+parent: specialty.cyber
+description: Covers claims from others harmed by your cyber incident.
+example: Customers sue a company after their card details leak.
+segment: Commercial

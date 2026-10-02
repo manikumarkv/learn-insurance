@@ -1,0 +1,7 @@
+name: Key Person Insurance
+parent: life.group_life
+alsoKnownAs: Key man insurance
+description: A business insures the life of a vital employee or owner, and the business receives the payout.
+example: A startup insures its founder CTO so it can afford to replace her if she dies.
+segment: Commercial
+usNotes: Employer-owned policies must meet IRC Section 101(j) notice and consent rules for tax-free proceeds.

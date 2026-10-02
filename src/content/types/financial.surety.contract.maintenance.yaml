@@ -1,0 +1,5 @@
+name: Maintenance / Warranty Bond
+parent: financial.surety.contract
+description: Guarantees defects found after completion will be fixed.
+example: A cracked road surface is repaired in year one.
+segment: Commercial

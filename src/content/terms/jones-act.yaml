@@ -1,0 +1,18 @@
+term: Jones Act
+contentStatus: basic
+alsoKnownAs:
+  - Merchant Marine Act of 1920
+category: Legal/Latin
+lines:
+  - commercial
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal law letting injured seamen sue their employers for negligence.
+example: A deckhand sues the vessel owner after a fall.
+whereYoullSeeIt: []
+relatedTerms:
+  - united-states-longshore-and-harbor-workers-compensation
+  - protection-and-indemnity
+meta:
+  source: editorial

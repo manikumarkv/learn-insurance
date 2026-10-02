@@ -1,0 +1,6 @@
+name: Political Violence
+parent: specialty.political_risk
+alsoKnownAs: War, terrorism & civil unrest
+description: Covers damage from war, riots, strikes and terrorism.
+example: A hotel abroad is damaged during civil unrest.
+segment: Commercial

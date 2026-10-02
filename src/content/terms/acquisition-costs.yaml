@@ -1,0 +1,18 @@
+term: Acquisition Costs
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Costs of getting new business, such as commissions, marketing and underwriting.
+example: Commissions and premium taxes are acquisition costs.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - expense-ratio
+  - deferred-acquisition-costs
+  - commission
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: "Coverage C: Medical Payments"
+parent: casualty.general_liability
+description: Pays small medical bills for people hurt on your premises regardless of fault.
+example: A customer's ER visit after tripping is paid.
+segment: Commercial

@@ -1,0 +1,7 @@
+name: USDA Disaster Assistance (Non-Insurance)
+parent: agriculture
+alsoKnownAs: NAP; ELAP; LIP
+description: USDA programs that help farmers after disasters, including the Noninsured Crop Disaster Assistance Program (NAP) for crops without federal insurance.
+example: A grower of a niche herb with no crop policy gets NAP payments after a freeze.
+segment: Commercial
+usNotes: Run by USDA's Farm Service Agency; not insurance but works alongside it.

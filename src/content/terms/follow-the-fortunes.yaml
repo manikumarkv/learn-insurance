@@ -1,0 +1,17 @@
+term: Follow the Fortunes
+contentStatus: basic
+alsoKnownAs:
+  - Follow the Settlements
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A principle that the reinsurer must accept the ceding insurer's good-faith claim decisions.
+example: The reinsurer pays its share of a claim the cedent settled reasonably.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - reinsurance
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Medicare Part D
+contentStatus: basic
+alsoKnownAs:
+  - Prescription Drug Plan
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Beginner
+definition: Medicare prescription drug coverage offered through private plans.
+example: A Part D plan covers your blood pressure pills.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - formulary
+usNotes: The Inflation Reduction Act capped Part D out-of-pocket drug costs at $2,000 in 2025, indexed each year ($2,100 in 2026).
+meta:
+  source: editorial

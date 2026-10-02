@@ -1,0 +1,18 @@
+term: Group Life Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: Life insurance provided to a group, typically employees, under one master policy.
+example: Your employer provides life cover equal to 1x salary.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - group-insurance
+  - master-policy
+  - certificate-of-coverage
+meta:
+  source: editorial

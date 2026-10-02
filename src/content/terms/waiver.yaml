@@ -1,0 +1,16 @@
+term: Waiver
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Voluntarily giving up a known right.
+example: An insurer that pays a late-reported claim without objection may have waived the notice requirement.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - estoppel
+meta:
+  source: editorial

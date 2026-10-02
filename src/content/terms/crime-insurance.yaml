@@ -1,0 +1,21 @@
+term: Crime Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Commercial Crime
+  - Fidelity
+category: Line-Specific
+lines:
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers loss of money, securities and property from crimes like employee theft, forgery, robbery and computer fraud.
+example: A bookkeeper embezzles $200,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - employee-dishonesty
+  - social-engineering-fraud
+  - fidelity-bond
+meta:
+  source: editorial

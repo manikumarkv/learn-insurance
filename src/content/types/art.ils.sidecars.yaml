@@ -1,0 +1,5 @@
+name: Reinsurance Sidecars
+parent: art.ils
+description: Special companies funded by investors that take a share of a reinsurer's business for a limited period.
+example: Investors fund a sidecar that takes 20% of a reinsurer's property cat book.
+segment: Commercial

@@ -1,0 +1,18 @@
+term: Breach Response Costs
+contentStatus: basic
+alsoKnownAs:
+  - First-Party Cyber
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Costs to handle a data breach, like forensics, legal advice, notifying customers and credit monitoring.
+example: Notifying 50,000 customers after a hack.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cyber-insurance
+meta:
+  source: editorial

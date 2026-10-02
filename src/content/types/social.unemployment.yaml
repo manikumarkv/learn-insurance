@@ -1,0 +1,7 @@
+name: Unemployment Insurance (UI)
+parent: social
+alsoKnownAs: Unemployment compensation
+description: Pays temporary weekly benefits to workers who lose their jobs through no fault of their own.
+example: A laid-off factory worker receives weekly benefits for up to 26 weeks.
+segment: Personal
+usNotes: Federal-state program funded mainly by employer payroll taxes (FUTA and state SUTA). Benefit amounts and duration set by each state.

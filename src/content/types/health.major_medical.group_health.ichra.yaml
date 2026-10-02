@@ -1,0 +1,6 @@
+name: Individual Coverage HRA (ICHRA)
+parent: health.major_medical.group_health
+description: The employer gives tax-free money that employees use to buy their own individual-market plans.
+example: A startup gives each employee $500 a month to buy a marketplace plan.
+segment: Commercial
+usNotes: Created by a 2019 federal rule, available from Jan 1, 2020.

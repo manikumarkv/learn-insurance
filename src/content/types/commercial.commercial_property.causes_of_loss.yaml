@@ -1,0 +1,5 @@
+name: Causes of Loss Forms
+parent: commercial.commercial_property
+description: ISO forms that define which perils are covered.
+example: A business picks the special form for the broadest cover.
+segment: Commercial

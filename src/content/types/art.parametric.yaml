@@ -1,0 +1,7 @@
+name: Parametric Insurance
+parent: art
+alsoKnownAs: Index-based insurance
+description: Pays a set amount automatically when a measurable event happens (like wind speed or rainfall) rather than after assessing actual losses.
+example: A hotel is paid $1 million automatically when a Category 4 hurricane passes within 30 miles.
+segment: Both
+usNotes: Must be structured with an insurable interest to be treated as insurance rather than a derivative.

@@ -1,0 +1,19 @@
+term: Mortgage Insurance
+contentStatus: basic
+alsoKnownAs:
+  - PMI
+  - Private Mortgage Insurance
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance that protects the lender if a borrower stops paying the mortgage, typically required with a down payment under 20%.
+example: You pay PMI until you reach 20% equity.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - mortgage-protection-insurance
+usNotes: FHA loans use federal mortgage insurance premiums (MIP).
+meta:
+  source: editorial

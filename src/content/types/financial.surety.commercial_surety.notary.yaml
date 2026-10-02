@@ -1,0 +1,6 @@
+name: Notary Bonds
+parent: financial.surety.commercial_surety
+description: Protects the public against a notary's errors or misconduct.
+example: A notary buys a bond required by the state.
+segment: Personal
+usNotes: Required in many states.

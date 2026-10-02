@@ -1,0 +1,22 @@
+term: Long-Term Care Insurance
+contentStatus: basic
+abbreviation: LTC
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - LTCI
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance that pays for help with daily activities in a nursing home, assisted living or at home.
+example: Pays $200 a day for a nursing home.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - activities-of-daily-living
+  - elimination-period
+  - long-term-care-rider
+usNotes: Many states have LTC partnership programs linked to Medicaid asset protection.
+meta:
+  source: editorial

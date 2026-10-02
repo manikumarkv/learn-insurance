@@ -1,0 +1,6 @@
+name: Servicemembers' Group Life Insurance (SGLI)
+parent: social.federal_programs
+description: Low-cost group term life insurance for active-duty military and reservists, up to $500,000.
+example: A soldier's family receives SGLI after a death in service.
+segment: Personal
+usNotes: Run by the Department of Veterans Affairs, underwritten by Prudential. Can convert to VGLI after service.

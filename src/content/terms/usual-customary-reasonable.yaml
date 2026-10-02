@@ -1,0 +1,19 @@
+term: Usual, Customary and Reasonable
+contentStatus: basic
+abbreviation: UCR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The amount a plan considers normal for a service in an area, used to pay out-of-network claims.
+example: The plan pays out-of-network based on UCR of $150.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - allowed-amount
+  - balance-billing
+meta:
+  source: editorial

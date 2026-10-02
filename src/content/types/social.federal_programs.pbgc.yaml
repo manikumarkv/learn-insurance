@@ -1,0 +1,6 @@
+name: Pension Benefit Guaranty Corporation (PBGC)
+parent: social.federal_programs
+description: Federal agency that insures private defined-benefit pensions and pays benefits, up to legal limits, if a plan fails.
+example: Retirees of a bankrupt airline receive pensions from PBGC.
+segment: Personal
+usNotes: Funded by premiums paid by pension plans.

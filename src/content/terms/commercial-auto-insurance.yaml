@@ -1,0 +1,21 @@
+term: Commercial Auto Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Business Auto
+  - BAP
+category: Line-Specific
+lines:
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance for vehicles used for business, covering liability and physical damage.
+example: A plumber's work van.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hired-and-non-owned-auto
+  - covered-auto-symbols
+  - motor-carrier
+meta:
+  source: editorial

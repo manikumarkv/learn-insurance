@@ -1,0 +1,5 @@
+name: Chronic Illness Rider
+parent: life.life_riders.abr
+description: Pays part of the death benefit early if you can't perform 2 of 6 activities of daily living.
+example: A policyholder unable to bathe or dress unaided receives monthly payments.
+segment: Personal

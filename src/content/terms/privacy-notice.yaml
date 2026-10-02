@@ -1,0 +1,16 @@
+term: Privacy Notice
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A notice telling customers what personal information the insurer collects and shares.
+example: A privacy notice arrives with your new policy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - gramm-leach-bliley-act
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Long-Term Care Rider
+parent: life.life_riders
+description: Lets the death benefit be used to pay for long-term care costs, meeting federal tax-qualified LTC rules.
+example: An insured with dementia uses part of the death benefit to pay for memory care.
+segment: Personal
+usNotes: Tax-qualified under IRC Section 7702B when it meets federal standards.

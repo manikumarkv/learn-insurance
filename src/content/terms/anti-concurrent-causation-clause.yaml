@@ -1,0 +1,20 @@
+term: Anti-Concurrent Causation Clause
+contentStatus: basic
+abbreviation: ACC Clause
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: Wording that excludes a loss if an excluded cause contributed in any way, even if a covered cause also contributed.
+example: Flood damage is excluded even though wind also contributed.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - concurrent-causation
+  - exclusion
+usNotes: "Not enforced in a few states: California and North Dakota by statute, Washington and West Virginia by case law."
+meta:
+  source: editorial

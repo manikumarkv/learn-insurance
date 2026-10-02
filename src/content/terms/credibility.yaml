@@ -1,0 +1,17 @@
+term: Credibility
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: How much weight actuaries give to a particular set of data, based on its size and reliability.
+example: A small insurer's own data gets 30% credibility; industry data gets 70%.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - law-of-large-numbers
+  - experience-rating
+meta:
+  source: editorial

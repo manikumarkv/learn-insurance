@@ -1,0 +1,6 @@
+name: Key Person Disability
+parent: health.disability
+alsoKnownAs: Key man disability; Contingent personal accident
+description: Pays a business if an essential owner, executive or star performer is disabled and the business loses revenue or must find a replacement.
+example: A software firm receives a lump sum to hire a new CTO after its founder is disabled in a car crash.
+segment: Commercial

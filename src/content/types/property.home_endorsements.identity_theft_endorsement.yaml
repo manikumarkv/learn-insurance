@@ -1,0 +1,5 @@
+name: Identity Fraud Expense
+parent: property.home_endorsements
+description: Pays costs to restore your identity after identity theft.
+example: Fees and lost wages from fixing credit reports are reimbursed.
+segment: Personal

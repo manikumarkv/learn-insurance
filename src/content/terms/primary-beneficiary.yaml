@@ -1,0 +1,18 @@
+term: Primary Beneficiary
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: The first person or entity in line to receive the death benefit.
+example: Your spouse is the primary beneficiary.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - beneficiary
+  - contingent-beneficiary
+meta:
+  source: editorial

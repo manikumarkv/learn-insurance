@@ -1,0 +1,20 @@
+term: Ransomware
+contentStatus: basic
+alsoKnownAs:
+  - Cyber Extortion
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Malicious software that locks data until a ransom is paid; cyber policies may cover extortion costs.
+example: A hospital's systems are encrypted and attackers demand bitcoin.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - cyber-insurance
+  - office-of-foreign-assets-control
+usNotes: OFAC warns payments to sanctioned actors are prohibited.
+meta:
+  source: editorial

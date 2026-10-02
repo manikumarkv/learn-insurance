@@ -1,0 +1,5 @@
+name: Home Business Endorsement
+parent: property.home_endorsements
+description: Adds cover for business property and liability for small businesses run from home.
+example: A home bakery adds cover for its equipment and customers.
+segment: Personal

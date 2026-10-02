@@ -1,0 +1,7 @@
+name: Employer Health Risk Financing
+parent: health
+alsoKnownAs: Self-funded plan protection; Stop-loss and carve-outs
+description: Insurance that employers and other plan sponsors buy when they pay their own workers' health claims, to cap the cost of very large or very expensive claims. It protects the plan sponsor, not the patient, so it is not health insurance itself.
+example: A self-funded manufacturer buys stop-loss and a transplant carve-out so one catastrophic claim cannot wreck its benefits budget.
+segment: Commercial
+usNotes: The self-funded plans themselves are governed by federal ERISA; the stop-loss and carve-out policies that protect them are regulated by the states as insurance to the employer or plan, not as health insurance.

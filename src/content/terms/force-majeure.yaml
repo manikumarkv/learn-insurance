@@ -1,0 +1,20 @@
+term: Force Majeure
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - commercial
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A contract clause freeing parties from their obligations when extraordinary events beyond their control occur.
+example: A concert can't go ahead due to a government lockdown, triggering a force majeure clause.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - act-of-god
+  - event-cancellation-insurance
+usNotes: Mostly found in commercial contracts; insurance policies rely on their own perils and exclusions.
+meta:
+  source: editorial

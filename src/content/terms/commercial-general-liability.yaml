@@ -1,0 +1,24 @@
+term: Commercial General Liability
+contentStatus: basic
+abbreviation: CGL
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - General Liability
+  - GL
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Business insurance covering injuries to others, damage to their property, and personal and advertising injury caused by the business.
+example: A customer slips in your store; CGL pays.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - occurrence-policy
+  - products-completed-operations
+  - personal-and-advertising-injury
+usNotes: ISO form CG 00 01 is the standard occurrence form.
+meta:
+  source: editorial

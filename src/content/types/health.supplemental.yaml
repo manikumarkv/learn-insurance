@@ -1,0 +1,7 @@
+name: Supplemental Health (Voluntary Benefits)
+parent: health
+alsoKnownAs: Fixed indemnity plans; Worksite benefits
+description: Pays fixed cash amounts for specific events, on top of major medical, to help with out-of-pocket costs.
+example: A worker gets a cash payment after an accident to help cover the deductible.
+segment: Personal
+usNotes: Commonly sold at the worksite through payroll deduction (e.g. Aflac, Colonial Life). "Excepted benefits" not subject to ACA rules.

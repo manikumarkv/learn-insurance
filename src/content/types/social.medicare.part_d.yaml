@@ -1,0 +1,6 @@
+name: Part D (Prescription Drugs)
+parent: social.medicare
+description: Prescription drug coverage provided through private plans approved by Medicare.
+example: A retiree enrolls in a Part D plan for their prescriptions.
+segment: Personal
+usNotes: See Health Insurance > Private Medicare Plans.

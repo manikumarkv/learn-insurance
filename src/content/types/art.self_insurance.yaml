@@ -1,0 +1,7 @@
+name: Self-Insurance & Large Deductibles
+parent: art
+alsoKnownAs: Self-funding
+description: The business pays its own losses up to a level rather than buying insurance, often with excess insurance above.
+example: A large employer self-insures workers' comp.
+segment: Commercial
+usNotes: Self-insuring workers' comp requires state approval; self-funded health plans fall under ERISA.

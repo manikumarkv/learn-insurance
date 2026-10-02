@@ -1,0 +1,5 @@
+name: Guaranteed Minimum Accumulation Benefit (GMAB)
+parent: life.annuities.deferred.variable
+description: A rider guaranteeing the account will be worth at least a set amount after a waiting period, such as 10 years.
+example: After 10 years the account is topped up to the original premium.
+segment: Personal

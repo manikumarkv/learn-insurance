@@ -1,0 +1,17 @@
+term: Rental Reimbursement
+contentStatus: basic
+alsoKnownAs:
+  - Transportation Expense
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage that pays for a rental car while yours is being repaired after a covered loss.
+example: $40 per day for up to 30 days for a rental car.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - loss-of-use
+meta:
+  source: editorial

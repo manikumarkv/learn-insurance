@@ -1,0 +1,23 @@
+term: Fixed Indexed Annuity
+contentStatus: basic
+abbreviation: FIA
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Indexed Annuity
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: An annuity whose interest is linked to a market index with a floor protecting against losses.
+example: Interest linked to S&P 500 with a 9% cap and 0% floor.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cap-rate
+  - participation-rate
+  - floor-rate
+  - fixed-annuity
+usNotes: Regulated as insurance under state law, not as a security.
+meta:
+  source: editorial

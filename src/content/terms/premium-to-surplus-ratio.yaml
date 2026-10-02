@@ -1,0 +1,19 @@
+term: Premium-to-Surplus Ratio
+contentStatus: basic
+alsoKnownAs:
+  - Leverage Ratio
+  - Kenney Ratio
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Net written premium divided by policyholders' surplus; a measure of how much risk an insurer takes relative to its capital.
+example: $300M premium on $150M surplus gives 2:1.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - policyholder-surplus
+  - capacity
+meta:
+  source: editorial

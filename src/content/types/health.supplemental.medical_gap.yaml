@@ -1,0 +1,6 @@
+name: Group Medical Gap Insurance
+parent: health.supplemental
+alsoKnownAs: Gap plan; Deductible reimbursement plan
+description: Employer-paid supplemental cover that pays part of the deductible and coinsurance left by the group major medical plan.
+example: An employee's $3,000 hospital deductible is mostly paid by the gap plan directly to the hospital.
+segment: Commercial

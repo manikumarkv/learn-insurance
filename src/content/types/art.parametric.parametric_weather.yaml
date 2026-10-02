@@ -1,0 +1,5 @@
+name: Weather & Rainfall Parametric
+parent: art.parametric
+description: Pays based on rainfall, temperature or snowfall indices.
+example: A ski resort is paid when snowfall is below 60% of average.
+segment: Commercial

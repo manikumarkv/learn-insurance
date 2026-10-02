@@ -1,0 +1,19 @@
+term: Act of God
+contentStatus: basic
+alsoKnownAs:
+  - Force of Nature
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A natural event outside human control, such as a flood, earthquake or lightning.
+example: Lightning striking a barn is an act of God.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - force-majeure
+  - peril
+  - catastrophe
+meta:
+  source: editorial

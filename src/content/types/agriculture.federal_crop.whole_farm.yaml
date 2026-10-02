@@ -1,0 +1,5 @@
+name: Whole-Farm Revenue Protection (WFRP)
+parent: agriculture.federal_crop
+description: Covers the revenue of the whole farm under one policy, suited to diversified or specialty crop farms.
+example: An organic vegetable farm with 20 crops insures total revenue.
+segment: Commercial

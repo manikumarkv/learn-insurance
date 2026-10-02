@@ -1,0 +1,20 @@
+term: Severability of Interests
+contentStatus: basic
+alsoKnownAs:
+  - Separation of Insureds
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: A clause that applies the policy separately to each insured, as if each had its own policy.
+example: An exclusion for one insured's intentional act doesn't remove coverage for an innocent co-insured.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - named-insured
+  - innocent-co-insured
+meta:
+  source: editorial

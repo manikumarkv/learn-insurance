@@ -1,0 +1,18 @@
+term: Gap Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Loan/Lease Payoff
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: Pays the difference between your car's actual cash value and what you still owe on the loan or lease after a total loss.
+example: Your car is worth $20,000 but you owe $24,000; gap pays $4,000.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - total-loss
+  - actual-cash-value
+meta:
+  source: editorial

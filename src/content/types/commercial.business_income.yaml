@@ -1,0 +1,7 @@
+name: Business Income & Extra Expense
+parent: commercial
+alsoKnownAs: Business interruption (BI)
+description: Pays lost profit and continuing expenses when a business can't operate after physical damage from a covered cause.
+example: A restaurant closed for 3 months after a fire receives its lost profits.
+segment: Commercial
+usNotes: ISO form CP 00 30.

@@ -1,0 +1,19 @@
+term: Misstatement of Age Clause
+contentStatus: basic
+alsoKnownAs:
+  - Misstatement of Age or Sex
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: If your age was wrong on the application, the benefit is adjusted to what the premium paid would have bought at the correct age.
+example: A benefit is reduced from $100,000 to $92,000 because the insured was older than stated.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - misrepresentation
+  - incontestability-clause
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Private Company & Nonprofit D&O
+parent: specialty.management_liability.do
+description: D&O for private companies and nonprofits, often bundled with EPL and fiduciary.
+example: A nonprofit board is sued by a donor.
+segment: Commercial

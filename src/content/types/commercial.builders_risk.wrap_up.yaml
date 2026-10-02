@@ -1,0 +1,7 @@
+name: Wrap-Up Programs (OCIP / CCIP)
+parent: commercial.builders_risk
+alsoKnownAs: Owner- or contractor-controlled insurance program
+description: One insurance program bought by the owner (OCIP) or general contractor (CCIP) covering all contractors on a large project.
+example: A stadium project buys an OCIP covering GL and workers' comp for all trades.
+segment: Commercial
+usNotes: Some states restrict wrap-ups on public projects.

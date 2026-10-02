@@ -1,0 +1,17 @@
+term: Contractors' Equipment Floater
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - commercial
+  - marine
+usageFrequency: Low
+difficulty: Intermediate
+definition: Inland marine coverage for mobile tools and heavy equipment wherever they are.
+example: A stolen excavator from a job site is covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inland-marine-insurance
+meta:
+  source: editorial

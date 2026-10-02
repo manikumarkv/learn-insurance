@@ -1,0 +1,7 @@
+name: Major Medical (Comprehensive)
+parent: health
+alsoKnownAs: Health plan
+description: Comprehensive health cover for doctor visits, hospital stays, prescriptions and preventive care, bought individually or through an employer.
+example: A freelancer buys an individual plan on the marketplace.
+segment: Both
+usNotes: Under the ACA, major medical plans must cover 10 essential health benefits, can't deny pre-existing conditions, and have annual out-of-pocket maximums.

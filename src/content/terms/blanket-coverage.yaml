@@ -1,0 +1,19 @@
+term: Blanket Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Blanket Limit
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: One limit that applies across multiple locations or types of property instead of separate limits for each.
+example: A $10M blanket limit covering five warehouses.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - schedule
+  - coinsurance-clause
+meta:
+  source: editorial

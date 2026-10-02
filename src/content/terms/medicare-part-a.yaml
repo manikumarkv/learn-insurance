@@ -1,0 +1,18 @@
+term: Medicare Part A
+contentStatus: basic
+alsoKnownAs:
+  - Hospital Insurance
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Beginner
+definition: The part of Medicare covering inpatient hospital care, skilled nursing, hospice and some home health.
+example: Part A pays for your 3-day hospital stay after your deductible.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - medicare-part-b
+meta:
+  source: editorial

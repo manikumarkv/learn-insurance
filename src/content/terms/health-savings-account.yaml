@@ -1,0 +1,20 @@
+term: Health Savings Account
+contentStatus: basic
+abbreviation: HSA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A tax-advantaged savings account for medical costs, available if you have a qualifying high-deductible health plan (since 2026 this includes ACA bronze and catastrophic plans).
+example: You put $3,000 pre-tax into an HSA and use it for doctor bills.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - high-deductible-health-plan
+  - flexible-spending-account
+usNotes: IRS sets yearly contribution limits.
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Fine Art Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Fine Arts Floater
+category: Line-Specific
+lines:
+  - marine
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers art and collectibles, usually on an agreed value basis.
+example: A painting damaged in transit to a gallery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inland-marine-insurance
+  - agreed-value
+meta:
+  source: editorial

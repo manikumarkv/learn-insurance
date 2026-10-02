@@ -1,0 +1,7 @@
+name: Side C
+parent: specialty.management_liability.do
+alsoKnownAs: Entity coverage
+description: Covers the company itself, for securities claims (public companies) or broader claims (private companies).
+example: A listed company is sued in a securities class action.
+segment: Commercial
+usNotes: Securities class actions are brought under the Securities Act of 1933 and Exchange Act of 1934.

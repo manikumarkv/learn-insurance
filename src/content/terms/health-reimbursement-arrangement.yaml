@@ -1,0 +1,20 @@
+term: Health Reimbursement Arrangement
+contentStatus: basic
+abbreviation: HRA
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - ICHRA
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Advanced
+definition: An employer-funded account that reimburses employees for medical costs or individual insurance premiums.
+example: An employer gives $400 a month via ICHRA to buy an individual plan.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - flexible-spending-account
+  - health-savings-account
+meta:
+  source: editorial

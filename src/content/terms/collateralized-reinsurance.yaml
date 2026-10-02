@@ -1,0 +1,17 @@
+term: Collateralized Reinsurance
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: Reinsurance fully backed by cash or securities held in trust, often from capital market investors.
+example: A fund posts $100M collateral to back a reinsurance limit.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - insurance-linked-securities
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Cancel For Any Reason (CFAR)
+parent: specialty.travel
+description: Optional upgrade that refunds part of trip costs (often 50-75%) if you cancel for any reason.
+example: A traveler changes plans and gets 75% back.
+segment: Personal
+usNotes: Must usually be bought within 14-21 days of first trip payment.

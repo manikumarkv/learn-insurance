@@ -1,0 +1,18 @@
+term: Flood Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance covering damage from flooding, which standard home policies exclude.
+example: NFIP coverage pays to repair a flooded ground floor.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - national-flood-insurance-program
+  - flood-zone
+  - flood-exclusion
+meta:
+  source: editorial

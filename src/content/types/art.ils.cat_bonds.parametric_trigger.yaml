@@ -1,0 +1,5 @@
+name: Parametric Trigger
+parent: art.ils.cat_bonds
+description: Pays based on measured event data such as wind speed or earthquake magnitude.
+example: The bond pays when a quake over magnitude 7.0 hits within 50 km of Los Angeles.
+segment: Commercial

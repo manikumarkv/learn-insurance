@@ -1,0 +1,5 @@
+name: Truck Physical Damage
+parent: auto.commercial_auto.trucking
+description: Covers damage to trucks and trailers.
+example: A truck damaged in a rollover is repaired.
+segment: Commercial

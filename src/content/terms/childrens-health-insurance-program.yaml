@@ -1,0 +1,18 @@
+term: Children's Health Insurance Program
+contentStatus: basic
+abbreviation: CHIP
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A federal-state program providing low-cost health coverage for children in families that earn too much for Medicaid.
+example: A family's kids are covered by CHIP.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicaid
+meta:
+  source: editorial

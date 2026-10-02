@@ -1,0 +1,19 @@
+term: Duty of Care
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A legal obligation to act reasonably to avoid harming others.
+example: A doctor owes patients a duty of care.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - negligence
+  - liability
+meta:
+  source: editorial

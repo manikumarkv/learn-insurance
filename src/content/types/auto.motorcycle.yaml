@@ -1,0 +1,6 @@
+name: Motorcycle Insurance
+parent: auto
+description: Cover for motorcycles, scooters and mopeds, with liability, physical damage and injury options similar to cars.
+example: A rider insures a Harley-Davidson.
+segment: Personal
+usNotes: Required in almost every state; helmet laws vary.

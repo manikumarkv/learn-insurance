@@ -1,0 +1,6 @@
+name: Social Engineering / Funds Transfer Fraud
+parent: specialty.cyber.cyber_first_party
+description: Covers money lost when employees are tricked into wiring funds to criminals, such as in business email compromise.
+example: An accounts clerk pays a fake invoice from a spoofed vendor email.
+segment: Commercial
+usNotes: Often sub-limited; may also sit in a crime policy.

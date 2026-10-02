@@ -1,0 +1,19 @@
+term: Flood Zone
+contentStatus: basic
+alsoKnownAs:
+  - Special Flood Hazard Area
+  - SFHA
+category: Underwriting
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An area mapped by FEMA by flood risk; high-risk zones start with A or V.
+example: A home in Zone AE must carry flood insurance if it has a federally backed mortgage.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - flood-insurance
+  - elevation-certificate
+meta:
+  source: editorial

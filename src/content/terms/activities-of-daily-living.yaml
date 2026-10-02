@@ -1,0 +1,20 @@
+term: Activities of Daily Living
+contentStatus: basic
+alsoKnownAs:
+  - ADLs
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Basic self-care tasks, usually bathing, dressing, eating, toileting, continence and transferring, used to trigger long-term care benefits.
+example: Needing help with two ADLs qualifies you for LTC benefits.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - long-term-care-insurance
+  - chronic-illness-rider
+meta:
+  source: editorial

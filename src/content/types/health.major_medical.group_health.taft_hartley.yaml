@@ -1,0 +1,7 @@
+name: Multiemployer (Taft-Hartley) Health Plan
+parent: health.major_medical.group_health
+alsoKnownAs: Taft-Hartley plan; Union health and welfare fund
+description: A health plan run by a union trust that covers workers of many employers under a collective bargaining agreement, often self-funded with stop-loss.
+example: Construction workers who move between contractors keep coverage through their union's health fund.
+segment: Commercial
+usNotes: Set up under section 302(c)(5) of the Labor Management Relations Act of 1947, which requires a written trust run by equal numbers of employer and union trustees.

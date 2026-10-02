@@ -1,0 +1,19 @@
+term: Age Nearest Birthday
+contentStatus: basic
+abbreviation: ANB
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Age Last Birthday (ALB)
+category: Underwriting
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: "Two ways insurers define age: the age at your nearest birthday, or at your last birthday."
+example: At 35 and 7 months you're 36 ANB but 35 ALB.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - issue-age
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Reopened Claim
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A claim that was closed but opened again because of new information or damage.
+example: A closed injury claim is reopened after new surgery is needed.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claim
+  - reserve-development
+meta:
+  source: editorial

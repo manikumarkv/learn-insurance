@@ -1,0 +1,20 @@
+term: Claim Reserve
+contentStatus: basic
+alsoKnownAs:
+  - Case Reserve
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The amount set aside by the insurer to pay a claim that is still open.
+example: The adjuster sets a $50,000 reserve on a bodily injury claim.
+whereYoullSeeIt:
+  - Claims system
+  - Financial statements
+relatedTerms:
+  - reserves
+  - incurred-but-not-reported
+  - reserve-development
+meta:
+  source: editorial

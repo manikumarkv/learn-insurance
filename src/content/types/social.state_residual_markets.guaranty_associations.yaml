@@ -1,0 +1,7 @@
+name: State Guaranty Associations
+parent: social.state_residual_markets
+alsoKnownAs: Guaranty funds
+description: Pay claims of policyholders when an admitted insurer becomes insolvent, up to limits (e.g. often $300,000 for P&C claims).
+example: Policyholders of a failed Florida home insurer have claims paid by FIGA.
+segment: Both
+usNotes: Every state has separate life/health and P&C guaranty associations. Surplus lines policies are usually not covered.

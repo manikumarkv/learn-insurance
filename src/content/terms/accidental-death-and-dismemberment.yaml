@@ -1,0 +1,20 @@
+term: Accidental Death and Dismemberment
+contentStatus: basic
+abbreviation: AD&D
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance paying if you die or lose a limb, eyesight or hearing in an accident.
+example: AD&D pays 50% of the benefit for loss of one hand.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - accident-insurance
+  - accidental-death-benefit-rider
+meta:
+  source: editorial

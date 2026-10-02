@@ -1,0 +1,7 @@
+name: Micro-Captive (831(b))
+parent: art.captives
+alsoKnownAs: Small captive
+description: A small captive that elects to be taxed only on investment income under IRC Section 831(b).
+example: A family business forms an 831(b) captive for uninsured risks.
+segment: Commercial
+usNotes: The IRS has listed abusive micro-captive arrangements as reportable transactions (final regulations 2025).

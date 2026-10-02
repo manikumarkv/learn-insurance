@@ -1,0 +1,6 @@
+name: SIPC Protection
+parent: social.federal_programs
+description: Protects brokerage customers up to $500,000 (including $250,000 cash) if a broker-dealer fails and customer assets are missing. It does not protect against investment losses.
+example: Customers' securities are returned after a brokerage fails.
+segment: Personal
+usNotes: Non-profit created by the Securities Investor Protection Act of 1970.

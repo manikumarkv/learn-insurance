@@ -1,0 +1,16 @@
+term: Sanctions Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A clause saying the insurer will not provide coverage or pay claims if doing so would violate sanctions laws.
+example: Cargo headed to a sanctioned port is not covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - office-of-foreign-assets-control
+meta:
+  source: editorial

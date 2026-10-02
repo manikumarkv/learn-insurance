@@ -1,0 +1,16 @@
+term: Dental Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage for dental care, often paying 100% for preventive, 80% for basic and 50% for major services.
+example: Two free cleanings per year plus 50% of a crown.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annual-maximum
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Disability Buy-Out
+parent: health.disability
+description: Funds the purchase of a disabled business owner's share by the other owners.
+example: Partners buy out a colleague who became permanently disabled.
+segment: Commercial

@@ -1,0 +1,5 @@
+name: Livestock Insurance
+parent: agriculture
+description: Protects livestock producers against animal deaths or falling prices and margins.
+example: A rancher's prize bull dies and is paid for.
+segment: Commercial

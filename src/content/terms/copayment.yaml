@@ -1,0 +1,21 @@
+term: Copayment
+contentStatus: basic
+alsoKnownAs:
+  - Copay
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A fixed amount you pay for a covered service, like a doctor visit or prescription.
+example: A $25 copay for each doctor visit.
+whereYoullSeeIt:
+  - Insurance ID card
+  - Explanation of benefits
+  - Policy document
+relatedTerms:
+  - coinsurance-health
+  - deductible
+  - cost-sharing
+meta:
+  source: editorial

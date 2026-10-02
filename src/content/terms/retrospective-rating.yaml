@@ -1,0 +1,19 @@
+term: Retrospective Rating
+contentStatus: basic
+alsoKnownAs:
+  - Retro Plan
+category: Underwriting
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: A plan where the final premium is adjusted after the policy period based on actual losses during that period.
+example: A large employer pays a lower premium after a year with few claims.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - experience-rating
+  - loss-sensitive-program
+meta:
+  source: editorial

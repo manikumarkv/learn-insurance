@@ -1,0 +1,19 @@
+term: Side C Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Entity Coverage
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: D&O coverage protecting the company itself, often only for securities claims in public companies.
+example: A securities class action against the company.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - side-a
+  - side-b
+  - securities-claim
+meta:
+  source: editorial

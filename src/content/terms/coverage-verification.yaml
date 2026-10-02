@@ -1,0 +1,18 @@
+term: Coverage Verification
+contentStatus: basic
+alsoKnownAs:
+  - Coverage Check
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Beginner
+definition: Confirming that a policy was in force and covers the type of loss reported.
+example: The adjuster verifies the policy was active on the date of the accident.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - first-notice-of-loss
+  - coverage
+meta:
+  source: editorial

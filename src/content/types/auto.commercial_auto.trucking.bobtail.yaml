@@ -1,0 +1,5 @@
+name: Non-Trucking Liability / Bobtail
+parent: auto.commercial_auto.trucking
+description: Covers owner-operators driving a truck when not under dispatch for a motor carrier.
+example: An owner-operator driving home without a trailer is covered.
+segment: Commercial

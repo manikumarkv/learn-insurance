@@ -1,0 +1,5 @@
+name: Replacement Cost on Contents
+parent: property.home_endorsements
+description: Pays to replace belongings with new ones rather than their depreciated value.
+example: A 5-year-old sofa is replaced with a new equivalent.
+segment: Personal

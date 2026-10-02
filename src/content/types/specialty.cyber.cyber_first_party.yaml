@@ -1,0 +1,5 @@
+name: Cyber First-Party Coverage
+parent: specialty.cyber
+description: Pays your own costs after a cyber incident.
+example: A retailer's costs to investigate a breach are paid.
+segment: Commercial

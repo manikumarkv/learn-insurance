@@ -1,0 +1,24 @@
+term: Replacement Cost
+contentStatus: basic
+abbreviation: RC
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - RCV
+  - Replacement Cost Value
+category: Core Concept
+lines:
+  - property
+usageFrequency: High
+difficulty: Beginner
+definition: The cost to replace damaged property with new property of similar kind and quality, without subtracting depreciation.
+example: Your 5-year-old TV is replaced with a new comparable model costing $900.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - actual-cash-value
+  - depreciation
+  - recoverable-depreciation
+  - guaranteed-replacement-cost
+meta:
+  source: editorial

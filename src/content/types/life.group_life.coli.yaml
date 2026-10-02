@@ -1,0 +1,6 @@
+name: Corporate-Owned Life Insurance (COLI)
+parent: life.group_life
+alsoKnownAs: Bank-owned life insurance (BOLI)
+description: Life policies owned by a company on employees, often used to fund executive benefit obligations.
+example: A bank owns policies on executives to help fund deferred compensation.
+segment: Commercial

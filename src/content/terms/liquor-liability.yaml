@@ -1,0 +1,17 @@
+term: Liquor Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers businesses that sell or serve alcohol against claims from intoxicated customers causing harm.
+example: A bar is sued after a drunk patron crashes.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dram-shop-law
+meta:
+  source: editorial

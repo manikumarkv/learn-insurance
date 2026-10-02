@@ -1,0 +1,16 @@
+term: Warehouse to Warehouse Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Extends cargo coverage from the seller's warehouse to the buyer's final warehouse, including land transit.
+example: Goods covered from a factory in China to a store in Chicago.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cargo-insurance
+meta:
+  source: editorial

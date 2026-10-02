@@ -1,0 +1,17 @@
+term: Solvency
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer's ability to pay all its obligations, including future claims.
+example: Regulators monitor solvency through capital ratios.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - risk-based-capital
+  - insolvency
+meta:
+  source: editorial

@@ -1,0 +1,7 @@
+name: Final Expense Insurance
+parent: life.permanent.whole
+alsoKnownAs: Burial insurance; Funeral insurance
+description: Small whole life policy (often $5,000-$25,000), with simplified medical questions, meant to cover funeral and end-of-life costs.
+example: A 70-year-old buys $10,000 of cover so their children won't have to pay for the funeral.
+segment: Personal
+usNotes: Heavily marketed to seniors aged 50-85.

@@ -1,0 +1,6 @@
+name: Medigap Plan F
+parent: health.medicare_private.medigap
+description: Covers all gaps including the Part B deductible.
+example: A retiree eligible before 2020 keeps Plan F.
+segment: Personal
+usNotes: Plans C and F are closed to people newly eligible for Medicare on or after Jan 1, 2020 (MACRA), because new plans can no longer cover the Part B deductible.

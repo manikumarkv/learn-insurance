@@ -1,0 +1,18 @@
+term: Rate Table
+contentStatus: basic
+alsoKnownAs:
+  - Rating Table
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A table of rates or factors looked up by the rating engine, such as factors by age or territory.
+example: A lookup table of territory factors by ZIP code.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - rating-engine
+  - rating-factor
+meta:
+  source: editorial

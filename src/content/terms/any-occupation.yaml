@@ -1,0 +1,17 @@
+term: Any Occupation
+contentStatus: basic
+alsoKnownAs:
+  - Any Occ
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A disability definition that pays only if you can't do any job suited to your education and experience.
+example: After 2 years, LTD switches to any-occupation.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - own-occupation
+meta:
+  source: editorial

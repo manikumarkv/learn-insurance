@@ -1,0 +1,7 @@
+name: Medicare Advantage (Part C)
+parent: health.medicare_private
+alsoKnownAs: MA plan
+description: A private plan that replaces Original Medicare, often as an HMO or PPO, usually including drug coverage and extras like dental and vision.
+example: A retiree picks a $0-premium HMO Medicare Advantage plan with dental.
+segment: Personal
+usNotes: Covers more than half of eligible Medicare beneficiaries (54% in 2025). Annual Medicare open enrollment runs Oct 15-Dec 7.

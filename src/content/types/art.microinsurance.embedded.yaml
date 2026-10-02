@@ -1,0 +1,6 @@
+name: Embedded Insurance
+parent: art.microinsurance
+description: Insurance built into the purchase of another product, such as ticket or rental protection offered at checkout.
+example: A concert-goer adds ticket protection when buying online.
+segment: Personal
+usNotes: Sellers usually need a limited lines license in many states.

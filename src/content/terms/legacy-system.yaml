@@ -1,0 +1,15 @@
+term: Legacy System
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Beginner
+definition: An older system, often mainframe-based, still running critical insurance operations.
+example: A 1980s COBOL policy system still issues life policies.
+whereYoullSeeIt: []
+relatedTerms:
+  - core-systems
+meta:
+  source: editorial

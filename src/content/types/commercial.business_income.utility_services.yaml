@@ -1,0 +1,6 @@
+name: Utility Services - Time Element
+parent: commercial.business_income
+alsoKnownAs: Off-premises power
+description: Covers lost income when an off-site utility (power, water, telecom) fails due to covered damage.
+example: A power station fire shuts down a factory for 4 days.
+segment: Commercial

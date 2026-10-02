@@ -1,0 +1,17 @@
+term: Entire Contract Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: States that the policy plus the attached application make up the whole agreement; nothing outside them counts.
+example: An agent's verbal promise isn't part of the contract.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insurance-policy
+meta:
+  source: editorial

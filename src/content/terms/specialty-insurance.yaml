@@ -1,0 +1,15 @@
+term: Specialty Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage for unusual, complex or niche risks not handled by standard policies.
+example: Insurance for a film production or a rare art collection.
+whereYoullSeeIt: []
+relatedTerms:
+  - surplus-lines
+meta:
+  source: editorial

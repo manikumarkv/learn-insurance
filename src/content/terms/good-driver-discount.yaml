@@ -1,0 +1,18 @@
+term: Good Driver Discount
+contentStatus: basic
+alsoKnownAs:
+  - Safe Driver Discount
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A discount for drivers with no recent accidents or violations.
+example: A 20% discount for 5 clean years.
+whereYoullSeeIt:
+  - Quote
+relatedTerms:
+  - driving-record-points
+usNotes: California law mandates a 20% good driver discount.
+meta:
+  source: editorial

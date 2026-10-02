@@ -1,0 +1,21 @@
+term: Free Look Period
+contentStatus: basic
+alsoKnownAs:
+  - Right to Examine
+  - Free Look
+category: Lifecycle
+lines:
+  - life
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A short period after receiving a policy when you can cancel it for a full refund.
+example: You have 10 days to review your new life policy and cancel for a full refund.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - policy-delivery
+  - cancellation
+usNotes: Length is set by state law, often 10–30 days; longer for replacements and seniors.
+meta:
+  source: editorial

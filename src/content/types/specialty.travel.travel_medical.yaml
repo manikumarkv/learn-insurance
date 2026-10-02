@@ -1,0 +1,5 @@
+name: Travel Medical & Evacuation
+parent: specialty.travel
+description: Covers emergency medical treatment abroad and medical evacuation.
+example: A traveler is flown home after a stroke.
+segment: Personal

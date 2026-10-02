@@ -1,0 +1,20 @@
+term: Open Enrollment Period
+contentStatus: basic
+abbreviation: OEP
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Annual Enrollment
+category: Lifecycle
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: The yearly window when you can sign up for or change health insurance.
+example: ACA open enrollment runs from November 1 to January 15 in most states.
+whereYoullSeeIt: []
+relatedTerms:
+  - special-enrollment-period
+  - annual-enrollment-period
+usNotes: "ACA Marketplace open enrollment dates are set by federal rule and have been in flux: a 2025 CMS rule would have shortened the window (HealthCare.gov Nov 1–Dec 15) from 2027, but a federal court vacated that provision in June 2026 and the case is on appeal. Check HealthCare.gov or your state exchange for current dates. Employer plans set their own open enrollment."
+meta:
+  source: editorial

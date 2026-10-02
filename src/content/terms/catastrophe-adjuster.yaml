@@ -1,0 +1,21 @@
+term: Catastrophe Adjuster
+contentStatus: basic
+abbreviation: CAT Adjuster
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - agriculture
+usageFrequency: Low
+difficulty: Intermediate
+definition: An adjuster who travels to disaster areas to handle large volumes of claims.
+example: CAT adjusters work storm claims for weeks after a hurricane.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - independent-adjuster
+  - catastrophe
+usNotes: Many states issue emergency adjuster licenses after disasters.
+meta:
+  source: editorial

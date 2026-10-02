@@ -1,0 +1,20 @@
+term: Occurrence
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Intermediate
+definition: An accident, including continuous or repeated exposure to the same harmful conditions, that causes injury or damage.
+example: A leaking pipe damaging a neighbor's unit over several weeks may be one occurrence.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - occurrence-policy
+  - per-occurrence-limit
+  - accident
+meta:
+  source: editorial

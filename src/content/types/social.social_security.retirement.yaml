@@ -1,0 +1,6 @@
+name: Retirement Benefits (OASI)
+parent: social.social_security
+alsoKnownAs: Old-age insurance
+description: Monthly income for retired workers and their spouses, with full benefits at full retirement age (67 for those born 1960 or later).
+example: A worker claims reduced benefits at 62 or waits until 70 for a larger amount.
+segment: Personal

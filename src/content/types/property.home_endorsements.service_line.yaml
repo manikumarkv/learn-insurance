@@ -1,0 +1,5 @@
+name: Service Line Coverage
+parent: property.home_endorsements
+description: Covers repair of buried utility lines (water, sewer, power) on your property.
+example: A cracked sewer line under the lawn is replaced.
+segment: Personal

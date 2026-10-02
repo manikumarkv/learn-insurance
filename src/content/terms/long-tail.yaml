@@ -1,0 +1,19 @@
+term: Long-Tail Line
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: A line where claims take many years to be reported and settled, like liability and workers' comp.
+example: Asbestos claims appeared decades after exposure.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - short-tail
+  - incurred-but-not-reported
+meta:
+  source: editorial

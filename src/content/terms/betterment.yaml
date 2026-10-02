@@ -1,0 +1,18 @@
+term: Betterment
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: A deduction for when a repair makes property better than before the loss.
+example: New tires installed on a car with worn tires may carry a betterment charge.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - depreciation
+  - indemnity
+meta:
+  source: editorial

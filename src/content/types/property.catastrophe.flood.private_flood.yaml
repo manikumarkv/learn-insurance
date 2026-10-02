@@ -1,0 +1,6 @@
+name: Private Flood Insurance
+parent: property.catastrophe.flood
+description: Flood cover from private insurers, often with higher limits, shorter waits or extra living expenses.
+example: A high-value home buys private flood for cover above NFIP limits.
+segment: Both
+usNotes: Lenders must accept qualifying private flood policies under federal rules.

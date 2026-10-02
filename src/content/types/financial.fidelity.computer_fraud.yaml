@@ -1,0 +1,5 @@
+name: Computer & Funds Transfer Fraud
+parent: financial.fidelity
+description: Covers theft through hacking into systems or fraudulent transfer instructions sent to your bank.
+example: A hacker instructs the bank to wire funds overseas.
+segment: Commercial

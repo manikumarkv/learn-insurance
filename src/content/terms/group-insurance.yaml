@@ -1,0 +1,19 @@
+term: Group Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance covering a group of people, like employees or members, under one contract.
+example: An employer's group health plan.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - master-policy
+  - certificate-of-coverage
+  - group-life-insurance
+meta:
+  source: editorial

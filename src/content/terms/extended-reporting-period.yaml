@@ -1,0 +1,23 @@
+term: Extended Reporting Period
+contentStatus: basic
+abbreviation: ERP
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Tail Coverage
+category: Policy Wording
+lines:
+  - casualty
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Extra time after a claims-made policy ends to report claims for incidents that happened while it was active.
+example: A retiring doctor buys a tail so later malpractice suits are covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - tail-coverage
+  - claims-made-policy
+  - nose-coverage
+meta:
+  source: editorial

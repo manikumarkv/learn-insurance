@@ -1,0 +1,18 @@
+term: Administrative Services Only
+contentStatus: basic
+abbreviation: ASO
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Distribution
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: An arrangement where an insurer or TPA processes claims for a self-funded plan but doesn't take the risk.
+example: A big insurer handles claims for an employer's plan under an ASO contract.
+whereYoullSeeIt: []
+relatedTerms:
+  - self-funded-plan
+  - third-party-administrator
+meta:
+  source: editorial

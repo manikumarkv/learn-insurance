@@ -1,0 +1,6 @@
+name: Guaranteed Insurability Rider
+parent: life.life_riders
+alsoKnownAs: Guaranteed purchase option
+description: Lets you buy more cover at set times or life events without new medical checks.
+example: A policyholder increases cover after the birth of a child without a medical exam.
+segment: Personal

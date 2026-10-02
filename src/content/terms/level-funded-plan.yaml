@@ -1,0 +1,17 @@
+term: Level-Funded Plan
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A self-funded plan for smaller employers with fixed monthly payments covering expected claims, admin and stop-loss.
+example: A 40-employee firm pays a steady monthly amount and may get a refund if claims are low.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - self-funded-plan
+  - stop-loss-insurance
+meta:
+  source: editorial

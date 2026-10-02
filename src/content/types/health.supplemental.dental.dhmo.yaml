@@ -1,0 +1,6 @@
+name: Dental HMO (DHMO)
+parent: health.supplemental.dental
+alsoKnownAs: Prepaid dental
+description: Low-cost dental plan requiring an assigned network dentist, with fixed copays.
+example: A family pays $10 copays at an assigned dentist.
+segment: Both

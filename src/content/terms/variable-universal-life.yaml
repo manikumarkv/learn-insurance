@@ -1,0 +1,21 @@
+term: Variable Universal Life
+contentStatus: basic
+abbreviation: VUL
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: Universal life where cash value is invested in sub-accounts like mutual funds, with investment risk on the policyowner.
+example: Cash value rises and falls with chosen stock funds.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - variable-life-insurance
+  - sub-account
+  - universal-life-insurance
+usNotes: Regulated as a security by the SEC and FINRA as well as by states.
+meta:
+  source: editorial

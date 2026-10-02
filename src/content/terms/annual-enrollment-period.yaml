@@ -1,0 +1,19 @@
+term: Medicare Annual Enrollment Period
+contentStatus: basic
+abbreviation: AEP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The yearly period, October 15 to December 7, when Medicare beneficiaries can change Medicare Advantage or Part D plans.
+example: You switch Part D plans during AEP.
+whereYoullSeeIt: []
+relatedTerms:
+  - open-enrollment-period
+  - medicare-advantage
+meta:
+  source: editorial

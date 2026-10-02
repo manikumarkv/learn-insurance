@@ -1,0 +1,19 @@
+term: General Indemnity Agreement
+contentStatus: basic
+abbreviation: GIA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: An agreement where a bond principal (and often its owners) promise to repay the surety for any losses.
+example: A contractor's owners personally sign the GIA.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+meta:
+  source: editorial

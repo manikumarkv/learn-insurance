@@ -1,0 +1,6 @@
+name: Auto Endorsements & Add-Ons
+parent: auto.personal_auto
+alsoKnownAs: Optional coverages
+description: Optional extras added to a car policy.
+example: A driver adds rental reimbursement and roadside assistance.
+segment: Personal

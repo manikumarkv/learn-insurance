@@ -1,0 +1,7 @@
+name: Indexed Universal Life (IUL)
+parent: life.permanent.universal
+alsoKnownAs: Equity-indexed UL; Fixed indexed UL
+description: Cash value earns interest linked to a stock market index (e.g. the S&P 500), subject to a cap and a floor (often 0%). The floor stops index losses, but policy charges and cost of insurance can still reduce the cash value.
+example: A buyer wants some market-linked growth in their policy without direct stock market losses.
+segment: Personal
+usNotes: Illustrations are regulated by NAIC Actuarial Guideline 49-A. Not a registered security.

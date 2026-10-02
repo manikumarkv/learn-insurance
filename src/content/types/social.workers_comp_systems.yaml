@@ -1,0 +1,6 @@
+name: State Workers' Compensation Systems
+parent: social
+description: Every state requires employers to provide workers' compensation benefits (Texas is optional); see Casualty > Workers' Compensation for insurance products.
+example: A state workers' comp board resolves a disputed claim.
+segment: Commercial
+usNotes: Administered by state workers' comp boards or industrial commissions.

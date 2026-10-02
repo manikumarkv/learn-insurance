@@ -1,0 +1,6 @@
+name: Civil Authority
+parent: commercial.business_income
+description: Covers lost income when authorities prohibit access to your premises because of nearby damage.
+example: Police close a street after an explosion next door.
+segment: Commercial
+usNotes: Heavily litigated after COVID-19 closures; courts mostly found no physical loss.

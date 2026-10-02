@@ -1,0 +1,18 @@
+term: Base Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The starting rate before adjustments for the specific risk's features.
+example: A base rate for a territory is then adjusted for driver age and vehicle type.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - rate
+  - rating-factor
+  - rating-algorithm
+meta:
+  source: editorial

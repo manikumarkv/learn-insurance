@@ -1,0 +1,18 @@
+term: Wildfire Risk Score
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: A score estimating a property's exposure to wildfire, used in underwriting and pricing.
+example: A home near dense brush receives a high wildfire score.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - catastrophe-model
+  - non-renewal
+usNotes: California requires insurers to consider mitigation (Safer from Wildfires).
+meta:
+  source: editorial

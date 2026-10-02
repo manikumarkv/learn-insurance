@@ -1,0 +1,17 @@
+term: Domicile
+contentStatus: basic
+alsoKnownAs:
+  - State of Domicile
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The state where an insurer is incorporated, whose regulator is its primary financial supervisor.
+example: An insurer domiciled in Ohio is licensed in 45 states.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - admitted-insurer
+meta:
+  source: editorial

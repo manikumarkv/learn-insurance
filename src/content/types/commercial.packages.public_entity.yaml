@@ -1,0 +1,7 @@
+name: Public Entity Insurance
+parent: commercial.packages
+alsoKnownAs: Municipal insurance; Public entity package
+description: Package of property, liability, auto and management cover designed for towns, counties, school and water districts and other local governments.
+example: A township insures its town hall, snowplows, police liability and officials under one program.
+segment: Commercial
+usNotes: AGRiP estimates at least 80% of US local public entities belong to one or more public entity risk pools instead of, or as well as, buying commercial insurance.

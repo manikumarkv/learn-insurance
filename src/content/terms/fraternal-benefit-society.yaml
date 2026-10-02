@@ -1,0 +1,16 @@
+term: Fraternal Benefit Society
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: A nonprofit membership organization that provides life insurance and other benefits to members.
+example: Knights of Columbus offers life insurance to members.
+whereYoullSeeIt: []
+relatedTerms:
+  - mutual-insurance-company
+meta:
+  source: editorial

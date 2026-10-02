@@ -1,0 +1,6 @@
+name: Single Premium Whole Life (SPWL)
+parent: life.permanent.whole
+description: Whole life bought with one lump-sum payment.
+example: A retiree moves an inheritance into a single-premium policy for their heirs.
+segment: Personal
+usNotes: Usually a Modified Endowment Contract (MEC), so loans and withdrawals are taxed less favorably.

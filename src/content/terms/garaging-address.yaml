@@ -1,0 +1,17 @@
+term: Garaging Address
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: Where a vehicle is usually kept overnight, used to set the rating territory.
+example: Listing a cheaper rural address falsely is misrepresentation.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - territory
+  - misrepresentation
+meta:
+  source: editorial

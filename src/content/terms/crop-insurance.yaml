@@ -1,0 +1,21 @@
+term: Crop Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Federal Crop Insurance
+  - MPCI
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance protecting farmers against crop losses from weather, pests or low prices.
+example: A drought cuts corn yields and the policy pays.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - multi-peril-crop-insurance
+  - revenue-protection
+  - crop-hail
+  - risk-management-agency
+meta:
+  source: editorial

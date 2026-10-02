@@ -1,0 +1,22 @@
+term: Mid-Term Adjustment
+contentStatus: basic
+abbreviation: MTA
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Policy Change
+  - Endorsement Transaction
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A change made to a policy during its term, which may change the premium.
+example: Adding a teen driver in month 4 increases the premium.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - endorsement
+  - out-of-sequence-endorsement
+  - return-premium
+meta:
+  source: editorial

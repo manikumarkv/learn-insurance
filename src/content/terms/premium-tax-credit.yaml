@@ -1,0 +1,19 @@
+term: Premium Tax Credit
+contentStatus: basic
+alsoKnownAs:
+  - APTC
+  - Subsidy
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A federal tax credit that lowers monthly premiums for marketplace plans based on income.
+example: A family pays $150 instead of $900 a month thanks to APTC.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - health-insurance-marketplace
+  - cost-sharing-reductions
+meta:
+  source: editorial

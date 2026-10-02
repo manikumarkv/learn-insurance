@@ -1,0 +1,16 @@
+term: Umpire
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: A neutral person who decides amounts on which the two appraisers can't agree.
+example: The umpire sides with your appraiser's $18,000 estimate.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - appraisal-clause
+meta:
+  source: editorial

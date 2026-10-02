@@ -1,0 +1,5 @@
+name: Jewelry Coverage
+parent: property.valuables
+description: Covers rings, watches and other jewelry against loss, theft and damage, including mysterious disappearance.
+example: A lost diamond earring is replaced.
+segment: Personal

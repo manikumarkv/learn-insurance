@@ -1,0 +1,20 @@
+term: Guaranteed Living Benefit
+contentStatus: basic
+alsoKnownAs:
+  - GLWB
+  - GMWB
+  - GMIB
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: An optional annuity rider guaranteeing income or withdrawals regardless of market performance.
+example: A GLWB guarantees 5% a year for life.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - variable-annuity
+  - rider
+meta:
+  source: editorial

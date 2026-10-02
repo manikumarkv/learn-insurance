@@ -1,0 +1,21 @@
+term: Negligence
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Intermediate
+definition: Failing to take the care a reasonable person would take, causing harm to someone.
+example: A store that doesn't clean a spill may be negligent if a shopper slips.
+whereYoullSeeIt:
+  - Claim documents
+  - Policy document
+relatedTerms:
+  - liability
+  - comparative-negligence
+  - duty-of-care
+meta:
+  source: editorial

@@ -1,0 +1,7 @@
+name: Social Security (OASDI)
+parent: social
+alsoKnownAs: Old-Age, Survivors and Disability Insurance
+description: The federal program funded by payroll (FICA) taxes that pays retirement, survivor and disability benefits based on your work record.
+example: A 67-year-old retiree receives a monthly benefit based on 40 years of earnings.
+segment: Personal
+usNotes: Administered by the Social Security Administration (SSA). Workers generally need 40 credits (about 10 years of work) for retirement benefits.

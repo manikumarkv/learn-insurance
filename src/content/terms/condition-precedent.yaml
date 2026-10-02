@@ -1,0 +1,17 @@
+term: Condition Precedent
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Something that must happen before the insurer has to pay.
+example: Submitting a proof of loss is a condition precedent to payment.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - conditions
+  - proof-of-loss
+meta:
+  source: editorial

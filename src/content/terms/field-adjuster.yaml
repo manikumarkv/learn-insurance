@@ -1,0 +1,18 @@
+term: Field Adjuster
+contentStatus: basic
+alsoKnownAs:
+  - Outside Adjuster
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An adjuster who visits the loss location to inspect damage.
+example: A field adjuster measures fire damage at your house.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - desk-adjuster
+  - claims-adjuster
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: No-Fault Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A system where your own insurer pays your injury costs regardless of fault, and lawsuits are limited.
+example: Your own PIP pays after a crash in New York.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - personal-injury-protection
+  - tort-threshold
+usNotes: About a dozen states use no-fault systems.
+meta:
+  source: editorial

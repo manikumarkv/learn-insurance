@@ -1,0 +1,19 @@
+term: Fronting
+contentStatus: basic
+alsoKnownAs:
+  - Fronting Carrier
+category: Reinsurance
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: A licensed insurer issues a policy but passes most or all of the risk to a reinsurer or captive.
+example: A captive can't issue policies in all states, so a fronting carrier issues them and reinsures to the captive.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - captive-insurance-company
+  - reinsurance
+  - managing-general-agent
+meta:
+  source: editorial

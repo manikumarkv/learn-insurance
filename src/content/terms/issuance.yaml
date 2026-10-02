@@ -1,0 +1,18 @@
+term: Issuance
+contentStatus: basic
+alsoKnownAs:
+  - Policy Issuance
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Creating and delivering the formal policy documents after coverage is bound.
+example: The policy is issued and emailed as a PDF.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - binding
+  - policy-delivery
+meta:
+  source: editorial

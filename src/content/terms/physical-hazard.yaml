@@ -1,0 +1,20 @@
+term: Physical Hazard
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A physical condition that increases the chance or size of a loss.
+example: Old knob-and-tube wiring in a house is a physical hazard.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - hazard
+  - moral-hazard
+  - morale-hazard
+meta:
+  source: editorial

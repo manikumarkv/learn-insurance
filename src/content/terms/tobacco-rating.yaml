@@ -1,0 +1,20 @@
+term: Tobacco Rating
+contentStatus: basic
+alsoKnownAs:
+  - Smoker Rate
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Higher premiums for people who use tobacco or nicotine.
+example: Smokers pay two to three times more for term life.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - risk-class
+  - rating-factor
+usNotes: ACA allows up to 1.5x tobacco surcharge for health plans.
+meta:
+  source: editorial

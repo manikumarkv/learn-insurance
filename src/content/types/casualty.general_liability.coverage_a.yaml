@@ -1,0 +1,5 @@
+name: "Coverage A: Bodily Injury & Property Damage"
+parent: casualty.general_liability
+description: Pays for injuries and damage your business causes to others.
+example: A contractor's worker drops a beam on a client's car.
+segment: Commercial

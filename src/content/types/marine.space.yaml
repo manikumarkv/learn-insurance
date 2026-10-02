@@ -1,0 +1,6 @@
+name: Space Insurance
+parent: marine
+alsoKnownAs: Satellite insurance
+description: Covers satellites and launch vehicles during launch and in orbit, plus third-party liability.
+example: A telecom company insures a satellite launch.
+segment: Commercial

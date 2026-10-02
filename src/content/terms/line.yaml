@@ -1,0 +1,20 @@
+term: Line
+contentStatus: basic
+alsoKnownAs:
+  - Line Size
+category: Reinsurance
+lines:
+  - property
+  - marine
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The amount of a risk an insurer or reinsurer accepts; also a share of a risk taken by a market.
+example: A syndicate writes a 10% line on a cargo policy.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - surplus-treaty
+  - capacity
+meta:
+  source: editorial

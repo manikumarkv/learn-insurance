@@ -1,0 +1,17 @@
+term: Joint Life
+contentStatus: basic
+alsoKnownAs:
+  - First-to-Die
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy covering two people that pays when the first one dies.
+example: Business partners buy first-to-die coverage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - survivorship-life
+meta:
+  source: editorial

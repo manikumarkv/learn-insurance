@@ -1,0 +1,17 @@
+term: Non-Proportional Reinsurance
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Intermediate
+definition: The reinsurer pays losses above a set retention up to a limit; premiums aren't shared in proportion.
+example: The reinsurer pays losses above $5M.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - excess-of-loss
+  - proportional-reinsurance
+meta:
+  source: editorial

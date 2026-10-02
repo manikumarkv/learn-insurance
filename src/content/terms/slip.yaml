@@ -1,0 +1,20 @@
+term: Slip
+contentStatus: basic
+alsoKnownAs:
+  - Placing Slip
+category: Reinsurance
+lines:
+  - marine
+  - specialty
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A document summarizing the terms of a risk, which underwriters sign to accept a share.
+example: Lloyd's underwriters sign the slip for their lines; today this is usually an electronic Market Reform Contract (MRC).
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - lloyds
+  - line
+meta:
+  source: editorial

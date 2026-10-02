@@ -1,0 +1,17 @@
+term: Catastrophic Plan
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: A low-premium, very high-deductible ACA plan for people under 30 or with a hardship exemption.
+example: A 25-year-old buys a catastrophic plan.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - metal-tiers
+usNotes: From plan year 2026, CMS extended the hardship exemption to people who can't get premium tax credits or cost-sharing reductions because of their income, widening access to catastrophic plans.
+meta:
+  source: editorial

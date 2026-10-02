@@ -1,0 +1,18 @@
+term: HO-5
+contentStatus: basic
+alsoKnownAs:
+  - Comprehensive Form Homeowners
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A homeowners form that covers both the house and belongings on an open perils basis.
+example: A higher-end homeowner buys HO-5.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ho-3
+  - open-perils
+meta:
+  source: editorial

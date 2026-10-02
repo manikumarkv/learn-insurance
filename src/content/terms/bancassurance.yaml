@@ -1,0 +1,17 @@
+term: Bancassurance
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - life
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Selling insurance through banks.
+example: A bank offers life insurance to mortgage customers.
+whereYoullSeeIt: []
+relatedTerms:
+  - embedded-insurance
+usNotes: Less common in the US than elsewhere because of historic banking law limits, partly lifted by the Gramm-Leach-Bliley Act (1999).
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Lienholder
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A lender or leasing company with a financial interest in the insured property.
+example: The car finance company is the lienholder.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - loss-payee
+  - mortgagee-clause
+meta:
+  source: editorial

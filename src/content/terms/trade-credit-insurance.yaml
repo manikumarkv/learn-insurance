@@ -1,0 +1,17 @@
+term: Trade Credit Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Credit Insurance (Commercial)
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: Protects businesses against customers not paying invoices due to insolvency or default.
+example: A supplier is paid when a retailer goes bankrupt.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - credit-insurance
+meta:
+  source: editorial

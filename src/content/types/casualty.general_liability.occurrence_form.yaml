@@ -1,0 +1,6 @@
+name: Occurrence Form
+parent: casualty.general_liability
+description: Covers incidents that happen during the policy period, even if the claim is made years later.
+example: A claim for a 2022 injury filed in 2025 is paid by the 2022 policy.
+segment: Commercial
+usNotes: The standard for most CGL policies.

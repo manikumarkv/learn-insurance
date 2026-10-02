@@ -1,0 +1,21 @@
+term: Third-Party Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Liability Coverage
+category: Core Concept
+lines:
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance that pays others you are legally responsible for injuring or harming.
+example: Your auto liability pays for the other driver's hospital bills.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - first-party-coverage
+  - liability
+meta:
+  source: editorial

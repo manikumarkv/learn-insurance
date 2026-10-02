@@ -1,0 +1,7 @@
+name: Federal Crop Insurance (MPCI)
+parent: agriculture
+alsoKnownAs: Multiple Peril Crop Insurance
+description: Federally subsidized policies covering crop losses from natural causes like drought, flood, hail, disease and price drops.
+example: A soybean farmer buys revenue protection at 75% coverage.
+segment: Commercial
+usNotes: Sales closing dates and coverage levels (50%-85%) set by RMA; premium subsidies average roughly 60%.

@@ -1,0 +1,19 @@
+term: Medicare Part B
+contentStatus: basic
+alsoKnownAs:
+  - Medical Insurance
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Medium
+difficulty: Beginner
+definition: The part of Medicare covering doctor visits, outpatient care and preventive services, with a monthly premium.
+example: Part B pays 80% of approved doctor charges.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - medicare-part-a
+  - medigap
+meta:
+  source: editorial

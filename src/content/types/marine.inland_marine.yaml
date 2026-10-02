@@ -1,0 +1,7 @@
+name: Inland Marine
+parent: marine
+alsoKnownAs: Floaters
+description: A US-specific class covering property in transit over land, movable property, and "instrumentalities of transportation" such as bridges and pipelines.
+example: A contractor insures tools that move between job sites.
+segment: Commercial
+usNotes: Defined by the NAIC Nationwide Marine Definition; many inland marine forms are unfiled, giving flexibility.

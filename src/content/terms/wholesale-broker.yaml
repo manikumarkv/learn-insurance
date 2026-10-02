@@ -1,0 +1,22 @@
+term: Wholesale Broker
+contentStatus: basic
+alsoKnownAs:
+  - Wholesaler
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A broker who helps retail agents access specialty or surplus lines insurers.
+example: A retail agent uses a wholesaler to place a hard-to-insure nightclub.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - surplus-lines-broker
+  - retail-agent
+  - managing-general-agent
+meta:
+  source: editorial

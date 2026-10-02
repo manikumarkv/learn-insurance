@@ -1,0 +1,17 @@
+term: Operating Ratio
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Combined ratio minus the investment income ratio; shows overall operating profitability.
+example: A 102% combined ratio minus 6% investment income ratio gives 96%.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - combined-ratio
+  - investment-income
+meta:
+  source: editorial

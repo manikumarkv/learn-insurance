@@ -1,0 +1,7 @@
+name: Treaty Reinsurance
+parent: reinsurance.by_method
+alsoKnownAs: Obligatory reinsurance
+description: An agreement covering a whole class or portfolio of policies automatically, usually renewed yearly.
+example: All of an insurer's auto policies are ceded 30% under a treaty.
+segment: Commercial
+usNotes: "Main renewal dates: January 1, April 1, June 1 and July 1."

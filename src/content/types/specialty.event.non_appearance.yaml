@@ -1,0 +1,5 @@
+name: Non-Appearance
+parent: specialty.event
+description: Covers losses if a key performer or speaker can't appear.
+example: A headline singer falls ill before a concert.
+segment: Commercial

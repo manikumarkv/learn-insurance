@@ -1,0 +1,18 @@
+term: Variable Life Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: Permanent life insurance whose cash value and sometimes death benefit depend on investment sub-accounts.
+example: Your policy value falls when the market drops.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - variable-universal-life
+  - sub-account
+usNotes: Sellers need a securities license.
+meta:
+  source: editorial

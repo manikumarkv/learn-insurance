@@ -1,0 +1,18 @@
+term: Guaranteed Replacement Cost
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Pays the full cost to rebuild your home even if it exceeds the policy limit.
+example: Rebuild costs $600,000 on a $450,000 limit, all paid.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - extended-replacement-cost
+  - replacement-cost
+usNotes: Few insurers still offer it.
+meta:
+  source: editorial

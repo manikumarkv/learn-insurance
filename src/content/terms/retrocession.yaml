@@ -1,0 +1,18 @@
+term: Retrocession
+contentStatus: basic
+alsoKnownAs:
+  - Retro
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Reinsurance bought by reinsurers to protect themselves.
+example: A reinsurer buys retrocession for peak hurricane risk.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - reinsurance
+  - retrocessionaire
+meta:
+  source: editorial

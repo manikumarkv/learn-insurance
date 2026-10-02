@@ -1,0 +1,7 @@
+name: Yacht & Boat Insurance
+parent: marine.ocean_marine
+alsoKnownAs: Watercraft insurance
+description: Covers private boats and yachts for damage, theft and liability.
+example: A sailor insures a 40-foot yacht.
+segment: Personal
+usNotes: Marinas and lenders usually require liability cover. Some states (e.g. Utah) require boat liability insurance.

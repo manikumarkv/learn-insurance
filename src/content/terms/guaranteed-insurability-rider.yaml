@@ -1,0 +1,17 @@
+term: Guaranteed Insurability Rider
+contentStatus: basic
+alsoKnownAs:
+  - Guaranteed Purchase Option
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A rider allowing you to buy more coverage at set dates or life events without proving good health.
+example: You add $50,000 after your child is born.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rider
+meta:
+  source: editorial

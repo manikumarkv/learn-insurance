@@ -1,0 +1,18 @@
+term: Third-Party Employment Practices Liability Insurance
+contentStatus: basic
+abbreviation: Third-Party EPLI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: EPLI coverage for discrimination or harassment claims by customers or vendors.
+example: A customer alleges harassment by a salesperson.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - employment-practices-liability
+meta:
+  source: editorial

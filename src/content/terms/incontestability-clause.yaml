@@ -1,0 +1,21 @@
+term: Incontestability Clause
+contentStatus: basic
+alsoKnownAs:
+  - Incontestable Clause
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: After a set time (usually two years), the insurer can't cancel or deny a life policy for misstatements on the application, except in some cases like fraud.
+example: After two years, a small error on your life application can't be used to deny the claim.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rescission
+  - suicide-clause
+  - contestable-period
+usNotes: Required by state law for life policies; generally 2 years.
+meta:
+  source: editorial

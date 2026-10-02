@@ -1,0 +1,20 @@
+term: Valued Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - life
+  - property
+  - marine
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy that pays a fixed, pre-agreed amount for a total loss, regardless of actual value at the time.
+example: A life policy pays $500,000 at death; nobody measures the 'value' of the loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - agreed-value
+  - indemnity
+usNotes: About 17 states have 'valued policy laws' requiring full face payment for certain total losses to buildings; some apply only to fire or only to residential property.
+meta:
+  source: editorial

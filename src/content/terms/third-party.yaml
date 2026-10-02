@@ -1,0 +1,21 @@
+term: Third Party
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Someone other than you or your insurer who may make a claim against you.
+example: A pedestrian injured by your car is a third party.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - first-party-coverage
+  - third-party-coverage
+  - claimant
+meta:
+  source: editorial

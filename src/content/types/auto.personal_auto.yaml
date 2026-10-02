@@ -1,0 +1,7 @@
+name: Personal Auto Policy (PAP)
+parent: auto
+alsoKnownAs: Private passenger auto
+description: Cover for cars, SUVs, pickups and minivans owned and used by individuals.
+example: A commuter insures the family SUV.
+segment: Personal
+usNotes: Based on the ISO Personal Auto Policy form in many states.

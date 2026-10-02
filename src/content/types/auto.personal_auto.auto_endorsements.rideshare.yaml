@@ -1,0 +1,7 @@
+name: Rideshare Endorsement
+parent: auto.personal_auto.auto_endorsements
+alsoKnownAs: TNC coverage
+description: Fills the gap in a personal policy when you drive for Uber, Lyft or delivery apps with the app on but no ride accepted.
+example: An Uber driver waiting for a ride request is covered after a crash.
+segment: Personal
+usNotes: Most states have TNC laws setting required coverage by driving period.

@@ -1,0 +1,7 @@
+name: Employer Group Health
+parent: health.major_medical
+alsoKnownAs: Employer-sponsored insurance (ESI)
+description: Health cover an employer offers to employees and their families, usually sharing the premium cost.
+example: A company covers employees and their dependents under one plan.
+segment: Commercial
+usNotes: The largest source of US health coverage. Employers with 50+ full-time employees face the ACA employer mandate.

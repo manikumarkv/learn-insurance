@@ -1,0 +1,19 @@
+term: Essential Health Benefits
+contentStatus: basic
+abbreviation: EHB
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Ten categories of services ACA plans must cover, like emergency care, hospitalization, maternity, mental health and prescription drugs.
+example: Your individual plan covers maternity care.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - affordable-care-act
+usNotes: Each state picks a benchmark plan defining EHB details.
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Standard Industrial Classification Code
+contentStatus: basic
+abbreviation: SIC Code
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: An older 4-digit industry classification still used by some insurers.
+example: SIC 5812 means eating places.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - north-american-industry-classification-system-code
+  - class-code
+meta:
+  source: editorial

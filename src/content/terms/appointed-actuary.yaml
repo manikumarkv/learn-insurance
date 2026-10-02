@@ -1,0 +1,18 @@
+term: Appointed Actuary
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The actuary named by an insurer's board to give the regulator an opinion on the adequacy of its reserves.
+example: The appointed actuary signs the annual reserve opinion.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - actuary
+  - reserves
+meta:
+  source: editorial

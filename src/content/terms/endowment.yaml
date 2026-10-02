@@ -1,0 +1,18 @@
+term: Endowment
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A policy that pays the face amount at a set date if you are alive, or at death if earlier. Also when a whole life policy's cash value equals the death benefit at maturity age.
+example: A policy endows at age 121.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - whole-life-insurance
+  - maturity-date
+usNotes: Pure endowment products are rare in the US because of tax rules.
+meta:
+  source: editorial

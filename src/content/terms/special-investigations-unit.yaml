@@ -1,0 +1,20 @@
+term: Special Investigations Unit
+contentStatus: basic
+abbreviation: SIU
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer's team that investigates suspected fraud.
+example: A suspicious fire claim is referred to SIU.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - insurance-fraud
+  - examination-under-oath
+usNotes: Most states require insurers to maintain an SIU or anti-fraud plan.
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Policyholder
+contentStatus: basic
+alsoKnownAs:
+  - Policyowner
+  - Owner
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The person or organization that owns the insurance policy and controls it.
+example: A parent owns a life policy on their child; the parent is the policyholder.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - insured
+  - beneficiary
+  - named-insured
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Form A
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A filing required for approval before anyone acquires control of a domestic insurer.
+example: A private equity firm files Form A to buy a life insurer.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insurance-holding-company
+meta:
+  source: editorial

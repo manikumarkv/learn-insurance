@@ -1,0 +1,6 @@
+name: Structured Settlement Annuity
+parent: life.annuities
+description: An annuity used to pay a lawsuit or injury settlement as a stream of payments instead of a lump sum.
+example: An injury victim receives monthly payments for 30 years from a settlement.
+segment: Personal
+usNotes: Payments for physical injury are generally tax-free under IRC Section 104.

@@ -1,0 +1,20 @@
+term: Risk Retention Group
+contentStatus: basic
+abbreviation: RRG
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - casualty
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: A liability insurer owned by its members in the same industry, allowed by federal law to operate across states after licensing in one.
+example: Physicians form an RRG for malpractice coverage.
+whereYoullSeeIt: []
+relatedTerms:
+  - captive-insurance-company
+  - purchasing-group
+usNotes: Created under the federal Liability Risk Retention Act.
+meta:
+  source: editorial

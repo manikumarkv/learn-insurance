@@ -1,0 +1,6 @@
+name: Joint and Survivor Annuity
+parent: life.annuities
+description: Keeps paying income while either of two people is alive, sometimes at a reduced rate after the first dies.
+example: A married couple buys an annuity that pays until the second spouse dies.
+segment: Personal
+usNotes: ERISA requires this as the default form for married participants in many pension plans.

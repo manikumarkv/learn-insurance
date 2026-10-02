@@ -1,0 +1,22 @@
+term: Medical Malpractice Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Med Mal
+  - Medical Professional Liability
+category: Line-Specific
+lines:
+  - casualty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Professional liability for doctors, nurses and health facilities against claims of patient injury from treatment.
+example: A surgeon is sued for a surgical error.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - professional-liability-insurance
+  - claims-made-policy
+  - tail-coverage
+usNotes: Some states cap non-economic damages in malpractice cases; some have patient compensation funds.
+meta:
+  source: editorial

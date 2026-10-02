@@ -1,0 +1,5 @@
+name: International Student Insurance
+parent: specialty.travel
+description: Health cover for foreign students studying in the US, often required by universities and J-1 visa rules.
+example: A J-1 exchange student buys a plan meeting State Department minimums.
+segment: Personal

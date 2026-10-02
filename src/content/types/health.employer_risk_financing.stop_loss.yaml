@@ -1,0 +1,7 @@
+name: Medical Stop-Loss
+parent: health.employer_risk_financing
+alsoKnownAs: Excess risk insurance
+description: Protects a self-funded employer against very large individual claims (specific) or high total claims (aggregate).
+example: A self-funded employer is reimbursed for an employee's $1 million cancer treatment above a $150,000 deductible.
+segment: Commercial
+usNotes: Regulated by states as insurance to the employer, not as health insurance.

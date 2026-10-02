@@ -1,0 +1,5 @@
+name: Maritime Employers Liability (MEL)
+parent: marine.ocean_marine.marine_liability
+description: Covers employers of seamen for injury claims under the Jones Act and general maritime law.
+example: A deckhand injured on a crew boat sues his employer.
+segment: Commercial

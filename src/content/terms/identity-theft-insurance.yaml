@@ -1,0 +1,17 @@
+term: Identity Theft Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - specialty
+usageFrequency: Low
+difficulty: Beginner
+definition: Covers costs of restoring your identity after theft, like legal fees and lost wages.
+example: Pays costs to fix accounts opened in your name.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cyber-insurance
+meta:
+  source: editorial

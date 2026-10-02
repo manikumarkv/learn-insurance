@@ -1,0 +1,5 @@
+name: Combined Single Limit (CSL)
+parent: auto.personal_auto.liability
+description: One total limit per accident that covers both bodily injury and property damage.
+example: A policy has a $300,000 combined limit instead of split limits.
+segment: Personal

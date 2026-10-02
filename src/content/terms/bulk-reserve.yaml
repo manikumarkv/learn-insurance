@@ -1,0 +1,19 @@
+term: Bulk Reserve
+contentStatus: basic
+alsoKnownAs:
+  - IBNER
+  - Incurred But Not Enough Reported
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A reserve for expected increases in claims already reported, beyond their case reserves.
+example: Adding $2M because case reserves on old claims tend to grow.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - incurred-but-not-reported
+  - claim-reserve
+meta:
+  source: editorial

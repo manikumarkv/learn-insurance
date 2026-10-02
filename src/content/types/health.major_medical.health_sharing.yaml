@@ -1,0 +1,7 @@
+name: Health Care Sharing Ministries
+parent: health.major_medical
+alsoKnownAs: Health sharing plans
+description: Members of a faith-based group share each other's medical bills; this is not insurance and has no guarantee of payment.
+example: A family joins a sharing ministry and submits bills to be shared by members.
+segment: Personal
+usNotes: Not regulated as insurance in most states; exempt from ACA rules.

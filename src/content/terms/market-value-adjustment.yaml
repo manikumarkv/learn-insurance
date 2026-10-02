@@ -1,0 +1,19 @@
+term: Market Value Adjustment
+contentStatus: basic
+abbreviation: MVA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: An adjustment to an annuity's surrender value based on interest rate changes since purchase.
+example: Rates rose, so the MVA lowers your surrender value.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surrender-charge
+  - fixed-annuity
+meta:
+  source: editorial

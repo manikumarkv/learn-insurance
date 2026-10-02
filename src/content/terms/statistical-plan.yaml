@@ -1,0 +1,16 @@
+term: Statistical Plan
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The coding rules and formats insurers must use for statistical reporting.
+example: The ISO personal auto statistical plan codes each coverage.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - statistical-reporting
+meta:
+  source: editorial

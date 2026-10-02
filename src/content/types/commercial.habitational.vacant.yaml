@@ -1,0 +1,6 @@
+name: Vacant Building
+parent: commercial.habitational
+description: Cover for buildings that are vacant or unoccupied, which standard policies restrict.
+example: A bank insures a foreclosed commercial building.
+segment: Commercial
+usNotes: Standard forms limit cover after 60 days of vacancy.

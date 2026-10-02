@@ -1,0 +1,24 @@
+term: Business Interruption Insurance
+contentStatus: basic
+abbreviation: BI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Business Income
+  - Loss of Income
+category: Line-Specific
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers lost income and ongoing expenses when a business must close due to covered property damage.
+example: A restaurant closed 3 months after a fire gets lost profits paid.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - extra-expense
+  - period-of-restoration
+  - contingent-business-interruption
+  - direct-physical-loss
+meta:
+  source: editorial

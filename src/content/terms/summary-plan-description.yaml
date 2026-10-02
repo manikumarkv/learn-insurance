@@ -1,0 +1,20 @@
+term: Summary Plan Description
+contentStatus: basic
+abbreviation: SPD
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A document required by ERISA explaining an employee benefit plan's benefits, rights and procedures.
+example: Your HR portal has the SPD for the company's health plan.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - employee-retirement-income-security-act
+  - summary-of-benefits-and-coverage
+meta:
+  source: editorial

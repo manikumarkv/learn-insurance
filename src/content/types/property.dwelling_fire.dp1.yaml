@@ -1,0 +1,5 @@
+name: DP-1 Basic Form
+parent: property.dwelling_fire
+description: Named perils (fire, lightning, internal explosion) with optional extended coverage, usually paid at actual cash value.
+example: A cheap policy for a vacant cabin.
+segment: Personal

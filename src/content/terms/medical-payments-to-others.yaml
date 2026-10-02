@@ -1,0 +1,20 @@
+term: Medical Payments to Others
+contentStatus: basic
+alsoKnownAs:
+  - Coverage F
+  - Med Pay
+category: Policy Wording
+lines:
+  - property
+  - casualty
+usageFrequency: Medium
+difficulty: Beginner
+definition: Pays small medical bills for guests injured on your property, regardless of fault.
+example: A neighbor's child falls off your swing; $1,500 medical is paid.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - personal-liability-coverage
+  - medical-payments-coverage
+meta:
+  source: editorial

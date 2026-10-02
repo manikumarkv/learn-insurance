@@ -1,0 +1,18 @@
+term: Rating Engine
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software that calculates premiums by applying rates, factors and rules to a risk's details.
+example: A rating engine returns a $1,234 auto premium from 40 inputs.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - rating-algorithm
+  - policy-administration-system
+  - rate
+meta:
+  source: editorial

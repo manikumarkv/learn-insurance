@@ -1,0 +1,17 @@
+term: Paid Losses
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Claim payments already made.
+example: $3M paid on hurricane claims so far.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - total-incurred
+  - incurred-losses
+meta:
+  source: editorial

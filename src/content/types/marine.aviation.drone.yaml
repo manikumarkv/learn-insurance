@@ -1,0 +1,6 @@
+name: Drone (UAS) Insurance
+parent: marine.aviation
+description: Covers drones against damage and liability to others.
+example: A real estate photographer insures a camera drone.
+segment: Both
+usNotes: Commercial drone pilots need FAA Part 107 certification; insurance is not federally required but is often required by clients.

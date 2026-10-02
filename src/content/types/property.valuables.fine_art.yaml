@@ -1,0 +1,5 @@
+name: Fine Art & Collectibles
+parent: property.valuables
+description: Covers paintings, sculptures, wine and collections at agreed values.
+example: A collector insures a painting for its appraised value.
+segment: Personal

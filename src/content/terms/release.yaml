@@ -1,0 +1,18 @@
+term: Release
+contentStatus: basic
+alsoKnownAs:
+  - Release of Claims
+category: Claims
+lines:
+  - casualty
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A signed document where a claimant gives up further claims in exchange for payment.
+example: An injured driver signs a release after accepting $25,000.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - claim-settlement
+meta:
+  source: editorial

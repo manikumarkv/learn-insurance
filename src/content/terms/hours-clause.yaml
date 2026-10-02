@@ -1,0 +1,17 @@
+term: Hours Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A clause defining how long a period (e.g., 72 hours) counts as one catastrophe event.
+example: Wind losses within 72 hours count as one hurricane event.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - catastrophe-excess-of-loss
+  - occurrence
+meta:
+  source: editorial

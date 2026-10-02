@@ -1,0 +1,7 @@
+name: Qualifying Longevity Annuity Contract (QLAC)
+parent: life.annuities.deferred
+alsoKnownAs: Longevity annuity
+description: A deferred annuity bought with retirement account (e.g. IRA, 401(k)) money that can start paying as late as age 85.
+example: A retiree uses part of an IRA to guarantee income from age 85.
+segment: Personal
+usNotes: Premium limit set by IRS and indexed for inflation ($210,000 for 2025 and 2026, up from $200,000 set by SECURE 2.0). Excluded from required minimum distributions until payments start.

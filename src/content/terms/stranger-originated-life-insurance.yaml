@@ -1,0 +1,19 @@
+term: Stranger-Originated Life Insurance
+contentStatus: basic
+abbreviation: STOLI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A scheme where investors arrange for someone to buy life insurance on themselves, intending to sell it to the investors.
+example: A senior is paid to take out a policy that is transferred to an investor.
+whereYoullSeeIt: []
+relatedTerms:
+  - insurable-interest
+  - life-settlement
+usNotes: Prohibited in most states.
+meta:
+  source: editorial

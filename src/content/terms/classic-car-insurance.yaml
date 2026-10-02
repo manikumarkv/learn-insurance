@@ -1,0 +1,17 @@
+term: Classic Car Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Collector Car Insurance
+category: Line-Specific
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance for collector vehicles, often on an agreed value basis with mileage limits.
+example: A 1967 Mustang insured for $55,000 agreed value.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - agreed-value
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Bid Bond
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A bond guaranteeing that a winning bidder will sign the contract and provide performance and payment bonds.
+example: A contractor submits a bid bond with a public project bid.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - performance-bond
+meta:
+  source: editorial

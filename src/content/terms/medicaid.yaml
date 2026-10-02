@@ -1,0 +1,19 @@
+term: Medicaid
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: High
+difficulty: Beginner
+definition: A joint federal-state program providing health coverage to people with low income and some other groups.
+example: A low-income family gets free coverage through Medicaid.
+whereYoullSeeIt: []
+relatedTerms:
+  - childrens-health-insurance-program
+  - dual-eligible
+  - medicaid-managed-care
+usNotes: Eligibility and benefits vary by state; not all states expanded Medicaid under the ACA.
+meta:
+  source: editorial

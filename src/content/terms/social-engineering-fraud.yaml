@@ -1,0 +1,21 @@
+term: Social Engineering Fraud
+contentStatus: basic
+alsoKnownAs:
+  - Social Engineering Coverage
+  - Fraudulent Instruction
+  - Impersonation Fraud
+category: Policy Wording
+lines:
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage for losses when an employee is tricked into sending money to a fraudster.
+example: An employee wires $80,000 after a fake CEO email.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crime-insurance
+  - cyber-insurance
+meta:
+  source: editorial

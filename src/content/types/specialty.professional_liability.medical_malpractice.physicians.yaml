@@ -1,0 +1,5 @@
+name: Physicians & Surgeons
+parent: specialty.professional_liability.medical_malpractice
+description: Individual or group cover for doctors.
+example: An OB-GYN buys cover with $1M/$3M limits.
+segment: Both

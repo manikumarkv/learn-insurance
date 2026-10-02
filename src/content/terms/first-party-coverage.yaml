@@ -1,0 +1,17 @@
+term: First-Party Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance that pays you directly for your own losses.
+example: Collision coverage on your car pays to repair your own car.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - third-party-coverage
+  - collision-coverage
+meta:
+  source: editorial

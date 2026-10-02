@@ -1,0 +1,17 @@
+term: Accident Forgiveness
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Beginner
+definition: A feature where your first at-fault accident doesn't raise your premium.
+example: No surcharge after your first fender-bender.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - driving-record-points
+usNotes: Banned in some states such as California.
+meta:
+  source: editorial

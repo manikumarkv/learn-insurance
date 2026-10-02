@@ -1,0 +1,21 @@
+term: Insurance Policy
+contentStatus: basic
+alsoKnownAs:
+  - Policy
+  - Contract of Insurance
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The written contract that spells out what is covered, what is not, and the duties of both sides.
+example: Your 40-page homeowners policy document.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - declarations-page
+  - insuring-agreement
+  - exclusion
+  - conditions
+meta:
+  source: editorial

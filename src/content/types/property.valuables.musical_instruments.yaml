@@ -1,0 +1,5 @@
+name: Musical Instruments
+parent: property.valuables
+description: Covers instruments on and off premises, including while travelling.
+example: A cellist's instrument is damaged on a flight.
+segment: Personal

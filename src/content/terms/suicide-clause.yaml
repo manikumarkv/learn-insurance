@@ -1,0 +1,19 @@
+term: Suicide Clause
+contentStatus: basic
+alsoKnownAs:
+  - Suicide Exclusion
+category: Policy Wording
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A clause saying the policy won't pay the full death benefit if the insured dies by suicide within a set period, usually two years; premiums are refunded instead.
+example: A death by suicide in year one results in a refund of premiums.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - incontestability-clause
+  - exclusion
+usNotes: Usually 2 years; 1 year in a few states such as Colorado and North Dakota.
+meta:
+  source: editorial

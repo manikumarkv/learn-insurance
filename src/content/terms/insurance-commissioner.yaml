@@ -1,0 +1,19 @@
+term: Insurance Commissioner
+contentStatus: basic
+alsoKnownAs:
+  - Superintendent
+  - Director of Insurance
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The official who heads a state's insurance regulator.
+example: The California Insurance Commissioner is elected.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - state-department-of-insurance
+usNotes: Elected in some states, appointed in most.
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Individual Mandate
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: An ACA rule requiring most people to have health coverage; the federal penalty was reduced to $0 from 2019.
+example: No federal tax penalty for being uninsured since 2019.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - affordable-care-act
+  - adverse-selection
+usNotes: California, Massachusetts, New Jersey, Rhode Island and D.C. have their own mandates with penalties.
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Notice of Loss
+contentStatus: basic
+alsoKnownAs:
+  - Notice of Claim
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Telling the insurer that a loss or claim has happened.
+example: Calling your insurer the day after a car accident.
+whereYoullSeeIt:
+  - Claim documents
+  - Policy document
+relatedTerms:
+  - first-notice-of-loss
+  - duties-after-loss
+meta:
+  source: editorial

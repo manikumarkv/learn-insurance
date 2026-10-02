@@ -1,0 +1,17 @@
+term: Network Adequacy
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Rules requiring health plans to have enough providers so members can get care without long travel or waits.
+example: A plan must have a pediatrician within 30 miles.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - provider-network
+usNotes: Standards set by states and CMS for marketplace plans.
+meta:
+  source: editorial

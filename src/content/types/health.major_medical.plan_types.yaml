@@ -1,0 +1,6 @@
+name: Network Plan Types
+parent: health.major_medical
+alsoKnownAs: Managed care plans
+description: Plan designs that control cost through provider networks and rules on referrals.
+example: An employee chooses between an HMO and a PPO during open enrollment.
+segment: Both

@@ -1,0 +1,15 @@
+term: FDIC Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+  - social
+usageFrequency: Low
+difficulty: Beginner
+definition: Federal insurance protecting bank deposits up to $250,000 per depositor, per bank, per ownership category.
+example: Your savings are protected when a bank fails.
+whereYoullSeeIt: []
+relatedTerms: []
+meta:
+  source: editorial

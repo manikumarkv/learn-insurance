@@ -1,0 +1,19 @@
+term: Contingent Commission
+contentStatus: basic
+alsoKnownAs:
+  - Profit Commission
+  - Bonus Commission
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Extra commission paid to an agent based on the profitability or volume of the business they place.
+example: An agency earns a bonus because its loss ratio was below 50%.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - commission
+usNotes: Some states require disclosure of contingent commissions.
+meta:
+  source: editorial

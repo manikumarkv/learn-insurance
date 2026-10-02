@@ -1,0 +1,21 @@
+term: Pre-Existing Condition
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+  - specialty
+usageFrequency: High
+difficulty: Beginner
+definition: A health problem you had before your coverage started.
+example: Asthma diagnosed before buying a policy.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - affordable-care-act
+  - medical-underwriting
+usNotes: The ACA bans excluding pre-existing conditions in major medical plans; other products like travel or short-term plans may still exclude them.
+meta:
+  source: editorial

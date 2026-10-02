@@ -1,0 +1,7 @@
+name: Lawyers Professional Liability (LPL)
+parent: specialty.professional_liability
+alsoKnownAs: Legal malpractice
+description: Covers lawyers against claims of negligent legal work.
+example: A lawyer misses a filing deadline and the client sues.
+segment: Commercial
+usNotes: Only Oregon (through the Oregon State Bar PLF, since 1978) and Idaho (since 2018) require private-practice lawyers to carry it. About half the states require lawyers to disclose whether they carry it, either to clients or on bar registration forms.

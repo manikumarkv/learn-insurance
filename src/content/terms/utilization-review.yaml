@@ -1,0 +1,19 @@
+term: Utilization Review
+contentStatus: basic
+abbreviation: UR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The plan's review of whether care is medically necessary and appropriate.
+example: A nurse reviews whether a hospital stay should continue.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - prior-authorization
+  - medical-necessity
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Telematics
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Technology that collects driving data like speed, braking and mileage from devices or phones.
+example: A fleet uses telematics to monitor drivers.
+whereYoullSeeIt: []
+relatedTerms:
+  - usage-based-insurance
+meta:
+  source: editorial

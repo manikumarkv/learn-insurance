@@ -1,0 +1,6 @@
+name: Assigned Risk / Residual Market
+parent: casualty.workers_comp
+description: A pool that provides workers' comp to employers that can't get it in the voluntary market.
+example: A new roofing firm with no history is placed in the assigned risk plan.
+segment: Commercial
+usNotes: Administered by NCCI in many states.

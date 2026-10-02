@@ -1,0 +1,18 @@
+term: Convertible Term
+contentStatus: basic
+alsoKnownAs:
+  - Conversion Privilege
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A term policy that lets you switch to permanent insurance without new medical exams.
+example: You convert your term policy to whole life after a cancer diagnosis.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - term-life-insurance
+  - permanent-life-insurance
+meta:
+  source: editorial

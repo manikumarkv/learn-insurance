@@ -1,0 +1,5 @@
+name: Signs Coverage
+parent: marine.inland_marine
+description: Covers outdoor signs against damage.
+example: A storm destroys a restaurant's roadside sign.
+segment: Commercial

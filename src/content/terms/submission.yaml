@@ -1,0 +1,24 @@
+term: Submission
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: The package of information a broker sends an insurer to request a commercial quote.
+example: A broker submits applications, loss runs and financials for a manufacturer.
+whereYoullSeeIt:
+  - Agent/broker communications
+  - Underwriting system
+relatedTerms:
+  - quote
+  - loss-run
+  - application
+  - clearance
+meta:
+  source: editorial

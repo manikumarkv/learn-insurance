@@ -1,0 +1,18 @@
+term: Monopolistic State Fund
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - commercial
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: A state-run workers' comp insurer that is the only allowed source of WC coverage in that state.
+example: Ohio employers must buy WC from the Ohio BWC.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - workers-compensation-insurance
+  - state-fund
+meta:
+  source: editorial

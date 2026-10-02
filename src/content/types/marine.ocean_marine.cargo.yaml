@@ -1,0 +1,7 @@
+name: Ocean Cargo
+parent: marine.ocean_marine
+alsoKnownAs: Marine cargo; Transit insurance
+description: Covers goods shipped by sea (and connecting land or air legs) against loss or damage.
+example: Electronics damaged by seawater in transit are paid for.
+segment: Commercial
+usNotes: Carrier liability under COGSA is limited to $500 per package, so shippers buy cargo insurance.

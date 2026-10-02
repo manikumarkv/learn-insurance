@@ -1,0 +1,19 @@
+term: Primary Care Physician
+contentStatus: basic
+abbreviation: PCP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Your main doctor who provides basic care and, in many plans, coordinates referrals.
+example: You choose a family doctor as your PCP.
+whereYoullSeeIt:
+  - Insurance ID card
+relatedTerms:
+  - health-maintenance-organization
+  - referral-health
+meta:
+  source: editorial

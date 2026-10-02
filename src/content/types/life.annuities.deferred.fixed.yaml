@@ -1,0 +1,6 @@
+name: Fixed Annuity
+parent: life.annuities.deferred
+alsoKnownAs: Multi-Year Guaranteed Annuity (MYGA)
+description: Earns a guaranteed fixed interest rate for a set period.
+example: A cautious saver locks in a 5% rate for 5 years.
+segment: Personal

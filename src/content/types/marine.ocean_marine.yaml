@@ -1,0 +1,6 @@
+name: Ocean Marine
+parent: marine
+description: Covers vessels, cargo and liabilities connected with shipping by water.
+example: A shipping line insures its vessels and the cargo they carry.
+segment: Commercial
+usNotes: Governed by federal admiralty (maritime) law as well as state insurance rules.

@@ -1,0 +1,20 @@
+term: Know Your Customer
+contentStatus: basic
+abbreviation: KYC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Checks to verify the identity of customers, used to prevent money laundering and fraud.
+example: An insurer verifies ID before issuing a large annuity.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - anti-money-laundering
+  - office-of-foreign-assets-control
+meta:
+  source: editorial

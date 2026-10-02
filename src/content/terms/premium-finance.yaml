@@ -1,0 +1,18 @@
+term: Premium Finance
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A loan from a finance company to pay an insurance premium, repaid in installments.
+example: A contractor finances a $60,000 premium over 10 months.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - installment-plan
+usNotes: Premium finance companies are licensed by states.
+meta:
+  source: editorial

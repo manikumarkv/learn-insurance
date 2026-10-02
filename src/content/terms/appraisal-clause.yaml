@@ -1,0 +1,20 @@
+term: Appraisal Clause
+contentStatus: basic
+alsoKnownAs:
+  - Appraisal
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A process for settling disagreements about the amount of a loss, using independent appraisers and an umpire.
+example: You and the insurer disagree on the roof repair cost, so each hires an appraiser.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - umpire
+  - dispute-resolution
+  - claim-settlement
+meta:
+  source: editorial

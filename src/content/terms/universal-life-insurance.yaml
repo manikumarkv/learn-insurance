@@ -1,0 +1,20 @@
+term: Universal Life Insurance
+contentStatus: basic
+abbreviation: UL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Permanent life insurance with flexible premiums and death benefit, where cash value earns interest set by the insurer.
+example: You pay less in a tight year as long as cash value covers costs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - permanent-life-insurance
+  - cost-of-insurance
+  - indexed-universal-life
+meta:
+  source: editorial

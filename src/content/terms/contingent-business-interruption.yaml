@@ -1,0 +1,20 @@
+term: Contingent Business Interruption
+contentStatus: basic
+abbreviation: CBI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Dependent Properties
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Covers lost income caused by damage at a key supplier's or customer's property.
+example: Your main supplier's factory burns and you can't produce.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - business-interruption-insurance
+meta:
+  source: editorial

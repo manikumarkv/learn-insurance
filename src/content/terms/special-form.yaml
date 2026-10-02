@@ -1,0 +1,20 @@
+term: Special Form
+contentStatus: basic
+alsoKnownAs:
+  - Special Causes of Loss
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A property coverage form that covers all risks of direct physical loss except those excluded.
+example: Most commercial buildings are insured on special form.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - open-perils
+  - broad-form
+  - basic-form
+meta:
+  source: editorial

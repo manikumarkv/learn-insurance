@@ -1,0 +1,20 @@
+term: Combined Single Limit
+contentStatus: basic
+abbreviation: CSL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: One limit covering bodily injury and property damage together per accident.
+example: A $500,000 CSL for all liability from one crash.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - split-limits
+  - limit-of-liability
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Combined Ratio
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Loss ratio plus expense ratio. Under 100% means an underwriting profit; over 100% means an underwriting loss.
+example: A 60% loss ratio plus 35% expense ratio equals 95%.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-ratio
+  - expense-ratio
+  - underwriting-profit
+meta:
+  source: editorial

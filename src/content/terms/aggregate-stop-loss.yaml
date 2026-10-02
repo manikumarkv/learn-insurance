@@ -1,0 +1,17 @@
+term: Aggregate Stop-Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Stop-loss that pays when the total claims for the whole group exceed a set amount.
+example: Pays when total claims exceed 125% of expected.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - stop-loss-insurance
+  - specific-stop-loss
+meta:
+  source: editorial

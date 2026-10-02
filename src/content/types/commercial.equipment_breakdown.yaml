@@ -1,0 +1,7 @@
+name: Equipment Breakdown
+parent: commercial
+alsoKnownAs: Boiler & machinery
+description: Covers sudden mechanical or electrical breakdown of equipment like boilers, HVAC and computers, which property policies exclude.
+example: A restaurant's walk-in cooler compressor burns out.
+segment: Commercial
+usNotes: Many states require boiler inspections, often performed by the equipment breakdown insurer.

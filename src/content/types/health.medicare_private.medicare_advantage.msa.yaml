@@ -1,0 +1,6 @@
+name: Medicare Medical Savings Account (MSA)
+parent: health.medicare_private.medicare_advantage
+description: A high-deductible Medicare Advantage plan paired with a savings account funded by Medicare.
+example: A healthy retiree uses the deposit toward costs before the deductible.
+segment: Personal
+usNotes: Limited availability.

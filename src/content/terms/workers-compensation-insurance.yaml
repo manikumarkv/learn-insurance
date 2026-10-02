@@ -1,0 +1,25 @@
+term: Workers' Compensation Insurance
+contentStatus: basic
+abbreviation: WC
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Workers' Comp
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+  - social
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance that pays medical care and lost wages for employees injured on the job, regardless of fault, in exchange for limiting lawsuits.
+example: An employee injured lifting boxes gets medical care and wage replacement.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - employers-liability
+  - exclusive-remedy
+  - experience-modification-factor
+  - class-code
+usNotes: Required by state law (Texas lets employers opt out); North Dakota, Ohio, Washington and Wyoming have monopolistic state funds.
+meta:
+  source: editorial

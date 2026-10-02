@@ -1,0 +1,17 @@
+term: Short-Tail Line
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A line where claims are reported and settled quickly, like property and auto physical damage.
+example: Hail claims are usually closed within months.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - long-tail
+meta:
+  source: editorial

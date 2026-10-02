@@ -1,0 +1,21 @@
+term: Class Code
+contentStatus: basic
+alsoKnownAs:
+  - Classification Code
+category: Underwriting
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A code describing a business's type of work, used to set rates for workers' comp and GL.
+example: Class 8810 (clerical) has a much lower rate than roofing.
+whereYoullSeeIt:
+  - Rating engine
+  - Declarations page
+relatedTerms:
+  - national-council-on-compensation-insurance
+  - workers-compensation-insurance
+  - north-american-industry-classification-system-code
+meta:
+  source: editorial

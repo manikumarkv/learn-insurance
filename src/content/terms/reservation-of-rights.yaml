@@ -1,0 +1,22 @@
+term: Reservation of Rights
+contentStatus: basic
+abbreviation: ROR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A letter from the insurer saying it will handle a claim for now but may later deny coverage.
+example: The insurer defends a lawsuit but reserves its right to deny if the act was intentional.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - duty-to-defend
+  - declination
+usNotes: Some states let insureds choose independent counsel (e.g., California 'Cumis counsel') when there is an ROR.
+meta:
+  source: editorial

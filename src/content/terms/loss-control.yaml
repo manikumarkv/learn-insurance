@@ -1,0 +1,21 @@
+term: Loss Control
+contentStatus: basic
+alsoKnownAs:
+  - Risk Engineering
+  - Loss Prevention
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Services and actions to reduce the frequency or severity of losses.
+example: A loss control engineer recommends machine guards at a factory.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - inspection
+  - risk-management
+meta:
+  source: editorial

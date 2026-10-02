@@ -1,0 +1,19 @@
+term: Geocoding
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Converting an address into latitude and longitude for risk and pricing analysis.
+example: A home is geocoded to measure distance to the coast.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - territory
+  - catastrophe-model
+meta:
+  source: editorial

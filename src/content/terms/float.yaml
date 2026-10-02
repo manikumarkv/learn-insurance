@@ -1,0 +1,16 @@
+term: Float
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Money an insurer holds between collecting premiums and paying claims, which it can invest.
+example: Long-tail liability lines generate large float.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - investment-income
+meta:
+  source: editorial

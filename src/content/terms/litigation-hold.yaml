@@ -1,0 +1,17 @@
+term: Litigation Hold
+contentStatus: basic
+alsoKnownAs:
+  - Legal Hold
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An order to keep all records related to a claim or lawsuit and not delete them.
+example: The IT team preserves emails for a pending bad faith suit.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - litigation
+meta:
+  source: editorial

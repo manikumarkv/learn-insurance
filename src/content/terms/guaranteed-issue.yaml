@@ -1,0 +1,19 @@
+term: Guaranteed Issue
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage that must be offered regardless of health.
+example: A guaranteed issue final expense policy with a two-year graded benefit.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - simplified-issue
+  - graded-death-benefit
+usNotes: The ACA made major medical guaranteed issue; Medigap has guaranteed issue rights in certain situations.
+meta:
+  source: editorial

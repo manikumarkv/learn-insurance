@@ -1,0 +1,22 @@
+term: Institute Cargo Clauses
+contentStatus: basic
+abbreviation: ICC
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - ICC (A)
+  - ICC (B)
+  - ICC (C)
+category: Policy Wording
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: "Standard London-market cargo wordings: (A) broadest all-risks, (B) and (C) named perils."
+example: A shipper buys ICC (A) cover.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cargo-insurance
+usNotes: Widely used in US cargo placements; American Institute forms also exist.
+meta:
+  source: editorial

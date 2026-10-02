@@ -1,0 +1,17 @@
+term: Policy Anniversary
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The yearly date on which the policy began, when many values and premiums change.
+example: Your universal life cost of insurance updates on each policy anniversary.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - effective-date
+meta:
+  source: editorial

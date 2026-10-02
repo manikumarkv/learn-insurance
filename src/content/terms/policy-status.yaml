@@ -1,0 +1,17 @@
+term: Policy Status
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The current state of a policy in the system, such as quoted, bound, in force, cancelled, lapsed or expired.
+example: A policy moves from 'bound' to 'in force' on its effective date.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - policy-administration-system
+  - in-force
+meta:
+  source: editorial

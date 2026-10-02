@@ -1,0 +1,16 @@
+term: Value-Based Care
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Payment models that reward providers for quality and outcomes rather than volume.
+example: A provider earns bonuses for reducing hospital readmissions.
+whereYoullSeeIt: []
+relatedTerms:
+  - fee-for-service
+  - capitation
+meta:
+  source: editorial

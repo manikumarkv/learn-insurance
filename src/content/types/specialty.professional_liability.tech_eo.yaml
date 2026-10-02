@@ -1,0 +1,6 @@
+name: Technology E&O
+parent: specialty.professional_liability
+alsoKnownAs: Tech professional liability
+description: Covers IT and software companies when their product or service fails and causes a client financial loss. Often combined with cyber.
+example: A software bug causes a client's billing system to fail.
+segment: Commercial

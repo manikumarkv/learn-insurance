@@ -1,0 +1,18 @@
+term: Non-Renewal
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The insurer's decision not to continue a policy when it expires.
+example: An insurer non-renews homes in a wildfire zone.
+whereYoullSeeIt:
+  - Renewal notice
+relatedTerms:
+  - renewal
+  - cancellation
+usNotes: States set minimum notice periods (often 30–60 days, but longer for some lines, e.g., Florida requires 120 days for residential property) and sometimes restrict reasons.
+meta:
+  source: editorial

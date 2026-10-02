@@ -1,0 +1,5 @@
+name: ATV / Off-Road Vehicle
+parent: auto.recreational_vehicles
+description: Covers ATVs, UTVs and dirt bikes.
+example: An ATV rolls over on a trail and repairs are paid.
+segment: Personal

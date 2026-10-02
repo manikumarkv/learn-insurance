@@ -1,0 +1,6 @@
+name: Weather Promotion Insurance
+parent: specialty.weather
+alsoKnownAs: Promotional weather insurance; Rain-back promotion
+description: Pays a retailer back for refunds it promised customers if a named weather event happens on a set date.
+example: A jeweler promises full refunds if it snows 3 inches on New Year's Day; it snows and the insurer pays the refunds.
+segment: Commercial

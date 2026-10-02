@@ -1,0 +1,5 @@
+name: Micro Farm Policy
+parent: agriculture.federal_crop
+description: A simplified whole-farm policy for small farms with up to $350,000 in revenue.
+example: A small market-garden farm buys Micro Farm cover.
+segment: Commercial

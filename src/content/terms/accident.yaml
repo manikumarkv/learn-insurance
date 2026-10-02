@@ -1,0 +1,17 @@
+term: Accident
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A sudden, unexpected and unintended event that causes injury or damage.
+example: Slipping on ice and breaking an arm is an accident.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - occurrence
+  - accidental-death-and-dismemberment
+meta:
+  source: editorial

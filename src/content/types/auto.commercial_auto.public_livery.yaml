@@ -1,0 +1,7 @@
+name: Public Auto / Livery
+parent: auto.commercial_auto
+alsoKnownAs: Taxi and limo insurance
+description: Covers taxis, limos, buses and other vehicles carrying paying passengers.
+example: A limousine company insures its fleet with higher limits.
+segment: Commercial
+usNotes: Required limits often set by city or state regulators.

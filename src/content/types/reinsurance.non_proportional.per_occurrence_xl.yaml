@@ -1,0 +1,6 @@
+name: Casualty Clash / Per Occurrence XL
+parent: reinsurance.non_proportional
+alsoKnownAs: Clash cover
+description: Pays when one event triggers claims under several casualty policies.
+example: A bus crash triggers auto, GL and workers' comp claims at once.
+segment: Commercial

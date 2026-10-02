@@ -1,0 +1,17 @@
+term: Preventive Care
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Routine care like screenings, checkups and vaccines to prevent illness, often covered at no cost.
+example: A free annual flu shot and mammogram.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - essential-health-benefits
+usNotes: The ACA requires in-network preventive services with no cost sharing.
+meta:
+  source: editorial

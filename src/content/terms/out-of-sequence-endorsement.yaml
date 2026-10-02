@@ -1,0 +1,19 @@
+term: Out-of-Sequence Endorsement
+contentStatus: basic
+abbreviation: OOSE
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A policy change with an effective date earlier than a change already processed, which forces the system to recalculate later changes.
+example: A backdated vehicle addition entered after a later address change.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - mid-term-adjustment
+  - policy-administration-system
+meta:
+  source: editorial

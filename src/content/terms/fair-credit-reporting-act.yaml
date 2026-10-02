@@ -1,0 +1,20 @@
+term: Fair Credit Reporting Act
+contentStatus: basic
+abbreviation: FCRA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A federal law governing consumer reports like credit, CLUE and MIB, including notice when they cause adverse action.
+example: You get an adverse action notice after a credit-based higher premium.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - adverse-action-notice
+  - credit-based-insurance-score
+  - comprehensive-loss-underwriting-exchange-report
+meta:
+  source: editorial

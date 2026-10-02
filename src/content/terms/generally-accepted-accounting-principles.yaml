@@ -1,0 +1,19 @@
+term: Generally Accepted Accounting Principles
+contentStatus: basic
+abbreviation: GAAP
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: Standard US accounting rules used for financial reports to investors.
+example: Public insurers report GAAP earnings to the SEC.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - statutory-accounting-principles
+  - deferred-acquisition-costs
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Community Rating
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Charging everyone in an area the same base premium, regardless of health; ACA allows adjustments only for age, location, tobacco and family size.
+example: Two 40-year-olds in the same area pay the same regardless of health.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - medical-underwriting
+  - attained-age
+meta:
+  source: editorial

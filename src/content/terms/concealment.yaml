@@ -1,0 +1,19 @@
+term: Concealment
+contentStatus: basic
+alsoKnownAs:
+  - Non-Disclosure
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Deliberately hiding a material fact from the insurer.
+example: Not mentioning a prior home fire when asked about past losses.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - misrepresentation
+  - material-fact
+  - utmost-good-faith
+meta:
+  source: editorial

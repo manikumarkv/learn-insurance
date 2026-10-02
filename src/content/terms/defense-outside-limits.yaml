@@ -1,0 +1,19 @@
+term: Defense Outside Limits
+contentStatus: basic
+alsoKnownAs:
+  - Defense in Addition to Limits
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Defense costs are paid in addition to the policy limit.
+example: A CGL policy pays defense costs on top of the $1M limit.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - defense-within-limits
+  - supplementary-payments
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Surety Bonds
+parent: financial
+description: "A three-party guarantee: the surety promises the obligee (e.g. a project owner or government) that the principal (e.g. a contractor) will fulfil an obligation. Unlike insurance, the surety expects to be repaid by the principal for any loss."
+example: A builder's bond pays to finish a school when the builder goes bust.
+segment: Commercial
+usNotes: Federal construction projects over $150,000 require performance and payment bonds under the Miller Act; states have "Little Miller Acts".

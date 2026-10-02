@@ -1,0 +1,5 @@
+name: Dairy Revenue Protection (DRP)
+parent: agriculture.livestock
+description: Federal cover against unexpected falls in the value of milk production.
+example: A dairy farm is paid when milk prices drop.
+segment: Commercial

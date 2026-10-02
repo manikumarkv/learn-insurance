@@ -1,0 +1,17 @@
+term: Reinstatement Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Premium paid to restore a reinsurance limit after it has been used by a loss.
+example: After a hurricane uses the limit, the insurer pays to reinstate it for a second event.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - excess-of-loss
+  - catastrophe-excess-of-loss
+meta:
+  source: editorial

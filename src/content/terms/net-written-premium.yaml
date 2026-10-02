@@ -1,0 +1,19 @@
+term: Net Written Premium
+contentStatus: basic
+abbreviation: NWP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: Written premium after subtracting premium paid to reinsurers.
+example: $50M gross minus $10M ceded equals $40M net written.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - written-premium
+  - ceded-premium
+meta:
+  source: editorial

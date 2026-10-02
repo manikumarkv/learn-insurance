@@ -1,0 +1,18 @@
+term: General Damages
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Damages for harm that has no exact price, like pain, suffering and loss of enjoyment of life.
+example: A crash victim receives $30,000 for pain and suffering.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - special-damages
+  - compensatory-damages
+meta:
+  source: editorial

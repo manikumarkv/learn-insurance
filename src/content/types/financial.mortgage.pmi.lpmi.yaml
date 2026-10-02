@@ -1,0 +1,6 @@
+name: Lender-Paid Mortgage Insurance (LPMI)
+parent: financial.mortgage.pmi
+description: The lender pays for PMI in exchange for a higher interest rate.
+example: A buyer accepts a slightly higher rate to avoid a separate PMI bill.
+segment: Personal
+usNotes: Cannot be cancelled since it's built into the rate.

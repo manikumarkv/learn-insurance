@@ -1,0 +1,18 @@
+term: SR-22
+contentStatus: basic
+alsoKnownAs:
+  - Certificate of Financial Responsibility
+category: Regulation
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A form your insurer files with the state proving you carry required auto insurance, often after a DUI or serious violations.
+example: After a DUI, you need an SR-22 for three years.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - financial-responsibility-law
+usNotes: Florida and Virginia also use FR-44 for DUIs with higher limits.
+meta:
+  source: editorial

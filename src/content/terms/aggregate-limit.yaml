@@ -1,0 +1,23 @@
+term: Aggregate Limit
+contentStatus: basic
+alsoKnownAs:
+  - General Aggregate
+category: Core Concept
+lines:
+  - casualty
+  - commercial
+  - specialty
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: The most the insurer will pay for all claims combined during one policy period.
+example: A business has a $2M aggregate; after paying $2M in claims this year, no more claims are paid until renewal.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - limit-of-liability
+  - per-occurrence-limit
+  - products-completed-operations-aggregate
+meta:
+  source: editorial

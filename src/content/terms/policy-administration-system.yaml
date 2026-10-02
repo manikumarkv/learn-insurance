@@ -1,0 +1,22 @@
+term: Policy Administration System
+contentStatus: basic
+abbreviation: PAS
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Policy Admin System
+category: Technology
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: The core software an insurer uses to manage policies through quoting, issuing, changes, renewals and cancellations.
+example: Guidewire PolicyCenter or Duck Creek Policy used as PAS.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - rating-engine
+  - billing-system
+  - claims-management-system
+  - product-configurator
+meta:
+  source: editorial

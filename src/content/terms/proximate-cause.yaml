@@ -1,0 +1,21 @@
+term: Proximate Cause
+contentStatus: basic
+alsoKnownAs:
+  - Dominant Cause
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The main or most direct cause of a loss, used to decide whether the loss is covered.
+example: A storm knocks down a power line that starts a fire; the storm may be treated as the proximate cause.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - peril
+  - exclusion
+  - concurrent-causation
+  - anti-concurrent-causation-clause
+meta:
+  source: editorial

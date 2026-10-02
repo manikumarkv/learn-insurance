@@ -1,0 +1,5 @@
+name: Waiver of Premium Rider
+parent: life.life_riders
+description: Stops premiums being due if the policyholder becomes totally disabled, keeping the cover in force.
+example: After a disabling stroke, the insured's policy stays active without further payments.
+segment: Personal

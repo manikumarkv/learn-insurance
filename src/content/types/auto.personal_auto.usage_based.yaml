@@ -1,0 +1,7 @@
+name: Usage-Based Insurance (UBI)
+parent: auto.personal_auto
+alsoKnownAs: Telematics; Pay-per-mile
+description: Premiums based on how much or how well you drive, measured by an app or plug-in device.
+example: A careful driver uses an insurer app to earn a discount.
+segment: Personal
+usNotes: "Examples: Progressive Snapshot, State Farm Drive Safe & Save, Allstate Milewise (pay-per-mile)."

@@ -1,0 +1,18 @@
+term: Mutual Insurance Company
+contentStatus: basic
+alsoKnownAs:
+  - Mutual
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer owned by its policyholders rather than shareholders.
+example: State Farm and Northwestern Mutual are mutuals.
+whereYoullSeeIt: []
+relatedTerms:
+  - stock-insurance-company
+  - dividend
+  - reciprocal-exchange
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Exposure
+contentStatus: basic
+alsoKnownAs:
+  - Exposure Unit
+category: Underwriting
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: The thing or measure the insurer uses to gauge how much risk it is taking on, such as number of cars, payroll or square footage.
+example: A workers' comp premium is based on payroll per $100 as the exposure.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - rate
+  - rating-basis
+  - premium
+meta:
+  source: editorial

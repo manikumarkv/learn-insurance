@@ -1,0 +1,19 @@
+term: Compulsory Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Mandatory Insurance
+category: Regulation
+lines:
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Beginner
+definition: Insurance required by law, such as auto liability or workers' compensation.
+example: Your state requires 25/50/25 auto liability.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - financial-responsibility-law
+  - workers-compensation-insurance
+meta:
+  source: editorial

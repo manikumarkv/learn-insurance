@@ -1,0 +1,18 @@
+term: Prior Approval
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A rating system where the regulator must approve rates before they can be used.
+example: California requires prior approval for home insurance rates.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - file-and-use
+  - use-and-file
+  - rate-filing
+meta:
+  source: editorial

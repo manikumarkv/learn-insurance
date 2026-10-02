@@ -28,6 +28,7 @@ pnpm typecheck    # astro check
 pnpm test         # Vitest unit tests
 pnpm test:e2e     # Playwright (builds and serves the site)
 pnpm validate:content   # check src/content against the term schema
+pnpm import:content     # (re)create basic terms and types from data/*.csv; never overwrites full terms
 pnpm build
 ```
 

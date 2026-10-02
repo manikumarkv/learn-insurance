@@ -1,0 +1,17 @@
+term: Risk Rating 2.0
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: FEMA's pricing method for NFIP policies, introduced in 2021, that bases premiums on each property's individual flood risk.
+example: Two neighbors pay different NFIP premiums based on distance to water.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - national-flood-insurance-program
+meta:
+  source: editorial

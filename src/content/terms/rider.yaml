@@ -1,0 +1,20 @@
+term: Rider
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: An add-on to a life or health policy that changes or adds benefits, usually for extra premium.
+example: A waiver-of-premium rider on a life policy.
+whereYoullSeeIt:
+  - Policy document
+  - Application form
+relatedTerms:
+  - endorsement
+  - accelerated-death-benefit-rider
+  - waiver-of-premium-rider
+meta:
+  source: editorial

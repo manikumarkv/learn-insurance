@@ -1,0 +1,20 @@
+term: Policy Dividend
+contentStatus: basic
+alsoKnownAs:
+  - Dividend
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A return of part of the premium paid to owners of participating policies when the insurer does well. It is not guaranteed.
+example: A $600 dividend used to buy paid-up additions.
+whereYoullSeeIt:
+  - Policy document
+  - Billing statement
+relatedTerms:
+  - participating-policy
+  - paid-up-additions
+  - mutual-insurance-company
+meta:
+  source: editorial

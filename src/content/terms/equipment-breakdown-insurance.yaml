@@ -1,0 +1,19 @@
+term: Equipment Breakdown Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Boiler and Machinery
+category: Line-Specific
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers sudden breakdown of equipment like boilers, HVAC, electrical systems and machinery.
+example: A factory's compressor motor burns out.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-property-insurance
+usNotes: Boiler inspections are required by many states.
+meta:
+  source: editorial

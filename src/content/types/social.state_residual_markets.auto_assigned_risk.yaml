@@ -1,0 +1,7 @@
+name: Automobile Insurance Plans
+parent: social.state_residual_markets
+alsoKnownAs: Assigned risk
+description: Assign high-risk drivers who can't get auto cover to insurers in the state.
+example: A driver with multiple DUIs gets cover through the state plan.
+segment: Personal
+usNotes: Administered by AIPSO in most states.

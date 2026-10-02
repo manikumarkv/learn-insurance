@@ -1,0 +1,15 @@
+term: Viatical Settlement
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: Selling the life policy of a terminally or chronically ill person to a third party.
+example: A terminally ill person sells their policy for 70% of face.
+whereYoullSeeIt: []
+relatedTerms:
+  - life-settlement
+meta:
+  source: editorial

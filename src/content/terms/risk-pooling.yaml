@@ -1,0 +1,17 @@
+term: Risk Pooling
+contentStatus: basic
+alsoKnownAs:
+  - Pooling
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Beginner
+definition: Combining many people's premiums so that the losses of a few are paid from the money of many.
+example: Thousands of homeowners pay premiums into a pool that pays for the few homes that burn.
+whereYoullSeeIt: []
+relatedTerms:
+  - insurance
+  - law-of-large-numbers
+meta:
+  source: editorial

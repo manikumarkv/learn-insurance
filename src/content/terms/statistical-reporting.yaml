@@ -1,0 +1,19 @@
+term: Statistical Reporting
+contentStatus: basic
+alsoKnownAs:
+  - Stat Reporting
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Sending detailed premium and loss data to statistical agents like ISO or NCCI as required by states.
+example: Monthly data sent to ISO under its statistical plan.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insurance-services-office
+  - national-council-on-compensation-insurance
+  - statistical-plan
+meta:
+  source: editorial

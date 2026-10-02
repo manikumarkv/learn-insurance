@@ -1,0 +1,18 @@
+term: Ceded Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The premium an insurer pays to its reinsurers.
+example: $10M ceded to reinsurers this year.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - cession
+  - net-written-premium
+  - assumed-premium
+meta:
+  source: editorial

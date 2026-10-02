@@ -1,0 +1,21 @@
+term: Motor Vehicle Report
+contentStatus: basic
+abbreviation: MVR
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Driving Record
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A state record of a person's driving history, including violations, accidents and suspensions.
+example: An MVR shows two speeding tickets in three years.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - driving-record-points
+  - underwriting
+usNotes: Obtained from each state DMV; retention periods vary.
+meta:
+  source: editorial

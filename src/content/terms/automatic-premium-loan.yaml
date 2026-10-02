@@ -1,0 +1,19 @@
+term: Automatic Premium Loan
+contentStatus: basic
+abbreviation: APL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A feature that automatically borrows from cash value to pay a missed premium to prevent lapse.
+example: A missed payment is covered by an APL.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - policy-loan
+  - nonforfeiture-options
+meta:
+  source: editorial

@@ -1,0 +1,7 @@
+name: Hull & Machinery (H&M)
+parent: marine.ocean_marine
+alsoKnownAs: Hull insurance
+description: Covers physical damage to the ship itself and its machinery.
+example: A tanker's hull is repaired after a grounding.
+segment: Commercial
+usNotes: Often written on American Institute Hull Clauses.

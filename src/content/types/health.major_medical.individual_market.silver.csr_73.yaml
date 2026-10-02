@@ -1,0 +1,7 @@
+name: Silver 73% CSR Variant
+parent: health.major_medical.individual_market.silver
+alsoKnownAs: Enhanced silver 73
+description: A silver plan version with lower deductibles and copays (about 73% actuarial value) for enrollees with incomes of 200-250% of the federal poverty level.
+example: A household at 220% of poverty gets a lower deductible automatically.
+segment: Personal
+usNotes: Cost-sharing reductions are available only on-exchange with a silver plan.

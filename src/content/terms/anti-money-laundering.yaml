@@ -1,0 +1,20 @@
+term: Anti-Money Laundering
+contentStatus: basic
+abbreviation: AML
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Rules requiring insurers selling certain life and annuity products to detect and report money laundering.
+example: A large single premium paid in cash triggers review.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - know-your-customer
+  - office-of-foreign-assets-control
+usNotes: Covered life insurers have AML program obligations under the Bank Secrecy Act.
+meta:
+  source: editorial

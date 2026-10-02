@@ -1,0 +1,19 @@
+term: Premium Tax
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A state tax on insurance premiums written in that state, paid by the insurer.
+example: A 2% premium tax on all policies sold in a state.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - surplus-lines
+  - state-department-of-insurance
+usNotes: Rates generally range around 1–4% and differ by state and line.
+meta:
+  source: editorial

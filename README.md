@@ -33,7 +33,7 @@ First time running browser tests: `pnpm exec playwright install chromium`. To us
 Terms, insurance types, learning paths and the About, Privacy, Terms of use and Disclaimer pages are files in `src/content/`, edited with Keystatic.
 
 - Run `pnpm dev` and open http://localhost:4321/keystatic. Saving writes the file; commit it like code.
-- The editor is only on the dev server for now. Production editing (GitHub mode) comes in story 2.5.
+- By default the editor is only on the dev server. With `KEYSTATIC_STORAGE=github` it also runs on the live site and saves edits as commits. Setup: `docs/keystatic-github-mode.md`.
 - Field rules are in `docs/content/term-schema.md`. Allowed values are shared in `src/content/schema/values.ts`.
 
 ## Design system

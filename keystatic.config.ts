@@ -324,9 +324,14 @@ const page = (label: string, path: string) =>
     },
   });
 
-// TODO(story 2.5): KEYSTATIC_STORAGE=github switches to GitHub mode for production edits.
+/** local: save to files on disk (dev). github: commit to the repo (production). See docs/keystatic-github-mode.md. */
+const storage =
+  import.meta.env.KEYSTATIC_STORAGE === 'github'
+    ? ({ kind: 'github', repo: { owner: 'manikumarkv', name: 'learn-insurance' } } as const)
+    : ({ kind: 'local' } as const);
+
 export default config({
-  storage: { kind: 'local' },
+  storage,
   ui: {
     brand: { name: 'LearnInsurance' },
     navigation: {

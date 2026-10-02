@@ -65,6 +65,12 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 - Migrations run automatically during production deploys on Vercel (`scripts/migrate.ts` in `pnpm build`). Run them by hand with `pnpm db:migrate`.
 - `src/lib/db/schema.test.ts` applies the migrations to an in-memory Postgres (PGlite), so CI tests them without a real database.
 
+## Server endpoints
+
+- Write endpoints with `route()` from `src/lib/api/route.ts`. It checks who may call (`access: 'public' | 'user'`), validates input with Zod, gives the handler the user ID and database, and returns `{ data }` or `{ error: { code, message, details? } }`.
+- Put the endpoint in its feature folder with a test next to it, and serve it from `src/pages/api/` with `export const prerender = false` (test files can't live in `src/pages/`, because every file there becomes a route).
+- Example: `/api/saved-terms` (`src/features/saved-terms/api.ts`), tested against an in-memory database.
+
 ## Search
 
 Pagefind indexes the term and type pages after `astro build` (`scripts/index-search.ts`). It indexes each page's name, abbreviation, other names and quick answer. Search only works on a built site: run `pnpm build && pnpm preview`. The dev server shows a short note instead.

@@ -1,12 +1,16 @@
 ---
 import '../styles/global.css';
+import { applyInitialTheme } from '../lib/theme';
 
 interface Props {
   title: string;
   description: string;
+  /** Keep a page out of search results (e.g. internal pages). */
+  noindex?: boolean;
 }
 
-const { title, description } = Astro.props;
+const { title, description, noindex = false } = Astro.props;
+const themeScript = `(${applyInitialTheme.toString()})()`;
 ---
 
 <!doctype html>
@@ -15,8 +19,11 @@ const { title, description } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    <!-- Set the theme before first paint, so the page never flashes the wrong colours. -->
+    <script is:inline set:html={themeScript} />
   </head>
   <body>
     <slot />

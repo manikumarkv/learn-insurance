@@ -26,6 +26,15 @@ pnpm dev          # http://localhost:4321
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 
+## Design system
+
+The UI uses **Paper Design**: ink on paper, Lato, solid ink borders, no colour, no shadows, no motion.
+
+- Tokens: `src/styles/tokens.css` (CSS variables for the four themes) and the Tailwind theme in `src/styles/global.css`. The default Tailwind colours, shadows and animations are removed, so only Paper Design values exist (`bg-paper`, `text-ink`, `text-body`, `rounded-md`, …).
+- Components: `src/components/ui/` (Button, Badge, Card, Input, Checkbox, Switch, Icon). Styles are in `src/styles/components.css` with the `pd-` prefix.
+- Themes: soft light, soft dark, high contrast light and dark. They follow the device by default, and the theme picker (`ThemeToggle`) remembers a choice on the device.
+- See every component at `/design` (not indexed by search engines).
+
 ## CI
 
 Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests and build in one job, and browser tests in another. Both must pass before merging to `main`.

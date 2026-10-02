@@ -1,0 +1,86 @@
+/*
+ * Paper Design tokens. Source: the Paper Design system (tokens.json).
+ * Two colours only (ink and paper), solid ink borders, no shadows except the focus ring, no motion.
+ * Four themes set with data-theme on <html>: light (default), dark, light-hc, dark-hc.
+ */
+
+:root,
+[data-theme='light'] {
+  --paper: #f7f6f2;
+  --paper-sunken: #eceae4;
+  --ink: #1b1a18;
+  --ink-muted: #55534e;
+  --ink-faint: #67655f;
+  --on-ink: #f7f6f2;
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --paper: #171716;
+  --paper-sunken: #232321;
+  --ink: #ebe9e3;
+  --ink-muted: #aeaba3;
+  --ink-faint: #8f8c85;
+  --on-ink: #171716;
+  color-scheme: dark;
+}
+
+[data-theme='light-hc'] {
+  --paper: #ffffff;
+  --paper-sunken: #e6e6e6;
+  --ink: #000000;
+  --ink-muted: #333333;
+  --ink-faint: #4d4d4d;
+  --on-ink: #ffffff;
+  color-scheme: light;
+}
+
+[data-theme='dark-hc'] {
+  --paper: #000000;
+  --paper-sunken: #262626;
+  --ink: #ffffff;
+  --ink-muted: #cccccc;
+  --ink-faint: #b3b3b3;
+  --on-ink: #000000;
+  color-scheme: dark;
+}
+
+/* Without JavaScript, follow the system setting. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --paper: #171716;
+    --paper-sunken: #232321;
+    --ink: #ebe9e3;
+    --ink-muted: #aeaba3;
+    --ink-faint: #8f8c85;
+    --on-ink: #171716;
+    color-scheme: dark;
+  }
+}
+
+:root {
+  /* Aliases: every edge and link is ink. */
+  --line: var(--ink);
+  --link: var(--ink);
+
+  --font-sans: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-sm: 3px;
+  --radius-md: 8px;
+  --radius-full: 9999px;
+
+  --border-thin: 1px;
+  --border: 2px;
+  --border-thick: 3px;
+
+  /* A 3px paper gap, then 2px of solid ink. Follows the theme because it uses the variables. */
+  --focus-ring: 0 0 0 3px var(--paper), 0 0 0 5px var(--ink);
+}

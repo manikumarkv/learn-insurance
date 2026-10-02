@@ -1,0 +1,242 @@
+/* Paper Design components (pd- prefix). Colours come only from tokens.css, so all four themes work. */
+
+.pd-icon {
+  display: inline-block;
+  flex: none;
+  vertical-align: middle;
+}
+
+.pd-btn {
+  font: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-width: 50px;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  box-sizing: border-box;
+  border-radius: var(--radius-md);
+  border: var(--border) solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
+}
+.pd-btn:hover {
+  background: var(--paper-sunken);
+}
+.pd-btn-primary {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+.pd-btn-primary:hover {
+  background: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.pd-btn-ghost {
+  border-color: transparent;
+}
+.pd-btn-sm {
+  min-height: 32px;
+  padding: var(--space-1) var(--space-3);
+  font-size: 15px;
+  line-height: 20px;
+}
+.pd-btn-icon {
+  width: 44px;
+  padding: 0;
+  min-width: 0;
+}
+.pd-btn-sm.pd-btn-icon {
+  width: 32px;
+}
+.pd-btn:disabled {
+  cursor: not-allowed;
+  background: var(--paper);
+  border-color: var(--ink-faint);
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+/* One focus style everywhere: links, buttons, inputs, checkboxes, switches. */
+:focus-visible {
+  outline: 2px solid transparent;
+  box-shadow: var(--focus-ring);
+}
+.pd-check input:focus-visible + .pd-box,
+.pd-switch input:focus-visible + .pd-track {
+  outline: 2px solid transparent;
+  box-shadow: var(--focus-ring);
+}
+
+.pd-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.pd-label {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.pd-hint {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--ink-muted);
+  display: flex;
+  gap: var(--space-1);
+  align-items: center;
+}
+.pd-hint-error {
+  color: var(--ink);
+  font-weight: 700;
+}
+.pd-input {
+  font: inherit;
+  font-size: 18px;
+  height: 48px;
+  padding: 0 var(--space-3);
+  box-sizing: border-box;
+  border-radius: var(--radius-md);
+  border: var(--border) solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+}
+.pd-input::placeholder {
+  color: var(--ink-faint);
+}
+.pd-input[aria-invalid='true'] {
+  border-width: var(--border-thick);
+  padding: 0 11px;
+}
+
+.pd-check,
+.pd-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+}
+.pd-check input,
+.pd-switch input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+}
+.pd-box {
+  width: 23px;
+  height: 23px;
+  box-sizing: border-box;
+  border: var(--border) solid var(--ink);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+}
+.pd-check input:checked + .pd-box {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+.pd-check input:disabled + .pd-box,
+.pd-switch input:disabled + .pd-track {
+  border-color: var(--ink-faint);
+}
+.pd-check:has(input:disabled),
+.pd-switch:has(input:disabled) {
+  color: var(--ink-faint);
+  cursor: not-allowed;
+}
+.pd-track {
+  width: 48px;
+  height: 28px;
+  box-sizing: border-box;
+  border: var(--border) solid var(--ink);
+  border-radius: var(--radius-full);
+  background: var(--paper);
+  position: relative;
+  flex: none;
+}
+.pd-track::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-full);
+  background: var(--ink);
+}
+.pd-switch input:checked + .pd-track {
+  background: var(--ink);
+}
+.pd-switch input:checked + .pd-track::after {
+  left: 23px;
+  background: var(--on-ink);
+}
+
+.pd-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-sm);
+  border: var(--border) solid var(--ink);
+  color: var(--ink);
+  background: var(--paper);
+}
+.pd-badge-solid {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+.pd-badge-muted {
+  border-color: var(--ink-muted);
+  color: var(--ink-muted);
+}
+
+.pd-card {
+  background: var(--paper);
+  border: var(--border-thick) solid var(--ink);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+.pd-card-title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0 0 var(--space-1);
+}
+.pd-card-body {
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+.pd-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+/* No motion, as on e-ink. */
+*,
+*::before,
+*::after {
+  transition: none !important;
+  animation: none !important;
+}

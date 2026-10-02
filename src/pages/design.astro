@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { ThemeToggle } from '../components/ThemeToggle';
+import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '../components/ui';
+---
+
+<BaseLayout
+  title="Design system · LearnInsurance"
+  description="Paper Design components used on LearnInsurance."
+  noindex
+>
+  <main class="mx-auto flex max-w-3xl flex-col gap-8 px-4 py-8">
+    <header class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h1 class="text-headline m-0">Paper Design</h1>
+        <p class="text-body-sm text-ink-muted m-0">
+          Ink on paper. No colour, no shadows, no motion.
+        </p>
+      </div>
+      <ThemeToggle client:only="react" />
+    </header>
+
+    <section aria-labelledby="buttons" class="flex flex-col gap-3">
+      <h2 id="buttons" class="text-title-lg m-0">
+        Buttons
+      </h2>
+      <div class="flex flex-wrap items-center gap-3">
+        <Button variant="primary">Start learning</Button>
+        <Button>Save term</Button>
+        <Button variant="ghost">Skip</Button>
+        <Button icon="search" aria-label="Search" />
+        <Button size="sm" iconRight="arrow-right">
+          Next
+        </Button>
+        <Button disabled>Disabled</Button>
+      </div>
+    </section>
+
+    <section aria-labelledby="badges" class="flex flex-col gap-3">
+      <h2 id="badges" class="text-title-lg m-0">
+        Badges
+      </h2>
+      <div class="flex flex-wrap items-center gap-2">
+        <Badge>Medium usage</Badge>
+        <Badge tone="solid" icon="check">
+          Answered
+        </Badge>
+        <Badge tone="muted">Beginner</Badge>
+        <Badge icon="info">AI-generated · AI-reviewed</Badge>
+      </div>
+    </section>
+
+    <section aria-labelledby="forms" class="flex flex-col gap-3">
+      <h2 id="forms" class="text-title-lg m-0">
+        Form controls
+      </h2>
+      <div class="flex max-w-sm flex-col gap-4">
+        <Input
+          label="Search terms"
+          placeholder="e.g. deductible"
+          hint="Try a word from your policy."
+        />
+        <Input label="Term name" defaultValue="Endorsment" error="Check the spelling." />
+        <Checkbox label="Include abbreviations" defaultChecked />
+        <Switch label="Show quick answers" defaultChecked />
+      </div>
+    </section>
+
+    <section aria-labelledby="cards" class="flex flex-col gap-3">
+      <h2 id="cards" class="text-title-lg m-0">
+        Card
+      </h2>
+      <Card title="Deductible" headingLevel={3}>
+        The amount you pay before your insurance starts paying.
+        <Fragment slot="actions">
+          <Button variant="primary">Read more</Button>
+        </Fragment>
+      </Card>
+    </section>
+
+    <section aria-labelledby="icons" class="flex flex-col gap-3">
+      <h2 id="icons" class="text-title-lg m-0">
+        Icons
+      </h2>
+      <ul class="m-0 flex list-none flex-wrap gap-4 p-0">
+        {ICON_NAMES.map((name) => (
+          <li class="text-label-sm flex w-24 flex-col items-center gap-1">
+            <Icon name={name} />
+            {name}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

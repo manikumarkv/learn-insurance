@@ -44,21 +44,20 @@ export function toHit(d: PagefindResultData): SearchHit {
   };
 }
 
+/** True when the query is the hit's name or abbreviation, e.g. "hmo" for "HMO (Health Maintenance Organization)". */
+export function isExactMatch(hit: SearchHit, query: string): boolean {
+  const q = query.trim().toLowerCase();
+  const title = hit.title.toLowerCase();
+  const inBrackets = [...title.matchAll(/\(([^)]+)\)/g)].map((m) => m[1]);
+  return [title, title.replace(/\s*\(.*\)$/, ''), ...inBrackets].includes(q);
+}
+
 /**
  * Puts exact name matches first: "deductible" → Deductible before Hurricane Deductible,
  * and "hmo" → HMO (Health Maintenance Organization). Otherwise keeps Pagefind's order.
  */
 export function rankHits(hits: SearchHit[], query: string): SearchHit[] {
-  const q = query.trim().toLowerCase();
-  const exact = (h: SearchHit) => {
-    const title = h.title.toLowerCase();
-    const names = [
-      title,
-      ...[...title.matchAll(/\(([^)]+)\)/g)].map((m) => m[1]),
-      title.replace(/\s*\(.*\)$/, ''),
-    ];
-    return names.includes(q) ? 0 : 1;
-  };
+  const exact = (h: SearchHit) => (isExactMatch(h, query) ? 0 : 1);
   return hits
     .map((h, i) => ({ h, i }))
     .sort((a, b) => exact(a.h) - exact(b.h) || a.i - b.i)

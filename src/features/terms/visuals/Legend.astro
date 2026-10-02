@@ -1,0 +1,18 @@
+---
+import { PAID_BY_LABEL } from './describe';
+
+interface Props {
+  paidBy: ('you' | 'insurer' | 'none')[];
+}
+
+const shown = [...new Set(Astro.props.paidBy)];
+---
+
+<ul class="m-0 flex list-none flex-wrap gap-x-4 gap-y-1 p-0" aria-hidden="true">
+  {shown.map((p) => (
+    <li class="text-body-sm flex items-center gap-2">
+      <span class={`pd-swatch pd-fill-${p}`} />
+      {PAID_BY_LABEL[p]}
+    </li>
+  ))}
+</ul>

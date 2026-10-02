@@ -1,0 +1,30 @@
+---
+import { FLOW_STAGES } from '../../../content/schema/values';
+
+interface Props {
+  highlight: string[];
+}
+
+const { highlight } = Astro.props;
+---
+
+<ol class="m-0 flex list-none flex-wrap items-center gap-2 p-0">
+  {FLOW_STAGES.map((stage, i) => {
+    const on = highlight.includes(stage);
+    return (
+      <li class="flex items-center gap-2">
+        {i > 0 && (
+          <span aria-hidden="true" class="text-ink-muted">
+            →
+          </span>
+        )}
+        <span
+          class:list={['pd-badge', on ? 'pd-badge-solid' : 'pd-badge-muted']}
+          aria-current={on ? 'step' : undefined}
+        >
+          {stage}
+        </span>
+      </li>
+    );
+  })}
+</ol>

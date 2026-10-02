@@ -1,0 +1,29 @@
+---
+import type { Diagram } from '../../../content/schema/term';
+import BeforeAfter from './BeforeAfter.astro';
+import { describeDiagram } from './describe';
+import FlowStrip from './FlowStrip.astro';
+import Split from './Split.astro';
+import Timeline from './Timeline.astro';
+import WhoPays from './WhoPays.astro';
+
+interface Props {
+  diagram: Diagram;
+  caption?: string;
+}
+
+const { diagram, caption } = Astro.props;
+---
+
+<!-- The drawing is hidden from screen readers; the text alternative below says the same thing. -->
+<figure class="m-0 flex flex-col gap-3" data-visual={diagram.discriminant}>
+  <div aria-hidden="true">
+    {diagram.discriminant === 'who-pays' && <WhoPays {...diagram.value} />}
+    {diagram.discriminant === 'timeline' && <Timeline {...diagram.value} />}
+    {diagram.discriminant === 'before-after' && <BeforeAfter {...diagram.value} />}
+    {diagram.discriminant === 'split' && <Split {...diagram.value} />}
+    {diagram.discriminant === 'flow' && <FlowStrip highlight={diagram.value.highlight} />}
+  </div>
+  <p class="sr-only">{describeDiagram(diagram)}</p>
+  {caption && <figcaption class="text-body-sm text-ink-muted">{caption}</figcaption>}
+</figure>

@@ -26,7 +26,7 @@ const optionalText = z.string().optional();
 
 const labelledLines = z.object({ label: text.min(1), lines: z.array(text.min(1)).min(1) });
 
-const diagram = z.discriminatedUnion('discriminant', [
+export const diagramSchema = z.discriminatedUnion('discriminant', [
   z.object({
     discriminant: z.literal('before-after'),
     value: z.object({ before: labelledLines, change: text.min(1), after: labelledLines }),
@@ -113,7 +113,7 @@ export const termBaseSchema = z.object({
         .default([]),
     })
     .optional(),
-  visual: z.object({ caption: optionalText, diagram: diagram.optional() }).optional(),
+  visual: z.object({ caption: optionalText, diagram: diagramSchema.optional() }).optional(),
   questions: z.array(question).default([]),
   faqs: z.array(z.object({ question: text.min(1), answer: text.min(1) })).default([]),
   relatedTerms: z.array(z.string()).default([]),
@@ -305,3 +305,5 @@ export function linkableTexts(t: Term): { path: Issue['path']; text: string }[] 
 }
 
 export { linkTargets };
+
+export type Diagram = z.infer<typeof diagramSchema>;

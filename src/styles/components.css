@@ -244,3 +244,24 @@
   transition: none !important;
   animation: none !important;
 }
+
+/* Diagram fills. Meaning comes from labels plus fill pattern, never colour:
+   you = solid ink, insurer = hatched, nobody = empty with a dashed edge. */
+.pd-fill-you {
+  background: var(--ink);
+}
+.pd-fill-insurer {
+  background: repeating-linear-gradient(135deg, var(--ink) 0 2px, var(--paper) 2px 8px);
+}
+.pd-fill-none {
+  background: var(--paper);
+  border-style: dashed !important;
+}
+.pd-swatch {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex: none;
+  border: var(--border) solid var(--ink);
+  border-radius: var(--radius-sm);
+}

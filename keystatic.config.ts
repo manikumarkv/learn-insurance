@@ -278,6 +278,11 @@ const types = collection({
     }),
     parent: fields.relationship({ label: 'Parent type', collection: 'types' }),
     alsoKnownAs: fields.text({ label: 'Also known as' }),
+    quickAnswer: fields.text({
+      label: 'Quick answer',
+      description: '40–60 words. Optional: the page uses the description when empty.',
+      multiline: true,
+    }),
     description: fields.text({ label: 'Plain-English description', multiline: true }),
     example: fields.text({ label: 'Example', multiline: true }),
     segment: fields.select({
@@ -286,6 +291,13 @@ const types = collection({
       defaultValue: 'Both',
     }),
     usNotes: fields.text({ label: 'US notes', multiline: true }),
+    faqs: fields.array(
+      fields.object({
+        question: fields.text({ label: 'Question' }),
+        answer: fields.text({ label: 'Answer', multiline: true }),
+      }),
+      { label: 'FAQs', itemLabel: (props) => props.fields.question.value },
+    ),
   },
 });
 

@@ -92,3 +92,22 @@ export function visibleNodes(
   roots.forEach((r) => walk(r, 1));
   return out;
 }
+
+/** The root line of a type ID, e.g. "life.term.level" → "life". Root IDs are the line IDs. */
+export function rootOf(id: string): string {
+  return id.split('.')[0] ?? id;
+}
+
+/** Ancestors from the root down to (not including) the type itself. */
+export function ancestorsOf<T extends { parent?: string | null }>(
+  id: string,
+  byId: Map<string, T>,
+): string[] {
+  const out: string[] = [];
+  let parent = byId.get(id)?.parent;
+  while (parent && !out.includes(parent)) {
+    out.unshift(parent);
+    parent = byId.get(parent)?.parent;
+  }
+  return out;
+}

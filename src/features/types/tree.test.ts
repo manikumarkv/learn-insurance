@@ -47,3 +47,13 @@ describe('visibleNodes', () => {
     expect(allParentIds(roots)).toEqual(new Set(['life', 'life.term']));
   });
 });
+
+describe('rootOf and ancestorsOf', () => {
+  it('finds the root line and the path down to a type', async () => {
+    const { ancestorsOf, rootOf } = await import('./tree');
+    const byId = new Map(flat.map((t) => [t.id, t]));
+    expect(rootOf('life.term.level')).toBe('life');
+    expect(ancestorsOf('life.term.level', byId)).toEqual(['life', 'life.term']);
+    expect(ancestorsOf('life', byId)).toEqual([]);
+  });
+});

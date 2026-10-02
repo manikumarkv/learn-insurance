@@ -26,6 +26,18 @@ pnpm dev          # http://localhost:4321
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 
+## CI
+
+Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests and build in one job, and browser tests in another. Both must pass before merging to `main`.
+
+## Branches
+
+- `feature/<issue>-<short-name>` for features, e.g. `feature/11-ci-pipeline`
+- `fix/<issue>-<short-name>` for bugs
+- `chore/<short-name>` for maintenance
+
+No direct commits to `main`; everything goes through a pull request.
+
 ## Stack
 
 Astro with React islands, TypeScript (strict), Tailwind CSS, pnpm, Vitest, Playwright, ESLint and Prettier. The full stack, including what comes later (Keystatic, Clerk, Neon, Pagefind, PostHog, Vercel), is in [docs/requirements.md](docs/requirements.md#tech-stack).

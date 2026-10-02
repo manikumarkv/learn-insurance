@@ -8,6 +8,7 @@ import Disclaimer from '../../features/terms/Disclaimer.astro';
 import { displayTitle, formatDate, seoFor, shortName } from '../../features/terms/display';
 import Section from '../../features/terms/Section.astro';
 import TermText from '../../features/terms/TermText.astro';
+import { breadcrumbList, definedTerm, faqPage } from '../../features/seo/jsonld';
 import FlowStrip from '../../features/terms/visuals/FlowStrip.astro';
 import TermVisual from '../../features/terms/visuals/TermVisual.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
@@ -38,10 +39,24 @@ const lineNames = await Promise.all(
 const updated = formatDate(t.meta.updatedAt ?? t.meta.createdAt);
 const isAi = t.meta.source === 'ai';
 const steps = t.story?.steps ?? [];
+const site = Astro.site ?? new URL(Astro.url.origin);
+const jsonLd = [
+  definedTerm(site, {
+    id: entry.id,
+    name: title,
+    description: t.quickAnswer ?? t.definition,
+    alternateNames: [...(t.abbreviation ? [t.abbreviation] : []), ...t.alsoKnownAs],
+  }),
+  breadcrumbList(site, [
+    { name: 'Terms', path: '/terms' },
+    { name: shortName(t), path: `/terms/${entry.id}` },
+  ]),
+  ...(full ? [faqPage(t.faqs)] : []),
+].filter((x): x is Record<string, unknown> => x !== null);
 const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string[]).includes(s));
 ---
 
-<SiteLayout title={seo.title} description={seo.description}>
+<SiteLayout title={seo.title} description={seo.description} ogType="article" jsonLd={jsonLd}>
   <nav aria-label="Breadcrumb" class="text-body-sm text-ink-muted mb-4">
     <a href="/terms">Terms</a> / <span>{t.category}</span> /{' '}
     <span aria-current="page">{shortName(t)}</span>

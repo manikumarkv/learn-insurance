@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { toScript } from '../features/seo/jsonld';
 import { applyInitialTheme } from '../lib/theme';
 
 interface Props {
@@ -7,9 +8,15 @@ interface Props {
   description: string;
   /** Keep a page out of search results (e.g. internal pages). */
   noindex?: boolean;
+  /** Open Graph type: "article" for term and type pages. */
+  ogType?: 'website' | 'article';
+  /** schema.org JSON-LD blocks for this page. */
+  jsonLd?: Record<string, unknown>[];
 }
 
-const { title, description, noindex = false } = Astro.props;
+const { title, description, noindex = false, ogType = 'website', jsonLd = [] } = Astro.props;
+// Canonical URL: the page's path on the production site, without a trailing slash or query.
+const canonical = new URL(Astro.url.pathname.replace(/(.)\/$/, '$1'), Astro.site).toString();
 const themeScript = `(${applyInitialTheme.toString()})()`;
 ---
 
@@ -22,6 +29,17 @@ const themeScript = `(${applyInitialTheme.toString()})()`;
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    {!noindex && <link rel="canonical" href={canonical} />}
+    <meta property="og:site_name" content="LearnInsurance" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    {jsonLd.map((data) => (
+      <script is:inline type="application/ld+json" set:html={toScript(data)} />
+    ))}
     <!-- Set the theme before first paint, so the page never flashes the wrong colours. -->
     <script is:inline set:html={themeScript} />
   </head>

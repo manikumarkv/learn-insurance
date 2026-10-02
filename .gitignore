@@ -25,3 +25,5 @@ test-results/
 # tools
 .ruff_cache/
 __pycache__/
+lighthouse-report/
+.lighthouseci/

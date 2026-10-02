@@ -1,5 +1,6 @@
 ---
 import { UserProfile } from '@clerk/astro/components';
+import { AccountSettings } from '../features/account/AccountSettings';
 import SiteLayout from '../layouts/SiteLayout.astro';
 
 // Rendered on request so src/middleware.ts can send signed-out visitors to /sign-in.
@@ -13,7 +14,12 @@ export const prerender = false;
 >
   <div class="flex flex-col gap-6">
     <h1 class="text-headline m-0">Your account</h1>
-    <!-- TODO(story 6.4): progress export and delete-my-data controls. -->
-    <UserProfile routing="hash" />
+    <AccountSettings client:only="react" />
+    <section aria-labelledby="profile-heading" class="flex flex-col gap-3">
+      <h2 id="profile-heading" class="text-title-md m-0">
+        Profile and sign-in
+      </h2>
+      <UserProfile routing="hash" />
+    </section>
   </div>
 </SiteLayout>

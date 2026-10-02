@@ -20,3 +20,8 @@ export function clerkMiddleware(handler: Handler) {
     return handler(auth, context) ?? next();
   };
 }
+
+/** Without Clerk nobody is signed in, so account endpoints never get this far. */
+export function clerkClient() {
+  return { users: { deleteUser: async () => {} } };
+}

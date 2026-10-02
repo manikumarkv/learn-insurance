@@ -52,7 +52,7 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 
 ## Sign-in (Clerk)
 
-- Clerk handles sign-up and sign-in (Google or email). Keys: `PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` (in Vercel, or in `.env` locally).
+- Clerk handles sign-up and sign-in (Google or email). Keys: `PUBLIC_CLERK_PUBLISHABLE_KEY` (or `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, the name Clerk's Vercel integration uses) and `CLERK_SECRET_KEY`, in Vercel or in `.env` locally.
 - Pages: `/sign-in`, `/sign-up` (static) and `/account` (rendered on request, signed-in only). The header shows "Sign in", or the account menu once signed in.
 - Protected pages are listed in `src/middleware.ts`. A signed-out visitor goes to `/sign-in` and comes back after signing in.
 - Without the publishable key (CI, a fresh clone), the build uses stand-ins from `src/features/account/clerk-off/`: everything else works and the sign-in page says sign-in isn't set up.

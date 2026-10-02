@@ -28,6 +28,9 @@ try {
 } catch {
   // No .env file.
 }
+// Clerk's Vercel integration names the key NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY; Astro reads PUBLIC_*.
+process.env.PUBLIC_CLERK_PUBLISHABLE_KEY ||=
+  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || process.env.CLERK_PUBLISHABLE_KEY || '';
 const withClerk = Boolean(process.env.PUBLIC_CLERK_PUBLISHABLE_KEY);
 const clerkOff = (/** @type {string} */ file) =>
   new URL(`./src/features/account/clerk-off/${file}`, import.meta.url).pathname;

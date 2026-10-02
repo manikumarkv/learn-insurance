@@ -1,11 +1,34 @@
 ---
+/**
+ * The one disclaimer used everywhere (story 5.3). Its text is the Keystatic "Disclaimer" page,
+ * so it can be edited without code.
+ * - box: a bordered note on term and type pages
+ * - footer: plain text in the site footer
+ */
 import { Icon } from '../../components/ui/Icon';
+import { readPage } from '../pages/read';
+
+interface Props {
+  variant?: 'box' | 'footer';
+}
+
+const { variant = 'box' } = Astro.props;
+const { html } = await readPage('disclaimer');
 ---
 
-<aside class="border-ink flex gap-3 rounded-md border-2 p-4" aria-label="Disclaimer">
-  <Icon name="info" />
-  <p class="text-body-sm m-0">
-    <strong>Educational only.</strong> This is a general explanation, not insurance, legal or
-    financial advice. What’s covered depends on your own policy wording.
-  </p>
-</aside>
+{variant === 'box' ? (
+  <aside
+    class="border-ink flex gap-3 rounded-md border-2 p-4"
+    aria-label="Disclaimer"
+    data-testid="disclaimer"
+  >
+    <Icon name="info" />
+    <div class="text-body-sm [&_p]:m-0" set:html={html} />
+  </aside>
+) : (
+  <div
+    class="text-body-sm text-ink-muted max-w-prose [&_p]:m-0"
+    data-testid="disclaimer"
+    set:html={html}
+  />
+)}

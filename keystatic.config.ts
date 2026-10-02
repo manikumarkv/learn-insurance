@@ -338,7 +338,7 @@ const page = (label: string, path: string) =>
 
 /** local: save to files on disk (dev). github: commit to the repo (production). See docs/keystatic-github-mode.md. */
 const storage =
-  import.meta.env.KEYSTATIC_STORAGE === 'github'
+  import.meta.env?.KEYSTATIC_STORAGE === 'github'
     ? ({ kind: 'github', repo: { owner: 'manikumarkv', name: 'learn-insurance' } } as const)
     : ({ kind: 'local' } as const);
 

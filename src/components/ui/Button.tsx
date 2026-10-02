@@ -9,7 +9,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 /**
- * Primary (ink fill), secondary (outlined, default) or ghost (no border).
+ * Primary (blue fill), secondary (outlined, default) or ghost (no border).
  * Icon-only when `icon` is set without children: pass an aria-label.
  */
 export function Button({

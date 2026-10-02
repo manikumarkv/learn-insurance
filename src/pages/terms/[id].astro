@@ -1,0 +1,212 @@
+---
+import { getCollection, getEntries, getEntry, type CollectionEntry } from 'astro:content';
+import { Badge } from '../../components/ui/Badge';
+import { Icon } from '../../components/ui/Icon';
+import { FLOW_STAGES } from '../../content/schema/values';
+import { CheckYourself } from '../../features/terms/CheckYourself';
+import Disclaimer from '../../features/terms/Disclaimer.astro';
+import { displayTitle, formatDate, seoFor, shortName } from '../../features/terms/display';
+import Section from '../../features/terms/Section.astro';
+import FlowStrip from '../../features/terms/visuals/FlowStrip.astro';
+import TermVisual from '../../features/terms/visuals/TermVisual.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+export async function getStaticPaths() {
+  const terms = await getCollection('terms');
+  return terms.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<'terms'>;
+}
+
+const { entry } = Astro.props;
+const t = entry.data;
+const full = t.contentStatus === 'full';
+const title = displayTitle(t);
+const seo = seoFor(t);
+
+const related = (
+  await getEntries(t.relatedTerms.map((id) => ({ collection: 'terms' as const, id })))
+).filter(Boolean);
+const lineNames = await Promise.all(
+  t.lines.map(async (line) =>
+    line === 'all' ? 'All insurance' : ((await getEntry('types', line))?.data.name ?? line),
+  ),
+);
+const updated = formatDate(t.meta.updatedAt ?? t.meta.createdAt);
+const isAi = t.meta.source === 'ai';
+const steps = t.story?.steps ?? [];
+const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string[]).includes(s));
+---
+
+<SiteLayout title={seo.title} description={seo.description}>
+  <nav aria-label="Breadcrumb" class="text-body-sm text-ink-muted mb-4">
+    <a href="/terms">Terms</a> / <span>{t.category}</span> /{' '}
+    <span aria-current="page">{shortName(t)}</span>
+  </nav>
+
+  <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+    <article class="flex min-w-0 flex-col gap-10" data-content-status={t.contentStatus}>
+      <header class="flex flex-col gap-3">
+        <h1 class="text-headline m-0">{title}</h1>
+        {t.alsoKnownAs.length > 0 && (
+          <p class="text-body-sm text-ink-muted m-0">Also known as: {t.alsoKnownAs.join(', ')}</p>
+        )}
+        <div class="flex flex-wrap gap-2">
+          <Badge>{t.usageFrequency} usage</Badge>
+          <Badge tone="muted">{t.difficulty}</Badge>
+          <Badge tone="muted">{t.category}</Badge>
+          {isAi && full && <Badge icon="info">AI-generated · AI-reviewed</Badge>}
+        </div>
+      </header>
+
+      {full && t.quickAnswer && (
+        <section aria-labelledby="quick-answer" class="pd-card">
+          <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
+            Quick answer
+          </h2>
+          <p class="text-body-lg m-0">{t.quickAnswer}</p>
+        </section>
+      )}
+
+      {!full && (
+        <p
+          class="border-ink text-body m-0 flex items-start gap-3 rounded-md border-2 border-dashed p-4"
+          role="note"
+        >
+          <Icon name="info" />
+          <span>
+            <strong>Full explanation coming soon.</strong> Here is the short version for now.
+          </span>
+        </p>
+      )}
+
+      {full && t.visual?.diagram && (
+        <Section title="See it" id="see-it">
+          <TermVisual diagram={t.visual.diagram} caption={t.visual.caption} />
+        </Section>
+      )}
+
+      <Section title="In plain English" id="definition">
+        <p class="text-body-lg m-0">{t.definition}</p>
+      </Section>
+
+      <Section title="Example" id="example">
+        <p class="text-body-lg m-0">{t.example}</p>
+      </Section>
+
+      {full && flowHighlight.length > 0 && (
+        <Section title="Where it happens in the policy flow" id="flow">
+          <FlowStrip highlight={flowHighlight} />
+        </Section>
+      )}
+
+      {full && steps.length > 0 && (
+        <Section title={`${t.story?.person ?? 'A'}’s story`} id="story">
+          <ol class="m-0 flex list-none flex-col gap-3 p-0">
+            {steps.map((step, i) => (
+              <li
+                class:list={[
+                  'flex gap-4 rounded-md p-4',
+                  step.highlight ? 'border-ink border-3' : 'border-ink border-2',
+                ]}
+              >
+                <span class="text-label border-ink flex size-8 flex-none items-center justify-center rounded-full border-2">
+                  {i + 1}
+                </span>
+                <div>
+                  <p class="text-label m-0">
+                    {step.stage}
+                    {step.highlight && <span> · this is the {shortName(t).toLowerCase()}</span>}
+                  </p>
+                  <p class="text-body m-0">{step.text}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </Section>
+      )}
+
+      {full && t.questions.length > 0 && (
+        <Section title="Check yourself" id="check-yourself">
+          <div class="pd-card">
+            <CheckYourself client:only="react" questions={t.questions} />
+          </div>
+        </Section>
+      )}
+
+      {full && t.faqs.length > 0 && (
+        <Section title="Frequently asked questions" id="faqs">
+          <div class="flex flex-col gap-2">
+            {t.faqs.map((f, i) => (
+              <details class="border-ink rounded-md border-2 px-4 py-3" open={i === 0}>
+                <summary class="text-label-lg cursor-pointer">{f.question}</summary>
+                <p class="text-body mt-2 mb-0">{f.answer}</p>
+              </details>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {t.usNotes && (
+        <Section title="US notes" id="us-notes">
+          <p class="text-body m-0">{t.usNotes}</p>
+        </Section>
+      )}
+
+      <Disclaimer />
+
+      <p class="text-body-sm text-ink-muted m-0">
+        {updated && <span>Last updated {updated}</span>}
+        {isAi && full && <span> · Written by AI, reviewed by AI · Sources listed for review</span>}
+      </p>
+    </article>
+
+    <aside class="flex flex-col gap-6" aria-label="At a glance">
+      <div class="pd-card flex flex-col gap-3">
+        <h2 class="text-title-sm m-0">At a glance</h2>
+        <dl class="text-body-sm m-0 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2">
+          <dt class="text-ink-muted">Usage</dt>
+          <dd class="m-0">{t.usageFrequency}</dd>
+          <dt class="text-ink-muted">Difficulty</dt>
+          <dd class="m-0">{t.difficulty}</dd>
+          <dt class="text-ink-muted">Category</dt>
+          <dd class="m-0">{t.category}</dd>
+          <dt class="text-ink-muted">Insurance types</dt>
+          <dd class="m-0">{lineNames.join(', ')}</dd>
+          {t.whereYoullSeeIt.length > 0 && (
+            <>
+              <dt class="text-ink-muted">Where you’ll see it</dt>
+              <dd class="m-0">{t.whereYoullSeeIt.join(', ')}</dd>
+            </>
+          )}
+        </dl>
+      </div>
+
+      {related.length > 0 && (
+        <nav class="pd-card flex flex-col gap-3" aria-labelledby="related">
+          <h2 id="related" class="text-title-sm m-0">
+            Related terms
+          </h2>
+          <ul class="m-0 flex list-none flex-col gap-2 p-0">
+            {related.map((r) => (
+              <li>
+                <a href={`/terms/${r.id}`}>{displayTitle(r.data)}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      <div class="pd-card flex flex-col gap-2">
+        <h2 class="text-title-sm m-0">Something wrong?</h2>
+        <p class="text-body-sm m-0">Tell us and we’ll fix the explanation.</p>
+        <!-- TODO(story 8.2): the report form lives at /report. -->
+        <a href={`/report?term=${entry.id}`} class="pd-btn pd-btn-secondary pd-btn-sm self-start">
+          Report an issue
+        </a>
+      </div>
+    </aside>
+  </div>
+</SiteLayout>

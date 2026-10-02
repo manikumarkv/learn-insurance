@@ -53,14 +53,14 @@ Astro (static by default) with React islands, TypeScript strict, Tailwind 4, pnp
 - **Tests** live next to the code (`foo.ts` + `foo.test.ts`); browser tests in `tests/e2e/`.
 - **Folders:** see the README. Feature code goes in `src/features/<feature>/`; move it to `src/components/` or `src/lib/` only when a second feature needs it.
 
-## Design: Paper Design
+## Design: Clear Blue
 
-- Ink on paper only. No colours, no shadows (except the focus ring), no animation. Lato font.
+- White pages, one confident blue (`primary`), soft cards with a thin border and light shadow, orange (`you`) for what the person pays in diagrams. Figtree font.
 - Use the tokens and components that exist:
-  - Tailwind classes such as `bg-paper`, `text-ink`, `text-ink-muted`, `text-headline` … `text-label-sm`, `rounded-md`, `border-2` / `border-3`.
-  - Components in `src/components/ui/`.
-- Tailwind's default colours, shadows and animations are removed on purpose. Don't add them back.
-- Status is shown with a word and an icon, never colour. Every control is keyboard accessible with the shared focus ring.
+  - Tailwind classes such as `bg-surface`, `bg-surface-sunken`, `bg-primary`, `bg-primary-soft`, `text-ink`, `text-ink-muted`, `text-primary-ink`, `border-line`, `shadow-md`, `text-headline` … `text-label-sm`, `rounded-md` / `rounded-lg`.
+  - Component classes `ui-btn`, `ui-card`, `ui-callout`, `ui-badge` and the components in `src/components/ui/`.
+- Tailwind's default colours are removed on purpose. Add a new colour as a token in `src/styles/tokens.css` (all four themes) instead of using raw hex values.
+- Colour supports meaning but never carries it alone: status also has a word and an icon. Every control is keyboard accessible with the shared focus ring.
 - See every component at `/design`.
 
 ## Content and the term agents

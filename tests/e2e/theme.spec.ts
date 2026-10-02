@@ -18,7 +18,7 @@ test('chosen theme is applied and remembered after reload', async ({ page }) => 
   await expect(picker).toHaveValue('dark-hc');
 });
 
-test('keyboard focus shows the Paper Design focus ring', async ({ page }) => {
+test('keyboard focus shows the shared focus ring', async ({ page }) => {
   await page.goto('/design');
   await page.keyboard.press('Tab');
   const skip = page.getByRole('link', { name: 'Skip to content' });

@@ -74,13 +74,13 @@ export function ThemeToggle({ compact = false }: ThemeToggleProps) {
   }
 
   return (
-    <div className="pd-field">
-      <label className={compact ? 'sr-only' : 'pd-label'} htmlFor={id}>
+    <div className="ui-field">
+      <label className={compact ? 'sr-only' : 'ui-label'} htmlFor={id}>
         Theme
       </label>
       <select
         id={id}
-        className={compact ? 'pd-input pd-input-sm' : 'pd-input'}
+        className={compact ? 'ui-input ui-input-sm' : 'ui-input'}
         value={choice}
         onChange={(e) => onChange(e.target.value as ThemeChoice)}
       >

@@ -1,69 +1,144 @@
 /*
- * Paper Design tokens. Source: the Paper Design system (tokens.json).
- * Two colours only (ink and paper), solid ink borders, no shadows except the focus ring, no motion.
- * Four themes set with data-theme on <html>: light (default), dark, light-hc, dark-hc.
+ * Clear Blue design tokens. White pages, one confident blue, soft cards with a light shadow,
+ * orange for "what you pay" in diagrams. Four themes set with data-theme on <html>:
+ * light (default), dark, light-hc, dark-hc. Every colour in the app comes from here.
  */
 
 :root,
 [data-theme='light'] {
-  --paper: #f7f6f2;
-  --paper-sunken: #eceae4;
-  --ink: #1b1a18;
-  --ink-muted: #55534e;
-  --ink-faint: #67655f;
-  --on-ink: #f7f6f2;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-sunken: #f3f6fc;
+  --ink: #0f1b33;
+  --ink-muted: #4f5b75;
+  --ink-faint: #67728b;
+  --line: #dfe6f1;
+  --line-strong: #7d8aa5;
+
+  --primary: #1f5eff;
+  --primary-hover: #1a4fdb;
+  --primary-ink: #1745c9;
+  --primary-soft: #eaf1ff;
+  --on-primary: #ffffff;
+
+  --you: #ff8a3d;
+  --on-you: #2b1300;
+  --success-soft: #e3f6ec;
+  --success-ink: #12633d;
+
+  --shadow-sm: 0 1px 2px rgb(15 27 51 / 0.06);
+  --shadow-md: 0 1px 2px rgb(15 27 51 / 0.05), 0 6px 18px rgb(31 94 255 / 0.08);
   color-scheme: light;
 }
 
 [data-theme='dark'] {
-  --paper: #171716;
-  --paper-sunken: #232321;
-  --ink: #ebe9e3;
-  --ink-muted: #aeaba3;
-  --ink-faint: #8f8c85;
-  --on-ink: #171716;
+  --bg: #0b1220;
+  --surface: #121b2e;
+  --surface-sunken: #0f1729;
+  --ink: #e8edf7;
+  --ink-muted: #a3aec4;
+  --ink-faint: #8a96ad;
+  --line: #26324c;
+  --line-strong: #64759a;
+
+  --primary: #6d97ff;
+  --primary-hover: #86a9ff;
+  --primary-ink: #9ab8ff;
+  --primary-soft: #18264a;
+  --on-primary: #071027;
+
+  --you: #ff9a57;
+  --on-you: #2b1300;
+  --success-soft: #10301f;
+  --success-ink: #7fe0a8;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 6px 18px rgb(0 0 0 / 0.35);
   color-scheme: dark;
 }
 
 [data-theme='light-hc'] {
-  --paper: #ffffff;
-  --paper-sunken: #e6e6e6;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-sunken: #eef2f8;
   --ink: #000000;
-  --ink-muted: #333333;
-  --ink-faint: #4d4d4d;
-  --on-ink: #ffffff;
+  --ink-muted: #1f2633;
+  --ink-faint: #333b4a;
+  --line: #5a6680;
+  --line-strong: #000000;
+
+  --primary: #0039d6;
+  --primary-hover: #002fb0;
+  --primary-ink: #002fb0;
+  --primary-soft: #dfe8ff;
+  --on-primary: #ffffff;
+
+  --you: #e06500;
+  --on-you: #000000;
+  --success-soft: #d6f2e2;
+  --success-ink: #003d1f;
+
+  --shadow-sm: none;
+  --shadow-md: none;
   color-scheme: light;
 }
 
 [data-theme='dark-hc'] {
-  --paper: #000000;
-  --paper-sunken: #262626;
+  --bg: #000000;
+  --surface: #000000;
+  --surface-sunken: #141414;
   --ink: #ffffff;
-  --ink-muted: #cccccc;
-  --ink-faint: #b3b3b3;
-  --on-ink: #000000;
+  --ink-muted: #e0e0e0;
+  --ink-faint: #c8c8c8;
+  --line: #8a96ad;
+  --line-strong: #ffffff;
+
+  --primary: #9dbcff;
+  --primary-hover: #b8cfff;
+  --primary-ink: #b8cfff;
+  --primary-soft: #0d1a3a;
+  --on-primary: #000000;
+
+  --you: #ffa366;
+  --on-you: #000000;
+  --success-soft: #0b2a18;
+  --success-ink: #9cf0c0;
+
+  --shadow-sm: none;
+  --shadow-md: none;
   color-scheme: dark;
 }
 
 /* Without JavaScript, follow the system setting. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
-    --paper: #171716;
-    --paper-sunken: #232321;
-    --ink: #ebe9e3;
-    --ink-muted: #aeaba3;
-    --ink-faint: #8f8c85;
-    --on-ink: #171716;
+    --bg: #0b1220;
+    --surface: #121b2e;
+    --surface-sunken: #0f1729;
+    --ink: #e8edf7;
+    --ink-muted: #a3aec4;
+    --ink-faint: #8a96ad;
+    --line: #26324c;
+    --line-strong: #64759a;
+    --primary: #6d97ff;
+    --primary-hover: #86a9ff;
+    --primary-ink: #9ab8ff;
+    --primary-soft: #18264a;
+    --on-primary: #071027;
+    --you: #ff9a57;
+    --on-you: #2b1300;
+    --success-soft: #10301f;
+    --success-ink: #7fe0a8;
+    --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 1px 2px rgb(0 0 0 / 0.4), 0 6px 18px rgb(0 0 0 / 0.35);
     color-scheme: dark;
   }
 }
 
 :root {
-  /* Aliases: every edge and link is ink. */
-  --line: var(--ink);
-  --link: var(--ink);
+  --link: var(--primary-ink);
 
-  --font-sans: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  --font-sans: 'Figtree', 'Helvetica Neue', Arial, sans-serif;
   --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 
   --space-1: 4px;
@@ -73,14 +148,11 @@
   --space-6: 24px;
   --space-8: 32px;
 
-  --radius-sm: 3px;
-  --radius-md: 8px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
   --radius-full: 9999px;
 
-  --border-thin: 1px;
-  --border: 2px;
-  --border-thick: 3px;
-
-  /* A 3px paper gap, then 2px of solid ink. Follows the theme because it uses the variables. */
-  --focus-ring: 0 0 0 3px var(--paper), 0 0 0 5px var(--ink);
+  /* A 2px gap in the page colour, then 2px of blue. Follows the theme. */
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--primary);
 }

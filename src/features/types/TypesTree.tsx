@@ -113,7 +113,7 @@ export function TypesTree({ roots, total }: Props) {
           <div
             className={[
               'flex cursor-pointer items-center gap-2 rounded-md px-2 py-1',
-              isSelected ? 'bg-ink text-on-ink' : 'hover:bg-paper-sunken',
+              isSelected ? 'bg-primary text-on-primary' : 'hover:bg-surface-sunken',
             ].join(' ')}
             onClick={() => {
               setSelectedId(node.id);
@@ -143,13 +143,13 @@ export function TypesTree({ roots, total }: Props) {
     <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
       <div className="flex min-w-0 flex-col gap-4">
         <div className="flex flex-wrap items-end gap-3">
-          <div className="pd-field min-w-0 flex-1">
-            <label className="pd-label" htmlFor="types-filter">
+          <div className="ui-field min-w-0 flex-1">
+            <label className="ui-label" htmlFor="types-filter">
               Filter types
             </label>
             <input
               id="types-filter"
-              className="pd-input pd-input-sm"
+              className="ui-input ui-input-sm"
               type="search"
               placeholder="e.g. cyber, flood, term life"
               value={query}
@@ -175,7 +175,7 @@ export function TypesTree({ roots, total }: Props) {
 
       <aside aria-live="polite" className="lg:sticky lg:top-4 lg:self-start">
         {selected && (
-          <div className="pd-card flex flex-col gap-3">
+          <div className="ui-card flex flex-col gap-3">
             <h2 className="text-title-md m-0">{selected.name}</h2>
             <p className="text-body m-0">{selected.description}</p>
             {selected.example && (
@@ -191,7 +191,7 @@ export function TypesTree({ roots, total }: Props) {
             )}
             <a
               href={`/types/${selected.id}`}
-              className="pd-btn pd-btn-primary pd-btn-sm self-start"
+              className="ui-btn ui-btn-primary ui-btn-sm self-start"
             >
               Open {selected.name}
             </a>

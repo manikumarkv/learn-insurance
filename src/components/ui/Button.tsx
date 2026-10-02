@@ -24,10 +24,10 @@ export function Button({
 }: ButtonProps) {
   const iconSize = size === 'sm' ? 16 : 20;
   const classes = [
-    'pd-btn',
-    `pd-btn-${variant}`,
-    size === 'sm' && 'pd-btn-sm',
-    icon && !children && 'pd-btn-icon',
+    'ui-btn',
+    `ui-btn-${variant}`,
+    size === 'sm' && 'ui-btn-sm',
+    icon && !children && 'ui-btn-icon',
     className,
   ]
     .filter(Boolean)

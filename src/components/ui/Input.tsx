@@ -14,12 +14,12 @@ export function Input({ label, hint, error, id, className, ...rest }: InputProps
   const messageId = `${inputId}-message`;
   const message = error ?? hint;
   return (
-    <div className={['pd-field', className].filter(Boolean).join(' ')}>
-      <label className="pd-label" htmlFor={inputId}>
+    <div className={['ui-field', className].filter(Boolean).join(' ')}>
+      <label className="ui-label" htmlFor={inputId}>
         {label}
       </label>
       <input
-        className="pd-input"
+        className="ui-input"
         id={inputId}
         aria-invalid={error ? true : undefined}
         aria-describedby={message ? messageId : undefined}
@@ -28,7 +28,7 @@ export function Input({ label, hint, error, id, className, ...rest }: InputProps
       {message && (
         <span
           id={messageId}
-          className={['pd-hint', error && 'pd-hint-error'].filter(Boolean).join(' ')}
+          className={['ui-hint', error && 'ui-hint-error'].filter(Boolean).join(' ')}
         >
           {error && <Icon name="alert" size={16} />}
           {message}

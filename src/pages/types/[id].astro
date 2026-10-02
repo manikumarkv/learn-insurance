@@ -97,7 +97,7 @@ const description = truncate(quickAnswer, 160);
         </div>
       </header>
 
-      <section aria-labelledby="quick-answer" class="pd-card" data-pagefind-body>
+      <section aria-labelledby="quick-answer" class="ui-card" data-pagefind-body>
         <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
           Quick answer
         </h2>
@@ -112,14 +112,14 @@ const description = truncate(quickAnswer, 160);
           >
             {ancestors.map((id) => (
               <li class="flex items-center gap-2">
-                <a href={`/types/${id}`} class="pd-badge pd-badge-muted no-underline">
+                <a href={`/types/${id}`} class="ui-badge ui-badge-muted no-underline">
                   {name(id)}
                 </a>
                 <Icon name="chevron-right" size={16} />
               </li>
             ))}
             <li>
-              <span class="pd-badge pd-badge-solid" aria-current="page">
+              <span class="ui-badge ui-badge-solid" aria-current="page">
                 {t.name}
               </span>
             </li>
@@ -148,7 +148,7 @@ const description = truncate(quickAnswer, 160);
         <Section title="Sub-types" id="sub-types">
           <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2">
             {children.map((c) => (
-              <li class="border-ink rounded-md border-2 p-4">
+              <li class="ui-card">
                 <a href={`/types/${c.id}`} class="text-title-sm">
                   {c.data.name}
                 </a>
@@ -165,7 +165,7 @@ const description = truncate(quickAnswer, 160);
           <ul class="m-0 flex list-none flex-wrap gap-2 p-0">
             {keyTerms.map((k) => (
               <li>
-                <a href={`/terms/${k.id}`} class="pd-btn pd-btn-secondary pd-btn-sm">
+                <a href={`/terms/${k.id}`} class="ui-btn ui-btn-secondary ui-btn-sm">
                   {displayTitle(k.data)}
                 </a>
               </li>
@@ -183,7 +183,7 @@ const description = truncate(quickAnswer, 160);
         <Section title="Frequently asked questions" id="faqs">
           <div class="flex flex-col gap-2">
             {t.faqs.map((f, i) => (
-              <details class="border-ink rounded-md border-2 px-4 py-3" open={i === 0}>
+              <details class="border-line bg-surface rounded-md border px-4 py-3" open={i === 0}>
                 <summary class="text-label-lg cursor-pointer">{f.question}</summary>
                 <p class="text-body mt-2 mb-0">{f.answer}</p>
               </details>
@@ -205,10 +205,10 @@ const description = truncate(quickAnswer, 160);
     </article>
 
     <aside class="flex flex-col gap-6" aria-label="More">
-      <div class="pd-card flex flex-col gap-2">
+      <div class="ui-card flex flex-col gap-2">
         <h2 class="text-title-sm m-0">Learning path</h2>
         {path ? (
-          <a href={`/paths/${path.id}`} class="pd-btn pd-btn-primary pd-btn-sm self-start">
+          <a href={`/paths/${path.id}`} class="ui-btn ui-btn-primary ui-btn-sm self-start">
             Start: {path.data.title}
           </a>
         ) : (
@@ -217,7 +217,7 @@ const description = truncate(quickAnswer, 160);
       </div>
 
       {siblings.length > 0 && (
-        <nav class="pd-card flex flex-col gap-3" aria-labelledby="related-types">
+        <nav class="ui-card flex flex-col gap-3" aria-labelledby="related-types">
           <h2 id="related-types" class="text-title-sm m-0">
             Related types
           </h2>

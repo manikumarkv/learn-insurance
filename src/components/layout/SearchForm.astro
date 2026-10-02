@@ -26,20 +26,20 @@ const {
   aria-label={landmark}
   class="flex items-end gap-2"
 >
-  <div class="pd-field min-w-0 flex-1">
-    <label for={id} class={showLabel ? 'pd-label' : 'sr-only'}>
+  <div class="ui-field min-w-0 flex-1">
+    <label for={id} class={showLabel ? 'ui-label' : 'sr-only'}>
       Search terms
     </label>
     <input
       id={id}
-      class="pd-input pd-input-sm w-full"
+      class="ui-input ui-input-sm w-full"
       type="search"
       name="q"
       placeholder={placeholder}
       autocomplete="off"
     />
   </div>
-  <button type="submit" class="pd-btn pd-btn-secondary pd-btn-icon" aria-label="Search">
+  <button type="submit" class="ui-btn ui-btn-primary ui-btn-icon" aria-label="Search">
     <Icon name="search" size={20} />
   </button>
 </form>

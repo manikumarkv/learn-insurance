@@ -298,6 +298,7 @@ const types = collection({
       }),
       { label: 'FAQs', itemLabel: (props) => props.fields.question.value },
     ),
+    updatedAt: fields.date({ label: 'Last updated' }),
   },
 });
 

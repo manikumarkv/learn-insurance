@@ -2,7 +2,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { Badge } from '../../components/ui/Badge';
 import { Icon } from '../../components/ui/Icon';
-import { displayTitle, truncate } from '../../features/terms/display';
+import { displayTitle, formatDate, truncate } from '../../features/terms/display';
 import Disclaimer from '../../features/terms/Disclaimer.astro';
 import Section from '../../features/terms/Section.astro';
 import { ancestorsOf, rootOf } from '../../features/types/tree';
@@ -199,6 +199,9 @@ const description = truncate(quickAnswer, 160);
       )}
 
       <Disclaimer />
+      {t.updatedAt && (
+        <p class="text-body-sm text-ink-muted m-0">Last updated {formatDate(t.updatedAt)}</p>
+      )}
     </article>
 
     <aside class="flex flex-col gap-6" aria-label="More">

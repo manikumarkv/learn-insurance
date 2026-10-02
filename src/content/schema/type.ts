@@ -11,6 +11,7 @@ export const insuranceTypeSchema = z.object({
   example: z.string().optional(),
   segment: z.enum(TYPE_SEGMENTS),
   usNotes: z.string().optional(),
+  updatedAt: z.union([z.string().regex(/^\d{4}-\d{2}-\d{2}$/), z.date()]).optional(),
   faqs: z
     .array(z.object({ question: z.string().trim().min(1), answer: z.string().trim().min(1) }))
     .default([]),

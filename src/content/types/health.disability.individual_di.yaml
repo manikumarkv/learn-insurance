@@ -1,0 +1,6 @@
+name: Individual Disability Income
+parent: health.disability
+alsoKnownAs: IDI
+description: A disability policy owned by the individual, portable between jobs, often non-cancelable with guaranteed premiums.
+example: A self-employed lawyer buys an IDI policy.
+segment: Personal

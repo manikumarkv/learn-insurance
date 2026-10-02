@@ -1,0 +1,18 @@
+term: Medicaid Managed Care
+contentStatus: basic
+alsoKnownAs:
+  - MCO
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: Medicaid benefits delivered through private health plans that contract with the state.
+example: A state pays an MCO a monthly amount per member.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicaid
+  - capitation
+meta:
+  source: editorial

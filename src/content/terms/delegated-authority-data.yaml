@@ -1,0 +1,18 @@
+term: Delegated Authority Data
+contentStatus: basic
+alsoKnownAs:
+  - Bordereaux Management
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Data from MGAs and coverholders about policies and claims written under delegated authority.
+example: A carrier builds a pipeline to ingest MGA data.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - bordereau
+  - managing-general-agent
+meta:
+  source: editorial

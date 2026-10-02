@@ -1,0 +1,21 @@
+term: Duty to Defend
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: The insurer's obligation to provide and pay for a lawyer to defend you against a covered lawsuit.
+example: Your insurer hires a lawyer when a customer sues your business.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - duty-to-indemnify
+  - defense-costs
+  - reservation-of-rights
+usNotes: Most states say the duty to defend is broader than the duty to indemnify.
+meta:
+  source: editorial

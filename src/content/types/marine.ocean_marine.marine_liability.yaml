@@ -1,0 +1,5 @@
+name: Marine Liability
+parent: marine.ocean_marine
+description: Covers liabilities from vessel operations and waterfront businesses.
+example: A shipowner is liable for an oil spill.
+segment: Commercial

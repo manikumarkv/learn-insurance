@@ -1,0 +1,20 @@
+term: Medical Underwriting
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Assessing a person's health to decide whether and at what price to offer life or health coverage.
+example: An applicant with diabetes is rated up.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - risk-class
+  - paramedical-exam
+usNotes: The ACA bans medical underwriting for major medical health insurance.
+meta:
+  source: editorial

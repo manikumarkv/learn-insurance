@@ -1,0 +1,23 @@
+term: National Council on Compensation Insurance
+contentStatus: basic
+abbreviation: NCCI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The organization that collects data and files workers' compensation loss costs and class codes in most states.
+example: NCCI calculates an employer's experience mod.
+whereYoullSeeIt:
+  - Rating engine
+  - Regulatory filings
+relatedTerms:
+  - experience-modification-factor
+  - workers-compensation-insurance
+  - class-code
+usNotes: Some states, like California and New York, use their own rating bureaus.
+meta:
+  source: editorial

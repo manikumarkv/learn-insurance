@@ -1,0 +1,20 @@
+term: Adverse Development Cover
+contentStatus: basic
+abbreviation: ADC
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: Reinsurance that pays if reserves for past claims turn out to be too low.
+example: Covers reserve growth above $500M on old liability claims.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - portfolio-transfer
+  - reserve-development
+meta:
+  source: editorial

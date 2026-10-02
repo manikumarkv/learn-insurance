@@ -1,0 +1,18 @@
+term: Yacht Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Boat Insurance
+  - Watercraft
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Beginner
+definition: Covers personal boats for damage and liability.
+example: A sailboat damaged in a storm.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hull-insurance
+meta:
+  source: editorial

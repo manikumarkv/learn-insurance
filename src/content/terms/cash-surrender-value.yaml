@@ -1,0 +1,19 @@
+term: Cash Surrender Value
+contentStatus: basic
+alsoKnownAs:
+  - Surrender Value
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The amount you get if you cancel a permanent policy, which is cash value minus surrender charges and loans.
+example: Surrendering pays $35,000 after a $5,000 surrender charge.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cash-value
+  - surrender-charge
+  - nonforfeiture-options
+meta:
+  source: editorial

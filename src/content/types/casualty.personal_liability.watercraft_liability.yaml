@@ -1,0 +1,6 @@
+name: Watercraft Liability
+parent: casualty.personal_liability
+description: Liability cover for injuries or damage caused while operating a boat or jet ski.
+example: A jet-ski rider injures a swimmer and the policy pays.
+segment: Personal
+usNotes: Home policies cover only small boats; larger craft need a boat policy.

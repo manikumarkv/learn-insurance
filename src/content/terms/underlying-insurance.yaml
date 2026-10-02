@@ -1,0 +1,19 @@
+term: Underlying Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Schedule of Underlying
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The primary policies that must be in place beneath an umbrella or excess policy.
+example: An umbrella requires $250k/$500k auto liability underneath.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - umbrella-insurance
+  - excess-insurance
+meta:
+  source: editorial

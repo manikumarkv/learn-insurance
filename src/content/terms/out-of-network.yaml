@@ -1,0 +1,18 @@
+term: Out-of-Network
+contentStatus: basic
+alsoKnownAs:
+  - Non-Participating Provider
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: Providers with no contract with your plan; you usually pay more, or everything.
+example: An out-of-network specialist costs you 50% coinsurance.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - in-network
+  - balance-billing
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Final Expense Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Burial Insurance
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: Small whole life policies, often $5,000–$25,000, meant to pay funeral costs.
+example: A 70-year-old buys $10,000 to cover funeral costs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - whole-life-insurance
+  - graded-death-benefit
+meta:
+  source: editorial

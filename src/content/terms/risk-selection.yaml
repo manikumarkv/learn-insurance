@@ -1,0 +1,17 @@
+term: Risk Selection
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Choosing which applicants to insure to keep the book of business profitable.
+example: An insurer selects drivers with clean records.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - adverse-selection
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Clean Claim
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: A health claim that has all the information needed and can be processed without more investigation.
+example: A correctly coded claim with patient and provider IDs.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - prompt-pay-law
+  - claim-adjudication
+meta:
+  source: editorial

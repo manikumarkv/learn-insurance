@@ -1,0 +1,18 @@
+term: Excess Verdict
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A court judgment larger than the defendant's insurance limits; very large ones ($10M+) are often called nuclear verdicts.
+example: A trucking crash leads to a $50M verdict.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - excess-of-policy-limits
+  - social-inflation
+meta:
+  source: editorial

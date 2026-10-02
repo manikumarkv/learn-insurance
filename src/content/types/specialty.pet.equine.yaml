@@ -1,0 +1,6 @@
+name: Equine Insurance
+parent: specialty.pet
+alsoKnownAs: Horse insurance
+description: Covers horses for death (equine mortality), major medical, surgery and liability.
+example: A horse owner's colic surgery bill is paid.
+segment: Personal

@@ -1,0 +1,24 @@
+term: Surplus Lines Broker
+contentStatus: basic
+alsoKnownAs:
+  - Excess and Surplus Lines Broker
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A specially licensed broker who can place coverage with non-admitted insurers.
+example: A broker places a coastal condo with a surplus lines carrier.
+whereYoullSeeIt:
+  - Agent/broker communications
+  - Regulatory filings
+relatedTerms:
+  - surplus-lines
+  - non-admitted-insurer
+  - diligent-search
+usNotes: Must file and pay surplus lines taxes in the insured's home state.
+meta:
+  source: editorial

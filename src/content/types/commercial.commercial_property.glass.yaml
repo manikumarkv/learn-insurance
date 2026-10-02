@@ -1,0 +1,5 @@
+name: Commercial Glass
+parent: commercial.commercial_property
+description: Covers breakage of storefront windows and glass fittings.
+example: A shop's front window is smashed by vandals.
+segment: Commercial

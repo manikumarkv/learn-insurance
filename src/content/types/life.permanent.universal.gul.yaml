@@ -1,0 +1,7 @@
+name: Guaranteed Universal Life (GUL)
+parent: life.permanent.universal
+alsoKnownAs: No-lapse guarantee UL
+description: UL built mainly for a guaranteed lifelong death benefit at the lowest cost, with little cash value.
+example: A retiree wants guaranteed cover to age 100+ for estate planning at a lower price than whole life.
+segment: Personal
+usNotes: Popular for estate planning. Reserves for older policies follow NAIC Actuarial Guideline 38 (AXXX); policies issued from 2020 use principles-based reserving (VM-20).

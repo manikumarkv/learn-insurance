@@ -1,0 +1,6 @@
+name: COBRA Continuation Coverage
+parent: health.major_medical.group_health
+description: Lets employees and families keep their employer group plan for a limited time (usually 18 months) after leaving a job, paying the full premium.
+example: A laid-off worker keeps the family on the group plan for 18 months.
+segment: Personal
+usNotes: Federal law for employers with 20+ employees; many states have "mini-COBRA" laws for smaller employers.

@@ -1,0 +1,5 @@
+name: Bloodstock / Livestock Mortality
+parent: specialty.sports
+description: Covers death or injury of valuable racehorses and breeding animals.
+example: A Kentucky stud farm insures a stallion.
+segment: Commercial

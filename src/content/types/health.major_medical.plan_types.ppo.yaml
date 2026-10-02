@@ -1,0 +1,6 @@
+name: Preferred Provider Organization (PPO)
+parent: health.major_medical.plan_types
+description: You can see any doctor without referrals; in-network care costs less, and out-of-network care is partly covered.
+example: A person who travels a lot picks a PPO to see specialists anywhere.
+segment: Both
+usNotes: The most common plan type in employer coverage.

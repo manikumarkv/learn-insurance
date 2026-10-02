@@ -1,0 +1,6 @@
+name: Silver Plan
+parent: health.major_medical.individual_market
+description: Covers about 70% of average costs; the only tier eligible for extra cost-sharing reductions for lower incomes.
+example: A low-income household picks silver to get reduced deductibles.
+segment: Personal
+usNotes: The second-lowest-cost silver plan is the benchmark for subsidies.

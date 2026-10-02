@@ -1,0 +1,6 @@
+name: Non-Owned Aircraft Liability
+parent: marine.aviation
+alsoKnownAs: Renter pilot insurance
+description: Covers pilots who rent or borrow aircraft.
+example: A student pilot renting a plane buys renter's cover.
+segment: Personal

@@ -1,0 +1,7 @@
+name: Cell & Gene Therapy Carve-Out
+parent: health.employer_risk_financing.stop_loss
+alsoKnownAs: CGT stop-loss; Gene therapy coverage
+description: Insures a health plan against the very high one-off cost of approved cell and gene therapies.
+example: A child on an employer plan receives a gene therapy costing about $2 million and the carve-out policy pays it.
+segment: Commercial
+usNotes: Separately, CMS runs a Cell and Gene Therapy Access Model for Medicaid sickle cell gene therapies; 33 states plus DC and Puerto Rico signed up (2025).

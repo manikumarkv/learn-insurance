@@ -1,0 +1,19 @@
+term: Surplus Treaty
+contentStatus: basic
+alsoKnownAs:
+  - Surplus Share
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A proportional treaty where the reinsurer takes the part of each risk above the insurer's retention line, in proportion.
+example: The insurer keeps $1M per risk and cedes the surplus up to $9M.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - proportional-reinsurance
+  - quota-share
+  - line
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Material Fact
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A fact that would affect whether an insurer accepts a risk or what premium it charges.
+example: Having had two DUIs is a material fact for auto insurance.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - misrepresentation
+  - concealment
+  - utmost-good-faith
+meta:
+  source: editorial

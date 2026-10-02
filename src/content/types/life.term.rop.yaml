@@ -1,0 +1,5 @@
+name: Return of Premium Term (ROP)
+parent: life.term
+description: Term cover that refunds the premiums you paid if you are still alive at the end of the term. It costs more than plain term.
+example: A buyer who dislikes "wasting" premiums picks a policy that returns them at the end of 30 years.
+segment: Personal

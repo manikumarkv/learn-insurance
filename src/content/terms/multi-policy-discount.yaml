@@ -1,0 +1,18 @@
+term: Multi-Policy Discount
+contentStatus: basic
+alsoKnownAs:
+  - Bundling Discount
+category: Underwriting
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A discount for buying more than one policy, such as home and auto, from the same insurer.
+example: 15% off for bundling home and auto.
+whereYoullSeeIt:
+  - Quote
+relatedTerms:
+  - rating-factor
+meta:
+  source: editorial

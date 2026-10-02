@@ -1,0 +1,18 @@
+term: Prior Acts Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Coverage for wrongful acts that occurred before the policy's start date, back to the retroactive date.
+example: An E&O policy covers errors made in the last five years.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - retroactive-date
+  - nose-coverage
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Assignment of Benefits
+contentStatus: basic
+abbreviation: AOB
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - health
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A document that lets a contractor or provider bill the insurer directly and pursue the claim.
+example: A water mitigation company has you sign an AOB and then bills your insurer.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - assignment
+  - claim
+usNotes: Florida restricted AOBs for property claims in 2019, then banned them for residential and commercial property policies issued on or after January 1, 2023 (SB 2-A, 2022), and for auto glass claims under policies issued or renewed from July 1, 2023. Health providers routinely take AOBs.
+meta:
+  source: editorial

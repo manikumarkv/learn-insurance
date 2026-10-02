@@ -1,0 +1,5 @@
+name: Aircraft Hull
+parent: marine.aviation
+description: Covers physical damage to the aircraft, on the ground or in flight.
+example: A plane damaged in a hard landing is repaired.
+segment: Commercial

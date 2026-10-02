@@ -1,0 +1,6 @@
+name: California Earthquake Authority (CEA)
+parent: property.catastrophe.earthquake
+description: A publicly managed, privately funded body that writes most residential earthquake insurance in California.
+example: A homeowner in Los Angeles buys CEA cover through their home insurer.
+segment: Personal
+usNotes: California insurers must offer earthquake cover to homeowners every two years.

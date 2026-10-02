@@ -26,7 +26,7 @@ export interface ContentFile {
 }
 
 const TERM_ID = /^[a-z0-9-]+$/;
-const TYPE_ID = /^[a-z0-9.-]+$/;
+const TYPE_ID = /^[a-z0-9._-]+$/;
 
 /** Formats a path like ['faqs', 0, 'answer'] as "faqs[0].answer". */
 export function formatPath(path: readonly PropertyKey[]): string {
@@ -105,7 +105,7 @@ export function validateContent(files: {
       errors.push({
         file: f.file,
         field: '(file name)',
-        message: 'use a–z, 0–9, dots and hyphens',
+        message: 'use a–z, 0–9, dots, underscores and hyphens',
       });
     }
     const t: InsuranceType | undefined = parseWith(insuranceTypeSchema, f, errors);

@@ -1,0 +1,19 @@
+term: Miller Act
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal law requiring performance and payment bonds on federal construction contracts over $150,000.
+example: A federal courthouse project requires bonds.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - performance-bond
+  - payment-bond
+usNotes: States have 'Little Miller Acts' for state projects.
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Coverage Part
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A section of a commercial package policy for one type of coverage, like property or general liability.
+example: A package policy includes a property coverage part and a GL coverage part.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-package-policy
+  - form
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Travel Insurance
+parent: specialty
+description: Covers trip cancellations, medical emergencies abroad and lost luggage.
+example: A tourist breaks a leg in Italy and hospital costs are paid.
+segment: Personal
+usNotes: Regulated by states; NAIC Travel Insurance Model Act adopted in many states. Medicare generally doesn't cover care abroad.

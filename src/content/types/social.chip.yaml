@@ -1,0 +1,7 @@
+name: Children's Health Insurance Program (CHIP)
+parent: social
+alsoKnownAs: CHIP; State names like Healthy Families
+description: Low-cost health coverage for children in families that earn too much for Medicaid but can't afford private insurance.
+example: Two children of a working family are covered through CHIP.
+segment: Personal
+usNotes: Joint federal-state program; eligibility levels vary by state.

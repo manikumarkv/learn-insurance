@@ -1,0 +1,15 @@
+term: Unilateral Contract
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A contract where only one side (the insurer) makes enforceable promises; the policyholder need not keep paying.
+example: You can stop paying premiums, but the insurer can't stop paying valid claims while the policy is in force.
+whereYoullSeeIt: []
+relatedTerms:
+  - aleatory-contract
+meta:
+  source: editorial

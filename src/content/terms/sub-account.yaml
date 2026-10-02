@@ -1,0 +1,17 @@
+term: Sub-Account
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: An investment option in a variable policy or annuity, similar to a mutual fund.
+example: You split money among five sub-accounts.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - variable-annuity
+  - variable-universal-life
+meta:
+  source: editorial

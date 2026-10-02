@@ -1,0 +1,18 @@
+term: Ceding Commission
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A payment from the reinsurer to the ceding insurer to cover its acquisition costs on ceded business.
+example: A 30% ceding commission on a quota share.
+whereYoullSeeIt:
+  - Reinsurance contract
+  - Financial statements
+relatedTerms:
+  - quota-share
+  - profit-commission
+meta:
+  source: editorial

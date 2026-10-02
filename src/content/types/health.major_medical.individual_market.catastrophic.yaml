@@ -1,0 +1,6 @@
+name: Catastrophic Plan
+parent: health.major_medical.individual_market
+description: Very high deductible plan for people under 30 or with a hardship exemption; covers preventive care and 3 primary care visits before the deductible.
+example: A 25-year-old buys a catastrophic plan as a safety net.
+segment: Personal
+usNotes: Not eligible for premium tax credits. Treated as HSA-eligible from 2026.

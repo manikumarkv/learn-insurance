@@ -1,0 +1,17 @@
+term: Employer Mandate
+contentStatus: basic
+alsoKnownAs:
+  - Employer Shared Responsibility
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: An ACA rule requiring employers with 50 or more full-time employees (including full-time equivalents) to offer affordable coverage or pay a penalty.
+example: A 60-employee company must offer health coverage.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - affordable-care-act
+meta:
+  source: editorial

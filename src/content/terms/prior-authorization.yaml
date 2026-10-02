@@ -1,0 +1,21 @@
+term: Prior Authorization
+contentStatus: basic
+alsoKnownAs:
+  - Pre-Authorization
+  - Precertification
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Intermediate
+definition: Approval the health plan must give before certain services or drugs are covered.
+example: An MRI requires prior authorization.
+whereYoullSeeIt:
+  - Claims system
+  - Explanation of benefits
+relatedTerms:
+  - utilization-review
+  - medical-necessity
+usNotes: Many states and CMS have added rules to speed up prior authorization decisions.
+meta:
+  source: editorial

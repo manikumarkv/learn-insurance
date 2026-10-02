@@ -1,0 +1,18 @@
+term: Risk Transfer
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Shifting the financial cost of a risk to someone else, usually an insurer or through a contract.
+example: A contractor makes subcontractors carry insurance and name it as additional insured.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - risk-management
+  - hold-harmless-agreement
+  - insurance
+meta:
+  source: editorial

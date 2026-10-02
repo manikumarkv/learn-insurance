@@ -1,0 +1,16 @@
+term: Data Call
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A request by a regulator for specific data from insurers.
+example: A state asks all insurers for wildfire non-renewal counts.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - statistical-reporting
+meta:
+  source: editorial

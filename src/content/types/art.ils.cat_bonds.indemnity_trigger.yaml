@@ -1,0 +1,5 @@
+name: Indemnity Trigger
+parent: art.ils.cat_bonds
+description: Pays based on the sponsor's actual losses.
+example: The bond pays when the insurer's hurricane losses exceed $1 billion.
+segment: Commercial

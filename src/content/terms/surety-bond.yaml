@@ -1,0 +1,23 @@
+term: Surety Bond
+contentStatus: basic
+alsoKnownAs:
+  - Bond
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A three-party guarantee that one party (the principal) will fulfill an obligation to another (the obligee); if not, the surety pays and seeks repayment from the principal.
+example: A contractor's performance bond guarantees completion of a school.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - principal
+  - obligee
+  - surety
+  - performance-bond
+  - indemnity-agreement
+usNotes: Treasury Circular 570 lists sureties approved for federal bonds.
+meta:
+  source: editorial

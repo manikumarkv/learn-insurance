@@ -1,0 +1,18 @@
+term: Underinsured Motorist Coverage
+contentStatus: basic
+abbreviation: UIM
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Pays when the at-fault driver's insurance isn't enough to cover your injuries.
+example: The other driver has $25,000 limits; your UIM covers the rest.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - uninsured-motorist-coverage
+meta:
+  source: editorial

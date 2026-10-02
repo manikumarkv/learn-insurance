@@ -1,0 +1,19 @@
+term: Principal
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: In surety, the party whose performance is guaranteed by the bond.
+example: The contractor is the principal on a performance bond.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+  - obligee
+  - surety
+meta:
+  source: editorial

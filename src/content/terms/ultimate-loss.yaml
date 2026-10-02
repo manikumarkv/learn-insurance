@@ -1,0 +1,18 @@
+term: Ultimate Loss
+contentStatus: basic
+alsoKnownAs:
+  - Ultimate
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The final total cost of all claims for a period once every claim is closed.
+example: Estimated ultimate losses of $80M for accident year 2024.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development-factor
+  - incurred-but-not-reported
+meta:
+  source: editorial

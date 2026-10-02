@@ -1,0 +1,18 @@
+term: Reciprocal Insurance Exchange
+contentStatus: basic
+alsoKnownAs:
+  - Reciprocal
+  - Interinsurance Exchange
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An unincorporated group of members who insure each other, managed by an attorney-in-fact.
+example: USAA and Erie Insurance Exchange are reciprocals.
+whereYoullSeeIt: []
+relatedTerms:
+  - attorney-in-fact
+  - mutual-insurance-company
+meta:
+  source: editorial

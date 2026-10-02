@@ -1,0 +1,5 @@
+name: Personal Liability
+parent: casualty
+description: Liability cover for individuals and families for accidents in daily life.
+example: A dog bites a neighbor and the owner's policy pays the medical bills.
+segment: Personal

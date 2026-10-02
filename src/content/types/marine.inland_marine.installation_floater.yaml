@@ -1,0 +1,5 @@
+name: Installation Floater
+parent: marine.inland_marine
+description: Covers materials being installed at a job site until the job is accepted.
+example: HVAC units awaiting installation are stolen from a site.
+segment: Commercial

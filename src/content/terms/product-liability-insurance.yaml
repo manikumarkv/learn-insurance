@@ -1,0 +1,19 @@
+term: Product Liability Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers claims that a product you made or sold caused injury or damage.
+example: A defective toaster starts a kitchen fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - products-completed-operations
+  - product-recall-insurance
+  - strict-liability
+meta:
+  source: editorial

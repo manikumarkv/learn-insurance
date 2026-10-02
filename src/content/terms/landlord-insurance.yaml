@@ -1,0 +1,18 @@
+term: Landlord Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Rental Property Insurance
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance for owners who rent out property, covering the building, liability and lost rent.
+example: A landlord's policy pays lost rent after a fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dwelling-fire-policy
+  - fair-rental-value
+meta:
+  source: editorial

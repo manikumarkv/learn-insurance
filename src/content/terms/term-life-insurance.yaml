@@ -1,0 +1,19 @@
+term: Term Life Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Term Insurance
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: Life insurance that covers you for a set period, like 10, 20 or 30 years, and pays only if you die during that time.
+example: A 20-year $500,000 term policy for a young parent.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - permanent-life-insurance
+  - level-term
+  - convertible-term
+meta:
+  source: editorial

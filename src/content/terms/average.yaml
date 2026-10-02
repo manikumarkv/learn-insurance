@@ -1,0 +1,21 @@
+term: Average
+contentStatus: basic
+alsoKnownAs:
+  - Condition of Average
+category: Policy Wording
+lines:
+  - property
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: A clause, similar to coinsurance, that cuts claim payments proportionally when property is underinsured.
+example: Marine cargo underinsured by half receives half of the loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - coinsurance-clause
+  - underinsurance
+  - general-average
+usNotes: Common in marine and London-market wordings used in the US.
+meta:
+  source: editorial

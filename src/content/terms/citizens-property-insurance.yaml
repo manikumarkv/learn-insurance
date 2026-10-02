@@ -1,0 +1,19 @@
+term: Citizens Property Insurance Corporation
+contentStatus: basic
+alsoKnownAs:
+  - Citizens
+category: Regulation
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Florida's state-created, not-for-profit insurer of last resort for property.
+example: A Florida homeowner is placed with Citizens after private insurers leave.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - fair-access-to-insurance-requirements-plan
+  - residual-market
+usNotes: Similar state entities exist in Louisiana; Texas has TWIA for wind.
+meta:
+  source: editorial

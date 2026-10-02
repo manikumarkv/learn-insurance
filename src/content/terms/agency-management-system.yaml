@@ -1,0 +1,18 @@
+term: Agency Management System
+contentStatus: basic
+abbreviation: AMS
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software agencies use to manage clients, policies, commissions and documents.
+example: An agency uses Applied Epic or Vertafore AMS360.
+whereYoullSeeIt: []
+relatedTerms:
+  - association-for-cooperative-operations-research-and-development
+  - comparative-rater
+meta:
+  source: editorial

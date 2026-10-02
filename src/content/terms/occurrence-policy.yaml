@@ -1,0 +1,18 @@
+term: Occurrence Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A policy that covers injury or damage that happens during the policy period, no matter when the claim is made.
+example: A 2020 occurrence policy covers a 2020 injury even if the lawsuit comes in 2025.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - claims-made-policy
+  - occurrence
+meta:
+  source: editorial

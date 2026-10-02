@@ -1,0 +1,16 @@
+term: Vision Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage for eye exams, glasses and contact lenses.
+example: A $10 eye exam and $150 allowance for frames.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dental-insurance
+meta:
+  source: editorial

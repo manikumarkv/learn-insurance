@@ -1,0 +1,20 @@
+term: Allowed Amount
+contentStatus: basic
+alsoKnownAs:
+  - Eligible Expense
+  - Negotiated Rate
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The maximum amount a plan will pay for a covered service, often a negotiated rate with in-network providers.
+example: A doctor bills $300; the allowed amount is $180.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - balance-billing
+  - explanation-of-benefits
+  - usual-customary-reasonable
+meta:
+  source: editorial

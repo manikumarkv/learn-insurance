@@ -1,0 +1,17 @@
+term: Drug Tier
+contentStatus: basic
+alsoKnownAs:
+  - Tier
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Levels in a formulary with different cost sharing, such as generic, preferred brand and specialty.
+example: Tier 1 generics cost $10; tier 4 specialty drugs cost 30%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - formulary
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Depreciation
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: The loss in value of property over time due to age, wear and obsolescence.
+example: A 10-year-old roof has lost much of its value to depreciation.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - actual-cash-value
+  - replacement-cost
+  - recoverable-depreciation
+meta:
+  source: editorial

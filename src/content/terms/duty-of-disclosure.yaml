@@ -1,0 +1,19 @@
+term: Duty of Disclosure
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Your obligation to tell the insurer about important facts when applying for or renewing insurance.
+example: You must disclose a recent heart surgery on a life insurance application.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - utmost-good-faith
+  - material-fact
+  - concealment
+usNotes: In the US the duty is usually limited to answering the application's questions truthfully, except in marine insurance.
+meta:
+  source: editorial

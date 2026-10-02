@@ -1,0 +1,20 @@
+term: Automated Property Loss Underwriting System Report
+contentStatus: basic
+abbreviation: A-PLUS Report
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A Verisk database report of past property and auto claims, similar to CLUE.
+example: An underwriter checks A-PLUS for prior losses.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - comprehensive-loss-underwriting-exchange-report
+  - loss-history
+meta:
+  source: editorial

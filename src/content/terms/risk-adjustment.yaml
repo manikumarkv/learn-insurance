@@ -1,0 +1,18 @@
+term: Risk Adjustment
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A program that moves money from health plans with healthier members to plans with sicker members.
+example: A plan with many diabetic enrollees receives risk adjustment payments.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - affordable-care-act
+  - hierarchical-condition-categories
+usNotes: Used in ACA markets and Medicare Advantage.
+meta:
+  source: editorial

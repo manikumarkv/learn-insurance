@@ -1,0 +1,19 @@
+term: Payout Option
+contentStatus: basic
+alsoKnownAs:
+  - Settlement Option
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The way annuity or life benefits are paid, such as life only, period certain or lump sum.
+example: A 'life with 10 years certain' payout.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuitization
+  - life-only-annuity
+  - period-certain
+meta:
+  source: editorial

@@ -1,0 +1,24 @@
+term: Personal Auto Policy
+contentStatus: basic
+abbreviation: PAP
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Car Insurance
+  - Auto Insurance
+category: Line-Specific
+lines:
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: A policy covering your car and your liability for accidents.
+example: A policy for two cars and three drivers.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - bodily-injury-liability
+  - property-damage-liability
+  - collision-coverage
+  - comprehensive-coverage
+usNotes: Most states require minimum liability limits; New Hampshire doesn't mandate insurance for most drivers.
+meta:
+  source: editorial

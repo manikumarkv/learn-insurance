@@ -1,0 +1,6 @@
+name: Monopolistic State Funds
+parent: casualty.workers_comp
+description: In four states, employers must buy workers' comp from the state fund rather than private insurers.
+example: An Ohio employer buys cover from the Ohio Bureau of Workers' Compensation.
+segment: Commercial
+usNotes: Ohio, Washington, North Dakota and Wyoming. Employers there buy "stop gap" employers' liability separately.

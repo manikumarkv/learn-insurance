@@ -1,0 +1,21 @@
+term: International Classification of Diseases, 10th Revision
+contentStatus: basic
+abbreviation: ICD-10
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The code set used to record diagnoses on health claims.
+example: E11.9 is the code for type 2 diabetes without complications.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - current-procedural-terminology-code
+  - claim-adjudication
+usNotes: US uses ICD-10-CM (diagnoses) and ICD-10-PCS (inpatient procedures).
+meta:
+  source: editorial

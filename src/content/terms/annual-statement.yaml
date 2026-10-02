@@ -1,0 +1,21 @@
+term: Annual Statement
+contentStatus: basic
+alsoKnownAs:
+  - Yellow Book
+  - Blue Book
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The detailed yearly financial report each insurer files with regulators using NAIC formats.
+example: The annual statement includes Schedule P for reserves.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - statutory-accounting-principles
+  - schedule-p
+usNotes: P&C statements are called the Yellow Book; life statements the Blue Book.
+meta:
+  source: editorial

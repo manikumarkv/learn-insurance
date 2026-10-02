@@ -1,0 +1,21 @@
+term: Excess of Loss
+contentStatus: basic
+abbreviation: XOL
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - XL
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Reinsurance that pays when a loss exceeds the insurer's retention, up to a limit.
+example: "$10M xs $5M: reinsurer pays losses between $5M and $15M."
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - non-proportional-reinsurance
+  - catastrophe-excess-of-loss
+  - per-risk-excess
+meta:
+  source: editorial

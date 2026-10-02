@@ -1,0 +1,5 @@
+name: By Contract Method
+parent: reinsurance
+description: Reinsurance is arranged either for a whole portfolio automatically (treaty) or one risk at a time (facultative).
+example: An insurer uses a treaty for all its homes and facultative cover for one skyscraper.
+segment: Commercial

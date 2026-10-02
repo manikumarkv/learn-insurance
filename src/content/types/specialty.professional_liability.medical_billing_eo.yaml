@@ -1,0 +1,6 @@
+name: Medical Billing E&O
+parent: specialty.professional_liability
+alsoKnownAs: Billing errors and omissions; Regulatory billing E&O
+description: Covers medical billers and healthcare providers for coding and billing mistakes, including the cost of defending billing audits by government or private payers.
+example: A billing company submits claims to the wrong insurer and the clinic sues it for lost revenue.
+segment: Commercial

@@ -1,0 +1,25 @@
+term: Surplus Lines
+contentStatus: basic
+alsoKnownAs:
+  - Excess and Surplus Lines
+  - E&S
+category: Regulation
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance for risks the standard admitted market won't cover, placed with non-admitted insurers.
+example: A fireworks manufacturer buys GL in the E&S market.
+whereYoullSeeIt:
+  - Regulatory filings
+  - Agent/broker communications
+relatedTerms:
+  - non-admitted-insurer
+  - surplus-lines-broker
+  - diligent-search
+usNotes: The Nonadmitted and Reinsurance Reform Act (NRRA, 2010) gives the insured's home state sole authority to regulate the placement and to collect the premium tax.
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Mortgage Insurance
+parent: financial
+description: Protects a mortgage lender if the borrower defaults; the borrower usually pays for it.
+example: A buyer with a 10% down payment pays monthly mortgage insurance.
+segment: Personal

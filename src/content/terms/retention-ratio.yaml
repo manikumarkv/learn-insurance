@@ -1,0 +1,18 @@
+term: Retention Ratio
+contentStatus: basic
+alsoKnownAs:
+  - Renewal Retention
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The percentage of policies that renew.
+example: An 87% retention ratio means 13% of customers left.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - renewal
+  - new-business
+meta:
+  source: editorial

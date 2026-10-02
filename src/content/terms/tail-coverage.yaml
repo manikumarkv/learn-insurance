@@ -1,0 +1,19 @@
+term: Tail Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Tail
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Another name for an extended reporting period, bought when a claims-made policy ends.
+example: A physician leaving a practice buys tail coverage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - extended-reporting-period
+  - nose-coverage
+meta:
+  source: editorial

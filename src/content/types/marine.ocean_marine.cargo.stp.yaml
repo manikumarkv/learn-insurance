@@ -1,0 +1,5 @@
+name: Stock Throughput (STP)
+parent: marine.ocean_marine.cargo
+description: Covers goods from raw material through storage and transit to final delivery in one policy.
+example: A retailer's stock is covered from supplier warehouse to store shelf.
+segment: Commercial

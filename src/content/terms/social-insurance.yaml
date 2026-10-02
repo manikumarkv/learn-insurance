@@ -1,0 +1,17 @@
+term: Social Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - social
+usageFrequency: Low
+difficulty: Beginner
+definition: Government insurance programs funded by payroll taxes or contributions, like Social Security, Medicare and unemployment insurance.
+example: Payroll taxes fund Social Security.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare
+  - social-security-disability
+  - unemployment-insurance
+meta:
+  source: editorial

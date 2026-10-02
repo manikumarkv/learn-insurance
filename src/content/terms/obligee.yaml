@@ -1,0 +1,18 @@
+term: Obligee
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The party protected by a surety bond.
+example: The city is the obligee on a road construction bond.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+  - principal
+meta:
+  source: editorial

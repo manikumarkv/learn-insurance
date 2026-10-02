@@ -1,0 +1,22 @@
+term: Evidence of Property Insurance
+contentStatus: basic
+abbreviation: EOI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - ACORD 27
+  - ACORD 28
+category: Distribution
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A document proving property insurance, often requested by lenders.
+example: A mortgage lender asks for evidence of property insurance.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - certificate-of-insurance
+  - mortgagee-clause
+meta:
+  source: editorial

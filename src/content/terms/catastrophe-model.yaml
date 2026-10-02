@@ -1,0 +1,24 @@
+term: Catastrophe Model
+contentStatus: basic
+alsoKnownAs:
+  - Cat Model
+category: Finance & Actuarial
+lines:
+  - property
+  - commercial
+  - agriculture
+  - reinsurance
+usageFrequency: Medium
+difficulty: Advanced
+definition: Software that simulates thousands of possible disasters to estimate potential losses.
+example: A hurricane model estimates a 1-in-100-year loss of $500M.
+whereYoullSeeIt:
+  - Financial statements
+  - Underwriting system
+relatedTerms:
+  - probable-maximum-loss
+  - catastrophe
+  - exceedance-probability
+usNotes: Florida reviews hurricane models through its Commission on Hurricane Loss Projection Methodology.
+meta:
+  source: editorial

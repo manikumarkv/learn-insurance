@@ -1,0 +1,18 @@
+term: Program Business
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Insurance for a specific niche class, like dentists or landscapers, managed by an MGA under a carrier's paper.
+example: A program insuring 5,000 craft breweries.
+whereYoullSeeIt: []
+relatedTerms:
+  - managing-general-agent
+  - program-administrator
+meta:
+  source: editorial

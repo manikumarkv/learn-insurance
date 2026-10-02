@@ -1,0 +1,19 @@
+term: Immediate Annuity
+contentStatus: basic
+alsoKnownAs:
+  - SPIA
+  - Single Premium Immediate Annuity
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An annuity bought with a lump sum that starts paying income within a year.
+example: A retiree buys a SPIA for $200,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuity
+  - deferred-annuity
+meta:
+  source: editorial

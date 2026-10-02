@@ -1,0 +1,7 @@
+name: Any-Occupation Definition
+parent: health.disability.ltd
+alsoKnownAs: Any occ
+description: Pays only if you can't do any job you're reasonably suited for by education and experience; cheaper but harder to claim.
+example: Benefits stop because the person could still do desk work.
+segment: Both
+usNotes: Group LTD often switches from own-occ to any-occ after 24 months.

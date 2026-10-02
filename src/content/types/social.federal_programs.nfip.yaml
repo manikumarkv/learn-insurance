@@ -1,0 +1,6 @@
+name: National Flood Insurance Program
+parent: social.federal_programs
+alsoKnownAs: NFIP
+description: Federal flood insurance run by FEMA.
+example: A homeowner in a FEMA flood zone buys an NFIP policy through their agent.
+segment: Both

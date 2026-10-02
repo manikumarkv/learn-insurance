@@ -1,0 +1,18 @@
+term: In Force
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A policy that is currently active and providing coverage.
+example: Your policy is in force until next March.
+whereYoullSeeIt:
+  - Policy administration system
+  - Declarations page
+relatedTerms:
+  - policy-status
+  - lapse
+meta:
+  source: editorial

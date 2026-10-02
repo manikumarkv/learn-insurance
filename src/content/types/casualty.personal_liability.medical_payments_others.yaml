@@ -1,0 +1,7 @@
+name: Medical Payments to Others (Coverage F)
+parent: casualty.personal_liability
+alsoKnownAs: MedPay
+description: Pays small medical bills of guests injured on your property regardless of fault, to avoid lawsuits.
+example: A visiting child's stitches after a fall are paid.
+segment: Personal
+usNotes: Typical limits $1,000-$5,000.

@@ -1,0 +1,6 @@
+name: NCUA Share Insurance
+parent: social.federal_programs
+alsoKnownAs: NCUSIF
+description: Protects credit union deposits up to $250,000 per member, per institution, per ownership category.
+example: Members are repaid when a credit union fails.
+segment: Personal

@@ -1,0 +1,5 @@
+name: Other Federal Insurance Programs
+parent: social
+description: Insurance programs run or backed by federal agencies.
+example: A bank depositor's money is protected by FDIC insurance.
+segment: Both

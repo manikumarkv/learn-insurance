@@ -1,0 +1,20 @@
+term: Underwriting Year
+contentStatus: basic
+alsoKnownAs:
+  - Year of Account
+category: Reinsurance
+lines:
+  - marine
+  - specialty
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The year a reinsurance or London-style contract incepts; all its results are grouped to that year.
+example: Lloyd's syndicates close years of account after three years.
+whereYoullSeeIt:
+  - Financial statements
+  - Reinsurance contract
+relatedTerms:
+  - policy-year
+meta:
+  source: editorial

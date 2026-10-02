@@ -1,0 +1,21 @@
+term: Diligent Search
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: A requirement that a broker first try admitted insurers (often three declinations) before placing in surplus lines.
+example: A broker documents three admitted carriers declined the risk.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - surplus-lines
+  - surplus-lines-broker
+usNotes: Details vary by state; some states have 'export lists' that waive it.
+meta:
+  source: editorial

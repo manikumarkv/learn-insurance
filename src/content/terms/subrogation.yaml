@@ -1,0 +1,21 @@
+term: Subrogation
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: After paying your claim, the insurer takes over your right to recover the money from whoever caused the loss.
+example: Your insurer pays for your car after someone rear-ends you, then sues the other driver's insurer to get its money back.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - waiver-of-subrogation
+  - indemnity
+  - recovery
+  - salvage
+usNotes: Some states have 'made-whole' rules that limit health insurer subrogation until you are fully compensated.
+meta:
+  source: editorial

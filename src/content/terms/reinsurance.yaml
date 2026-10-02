@@ -1,0 +1,21 @@
+term: Reinsurance
+contentStatus: basic
+alsoKnownAs:
+  - Insurance for Insurers
+category: Reinsurance
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance bought by insurers to protect themselves against large or numerous losses.
+example: A Florida home insurer buys reinsurance for hurricane losses above $50M.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - ceding-company
+  - reinsurer
+  - treaty-reinsurance
+  - facultative-reinsurance
+usNotes: US reinsurers are licensed and supervised by their home state like other insurers; non-US reinsurers are regulated mainly indirectly, through the credit-for-reinsurance rules that apply to the ceding insurer.
+meta:
+  source: editorial

@@ -1,0 +1,22 @@
+term: Directors and Officers Liability
+contentStatus: basic
+abbreviation: D&O
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers directors and officers against claims alleging wrongful acts in managing the company, and the company itself in some cases.
+example: Shareholders sue the board over a failed merger.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - side-a
+  - side-b
+  - side-c
+  - wrongful-act
+  - claims-made-policy
+meta:
+  source: editorial

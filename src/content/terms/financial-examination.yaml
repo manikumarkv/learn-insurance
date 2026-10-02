@@ -1,0 +1,17 @@
+term: Financial Examination
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A periodic regulatory audit of an insurer's financial condition, usually every 3–5 years.
+example: The domiciliary state examines an insurer's reserves.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - market-conduct-examination
+  - solvency
+meta:
+  source: editorial

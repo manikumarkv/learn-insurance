@@ -1,0 +1,7 @@
+name: Financial Institution Bond
+parent: financial.fidelity
+alsoKnownAs: Bankers blanket bond
+description: Crime cover designed for banks, credit unions and brokerages.
+example: A bank teller's theft is covered.
+segment: Commercial
+usNotes: Standard forms from the Surety & Fidelity Association of America (SFAA). Credit unions must carry it under NCUA rules.

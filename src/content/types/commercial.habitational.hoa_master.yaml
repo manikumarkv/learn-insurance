@@ -1,0 +1,7 @@
+name: Condo / HOA Master Policy
+parent: commercial.habitational
+alsoKnownAs: Association policy
+description: Covers a condo or HOA's common property, buildings and liability.
+example: An HOA insures the building shell, lobby and pool.
+segment: Commercial
+usNotes: Coverage scope ("bare walls" vs "all-in") depends on state law and association documents.

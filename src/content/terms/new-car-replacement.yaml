@@ -1,0 +1,17 @@
+term: New Car Replacement
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Beginner
+definition: Pays to replace a totaled new car with a brand new one instead of its depreciated value.
+example: Your 1-year-old car is replaced with a new model.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - total-loss
+  - gap-insurance
+meta:
+  source: editorial

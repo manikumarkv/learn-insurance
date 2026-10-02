@@ -1,0 +1,21 @@
+term: Premium Audit
+contentStatus: basic
+alsoKnownAs:
+  - Audit
+category: Lifecycle
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A review after the policy ends of the insured's actual exposures, such as payroll or sales, to calculate the final premium.
+example: An audit finds payroll was higher than estimated, so you owe more premium.
+whereYoullSeeIt:
+  - Billing statement
+  - Policy administration system
+relatedTerms:
+  - deposit-premium
+  - rating-basis
+  - auditable-policy
+meta:
+  source: editorial

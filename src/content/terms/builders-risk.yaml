@@ -1,0 +1,19 @@
+term: Builders Risk
+contentStatus: basic
+alsoKnownAs:
+  - Course of Construction
+category: Line-Specific
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers buildings under construction against damage like fire, theft and wind.
+example: Covers a half-built apartment building damaged by fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inland-marine-insurance
+  - commercial-property-insurance
+meta:
+  source: editorial

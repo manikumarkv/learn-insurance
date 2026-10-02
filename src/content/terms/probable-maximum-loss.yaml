@@ -1,0 +1,24 @@
+term: Probable Maximum Loss
+contentStatus: basic
+abbreviation: PML
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - commercial
+  - marine
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: An estimate of the largest loss likely from a single event at a given probability.
+example: A 1-in-250-year PML of $1B for earthquake.
+whereYoullSeeIt:
+  - Financial statements
+  - Underwriting system
+relatedTerms:
+  - catastrophe-model
+  - exceedance-probability
+  - maximum-foreseeable-loss
+meta:
+  source: editorial

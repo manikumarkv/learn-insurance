@@ -1,0 +1,19 @@
+term: Insolvency
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: When an insurer cannot pay its debts, including claims.
+example: A Florida homeowners insurer becomes insolvent after hurricanes.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - guaranty-fund
+  - receivership
+  - risk-based-capital
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Performance Bond
+parent: financial.surety.contract
+description: Guarantees the contractor will complete the project according to the contract.
+example: The surety hires a new contractor after the original one fails.
+segment: Commercial

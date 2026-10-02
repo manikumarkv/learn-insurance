@@ -1,0 +1,7 @@
+name: Protection & Indemnity (P&I)
+parent: marine.ocean_marine.marine_liability
+alsoKnownAs: P&I club cover
+description: Covers shipowners' third-party liabilities such as crew injury, cargo damage, pollution and wreck removal, often through mutual P&I clubs.
+example: A shipowner's P&I pays for cleaning up a fuel spill.
+segment: Commercial
+usNotes: Vessels in US waters must show financial responsibility under the Oil Pollution Act of 1990 (OPA 90).

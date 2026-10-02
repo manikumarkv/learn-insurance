@@ -1,0 +1,5 @@
+name: Basic Form
+parent: commercial.commercial_property.causes_of_loss
+description: A short named-peril list such as fire, lightning, explosion, windstorm, smoke, riot and vandalism.
+example: A low-budget policy for a vacant building.
+segment: Commercial

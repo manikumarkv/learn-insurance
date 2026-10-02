@@ -1,0 +1,5 @@
+name: Accounts Receivable
+parent: marine.inland_marine
+description: Pays amounts you can't collect because records of who owes you were destroyed.
+example: A fire destroys billing records and unpaid invoices are covered.
+segment: Commercial

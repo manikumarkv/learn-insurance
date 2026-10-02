@@ -1,0 +1,18 @@
+term: Rebating
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Giving a customer part of the commission or something of value to get them to buy a policy.
+example: An agent offers $200 cash back to buy a policy.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - unfair-trade-practices
+  - commission
+usNotes: Illegal or restricted in most states, though many now allow small gifts or value-added services.
+meta:
+  source: editorial

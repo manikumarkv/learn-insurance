@@ -1,0 +1,21 @@
+term: Non-Admitted Insurer
+contentStatus: basic
+alsoKnownAs:
+  - Surplus Lines Insurer
+  - E&S Carrier
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer not licensed in a state but allowed to write coverage there through surplus lines brokers, with more freedom on rates and forms.
+example: A hard-to-place coastal property risk goes to a non-admitted insurer.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - admitted-insurer
+  - surplus-lines
+  - surplus-lines-broker
+usNotes: Not backed by state guaranty funds in most states.
+meta:
+  source: editorial

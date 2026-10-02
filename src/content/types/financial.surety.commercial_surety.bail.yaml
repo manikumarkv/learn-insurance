@@ -1,0 +1,6 @@
+name: Bail Bonds
+parent: financial.surety.commercial_surety
+description: Guarantees a defendant will appear in court; usually arranged by a bail bond agent for a non-refundable fee.
+example: A defendant's family pays a bail agent 10% of the bail amount.
+segment: Personal
+usNotes: Commercial bail bonds are banned or restricted in some states (e.g. Illinois, Kentucky, Oregon, Wisconsin).

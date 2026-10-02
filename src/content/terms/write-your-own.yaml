@@ -1,0 +1,18 @@
+term: Write Your Own Program
+contentStatus: basic
+abbreviation: WYO
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Distribution
+lines:
+  - property
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: An NFIP arrangement where private insurers sell and service federal flood policies under their own name.
+example: Your auto insurer also issues your NFIP flood policy.
+whereYoullSeeIt: []
+relatedTerms:
+  - national-flood-insurance-program
+meta:
+  source: editorial

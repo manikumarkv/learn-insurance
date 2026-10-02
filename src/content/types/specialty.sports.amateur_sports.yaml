@@ -1,0 +1,6 @@
+name: Amateur Sports Insurance
+parent: specialty.sports
+alsoKnownAs: Youth sports insurance; League insurance
+description: Package of liability and participant accident cover for amateur teams, leagues, camps and clubs.
+example: A youth soccer league buys cover for coaches, volunteers and players' accident medical bills.
+segment: Commercial

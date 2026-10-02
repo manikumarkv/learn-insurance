@@ -1,0 +1,18 @@
+term: Return of Premium Term
+contentStatus: basic
+abbreviation: ROP Term
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Term life that refunds premiums paid if you outlive the term, at a higher price.
+example: After 20 years you get back all your premiums.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - term-life-insurance
+meta:
+  source: editorial

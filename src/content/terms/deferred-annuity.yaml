@@ -1,0 +1,18 @@
+term: Deferred Annuity
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An annuity that grows tax-deferred for years before income payments begin.
+example: You fund a deferred annuity at 50 and take income at 65.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuity
+  - immediate-annuity
+  - accumulation-phase
+meta:
+  source: editorial

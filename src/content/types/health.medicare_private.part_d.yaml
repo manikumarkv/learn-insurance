@@ -1,0 +1,7 @@
+name: Medicare Part D (Prescription Drug Plan)
+parent: health.medicare_private
+alsoKnownAs: PDP
+description: Standalone private plans that cover prescription drugs for people on Original Medicare.
+example: A retiree with Original Medicare adds a Part D plan for their medications.
+segment: Personal
+usNotes: The Inflation Reduction Act capped Part D out-of-pocket drug spending at $2,000 in 2025; the cap is indexed and is $2,100 in 2026.

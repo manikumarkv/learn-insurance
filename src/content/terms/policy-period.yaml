@@ -1,0 +1,19 @@
+term: Policy Period
+contentStatus: basic
+alsoKnownAs:
+  - Policy Term
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The time span during which the policy is in force, from the effective date to the expiration date.
+example: 12:01 a.m. January 1 to 12:01 a.m. January 1 next year.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - effective-date
+  - expiration-date
+  - renewal
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Hurricane Deductible
+contentStatus: basic
+alsoKnownAs:
+  - Named Storm Deductible
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A special, usually percentage-based, deductible that applies to hurricane damage.
+example: A 5% hurricane deductible applies when a named storm damages your Florida home.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - percentage-deductible
+  - deductible
+usNotes: Used in about 19 coastal states and D.C.; each state sets its own trigger rules.
+meta:
+  source: editorial

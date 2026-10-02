@@ -1,0 +1,17 @@
+term: Staff Adjuster
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: An adjuster employed directly by the insurer.
+example: The insurer's own adjuster handles your auto claim.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claims-adjuster
+  - independent-adjuster
+meta:
+  source: editorial

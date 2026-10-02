@@ -1,0 +1,18 @@
+term: Expense Load
+contentStatus: basic
+alsoKnownAs:
+  - Loading
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The amount added to the pure premium to cover expenses, taxes and profit.
+example: A $300 pure premium with a 30% expense load.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - pure-premium
+  - loss-cost
+meta:
+  source: editorial

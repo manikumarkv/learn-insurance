@@ -1,0 +1,16 @@
+term: Purchasing Group
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - casualty
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: A group of similar businesses that buy liability insurance together to get better terms.
+example: A group of daycare centers jointly buying liability insurance.
+whereYoullSeeIt: []
+relatedTerms:
+  - risk-retention-group
+meta:
+  source: editorial

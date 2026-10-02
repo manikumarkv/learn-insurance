@@ -1,0 +1,19 @@
+term: EDI 837
+contentStatus: basic
+alsoKnownAs:
+  - X12 837
+category: Technology
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Advanced
+definition: The HIPAA standard electronic format for submitting health care claims.
+example: A clearinghouse transmits 837 files to insurers.
+whereYoullSeeIt:
+  - Data exchange/integration specs
+relatedTerms:
+  - edi-835
+  - cms-1500
+  - health-insurance-portability-and-accountability-act
+meta:
+  source: editorial

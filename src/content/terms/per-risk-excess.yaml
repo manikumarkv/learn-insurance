@@ -1,0 +1,17 @@
+term: Per Risk Excess of Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Excess of loss reinsurance that applies to each individual risk.
+example: Protects against a single large factory fire above $2M.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - excess-of-loss
+  - catastrophe-excess-of-loss
+meta:
+  source: editorial

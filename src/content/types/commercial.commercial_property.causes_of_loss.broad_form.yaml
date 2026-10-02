@@ -1,0 +1,5 @@
+name: Broad Form
+parent: commercial.commercial_property.causes_of_loss
+description: Adds falling objects, weight of snow and water damage to the basic list.
+example: A business picks broad form for more named perils.
+segment: Commercial

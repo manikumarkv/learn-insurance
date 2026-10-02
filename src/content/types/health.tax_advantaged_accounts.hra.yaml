@@ -1,0 +1,5 @@
+name: Health Reimbursement Arrangement (HRA)
+parent: health.tax_advantaged_accounts
+description: An employer-funded account that reimburses employees' medical costs.
+example: An employer reimburses up to $1,500 of deductible costs.
+segment: Commercial

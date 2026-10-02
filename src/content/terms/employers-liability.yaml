@@ -1,0 +1,20 @@
+term: Employers Liability
+contentStatus: basic
+abbreviation: EL
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Part Two
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Coverage for lawsuits by employees for work injuries not covered by workers' comp, bundled with WC policies.
+example: A spouse sues for loss of companionship after a worker's injury.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - workers-compensation-insurance
+meta:
+  source: editorial

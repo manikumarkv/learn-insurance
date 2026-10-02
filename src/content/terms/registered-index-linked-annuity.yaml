@@ -1,0 +1,21 @@
+term: Registered Index-Linked Annuity
+contentStatus: basic
+abbreviation: RILA
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Buffered Annuity
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: An annuity linked to an index that offers more upside than an FIA but shares losses beyond a buffer.
+example: A 10% buffer absorbs the first 10% of losses.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - fixed-indexed-annuity
+  - variable-annuity
+usNotes: SEC-registered product.
+meta:
+  source: editorial

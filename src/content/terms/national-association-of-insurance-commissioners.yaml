@@ -1,0 +1,20 @@
+term: National Association of Insurance Commissioners
+contentStatus: basic
+abbreviation: NAIC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The organization of US state insurance regulators that writes model laws and sets accounting and reporting standards.
+example: NAIC model laws guide how states regulate data security.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - state-department-of-insurance
+  - model-law
+  - statutory-accounting-principles
+meta:
+  source: editorial

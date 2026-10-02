@@ -1,0 +1,20 @@
+term: Indemnity
+contentStatus: basic
+alsoKnownAs:
+  - Principle of Indemnity
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The idea that insurance should put you back in the same financial position you were in before the loss, not make you better off.
+example: After a $10,000 fire loss you receive $10,000, not $15,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - actual-cash-value
+  - replacement-cost
+  - subrogation
+  - contribution
+meta:
+  source: editorial

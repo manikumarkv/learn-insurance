@@ -1,0 +1,7 @@
+name: Group & Business Life Insurance
+parent: life
+alsoKnownAs: Employee benefits
+description: Life and related covers bought by an employer for staff as part of a benefits package.
+example: A tech company offers life cover, disability cover and a retirement plan to all employees.
+segment: Commercial
+usNotes: Most employer benefit plans are governed by ERISA.

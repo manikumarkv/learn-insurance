@@ -1,0 +1,6 @@
+name: Network Business Interruption
+parent: specialty.cyber.cyber_first_party
+alsoKnownAs: Cyber BI
+description: Covers lost income while systems are down after an attack or, if included, a system failure.
+example: An online shop loses 3 days of sales during an attack.
+segment: Commercial

@@ -1,0 +1,17 @@
+term: Voidable Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A valid policy that one party may choose to cancel because of a problem, like a misrepresentation.
+example: The insurer may void the policy after discovering the applicant lied.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - void-policy
+  - rescission
+meta:
+  source: editorial

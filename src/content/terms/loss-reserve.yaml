@@ -1,0 +1,18 @@
+term: Loss Reserve
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Money set aside for claims that have happened but aren't paid yet, including unreported ones.
+example: An insurer holds $500M in loss reserves.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - claim-reserve
+  - incurred-but-not-reported
+  - reserves
+meta:
+  source: editorial

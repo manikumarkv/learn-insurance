@@ -1,0 +1,19 @@
+term: CMS-1500
+contentStatus: basic
+alsoKnownAs:
+  - HCFA-1500
+  - 837P
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The standard claim form (and its electronic 837P equivalent) used by doctors and other professionals to bill health plans.
+example: A clinic submits an 837P electronic claim.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - ub-04
+  - edi-837
+meta:
+  source: editorial

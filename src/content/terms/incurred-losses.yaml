@@ -1,0 +1,18 @@
+term: Incurred Losses
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Losses paid plus change in reserves during a period.
+example: Paid $40M, reserves up $10M, incurred $50M.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - total-incurred
+  - paid-losses
+  - loss-ratio
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Variable Universal Life (VUL)
+parent: life.permanent.universal
+description: Cash value is invested in sub-accounts similar to mutual funds, so it can grow or lose value.
+example: An investor comfortable with risk picks equity funds inside their life policy.
+segment: Personal
+usNotes: "Regulated as a security: sold with a prospectus by FINRA-registered representatives."

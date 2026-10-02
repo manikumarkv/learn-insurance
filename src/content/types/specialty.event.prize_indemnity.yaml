@@ -1,0 +1,5 @@
+name: Prize Indemnity / Hole-in-One
+parent: specialty.event
+description: Covers the cost of paying out a big prize in a promotion or contest.
+example: A golfer hits a hole-in-one and wins a car, paid by the insurer.
+segment: Commercial

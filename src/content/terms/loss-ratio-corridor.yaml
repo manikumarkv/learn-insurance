@@ -1,0 +1,18 @@
+term: Loss Ratio Corridor
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - health
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A range of loss ratio in which a reinsurer does not pay, so the cedent keeps those losses.
+example: Losses between 70% and 80% loss ratio stay with the cedent.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - quota-share
+  - aggregate-excess-of-loss
+meta:
+  source: editorial

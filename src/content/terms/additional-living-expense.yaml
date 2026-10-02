@@ -1,0 +1,19 @@
+term: Additional Living Expense
+contentStatus: basic
+abbreviation: ALE
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: The increase in living costs, such as rent and meals, after a covered loss forces you out of your home.
+example: Paying $2,000/month rent while your home is rebuilt.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - loss-of-use
+  - fair-rental-value
+meta:
+  source: editorial

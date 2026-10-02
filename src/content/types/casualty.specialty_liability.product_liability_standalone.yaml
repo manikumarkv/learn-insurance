@@ -1,0 +1,5 @@
+name: Standalone Products Liability
+parent: casualty.specialty_liability
+description: Products liability written separately for manufacturers and distributors with large product exposures.
+example: A medical device maker buys dedicated products cover.
+segment: Commercial

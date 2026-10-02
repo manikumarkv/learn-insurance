@@ -1,0 +1,17 @@
+term: Lead Generation
+contentStatus: basic
+alsoKnownAs:
+  - Leads
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Collecting information about potential customers and selling or passing it to agents or insurers.
+example: An agent buys internet leads for Medicare supplement shoppers.
+whereYoullSeeIt: []
+relatedTerms:
+  - aggregator
+usNotes: Telemarketing and TCPA rules affect lead use.
+meta:
+  source: editorial

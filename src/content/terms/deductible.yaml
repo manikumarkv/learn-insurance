@@ -1,0 +1,23 @@
+term: Deductible
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The amount of a covered loss you pay yourself before the insurer starts paying.
+example: A $500 deductible on a $3,000 car repair means you pay $500 and the insurer pays $2,500.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+  - Claim documents
+  - Explanation of benefits
+relatedTerms:
+  - self-insured-retention
+  - coinsurance-health
+  - out-of-pocket-maximum
+  - percentage-deductible
+usNotes: Health plans often have separate individual and family deductibles; hurricane deductibles in coastal states are often a percentage of the home's insured value.
+meta:
+  source: editorial

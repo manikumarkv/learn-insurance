@@ -1,0 +1,19 @@
+term: Employer-Sponsored Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Group Health Plan
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Health coverage offered by an employer to employees and families, usually with shared premium costs.
+example: Your employer pays 75% of your health premium.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - group-insurance
+  - employee-retirement-income-security-act
+  - consolidated-omnibus-budget-reconciliation-act
+meta:
+  source: editorial

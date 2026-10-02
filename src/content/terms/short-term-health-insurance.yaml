@@ -1,0 +1,20 @@
+term: Short-Term Health Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Short-Term Limited Duration Insurance
+  - STLDI
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Temporary health coverage that doesn't have to follow ACA rules and may exclude pre-existing conditions.
+example: A 3-month plan between jobs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - affordable-care-act
+  - pre-existing-condition
+usNotes: A 2024 federal rule limits new plans to a 3-month initial term and 4 months total, but in August 2025 the Departments of Labor, HHS and Treasury said they will not prioritize enforcing it while they write a new rule; state law often sets the real limit, and many states restrict or ban these plans.
+meta:
+  source: editorial

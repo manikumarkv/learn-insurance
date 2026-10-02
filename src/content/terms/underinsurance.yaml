@@ -1,0 +1,19 @@
+term: Underinsurance
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Having insurance limits lower than the true value of the property, which can reduce claim payments.
+example: A house worth $400,000 insured for $250,000 is underinsured.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - coinsurance-clause
+  - insurance-to-value
+  - average
+meta:
+  source: editorial

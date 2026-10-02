@@ -1,0 +1,5 @@
+name: Survivors Benefits
+parent: social.social_security
+description: Monthly payments to the widow(er), children or dependent parents of a deceased worker.
+example: A widow and two children receive monthly benefits after the father dies.
+segment: Personal

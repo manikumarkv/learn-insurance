@@ -1,0 +1,17 @@
+term: Financial Responsibility Law
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: State laws requiring drivers to prove they can pay for damage they cause, usually by carrying auto insurance.
+example: Driving without insurance can suspend your license.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - sr-22
+  - compulsory-insurance
+meta:
+  source: editorial

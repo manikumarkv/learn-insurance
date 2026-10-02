@@ -1,0 +1,19 @@
+term: Critical Illness Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Specified Disease Insurance
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance paying a lump sum if you're diagnosed with a covered serious illness like cancer, heart attack or stroke.
+example: You receive $20,000 after a cancer diagnosis.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hospital-indemnity-insurance
+  - accident-insurance
+usNotes: Treated as an 'excepted benefit' under federal law (exempt from ACA rules) when offered as independent, non-coordinated specified-disease coverage.
+meta:
+  source: editorial

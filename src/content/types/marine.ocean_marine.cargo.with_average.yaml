@@ -1,0 +1,5 @@
+name: With Average (WA)
+parent: marine.ocean_marine.cargo
+description: Named-peril cover that pays partial losses from perils like heavy weather once they exceed a small threshold.
+example: Bulk steel is insured on WA terms.
+segment: Commercial

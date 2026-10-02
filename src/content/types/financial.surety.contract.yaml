@@ -1,0 +1,6 @@
+name: Contract Surety
+parent: financial.surety
+alsoKnownAs: Construction bonds
+description: Bonds guaranteeing construction contracts.
+example: A contractor bonds a highway project.
+segment: Commercial

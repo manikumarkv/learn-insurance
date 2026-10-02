@@ -1,0 +1,20 @@
+term: Risk Management Agency
+contentStatus: basic
+abbreviation: RMA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - agriculture
+  - social
+usageFrequency: Low
+difficulty: Intermediate
+definition: The USDA agency that oversees the federal crop insurance program.
+example: RMA sets crop insurance prices and rules.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - federal-crop-insurance-corporation
+  - crop-insurance
+meta:
+  source: editorial

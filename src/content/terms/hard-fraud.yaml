@@ -1,0 +1,17 @@
+term: Hard Fraud
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Planning or inventing a loss on purpose to collect insurance.
+example: Burning your own house for the payout.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - insurance-fraud
+  - soft-fraud
+meta:
+  source: editorial

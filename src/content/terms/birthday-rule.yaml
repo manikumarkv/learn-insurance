@@ -1,0 +1,16 @@
+term: Birthday Rule
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: "A COB rule: for a child covered by both parents' plans, the plan of the parent whose birthday comes first in the year pays first."
+example: Mom's birthday is March 5, Dad's is July 9, so Mom's plan is primary.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - coordination-of-benefits
+meta:
+  source: editorial

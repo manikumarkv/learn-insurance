@@ -1,0 +1,21 @@
+term: Loss Cost
+contentStatus: basic
+alsoKnownAs:
+  - Pure Premium
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The part of the premium needed just to pay expected losses, before expenses and profit.
+example: Expected losses of $300 per car per year is the loss cost.
+whereYoullSeeIt:
+  - Rating engine
+  - Regulatory filings
+relatedTerms:
+  - pure-premium
+  - rate
+  - expense-load
+usNotes: In many states, advisory organizations like ISO file loss costs that insurers adjust with their own expenses.
+meta:
+  source: editorial

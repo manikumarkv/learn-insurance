@@ -1,0 +1,6 @@
+name: Federal Crop Insurance Corporation
+parent: social.federal_programs
+alsoKnownAs: FCIC
+description: Federal corporation that subsidizes and reinsures crop insurance.
+example: A private crop insurer is reimbursed by FCIC for part of a drought year's losses.
+segment: Commercial

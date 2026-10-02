@@ -1,0 +1,17 @@
+term: Securities Claim
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: A claim alleging violation of securities laws, such as misleading investors.
+example: Shareholders sue after the stock drops on restated earnings.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - side-c
+  - directors-and-officers-liability
+meta:
+  source: editorial

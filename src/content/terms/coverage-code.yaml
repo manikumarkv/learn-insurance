@@ -1,0 +1,17 @@
+term: Coverage Code
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A code systems use to identify a particular coverage in data and integrations.
+example: Code 'COLL' for collision coverage.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - product-model
+  - association-for-cooperative-operations-research-and-development
+meta:
+  source: editorial

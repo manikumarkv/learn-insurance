@@ -1,0 +1,7 @@
+name: Athlete Permanent Total Disability
+parent: specialty.sports
+alsoKnownAs: Loss of value
+description: Pays athletes if an injury ends their career or reduces their draft value.
+example: A college football star insures future pro earnings.
+segment: Personal
+usNotes: Some NCAA programs (Exceptional Student-Athlete Disability Insurance) help top athletes buy cover.

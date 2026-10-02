@@ -1,0 +1,18 @@
+term: Special Enrollment Period
+contentStatus: basic
+abbreviation: SEP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A time outside open enrollment when you can enroll because of a life event like losing coverage, marriage or having a baby.
+example: You have 60 days after losing job coverage to enroll.
+whereYoullSeeIt: []
+relatedTerms:
+  - open-enrollment-period
+  - qualifying-life-event
+meta:
+  source: editorial

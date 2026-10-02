@@ -1,0 +1,18 @@
+term: Per Capita
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Latin for 'by head'. The benefit is shared equally among surviving beneficiaries.
+example: Three surviving children split the benefit equally.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - per-stirpes
+  - beneficiary
+meta:
+  source: editorial

@@ -1,0 +1,22 @@
+term: Layer
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - property
+  - casualty
+  - financial
+  - reinsurance
+usageFrequency: Medium
+difficulty: Advanced
+definition: A slice of coverage between two amounts, often insured by different insurers in a tower.
+example: One insurer takes the $5M excess of $5M layer.
+whereYoullSeeIt:
+  - Reinsurance contract
+  - Agent/broker communications
+relatedTerms:
+  - excess-insurance
+  - tower
+  - attachment-point
+meta:
+  source: editorial

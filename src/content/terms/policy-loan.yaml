@@ -1,0 +1,18 @@
+term: Policy Loan
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A loan from the insurer using your policy's cash value as security.
+example: You borrow $10,000 from your whole life policy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cash-value
+  - automatic-premium-loan
+usNotes: Unpaid loans reduce the death benefit; loans on MECs may be taxable.
+meta:
+  source: editorial

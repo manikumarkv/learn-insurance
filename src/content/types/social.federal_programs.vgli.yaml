@@ -1,0 +1,5 @@
+name: Veterans' Group Life Insurance (VGLI)
+parent: social.federal_programs
+description: Renewable term life veterans can convert to from SGLI after leaving service.
+example: A veteran keeps $400,000 of cover after separation.
+segment: Personal

@@ -1,0 +1,23 @@
+term: Certificate of Insurance
+contentStatus: basic
+abbreviation: COI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - ACORD 25
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: A document proving a business has insurance, often required by clients or landlords. It does not change the policy.
+example: A contractor gives a COI to a homeowner before starting work.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - additional-insured
+  - acord-forms
+usNotes: Several states restrict altering standard certificate forms.
+meta:
+  source: editorial

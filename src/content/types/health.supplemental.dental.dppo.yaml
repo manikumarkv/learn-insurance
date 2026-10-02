@@ -1,0 +1,5 @@
+name: Dental PPO (DPPO)
+parent: health.supplemental.dental
+description: Dental plan with a network but some out-of-network coverage.
+example: An employee keeps their current dentist who is out of network.
+segment: Both

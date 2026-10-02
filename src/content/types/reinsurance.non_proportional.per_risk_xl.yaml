@@ -1,0 +1,5 @@
+name: Per Risk Excess of Loss
+parent: reinsurance.non_proportional
+description: Pays when a loss on a single risk exceeds the retention.
+example: A factory fire costs $8M; the reinsurer pays the amount above $2M.
+segment: Commercial

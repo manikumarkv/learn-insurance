@@ -1,0 +1,5 @@
+name: "Coverage B: Personal & Advertising Injury"
+parent: casualty.general_liability
+description: Covers claims like libel, slander, false arrest and copyright infringement in advertising.
+example: A competitor sues over a misleading ad.
+segment: Commercial

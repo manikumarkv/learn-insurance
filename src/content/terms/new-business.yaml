@@ -1,0 +1,18 @@
+term: New Business
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Policies written for customers who were not previously insured by that insurer.
+example: A spike in new business after a marketing campaign.
+whereYoullSeeIt:
+  - Policy administration system
+  - Financial statements
+relatedTerms:
+  - renewal
+  - retention-ratio
+meta:
+  source: editorial

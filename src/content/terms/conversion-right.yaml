@@ -1,0 +1,18 @@
+term: Conversion Right
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: The right to convert group coverage to an individual policy without proving good health.
+example: After leaving your job, you convert group life to individual whole life within 31 days.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - portability
+  - convertible-term
+meta:
+  source: editorial

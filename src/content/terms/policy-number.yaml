@@ -1,0 +1,17 @@
+term: Policy Number
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A unique identifier assigned to a policy.
+example: Policy number HO-1234567 on your ID card.
+whereYoullSeeIt:
+  - Declarations page
+  - Insurance ID card
+relatedTerms:
+  - policy-administration-system
+meta:
+  source: editorial

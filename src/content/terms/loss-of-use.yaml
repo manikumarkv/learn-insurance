@@ -1,0 +1,20 @@
+term: Loss of Use
+contentStatus: basic
+alsoKnownAs:
+  - Additional Living Expense
+  - ALE
+  - Coverage D
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage for extra costs of living elsewhere while your home is being repaired after a covered loss.
+example: The policy pays for a hotel while your fire-damaged house is fixed.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - additional-living-expense
+  - fair-rental-value
+meta:
+  source: editorial

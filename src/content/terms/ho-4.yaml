@@ -1,0 +1,19 @@
+term: HO-4
+contentStatus: basic
+alsoKnownAs:
+  - Renters Insurance
+  - Tenant Policy
+category: Line-Specific
+lines:
+  - property
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance for renters covering belongings, liability and additional living expense, but not the building.
+example: A renter's $20,000 policy for furniture and electronics.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - homeowners-insurance
+  - personal-property-coverage
+meta:
+  source: editorial

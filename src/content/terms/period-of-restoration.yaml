@@ -1,0 +1,18 @@
+term: Period of Restoration
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: The time from the damage until the property should reasonably be repaired, during which business income is paid.
+example: Rebuilding takes 5 months, so income is paid for 5 months.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - business-interruption-insurance
+  - extended-period-of-indemnity
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Unfair Discrimination
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Charging different rates or treating people differently without a sound actuarial basis, or based on protected traits like race.
+example: Pricing based on religion would be unfair discrimination.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - rating-factor
+  - unfair-trade-practices
+usNotes: Some states regulate AI and big data use in insurance, e.g., Colorado SB21-169.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Comprehensive (Other Than Collision)
+parent: auto.personal_auto.physical_damage
+alsoKnownAs: OTC; Comp
+description: Pays for damage to your car from non-crash events such as theft, hail, fire, flood, vandalism or hitting an animal.
+example: Hail dents a car's roof and the policy pays.
+segment: Personal

@@ -1,0 +1,20 @@
+term: Long-Term Disability Insurance
+contentStatus: basic
+abbreviation: LTD
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Disability insurance that pays for a long period, often to age 65, after a waiting period.
+example: Pays 60% of salary for years after a disabling stroke.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - disability-insurance
+  - elimination-period
+  - own-occupation
+meta:
+  source: editorial

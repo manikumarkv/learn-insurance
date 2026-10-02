@@ -1,0 +1,18 @@
+term: Fully Earned Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - commercial
+  - specialty
+usageFrequency: Medium
+difficulty: Advanced
+definition: A premium, or portion of it, that is not refunded if the policy is cancelled.
+example: Event cancellation premium is fully earned at inception.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - minimum-premium
+  - earned-premium
+meta:
+  source: editorial

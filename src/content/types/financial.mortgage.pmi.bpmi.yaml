@@ -1,0 +1,5 @@
+name: Borrower-Paid Monthly PMI
+parent: financial.mortgage.pmi
+description: Premium added to the monthly mortgage payment.
+example: A buyer pays $120 a month in PMI.
+segment: Personal

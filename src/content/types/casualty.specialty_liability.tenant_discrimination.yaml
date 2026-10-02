@@ -1,0 +1,7 @@
+name: Tenant Discrimination Liability
+parent: casualty.specialty_liability
+alsoKnownAs: Fair housing liability
+description: Covers landlords and property managers against claims that they discriminated against current, past or would-be tenants.
+example: An applicant who uses a wheelchair says an apartment manager refused to rent to her.
+segment: Commercial
+usNotes: Housing discrimination is barred by the federal Fair Housing Act (42 U.S.C. 3601 and following) and state and local laws.

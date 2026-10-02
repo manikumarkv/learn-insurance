@@ -1,0 +1,5 @@
+name: Confiscation, Expropriation & Nationalization (CEN)
+parent: specialty.political_risk
+description: Covers seizure of assets by a foreign government.
+example: A government nationalizes an oil field.
+segment: Commercial

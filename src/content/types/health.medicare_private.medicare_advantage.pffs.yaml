@@ -1,0 +1,5 @@
+name: Private Fee-for-Service (PFFS)
+parent: health.medicare_private.medicare_advantage
+description: A Medicare Advantage plan that sets its own payment terms with any provider willing to accept them.
+example: Rare today; available in a few rural areas.
+segment: Personal

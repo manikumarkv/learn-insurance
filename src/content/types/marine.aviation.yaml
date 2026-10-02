@@ -1,0 +1,6 @@
+name: Aviation Insurance
+parent: marine
+description: Covers aircraft, airports and aviation businesses against physical damage and liability.
+example: An airline insures its fleet against crashes and passenger claims.
+segment: Commercial
+usNotes: FAA and DOT set some financial responsibility rules (e.g. for air carriers).

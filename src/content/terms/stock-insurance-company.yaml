@@ -1,0 +1,15 @@
+term: Stock Insurance Company
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: An insurer owned by shareholders who expect profits.
+example: A publicly traded insurer like Allstate.
+whereYoullSeeIt: []
+relatedTerms:
+  - mutual-insurance-company
+meta:
+  source: editorial

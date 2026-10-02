@@ -1,0 +1,22 @@
+term: Errors and Omissions Insurance
+contentStatus: basic
+abbreviation: E&O
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Professional Liability
+  - PL
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: Covers professionals against claims that mistakes or negligence in their services caused a client financial loss.
+example: An architect's design error causes costly rework.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - professional-liability-insurance
+  - claims-made-policy
+  - wrongful-act
+meta:
+  source: editorial

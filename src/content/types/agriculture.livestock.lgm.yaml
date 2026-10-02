@@ -1,0 +1,5 @@
+name: Livestock Gross Margin (LGM)
+parent: agriculture.livestock
+description: Federal cover that pays when the margin between livestock prices and feed costs falls.
+example: A hog producer is paid when feed costs rise and hog prices fall.
+segment: Commercial

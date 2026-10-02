@@ -1,0 +1,19 @@
+term: Underwriting Guidelines
+contentStatus: basic
+alsoKnownAs:
+  - Underwriting Manual
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer's rules for which risks it accepts, declines or refers, and on what terms.
+example: The guidelines decline homes with roofs older than 20 years.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - risk-appetite
+  - referral
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Policy Reserve
+contentStatus: basic
+alsoKnownAs:
+  - Statutory Reserve
+category: Finance & Actuarial
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: Money a life insurer must hold to pay future benefits promised under its policies.
+example: Reserves required under principle-based reserving.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - reserves
+  - principle-based-reserving
+meta:
+  source: editorial

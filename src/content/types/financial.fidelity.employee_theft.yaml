@@ -1,0 +1,6 @@
+name: Employee Theft
+parent: financial.fidelity
+alsoKnownAs: Employee dishonesty
+description: Covers theft of money, securities or property by employees.
+example: A warehouse manager steals inventory.
+segment: Commercial

@@ -1,0 +1,18 @@
+term: Desk Adjuster
+contentStatus: basic
+alsoKnownAs:
+  - Inside Adjuster
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An adjuster who handles claims by phone, email and photos without visiting the scene.
+example: A small windshield claim handled entirely by a desk adjuster.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - field-adjuster
+  - claims-adjuster
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Revenue Protection
+contentStatus: basic
+abbreviation: RP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal crop policy covering loss of revenue from low yields, price declines, or both.
+example: Prices fall and yields drop; RP pays the difference.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - multi-peril-crop-insurance
+  - yield-protection
+meta:
+  source: editorial

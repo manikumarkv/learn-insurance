@@ -1,0 +1,20 @@
+term: Basic Form
+contentStatus: basic
+alsoKnownAs:
+  - Basic Causes of Loss
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A property coverage form covering a short list of perils such as fire, lightning, windstorm, hail, explosion and vandalism.
+example: A vacant building insured on a basic form.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - broad-form
+  - special-form
+  - named-perils
+meta:
+  source: editorial

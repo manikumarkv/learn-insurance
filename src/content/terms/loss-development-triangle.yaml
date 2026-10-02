@@ -1,0 +1,19 @@
+term: Loss Development Triangle
+contentStatus: basic
+alsoKnownAs:
+  - Loss Triangle
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A table showing losses by accident year across successive evaluation dates, used to project final losses.
+example: Rows are accident years; columns are 12, 24, 36 months.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development
+  - loss-development-factor
+  - chain-ladder-method
+meta:
+  source: editorial

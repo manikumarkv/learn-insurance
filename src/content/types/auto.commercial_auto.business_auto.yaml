@@ -1,0 +1,6 @@
+name: Business Auto Policy (BAP)
+parent: auto.commercial_auto
+description: Covers company-owned cars, vans and light trucks.
+example: A landscaping company insures its pickup trucks.
+segment: Commercial
+usNotes: Uses covered auto symbols (1-9) to define which vehicles are covered.

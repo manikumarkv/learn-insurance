@@ -1,0 +1,19 @@
+term: Protected Health Information
+contentStatus: basic
+abbreviation: PHI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Health information that can identify a person, protected under HIPAA.
+example: A claim with your name and diagnosis is PHI.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - health-insurance-portability-and-accountability-act
+  - business-associate-agreement
+meta:
+  source: editorial

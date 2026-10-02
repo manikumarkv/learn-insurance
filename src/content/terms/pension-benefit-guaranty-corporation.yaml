@@ -1,0 +1,18 @@
+term: Pension Benefit Guaranty Corporation
+contentStatus: basic
+abbreviation: PBGC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - financial
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal agency that insures private defined-benefit pension plans.
+example: PBGC pays pensions when a company's plan fails.
+whereYoullSeeIt: []
+relatedTerms:
+  - employee-retirement-income-security-act
+meta:
+  source: editorial

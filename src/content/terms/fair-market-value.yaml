@@ -1,0 +1,20 @@
+term: Fair Market Value
+contentStatus: basic
+abbreviation: FMV
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: The price a willing buyer would pay a willing seller for property.
+example: The FMV of your used car is its typical sale price in your area.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - actual-cash-value
+  - total-loss
+meta:
+  source: editorial

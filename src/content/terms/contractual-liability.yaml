@@ -1,0 +1,19 @@
+term: Contractual Liability
+contentStatus: basic
+alsoKnownAs:
+  - Insured Contract
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Liability you take on by agreeing in a contract to cover someone else's legal responsibility.
+example: A lease makes you responsible for injuries in the building.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hold-harmless-agreement
+  - commercial-general-liability
+meta:
+  source: editorial

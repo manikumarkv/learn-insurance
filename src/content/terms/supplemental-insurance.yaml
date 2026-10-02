@@ -1,0 +1,19 @@
+term: Supplemental Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Voluntary Benefits
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Optional policies paid by employees, such as accident, critical illness or hospital indemnity, to supplement core coverage.
+example: An employee adds cancer insurance through payroll deduction.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - critical-illness-insurance
+  - accident-insurance
+meta:
+  source: editorial

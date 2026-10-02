@@ -1,0 +1,6 @@
+name: Dealers Open Lot
+parent: auto.commercial_auto.garage
+alsoKnownAs: Floor plan coverage
+description: Covers a dealer's inventory of vehicles on the lot.
+example: A hailstorm damages 50 new cars on a dealer's lot.
+segment: Commercial

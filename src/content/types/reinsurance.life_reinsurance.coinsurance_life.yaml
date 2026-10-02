@@ -1,0 +1,5 @@
+name: Coinsurance (Life)
+parent: reinsurance.life_reinsurance
+description: The reinsurer takes a proportional share of all policy risks, reserves and premiums, including investment risk.
+example: A block of term policies is 50% coinsured.
+segment: Commercial

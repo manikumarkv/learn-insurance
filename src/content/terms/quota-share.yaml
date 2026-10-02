@@ -1,0 +1,17 @@
+term: Quota Share
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A proportional treaty where the reinsurer takes a fixed percentage of every policy's premium and losses.
+example: A 25% quota share cedes one-quarter of all premiums and claims.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - proportional-reinsurance
+  - ceding-commission
+meta:
+  source: editorial

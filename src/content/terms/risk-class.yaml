@@ -1,0 +1,21 @@
+term: Risk Class
+contentStatus: basic
+alsoKnownAs:
+  - Underwriting Class
+  - Rate Class
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A group into which applicants with similar risk are placed, such as preferred plus, standard or substandard.
+example: A non-smoker in excellent health gets Preferred Plus.
+whereYoullSeeIt:
+  - Underwriting system
+  - Quote
+relatedTerms:
+  - table-rating
+  - medical-underwriting
+meta:
+  source: editorial

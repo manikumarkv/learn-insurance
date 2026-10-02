@@ -1,0 +1,6 @@
+name: Revenue Protection (RP)
+parent: agriculture.federal_crop
+description: Pays when revenue falls below a guarantee because of low yield, low prices or both; the guarantee rises if harvest prices go up.
+example: A corn farmer is paid when both yield and price fall.
+segment: Commercial
+usNotes: The most popular federal crop policy, covering the majority of insured acres.

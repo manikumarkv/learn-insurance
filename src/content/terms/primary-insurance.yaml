@@ -1,0 +1,21 @@
+term: Primary Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - health
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance that pays first, before any other policy.
+example: Your auto liability is primary when you drive your own car.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - excess-insurance
+  - other-insurance-clause
+  - coordination-of-benefits
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: PCI-DSS Fines & Assessments
+parent: specialty.cyber.cyber_third_party
+description: Covers card brand fines and assessments after a payment card breach.
+example: A merchant is charged by card brands after a breach.
+segment: Commercial

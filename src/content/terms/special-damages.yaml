@@ -1,0 +1,19 @@
+term: Special Damages
+contentStatus: basic
+alsoKnownAs:
+  - Economic Damages
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Damages for losses with a specific dollar amount, such as medical bills and lost wages.
+example: Hospital bills of $12,000 are special damages.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - general-damages
+  - compensatory-damages
+meta:
+  source: editorial

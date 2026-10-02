@@ -1,0 +1,20 @@
+term: Admitted Insurer
+contentStatus: basic
+alsoKnownAs:
+  - Admitted Carrier
+  - Licensed Insurer
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurer licensed by a state to do business there, subject to its rate and form rules and covered by its guaranty fund.
+example: Most personal auto insurers are admitted.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - non-admitted-insurer
+  - guaranty-fund
+  - surplus-lines
+meta:
+  source: editorial

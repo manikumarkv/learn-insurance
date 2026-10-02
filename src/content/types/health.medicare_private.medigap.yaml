@@ -1,0 +1,7 @@
+name: Medicare Supplement (Medigap)
+parent: health.medicare_private
+alsoKnownAs: Med Supp
+description: Private policies that pay gaps in Original Medicare, such as deductibles and 20% coinsurance, sold as standardized plans lettered A-N.
+example: A 66-year-old buys Medigap Plan G to limit out-of-pocket costs.
+segment: Personal
+usNotes: Plans standardized by federal law; Massachusetts, Minnesota and Wisconsin use their own designs.

@@ -1,0 +1,23 @@
+term: Self-Insured Retention
+contentStatus: basic
+abbreviation: SIR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: An amount the insured must pay (including defense costs) before the insurer becomes involved; unlike a deductible, the insurer doesn't pay first.
+example: A company pays the first $250,000 of each liability claim itself.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - deductible
+  - risk-retention
+  - retention
+meta:
+  source: editorial

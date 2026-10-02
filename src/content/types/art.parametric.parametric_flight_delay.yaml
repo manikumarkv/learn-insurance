@@ -1,0 +1,5 @@
+name: Flight Delay Parametric
+parent: art.parametric
+description: Pays automatically when a flight is delayed beyond a set time.
+example: A traveler is paid $100 when their flight is 3 hours late.
+segment: Personal

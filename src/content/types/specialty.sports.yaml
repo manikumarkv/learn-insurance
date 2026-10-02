@@ -1,0 +1,5 @@
+name: Sports Insurance
+parent: specialty
+description: Specialist covers for athletes, teams, leagues and bloodstock.
+example: A team insures a player's salary during injury.
+segment: Both

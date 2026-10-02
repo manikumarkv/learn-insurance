@@ -1,0 +1,5 @@
+name: Premises & Operations
+parent: casualty.general_liability.coverage_a
+description: Covers injuries or damage on your premises or from your ongoing work.
+example: A shopper slips on a wet floor in a supermarket.
+segment: Commercial

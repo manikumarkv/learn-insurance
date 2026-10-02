@@ -1,0 +1,18 @@
+term: Underwriting Rules Engine
+contentStatus: basic
+alsoKnownAs:
+  - Rules Engine
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software that automatically applies underwriting rules to accept, decline or refer risks.
+example: "Rule: refer any home built before 1950."
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - referral
+  - straight-through-processing
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Variable Annuity
+contentStatus: basic
+abbreviation: VA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: An annuity where money is invested in sub-accounts and value rises or falls with markets.
+example: A VA invested in bond and stock funds.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - sub-account
+  - guaranteed-living-benefit
+  - registered-index-linked-annuity
+usNotes: Regulated as a security by the SEC/FINRA and by states.
+meta:
+  source: editorial

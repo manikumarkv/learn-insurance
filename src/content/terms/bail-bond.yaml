@@ -1,0 +1,17 @@
+term: Bail Bond
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A surety bond guaranteeing a defendant will appear in court.
+example: A bail agent posts bond for a defendant's release.
+whereYoullSeeIt: []
+relatedTerms:
+  - surety-bond
+usNotes: Commercial bail is banned or largely eliminated in a few states, such as Illinois, Kentucky, Oregon and Wisconsin.
+meta:
+  source: editorial

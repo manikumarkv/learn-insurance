@@ -1,0 +1,20 @@
+term: Quote-to-Bind Ratio
+contentStatus: basic
+alsoKnownAs:
+  - Hit Ratio
+  - Conversion Rate
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The share of quotes that become bound policies.
+example: "100 quotes, 25 bound: a 25% hit ratio."
+whereYoullSeeIt:
+  - Financial statements
+  - Policy administration system
+relatedTerms:
+  - quote
+  - binding
+meta:
+  source: editorial

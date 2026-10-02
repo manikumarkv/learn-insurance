@@ -1,0 +1,20 @@
+term: Industry Loss Warranty
+contentStatus: basic
+abbreviation: ILW
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: A reinsurance contract that pays when total industry losses from an event exceed a set amount.
+example: Pays if a US hurricane causes industry losses over $30B.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - catastrophe-bond
+  - property-claim-services-catastrophe
+meta:
+  source: editorial

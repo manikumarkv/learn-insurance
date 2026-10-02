@@ -1,0 +1,20 @@
+term: Rate Version
+contentStatus: basic
+alsoKnownAs:
+  - Rate Edition
+  - Effective Rate Date
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A specific set of rates identified by effective date and state, so the system applies the correct rates to each policy.
+example: New business on or after 7/1 uses rate version 2025-07.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - rate-filing
+  - rating-engine
+usNotes: States may require separate new-business and renewal effective dates.
+meta:
+  source: editorial

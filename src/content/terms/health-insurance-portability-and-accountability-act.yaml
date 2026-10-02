@@ -1,0 +1,19 @@
+term: Health Insurance Portability and Accountability Act
+contentStatus: basic
+abbreviation: HIPAA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: High
+difficulty: Intermediate
+definition: A 1996 federal law that protects the privacy and security of health information and limits certain health plan exclusions.
+example: A health insurer must encrypt member medical data.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - protected-health-information
+  - business-associate-agreement
+meta:
+  source: editorial

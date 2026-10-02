@@ -1,0 +1,5 @@
+name: Insurance-Linked Securities (ILS)
+parent: art
+description: Investments that transfer insurance risk to capital market investors.
+example: A pension fund invests in a catastrophe bond.
+segment: Commercial

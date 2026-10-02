@@ -1,0 +1,19 @@
+term: Salvage Title
+contentStatus: basic
+alsoKnownAs:
+  - Branded Title
+category: Claims
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A vehicle title marking a car as having been a total loss.
+example: A car rebuilt after a flood has a salvage title.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - total-loss
+  - salvage
+usNotes: Rules and branding vary by state.
+meta:
+  source: editorial

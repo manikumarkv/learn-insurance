@@ -1,0 +1,19 @@
+term: Cancellation Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The part of the policy explaining how and when you or the insurer can cancel and how refunds work.
+example: The insurer must give 10 days' notice if cancelling for non-payment.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cancellation
+  - non-renewal
+  - pro-rata-cancellation
+usNotes: State law sets minimum notice periods and allowed reasons for insurer cancellation.
+meta:
+  source: editorial

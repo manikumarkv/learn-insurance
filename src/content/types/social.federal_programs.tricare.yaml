@@ -1,0 +1,6 @@
+name: TRICARE
+parent: social.federal_programs
+description: Health coverage for military service members, retirees and their families.
+example: A service member's spouse gets care through TRICARE Prime.
+segment: Personal
+usNotes: Run by the Defense Health Agency.

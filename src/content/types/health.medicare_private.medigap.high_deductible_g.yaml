@@ -1,0 +1,6 @@
+name: High-Deductible Plan G
+parent: health.medicare_private.medigap
+alsoKnownAs: HDG
+description: Same benefits as Plan G after a yearly deductible, for a much lower premium.
+example: A healthy retiree takes the high deductible to save on premiums.
+segment: Personal

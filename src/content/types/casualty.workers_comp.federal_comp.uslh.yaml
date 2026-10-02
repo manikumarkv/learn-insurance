@@ -1,0 +1,7 @@
+name: USL&H (Longshore) Coverage
+parent: casualty.workers_comp.federal_comp
+alsoKnownAs: Longshore and Harbor Workers' Compensation Act
+description: Covers maritime workers like dock workers and ship repairers not covered by state comp.
+example: A shipyard worker injured on a pier is covered.
+segment: Commercial
+usNotes: Federal (Department of Labor).

@@ -1,0 +1,7 @@
+name: Group Term Life
+parent: life.group_life
+alsoKnownAs: Basic life
+description: Employer-paid life cover, usually a flat amount or a multiple of salary, lasting while the person is employed.
+example: An employee's family receives 2x salary if they die while employed.
+segment: Commercial
+usNotes: Employer-paid coverage above $50,000 creates taxable imputed income for the employee (IRC Section 79).

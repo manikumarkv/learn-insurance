@@ -1,0 +1,17 @@
+term: Benefit Period
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: How long benefits are paid, or (in Medicare) the span of a hospital or skilled nursing episode.
+example: An LTD benefit period to age 65.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - elimination-period
+meta:
+  source: editorial

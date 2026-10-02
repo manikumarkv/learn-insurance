@@ -1,0 +1,18 @@
+term: Captive Agent
+contentStatus: basic
+alsoKnownAs:
+  - Exclusive Agent
+  - Tied Agent
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: An agent who sells for only one insurance company.
+example: An Allstate agent who sells only Allstate products.
+whereYoullSeeIt: []
+relatedTerms:
+  - independent-agent
+  - insurance-agent
+meta:
+  source: editorial

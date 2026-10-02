@@ -1,0 +1,24 @@
+term: Experience Modification Factor
+contentStatus: basic
+abbreviation: EMR
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Mod
+  - X-Mod
+category: Underwriting
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A number that raises or lowers a workers' compensation premium based on the employer's claims history; 1.00 is average.
+example: A mod of 0.85 gives a 15% discount.
+whereYoullSeeIt:
+  - Rating engine
+  - Declarations page
+relatedTerms:
+  - experience-rating
+  - national-council-on-compensation-insurance
+usNotes: Calculated by NCCI in most states and by independent bureaus in states like California, New York and Pennsylvania.
+meta:
+  source: editorial

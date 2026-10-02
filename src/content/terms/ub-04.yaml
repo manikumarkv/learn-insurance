@@ -1,0 +1,19 @@
+term: UB-04
+contentStatus: basic
+alsoKnownAs:
+  - CMS-1450
+  - 837I
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The standard claim form (and 837I electronic equivalent) used by hospitals and other institutions to bill health plans.
+example: A hospital bills a stay on a UB-04.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - cms-1500
+  - edi-837
+meta:
+  source: editorial

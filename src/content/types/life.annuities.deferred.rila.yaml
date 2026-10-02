@@ -1,0 +1,7 @@
+name: Registered Index-Linked Annuity (RILA)
+parent: life.annuities.deferred
+alsoKnownAs: Buffered annuity; Structured annuity
+description: Index-linked returns with a buffer or floor that limits (but does not remove) losses, in exchange for higher caps.
+example: A saver accepts losses beyond -10% in exchange for a higher upside cap.
+segment: Personal
+usNotes: SEC-registered; one of the fastest-growing US annuity categories since 2020.

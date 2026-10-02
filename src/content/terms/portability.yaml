@@ -1,0 +1,18 @@
+term: Portability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The right to keep group coverage after leaving the group by paying premiums directly.
+example: You port your group life policy after changing jobs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - conversion-right
+  - consolidated-omnibus-budget-reconciliation-act
+meta:
+  source: editorial

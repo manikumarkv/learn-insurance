@@ -1,0 +1,6 @@
+name: Contingent Business Income
+parent: commercial.business_income
+alsoKnownAs: Dependent properties
+description: Covers lost income when a key supplier or customer suffers covered damage.
+example: A car maker loses income when a parts supplier's factory burns.
+segment: Commercial

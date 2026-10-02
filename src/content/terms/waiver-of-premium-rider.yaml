@@ -1,0 +1,18 @@
+term: Waiver of Premium Rider
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rider that stops premiums from being due if you become disabled.
+example: After a stroke, your premiums are waived.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rider
+  - disability-insurance
+meta:
+  source: editorial

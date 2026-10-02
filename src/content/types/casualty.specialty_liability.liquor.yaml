@@ -1,0 +1,7 @@
+name: Liquor Liability
+parent: casualty.specialty_liability
+alsoKnownAs: Dram shop liability
+description: Covers bars, restaurants and liquor stores against claims that alcohol they served led to injury.
+example: A bar is sued after an intoxicated customer causes a crash.
+segment: Commercial
+usNotes: Dram shop laws in many states make businesses that serve alcohol liable for harm caused by intoxicated customers, and some states (e.g. Minnesota) require liquor licensees to prove liability cover. The CGL excludes this risk for businesses that make, sell or serve alcohol.

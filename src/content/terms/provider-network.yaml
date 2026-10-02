@@ -1,0 +1,20 @@
+term: Provider Network
+contentStatus: basic
+alsoKnownAs:
+  - Network
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: The group of doctors, hospitals and other providers a health plan contracts with.
+example: An HMO's network covers local hospitals only.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - in-network
+  - health-maintenance-organization
+  - preferred-provider-organization
+  - narrow-network
+meta:
+  source: editorial

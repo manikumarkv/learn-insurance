@@ -1,0 +1,20 @@
+term: Insurable Interest
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: You can only insure something if you would suffer a financial loss if it were damaged, destroyed or lost.
+example: You can insure your own house, but not your neighbor's house.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - indemnity
+  - policyholder
+  - beneficiary
+usNotes: In life insurance, insurable interest must exist when the policy is bought; state laws address stranger-originated life insurance (STOLI).
+meta:
+  source: editorial

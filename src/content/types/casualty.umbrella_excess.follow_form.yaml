@@ -1,0 +1,6 @@
+name: Follow-Form Excess
+parent: casualty.umbrella_excess
+description: Adds limits using exactly the same terms as the underlying policy.
+example: A second $10 million layer follows the umbrella's terms.
+segment: Commercial
+usNotes: Large programs stack several excess layers into a "tower".

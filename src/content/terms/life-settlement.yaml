@@ -1,0 +1,17 @@
+term: Life Settlement
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: Selling a life insurance policy to a third party for more than its cash surrender value but less than its death benefit.
+example: A 78-year-old sells a $1M policy for $200,000.
+whereYoullSeeIt: []
+relatedTerms:
+  - viatical-settlement
+  - stranger-originated-life-insurance
+usNotes: Regulated by most states; rescission periods apply.
+meta:
+  source: editorial

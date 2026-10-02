@@ -1,0 +1,19 @@
+term: Rideshare Coverage
+contentStatus: basic
+alsoKnownAs:
+  - TNC Endorsement
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Coverage for drivers using their car for services like Uber or Lyft, filling gaps in personal auto policies.
+example: Covers the period when the app is on but no ride is accepted.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - personal-auto-policy
+  - commercial-auto-insurance
+usNotes: Nearly all states and D.C. have TNC insurance laws, typically requiring $1 million of TNC-provided liability once a ride is accepted.
+meta:
+  source: editorial

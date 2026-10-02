@@ -1,0 +1,6 @@
+name: Fiduciary Liability
+parent: specialty.management_liability
+description: Covers people managing employee benefit plans (401(k), pension, health) against claims of mismanagement.
+example: Employees claim a 401(k) plan charged excessive fees.
+segment: Commercial
+usNotes: Fiduciary duties are imposed by ERISA; distinct from the ERISA fidelity bond.

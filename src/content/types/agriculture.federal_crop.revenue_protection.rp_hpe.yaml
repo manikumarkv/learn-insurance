@@ -1,0 +1,5 @@
+name: Revenue Protection with Harvest Price Exclusion (RP-HPE)
+parent: agriculture.federal_crop.revenue_protection
+description: Like RP, but the guarantee does not rise if harvest prices increase; cheaper.
+example: A farmer picks RP-HPE to save on premium.
+segment: Commercial

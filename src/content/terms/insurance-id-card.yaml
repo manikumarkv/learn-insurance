@@ -1,0 +1,19 @@
+term: Insurance ID Card
+contentStatus: basic
+alsoKnownAs:
+  - Proof of Insurance
+category: Technology
+lines:
+  - health
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: A card showing proof of coverage, like an auto ID card or health member card.
+example: You show your auto ID card to police.
+whereYoullSeeIt:
+  - Insurance ID card
+relatedTerms:
+  - policy-number
+usNotes: Most states now accept digital auto ID cards.
+meta:
+  source: editorial

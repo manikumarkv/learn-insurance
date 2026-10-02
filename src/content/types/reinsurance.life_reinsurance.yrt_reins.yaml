@@ -1,0 +1,7 @@
+name: YRT Reinsurance
+parent: reinsurance.life_reinsurance
+alsoKnownAs: Yearly renewable term reinsurance
+description: The insurer buys one-year mortality cover on the amount at risk, renewing yearly.
+example: A life insurer pays YRT premiums on each policy's net amount at risk.
+segment: Commercial
+usNotes: The dominant US life reinsurance method.

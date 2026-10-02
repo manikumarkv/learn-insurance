@@ -1,0 +1,18 @@
+term: Supplementary Payments
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Costs the insurer pays in addition to the limit, such as bail bonds, court costs and interest.
+example: The insurer pays court costs and post-judgment interest.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - defense-outside-limits
+meta:
+  source: editorial

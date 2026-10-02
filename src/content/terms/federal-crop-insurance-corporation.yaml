@@ -1,0 +1,20 @@
+term: Federal Crop Insurance Corporation
+contentStatus: basic
+abbreviation: FCIC
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - agriculture
+  - social
+usageFrequency: Low
+difficulty: Advanced
+definition: The government corporation that finances and reinsures the federal crop insurance program, managed by RMA.
+example: FCIC reinsures private crop insurers under the Standard Reinsurance Agreement.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - risk-management-agency
+  - standard-reinsurance-agreement
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Involuntary Unemployment
+parent: financial.credit.credit_ph
+alsoKnownAs: IUI
+description: Makes loan payments for a limited time after a job loss.
+example: A laid-off worker's credit card minimums are paid for 6 months.
+segment: Personal

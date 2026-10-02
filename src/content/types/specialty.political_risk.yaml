@@ -1,0 +1,6 @@
+name: Political Risk Insurance (PRI)
+parent: specialty
+description: Covers investors and lenders against losses caused by government actions or political violence abroad.
+example: A US company's mine in another country is seized by the government.
+segment: Commercial
+usNotes: Also available from the US International Development Finance Corporation (DFC).

@@ -1,0 +1,19 @@
+term: Hired and Non-Owned Auto
+contentStatus: basic
+abbreviation: HNOA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers a business's liability for rented vehicles and employees' personal cars used for work.
+example: An employee crashes their own car driving to a client.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-auto-insurance
+meta:
+  source: editorial

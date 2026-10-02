@@ -1,0 +1,5 @@
+name: Commercial Umbrella & Excess Liability
+parent: casualty
+description: Extra liability limits above primary general liability, auto and employers' liability policies.
+example: A trucking company buys $10 million of excess cover above its primary auto policy.
+segment: Commercial

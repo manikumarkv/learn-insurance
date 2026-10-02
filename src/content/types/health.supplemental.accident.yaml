@@ -1,0 +1,5 @@
+name: Accident Insurance
+parent: health.supplemental
+description: Pays set amounts for injuries such as fractures, dislocations or ER visits caused by accidents.
+example: A child breaks an arm playing soccer and the family receives a fixed payment.
+segment: Personal

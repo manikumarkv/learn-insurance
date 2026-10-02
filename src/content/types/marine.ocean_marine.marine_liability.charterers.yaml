@@ -1,0 +1,5 @@
+name: Charterer's Liability
+parent: marine.ocean_marine.marine_liability
+description: Covers companies that charter ships against liabilities to the owner and others.
+example: A charterer loads an unsafe cargo that damages the ship.
+segment: Commercial

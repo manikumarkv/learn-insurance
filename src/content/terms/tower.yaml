@@ -1,0 +1,23 @@
+term: Tower
+contentStatus: basic
+alsoKnownAs:
+  - Insurance Tower
+  - Program
+category: Reinsurance
+lines:
+  - property
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A stack of primary and excess policies providing large total limits.
+example: A company buys a $100M liability tower made of ten layers.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - layer
+  - excess-insurance
+  - attachment-point
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Pasture, Rangeland, Forage
+contentStatus: basic
+abbreviation: PRF
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Advanced
+definition: A federally subsidized crop insurance plan (USDA RMA, sold by private insurers) that pays ranchers when rainfall in their area's grid falls below normal.
+example: A rancher is paid when rainfall is 60% of normal.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - index-insurance
+meta:
+  source: editorial

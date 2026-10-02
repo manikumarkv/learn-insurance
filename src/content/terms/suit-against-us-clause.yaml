@@ -1,0 +1,19 @@
+term: Legal Action Against Us
+contentStatus: basic
+alsoKnownAs:
+  - Suit Limitation Clause
+category: Policy Wording
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A condition that limits when and how you can sue the insurer, such as within two years of the loss.
+example: You must sue within one year after the loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - conditions
+usNotes: Limits must meet state minimums.
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Area-Based Plans
+parent: agriculture.federal_crop
+description: Pay when yield or revenue for the whole county falls, not the individual farm.
+example: Farmers in a county are paid when the county average yield drops.
+segment: Commercial

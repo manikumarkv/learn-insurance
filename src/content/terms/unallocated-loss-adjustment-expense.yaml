@@ -1,0 +1,20 @@
+term: Unallocated Loss Adjustment Expense
+contentStatus: basic
+abbreviation: ULAE
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - roughly AO (Adjusting and Other) in NAIC reporting
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: General claim department costs that can't be tied to a specific claim, such as salaries and office rent.
+example: Claims staff salaries are ULAE.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-adjustment-expense
+  - allocated-loss-adjustment-expense
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Protected Cell / Segregated Cell Captive
+parent: art.captives
+alsoKnownAs: Rent-a-captive; Series captive
+description: A captive split into separate cells, each rented by a different owner with its own assets and liabilities.
+example: A mid-size firm rents a cell rather than forming its own captive.
+segment: Commercial

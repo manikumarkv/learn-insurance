@@ -1,0 +1,18 @@
+term: Partial Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+  - marine
+usageFrequency: Medium
+difficulty: Beginner
+definition: Damage that can be repaired and doesn't destroy the whole insured item.
+example: A dented bumper is a partial loss.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - total-loss
+meta:
+  source: editorial

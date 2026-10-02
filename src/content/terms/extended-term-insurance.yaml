@@ -1,0 +1,18 @@
+term: Extended Term Insurance
+contentStatus: basic
+abbreviation: ETI
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A nonforfeiture option that uses cash value to buy term insurance for the full face amount for as long as it lasts.
+example: Cash value buys 12 years of term cover.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - nonforfeiture-options
+meta:
+  source: editorial

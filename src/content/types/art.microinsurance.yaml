@@ -1,0 +1,7 @@
+name: Microinsurance & Embedded Insurance
+parent: art
+alsoKnownAs: Inclusive insurance
+description: Low-cost, simple insurance for people and small businesses with limited income, often sold digitally or bundled into other purchases.
+example: A gig worker buys per-shift accident cover through an app.
+segment: Both
+usNotes: True microinsurance is mainly a developing-market concept; in the US the closest forms are embedded, on-demand and gig-worker covers.

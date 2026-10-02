@@ -1,0 +1,5 @@
+name: Level-Funded Plan
+parent: health.major_medical.group_health
+description: A small-business form of self-funding with fixed monthly payments that include stop-loss cover and possible year-end refunds.
+example: A 40-person company gets a refund when claims are lower than expected.
+segment: Commercial

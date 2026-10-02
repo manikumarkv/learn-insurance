@@ -1,0 +1,19 @@
+term: Guidewire
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A widely used software platform for P&C insurers (PolicyCenter, BillingCenter, ClaimCenter).
+example: An insurer migrates to Guidewire Cloud.
+whereYoullSeeIt: []
+relatedTerms:
+  - policy-administration-system
+  - core-systems
+meta:
+  source: editorial

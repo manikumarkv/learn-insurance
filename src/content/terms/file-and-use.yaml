@@ -1,0 +1,18 @@
+term: File and Use
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Rates can be used after being filed, without waiting for approval, though the regulator can later reject them.
+example: An insurer files new rates and uses them 30 days later.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - prior-approval
+  - use-and-file
+  - rate-filing
+meta:
+  source: editorial

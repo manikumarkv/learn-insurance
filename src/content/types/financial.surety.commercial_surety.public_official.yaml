@@ -1,0 +1,5 @@
+name: Public Official Bonds
+parent: financial.surety.commercial_surety
+description: Guarantees elected or appointed officials will perform their duties honestly.
+example: A county treasurer is bonded.
+segment: Commercial

@@ -1,0 +1,18 @@
+term: Products-Completed Operations Aggregate
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: A separate annual aggregate limit for products-completed operations claims under a CGL.
+example: A $2M PCO aggregate separate from the general aggregate.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - aggregate-limit
+  - products-completed-operations
+meta:
+  source: editorial

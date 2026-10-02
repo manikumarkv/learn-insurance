@@ -1,0 +1,17 @@
+term: Loss-Sensitive Program
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Any insurance plan where the cost depends on the insured's own losses, such as retro plans or large deductibles.
+example: A large-deductible workers' comp program for a trucking company.
+whereYoullSeeIt: []
+relatedTerms:
+  - retrospective-rating
+  - self-insured-retention
+meta:
+  source: editorial

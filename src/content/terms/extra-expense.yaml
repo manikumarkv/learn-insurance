@@ -1,0 +1,17 @@
+term: Extra Expense
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Extra costs to keep operating or reduce downtime after covered damage.
+example: Renting a temporary office after a fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - business-interruption-insurance
+meta:
+  source: editorial

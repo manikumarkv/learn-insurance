@@ -1,0 +1,17 @@
+term: Hospital Indemnity Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance that pays a fixed amount per day you're in the hospital, regardless of actual costs.
+example: $200 per day for a 5-day hospital stay.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - critical-illness-insurance
+  - excepted-benefits
+meta:
+  source: editorial

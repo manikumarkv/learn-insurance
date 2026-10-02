@@ -1,0 +1,20 @@
+term: Misrepresentation
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A false statement on an application or in a claim.
+example: Saying you don't smoke when you do is a misrepresentation.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - material-fact
+  - rescission
+  - concealment
+  - insurance-fraud
+meta:
+  source: editorial

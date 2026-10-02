@@ -1,0 +1,21 @@
+term: Parametric Trigger
+contentStatus: basic
+alsoKnownAs:
+  - Parametric Insurance
+category: Core Concept
+lines:
+  - property
+  - specialty
+  - agriculture
+  - art
+usageFrequency: Low
+difficulty: Intermediate
+definition: Coverage that pays a set amount when a measured event occurs, like wind speed or rainfall, rather than based on actual damage.
+example: A hotel receives $1M automatically when a hurricane with 120 mph winds passes nearby.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - catastrophe-bond
+  - index-insurance
+meta:
+  source: editorial

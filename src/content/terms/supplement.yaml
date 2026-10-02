@@ -1,0 +1,18 @@
+term: Supplement
+contentStatus: basic
+alsoKnownAs:
+  - Supplemental Claim
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An additional request for payment when hidden damage is found after the first estimate.
+example: The shop finds a broken frame part and files a $900 supplement.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - estimate
+meta:
+  source: editorial

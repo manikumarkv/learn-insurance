@@ -1,0 +1,17 @@
+term: Ab Initio
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Latin for 'from the beginning'. A policy void ab initio is treated as if it never existed.
+example: A policy obtained by fraud is rescinded ab initio and the premium refunded.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rescission
+  - void-policy
+meta:
+  source: editorial

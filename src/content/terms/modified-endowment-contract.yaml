@@ -1,0 +1,20 @@
+term: Modified Endowment Contract
+contentStatus: basic
+abbreviation: MEC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A life policy funded too quickly under federal tax rules, which loses some tax advantages on loans and withdrawals.
+example: Paying a huge single premium turns a policy into a MEC.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - seven-pay-test
+  - policy-loan
+usNotes: Defined in Internal Revenue Code Section 7702A.
+meta:
+  source: editorial

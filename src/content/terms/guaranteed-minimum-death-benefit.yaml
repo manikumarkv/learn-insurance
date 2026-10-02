@@ -1,0 +1,18 @@
+term: Guaranteed Minimum Death Benefit
+contentStatus: basic
+abbreviation: GMDB
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: An annuity feature guaranteeing heirs at least a minimum amount, like premiums paid, at death.
+example: Heirs receive $100,000 even though the account fell to $80,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - variable-annuity
+meta:
+  source: editorial

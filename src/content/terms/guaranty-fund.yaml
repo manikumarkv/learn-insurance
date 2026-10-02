@@ -1,0 +1,20 @@
+term: Guaranty Fund
+contentStatus: basic
+alsoKnownAs:
+  - Guaranty Association
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A state fund that pays claims, up to limits, when an admitted insurer becomes insolvent.
+example: After an insurer fails, the state guaranty association pays your claim up to $300,000.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - admitted-insurer
+  - insolvency
+  - receivership
+usNotes: Separate associations for life/health and P&C in each state; limits vary.
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Media Liability
+parent: specialty.cyber.cyber_third_party
+description: Covers claims of defamation, privacy invasion or IP infringement from online content.
+example: A blog post leads to a defamation claim.
+segment: Commercial

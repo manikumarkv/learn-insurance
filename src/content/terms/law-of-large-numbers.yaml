@@ -1,0 +1,17 @@
+term: Law of Large Numbers
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The larger the group of similar risks, the more accurately an insurer can predict how many losses will occur.
+example: An insurer covering 100,000 cars can predict accident numbers far better than one covering 100.
+whereYoullSeeIt: []
+relatedTerms:
+  - risk-pooling
+  - actuary
+  - credibility
+meta:
+  source: editorial

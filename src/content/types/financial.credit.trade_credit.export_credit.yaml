@@ -1,0 +1,6 @@
+name: Export Credit Insurance
+parent: financial.credit.trade_credit
+description: Covers foreign buyers failing to pay, including political risks.
+example: A US exporter insures sales to a buyer abroad.
+segment: Commercial
+usNotes: Available from private insurers and the Export-Import Bank of the United States (EXIM).

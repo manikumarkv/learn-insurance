@@ -1,0 +1,22 @@
+term: Retroactive Date
+contentStatus: basic
+alsoKnownAs:
+  - Retro Date
+category: Policy Wording
+lines:
+  - casualty
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: The date on a claims-made policy before which incidents are not covered, even if the claim is made during the policy.
+example: A retro date of 2018 means a mistake made in 2016 is not covered.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - claims-made-policy
+  - prior-acts-coverage
+  - tail-coverage
+meta:
+  source: editorial

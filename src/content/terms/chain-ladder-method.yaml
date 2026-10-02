@@ -1,0 +1,18 @@
+term: Chain Ladder Method
+contentStatus: basic
+alsoKnownAs:
+  - Development Method
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A reserving method that projects ultimate losses by applying historical development factors to current losses.
+example: Reserving actuaries run chain ladder on paid and incurred triangles.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development-triangle
+  - bornhuetter-ferguson-method
+meta:
+  source: editorial

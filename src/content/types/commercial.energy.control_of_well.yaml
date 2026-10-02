@@ -1,0 +1,6 @@
+name: Control of Well
+parent: commercial.energy
+alsoKnownAs: Operator's extra expense (OEE); Well control insurance
+description: Pays to regain control of a blown-out oil or gas well, plus re-drilling and pollution clean-up costs.
+example: A gas well blows out during drilling and the policy pays the well-control specialists.
+segment: Commercial

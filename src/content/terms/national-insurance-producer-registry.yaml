@@ -1,0 +1,19 @@
+term: National Insurance Producer Registry
+contentStatus: basic
+abbreviation: NIPR
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A nonprofit that runs a national database and gateway for producer licensing across states.
+example: An agency uses NIPR to renew non-resident licenses in 10 states.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - producer-license
+  - national-producer-number
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Insurance Fraud
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Deliberately lying or deceiving to get insurance money or lower premiums.
+example: Staging a car crash to claim injuries is insurance fraud.
+whereYoullSeeIt:
+  - Claims system
+  - Claim documents
+relatedTerms:
+  - special-investigations-unit
+  - moral-hazard
+  - soft-fraud
+  - hard-fraud
+usNotes: Most states have fraud bureaus and require insurers to report suspected fraud.
+meta:
+  source: editorial

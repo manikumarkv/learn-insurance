@@ -1,0 +1,19 @@
+term: Litigation
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Beginner
+definition: A claim that has become a lawsuit.
+example: A slip-and-fall claim goes to litigation.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - defense-costs
+  - duty-to-defend
+meta:
+  source: editorial

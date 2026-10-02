@@ -1,0 +1,7 @@
+name: High Deductible Health Plan (HDHP)
+parent: health.major_medical.plan_types
+alsoKnownAs: HSA-eligible plan; Consumer-directed health plan
+description: A plan with a high deductible and lower premium; it can be paired with a tax-advantaged Health Savings Account (HSA).
+example: A healthy 28-year-old picks an HDHP and saves the premium difference in an HSA.
+segment: Both
+usNotes: The IRS sets minimum deductibles and maximum out-of-pocket limits yearly for HSA eligibility.

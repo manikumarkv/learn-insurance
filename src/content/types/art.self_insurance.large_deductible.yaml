@@ -1,0 +1,5 @@
+name: Large Deductible Program
+parent: art.self_insurance
+description: A policy with a very high deductible (e.g. $250,000), where the insurer pays claims and bills the insured back.
+example: A trucking company takes a $500,000 deductible on auto liability.
+segment: Commercial

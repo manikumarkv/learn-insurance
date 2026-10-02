@@ -1,0 +1,6 @@
+name: Medical Stop-Loss Captive
+parent: health.employer_risk_financing.stop_loss
+alsoKnownAs: Group stop-loss captive; Employer stop-loss captive
+description: Lets several self-funded employers share a layer of stop-loss risk through a captive, with an insurer covering the very large claims above that layer.
+example: Forty mid-sized employers pool the first $250,000 of each large claim above their deductibles in a captive and share any surplus.
+segment: Commercial

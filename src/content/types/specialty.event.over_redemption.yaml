@@ -1,0 +1,6 @@
+name: Over-Redemption Insurance
+parent: specialty.event
+alsoKnownAs: Promotional risk insurance; Coupon redemption insurance
+description: Pays a marketer's extra costs if a coupon, rebate or money-back offer is claimed by far more customers than expected.
+example: A rebate offer expected to be claimed by 5% of buyers is claimed by 20% and the insurer pays the excess.
+segment: Commercial

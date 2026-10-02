@@ -1,0 +1,6 @@
+name: Accidental Death Benefit Rider
+parent: life.life_riders
+alsoKnownAs: Double indemnity
+description: Pays an extra amount if death is caused by an accident.
+example: A policy pays double the face amount after a fatal car crash.
+segment: Personal

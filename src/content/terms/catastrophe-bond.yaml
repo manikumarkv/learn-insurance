@@ -1,0 +1,19 @@
+term: Catastrophe Bond
+contentStatus: basic
+alsoKnownAs:
+  - Cat Bond
+category: Finance & Actuarial
+lines:
+  - reinsurance
+  - art
+usageFrequency: Low
+difficulty: Advanced
+definition: A bond that pays investors interest but loses principal if a specified disaster occurs, giving the issuer money to pay claims.
+example: Investors lose their principal after a qualifying California earthquake.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - insurance-linked-securities
+  - parametric-trigger
+meta:
+  source: editorial

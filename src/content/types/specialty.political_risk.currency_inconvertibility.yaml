@@ -1,0 +1,5 @@
+name: Currency Inconvertibility & Transfer
+parent: specialty.political_risk
+description: Covers inability to convert local currency or move money out of a country.
+example: A company can't send profits home due to new currency controls.
+segment: Commercial

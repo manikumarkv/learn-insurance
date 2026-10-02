@@ -1,0 +1,19 @@
+term: Proportional Reinsurance
+contentStatus: basic
+alsoKnownAs:
+  - Pro Rata Reinsurance
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Intermediate
+definition: The reinsurer takes an agreed share of premium and losses.
+example: A 50% share of every premium and every loss.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - quota-share
+  - surplus-treaty
+  - non-proportional-reinsurance
+meta:
+  source: editorial

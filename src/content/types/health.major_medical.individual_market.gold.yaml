@@ -1,0 +1,6 @@
+name: Gold Plan
+parent: health.major_medical.individual_market
+description: "Covers about 80% of average costs: higher premium, lower out-of-pocket."
+example: Someone with regular prescriptions picks gold.
+segment: Personal
+usNotes: Actuarial value approx. 80%.

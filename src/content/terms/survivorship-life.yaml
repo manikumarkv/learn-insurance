@@ -1,0 +1,18 @@
+term: Survivorship Life
+contentStatus: basic
+alsoKnownAs:
+  - Second-to-Die
+  - Joint Last-to-Die
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy on two people that pays only after both have died, often used for estate planning.
+example: A couple buys survivorship life to pay estate taxes.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - joint-life
+meta:
+  source: editorial

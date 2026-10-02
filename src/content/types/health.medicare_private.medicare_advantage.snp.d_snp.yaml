@@ -1,0 +1,6 @@
+name: Dual Eligible SNP (D-SNP)
+parent: health.medicare_private.medicare_advantage.snp
+description: For people who have both Medicare and Medicaid; coordinates benefits of the two programs.
+example: A low-income senior gets Medicare and Medicaid benefits through one plan.
+segment: Personal
+usNotes: The largest SNP type.

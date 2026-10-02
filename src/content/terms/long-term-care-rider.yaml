@@ -1,0 +1,18 @@
+term: Long-Term Care Rider
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rider allowing death benefit to be used for long-term care costs.
+example: The rider pays $4,000 a month toward assisted living.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - long-term-care-insurance
+  - hybrid-life-long-term-care
+meta:
+  source: editorial

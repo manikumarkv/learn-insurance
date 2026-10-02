@@ -1,0 +1,16 @@
+term: Non-Qualified Annuity
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An annuity bought with after-tax money; only the earnings are taxed on withdrawal.
+example: Buying an annuity with savings from your bank account.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - qualified-annuity
+meta:
+  source: editorial

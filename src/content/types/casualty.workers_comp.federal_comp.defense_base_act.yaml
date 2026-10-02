@@ -1,0 +1,6 @@
+name: Defense Base Act (DBA)
+parent: casualty.workers_comp.federal_comp
+description: Covers civilian contractors working overseas on US government contracts.
+example: A contractor employee injured at an overseas base is covered.
+segment: Commercial
+usNotes: Extension of the Longshore Act.

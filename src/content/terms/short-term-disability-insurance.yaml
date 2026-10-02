@@ -1,0 +1,20 @@
+term: Short-Term Disability Insurance
+contentStatus: basic
+abbreviation: STD
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Disability insurance that pays for a short period, often up to 3–6 months.
+example: Paid for 12 weeks after surgery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - disability-insurance
+  - long-term-disability-insurance
+usNotes: California, Hawaii, New Jersey, New York, Rhode Island and Puerto Rico have mandatory state disability programs.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Flood Insurance
+parent: property.catastrophe
+description: Covers damage from rising water and surface flooding, which almost all homeowners policies exclude.
+example: A Houston family's flood policy pays after a hurricane floods their ground floor.
+segment: Both
+usNotes: Lenders require flood insurance for federally backed mortgages in FEMA Special Flood Hazard Areas.

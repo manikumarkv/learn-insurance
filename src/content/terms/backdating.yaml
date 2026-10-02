@@ -1,0 +1,17 @@
+term: Backdating
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: Setting a life policy's date earlier than the application date to get a lower age-based premium.
+example: Backdating by 3 months to 'save age'.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - issue-age
+usNotes: Backdating is commonly limited to 6 months, by state law in some states and by insurer practice elsewhere.
+meta:
+  source: editorial

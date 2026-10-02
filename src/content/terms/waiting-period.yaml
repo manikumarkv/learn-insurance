@@ -1,0 +1,20 @@
+term: Waiting Period
+contentStatus: basic
+alsoKnownAs:
+  - Elimination Period
+category: Policy Wording
+lines:
+  - life
+  - health
+  - property
+  - specialty
+usageFrequency: High
+difficulty: Beginner
+definition: A time that must pass before benefits begin or before coverage takes effect.
+example: A disability policy with a 90-day elimination period pays starting on day 91.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - elimination-period
+meta:
+  source: editorial

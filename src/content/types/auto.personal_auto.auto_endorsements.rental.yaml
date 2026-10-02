@@ -1,0 +1,6 @@
+name: Rental Reimbursement
+parent: auto.personal_auto.auto_endorsements
+alsoKnownAs: Transportation expense
+description: Pays for a rental car while yours is being repaired after a covered claim.
+example: A driver gets a rental car for 10 days during repairs.
+segment: Personal

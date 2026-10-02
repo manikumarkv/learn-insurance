@@ -1,0 +1,19 @@
+term: Vehicle Symbol
+contentStatus: basic
+alsoKnownAs:
+  - Vehicle Rating Symbol
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A code assigned to each vehicle model reflecting its loss costs, used to price physical damage and liability.
+example: A sports car has a higher symbol than a minivan.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - vehicle-identification-number
+  - rating-factor
+usNotes: ISO and insurer proprietary symbols are used.
+meta:
+  source: editorial

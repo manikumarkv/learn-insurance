@@ -1,0 +1,7 @@
+name: Credit Life Insurance
+parent: life.term
+alsoKnownAs: Credit insurance
+description: Pays off a specific loan if the borrower dies; often offered by the lender at the time of the loan.
+example: A car buyer is offered a policy that clears the auto loan if the buyer dies.
+segment: Personal
+usNotes: Rates and sales practices are tightly regulated by states; must be optional for the borrower.

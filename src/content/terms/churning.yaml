@@ -1,0 +1,17 @@
+term: Churning
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Repeatedly replacing policies, often with the same insurer, mainly to generate new commissions.
+example: An agent replaces a client's annuity three times in five years.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - twisting
+  - replacement
+meta:
+  source: editorial

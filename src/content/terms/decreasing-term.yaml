@@ -1,0 +1,17 @@
+term: Decreasing Term
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Term insurance where the death benefit gets smaller over time, often to match a mortgage balance.
+example: Coverage falls as your mortgage is paid down.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - term-life-insurance
+  - mortgage-protection-insurance
+meta:
+  source: editorial

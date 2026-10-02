@@ -1,0 +1,18 @@
+term: Consumer Complaint
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Beginner
+definition: A formal complaint by a policyholder to the state insurance department about an insurer or agent.
+example: You complain that your claim hasn't been paid in 60 days.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - state-department-of-insurance
+  - market-conduct-examination
+usNotes: The NAIC publishes complaint indexes by insurer.
+meta:
+  source: editorial

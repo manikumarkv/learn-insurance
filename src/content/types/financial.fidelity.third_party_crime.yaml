@@ -1,0 +1,5 @@
+name: Third-Party (Client Property) Crime
+parent: financial.fidelity
+description: Covers theft of a client's property by your employees.
+example: A janitorial worker steals from a client's office.
+segment: Commercial

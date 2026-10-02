@@ -1,0 +1,17 @@
+term: Roadside Assistance
+contentStatus: basic
+alsoKnownAs:
+  - Towing and Labor
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: Coverage for towing, jump starts, flat tires and lockouts.
+example: A tow when your car breaks down.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - rental-reimbursement
+meta:
+  source: editorial

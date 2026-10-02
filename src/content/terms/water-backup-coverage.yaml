@@ -1,0 +1,18 @@
+term: Water Backup Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Sewer Backup Endorsement
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Optional coverage for water that backs up through sewers or drains or overflows from a sump pump.
+example: Covers a flooded basement from a failed sump pump.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - flood-exclusion
+  - endorsement
+meta:
+  source: editorial

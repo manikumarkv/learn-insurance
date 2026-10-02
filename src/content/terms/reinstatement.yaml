@@ -1,0 +1,17 @@
+term: Reinstatement
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: Restoring a lapsed or cancelled policy, sometimes with conditions such as proof of insurability.
+example: You reinstate your life policy within 3 years by paying back premiums and showing good health.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - lapse
+  - grace-period
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Hard Market
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A period when insurance is harder to get, prices rise and terms tighten.
+example: Commercial property rates rose sharply in the 2020–2023 hard market.
+whereYoullSeeIt: []
+relatedTerms:
+  - soft-market
+  - underwriting-cycle
+  - capacity
+meta:
+  source: editorial

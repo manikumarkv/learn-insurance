@@ -1,0 +1,17 @@
+term: Extended Replacement Cost
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Pays above your dwelling limit, often 25%–50% more, if rebuild costs are higher than expected.
+example: A $400,000 limit with 25% extended pays up to $500,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - guaranteed-replacement-cost
+  - replacement-cost
+meta:
+  source: editorial

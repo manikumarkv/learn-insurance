@@ -1,0 +1,18 @@
+term: Appeal
+contentStatus: basic
+alsoKnownAs:
+  - Internal Appeal
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A request asking your insurer to reconsider a denied claim or decision.
+example: You appeal a denied MRI with a letter from your doctor.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - external-review
+  - claim-denial
+meta:
+  source: editorial

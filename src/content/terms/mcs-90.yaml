@@ -1,0 +1,17 @@
+term: MCS-90
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: A federally required endorsement guaranteeing a trucking company's liability limits are available to the public.
+example: The insurer pays a victim under MCS-90 even if the policy wouldn't otherwise apply.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - motor-carrier
+meta:
+  source: editorial

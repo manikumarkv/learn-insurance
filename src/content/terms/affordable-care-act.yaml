@@ -1,0 +1,22 @@
+term: Affordable Care Act
+contentStatus: basic
+abbreviation: ACA
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Obamacare
+category: Regulation
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A 2010 federal law that reformed US health insurance, including marketplaces, subsidies, essential benefits and bans on pre-existing condition exclusions.
+example: You can't be denied a plan because of diabetes.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - health-insurance-marketplace
+  - essential-health-benefits
+  - pre-existing-condition
+  - premium-tax-credit
+meta:
+  source: editorial

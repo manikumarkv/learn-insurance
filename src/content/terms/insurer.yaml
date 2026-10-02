@@ -1,0 +1,22 @@
+term: Insurer
+contentStatus: basic
+alsoKnownAs:
+  - Carrier
+  - Insurance Company
+  - Underwriter
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The company that issues the policy and agrees to pay covered claims.
+example: State Farm or a small regional mutual is an insurer.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insured
+  - admitted-insurer
+  - mutual-insurance-company
+  - stock-insurance-company
+meta:
+  source: editorial

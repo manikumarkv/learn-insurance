@@ -1,0 +1,25 @@
+term: Insurance Services Office
+contentStatus: basic
+abbreviation: ISO
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Verisk ISO
+category: Technology
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An advisory organization (part of Verisk) that writes standard policy forms, collects statistics and files loss costs.
+example: The standard CGL form CG 00 01 is an ISO form.
+whereYoullSeeIt:
+  - Policy document
+  - Regulatory filings
+relatedTerms:
+  - form
+  - loss-cost
+  - american-association-of-insurance-services
+meta:
+  source: editorial

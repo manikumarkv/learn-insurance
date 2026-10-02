@@ -1,0 +1,21 @@
+term: Usage-Based Insurance
+contentStatus: basic
+abbreviation: UBI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Telematics
+  - Pay-As-You-Drive
+category: Underwriting
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Auto insurance priced using data about how and how much you drive, from an app or device.
+example: Safe braking earns a 20% discount.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - telematics
+  - rating-factor
+meta:
+  source: editorial

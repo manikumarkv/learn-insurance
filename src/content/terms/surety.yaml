@@ -1,0 +1,18 @@
+term: Surety
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The company that issues a bond and guarantees the principal's obligation.
+example: An insurance company acting as surety.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+  - principal
+meta:
+  source: editorial

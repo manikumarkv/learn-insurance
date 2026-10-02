@@ -1,0 +1,17 @@
+term: ERISA Preemption
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The rule that ERISA overrides many state laws for employer plans, especially self-funded ones.
+example: A state mandate doesn't apply to a self-funded plan.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - employee-retirement-income-security-act
+  - self-funded-plan
+meta:
+  source: editorial

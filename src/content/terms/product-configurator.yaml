@@ -1,0 +1,18 @@
+term: Product Configurator
+contentStatus: basic
+alsoKnownAs:
+  - Product Definition Tool
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Software for defining insurance products (coverages, limits, rules, rates, forms) without custom coding.
+example: A product owner adds a new endorsement in the configurator.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - policy-administration-system
+  - product-model
+meta:
+  source: editorial

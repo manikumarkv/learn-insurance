@@ -1,0 +1,21 @@
+term: Aggregator
+contentStatus: basic
+alsoKnownAs:
+  - Comparison Site
+  - Lead Generator
+category: Distribution
+lines:
+  - life
+  - health
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Beginner
+definition: A website that collects quotes from many insurers for comparison.
+example: A site shows 10 auto quotes side by side.
+whereYoullSeeIt: []
+relatedTerms:
+  - direct-writer
+  - lead-generation
+meta:
+  source: editorial

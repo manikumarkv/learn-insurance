@@ -1,0 +1,5 @@
+name: Contractors Pollution Liability (CPL)
+parent: casualty.specialty_liability.environmental
+description: Covers pollution caused by a contractor's work at job sites.
+example: A contractor disturbs asbestos and must pay for cleanup.
+segment: Commercial

@@ -1,0 +1,16 @@
+term: Digital Distribution
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Beginner
+definition: Selling insurance through websites, apps and APIs instead of in-person agents.
+example: A customer buys renters insurance entirely on a phone.
+whereYoullSeeIt: []
+relatedTerms:
+  - insurtech
+  - embedded-insurance
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: General Aviation
+parent: marine.aviation
+alsoKnownAs: Private aircraft insurance
+description: Covers privately owned planes, flight schools and small charter operators.
+example: A private pilot insures a Cessna 172.
+segment: Both

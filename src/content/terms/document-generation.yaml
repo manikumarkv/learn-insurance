@@ -1,0 +1,18 @@
+term: Document Generation
+contentStatus: basic
+alsoKnownAs:
+  - Document Composition
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Software that produces policy documents, notices and letters by merging data into templates.
+example: Declarations pages are generated at issuance.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - policy-administration-system
+  - form
+meta:
+  source: editorial

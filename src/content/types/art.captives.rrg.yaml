@@ -1,0 +1,6 @@
+name: Risk Retention Group (RRG)
+parent: art.captives
+description: A liability insurer owned by its members, who share a similar business; chartered in one state but can operate nationwide.
+example: Physicians form an RRG for malpractice cover.
+segment: Commercial
+usNotes: Created under the federal Liability Risk Retention Act of 1986; not covered by state guaranty funds.

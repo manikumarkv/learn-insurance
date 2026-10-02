@@ -1,0 +1,17 @@
+term: Commercial Lines
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance for businesses and organizations.
+example: General liability and workers' comp are commercial lines.
+whereYoullSeeIt: []
+relatedTerms:
+  - personal-lines
+meta:
+  source: editorial

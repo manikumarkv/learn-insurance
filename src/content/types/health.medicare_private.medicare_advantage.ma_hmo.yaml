@@ -1,0 +1,5 @@
+name: Medicare Advantage HMO
+parent: health.medicare_private.medicare_advantage
+description: A Medicare Advantage plan with a network and referrals.
+example: A retiree uses doctors in the plan's local network.
+segment: Personal

@@ -1,0 +1,19 @@
+term: Medicare
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+  - social
+usageFrequency: High
+difficulty: Beginner
+definition: The federal health insurance program for people 65 and older, some younger people with disabilities, and people with end-stage renal disease (ESRD) or ALS.
+example: At 65 you enroll in Medicare Part A and B.
+whereYoullSeeIt: []
+relatedTerms:
+  - medicare-part-a
+  - medicare-part-b
+  - medicare-advantage
+  - medigap
+meta:
+  source: editorial

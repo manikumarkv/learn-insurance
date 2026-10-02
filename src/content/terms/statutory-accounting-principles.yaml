@@ -1,0 +1,21 @@
+term: Statutory Accounting Principles
+contentStatus: basic
+abbreviation: SAP
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: The conservative accounting rules insurers use for reports to state regulators, focused on ability to pay claims.
+example: SAP requires acquisition costs to be expensed immediately.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - generally-accepted-accounting-principles
+  - annual-statement
+  - national-association-of-insurance-commissioners
+meta:
+  source: editorial

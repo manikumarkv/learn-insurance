@@ -1,0 +1,19 @@
+term: Explanation of Benefits
+contentStatus: basic
+abbreviation: EOB
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Claims
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: A statement from the health insurer showing what a provider billed, what the plan paid and what you owe. It is not a bill.
+example: An EOB shows $800 billed, $500 allowed, $400 paid, you owe $100.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - allowed-amount
+  - claim-adjudication
+meta:
+  source: editorial

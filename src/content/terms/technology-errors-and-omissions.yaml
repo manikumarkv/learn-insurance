@@ -1,0 +1,19 @@
+term: Technology Errors and Omissions
+contentStatus: basic
+abbreviation: Tech E&O
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Professional liability for technology companies whose products or services fail and cause client losses.
+example: A software bug causes a client's billing errors.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - errors-and-omissions-insurance
+  - cyber-insurance
+meta:
+  source: editorial

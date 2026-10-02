@@ -1,0 +1,18 @@
+term: Morale Hazard
+contentStatus: basic
+alsoKnownAs:
+  - Attitudinal Hazard
+category: Underwriting
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Carelessness that happens because a person knows they are insured.
+example: Leaving your car unlocked because 'insurance will pay if it's stolen'.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - hazard
+  - moral-hazard
+meta:
+  source: editorial

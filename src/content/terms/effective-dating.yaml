@@ -1,0 +1,17 @@
+term: Effective Dating
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Recording when each version of policy data became true, so systems can show the policy as of any date.
+example: A query shows which drivers were on the policy last March.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - out-of-sequence-endorsement
+  - mid-term-adjustment
+meta:
+  source: editorial

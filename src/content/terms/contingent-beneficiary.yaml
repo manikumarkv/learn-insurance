@@ -1,0 +1,19 @@
+term: Contingent Beneficiary
+contentStatus: basic
+alsoKnownAs:
+  - Secondary Beneficiary
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: The person who receives the benefit if the primary beneficiary has died or can't receive it.
+example: Your children are contingent beneficiaries.
+whereYoullSeeIt:
+  - Application form
+  - Policy document
+relatedTerms:
+  - beneficiary
+  - primary-beneficiary
+meta:
+  source: editorial

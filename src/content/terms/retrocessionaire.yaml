@@ -1,0 +1,16 @@
+term: Retrocessionaire
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The company that provides retrocession to a reinsurer.
+example: A hedge-fund-backed retrocessionaire.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - retrocession
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Terrorism Exclusion
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Excludes loss from terrorism when the insured rejects TRIA coverage or for acts outside TRIA.
+example: A policyholder rejected TRIA; terrorism losses excluded.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - terrorism-risk-insurance-act
+meta:
+  source: editorial

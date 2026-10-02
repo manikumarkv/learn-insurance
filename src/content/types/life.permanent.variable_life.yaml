@@ -1,0 +1,7 @@
+name: Variable Life
+parent: life.permanent
+alsoKnownAs: Variable whole life
+description: Permanent cover with fixed premiums where the cash value and possibly the death benefit depend on investment performance.
+example: A policyholder chooses investment sub-accounts inside a fixed-premium policy.
+segment: Personal
+usNotes: Regulated as a security (SEC/FINRA) as well as by state insurance departments.

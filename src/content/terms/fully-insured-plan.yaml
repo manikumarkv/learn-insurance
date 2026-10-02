@@ -1,0 +1,17 @@
+term: Fully Insured Plan
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A health plan where the employer pays premiums to an insurer, which takes on the claims risk.
+example: A small business buys a fully insured group plan.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - self-funded-plan
+usNotes: Subject to state insurance mandates.
+meta:
+  source: editorial

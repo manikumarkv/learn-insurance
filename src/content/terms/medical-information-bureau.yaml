@@ -1,0 +1,22 @@
+term: Medical Information Bureau
+contentStatus: basic
+abbreviation: MIB
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - MIB Group
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A US organization where member life and health insurers share coded information from past applications to detect nondisclosure.
+example: MIB shows a prior application disclosing heart problems.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriting
+  - misrepresentation
+usNotes: Consumers can request their MIB file free under FCRA.
+meta:
+  source: editorial

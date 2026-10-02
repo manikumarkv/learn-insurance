@@ -1,0 +1,18 @@
+term: Reinsurance Broker
+contentStatus: basic
+alsoKnownAs:
+  - Reinsurance Intermediary
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Intermediate
+definition: A broker who arranges reinsurance between insurers and reinsurers.
+example: A broker places a $1B catastrophe program across 30 reinsurers.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - broker
+  - reinsurance
+meta:
+  source: editorial

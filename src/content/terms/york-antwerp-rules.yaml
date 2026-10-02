@@ -1,0 +1,16 @@
+term: York-Antwerp Rules
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: International rules for calculating general average contributions.
+example: The adjuster applies the York-Antwerp Rules 2016.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - general-average
+meta:
+  source: editorial

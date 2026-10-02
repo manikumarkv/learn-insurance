@@ -1,0 +1,5 @@
+name: Free of Particular Average (FPA)
+parent: marine.ocean_marine.cargo
+description: "The narrowest terms: pays total losses and partial losses only from major casualties like sinking, fire or collision."
+example: Low-value bulk goods are insured FPA.
+segment: Commercial

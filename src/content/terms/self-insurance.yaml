@@ -1,0 +1,22 @@
+term: Self-Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Self-Funding
+category: Core Concept
+lines:
+  - health
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: When an organization pays its own losses from its own funds rather than buying insurance.
+example: A large employer pays employee medical bills directly and hires a TPA to process claims.
+whereYoullSeeIt: []
+relatedTerms:
+  - risk-retention
+  - self-funded-plan
+  - third-party-administrator
+  - captive-insurance-company
+usNotes: Self-insuring workers' comp requires state approval; self-funded health plans are governed by ERISA.
+meta:
+  source: editorial

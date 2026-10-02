@@ -1,0 +1,5 @@
+name: Whole Turnover Policy
+parent: financial.credit.trade_credit
+description: Covers all of a business's credit sales to customers.
+example: A distributor insures all its receivables.
+segment: Commercial

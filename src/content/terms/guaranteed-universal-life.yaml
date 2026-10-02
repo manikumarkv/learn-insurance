@@ -1,0 +1,20 @@
+term: Guaranteed Universal Life
+contentStatus: basic
+abbreviation: GUL
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - No-Lapse UL
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Universal life focused on a guaranteed death benefit to a certain age with little cash value.
+example: A GUL guaranteed to age 100.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - universal-life-insurance
+  - no-lapse-guarantee
+meta:
+  source: editorial

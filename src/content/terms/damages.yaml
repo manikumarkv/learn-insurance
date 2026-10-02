@@ -1,0 +1,22 @@
+term: Damages
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: Money a court awards to someone who has been harmed.
+example: A jury awards $200,000 in damages to an injured customer.
+whereYoullSeeIt:
+  - Claim documents
+  - Policy document
+relatedTerms:
+  - compensatory-damages
+  - punitive-damages
+  - liability
+meta:
+  source: editorial

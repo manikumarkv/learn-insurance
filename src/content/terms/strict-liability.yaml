@@ -1,0 +1,19 @@
+term: Strict Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Being legally responsible for harm even if you were not careless.
+example: A manufacturer may be strictly liable for a defective product that injures someone.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - product-liability-insurance
+  - liability
+  - negligence
+meta:
+  source: editorial

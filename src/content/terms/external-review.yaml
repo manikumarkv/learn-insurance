@@ -1,0 +1,18 @@
+term: External Review
+contentStatus: basic
+alsoKnownAs:
+  - Independent Review
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Review of a denied health claim by an independent organization, after internal appeals, whose decision the plan must follow.
+example: An independent reviewer overturns a denied cancer treatment.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - appeal
+usNotes: Guaranteed by the ACA; run by states or the federal process.
+meta:
+  source: editorial

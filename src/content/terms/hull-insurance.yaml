@@ -1,0 +1,19 @@
+term: Hull Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Hull and Machinery
+  - H&M
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Intermediate
+definition: Physical damage insurance on a ship or aircraft itself.
+example: A ship's engine room fire is covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - aviation-insurance
+  - ocean-marine-insurance
+meta:
+  source: editorial

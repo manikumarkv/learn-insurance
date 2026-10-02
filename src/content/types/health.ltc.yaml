@@ -1,0 +1,7 @@
+name: Long-Term Care Insurance
+parent: health
+alsoKnownAs: LTC insurance
+description: Pays for help with daily living (bathing, dressing, eating) at home, in assisted living or in a nursing home.
+example: An 80-year-old with Alzheimer's has nursing home fees paid by her LTC policy.
+segment: Personal
+usNotes: Medicare does not cover long-term custodial care; Medicaid does but only after assets are spent down.

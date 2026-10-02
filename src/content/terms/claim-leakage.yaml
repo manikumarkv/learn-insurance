@@ -1,0 +1,17 @@
+term: Claims Leakage
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Money lost through inefficient claims handling, such as overpayment or missed recoveries.
+example: Failing to pursue subrogation causes leakage.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claim-settlement
+  - recovery
+meta:
+  source: editorial

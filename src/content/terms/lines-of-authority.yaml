@@ -1,0 +1,18 @@
+term: Lines of Authority
+contentStatus: basic
+abbreviation: LOA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The types of insurance a producer's license allows them to sell, such as life, health, property or casualty.
+example: A producer with P&C lines of authority can't sell life insurance.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - producer-license
+meta:
+  source: editorial

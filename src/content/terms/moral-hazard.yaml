@@ -1,0 +1,18 @@
+term: Moral Hazard
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The risk that someone acts dishonestly, such as faking a claim, because they are insured.
+example: A struggling business owner sets fire to the shop to collect insurance.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - hazard
+  - morale-hazard
+  - insurance-fraud
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: 1035 Exchange
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A tax-free exchange under IRS Section 1035 of a life insurance, annuity or long-term care policy for a similar or allowed contract (e.g. life to annuity is allowed, annuity to life is not).
+example: You exchange an old annuity for a new one without paying tax.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - replacement
+meta:
+  source: editorial

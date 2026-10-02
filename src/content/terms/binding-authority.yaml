@@ -1,0 +1,18 @@
+term: Binding Authority
+contentStatus: basic
+alsoKnownAs:
+  - Delegated Authority
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Permission given by an insurer to an agent or MGA to accept risks and issue coverage on its behalf.
+example: An MGA has authority to bind small restaurant policies.
+whereYoullSeeIt: []
+relatedTerms:
+  - managing-general-agent
+  - underwriting-authority
+  - binder
+meta:
+  source: editorial

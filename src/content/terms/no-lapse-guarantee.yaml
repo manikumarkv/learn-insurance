@@ -1,0 +1,17 @@
+term: No-Lapse Guarantee
+contentStatus: basic
+alsoKnownAs:
+  - Secondary Guarantee
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A promise that a UL policy will stay in force as long as required premiums are paid, even if cash value runs out.
+example: Paying the guarantee premium keeps the policy alive to age 95.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - guaranteed-universal-life
+meta:
+  source: editorial

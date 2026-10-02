@@ -1,0 +1,18 @@
+term: Auditable Policy
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy whose final premium is determined by an audit after it ends.
+example: Workers' comp and GL on payroll or sales basis are auditable.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - premium-audit
+  - deposit-premium
+meta:
+  source: editorial

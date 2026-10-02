@@ -1,0 +1,7 @@
+name: Accelerated Death Benefit Rider
+parent: life.life_riders
+alsoKnownAs: Living benefits rider
+description: Lets a terminally, chronically or critically ill insured receive part of the death benefit while still alive.
+example: A patient given 6 months to live gets an advance on their policy to pay for care.
+segment: Personal
+usNotes: Terminal illness acceleration is generally tax-free under the HIPAA 1996 rules.

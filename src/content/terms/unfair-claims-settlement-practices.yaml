@@ -1,0 +1,18 @@
+term: Unfair Claims Settlement Practices
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: State laws listing prohibited claim behaviors by insurers, like misrepresenting coverage or delaying payment unreasonably.
+example: An insurer fined for not responding to claims within the required time.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - bad-faith
+  - market-conduct-examination
+usNotes: Based on an NAIC model act adopted in some form by nearly all states.
+meta:
+  source: editorial

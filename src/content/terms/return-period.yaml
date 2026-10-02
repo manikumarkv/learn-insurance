@@ -1,0 +1,18 @@
+term: Return Period
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - agriculture
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: How often, on average, a loss of a certain size is expected, such as once in 100 years.
+example: A 1-in-100 return period equals 1% chance each year.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - exceedance-probability
+meta:
+  source: editorial

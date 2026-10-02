@@ -1,0 +1,19 @@
+term: Unearned Premium Reserve
+contentStatus: basic
+abbreviation: UPR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A liability on the insurer's balance sheet equal to all unearned premium.
+example: An insurer holds $400M in UPR.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - unearned-premium
+  - reserves
+meta:
+  source: editorial

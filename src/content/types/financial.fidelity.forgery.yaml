@@ -1,0 +1,5 @@
+name: Forgery or Alteration
+parent: financial.fidelity
+description: Covers losses from forged or altered checks and similar documents.
+example: A forged company check is cashed.
+segment: Commercial

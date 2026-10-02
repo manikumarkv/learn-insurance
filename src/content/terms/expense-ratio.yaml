@@ -1,0 +1,18 @@
+term: Expense Ratio
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Underwriting expenses (commissions, salaries, overhead) divided by premium.
+example: $30M expenses on $100M premium is 30%.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-ratio
+  - combined-ratio
+  - acquisition-costs
+meta:
+  source: editorial

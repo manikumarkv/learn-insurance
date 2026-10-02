@@ -1,0 +1,18 @@
+term: Nuclear Exclusion
+contentStatus: basic
+alsoKnownAs:
+  - Nuclear Hazard Exclusion
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Excludes losses from nuclear reaction, radiation or radioactive contamination.
+example: Contamination from a nuclear plant accident is excluded.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+usNotes: Nuclear liability is handled by the Price-Anderson Act and nuclear pools.
+meta:
+  source: editorial

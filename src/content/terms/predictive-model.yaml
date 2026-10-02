@@ -1,0 +1,20 @@
+term: Predictive Model
+contentStatus: basic
+alsoKnownAs:
+  - Predictive Analytics
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A statistical or machine-learning model that uses data to predict outcomes like claims or lapses.
+example: A model predicts which auto claims are likely fraudulent.
+whereYoullSeeIt:
+  - Underwriting system
+  - Claims system
+relatedTerms:
+  - generalized-linear-model
+  - accelerated-underwriting
+usNotes: Some states require filing models used in rating.
+meta:
+  source: editorial

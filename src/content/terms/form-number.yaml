@@ -1,0 +1,18 @@
+term: Form Number
+contentStatus: basic
+alsoKnownAs:
+  - Form Edition Date
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The unique identifier and edition date printed on each policy form, e.g., 'HO 00 03 05 11'.
+example: The edition date tells which version applies.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - form
+  - forms-schedule
+meta:
+  source: editorial

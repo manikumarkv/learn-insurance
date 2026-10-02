@@ -1,0 +1,17 @@
+term: Mortality Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: The chance of dying within a given period, often per 1,000 people at a given age.
+example: A mortality rate of 2 per 1,000 at age 50.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - mortality-table
+  - morbidity-rate
+meta:
+  source: editorial

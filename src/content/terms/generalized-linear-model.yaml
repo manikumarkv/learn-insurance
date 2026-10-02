@@ -1,0 +1,20 @@
+term: Generalized Linear Model
+contentStatus: basic
+abbreviation: GLM
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A statistical technique widely used in insurance pricing to estimate how each rating factor affects losses.
+example: A GLM shows young drivers have 2.5x the claim frequency.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - predictive-model
+  - rating-factor
+usNotes: Regulators often review GLMs in rate filings.
+meta:
+  source: editorial

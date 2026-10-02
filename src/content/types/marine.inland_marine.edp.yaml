@@ -1,0 +1,6 @@
+name: Electronic Data Processing (EDP)
+parent: marine.inland_marine
+alsoKnownAs: Computer equipment floater
+description: Covers computers, servers and media, including breakdown and data restoration.
+example: A power surge fries a firm's servers.
+segment: Commercial

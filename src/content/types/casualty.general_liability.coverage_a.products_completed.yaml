@@ -1,0 +1,7 @@
+name: Products & Completed Operations
+parent: casualty.general_liability.coverage_a
+alsoKnownAs: Products liability
+description: Covers injuries or damage caused by products you made or sold, or work you finished.
+example: A toaster manufacturer is sued after a product catches fire.
+segment: Commercial
+usNotes: Subject to its own aggregate limit.

@@ -1,0 +1,20 @@
+term: Consolidated Omnibus Budget Reconciliation Act
+contentStatus: basic
+abbreviation: COBRA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: High
+difficulty: Intermediate
+definition: A federal law letting you keep your employer group health coverage for a time after leaving a job, usually paying the full premium plus 2%.
+example: You keep your plan for 18 months after being laid off.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - continuation-coverage
+  - employer-sponsored-insurance
+usNotes: Applies to employers with 20+ employees; many states have 'mini-COBRA' laws for smaller employers.
+meta:
+  source: editorial

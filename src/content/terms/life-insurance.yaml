@@ -1,0 +1,19 @@
+term: Life Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: Insurance that pays money to your beneficiaries when you die.
+example: A $500,000 policy pays your family if you die.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - term-life-insurance
+  - permanent-life-insurance
+  - death-benefit
+  - beneficiary
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Industry Index Trigger
+parent: art.ils.cat_bonds
+description: Pays based on total industry losses as estimated by a reporting agency (e.g. PCS).
+example: The bond pays when US industry hurricane losses exceed $50 billion.
+segment: Commercial

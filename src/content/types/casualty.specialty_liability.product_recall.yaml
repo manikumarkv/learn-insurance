@@ -1,0 +1,7 @@
+name: Product Recall
+parent: casualty.specialty_liability
+alsoKnownAs: Product contamination
+description: Pays the costs of recalling faulty or contaminated products, and sometimes lost profits.
+example: A food maker recalls a batch contaminated with listeria.
+segment: Commercial
+usNotes: Recalls may be ordered by FDA, USDA, CPSC or NHTSA.

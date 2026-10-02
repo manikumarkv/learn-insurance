@@ -1,0 +1,18 @@
+term: Arbitration Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A clause requiring disputes to be settled by a private arbitrator instead of a court.
+example: A reinsurance dispute goes to a panel of three arbitrators.
+whereYoullSeeIt:
+  - Policy document
+  - Reinsurance contract
+relatedTerms:
+  - appraisal-clause
+  - dispute-resolution
+meta:
+  source: editorial

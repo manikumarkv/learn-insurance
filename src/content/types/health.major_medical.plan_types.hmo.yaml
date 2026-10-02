@@ -1,0 +1,6 @@
+name: Health Maintenance Organization (HMO)
+parent: health.major_medical.plan_types
+description: You must use the plan's network and usually need a referral from your primary care physician (PCP) to see a specialist; out-of-network care is not covered except emergencies.
+example: A family accepts a narrow network for lower premiums.
+segment: Both
+usNotes: "Licensed under state HMO laws; example: Kaiser Permanente."

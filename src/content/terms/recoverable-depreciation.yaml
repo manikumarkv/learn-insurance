@@ -1,0 +1,20 @@
+term: Recoverable Depreciation
+contentStatus: basic
+alsoKnownAs:
+  - Holdback
+category: Claims
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: The depreciation amount held back on a replacement cost claim, paid once you actually repair or replace the item.
+example: The insurer pays $6,000 ACV now and the remaining $4,000 after the new roof is installed.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - replacement-cost
+  - actual-cash-value
+  - depreciation
+meta:
+  source: editorial

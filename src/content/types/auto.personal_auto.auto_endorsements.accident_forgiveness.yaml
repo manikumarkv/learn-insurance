@@ -1,0 +1,6 @@
+name: Accident Forgiveness
+parent: auto.personal_auto.auto_endorsements
+description: Prevents your premium from rising after your first at-fault accident.
+example: A driver's rate doesn't rise after a minor fender-bender.
+segment: Personal
+usNotes: Not permitted or restricted in some states (e.g. California).

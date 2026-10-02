@@ -1,0 +1,19 @@
+term: Garage Liability
+contentStatus: basic
+alsoKnownAs:
+  - Garagekeepers
+category: Line-Specific
+lines:
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Liability coverage for auto businesses such as repair shops and dealers, for injuries and damage arising from their premises, operations and autos; damage to customers' cars in their care needs separate garagekeepers coverage.
+example: A customer's car is damaged in a shop fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-auto-insurance
+usNotes: ISO's Auto Dealers Coverage Form (CA 00 25) has largely replaced the older Garage Coverage Form (CA 00 05) for dealers.
+meta:
+  source: editorial

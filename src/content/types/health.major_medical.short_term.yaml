@@ -1,0 +1,7 @@
+name: Short-Term Limited-Duration Insurance (STLDI)
+parent: health.major_medical
+alsoKnownAs: Short-term health
+description: Temporary health cover that doesn't have to follow ACA rules, so it can exclude pre-existing conditions.
+example: Someone between jobs buys a 3-month plan.
+segment: Personal
+usNotes: A 2024 federal rule limited STLDI to 3 months (4 months with renewals), but in August 2025 the federal agencies said they would not enforce those limits while they write a new rule. Some states restrict or ban it outright.

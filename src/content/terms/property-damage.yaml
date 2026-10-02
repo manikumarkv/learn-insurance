@@ -1,0 +1,19 @@
+term: Property Damage
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Physical damage to tangible property, including loss of its use.
+example: Your employee damages a client's floor.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - bodily-injury
+  - property-damage-liability
+meta:
+  source: editorial

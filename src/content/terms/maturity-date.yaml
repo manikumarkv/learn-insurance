@@ -1,0 +1,16 @@
+term: Maturity Date
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: The date a policy or annuity ends and pays its value, if the insured is alive.
+example: A policy matures at age 121.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - endowment
+meta:
+  source: editorial

@@ -1,0 +1,7 @@
+name: Environmental / Pollution Liability
+parent: casualty.specialty_liability
+alsoKnownAs: Pollution legal liability (PLL)
+description: Covers clean-up costs and third-party claims from pollution, which CGL mostly excludes.
+example: A factory's chemical leak into a river is cleaned up under the policy.
+segment: Commercial
+usNotes: Exposure driven by federal CERCLA (Superfund) and state environmental laws.

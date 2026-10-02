@@ -1,0 +1,18 @@
+term: Farmowners Policy
+contentStatus: basic
+alsoKnownAs:
+  - Farm and Ranch Policy
+category: Line-Specific
+lines:
+  - property
+  - agriculture
+usageFrequency: Low
+difficulty: Intermediate
+definition: A package policy covering a farm's home, buildings, equipment and liability.
+example: A farmowners policy covers the barn, tractor and farmhouse.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - homeowners-insurance
+meta:
+  source: editorial

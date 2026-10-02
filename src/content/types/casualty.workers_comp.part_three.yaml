@@ -1,0 +1,5 @@
+name: "Part Three: Other States Coverage"
+parent: casualty.workers_comp
+description: Extends cover when employees work in states not listed on the policy.
+example: An employee is injured on a project in another state.
+segment: Commercial

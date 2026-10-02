@@ -1,0 +1,7 @@
+name: Individual Market Plans
+parent: health.major_medical
+alsoKnownAs: Marketplace plans; Obamacare plans
+description: Health plans people buy for themselves, on or off the government exchanges.
+example: A self-employed person compares plans on HealthCare.gov and qualifies for a subsidy.
+segment: Personal
+usNotes: Sold on HealthCare.gov or a state-run exchange (e.g. Covered California). Premium tax credits are available on-exchange by income; the temporary 'enhanced' credits expired at the end of 2025, so from 2026 households above 400% of the federal poverty level again get no credit. Open enrollment starts Nov 1 each year (HealthCare.gov runs to Jan 15; state exchange dates vary).

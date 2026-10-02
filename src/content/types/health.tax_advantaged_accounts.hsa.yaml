@@ -1,0 +1,6 @@
+name: Health Savings Account (HSA)
+parent: health.tax_advantaged_accounts
+description: A personal savings account for medical costs, only available with an HSA-eligible HDHP; money rolls over and can be invested.
+example: A worker contributes $4,000 a year and invests the balance.
+segment: Personal
+usNotes: Contribution limits set yearly by the IRS; triple tax advantage. From 2026, all bronze and catastrophic plans count as HSA-eligible, and people with certain direct primary care arrangements can contribute (One Big Beautiful Bill Act; IRS Notice 2026-5).

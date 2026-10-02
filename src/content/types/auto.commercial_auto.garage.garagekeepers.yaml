@@ -1,0 +1,5 @@
+name: Garagekeepers Coverage
+parent: auto.commercial_auto.garage
+description: Covers customers' vehicles in your care, custody and control.
+example: A fire in a repair shop damages five customer cars.
+segment: Commercial

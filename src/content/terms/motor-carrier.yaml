@@ -1,0 +1,20 @@
+term: Motor Carrier Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Trucking Insurance
+category: Line-Specific
+lines:
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Coverage for trucking companies, including liability required by federal rules for interstate haulers.
+example: A trucking firm needs $750,000 minimum liability.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - mcs-90
+  - motor-truck-cargo
+usNotes: FMCSA sets minimum limits for interstate carriers.
+meta:
+  source: editorial

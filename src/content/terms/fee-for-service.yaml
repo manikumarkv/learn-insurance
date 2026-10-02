@@ -1,0 +1,18 @@
+term: Fee-for-Service
+contentStatus: basic
+abbreviation: FFS
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A payment model where providers are paid for each service they perform.
+example: A doctor bills for each visit and test.
+whereYoullSeeIt: []
+relatedTerms:
+  - capitation
+  - value-based-care
+meta:
+  source: editorial

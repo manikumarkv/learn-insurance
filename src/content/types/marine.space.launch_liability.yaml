@@ -1,0 +1,6 @@
+name: Launch Third-Party Liability
+parent: marine.space
+description: Covers damage caused by launches to people and property on the ground.
+example: A launch operator buys liability cover required for its license.
+segment: Commercial
+usNotes: FAA licensing requires "maximum probable loss" liability cover, with a federal indemnification backstop above it under the Commercial Space Launch Act.

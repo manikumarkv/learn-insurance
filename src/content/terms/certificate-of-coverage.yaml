@@ -1,0 +1,19 @@
+term: Certificate of Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Certificate of Insurance (Group)
+category: Policy Wording
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A document given to each member of a group plan describing their coverage under the master policy.
+example: You receive a certificate describing your group life benefit.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - master-policy
+  - group-insurance
+meta:
+  source: editorial

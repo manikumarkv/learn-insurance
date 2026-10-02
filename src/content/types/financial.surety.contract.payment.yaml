@@ -1,0 +1,6 @@
+name: Payment Bond
+parent: financial.surety.contract
+alsoKnownAs: Labor and material bond
+description: Guarantees subcontractors and suppliers will be paid.
+example: Unpaid subcontractors on a public project are paid by the surety.
+segment: Commercial

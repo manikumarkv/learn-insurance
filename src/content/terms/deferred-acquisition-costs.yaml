@@ -1,0 +1,19 @@
+term: Deferred Acquisition Costs
+contentStatus: basic
+abbreviation: DAC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Under GAAP, acquisition costs spread over the life of the policy instead of expensed at once.
+example: A life insurer amortizes DAC over 20 years.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - acquisition-costs
+  - generally-accepted-accounting-principles
+meta:
+  source: editorial

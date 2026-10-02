@@ -1,0 +1,17 @@
+term: Customer Portal
+contentStatus: basic
+alsoKnownAs:
+  - Self-Service Portal
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A website or app where policyholders view policies, pay bills, get ID cards and file claims.
+example: You download your auto ID card from the portal.
+whereYoullSeeIt: []
+relatedTerms:
+  - first-notice-of-loss
+  - digital-distribution
+meta:
+  source: editorial

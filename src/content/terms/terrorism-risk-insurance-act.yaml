@@ -1,0 +1,24 @@
+term: Terrorism Risk Insurance Act
+contentStatus: basic
+abbreviation: TRIA
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - TRIPRA
+category: Regulation
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A federal program where the government shares insured losses from certified terrorist attacks above set thresholds; insurers must offer terrorism coverage.
+example: A commercial policyholder accepts or rejects terrorism coverage at binding.
+whereYoullSeeIt:
+  - Policy document
+  - Regulatory filings
+relatedTerms:
+  - war-exclusion
+  - terrorism-exclusion
+usNotes: Currently authorized through December 31, 2027 (2019 reauthorization); Congress was considering a further extension in 2026.
+meta:
+  source: editorial

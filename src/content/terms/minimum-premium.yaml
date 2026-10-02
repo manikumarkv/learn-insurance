@@ -1,0 +1,17 @@
+term: Minimum Premium
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The lowest premium the insurer will charge for a policy regardless of exposures or cancellation.
+example: Even after mid-term cancellation, a $250 minimum premium applies.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - deposit-premium
+  - fully-earned-premium
+meta:
+  source: editorial

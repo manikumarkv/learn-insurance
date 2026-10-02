@@ -1,0 +1,19 @@
+term: Automatic Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Newly Acquired Coverage
+category: Policy Wording
+lines:
+  - property
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Temporary coverage for newly acquired property until you report it to the insurer.
+example: A new car is covered for 14–30 days until you add it.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - endorsement
+meta:
+  source: editorial

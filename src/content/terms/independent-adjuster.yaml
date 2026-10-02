@@ -1,0 +1,19 @@
+term: Independent Adjuster
+contentStatus: basic
+abbreviation: IA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An adjuster hired by an insurer on contract rather than employed by it, often used after catastrophes.
+example: Hundreds of IAs deploy to Florida after a hurricane.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claims-adjuster
+  - catastrophe-adjuster
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Blanket Waiver of Subrogation
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: An endorsement that waives subrogation against anyone the insured agreed in a written contract to waive it for.
+example: A workers' comp policy includes a blanket waiver for all contract clients.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - waiver-of-subrogation
+  - endorsement
+meta:
+  source: editorial

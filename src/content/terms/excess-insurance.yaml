@@ -1,0 +1,22 @@
+term: Excess Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Excess Layer
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance that pays only after another policy's limits are used up.
+example: A $5M excess policy sits above a $1M primary policy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - primary-insurance
+  - umbrella-insurance
+  - layer
+meta:
+  source: editorial

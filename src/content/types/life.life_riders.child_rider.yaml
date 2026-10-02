@@ -1,0 +1,6 @@
+name: Child Term Rider
+parent: life.life_riders
+alsoKnownAs: Children's term
+description: Adds small term cover for the policyholder's children.
+example: A parent adds $10,000 of cover for all children on their own policy.
+segment: Personal

@@ -1,0 +1,7 @@
+name: Medical Malpractice
+parent: specialty.professional_liability
+alsoKnownAs: Medical professional liability (MPL)
+description: Covers doctors, nurses and hospitals against claims of negligent treatment.
+example: A surgeon is sued after a complication.
+segment: Both
+usNotes: Some states require it for licensure or patient compensation funds; many states cap non-economic damages.

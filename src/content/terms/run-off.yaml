@@ -1,0 +1,17 @@
+term: Run-Off
+contentStatus: basic
+alsoKnownAs:
+  - Legacy Business
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A book of business that no longer writes new policies but still has claims to pay.
+example: A closed-down asbestos portfolio in run-off.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - portfolio-transfer
+meta:
+  source: editorial

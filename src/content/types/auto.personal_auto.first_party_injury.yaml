@@ -1,0 +1,5 @@
+name: First-Party Injury Coverages
+parent: auto.personal_auto
+description: Pays medical costs for you and your passengers, regardless of who caused the crash.
+example: A driver's own policy pays for her hospital visit after a crash.
+segment: Personal

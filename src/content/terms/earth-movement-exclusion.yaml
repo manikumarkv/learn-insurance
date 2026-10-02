@@ -1,0 +1,18 @@
+term: Earth Movement Exclusion
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Beginner
+definition: Excludes damage from earthquakes, landslides, sinkholes and similar ground movement.
+example: A crack from an earthquake is excluded unless you bought earthquake coverage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - earthquake-insurance
+usNotes: Florida requires insurers to offer sinkhole coverage and cover catastrophic ground cover collapse.
+meta:
+  source: editorial

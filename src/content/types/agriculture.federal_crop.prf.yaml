@@ -1,0 +1,6 @@
+name: Pasture, Rangeland & Forage (PRF)
+parent: agriculture.federal_crop
+description: Index-based cover that pays ranchers when rainfall in their grid area falls below normal.
+example: A Texas rancher is paid when rainfall is 40% below average for two months.
+segment: Commercial
+usNotes: A parametric, rainfall-index policy.

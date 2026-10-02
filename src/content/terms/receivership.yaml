@@ -1,0 +1,19 @@
+term: Receivership
+contentStatus: basic
+alsoKnownAs:
+  - Rehabilitation
+  - Liquidation
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A court process where the state regulator takes control of a troubled insurer to fix or wind it down.
+example: A regulator places an insurer in liquidation.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insolvency
+  - guaranty-fund
+meta:
+  source: editorial

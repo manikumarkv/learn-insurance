@@ -1,0 +1,20 @@
+term: Social Inflation
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Rising claim costs driven by larger jury awards, litigation funding and changing attitudes toward corporations.
+example: Commercial auto claims grow faster than general inflation.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - excess-verdict
+  - loss-trend
+meta:
+  source: editorial

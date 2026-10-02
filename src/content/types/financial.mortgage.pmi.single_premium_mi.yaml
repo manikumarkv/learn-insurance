@@ -1,0 +1,5 @@
+name: Single-Premium PMI
+parent: financial.mortgage.pmi
+description: PMI paid in one lump sum at closing.
+example: A buyer pays PMI upfront to lower monthly costs.
+segment: Personal

@@ -1,0 +1,6 @@
+name: Event Cancellation
+parent: specialty.event
+alsoKnownAs: Contingency
+description: Covers costs and lost income if an event is cancelled, postponed or relocated.
+example: A conference is cancelled when the venue floods.
+segment: Commercial

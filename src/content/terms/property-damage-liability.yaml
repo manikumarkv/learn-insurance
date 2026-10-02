@@ -1,0 +1,20 @@
+term: Property Damage Liability
+contentStatus: basic
+abbreviation: PD
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: Pays for damage you cause to other people's property.
+example: You hit a fence; PD pays to fix it.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - bodily-injury-liability
+  - split-limits
+meta:
+  source: editorial

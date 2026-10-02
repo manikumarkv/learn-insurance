@@ -1,0 +1,18 @@
+term: Loss History
+contentStatus: basic
+alsoKnownAs:
+  - Claims History
+category: Underwriting
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A record of past claims used to judge the likelihood of future losses.
+example: Three water claims in five years raise your home premium.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - loss-run
+  - comprehensive-loss-underwriting-exchange-report
+meta:
+  source: editorial

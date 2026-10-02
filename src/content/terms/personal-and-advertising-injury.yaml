@@ -1,0 +1,18 @@
+term: Personal and Advertising Injury
+contentStatus: basic
+alsoKnownAs:
+  - Coverage B (CGL)
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Liability for offenses like libel, slander, false arrest, privacy invasion and copying another's advertising idea.
+example: A competitor sues you for defamatory ads.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-general-liability
+meta:
+  source: editorial

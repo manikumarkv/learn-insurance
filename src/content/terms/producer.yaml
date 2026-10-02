@@ -1,0 +1,19 @@
+term: Producer
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: The regulatory term for anyone licensed to sell, solicit or negotiate insurance, including agents and brokers.
+example: A state licenses you as a property and casualty producer.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insurance-agent
+  - broker
+  - producer-license
+usNotes: Used in the NAIC Producer Licensing Model Act.
+meta:
+  source: editorial

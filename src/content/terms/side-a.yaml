@@ -1,0 +1,18 @@
+term: Side A Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: D&O coverage paying directors and officers directly when the company can't indemnify them, such as in bankruptcy.
+example: Side A pays a director's defense when the company is insolvent.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - directors-and-officers-liability
+  - side-b
+  - side-c
+meta:
+  source: editorial

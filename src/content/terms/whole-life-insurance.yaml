@@ -1,0 +1,20 @@
+term: Whole Life Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Ordinary Life
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: Permanent life insurance with fixed premiums, a guaranteed death benefit and guaranteed cash value growth.
+example: A $100,000 whole life policy with level premiums for life.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - permanent-life-insurance
+  - cash-value
+  - dividend
+  - participating-policy
+meta:
+  source: editorial

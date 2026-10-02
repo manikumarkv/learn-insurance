@@ -1,0 +1,22 @@
+term: Disability Insurance
+contentStatus: basic
+abbreviation: DI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Disability Income Insurance
+category: Line-Specific
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance that replaces part of your income if illness or injury keeps you from working.
+example: Pays 60% of salary while you recover from back surgery.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - short-term-disability-insurance
+  - long-term-disability-insurance
+  - own-occupation
+meta:
+  source: editorial

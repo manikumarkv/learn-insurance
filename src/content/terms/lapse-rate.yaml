@@ -1,0 +1,18 @@
+term: Lapse Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The share of policies that stop because premiums are not paid.
+example: A 5% annual lapse rate on term policies.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - lapse
+  - persistency
+meta:
+  source: editorial

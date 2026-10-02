@@ -1,0 +1,7 @@
+name: Self-Funded (ASO) Plan
+parent: health.major_medical.group_health
+alsoKnownAs: Self-insured plan; Administrative Services Only
+description: The employer pays claims from its own funds and hires an insurer or third-party administrator (TPA) only to process them.
+example: A large retailer self-funds health claims to control costs.
+segment: Commercial
+usNotes: Governed by federal ERISA, which preempts most state insurance mandates.

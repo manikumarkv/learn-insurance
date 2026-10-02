@@ -1,0 +1,6 @@
+name: Guaranteed Minimum Death Benefit (GMDB)
+parent: life.annuities.deferred.variable
+alsoKnownAs: Enhanced death benefit
+description: A variable annuity rider guaranteeing heirs receive at least a set amount (e.g. premiums paid or a high-water mark) even if investments fell.
+example: Markets drop 30% but the owner's heirs still get the full amount invested.
+segment: Personal

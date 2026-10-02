@@ -1,0 +1,6 @@
+name: Medical Payments Coverage (MedPay)
+parent: auto.personal_auto.first_party_injury
+description: Pays medical bills for you and passengers regardless of fault; narrower than PIP.
+example: A passenger's ambulance ride is covered.
+segment: Personal
+usNotes: Optional in most states.

@@ -1,0 +1,7 @@
+name: Permanent Life
+parent: life
+alsoKnownAs: Cash value life insurance
+description: Covers you for your whole life as long as premiums are paid, and most types build a cash value you can borrow against or withdraw.
+example: A business owner buys permanent cover to leave money to heirs regardless of when they die.
+segment: Personal
+usNotes: Cash value grows tax-deferred if the policy meets the IRC Section 7702 definition of life insurance; overfunded policies become Modified Endowment Contracts (MECs).

@@ -1,0 +1,20 @@
+term: Fair Access to Insurance Requirements Plan
+contentStatus: basic
+abbreviation: FAIR Plan
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A state-mandated pool that provides basic property insurance to owners who can't get it in the regular market.
+example: A California homeowner in a wildfire zone buys from the California FAIR Plan.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - residual-market
+  - citizens-property-insurance
+usNotes: Exists in more than 30 states and D.C. (NAIC counts 33 states plus D.C.), and the number has been growing.
+meta:
+  source: editorial

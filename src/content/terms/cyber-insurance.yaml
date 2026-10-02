@@ -1,0 +1,23 @@
+term: Cyber Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Cyber Liability
+  - Cyber Risk Insurance
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: High
+difficulty: Intermediate
+definition: Covers costs of data breaches, ransomware and other cyber events, including notification, recovery, extortion and liability.
+example: After ransomware, the policy pays forensics, restoration and legal costs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ransomware
+  - breach-response
+  - network-security-liability
+  - war-exclusion
+usNotes: All states have data breach notification laws that drive cyber costs.
+meta:
+  source: editorial

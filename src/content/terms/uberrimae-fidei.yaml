@@ -1,0 +1,19 @@
+term: Uberrimae Fidei
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Latin for 'of the utmost good faith'. It is the legal principle that parties to an insurance contract must disclose all important facts honestly.
+example: Marine insurance law applies uberrimae fidei strictly, so an undisclosed fact can void the cover.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - utmost-good-faith
+  - material-fact
+  - concealment
+usNotes: In the US it is applied in marine insurance as a rule of federal maritime law in most federal circuits (the Fifth Circuit applies state law instead); other lines follow state misrepresentation statutes.
+meta:
+  source: editorial

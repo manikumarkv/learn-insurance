@@ -1,0 +1,6 @@
+name: Accidental Death & Dismemberment (AD&D)
+parent: health.supplemental
+description: Pays fixed sums for accidental death or loss of limbs, sight, speech or hearing.
+example: An employee's family receives an AD&D benefit after a fatal work accident.
+segment: Both
+usNotes: Often bundled with group life.

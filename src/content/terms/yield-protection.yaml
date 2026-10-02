@@ -1,0 +1,19 @@
+term: Yield Protection
+contentStatus: basic
+abbreviation: YP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal crop policy covering loss of production (yield) below a guaranteed level.
+example: Hail cuts wheat yield by 40%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - revenue-protection
+  - actual-production-history
+meta:
+  source: editorial

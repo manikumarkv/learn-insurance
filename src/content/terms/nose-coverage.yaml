@@ -1,0 +1,20 @@
+term: Nose Coverage
+contentStatus: basic
+alsoKnownAs:
+  - Prior Acts Coverage
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: Coverage on a new claims-made policy for incidents before its start date, replacing the need for a tail from the old policy.
+example: A new insurer grants prior acts back to 2015.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - tail-coverage
+  - prior-acts-coverage
+  - retroactive-date
+meta:
+  source: editorial

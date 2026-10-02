@@ -1,0 +1,18 @@
+term: Cession
+contentStatus: basic
+alsoKnownAs:
+  - Ceded
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Intermediate
+definition: The part of a risk or premium passed to a reinsurer.
+example: Ceding 30% of each policy to the reinsurer.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - ceding-company
+  - ceded-premium
+meta:
+  source: editorial

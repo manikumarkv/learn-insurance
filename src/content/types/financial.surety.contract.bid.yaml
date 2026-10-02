@@ -1,0 +1,5 @@
+name: Bid Bond
+parent: financial.surety.contract
+description: Guarantees a contractor will sign the contract and provide bonds if it wins the bid.
+example: A contractor submits a 10% bid bond with its tender.
+segment: Commercial

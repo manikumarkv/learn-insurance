@@ -1,0 +1,6 @@
+name: All Risks Cargo
+parent: marine.ocean_marine.cargo
+description: "The broadest cargo terms: covers all physical loss or damage except listed exclusions like poor packing and delay."
+example: A high-value machinery shipment is insured on all-risks terms.
+segment: Commercial
+usNotes: Based on American Institute Cargo Clauses.

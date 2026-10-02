@@ -1,0 +1,18 @@
+term: Fidelity Bond
+contentStatus: basic
+alsoKnownAs:
+  - ERISA Bond
+category: Line-Specific
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Coverage protecting against losses from dishonest acts of employees; ERISA requires one for people handling plan funds.
+example: A 401(k) plan's ERISA bond.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crime-insurance
+  - employee-retirement-income-security-act
+meta:
+  source: editorial

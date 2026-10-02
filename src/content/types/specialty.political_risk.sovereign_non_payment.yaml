@@ -1,0 +1,6 @@
+name: Sovereign Non-Payment
+parent: specialty.political_risk
+alsoKnownAs: Public buyer default; Non-honoring of sovereign financial obligations
+description: Covers exporters and lenders when a government or state-owned buyer fails to pay what it owes.
+example: A state-owned utility abroad fails to pay a US equipment maker for delivered turbines.
+segment: Commercial

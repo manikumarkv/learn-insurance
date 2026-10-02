@@ -1,0 +1,18 @@
+term: Kidnap and Ransom
+contentStatus: basic
+abbreviation: K&R
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers ransom payments, crisis consultants and related costs if an insured person is kidnapped.
+example: An executive traveling abroad is kidnapped.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crime-insurance
+meta:
+  source: editorial

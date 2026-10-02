@@ -1,0 +1,7 @@
+name: Fixed Indexed Annuity (FIA)
+parent: life.annuities.deferred
+alsoKnownAs: Equity-indexed annuity
+description: Interest is linked to a market index with a cap and a zero floor, so principal isn't lost to market drops (though surrender charges and rider fees can reduce what you get back if you withdraw early).
+example: A pre-retiree wants some index-linked growth with no loss of principal.
+segment: Personal
+usNotes: State-regulated insurance product, not a security.

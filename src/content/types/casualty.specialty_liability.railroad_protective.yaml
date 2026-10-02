@@ -1,0 +1,5 @@
+name: Railroad Protective Liability
+parent: casualty.specialty_liability
+description: Covers a railroad for liability from contractors working on or near its tracks.
+example: A contractor building a bridge over rail lines buys this for the railroad.
+segment: Commercial

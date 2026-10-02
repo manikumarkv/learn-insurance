@@ -1,0 +1,20 @@
+term: National Producer Number
+contentStatus: basic
+abbreviation: NPN
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A unique ID number assigned to each licensed producer nationwide.
+example: NPN 1234567 appears on appointment filings.
+whereYoullSeeIt:
+  - Regulatory filings
+  - Policy administration system
+relatedTerms:
+  - national-insurance-producer-registry
+  - producer-license
+meta:
+  source: editorial

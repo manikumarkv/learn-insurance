@@ -1,0 +1,16 @@
+term: Elevation Certificate
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: A document showing a building's elevation compared to expected flood levels.
+example: An EC shows the house is 2 feet above base flood elevation.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - flood-zone
+meta:
+  source: editorial

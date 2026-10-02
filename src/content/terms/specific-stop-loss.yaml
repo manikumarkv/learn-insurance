@@ -1,0 +1,17 @@
+term: Specific Stop-Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Stop-loss that pays when one person's claims exceed a set amount.
+example: Pays one employee's claims above $150,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - stop-loss-insurance
+  - aggregate-stop-loss
+meta:
+  source: editorial

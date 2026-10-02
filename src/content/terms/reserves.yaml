@@ -1,0 +1,21 @@
+term: Reserves
+contentStatus: basic
+alsoKnownAs:
+  - Technical Reserves
+  - Insurance Liabilities
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: Money an insurer sets aside on its balance sheet to pay future claims and obligations.
+example: Reserves for unpaid claims and unearned premium.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-reserve
+  - unearned-premium-reserve
+  - incurred-but-not-reported
+  - policy-reserve
+meta:
+  source: editorial

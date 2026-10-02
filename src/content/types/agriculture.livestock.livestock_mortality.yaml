@@ -1,0 +1,5 @@
+name: Livestock Mortality
+parent: agriculture.livestock
+description: Pays when insured animals die from accident, illness or disease.
+example: A dairy farm is paid after a barn fire kills cows.
+segment: Commercial

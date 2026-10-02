@@ -1,0 +1,19 @@
+term: General Ledger
+contentStatus: basic
+abbreviation: GL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The accounting system recording all financial transactions, fed by policy, billing and claims systems.
+example: Premium and claim payments post to the general ledger.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - billing-system
+  - statutory-accounting-principles
+meta:
+  source: editorial

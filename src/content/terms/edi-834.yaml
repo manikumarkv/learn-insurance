@@ -1,0 +1,17 @@
+term: EDI 834
+contentStatus: basic
+alsoKnownAs:
+  - X12 834
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: The HIPAA standard electronic format for enrolling members in health plans.
+example: An employer sends a weekly 834 enrollment file.
+whereYoullSeeIt:
+  - Data exchange/integration specs
+relatedTerms:
+  - edi-837
+meta:
+  source: editorial

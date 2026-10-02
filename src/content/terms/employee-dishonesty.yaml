@@ -1,0 +1,19 @@
+term: Employee Dishonesty
+contentStatus: basic
+alsoKnownAs:
+  - Employee Theft
+category: Policy Wording
+lines:
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Crime coverage for theft by employees.
+example: A cashier steals from the register over months.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crime-insurance
+  - fidelity-bond
+meta:
+  source: editorial

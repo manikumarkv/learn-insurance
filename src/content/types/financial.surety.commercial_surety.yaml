@@ -1,0 +1,6 @@
+name: Commercial Surety
+parent: financial.surety
+alsoKnownAs: Non-contract bonds
+description: Bonds required by laws, courts or contracts outside construction.
+example: A car dealer posts a bond to get a license.
+segment: Commercial

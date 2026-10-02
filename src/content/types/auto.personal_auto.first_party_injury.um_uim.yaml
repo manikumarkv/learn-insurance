@@ -1,0 +1,6 @@
+name: Uninsured / Underinsured Motorist (UM/UIM)
+parent: auto.personal_auto.first_party_injury
+description: Pays for your injuries (and in some states car damage) if the at-fault driver has no insurance or too little.
+example: A hit-and-run driver injures you and your UM cover pays.
+segment: Personal
+usNotes: Required in about 20 states and must be offered (rejectable in writing) in most others.

@@ -1,0 +1,20 @@
+term: Ceding Company
+contentStatus: basic
+alsoKnownAs:
+  - Cedent
+  - Reinsured
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The insurer that transfers (cedes) part of its risk to a reinsurer.
+example: A regional insurer cedes 40% of its property risk.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - reinsurance
+  - reinsurer
+  - cession
+meta:
+  source: editorial

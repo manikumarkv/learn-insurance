@@ -1,0 +1,22 @@
+term: Self-Funded Plan
+contentStatus: basic
+alsoKnownAs:
+  - Self-Insured Plan
+  - ASO Plan
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A health plan where the employer pays claims from its own funds, usually hiring an insurer or TPA to administer it.
+example: A large company pays employees' medical claims directly.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - fully-insured-plan
+  - stop-loss-insurance
+  - employee-retirement-income-security-act
+  - administrative-services-only
+usNotes: Governed by ERISA and generally exempt from state insurance mandates.
+meta:
+  source: editorial

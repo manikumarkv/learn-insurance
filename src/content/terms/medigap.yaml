@@ -1,0 +1,19 @@
+term: Medigap
+contentStatus: basic
+alsoKnownAs:
+  - Medicare Supplement Insurance
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Private insurance that pays some costs Original Medicare doesn't, like coinsurance and deductibles.
+example: Medigap Plan G covers your 20% Part B coinsurance.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - medicare
+  - medicare-part-b
+usNotes: Plans are standardized by letter (A–N); Massachusetts, Minnesota and Wisconsin use different standards.
+meta:
+  source: editorial

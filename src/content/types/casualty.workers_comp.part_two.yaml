@@ -1,0 +1,6 @@
+name: "Part Two: Employers' Liability"
+parent: casualty.workers_comp
+description: Covers lawsuits by employees or others (e.g. spouses) related to work injuries that fall outside the workers' comp system.
+example: An injured worker's spouse sues for loss of consortium.
+segment: Commercial
+usNotes: Typical limits $100,000 / $500,000 / $100,000.

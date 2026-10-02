@@ -1,0 +1,19 @@
+term: Loss
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The reduction in value or financial harm that triggers a claim, such as damage, injury or death.
+example: A tree falling on your garage is a loss.
+whereYoullSeeIt:
+  - Policy document
+  - Claim documents
+relatedTerms:
+  - claim
+  - peril
+  - hazard
+meta:
+  source: editorial

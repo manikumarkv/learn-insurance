@@ -1,0 +1,18 @@
+term: Other Insurance Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: Policy wording explaining how this policy shares a loss with other policies that cover the same thing.
+example: A policy says it pays excess over any other valid insurance.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - contribution
+  - primary-insurance
+  - excess-insurance
+meta:
+  source: editorial

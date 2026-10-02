@@ -1,0 +1,5 @@
+name: Aviation Products Liability
+parent: marine.aviation
+description: Covers manufacturers of aircraft and parts against liability for defects.
+example: A parts maker is sued after an engine component fails.
+segment: Commercial

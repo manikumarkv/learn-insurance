@@ -1,0 +1,7 @@
+name: VA Loan Guaranty
+parent: financial.mortgage
+alsoKnownAs: VA funding fee
+description: The Department of Veterans Affairs guarantees part of VA loans instead of mortgage insurance; borrowers pay a one-time funding fee.
+example: A veteran buys a home with 0% down.
+segment: Personal
+usNotes: Federal program; certain disabled veterans are exempt from the fee.

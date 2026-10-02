@@ -1,0 +1,20 @@
+term: Policy Illustration
+contentStatus: basic
+alsoKnownAs:
+  - Illustration
+  - Ledger
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A document projecting how a life policy's premiums, cash values and death benefits may change over time, showing guaranteed and non-guaranteed values.
+example: An illustration shows cash value at age 65 under current and guaranteed rates.
+whereYoullSeeIt:
+  - Quote
+relatedTerms:
+  - indexed-universal-life
+  - cash-value
+usNotes: Governed by the NAIC Life Insurance Illustrations Model Regulation.
+meta:
+  source: editorial

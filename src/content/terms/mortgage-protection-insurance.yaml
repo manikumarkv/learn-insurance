@@ -1,0 +1,17 @@
+term: Mortgage Protection Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: Life insurance meant to pay off a mortgage if the borrower dies.
+example: A decreasing term policy pays the remaining mortgage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - decreasing-term
+  - mortgage-insurance
+meta:
+  source: editorial

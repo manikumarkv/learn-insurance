@@ -1,0 +1,16 @@
+term: Demutualization
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: When a mutual insurer converts to a stock company owned by shareholders.
+example: Policyholders receive shares when their mutual demutualizes.
+whereYoullSeeIt: []
+relatedTerms:
+  - mutual-insurance-company
+  - stock-insurance-company
+meta:
+  source: editorial

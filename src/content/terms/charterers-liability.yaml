@@ -1,0 +1,16 @@
+term: Charterer's Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers liabilities of those who charter (rent) a vessel.
+example: A charterer damages a ship by overloading it.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - protection-and-indemnity
+meta:
+  source: editorial

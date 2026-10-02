@@ -1,0 +1,18 @@
+term: Face Amount
+contentStatus: basic
+alsoKnownAs:
+  - Face Value
+  - Specified Amount
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: The amount of death benefit stated on the policy.
+example: A policy with a face amount of $1,000,000.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - death-benefit
+meta:
+  source: editorial

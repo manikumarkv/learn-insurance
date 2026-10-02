@@ -1,0 +1,20 @@
+term: Proof of Loss
+contentStatus: basic
+alsoKnownAs:
+  - Sworn Statement in Proof of Loss
+category: Claims
+lines:
+  - life
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A formal, often sworn, statement of the amount and details of your claim.
+example: You sign a proof of loss for $42,000 in fire damage.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - notice-of-loss
+  - claim
+usNotes: NFIP flood claims require a proof of loss within 60 days unless extended.
+meta:
+  source: editorial

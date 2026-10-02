@@ -1,0 +1,21 @@
+term: Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: An arrangement where you pay a company a fee so that it covers the cost of certain losses if they happen. Many people pay in, and the money pays for the few who suffer a loss.
+example: You pay $1,200 a year for home insurance; when a pipe bursts, the insurer pays $8,000 for repairs.
+whereYoullSeeIt:
+  - Policy document
+  - Agent/broker communications
+relatedTerms:
+  - premium
+  - risk-pooling
+  - insurer
+  - insured
+usNotes: Insurance is regulated mainly by the states, not the federal government.
+meta:
+  source: editorial

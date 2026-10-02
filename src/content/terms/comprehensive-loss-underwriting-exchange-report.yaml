@@ -1,0 +1,21 @@
+term: Comprehensive Loss Underwriting Exchange Report
+contentStatus: basic
+abbreviation: CLUE Report
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A LexisNexis database report of past auto and home claims used by insurers when underwriting.
+example: An insurer sees a prior water claim on a house's CLUE report.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - loss-history
+  - automated-property-loss-underwriting-system-report
+usNotes: Consumers can get a free copy yearly under the Fair Credit Reporting Act.
+meta:
+  source: editorial

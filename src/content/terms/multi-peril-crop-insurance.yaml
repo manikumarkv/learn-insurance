@@ -1,0 +1,21 @@
+term: Multi-Peril Crop Insurance
+contentStatus: basic
+abbreviation: MPCI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Intermediate
+definition: Federally subsidized crop insurance covering yield loss from many natural causes.
+example: A soybean farmer is paid after floods.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crop-insurance
+  - revenue-protection
+  - actual-production-history
+usNotes: Sold by private Approved Insurance Providers and reinsured by the federal government.
+meta:
+  source: editorial

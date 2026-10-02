@@ -1,0 +1,20 @@
+term: Prompt Pay Law
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: A state law setting deadlines by which insurers must pay or respond to claims.
+example: A health insurer must pay a clean claim within 30 days.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - unfair-claims-settlement-practices
+  - clean-claim
+usNotes: Deadlines vary by state and line.
+meta:
+  source: editorial

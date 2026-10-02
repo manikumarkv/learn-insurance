@@ -1,0 +1,6 @@
+name: Facultative Obligatory
+parent: reinsurance.by_method.facultative
+alsoKnownAs: Fac-oblig
+description: A hybrid where the insurer may choose which risks to cede, but the reinsurer must accept them.
+example: An insurer can cede any high-value homes it chooses.
+segment: Commercial

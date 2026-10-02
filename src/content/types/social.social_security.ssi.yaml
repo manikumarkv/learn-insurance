@@ -1,0 +1,6 @@
+name: Supplemental Security Income (SSI)
+parent: social.social_security
+description: Needs-based monthly payments for low-income people who are aged, blind or disabled; funded from general taxes, not payroll taxes.
+example: A disabled adult with no work history receives SSI.
+segment: Personal
+usNotes: Technically a welfare program, not insurance; also run by SSA.

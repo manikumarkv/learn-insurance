@@ -1,0 +1,6 @@
+name: Marine Terminal Operators Liability
+parent: marine.ocean_marine.marine_liability
+alsoKnownAs: Wharfinger's liability
+description: Covers port and terminal operators against damage to ships, cargo and people.
+example: A terminal crane drops a container onto a ship.
+segment: Commercial

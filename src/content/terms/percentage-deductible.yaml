@@ -1,0 +1,17 @@
+term: Percentage Deductible
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A deductible set as a percentage of the insured value rather than a flat dollar amount.
+example: A 2% wind deductible on a $300,000 home is $6,000.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - deductible
+  - hurricane-deductible
+meta:
+  source: editorial

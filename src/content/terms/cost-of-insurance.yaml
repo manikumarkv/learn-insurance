@@ -1,0 +1,20 @@
+term: Cost of Insurance
+contentStatus: basic
+abbreviation: COI
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Advanced
+definition: The monthly charge deducted from a universal life policy's cash value to pay for the death benefit, rising with age.
+example: COI charges increase every year as you age.
+whereYoullSeeIt:
+  - Policy document
+  - Billing statement
+relatedTerms:
+  - universal-life-insurance
+  - net-amount-at-risk
+meta:
+  source: editorial

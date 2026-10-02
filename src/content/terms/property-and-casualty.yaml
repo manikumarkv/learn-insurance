@@ -1,0 +1,23 @@
+term: Property and Casualty
+contentStatus: basic
+abbreviation: P&C
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - General Insurance
+category: Core Concept
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: The branch of insurance covering property damage and liability, as opposed to life and health.
+example: Auto and home insurers are P&C insurers.
+whereYoullSeeIt: []
+relatedTerms:
+  - life-insurance
+  - personal-lines
+  - commercial-lines
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Life Insurance Riders
+parent: life
+alsoKnownAs: Add-ons; Optional benefits
+description: Optional extras added to a life policy, often for an extra premium.
+example: A buyer adds a waiver of premium rider to a term policy.
+segment: Personal

@@ -1,0 +1,6 @@
+name: Real Estate E&O
+parent: specialty.professional_liability
+description: Covers real estate agents, brokers and appraisers against claims of misrepresentation or errors.
+example: A buyer sues an agent for failing to disclose a known defect.
+segment: Commercial
+usNotes: Required for licensees in a number of states (e.g. Colorado, Iowa, Kentucky).

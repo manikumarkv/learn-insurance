@@ -1,0 +1,22 @@
+term: Lloyd's
+contentStatus: basic
+alsoKnownAs:
+  - Lloyd's of London
+category: Distribution
+lines:
+  - marine
+  - specialty
+  - financial
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A London insurance marketplace where syndicates underwrite risks; it's a major non-admitted market in the US.
+example: A US film production insurance placed at Lloyd's.
+whereYoullSeeIt: []
+relatedTerms:
+  - syndicate
+  - non-admitted-insurer
+  - coverholder
+usNotes: Lloyd's writes US business as a surplus lines (non-admitted) insurer in all states and as a reinsurer. It gave up its admitted licenses in Illinois, Kentucky and the US Virgin Islands, stopping admitted renewals from July 1, 2021.
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Direct Written Premium
+contentStatus: basic
+abbreviation: DWP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Premium written by the insurer on its own policies, before reinsurance and excluding reinsurance it assumes.
+example: State-level market share tables use direct written premium.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - written-premium
+  - assumed-premium
+meta:
+  source: editorial

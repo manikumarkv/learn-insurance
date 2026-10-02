@@ -1,0 +1,6 @@
+name: Renewable Energy Insurance
+parent: commercial.energy
+alsoKnownAs: Renewables insurance; Wind and solar insurance
+description: Covers wind, solar, battery and other clean-energy projects against damage, breakdown, lost revenue and liability during building and operation.
+example: Hail smashes panels at a solar farm and the policy pays for repairs and lost power sales.
+segment: Commercial

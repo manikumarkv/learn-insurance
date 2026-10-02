@@ -1,0 +1,6 @@
+name: Brown-Water Hull
+parent: marine.ocean_marine.hull
+alsoKnownAs: Inland waterways hull
+description: Hull cover for barges, tugs and towboats on rivers and coastal waters.
+example: A Mississippi River towboat operator insures its fleet.
+segment: Commercial

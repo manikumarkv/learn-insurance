@@ -1,0 +1,18 @@
+term: Comparative Rater
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Software that lets agents enter data once and get quotes from multiple insurers.
+example: An independent agent runs one rater for 8 carriers.
+whereYoullSeeIt:
+  - Quote
+relatedTerms:
+  - agency-management-system
+  - aggregator
+meta:
+  source: editorial

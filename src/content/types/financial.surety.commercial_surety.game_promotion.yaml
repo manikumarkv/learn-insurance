@@ -1,0 +1,7 @@
+name: Game Promotion (Sweepstakes) Bond
+parent: financial.surety.commercial_surety
+alsoKnownAs: Sweepstakes bond; Game of chance bond
+description: A surety bond a sweepstakes or contest sponsor files with a state to guarantee the promised prizes will be awarded.
+example: A soft drink brand runs a $50,000 sweepstakes and files a bond in Florida before launch.
+segment: Commercial
+usNotes: Florida (Fla. Stat. 849.094) requires a trust account, surety bond or waiver for game promotions with prizes over $5,000; New York also requires bonding and registration over $5,000, and Rhode Island requires registration only (over $500).

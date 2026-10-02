@@ -1,0 +1,20 @@
+term: Hold Harmless Agreement
+contentStatus: basic
+alsoKnownAs:
+  - Indemnity Agreement
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A contract where one party agrees to protect the other from claims or losses.
+example: A subcontractor agrees to hold the general contractor harmless for injuries on site.
+whereYoullSeeIt: []
+relatedTerms:
+  - risk-transfer
+  - contractual-liability
+  - additional-insured
+usNotes: Many states have anti-indemnity statutes limiting these in construction.
+meta:
+  source: editorial

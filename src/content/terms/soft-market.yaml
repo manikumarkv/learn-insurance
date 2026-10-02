@@ -1,0 +1,16 @@
+term: Soft Market
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A period when insurance is easy to buy, prices fall and terms loosen due to competition.
+example: In a soft market, brokers can get more coverage for less premium.
+whereYoullSeeIt: []
+relatedTerms:
+  - hard-market
+  - underwriting-cycle
+meta:
+  source: editorial

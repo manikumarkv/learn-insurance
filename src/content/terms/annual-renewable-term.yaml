@@ -1,0 +1,23 @@
+term: Annual Renewable Term
+contentStatus: basic
+abbreviation: ART
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Yearly Renewable Term
+  - YRT
+category: Line-Specific
+lines:
+  - life
+  - reinsurance
+usageFrequency: Low
+difficulty: Intermediate
+definition: Term insurance that renews each year with rising premiums as you age; YRT is also a common life reinsurance basis.
+example: Premium rises every year on a YRT policy.
+whereYoullSeeIt:
+  - Policy document
+  - Reinsurance contract
+relatedTerms:
+  - level-term
+  - term-life-insurance
+meta:
+  source: editorial

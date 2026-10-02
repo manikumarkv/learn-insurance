@@ -1,0 +1,20 @@
+term: Office of Foreign Assets Control
+contentStatus: basic
+abbreviation: OFAC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A US Treasury office whose sanctions rules forbid insurers from dealing with sanctioned people or countries.
+example: A payment is blocked because the claimant is on the sanctions list.
+whereYoullSeeIt:
+  - Regulatory filings
+  - Policy administration system
+relatedTerms:
+  - sanctions-clause
+  - know-your-customer
+meta:
+  source: editorial

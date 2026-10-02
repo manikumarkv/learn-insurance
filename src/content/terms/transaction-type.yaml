@@ -1,0 +1,17 @@
+term: Transaction Type
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The kind of policy change recorded in a system, like new business, endorsement, cancellation, reinstatement or renewal.
+example: A 'REI' transaction reinstates a cancelled policy.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - mid-term-adjustment
+  - reinstatement
+meta:
+  source: editorial

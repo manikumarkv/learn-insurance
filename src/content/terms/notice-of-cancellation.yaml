@@ -1,0 +1,19 @@
+term: Notice of Cancellation
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A written notice that a policy will be cancelled on a certain date.
+example: A notice of cancellation for non-payment gives 10 days.
+whereYoullSeeIt:
+  - Billing statement
+  - Renewal notice
+relatedTerms:
+  - cancellation
+  - grace-period
+usNotes: Minimum notice periods are set by state law.
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Book of Business
+contentStatus: basic
+alsoKnownAs:
+  - Book
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: The set of policies written by an agent, broker or insurer.
+example: An agent's book of 3,000 home and auto policies.
+whereYoullSeeIt: []
+relatedTerms:
+  - portfolio
+meta:
+  source: editorial

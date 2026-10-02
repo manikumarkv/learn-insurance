@@ -1,0 +1,6 @@
+name: Earthquake Insurance
+parent: property.catastrophe
+description: Covers damage from earthquakes, typically with a deductible of 5-25% of the dwelling limit.
+example: A Seattle homeowner adds earthquake cover with a 15% deductible.
+segment: Both
+usNotes: Available as an endorsement or separate policy in most states.

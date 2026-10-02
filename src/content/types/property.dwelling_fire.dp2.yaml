@@ -1,0 +1,5 @@
+name: DP-2 Broad Form
+parent: property.dwelling_fire
+description: Broader named perils, usually paid at replacement cost.
+example: A small landlord wants mid-level cover.
+segment: Personal

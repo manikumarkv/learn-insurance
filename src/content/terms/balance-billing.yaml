@@ -1,0 +1,19 @@
+term: Balance Billing
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: When a provider bills you for the difference between their charge and the allowed amount.
+example: An out-of-network doctor bills you $120 above what your plan paid.
+whereYoullSeeIt:
+  - Explanation of benefits
+relatedTerms:
+  - allowed-amount
+  - no-surprises-act
+  - out-of-network
+usNotes: The federal No Surprises Act (2022) bans balance billing for most emergency care and for certain out-of-network care at in-network hospitals and surgery centers.
+meta:
+  source: editorial

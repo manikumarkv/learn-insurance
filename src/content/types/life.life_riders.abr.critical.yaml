@@ -1,0 +1,5 @@
+name: Critical Illness Rider
+parent: life.life_riders.abr
+description: Pays part of the death benefit early on diagnosis of a listed condition such as heart attack or stroke.
+example: A policyholder draws $50,000 after a heart attack.
+segment: Personal

@@ -1,0 +1,6 @@
+name: Data Restoration
+parent: specialty.cyber.cyber_first_party
+alsoKnownAs: Digital asset restoration
+description: Pays to recover or recreate damaged data and software.
+example: A firm rebuilds its database after malware deletes it.
+segment: Commercial

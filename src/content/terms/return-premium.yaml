@@ -1,0 +1,20 @@
+term: Return Premium
+contentStatus: basic
+abbreviation: RP
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Refund
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Money returned to the policyholder because of a cancellation or a reduction in coverage.
+example: Removing a car mid-term produces a $120 return premium.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - additional-premium
+  - pro-rata-cancellation
+meta:
+  source: editorial

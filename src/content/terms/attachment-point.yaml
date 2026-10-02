@@ -1,0 +1,22 @@
+term: Attachment Point
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - property
+  - casualty
+  - financial
+  - reinsurance
+usageFrequency: Medium
+difficulty: Advanced
+definition: The loss amount at which an excess or reinsurance layer starts to pay.
+example: An excess policy attaching at $10M pays once losses exceed $10M.
+whereYoullSeeIt:
+  - Reinsurance contract
+  - Declarations page
+relatedTerms:
+  - layer
+  - retention
+  - excess-insurance
+meta:
+  source: editorial

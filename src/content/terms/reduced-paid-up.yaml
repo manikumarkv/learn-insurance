@@ -1,0 +1,18 @@
+term: Reduced Paid-Up Insurance
+contentStatus: basic
+abbreviation: RPU
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A nonforfeiture option that uses cash value to buy a smaller fully paid policy.
+example: Your $100,000 policy becomes $35,000 with no more premiums.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - nonforfeiture-options
+meta:
+  source: editorial

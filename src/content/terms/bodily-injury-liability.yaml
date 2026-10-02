@@ -1,0 +1,20 @@
+term: Bodily Injury Liability
+contentStatus: basic
+abbreviation: BI
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - auto
+usageFrequency: High
+difficulty: Beginner
+definition: Pays for injuries you cause to other people.
+example: You cause a crash; BI pays the other driver's hospital bills.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - property-damage-liability
+  - split-limits
+meta:
+  source: editorial

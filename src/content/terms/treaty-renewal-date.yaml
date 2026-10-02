@@ -1,0 +1,18 @@
+term: Treaty Renewal Date
+contentStatus: basic
+alsoKnownAs:
+  - 1/1 Renewal
+  - 6/1 Renewal
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Common dates when reinsurance treaties renew, such as January 1 or June 1 (Florida).
+example: Florida insurers buy cat reinsurance at the 6/1 renewals.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - treaty-reinsurance
+meta:
+  source: editorial

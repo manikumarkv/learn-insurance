@@ -1,0 +1,6 @@
+name: USDA Loan Guarantee Fee
+parent: financial.mortgage
+description: USDA guarantees rural home loans in exchange for upfront and annual fees.
+example: A family in a rural town buys a home with a USDA loan.
+segment: Personal
+usNotes: USDA Rural Development program.

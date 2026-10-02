@@ -1,0 +1,6 @@
+name: Convertible Term
+parent: life.term
+description: Term cover that can be switched into a permanent policy later without new medical questions.
+example: Someone buys cheap term cover now, planning to convert to whole life when their income grows.
+segment: Personal
+usNotes: Most US level term policies include a conversion privilege up to a set age.

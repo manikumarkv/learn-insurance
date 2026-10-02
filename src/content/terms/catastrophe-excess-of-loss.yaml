@@ -1,0 +1,22 @@
+term: Catastrophe Excess of Loss
+contentStatus: basic
+abbreviation: Cat XL
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - Cat Treaty
+category: Reinsurance
+lines:
+  - property
+  - reinsurance
+usageFrequency: Medium
+difficulty: Advanced
+definition: Reinsurance protecting against the total of many losses from one catastrophe event.
+example: Pays hurricane losses above $100M up to $500M.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - excess-of-loss
+  - catastrophe
+  - hours-clause
+meta:
+  source: editorial

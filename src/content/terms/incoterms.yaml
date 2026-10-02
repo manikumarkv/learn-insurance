@@ -1,0 +1,15 @@
+term: Incoterms
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: International trade terms (like FOB and CIF) that define when risk passes from seller to buyer and who buys insurance.
+example: Under CIF, the seller must insure the goods.
+whereYoullSeeIt: []
+relatedTerms:
+  - cargo-insurance
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Exclusion
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A part of the policy that lists what is NOT covered.
+example: Most home policies exclude flood and earthquake damage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - insuring-agreement
+  - exception
+  - endorsement
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Claim
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A request to the insurer for payment under a policy after a loss, or a demand against an insured by someone they harmed.
+example: You file a claim for storm damage to your roof.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - first-notice-of-loss
+  - claimant
+  - claim-settlement
+meta:
+  source: editorial

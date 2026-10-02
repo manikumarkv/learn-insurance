@@ -1,0 +1,5 @@
+name: In-Orbit Insurance
+parent: marine.space
+description: Covers satellites against failure once operating in space.
+example: A satellite's solar panel fails and lost capacity is paid.
+segment: Commercial

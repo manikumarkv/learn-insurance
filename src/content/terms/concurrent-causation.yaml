@@ -1,0 +1,17 @@
+term: Concurrent Causation
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: When two or more causes, one covered and one excluded, combine to cause a loss.
+example: Wind (covered) and storm surge (excluded) both damage a house.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - proximate-cause
+  - anti-concurrent-causation-clause
+meta:
+  source: editorial

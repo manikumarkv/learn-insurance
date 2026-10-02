@@ -1,0 +1,20 @@
+term: Salvage
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+  - marine
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Damaged property the insurer takes after paying a total loss, or money recovered by selling it.
+example: The insurer sells your wrecked car at auction for $1,500.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - total-loss
+  - subrogation
+  - recovery
+meta:
+  source: editorial

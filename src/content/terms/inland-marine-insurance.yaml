@@ -1,0 +1,21 @@
+term: Inland Marine Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - commercial
+  - marine
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Covers property that moves or is in transit over land, or unusual property like equipment, bridges and fine art.
+example: A contractor's tools and equipment covered at job sites.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - contractors-equipment
+  - builders-risk
+  - scheduled-personal-property
+usNotes: NAIC's Nationwide Marine Definition sets what qualifies.
+meta:
+  source: editorial

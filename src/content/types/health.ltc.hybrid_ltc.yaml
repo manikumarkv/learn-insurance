@@ -1,0 +1,6 @@
+name: Hybrid Life/LTC
+parent: health.ltc
+alsoKnownAs: Linked-benefit; Asset-based LTC
+description: Life insurance or an annuity with long-term care benefits built in, so money is paid either for care or at death.
+example: A couple buys a hybrid so their premiums aren't "lost" if they never need care.
+segment: Personal

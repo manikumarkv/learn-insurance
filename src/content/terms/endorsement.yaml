@@ -1,0 +1,23 @@
+term: Endorsement
+contentStatus: basic
+alsoKnownAs:
+  - Rider
+  - Policy Change
+  - Amendment
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A written change added to a policy that adds, removes or changes coverage.
+example: Adding an endorsement for water backup coverage to a home policy.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - rider
+  - mid-term-adjustment
+  - form
+usNotes: Endorsement forms usually must be filed with the state department of insurance.
+meta:
+  source: editorial

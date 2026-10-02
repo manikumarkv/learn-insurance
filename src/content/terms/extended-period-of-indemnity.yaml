@@ -1,0 +1,17 @@
+term: Extended Period of Indemnity
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Extends business income coverage after repairs are done while revenue recovers.
+example: 90 extra days while customers return.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - period-of-restoration
+meta:
+  source: editorial

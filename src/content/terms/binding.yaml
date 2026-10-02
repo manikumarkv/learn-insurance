@@ -1,0 +1,19 @@
+term: Binding
+contentStatus: basic
+alsoKnownAs:
+  - Bind
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: Putting coverage into effect, often before the formal policy is issued.
+example: Your agent binds coverage at noon so you can drive the new car home.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - binder
+  - quote
+  - issuance
+meta:
+  source: editorial

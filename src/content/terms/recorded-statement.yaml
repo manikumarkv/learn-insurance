@@ -1,0 +1,17 @@
+term: Recorded Statement
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An interview recorded by the adjuster about how a loss happened.
+example: The adjuster records your account of the crash.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claim-investigation
+  - examination-under-oath
+meta:
+  source: editorial

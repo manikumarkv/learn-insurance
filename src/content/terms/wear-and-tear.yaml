@@ -1,0 +1,19 @@
+term: Wear and Tear
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - auto
+  - marine
+usageFrequency: Medium
+difficulty: Beginner
+definition: Gradual damage from ordinary use and age. It is almost always excluded.
+example: A worn-out carpet is not covered because it is wear and tear.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - inherent-vice
+  - exclusion
+meta:
+  source: editorial

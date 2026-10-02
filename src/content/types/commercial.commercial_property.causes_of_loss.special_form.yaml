@@ -1,0 +1,6 @@
+name: Special Form
+parent: commercial.commercial_property.causes_of_loss
+alsoKnownAs: Open perils; All-risk
+description: Covers all causes of loss except those excluded.
+example: Most commercial property is written on the special form.
+segment: Commercial

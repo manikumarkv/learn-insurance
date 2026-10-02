@@ -1,0 +1,22 @@
+term: Per-Occurrence Limit
+contentStatus: basic
+alsoKnownAs:
+  - Each Occurrence Limit
+category: Core Concept
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Intermediate
+definition: The most the insurer will pay for any single event, no matter how many claims come from it.
+example: A $1M each-occurrence limit caps payment for one warehouse fire even if five people sue.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - aggregate-limit
+  - occurrence
+  - limit-of-liability
+meta:
+  source: editorial

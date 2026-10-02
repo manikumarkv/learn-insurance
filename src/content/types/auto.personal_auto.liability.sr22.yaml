@@ -1,0 +1,7 @@
+name: SR-22 / FR-44 Filings
+parent: auto.personal_auto.liability
+alsoKnownAs: Certificate of financial responsibility
+description: A form an insurer files with the state to prove a high-risk driver carries required liability cover.
+example: After a DUI, a driver's insurer files an SR-22 for 3 years.
+segment: Personal
+usNotes: FR-44 (higher limits) is used in Florida and Virginia after DUIs.

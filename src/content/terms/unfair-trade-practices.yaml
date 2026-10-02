@@ -1,0 +1,18 @@
+term: Unfair Trade Practices
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Prohibited behaviors in selling insurance, such as misrepresentation, rebating and unfair discrimination.
+example: An agent promises a policy is 'guaranteed to double'.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - rebating
+  - twisting
+  - churning
+meta:
+  source: editorial

@@ -1,0 +1,18 @@
+term: Fixed Annuity
+contentStatus: basic
+alsoKnownAs:
+  - MYGA (Multi-Year Guaranteed Annuity)
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An annuity that credits a guaranteed interest rate.
+example: A 5-year fixed annuity paying 5%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - annuity
+  - fixed-indexed-annuity
+meta:
+  source: editorial

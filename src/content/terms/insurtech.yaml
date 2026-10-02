@@ -1,0 +1,16 @@
+term: Insurtech
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Technology-driven companies or innovations in insurance, such as app-based insurers, data tools or digital distribution.
+example: An app that quotes renters insurance in 90 seconds.
+whereYoullSeeIt: []
+relatedTerms:
+  - embedded-insurance
+  - digital-distribution
+meta:
+  source: editorial

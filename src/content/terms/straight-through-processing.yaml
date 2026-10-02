@@ -1,0 +1,19 @@
+term: Straight-Through Processing
+contentStatus: basic
+abbreviation: STP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Handling a quote, policy or claim fully automatically without human touch.
+example: 70% of renters policies are issued with STP.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - underwriting-rules-engine
+  - auto-adjudication
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Unemployment Insurance
+contentStatus: basic
+abbreviation: UI
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - social
+usageFrequency: Low
+difficulty: Beginner
+definition: A joint federal-state program paying temporary income to workers who lose jobs through no fault of their own.
+example: A laid-off worker receives weekly benefits.
+whereYoullSeeIt: []
+relatedTerms: []
+usNotes: Each state runs its own program, funded mainly by state and federal employer payroll taxes; workers also contribute in Alaska, New Jersey and Pennsylvania.
+meta:
+  source: editorial

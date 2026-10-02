@@ -1,0 +1,20 @@
+term: Accidental Death Benefit Rider
+contentStatus: basic
+abbreviation: ADB
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Double Indemnity
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rider that pays an extra benefit if death results from an accident.
+example: An extra $250,000 paid for accidental death.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - rider
+  - accidental-death-and-dismemberment
+meta:
+  source: editorial

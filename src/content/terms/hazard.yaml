@@ -1,0 +1,19 @@
+term: Hazard
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A condition that makes a loss more likely or more severe.
+example: Storing oily rags in a garage is a hazard that raises the chance of fire.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - peril
+  - moral-hazard
+  - morale-hazard
+  - physical-hazard
+meta:
+  source: editorial

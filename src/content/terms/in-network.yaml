@@ -1,0 +1,20 @@
+term: In-Network
+contentStatus: basic
+alsoKnownAs:
+  - Participating Provider
+  - Par
+category: Line-Specific
+lines:
+  - health
+usageFrequency: High
+difficulty: Beginner
+definition: Doctors, hospitals and other providers that have a contract with your health plan to charge agreed rates.
+example: An in-network visit costs you a $20 copay.
+whereYoullSeeIt:
+  - Insurance ID card
+  - Explanation of benefits
+relatedTerms:
+  - out-of-network
+  - provider-network
+meta:
+  source: editorial

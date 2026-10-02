@@ -1,0 +1,6 @@
+name: Deferred Annuity
+parent: life.annuities
+description: Money grows for years before income starts.
+example: A 50-year-old invests now to start income at 65.
+segment: Personal
+usNotes: Withdrawals before age 59 1/2 usually face a 10% IRS penalty on earnings.

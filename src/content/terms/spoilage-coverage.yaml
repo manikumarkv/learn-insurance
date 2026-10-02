@@ -1,0 +1,17 @@
+term: Spoilage Coverage
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers perishable goods that spoil due to power failure or equipment breakdown.
+example: A grocery's frozen food spoils in a power outage.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - equipment-breakdown-insurance
+meta:
+  source: editorial

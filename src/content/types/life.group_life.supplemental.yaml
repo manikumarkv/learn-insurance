@@ -1,0 +1,6 @@
+name: Supplemental / Voluntary Life
+parent: life.group_life
+alsoKnownAs: Optional life
+description: Extra life cover that employees can buy through work at group rates, paid via payroll.
+example: An employee adds $300,000 of extra cover beyond the free employer-paid amount.
+segment: Both

@@ -1,0 +1,18 @@
+term: Cancel for Any Reason
+contentStatus: basic
+abbreviation: CFAR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Optional travel coverage letting you cancel for any reason, usually refunding 50–75% of costs.
+example: You decide not to go and recover 75%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - trip-cancellation
+meta:
+  source: editorial

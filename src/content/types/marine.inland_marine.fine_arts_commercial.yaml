@@ -1,0 +1,6 @@
+name: Fine Arts (Commercial)
+parent: marine.inland_marine
+alsoKnownAs: Museum and gallery cover
+description: Covers artworks owned or held by galleries, museums and dealers, including in transit.
+example: A painting lent to a museum is damaged in transit.
+segment: Commercial

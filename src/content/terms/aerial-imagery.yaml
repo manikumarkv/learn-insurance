@@ -1,0 +1,19 @@
+term: Aerial Imagery
+contentStatus: basic
+alsoKnownAs: []
+category: Technology
+lines:
+  - property
+  - commercial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Satellite or aircraft images used to assess roofs, trees and hazards without visiting.
+example: An insurer spots a damaged roof from imagery.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - inspection
+  - third-party-data
+usNotes: Some states restrict non-renewals based solely on aerial images.
+meta:
+  source: editorial

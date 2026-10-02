@@ -1,0 +1,18 @@
+term: Persistency
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - life
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: The share of policies that remain in force over time; the opposite of lapse.
+example: 13-month persistency of 90%.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - lapse-rate
+  - retention-ratio
+meta:
+  source: editorial

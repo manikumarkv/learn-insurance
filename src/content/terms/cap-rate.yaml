@@ -1,0 +1,18 @@
+term: Cap Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: The maximum interest rate an indexed product can credit in a period.
+example: The index rose 15% but the cap limits credit to 10%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - participation-rate
+  - floor-rate
+  - indexed-universal-life
+meta:
+  source: editorial

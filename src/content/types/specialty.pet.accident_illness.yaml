@@ -1,0 +1,7 @@
+name: Accident & Illness
+parent: specialty.pet
+alsoKnownAs: Comprehensive pet
+description: Covers accidents and illnesses such as cancer, allergies and infections.
+example: A dog with diabetes has treatment paid every year.
+segment: Personal
+usNotes: Pre-existing conditions are typically excluded.

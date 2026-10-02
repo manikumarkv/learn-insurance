@@ -1,0 +1,20 @@
+term: Replacement
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Buying a new life policy or annuity that ends or reduces an existing one, which triggers extra disclosure rules.
+example: A replacement form is signed when switching life policies.
+whereYoullSeeIt:
+  - Application form
+  - Regulatory filings
+relatedTerms:
+  - twisting
+  - free-look-period
+usNotes: States follow the NAIC Life Insurance and Annuities Replacement Model Regulation.
+meta:
+  source: editorial

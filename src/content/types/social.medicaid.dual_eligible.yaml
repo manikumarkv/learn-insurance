@@ -1,0 +1,6 @@
+name: Dual Eligibles
+parent: social.medicaid
+alsoKnownAs: Medi-Medi
+description: People enrolled in both Medicare and Medicaid; Medicaid helps pay Medicare premiums and cost sharing.
+example: A low-income 70-year-old has Medicare premiums paid by Medicaid.
+segment: Personal

@@ -1,0 +1,19 @@
+term: Roof Payment Schedule
+contentStatus: basic
+alsoKnownAs:
+  - Roof Surfacing Payment Schedule
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: An endorsement paying roof damage based on the roof's age using a depreciation schedule.
+example: A 15-year-old roof is paid at 40% of replacement cost.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - actual-cash-value
+  - endorsement
+usNotes: Common in hail-prone states like Texas and Colorado.
+meta:
+  source: editorial

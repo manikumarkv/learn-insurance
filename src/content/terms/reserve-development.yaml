@@ -1,0 +1,19 @@
+term: Reserve Development
+contentStatus: basic
+alsoKnownAs:
+  - Loss Development
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: How estimates of past claims change over time; adverse development means they grew, favorable means they shrank.
+example: Adverse development of $50M on prior-year claims.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development
+  - schedule-p
+  - incurred-but-not-reported
+meta:
+  source: editorial

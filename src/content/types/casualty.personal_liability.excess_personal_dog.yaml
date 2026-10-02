@@ -1,0 +1,7 @@
+name: Canine Liability
+parent: casualty.personal_liability
+alsoKnownAs: Dog bite liability
+description: Standalone liability for dog owners whose breed or history is excluded by their home insurer.
+example: An owner of an excluded breed buys a separate canine liability policy.
+segment: Personal
+usNotes: Some insurers exclude certain breeds; several states restrict breed-based underwriting.

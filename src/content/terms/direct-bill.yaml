@@ -1,0 +1,16 @@
+term: Direct Bill
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The insurer bills and collects premium directly from the policyholder and pays commission to the agent.
+example: You pay your auto premium straight to the insurer.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - agency-bill
+meta:
+  source: editorial

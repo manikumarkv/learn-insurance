@@ -1,0 +1,6 @@
+name: Non-Participating Whole Life
+parent: life.permanent.whole
+alsoKnownAs: Non-par whole life
+description: Whole life with fixed guarantees and no dividends, usually at a lower premium.
+example: A buyer wants predictable costs without dividends.
+segment: Personal

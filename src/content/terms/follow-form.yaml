@@ -1,0 +1,19 @@
+term: Follow Form
+contentStatus: basic
+alsoKnownAs:
+  - Following Form
+category: Policy Wording
+lines:
+  - casualty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: An excess policy that adopts the same terms and conditions as the policy underneath it.
+example: A follow-form excess D&O policy covers what the primary covers.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - excess-insurance
+  - umbrella-insurance
+meta:
+  source: editorial

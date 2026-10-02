@@ -1,0 +1,6 @@
+name: Credit Disability
+parent: financial.credit.credit_ph
+alsoKnownAs: Credit accident and health
+description: Makes loan payments while the borrower is disabled.
+example: A borrower's monthly car payment is covered during recovery from surgery.
+segment: Personal

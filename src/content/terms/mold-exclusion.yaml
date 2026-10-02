@@ -1,0 +1,17 @@
+term: Mold Exclusion
+contentStatus: basic
+alsoKnownAs:
+  - Fungi Exclusion
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Limits or excludes coverage for mold damage.
+example: Mold from long-term humidity isn't covered.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+meta:
+  source: editorial

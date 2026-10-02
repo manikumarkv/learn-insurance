@@ -1,0 +1,6 @@
+name: Disability Insurance
+parent: health
+alsoKnownAs: Disability income insurance
+description: Replaces part of your income if illness or injury stops you from working.
+example: A surgeon who injures a hand receives 60% of her income until she recovers.
+segment: Both

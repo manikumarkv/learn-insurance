@@ -1,0 +1,19 @@
+term: Alternative Risk Transfer
+contentStatus: basic
+abbreviation: ART
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - art
+usageFrequency: Low
+difficulty: Intermediate
+definition: Ways of managing or financing risk outside traditional insurance, such as captives, cat bonds and self-insurance.
+example: A company forms a captive to insure its own risks.
+whereYoullSeeIt: []
+relatedTerms:
+  - captive-insurance-company
+  - catastrophe-bond
+  - risk-retention-group
+meta:
+  source: editorial

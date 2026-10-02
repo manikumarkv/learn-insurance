@@ -1,0 +1,19 @@
+term: Insurance Data Security Model Law
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An NAIC model law requiring insurers and agents to have information security programs and report cybersecurity events.
+example: An insurer notifies the regulator of a data breach within 72 hours.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - gramm-leach-bliley-act
+  - national-association-of-insurance-commissioners
+  - model-law
+usNotes: Adopted by roughly half the states; New York has its own cyber rule (23 NYCRR 500).
+meta:
+  source: editorial

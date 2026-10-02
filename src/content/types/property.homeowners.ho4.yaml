@@ -1,0 +1,7 @@
+name: HO-4 Renters Insurance
+parent: property.homeowners
+alsoKnownAs: Tenant insurance; Contents broad form
+description: Covers a renter's belongings, liability and extra living expenses, but not the building.
+example: A student's laptop is stolen from an apartment and replaced by the renters policy.
+segment: Personal
+usNotes: Many landlords require it in the lease.

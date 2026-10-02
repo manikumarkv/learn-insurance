@@ -1,0 +1,6 @@
+name: Storage Tank Liability
+parent: casualty.specialty_liability.environmental
+description: Covers leaks from underground or aboveground fuel tanks.
+example: A gas station's leaking underground tank contaminates soil.
+segment: Commercial
+usNotes: EPA requires financial responsibility for underground storage tank owners.

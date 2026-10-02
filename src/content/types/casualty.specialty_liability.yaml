@@ -1,0 +1,5 @@
+name: Specialty Casualty Lines
+parent: casualty
+description: Liability covers for specific exposures that CGL excludes or limits.
+example: A bar buys liquor liability because GL excludes it.
+segment: Commercial

@@ -1,0 +1,5 @@
+name: Area Yield Protection (AYP)
+parent: agriculture.federal_crop.area_plans
+description: Pays when the county's average yield falls below a trigger.
+example: A county drought triggers payments to all AYP policyholders.
+segment: Commercial

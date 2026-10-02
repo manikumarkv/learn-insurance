@@ -1,0 +1,23 @@
+term: Broker of Record
+contentStatus: basic
+abbreviation: BOR
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Agent of Record
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The broker officially authorized by the client to handle its account with an insurer.
+example: A client signs a BOR letter switching to a new broker.
+whereYoullSeeIt:
+  - Agent/broker communications
+relatedTerms:
+  - broker
+  - clearance
+meta:
+  source: editorial

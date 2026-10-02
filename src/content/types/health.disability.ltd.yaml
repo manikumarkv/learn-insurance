@@ -1,0 +1,6 @@
+name: Long-Term Disability (LTD)
+parent: health.disability
+description: Pays part of your salary for long periods, often until retirement age, after a waiting period (often 90 days).
+example: A worker with a serious back injury receives benefits for years.
+segment: Both
+usNotes: Group LTD claims are governed by ERISA.

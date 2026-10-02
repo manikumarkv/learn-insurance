@@ -1,0 +1,19 @@
+term: Rate Indication
+contentStatus: basic
+alsoKnownAs:
+  - Indicated Rate Change
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The actuarially calculated rate change needed to reach target profitability.
+example: The indication calls for +12%, but the insurer files +7%.
+whereYoullSeeIt:
+  - Rating engine
+  - Regulatory filings
+relatedTerms:
+  - rate-adequacy
+  - rate-filing
+meta:
+  source: editorial

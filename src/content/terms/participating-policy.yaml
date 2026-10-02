@@ -1,0 +1,18 @@
+term: Participating Policy
+contentStatus: basic
+alsoKnownAs:
+  - Par Policy
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A policy eligible for dividends.
+example: A whole life policy from a mutual insurer that pays dividends.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dividend
+  - mutual-insurance-company
+meta:
+  source: editorial

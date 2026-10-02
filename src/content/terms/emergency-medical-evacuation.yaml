@@ -1,0 +1,18 @@
+term: Emergency Medical Evacuation
+contentStatus: basic
+alsoKnownAs:
+  - Medevac
+category: Policy Wording
+lines:
+  - health
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers transport to an adequate medical facility or home in a medical emergency while traveling.
+example: An air ambulance from a remote island.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - travel-insurance
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Performance Bond
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A surety bond guaranteeing that a contractor will complete a project according to the contract.
+example: The surety finishes a project after the contractor fails.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+  - payment-bond
+  - bid-bond
+  - miller-act
+meta:
+  source: editorial

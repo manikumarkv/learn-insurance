@@ -1,0 +1,5 @@
+name: Dollar Plan & Specialty Crop Policies
+parent: agriculture.federal_crop
+description: Crop-specific policies for fruits, nuts and nursery stock, often insuring a dollar amount per acre.
+example: An apple orchard insures against a spring freeze.
+segment: Commercial

@@ -1,0 +1,19 @@
+term: Permanent Life Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Cash Value Life Insurance
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Medium
+difficulty: Beginner
+definition: Life insurance that lasts your whole life if premiums are paid and builds cash value.
+example: Whole life and universal life are permanent insurance.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - whole-life-insurance
+  - universal-life-insurance
+  - cash-value
+meta:
+  source: editorial

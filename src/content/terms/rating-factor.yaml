@@ -1,0 +1,20 @@
+term: Rating Factor
+contentStatus: basic
+alsoKnownAs:
+  - Rating Variable
+category: Underwriting
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: A characteristic used to adjust the premium, such as age, location or claims history.
+example: Living in a city increases the territory rating factor for auto insurance.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - base-rate
+  - rating-algorithm
+  - territory
+usNotes: Some states ban or limit factors such as credit score, gender or occupation.
+meta:
+  source: editorial

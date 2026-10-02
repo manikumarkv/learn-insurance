@@ -1,0 +1,6 @@
+name: Yield Protection (YP)
+parent: agriculture.federal_crop
+alsoKnownAs: APH yield coverage
+description: Pays when harvested yield falls below a guaranteed level based on the farm's actual production history (APH).
+example: A wheat farmer's yield falls from 50 to 30 bushels per acre and the shortfall is paid.
+segment: Commercial

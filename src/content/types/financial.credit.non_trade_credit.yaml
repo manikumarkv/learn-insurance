@@ -1,0 +1,6 @@
+name: Non-Trade Credit Insurance
+parent: financial.credit
+alsoKnownAs: Lender non-payment insurance; Bank credit insurance
+description: Protects banks and other lenders if a borrower fails to repay a loan or trade-finance facility.
+example: A bank insures 80% of a loan to a foreign company so it can lend more within its risk limits.
+segment: Commercial

@@ -1,0 +1,21 @@
+term: First Notice of Loss
+contentStatus: basic
+abbreviation: FNOL
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The first report to the insurer that a loss has happened, which starts the claim process.
+example: You report a car accident through the insurer's app.
+whereYoullSeeIt:
+  - Claims system
+  - Claim documents
+relatedTerms:
+  - notice-of-loss
+  - claim
+  - claims-management-system
+meta:
+  source: editorial

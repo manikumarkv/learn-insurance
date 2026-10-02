@@ -1,0 +1,19 @@
+term: Excluded Driver
+contentStatus: basic
+alsoKnownAs:
+  - Named Driver Exclusion
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A person specifically listed as not covered when driving your car.
+example: A teen with DUIs is excluded to keep premiums down.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - permissive-user
+usNotes: Not allowed in some states.
+meta:
+  source: editorial

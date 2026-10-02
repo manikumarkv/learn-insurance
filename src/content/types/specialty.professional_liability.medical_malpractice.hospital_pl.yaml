@@ -1,0 +1,5 @@
+name: Hospital Professional Liability
+parent: specialty.professional_liability.medical_malpractice
+description: Covers hospitals and health systems for patient care claims.
+example: A hospital is sued after a medication error.
+segment: Commercial

@@ -1,0 +1,19 @@
+term: Covered Auto Symbols
+contentStatus: basic
+alsoKnownAs:
+  - Symbols 1–9 and 19
+category: Policy Wording
+lines:
+  - auto
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Numbers on a business auto policy that define which vehicles are covered, like symbol 1 (any auto).
+example: Symbol 1 liability covers any auto used in the business.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - commercial-auto-insurance
+usNotes: ISO Business Auto form uses symbols 1–9 and 19.
+meta:
+  source: editorial

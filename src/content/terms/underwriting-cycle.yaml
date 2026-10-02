@@ -1,0 +1,17 @@
+term: Underwriting Cycle
+contentStatus: basic
+alsoKnownAs:
+  - Insurance Cycle
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The repeating pattern of hard and soft markets in the insurance industry.
+example: Profits attract capital, prices fall, losses follow, then prices rise again.
+whereYoullSeeIt: []
+relatedTerms:
+  - hard-market
+  - soft-market
+meta:
+  source: editorial

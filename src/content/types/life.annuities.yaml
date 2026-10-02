@@ -1,0 +1,6 @@
+name: Annuities
+parent: life
+description: Turns a lump sum or series of payments into a stream of income, often for life. Annuities protect against outliving your savings rather than dying early.
+example: A retiree uses part of their savings to buy guaranteed monthly income for life.
+segment: Personal
+usNotes: Sold by life insurers; earnings grow tax-deferred. Fixed annuities are state-regulated; variable and registered index-linked annuities are also SEC/FINRA-regulated.

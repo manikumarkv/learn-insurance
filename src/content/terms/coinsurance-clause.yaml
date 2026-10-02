@@ -1,0 +1,20 @@
+term: Coinsurance Clause
+contentStatus: basic
+alsoKnownAs:
+  - Coinsurance Penalty
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: A property policy rule that reduces your claim payment if you insure for less than a set percentage (often 80%) of the property's value.
+example: Insuring a $1M building for $600,000 with an 80% clause means a claim is paid at 600/800 of the loss.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - underinsurance
+  - insurance-to-value
+  - average
+meta:
+  source: editorial

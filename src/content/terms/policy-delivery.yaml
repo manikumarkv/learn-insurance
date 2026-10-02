@@ -1,0 +1,17 @@
+term: Policy Delivery
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Giving the policy to the policyholder, which may start the free look period.
+example: An agent delivers a life policy and gets a signed delivery receipt.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - issuance
+  - free-look-period
+meta:
+  source: editorial

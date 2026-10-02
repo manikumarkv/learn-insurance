@@ -1,0 +1,20 @@
+term: Property Claim Services Catastrophe
+contentStatus: basic
+abbreviation: PCS Catastrophe
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Verisk's Property Claim Services unit identifies catastrophes and estimates industry losses in the US; a 'PCS cat' is an event it designates.
+example: A severe hailstorm gets a PCS catastrophe serial number.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - catastrophe
+  - industry-loss-warranty
+meta:
+  source: editorial

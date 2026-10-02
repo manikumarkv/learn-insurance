@@ -1,0 +1,21 @@
+term: Products-Completed Operations
+contentStatus: basic
+abbreviation: PCO
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Liability for injury or damage caused by your products or finished work after it leaves your control.
+example: A deck you built collapses a year later.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - commercial-general-liability
+  - product-liability-insurance
+  - products-completed-operations-aggregate
+meta:
+  source: editorial

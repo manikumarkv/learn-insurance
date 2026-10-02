@@ -1,0 +1,17 @@
+term: Certified Reinsurer
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A non-US reinsurer approved by a state to post reduced collateral.
+example: A Bermuda reinsurer qualifies for reduced collateral.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - credit-for-reinsurance
+usNotes: "Under NAIC Credit for Reinsurance Model Law #785 and Regulation #786, certified reinsurers from qualified jurisdictions post reduced collateral based on their rating. A separate category added in 2019, reciprocal jurisdiction reinsurers, can post no collateral."
+meta:
+  source: editorial

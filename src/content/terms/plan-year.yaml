@@ -1,0 +1,18 @@
+term: Plan Year
+contentStatus: basic
+alsoKnownAs:
+  - Benefit Year
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The 12-month period for health plan benefits, deductibles and out-of-pocket limits.
+example: Your deductible resets on January 1.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - deductible
+  - out-of-pocket-maximum
+meta:
+  source: editorial

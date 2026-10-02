@@ -1,0 +1,21 @@
+term: Claim Denial
+contentStatus: basic
+alsoKnownAs:
+  - Declination of Coverage
+  - Denial Letter
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The insurer's decision not to pay a claim, with reasons.
+example: A flood claim is denied under a home policy's flood exclusion.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - exclusion
+  - reservation-of-rights
+  - appeal
+usNotes: States require written denial with reasons and time limits under unfair claims practices laws.
+meta:
+  source: editorial

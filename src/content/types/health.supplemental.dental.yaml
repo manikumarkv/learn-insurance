@@ -1,0 +1,6 @@
+name: Dental Insurance
+parent: health.supplemental
+description: Covers preventive, basic and major dental work, often with a yearly maximum.
+example: A family plan covers two cleanings a year and 50% of crowns.
+segment: Both
+usNotes: Often structured as DPPO or DHMO; pediatric dental is an ACA essential health benefit.

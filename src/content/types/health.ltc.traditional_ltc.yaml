@@ -1,0 +1,6 @@
+name: Traditional Standalone LTC
+parent: health.ltc
+description: A policy that pays only for long-term care, with premiums that can rise over time.
+example: A 55-year-old buys standalone LTC for future care.
+segment: Personal
+usNotes: Many older blocks have seen large state-approved rate increases.

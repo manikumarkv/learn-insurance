@@ -1,0 +1,18 @@
+term: Indication
+contentStatus: basic
+alsoKnownAs:
+  - Ballpark Quote
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rough, non-binding price estimate given before full underwriting.
+example: A broker gets an indication of about $40,000 for a D&O policy.
+whereYoullSeeIt:
+  - Quote
+relatedTerms:
+  - quote
+  - submission
+meta:
+  source: editorial

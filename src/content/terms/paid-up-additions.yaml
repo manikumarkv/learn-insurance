@@ -1,0 +1,19 @@
+term: Paid-Up Additions
+contentStatus: basic
+abbreviation: PUA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: Small amounts of extra paid-up whole life coverage bought with dividends or extra premium, increasing cash value and death benefit.
+example: Dividends buy $2,000 of paid-up additions each year.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - dividend
+  - whole-life-insurance
+meta:
+  source: editorial

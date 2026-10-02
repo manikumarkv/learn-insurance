@@ -1,0 +1,20 @@
+term: Risk
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The chance that something bad and costly will happen. Insurers also use 'risk' to mean the person or property being insured.
+example: A house near the coast has a higher risk of hurricane damage.
+whereYoullSeeIt:
+  - Underwriting system
+  - Policy document
+relatedTerms:
+  - hazard
+  - peril
+  - exposure
+  - risk-management
+meta:
+  source: editorial

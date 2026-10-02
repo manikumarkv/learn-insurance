@@ -1,0 +1,16 @@
+term: Adverse Action Notice
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A notice explaining that a consumer report influenced a decision to decline or charge more.
+example: A letter says your insurance score affected your premium.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - fair-credit-reporting-act
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Case Reserve Development
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Changes in case reserves on known claims over time.
+example: Case reserves on 2022 claims rose 8% this year.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - reserve-development
+  - claim-reserve
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Cut-Through Clause
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A clause letting the policyholder collect directly from the reinsurer if the ceding insurer becomes insolvent.
+example: A lender requires a cut-through on a small insurer's policy.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - reinsurance
+  - insolvency
+meta:
+  source: editorial

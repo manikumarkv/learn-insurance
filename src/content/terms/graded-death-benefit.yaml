@@ -1,0 +1,17 @@
+term: Graded Death Benefit
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Intermediate
+definition: A benefit that is limited (often to premiums plus interest) if death from illness occurs in the first two or three years.
+example: Death in year one returns premiums plus 10%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - guaranteed-issue
+  - final-expense-insurance
+meta:
+  source: editorial

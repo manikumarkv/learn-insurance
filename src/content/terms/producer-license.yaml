@@ -1,0 +1,20 @@
+term: Producer License
+contentStatus: basic
+alsoKnownAs:
+  - Insurance License
+category: Regulation
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A state-issued license that allows a person to sell insurance in specific lines.
+example: You pass the life and health exam to get your license.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - producer
+  - lines-of-authority
+  - national-insurance-producer-registry
+usNotes: Non-resident licenses are needed to sell in other states.
+meta:
+  source: editorial

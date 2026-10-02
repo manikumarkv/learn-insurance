@@ -1,0 +1,16 @@
+term: 7-Pay Test
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: A federal tax test that checks whether premiums in the first seven years exceed limits, which would make a policy a MEC.
+example: Premiums above the 7-pay limit trigger MEC status.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - modified-endowment-contract
+meta:
+  source: editorial

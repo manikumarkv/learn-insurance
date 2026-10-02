@@ -1,0 +1,6 @@
+name: Jones Act / Maritime Employers Liability
+parent: casualty.workers_comp.federal_comp
+alsoKnownAs: MEL
+description: Covers seamen (crew members), who sue their employer under the Jones Act rather than using workers' comp.
+example: A deckhand injured on a tugboat claims under the Jones Act.
+segment: Commercial

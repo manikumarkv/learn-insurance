@@ -1,0 +1,5 @@
+name: Modified Coinsurance (Modco)
+parent: reinsurance.life_reinsurance
+description: Like coinsurance, but the ceding insurer keeps the assets and reserves.
+example: An annuity writer keeps assets on its books while ceding risk.
+segment: Commercial

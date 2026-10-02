@@ -1,0 +1,23 @@
+term: Clearance
+contentStatus: basic
+alsoKnownAs:
+  - Submission Clearance
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - commercial
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Checking whether an insurer has already received a submission for the same client from another broker.
+example: The system flags a duplicate submission and blocks the second broker.
+whereYoullSeeIt:
+  - Underwriting system
+  - Policy administration system
+relatedTerms:
+  - submission
+  - broker-of-record
+meta:
+  source: editorial

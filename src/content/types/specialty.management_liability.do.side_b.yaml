@@ -1,0 +1,6 @@
+name: Side B
+parent: specialty.management_liability.do
+alsoKnownAs: Company reimbursement
+description: Reimburses the company for costs it pays to defend its directors.
+example: The company pays a director's legal fees and is reimbursed.
+segment: Commercial

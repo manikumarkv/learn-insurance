@@ -1,0 +1,18 @@
+term: Lapse
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: When a policy ends because the premium was not paid within the grace period.
+example: Your life policy lapses after missing payments.
+whereYoullSeeIt:
+  - Policy administration system
+  - Billing statement
+relatedTerms:
+  - grace-period
+  - reinstatement
+meta:
+  source: editorial

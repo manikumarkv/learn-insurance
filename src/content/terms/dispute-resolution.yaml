@@ -1,0 +1,17 @@
+term: Dispute Resolution
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Ways to settle disagreements between insurer and insured, such as appraisal, mediation, arbitration or court.
+example: A claim dispute is resolved through mediation.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - appraisal-clause
+  - arbitration-clause
+meta:
+  source: editorial

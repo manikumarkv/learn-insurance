@@ -1,0 +1,17 @@
+term: Wrongful Act
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: "The trigger for management and professional liability: an actual or alleged error, omission, misstatement or breach of duty."
+example: A board allegedly misled investors.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - directors-and-officers-liability
+  - errors-and-omissions-insurance
+meta:
+  source: editorial

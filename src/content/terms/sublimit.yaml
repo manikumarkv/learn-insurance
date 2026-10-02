@@ -1,0 +1,19 @@
+term: Sublimit
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Intermediate
+definition: A smaller limit within the main limit that applies to a particular type of loss or property.
+example: A home policy may cap jewelry theft at $1,500 even though personal property is covered up to $100,000.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - limit-of-liability
+  - scheduled-personal-property
+  - endorsement
+meta:
+  source: editorial

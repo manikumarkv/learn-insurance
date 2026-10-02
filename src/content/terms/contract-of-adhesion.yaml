@@ -1,0 +1,18 @@
+term: Contract of Adhesion
+contentStatus: basic
+alsoKnownAs:
+  - Adhesion Contract
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A take-it-or-leave-it contract written by one party. Insurance policies are usually treated this way, so unclear wording favors the insured.
+example: You can't negotiate the wording of your standard auto policy.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - contra-proferentem
+  - ambiguity
+meta:
+  source: editorial

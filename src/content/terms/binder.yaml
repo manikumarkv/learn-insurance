@@ -1,0 +1,18 @@
+term: Binder
+contentStatus: basic
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A temporary written agreement that coverage is in force until the policy is issued.
+example: A 30-day binder given to a mortgage lender at closing.
+whereYoullSeeIt:
+  - Policy administration system
+relatedTerms:
+  - binding
+  - issuance
+usNotes: State rules limit binder duration (often 90 days).
+meta:
+  source: editorial

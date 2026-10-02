@@ -1,0 +1,18 @@
+term: Loss Adjustment
+contentStatus: basic
+alsoKnownAs:
+  - Claims Adjustment
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: The process of investigating, evaluating and settling a claim.
+example: The loss adjustment took three weeks.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - claims-adjuster
+  - loss-adjustment-expense
+meta:
+  source: editorial

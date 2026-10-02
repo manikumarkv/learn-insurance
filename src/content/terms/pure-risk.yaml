@@ -1,0 +1,16 @@
+term: Pure Risk
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A risk where only a loss or no loss can happen, with no chance of gain. Only pure risks are normally insurable.
+example: The chance your house burns down is a pure risk.
+whereYoullSeeIt: []
+relatedTerms:
+  - speculative-risk
+  - insurable-risk
+meta:
+  source: editorial

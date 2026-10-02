@@ -1,0 +1,6 @@
+name: Competitive State Funds
+parent: casualty.workers_comp
+description: State-run workers' comp insurers that compete with private insurers and often act as the insurer of last resort.
+example: A small contractor denied by private carriers gets cover from the state fund.
+segment: Commercial
+usNotes: "Examples: SCIF (California), NYSIF (New York), Texas Mutual (created by the Texas legislature and now a private mutual that acts as the state's insurer of last resort)."

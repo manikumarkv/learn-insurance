@@ -1,0 +1,5 @@
+name: "Part One: Workers' Compensation"
+parent: casualty.workers_comp
+description: "Pays the benefits required by state workers' comp law: medical care, wage replacement, rehabilitation and death benefits."
+example: An injured warehouse worker gets two-thirds of wages while off work.
+segment: Commercial

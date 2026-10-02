@@ -1,0 +1,20 @@
+term: Declination
+contentStatus: basic
+alsoKnownAs:
+  - Decline
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: A decision by the insurer not to offer or renew coverage for an applicant or risk.
+example: An applicant with multiple DUIs is declined.
+whereYoullSeeIt:
+  - Underwriting system
+  - Claim documents
+relatedTerms:
+  - underwriting
+  - claim-denial
+usNotes: Some states require written reasons for declining certain personal lines applicants.
+meta:
+  source: editorial

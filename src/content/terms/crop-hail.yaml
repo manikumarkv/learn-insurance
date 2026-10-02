@@ -1,0 +1,16 @@
+term: Crop-Hail Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - agriculture
+usageFrequency: Low
+difficulty: Intermediate
+definition: Private insurance covering crops against hail and sometimes fire, not federally subsidized.
+example: Hail shreds a tobacco crop.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - crop-insurance
+meta:
+  source: editorial

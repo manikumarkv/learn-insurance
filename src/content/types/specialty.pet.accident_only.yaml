@@ -1,0 +1,5 @@
+name: Accident-Only
+parent: specialty.pet
+description: Covers vet bills from accidents only, at a lower price.
+example: A cat hit by a car is treated.
+segment: Personal

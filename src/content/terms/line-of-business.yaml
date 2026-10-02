@@ -1,0 +1,22 @@
+term: Line of Business
+contentStatus: basic
+abbreviation: LOB
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Line of Insurance
+category: Technology
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A category of insurance, like personal auto, homeowners or workers' comp, used for products, reporting and regulation.
+example: Reporting premiums by LOB on the annual statement.
+whereYoullSeeIt:
+  - Financial statements
+  - Policy administration system
+relatedTerms:
+  - annual-statement
+  - product-model
+usNotes: NAIC annual statement lines define regulatory LOBs.
+meta:
+  source: editorial

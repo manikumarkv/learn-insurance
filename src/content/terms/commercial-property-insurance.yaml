@@ -1,0 +1,19 @@
+term: Commercial Property Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - commercial
+usageFrequency: High
+difficulty: Beginner
+definition: Covers a business's buildings, equipment, inventory and other property.
+example: A bakery's ovens and building damaged by fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - business-interruption-insurance
+  - special-form
+  - coinsurance-clause
+meta:
+  source: editorial

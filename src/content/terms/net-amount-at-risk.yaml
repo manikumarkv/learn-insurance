@@ -1,0 +1,20 @@
+term: Net Amount at Risk
+contentStatus: basic
+abbreviation: NAR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - life
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: The death benefit minus the cash value; what the insurer truly has at risk.
+example: $500,000 death benefit minus $100,000 cash value is $400,000 NAR.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - cost-of-insurance
+  - cash-value
+meta:
+  source: editorial

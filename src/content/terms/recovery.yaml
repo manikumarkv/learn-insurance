@@ -1,0 +1,19 @@
+term: Recovery
+contentStatus: basic
+alsoKnownAs:
+  - Recoveries
+category: Claims
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Money the insurer gets back after paying a claim, through subrogation, salvage or reinsurance.
+example: A $4,000 subrogation recovery from another insurer.
+whereYoullSeeIt:
+  - Claims system
+  - Financial statements
+relatedTerms:
+  - subrogation
+  - salvage
+meta:
+  source: editorial

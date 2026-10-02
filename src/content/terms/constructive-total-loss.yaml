@@ -1,0 +1,21 @@
+term: Constructive Total Loss
+contentStatus: basic
+abbreviation: CTL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+  - marine
+usageFrequency: Low
+difficulty: Advanced
+definition: When repairing or recovering property would cost more than it is worth, so it's treated as a total loss.
+example: A sunk ship that would cost more to raise than it's worth.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - total-loss
+  - abandonment
+meta:
+  source: editorial

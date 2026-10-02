@@ -1,0 +1,6 @@
+name: Industry Program Policies
+parent: commercial.packages
+alsoKnownAs: Program business
+description: Tailored packages for a specific industry, often written through program administrators or MGAs.
+example: A chain of fitness studios buys a fitness-industry package.
+segment: Commercial

@@ -1,0 +1,20 @@
+term: Defense Costs
+contentStatus: basic
+alsoKnownAs:
+  - Claims Expenses
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Legal fees and costs of defending a claim.
+example: $80,000 in attorney fees spent defending a lawsuit.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - duty-to-defend
+  - defense-within-limits
+meta:
+  source: editorial

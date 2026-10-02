@@ -1,0 +1,15 @@
+term: Attorney-in-Fact
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: The company that manages a reciprocal exchange on behalf of its members.
+example: Erie Indemnity is attorney-in-fact for Erie Insurance Exchange.
+whereYoullSeeIt: []
+relatedTerms:
+  - reciprocal-exchange
+meta:
+  source: editorial

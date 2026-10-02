@@ -1,0 +1,6 @@
+name: Retrocession
+parent: reinsurance
+alsoKnownAs: Retro
+description: Reinsurance bought by reinsurers to protect themselves.
+example: A reinsurer buys retro cover for its Florida hurricane exposure.
+segment: Commercial

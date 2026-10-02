@@ -1,0 +1,19 @@
+term: Contra Proferentem
+contentStatus: basic
+alsoKnownAs:
+  - Contra Proferentem Rule
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Latin for 'against the offeror'. Unclear wording in a contract is interpreted against the party who wrote it, usually the insurer.
+example: A court reads an unclear exclusion in the policyholder's favor.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - contract-of-adhesion
+  - ambiguity
+usNotes: US courts widely apply this rule because policies are usually drafted by insurers.
+meta:
+  source: editorial

@@ -1,0 +1,20 @@
+term: Captive Insurance Company
+contentStatus: basic
+alsoKnownAs:
+  - Captive
+category: Core Concept
+lines:
+  - commercial
+  - art
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An insurance company owned by the business or group it insures.
+example: A hospital system forms a captive for its malpractice risk.
+whereYoullSeeIt: []
+relatedTerms:
+  - alternative-risk-transfer
+  - fronting
+  - self-insurance
+usNotes: Vermont, Utah, Delaware, North Carolina and others are popular domiciles; 831(b) micro-captives face IRS scrutiny.
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: Launch Insurance
+parent: marine.space
+description: Covers loss or failure of a satellite during launch and early operation.
+example: A rocket failure destroys a satellite and the insurer pays.
+segment: Commercial

@@ -1,0 +1,20 @@
+term: Aggregate Excess of Loss
+contentStatus: basic
+alsoKnownAs:
+  - Stop Loss Reinsurance
+category: Reinsurance
+lines:
+  - health
+  - agriculture
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: Reinsurance that pays when total losses for a year exceed a set amount or loss ratio.
+example: Pays when the crop portfolio's loss ratio exceeds 110%.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - excess-of-loss
+  - stop-loss-insurance
+meta:
+  source: editorial

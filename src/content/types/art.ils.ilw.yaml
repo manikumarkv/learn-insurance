@@ -1,0 +1,5 @@
+name: Industry Loss Warranties (ILW)
+parent: art.ils
+description: Contracts that pay when total industry losses from an event exceed a set level.
+example: A reinsurer buys an ILW paying if a US hurricane costs the industry over $30B.
+segment: Commercial

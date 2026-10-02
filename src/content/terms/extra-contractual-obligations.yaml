@@ -1,0 +1,20 @@
+term: Extra-Contractual Obligations
+contentStatus: basic
+abbreviation: ECO
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: Amounts an insurer must pay beyond the policy's terms, often because of bad faith findings.
+example: A court awards $2M against an insurer for mishandling a claim.
+whereYoullSeeIt:
+  - Financial statements
+  - Reinsurance contract
+relatedTerms:
+  - bad-faith
+  - excess-of-policy-limits
+meta:
+  source: editorial

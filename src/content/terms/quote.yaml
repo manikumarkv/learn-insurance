@@ -1,0 +1,21 @@
+term: Quote
+contentStatus: basic
+alsoKnownAs:
+  - Quotation
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: An offer from an insurer showing the price and terms at which it would provide coverage.
+example: An online auto quote of $98 per month.
+whereYoullSeeIt:
+  - Quote
+  - Policy administration system
+relatedTerms:
+  - application
+  - binding
+  - indication
+  - rating-engine
+meta:
+  source: editorial

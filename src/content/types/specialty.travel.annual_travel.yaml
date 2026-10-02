@@ -1,0 +1,5 @@
+name: Annual Multi-Trip
+parent: specialty.travel
+description: Covers all trips in a year, each up to a maximum length.
+example: A consultant who travels monthly buys annual cover.
+segment: Personal

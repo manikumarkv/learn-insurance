@@ -1,0 +1,6 @@
+name: Social Security Disability Insurance (SSDI)
+parent: social.social_security
+description: Monthly benefits for workers who can't do any substantial work because of a severe disability expected to last at least 12 months or result in death.
+example: A warehouse worker with a spinal injury receives SSDI after a 5-month waiting period.
+segment: Personal
+usNotes: Medicare eligibility begins after 24 months of SSDI.

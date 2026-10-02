@@ -1,0 +1,5 @@
+name: Ship Repairers Liability
+parent: marine.ocean_marine.marine_liability
+description: Covers shipyards for damage to vessels in their care.
+example: A vessel catches fire while in dry dock.
+segment: Commercial

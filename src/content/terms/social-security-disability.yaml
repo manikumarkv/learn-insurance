@@ -1,0 +1,17 @@
+term: Social Security Disability Insurance
+contentStatus: basic
+abbreviation: SSDI
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - social
+usageFrequency: Low
+difficulty: Intermediate
+definition: A federal program paying monthly benefits to people who can't work due to a severe disability and have enough work credits.
+example: A worker with MS receives SSDI.
+whereYoullSeeIt: []
+relatedTerms:
+  - disability-insurance
+meta:
+  source: editorial

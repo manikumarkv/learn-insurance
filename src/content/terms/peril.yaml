@@ -1,0 +1,22 @@
+term: Peril
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - property
+  - commercial
+  - marine
+  - agriculture
+usageFrequency: High
+difficulty: Beginner
+definition: A cause of loss, such as fire, wind, theft or flood.
+example: Fire and lightning are perils covered by most home policies.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - hazard
+  - named-perils
+  - open-perils
+  - exclusion
+meta:
+  source: editorial

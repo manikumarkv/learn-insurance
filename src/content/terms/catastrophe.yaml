@@ -1,0 +1,25 @@
+term: Catastrophe
+contentStatus: basic
+abbreviation: CAT
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - property
+  - commercial
+  - agriculture
+  - reinsurance
+usageFrequency: High
+difficulty: Intermediate
+definition: A single event, such as a hurricane or earthquake, that causes very large losses for many policyholders at once.
+example: Hurricane Ian caused billions in insured losses.
+whereYoullSeeIt:
+  - Financial statements
+  - Claims system
+relatedTerms:
+  - catastrophe-model
+  - probable-maximum-loss
+  - catastrophe-bond
+  - property-claim-services-catastrophe
+meta:
+  source: editorial

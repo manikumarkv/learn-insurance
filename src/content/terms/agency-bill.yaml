@@ -1,0 +1,18 @@
+term: Agency Bill
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The agent bills and collects premium from the client, then pays the insurer net of commission.
+example: A commercial client pays the agency, not the carrier.
+whereYoullSeeIt:
+  - Billing statement
+relatedTerms:
+  - direct-bill
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Insurance Holding Company
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A parent company that owns one or more insurers; transactions between affiliates are regulated.
+example: A holding company owns five P&C insurers in different states.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - form-a
+meta:
+  source: editorial

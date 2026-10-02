@@ -1,0 +1,5 @@
+name: Contract Frustration
+parent: specialty.political_risk
+description: Covers losses when a foreign government buyer cancels or will not perform a contract, often because of government action. A government simply failing to pay a debt it owes is Sovereign Non-Payment.
+example: A foreign ministry cancels a contract without paying.
+segment: Commercial

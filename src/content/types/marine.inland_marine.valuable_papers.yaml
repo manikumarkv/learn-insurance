@@ -1,0 +1,5 @@
+name: Valuable Papers & Records
+parent: marine.inland_marine
+description: Pays to restore important documents like blueprints and legal papers.
+example: An architect's plans are destroyed in a flood.
+segment: Commercial

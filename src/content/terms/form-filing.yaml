@@ -1,0 +1,18 @@
+term: Form Filing
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Submitting policy forms and endorsements to a state regulator for review.
+example: A new cyber endorsement filed in 48 states.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - rate-filing
+  - system-for-electronic-rates-and-forms-filing
+  - form
+meta:
+  source: editorial

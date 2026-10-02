@@ -1,0 +1,19 @@
+term: Point of Service Plan
+contentStatus: basic
+abbreviation: POS Plan
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: "A plan combining HMO and PPO features: a primary doctor and referrals, but some out-of-network coverage."
+example: You pay more to see out-of-network doctors with a referral.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - health-maintenance-organization
+  - preferred-provider-organization
+meta:
+  source: editorial

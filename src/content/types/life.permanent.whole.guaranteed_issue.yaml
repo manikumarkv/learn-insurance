@@ -1,0 +1,6 @@
+name: Guaranteed Issue Whole Life
+parent: life.permanent.whole
+alsoKnownAs: Guaranteed acceptance life
+description: Whole life that accepts anyone in the eligible age range with no health questions; benefits are usually limited in the first two years (a "graded" death benefit).
+example: A person with serious health conditions who can't qualify elsewhere buys a small guaranteed policy.
+segment: Personal

@@ -1,0 +1,19 @@
+term: Issue Age
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - life
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The insured's age when the policy is issued, used to price premiums.
+example: A policy issued at 35 is priced at issue age 35.
+whereYoullSeeIt:
+  - Application form
+  - Declarations page
+relatedTerms:
+  - attained-age
+  - backdating
+meta:
+  source: editorial

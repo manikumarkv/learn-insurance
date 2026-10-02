@@ -1,0 +1,19 @@
+term: Intentional Acts Exclusion
+contentStatus: basic
+alsoKnownAs:
+  - Expected or Intended Injury Exclusion
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Excludes injury or damage the insured intended or expected to cause.
+example: Punching someone is not covered by your homeowners liability.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+meta:
+  source: editorial

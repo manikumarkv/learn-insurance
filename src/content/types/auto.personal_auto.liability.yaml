@@ -1,0 +1,7 @@
+name: Liability Coverage
+parent: auto.personal_auto
+alsoKnownAs: Liability-only; Part A
+description: Pays for injury and damage you cause to others; the legal minimum in almost every state. It doesn't pay for your own car.
+example: An owner of an old car buys only liability cover.
+segment: Personal
+usNotes: Limits are written as split limits such as 25/50/25 ($25k per person, $50k per accident bodily injury, $25k property damage). State minimums vary widely.

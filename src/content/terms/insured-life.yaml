@@ -1,0 +1,19 @@
+term: Insured (Life)
+contentStatus: basic
+alsoKnownAs:
+  - Life Insured
+  - Insured Person
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Beginner
+definition: The person whose life is covered; their death triggers the payout. They may differ from the policyowner.
+example: A company insures the life of its CEO.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - policyholder
+  - beneficiary
+meta:
+  source: editorial

@@ -1,0 +1,7 @@
+name: Terrorism Coverage (TRIA)
+parent: commercial.commercial_property
+alsoKnownAs: TRIPRA
+description: Covers damage from certified acts of terrorism, backed by a federal reinsurance program.
+example: An office tower buys terrorism cover.
+segment: Commercial
+usNotes: The Terrorism Risk Insurance Act requires insurers to offer the cover; the federal backstop runs through 2027 under current law.

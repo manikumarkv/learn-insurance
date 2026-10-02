@@ -1,0 +1,5 @@
+name: Hired & Non-Owned Auto (HNOA)
+parent: auto.commercial_auto
+description: Covers a business's liability when employees drive rented cars or their own cars for work.
+example: An employee crashes their own car on a sales trip and the company is sued.
+segment: Commercial

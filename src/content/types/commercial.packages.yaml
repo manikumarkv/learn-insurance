@@ -1,0 +1,5 @@
+name: Business Package Policies
+parent: commercial
+description: Bundles of common business covers sold as one policy.
+example: A dental office buys one package for building, contents and liability.
+segment: Commercial

@@ -1,0 +1,21 @@
+term: Health Insurance Marketplace
+contentStatus: basic
+alsoKnownAs:
+  - Exchange
+  - HealthCare.gov
+category: Distribution
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: The government-run service where individuals and small businesses shop for ACA health plans and apply for subsidies.
+example: You buy a silver plan on HealthCare.gov.
+whereYoullSeeIt: []
+relatedTerms:
+  - affordable-care-act
+  - premium-tax-credit
+  - open-enrollment-period
+  - metal-tiers
+usNotes: Some states run their own exchanges (e.g., Covered California).
+meta:
+  source: editorial

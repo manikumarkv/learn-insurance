@@ -1,0 +1,19 @@
+term: Mortgagee Clause
+contentStatus: basic
+alsoKnownAs:
+  - Standard Mortgage Clause
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Protects the mortgage lender's interest so it gets paid even if the homeowner's own coverage is voided.
+example: A claim check is made out to you and your mortgage company.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - loss-payee
+  - lienholder
+meta:
+  source: editorial

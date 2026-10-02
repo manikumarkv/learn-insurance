@@ -1,0 +1,6 @@
+name: Blue-Water Hull
+parent: marine.ocean_marine.hull
+alsoKnownAs: Ocean hull
+description: Hull cover for ocean-going ships.
+example: A container ship owner insures its fleet.
+segment: Commercial

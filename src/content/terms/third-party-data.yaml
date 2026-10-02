@@ -1,0 +1,20 @@
+term: Third-Party Data
+contentStatus: basic
+alsoKnownAs:
+  - Prefill
+category: Technology
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Data from outside providers used to prefill applications or enrich underwriting, like property characteristics or driving records.
+example: Prefill fills in square footage and roof age.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - comprehensive-loss-underwriting-exchange-report
+  - motor-vehicle-report
+usNotes: Use of consumer data is regulated by FCRA and state rules.
+meta:
+  source: editorial

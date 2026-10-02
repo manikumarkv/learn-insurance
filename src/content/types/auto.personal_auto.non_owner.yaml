@@ -1,0 +1,6 @@
+name: Non-Owner Car Insurance
+parent: auto.personal_auto
+description: Liability cover for people who drive but don't own a car.
+example: A city resident who rents cars often buys a non-owner policy.
+segment: Personal
+usNotes: Often used to satisfy an SR-22 requirement.

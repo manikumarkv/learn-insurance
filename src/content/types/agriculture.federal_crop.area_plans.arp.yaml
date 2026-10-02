@@ -1,0 +1,5 @@
+name: Area Revenue Protection (ARP)
+parent: agriculture.federal_crop.area_plans
+description: Pays when the county's average revenue falls below a trigger.
+example: Low prices and yields trigger county-wide payments.
+segment: Commercial

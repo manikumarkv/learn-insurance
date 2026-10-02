@@ -1,0 +1,18 @@
+term: Business Associate Agreement
+contentStatus: basic
+abbreviation: BAA
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A contract required by HIPAA when a vendor handles PHI for a health plan or provider.
+example: A cloud vendor signs a BAA with a health insurer.
+whereYoullSeeIt: []
+relatedTerms:
+  - health-insurance-portability-and-accountability-act
+  - protected-health-information
+meta:
+  source: editorial

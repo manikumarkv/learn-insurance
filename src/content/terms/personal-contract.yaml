@@ -1,0 +1,18 @@
+term: Personal Contract
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - property
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance covers a person, not a thing, so it generally can't be transferred without the insurer's consent.
+example: Selling your car does not transfer your auto policy to the buyer.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - assignment
+meta:
+  source: editorial

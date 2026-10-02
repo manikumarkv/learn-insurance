@@ -13,17 +13,18 @@ pnpm dev          # http://localhost:4321
 
 ## Scripts
 
-| Script                  | What it does                                                  |
-| ----------------------- | ------------------------------------------------------------- |
-| `pnpm dev`              | Start the dev server                                          |
-| `pnpm build`            | Build the static site into `dist/`                            |
-| `pnpm preview`          | Serve the built site                                          |
-| `pnpm lint`             | ESLint, then a Prettier check                                 |
-| `pnpm format`           | Format all files with Prettier                                |
-| `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)   |
-| `pnpm test`             | Unit tests (Vitest)                                           |
-| `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first. |
-| `pnpm validate:content` | Checks every file in `src/content/` against the term schema   |
+| Script                  | What it does                                                             |
+| ----------------------- | ------------------------------------------------------------------------ |
+| `pnpm dev`              | Start the dev server                                                     |
+| `pnpm build`            | Build the static site into `dist/`                                       |
+| `pnpm preview`          | Serve the built site                                                     |
+| `pnpm lint`             | ESLint, then a Prettier check                                            |
+| `pnpm format`           | Format all files with Prettier                                           |
+| `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)              |
+| `pnpm test`             | Unit tests (Vitest)                                                      |
+| `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first.            |
+| `pnpm validate:content` | Checks every file in `src/content/` against the term schema              |
+| `pnpm import:content`   | Creates term and insurance type files from `data/*.csv` (safe to re-run) |
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 

@@ -1,0 +1,5 @@
+name: Key Account / Single Buyer
+parent: financial.credit.trade_credit
+description: Covers credit risk on one or a few major customers.
+example: A supplier insures its exposure to one large retailer.
+segment: Commercial

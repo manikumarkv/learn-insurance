@@ -1,0 +1,6 @@
+name: ERISA Fidelity Bond
+parent: financial.fidelity
+description: A bond required for people who handle employee benefit plan money, protecting the plan against their theft.
+example: A 401(k) plan is bonded for 10% of its assets.
+segment: Commercial
+usNotes: Required by ERISA Section 412 (generally 10% of plan assets, up to $500,000 or $1 million for plans with employer securities).

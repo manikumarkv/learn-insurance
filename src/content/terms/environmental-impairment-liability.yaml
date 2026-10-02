@@ -1,0 +1,21 @@
+term: Environmental Impairment Liability
+contentStatus: basic
+abbreviation: EIL
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Pollution Legal Liability
+  - PLL
+category: Line-Specific
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: Covers cleanup costs and liability for pollution, which standard liability policies exclude.
+example: A gas station's leaking tank contaminates groundwater.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - pollution-exclusion
+meta:
+  source: editorial

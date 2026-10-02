@@ -1,0 +1,17 @@
+term: Media Liability
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers claims of defamation, copyright infringement and invasion of privacy from published content.
+example: A publisher is sued for libel.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - personal-and-advertising-injury
+meta:
+  source: editorial

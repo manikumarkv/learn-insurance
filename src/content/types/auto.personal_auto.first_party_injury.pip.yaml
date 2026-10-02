@@ -1,0 +1,7 @@
+name: Personal Injury Protection (PIP)
+parent: auto.personal_auto.first_party_injury
+alsoKnownAs: No-fault insurance
+description: Pays your medical bills, lost wages and other costs after a crash no matter who caused it.
+example: A Michigan driver's PIP pays his medical bills after a crash.
+segment: Personal
+usNotes: Required in no-fault states such as FL, MI, NY, NJ, PA, MA, MN, HI, KS, KY, ND, UT. NJ, PA and KY let drivers choose limited or full tort options.

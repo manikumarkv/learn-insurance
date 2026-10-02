@@ -1,0 +1,20 @@
+term: Own Risk and Solvency Assessment
+contentStatus: basic
+abbreviation: ORSA
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Regulation
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: An insurer's internal review of its risks and whether it has enough capital, reported to regulators.
+example: A large insurer files an ORSA summary report yearly.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - risk-based-capital
+  - solvency
+usNotes: Required by NAIC model for larger insurer groups.
+meta:
+  source: editorial

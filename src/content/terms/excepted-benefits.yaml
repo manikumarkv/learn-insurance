@@ -1,0 +1,17 @@
+term: Excepted Benefits
+contentStatus: basic
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: Types of coverage such as dental, vision, hospital indemnity or AD&D that are exempt from many ACA rules.
+example: A standalone dental plan is an excepted benefit.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - affordable-care-act
+  - hospital-indemnity-insurance
+meta:
+  source: editorial

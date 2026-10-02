@@ -1,0 +1,6 @@
+name: Organ Transplant Carve-Out
+parent: health.employer_risk_financing.stop_loss
+alsoKnownAs: Transplant stop-loss; Transplant coverage
+description: Moves the cost of covered organ transplants out of a self-funded health plan to an insurer, alongside the plan's regular stop-loss.
+example: An employee needs a liver transplant and the transplant policy pays the hospital bills instead of the employer's plan.
+segment: Commercial

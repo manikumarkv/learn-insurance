@@ -1,0 +1,17 @@
+term: Insured vs. Insured Exclusion
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: Excludes claims brought by one insured against another, such as the company suing its own directors.
+example: The company sues its former CFO; the D&O excludes it.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - directors-and-officers-liability
+  - exclusion
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Managing General Underwriter
+contentStatus: basic
+abbreviation: MGU
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A term similar to MGA, stressing underwriting authority delegated by insurers.
+example: An MGU specializes in cyber risks for small firms.
+whereYoullSeeIt: []
+relatedTerms:
+  - managing-general-agent
+meta:
+  source: editorial

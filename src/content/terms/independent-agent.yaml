@@ -1,0 +1,17 @@
+term: Independent Agent
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: An agent who represents several insurers and can shop for the best fit.
+example: An independent agent compares quotes from six carriers.
+whereYoullSeeIt: []
+relatedTerms:
+  - captive-agent
+  - insurance-agent
+  - broker
+meta:
+  source: editorial

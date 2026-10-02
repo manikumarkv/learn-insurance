@@ -1,0 +1,16 @@
+term: Speculative Risk
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A risk that could lead to a gain or a loss, such as gambling or investing. It is generally not insurable.
+example: Buying stock is a speculative risk because it can go up or down.
+whereYoullSeeIt: []
+relatedTerms:
+  - pure-risk
+  - insurable-risk
+meta:
+  source: editorial

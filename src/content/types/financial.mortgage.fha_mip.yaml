@@ -1,0 +1,6 @@
+name: FHA Mortgage Insurance Premium (MIP)
+parent: financial.mortgage
+description: Government mortgage insurance on FHA loans, with an upfront premium and annual premium.
+example: A buyer with 3.5% down on an FHA loan pays MIP.
+segment: Personal
+usNotes: Run by HUD's Federal Housing Administration; with less than 10% down, MIP lasts for the life of the loan.

@@ -1,0 +1,16 @@
+term: Aleatory Contract
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A contract where what each side gives may be very unequal and depends on an uncertain event.
+example: You pay $800 in premium and might receive $300,000 if your house burns down, or nothing.
+whereYoullSeeIt: []
+relatedTerms:
+  - unilateral-contract
+  - contract-of-adhesion
+meta:
+  source: editorial

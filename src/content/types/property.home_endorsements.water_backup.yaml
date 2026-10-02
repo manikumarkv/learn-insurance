@@ -1,0 +1,6 @@
+name: Water Backup & Sump Overflow
+parent: property.home_endorsements
+alsoKnownAs: Sewer backup
+description: Covers damage when water backs up through drains or a sump pump fails. Excluded by default.
+example: A basement floods from a sewer backup during a heavy storm.
+segment: Personal

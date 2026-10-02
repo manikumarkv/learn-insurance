@@ -1,0 +1,7 @@
+name: Medicaid
+parent: social
+alsoKnownAs: Medi-Cal (California); MassHealth (Massachusetts); TennCare (Tennessee)
+description: Joint federal-state health coverage for people with low incomes, including children, pregnant women, seniors and people with disabilities. Also the main payer for nursing home care.
+example: A low-income family gets free doctor and hospital care.
+segment: Personal
+usNotes: Each state runs its own program within federal rules; 40 states plus DC have expanded Medicaid under the ACA to adults up to 138% of the federal poverty level. Most enrollees are in private managed care plans contracted by the state. Under the 2025 One Big Beautiful Bill Act, expansion adults face work/community-engagement requirements (80 hours a month) and 6-month eligibility renewals starting by Dec 31, 2026.

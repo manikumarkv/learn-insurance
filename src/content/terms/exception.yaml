@@ -1,0 +1,18 @@
+term: Exception
+contentStatus: basic
+alsoKnownAs:
+  - Exception to Exclusion
+category: Policy Wording
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Wording that gives back coverage that an exclusion would otherwise remove.
+example: Mold is excluded, except when it results from a covered water leak.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - exclusion
+  - insuring-agreement
+meta:
+  source: editorial

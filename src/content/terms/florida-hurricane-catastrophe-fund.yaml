@@ -1,0 +1,22 @@
+term: Florida Hurricane Catastrophe Fund
+contentStatus: basic
+abbreviation: FHCF
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Cat Fund
+category: Reinsurance
+lines:
+  - property
+  - social
+  - reinsurance
+usageFrequency: Low
+difficulty: Advanced
+definition: A state-run fund providing reinsurance to Florida residential property insurers for hurricane losses.
+example: Florida insurers must buy FHCF coverage.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - catastrophe-excess-of-loss
+  - citizens-property-insurance
+meta:
+  source: editorial

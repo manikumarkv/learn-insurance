@@ -1,0 +1,7 @@
+name: Own-Occupation Definition
+parent: health.disability.ltd
+alsoKnownAs: Own occ; True own occ
+description: Pays if you can't do your own specific job, even if you could do another job.
+example: A dentist with a hand tremor is paid even though she could teach.
+segment: Both
+usNotes: Common in individual policies for physicians and dentists.

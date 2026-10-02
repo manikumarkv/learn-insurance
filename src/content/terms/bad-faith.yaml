@@ -1,0 +1,19 @@
+term: Bad Faith
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: When an insurer unreasonably fails to meet its duties, such as denying or delaying a valid claim without good reason.
+example: An insurer ignores a reasonable settlement offer within limits, and the insured faces a large judgment.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - unfair-claims-settlement-practices
+  - duty-to-defend
+  - excess-verdict
+usNotes: Bad faith law is state-specific; some states allow extra-contractual and punitive damages.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Proportional (Pro Rata) Reinsurance
+parent: reinsurance
+alsoKnownAs: Quota share and surplus
+description: The reinsurer takes an agreed share of premiums and pays the same share of losses.
+example: A reinsurer takes 40% of the premium and pays 40% of every claim.
+segment: Commercial

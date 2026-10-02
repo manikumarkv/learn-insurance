@@ -1,0 +1,17 @@
+term: Schedule
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: A list attached to a policy that details specific items, locations, vehicles or people covered.
+example: A schedule lists 12 insured buildings with values.
+whereYoullSeeIt:
+  - Declarations page
+relatedTerms:
+  - declarations-page
+  - scheduled-personal-property
+meta:
+  source: editorial

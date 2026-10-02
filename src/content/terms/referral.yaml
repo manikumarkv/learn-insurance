@@ -1,0 +1,20 @@
+term: Referral
+contentStatus: basic
+alsoKnownAs:
+  - Refer
+category: Underwriting
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Sending a risk to a senior underwriter or other team for approval because it falls outside normal rules or authority.
+example: The rating engine refers an applicant with three recent claims.
+whereYoullSeeIt:
+  - Underwriting system
+  - Policy administration system
+relatedTerms:
+  - underwriting-authority
+  - straight-through-processing
+  - underwriting-rules-engine
+meta:
+  source: editorial

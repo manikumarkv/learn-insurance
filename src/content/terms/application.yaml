@@ -1,0 +1,19 @@
+term: Application
+contentStatus: basic
+alsoKnownAs:
+  - App
+category: Lifecycle
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The form you fill out to request insurance, giving information the insurer uses to decide and price.
+example: A life application asks about your health, hobbies and income.
+whereYoullSeeIt:
+  - Application form
+relatedTerms:
+  - quote
+  - underwriting
+  - representation
+meta:
+  source: editorial

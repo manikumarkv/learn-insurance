@@ -1,0 +1,18 @@
+term: License and Permit Bond
+contentStatus: basic
+alsoKnownAs:
+  - Commercial Surety Bond
+category: Line-Specific
+lines:
+  - specialty
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: A bond required by a government to obtain a license, guaranteeing compliance with laws.
+example: An auto dealer must post a $50,000 bond.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - surety-bond
+meta:
+  source: editorial

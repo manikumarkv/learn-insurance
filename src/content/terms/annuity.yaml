@@ -1,0 +1,19 @@
+term: Annuity
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: High
+difficulty: Beginner
+definition: A contract with an insurer where you pay money in and receive regular income, often for life.
+example: You pay $100,000 and receive $550 a month for life.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - fixed-annuity
+  - variable-annuity
+  - immediate-annuity
+  - deferred-annuity
+meta:
+  source: editorial

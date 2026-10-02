@@ -1,0 +1,6 @@
+name: Non-Proportional (Excess of Loss) Reinsurance
+parent: reinsurance
+alsoKnownAs: XoL
+description: The reinsurer pays losses above a set amount (the retention), up to a limit.
+example: A reinsurer pays losses between $10M and $50M from any one event.
+segment: Commercial

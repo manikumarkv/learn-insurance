@@ -1,0 +1,19 @@
+term: Hierarchical Condition Categories
+contentStatus: basic
+abbreviation: HCC
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Advanced
+definition: A coding system that groups diagnoses to estimate how costly a patient will be, used for risk adjustment.
+example: Coding diabetes with complications raises a member's risk score.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - risk-adjustment
+  - international-classification-of-diseases-10th-revision
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Fair Rental Value
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+usageFrequency: Low
+difficulty: Intermediate
+definition: Coverage for rent you lose when a part of your home you rent out becomes uninhabitable after a covered loss.
+example: You lose $1,000/month from a basement apartment after a fire.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - loss-of-use
+  - additional-living-expense
+meta:
+  source: editorial

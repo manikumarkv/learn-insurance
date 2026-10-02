@@ -1,0 +1,7 @@
+name: Aircraft Liability
+parent: marine.aviation
+alsoKnownAs: Passenger and third-party liability
+description: Covers liability to passengers and people or property on the ground.
+example: An airline pays compensation to injured passengers.
+segment: Commercial
+usNotes: International flights are subject to the Montreal Convention liability rules.

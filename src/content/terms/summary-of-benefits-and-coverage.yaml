@@ -1,0 +1,18 @@
+term: Summary of Benefits and Coverage
+contentStatus: basic
+abbreviation: SBC
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Regulation
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: A standard, easy-to-read summary of a health plan's costs and coverage, required by the ACA.
+example: You compare two plans using their SBCs.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - summary-plan-description
+meta:
+  source: editorial

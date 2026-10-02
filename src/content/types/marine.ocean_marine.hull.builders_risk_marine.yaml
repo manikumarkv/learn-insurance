@@ -1,0 +1,5 @@
+name: Shipbuilders' Risk
+parent: marine.ocean_marine.hull
+description: Covers ships while being built or repaired at a shipyard.
+example: A shipyard insures a ferry under construction.
+segment: Commercial

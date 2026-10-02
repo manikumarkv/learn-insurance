@@ -1,0 +1,7 @@
+name: Extended Warranty / Service Contracts
+parent: specialty
+alsoKnownAs: Vehicle service contract; Mechanical breakdown insurance (MBI)
+description: Covers repair of products or vehicles after the manufacturer's warranty ends.
+example: A washing machine breaks in year 3 and repairs are covered.
+segment: Personal
+usNotes: Service contracts are regulated separately from insurance in most states; MBI is an insurance product sold by insurers (e.g. in California).

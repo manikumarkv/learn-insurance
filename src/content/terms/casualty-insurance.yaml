@@ -1,0 +1,18 @@
+term: Casualty Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - casualty
+  - auto
+  - commercial
+usageFrequency: Medium
+difficulty: Beginner
+definition: Insurance mainly concerned with legal liability for injuries and damage to others, plus workers' comp.
+example: GL, auto liability and workers' comp are casualty lines.
+whereYoullSeeIt: []
+relatedTerms:
+  - property-and-casualty
+  - liability
+meta:
+  source: editorial

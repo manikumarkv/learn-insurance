@@ -1,0 +1,6 @@
+name: Insurance Agents & Brokers E&O
+parent: specialty.professional_liability
+description: Covers insurance agents against claims they arranged the wrong cover.
+example: A broker forgets to add flood cover and the client sues.
+segment: Commercial
+usNotes: Required by some states and many carriers for appointment.

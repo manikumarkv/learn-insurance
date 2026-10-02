@@ -1,0 +1,19 @@
+term: Vacancy Clause
+contentStatus: basic
+alsoKnownAs:
+  - Vacancy Provision
+category: Policy Wording
+lines:
+  - property
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Reduces or removes coverage if a building is vacant for longer than a set period, often 60 days.
+example: A house empty for 90 days loses coverage for vandalism.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - occupancy
+  - exclusion
+meta:
+  source: editorial

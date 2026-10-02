@@ -1,0 +1,20 @@
+term: High-Deductible Health Plan
+contentStatus: basic
+abbreviation: HDHP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A plan with a higher deductible that meets IRS rules, allowing you to open an HSA.
+example: A plan with a $3,300 deductible and HSA eligibility.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - health-savings-account
+  - deductible
+usNotes: IRS sets minimum deductibles and maximum out-of-pocket limits each year; since 2026, ACA bronze and catastrophic plans also count as HSA-compatible even if they don't meet the standard HDHP test.
+meta:
+  source: editorial

@@ -1,0 +1,6 @@
+name: Buy-Sell Funding
+parent: life.group_life
+alsoKnownAs: Cross-purchase; Entity redemption
+description: Life cover used to fund an agreement where surviving owners buy a deceased owner's share of the business.
+example: Two partners each insure the other so the survivor can buy out the family of the deceased.
+segment: Commercial

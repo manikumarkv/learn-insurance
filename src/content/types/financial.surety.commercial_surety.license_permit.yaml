@@ -1,0 +1,5 @@
+name: License & Permit Bonds
+parent: financial.surety.commercial_surety
+description: Required by states or cities before a business can get a license, guaranteeing it follows the law.
+example: A mortgage broker posts a state license bond.
+segment: Commercial

@@ -1,0 +1,17 @@
+term: Facultative Reinsurance
+contentStatus: basic
+alsoKnownAs:
+  - Fac
+category: Reinsurance
+lines:
+  - reinsurance
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Reinsurance arranged for a single, specific policy, negotiated individually.
+example: A large skyscraper is reinsured on a facultative basis.
+whereYoullSeeIt:
+  - Reinsurance contract
+relatedTerms:
+  - treaty-reinsurance
+meta:
+  source: editorial

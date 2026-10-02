@@ -1,0 +1,19 @@
+term: Index Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Index-Based Insurance
+category: Line-Specific
+lines:
+  - agriculture
+  - art
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance that pays based on an index like area yield or rainfall rather than an individual's loss.
+example: A rancher gets paid when the pasture rainfall index falls below normal.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - parametric-trigger
+  - pasture-rangeland-forage
+meta:
+  source: editorial

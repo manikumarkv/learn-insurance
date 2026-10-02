@@ -1,0 +1,18 @@
+term: Travel Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+  - specialty
+usageFrequency: Medium
+difficulty: Beginner
+definition: Covers trip cancellation, medical emergencies abroad, lost luggage and delays.
+example: Illness cancels your cruise and you're reimbursed.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - trip-cancellation
+  - emergency-medical-evacuation
+meta:
+  source: editorial

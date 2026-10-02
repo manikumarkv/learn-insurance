@@ -1,0 +1,16 @@
+term: Buy-Sell Agreement
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: A contract for owners to buy a deceased owner's share of a business, often funded with life insurance.
+example: Partners each own a policy on the other.
+whereYoullSeeIt: []
+relatedTerms:
+  - key-person-insurance
+meta:
+  source: editorial

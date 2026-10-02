@@ -1,0 +1,6 @@
+name: Dependent Life
+parent: life.group_life
+alsoKnownAs: Spouse and child life
+description: Small group life coverage on an employee's spouse and children.
+example: An employee adds $20,000 of cover for their spouse.
+segment: Both

@@ -1,0 +1,17 @@
+term: Conditional Contract
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A contract where the insurer's duty to pay depends on the insured meeting certain conditions, like reporting claims promptly.
+example: Failing to report a loss in time can let the insurer deny payment.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - conditions
+  - notice-of-loss
+meta:
+  source: editorial

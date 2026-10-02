@@ -1,0 +1,16 @@
+term: Event Cancellation Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - specialty
+usageFrequency: Low
+difficulty: Intermediate
+definition: Covers lost costs and revenue if an event is cancelled, postponed or disrupted by covered causes.
+example: A festival cancelled by a hurricane.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - force-majeure
+meta:
+  source: editorial

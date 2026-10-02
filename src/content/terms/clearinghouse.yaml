@@ -1,0 +1,16 @@
+term: Clearinghouse
+contentStatus: basic
+alsoKnownAs:
+  - Healthcare Clearinghouse
+category: Technology
+lines:
+  - health
+usageFrequency: Low
+difficulty: Intermediate
+definition: A company that checks and forwards electronic health claims between providers and insurers.
+example: A clinic sends all claims through a clearinghouse.
+whereYoullSeeIt: []
+relatedTerms:
+  - edi-837
+meta:
+  source: editorial

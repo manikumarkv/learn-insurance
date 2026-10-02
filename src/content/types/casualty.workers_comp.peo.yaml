@@ -1,0 +1,6 @@
+name: PEO Workers' Comp
+parent: casualty.workers_comp
+alsoKnownAs: Master policy
+description: Workers' comp provided through a Professional Employer Organization that co-employs a small business's staff.
+example: A small company gets workers' comp through its PEO.
+segment: Commercial

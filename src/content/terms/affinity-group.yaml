@@ -1,0 +1,17 @@
+term: Affinity Group
+contentStatus: basic
+alsoKnownAs:
+  - Affinity Program
+category: Distribution
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance sold to members of an organization, like alumni or professional associations, often at group rates.
+example: A bar association sponsors a professional liability program.
+whereYoullSeeIt: []
+relatedTerms:
+  - group-insurance
+  - embedded-insurance
+meta:
+  source: editorial

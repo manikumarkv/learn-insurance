@@ -1,0 +1,22 @@
+term: Punitive Damages
+contentStatus: basic
+alsoKnownAs:
+  - Exemplary Damages
+category: Legal/Latin
+lines:
+  - casualty
+  - commercial
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Extra money a court awards to punish especially bad behavior, not to repay a loss.
+example: A company that knowingly hid a product defect is ordered to pay $5M in punitive damages.
+whereYoullSeeIt:
+  - Claim documents
+  - Policy document
+relatedTerms:
+  - damages
+  - compensatory-damages
+usNotes: Whether insurance may pay punitive damages varies by state; some states prohibit it as against public policy.
+meta:
+  source: editorial

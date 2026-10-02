@@ -1,0 +1,6 @@
+name: Platinum Plan
+parent: health.major_medical.individual_market
+description: "Covers about 90% of average costs: highest premium, lowest out-of-pocket."
+example: A person expecting major surgery chooses platinum.
+segment: Personal
+usNotes: Not offered in every state.

@@ -1,0 +1,16 @@
+term: Embedded Insurance
+contentStatus: basic
+alsoKnownAs: []
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Insurance offered at the point of sale inside another company's product or purchase flow.
+example: Buying trip insurance while booking a flight.
+whereYoullSeeIt: []
+relatedTerms:
+  - insurtech
+  - affinity-group
+meta:
+  source: editorial

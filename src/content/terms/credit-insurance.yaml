@@ -1,0 +1,20 @@
+term: Credit Insurance
+contentStatus: basic
+alsoKnownAs:
+  - Credit Life
+  - Credit Disability
+category: Line-Specific
+lines:
+  - life
+  - financial
+usageFrequency: Low
+difficulty: Intermediate
+definition: Insurance that pays a loan or credit card balance if the borrower dies, becomes disabled or loses a job.
+example: Credit life pays off a car loan after the borrower's death.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - mortgage-protection-insurance
+usNotes: Regulated by state credit insurance laws.
+meta:
+  source: editorial

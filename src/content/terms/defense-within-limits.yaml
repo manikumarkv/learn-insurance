@@ -1,0 +1,22 @@
+term: Defense Within Limits
+contentStatus: basic
+alsoKnownAs:
+  - Burning Limits
+  - Eroding Limits
+  - Wasting Policy
+category: Policy Wording
+lines:
+  - specialty
+  - financial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Defense costs reduce the policy limit, leaving less money to pay a settlement.
+example: $300,000 of legal fees reduces a $1M D&O limit to $700,000.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - defense-outside-limits
+  - defense-costs
+usNotes: Some states restrict defense-within-limits for certain lines.
+meta:
+  source: editorial

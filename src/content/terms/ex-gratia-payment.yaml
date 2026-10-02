@@ -1,0 +1,19 @@
+term: Ex Gratia Payment
+contentStatus: basic
+alsoKnownAs:
+  - Goodwill Payment
+category: Claims
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: A payment made by the insurer as a goodwill gesture even though it is not legally required.
+example: An insurer pays $500 ex gratia for a borderline claim to keep a long-time customer happy.
+whereYoullSeeIt:
+  - Claims system
+  - Claim documents
+relatedTerms:
+  - claim
+  - claim-settlement
+meta:
+  source: editorial

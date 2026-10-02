@@ -1,0 +1,22 @@
+term: National Flood Insurance Program
+contentStatus: basic
+abbreviation: NFIP
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - social
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A federal program run by FEMA that provides flood insurance to property owners in participating communities.
+example: You buy NFIP flood insurance through your agent.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - flood-insurance
+  - federal-emergency-management-agency
+  - write-your-own
+usNotes: Building coverage caps at $250,000 for homes.
+meta:
+  source: editorial

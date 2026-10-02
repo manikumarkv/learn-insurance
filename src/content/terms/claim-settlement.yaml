@@ -1,0 +1,19 @@
+term: Claim Settlement
+contentStatus: basic
+alsoKnownAs:
+  - Settlement
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The final agreement and payment that resolves a claim.
+example: You accept $12,000 to settle your car claim.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - claim
+  - release
+meta:
+  source: editorial

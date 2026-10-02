@@ -1,0 +1,19 @@
+term: Stated Value
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A value listed on the policy, but the insurer pays the lesser of that value or actual cash value.
+example: A car with a $20,000 stated value may still be paid at $15,000 ACV.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - agreed-value
+  - actual-cash-value
+meta:
+  source: editorial

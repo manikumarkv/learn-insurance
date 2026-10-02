@@ -1,0 +1,19 @@
+term: Insured
+contentStatus: basic
+alsoKnownAs: []
+category: Core Concept
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The person or organization protected by the policy.
+example: On a car policy, you and family members who drive your car are insureds.
+whereYoullSeeIt:
+  - Declarations page
+  - Policy document
+relatedTerms:
+  - named-insured
+  - additional-insured
+  - policyholder
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: State Department of Insurance
+contentStatus: basic
+abbreviation: DOI
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Insurance Department
+category: Regulation
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The state agency that licenses insurers and agents, approves rates and forms, and handles consumer complaints.
+example: You file a complaint against your insurer with the Texas Department of Insurance.
+whereYoullSeeIt:
+  - Regulatory filings
+relatedTerms:
+  - insurance-commissioner
+  - national-association-of-insurance-commissioners
+usNotes: Each of the 50 states, D.C. and territories has its own regulator.
+meta:
+  source: editorial

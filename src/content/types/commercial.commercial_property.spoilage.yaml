@@ -1,0 +1,5 @@
+name: Spoilage Coverage
+parent: commercial.commercial_property
+description: Covers perishable stock that spoils after power failure or refrigeration breakdown.
+example: A grocer's frozen food spoils when a freezer fails.
+segment: Commercial

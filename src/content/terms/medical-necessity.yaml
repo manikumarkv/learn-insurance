@@ -1,0 +1,19 @@
+term: Medical Necessity
+contentStatus: basic
+alsoKnownAs:
+  - Medically Necessary
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Health care services needed to diagnose or treat an illness under accepted medical standards; plans usually only cover these.
+example: Cosmetic surgery is usually not medically necessary.
+whereYoullSeeIt:
+  - Policy document
+  - Explanation of benefits
+relatedTerms:
+  - prior-authorization
+  - utilization-review
+meta:
+  source: editorial

@@ -1,0 +1,5 @@
+name: DP-3 Special Form
+parent: property.dwelling_fire
+description: Open-peril cover for the dwelling at replacement cost, the most common landlord form.
+example: An investor insures three rental homes on DP-3.
+segment: Personal

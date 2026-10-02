@@ -1,0 +1,5 @@
+name: Special Event Liability
+parent: casualty.specialty_liability
+description: Short-term liability for one-off events.
+example: A nonprofit gala buys one-day liability cover required by the venue.
+segment: Both

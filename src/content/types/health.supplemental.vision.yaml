@@ -1,0 +1,6 @@
+name: Vision Insurance
+parent: health.supplemental
+description: Covers eye exams and part of the cost of glasses or contact lenses.
+example: An employee gets a yearly eye exam and a $150 frame allowance.
+segment: Both
+usNotes: Major carriers include VSP and EyeMed.

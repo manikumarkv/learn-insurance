@@ -1,0 +1,22 @@
+term: Schedule P
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - property
+  - casualty
+  - auto
+  - commercial
+  - financial
+usageFrequency: Low
+difficulty: Advanced
+definition: The part of the P&C annual statement showing how loss reserves have developed over ten years.
+example: Analysts use Schedule P to check whether reserves were adequate.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - annual-statement
+  - loss-development
+  - reserves
+meta:
+  source: editorial

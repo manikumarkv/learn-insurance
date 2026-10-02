@@ -1,0 +1,18 @@
+term: Claimant
+contentStatus: basic
+alsoKnownAs: []
+category: Claims
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The person or organization making a claim.
+example: A pedestrian hit by your car is the claimant on your liability claim.
+whereYoullSeeIt:
+  - Claim documents
+  - Claims system
+relatedTerms:
+  - claim
+  - third-party
+meta:
+  source: editorial

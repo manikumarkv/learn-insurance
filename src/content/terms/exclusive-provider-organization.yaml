@@ -1,0 +1,20 @@
+term: Exclusive Provider Organization
+contentStatus: basic
+abbreviation: EPO
+abbreviationIsCommonName: true
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A plan that covers only in-network care (except emergencies) but usually doesn't require referrals.
+example: You can see an in-network specialist directly.
+whereYoullSeeIt:
+  - Policy document
+  - Insurance ID card
+relatedTerms:
+  - health-maintenance-organization
+  - preferred-provider-organization
+meta:
+  source: editorial

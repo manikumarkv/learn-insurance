@@ -1,0 +1,17 @@
+term: Participation Rate
+contentStatus: basic
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - life
+usageFrequency: Low
+difficulty: Advanced
+definition: The percentage of the index gain credited to an indexed product.
+example: With 80% participation, a 10% index gain credits 8%.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - cap-rate
+  - floor-rate
+meta:
+  source: editorial

@@ -1,0 +1,17 @@
+term: Direct Writer
+contentStatus: basic
+alsoKnownAs:
+  - Direct Insurer
+category: Distribution
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: An insurer that sells directly to customers through its own employees, website or call centers instead of independent agents.
+example: GEICO sells auto insurance online and by phone.
+whereYoullSeeIt: []
+relatedTerms:
+  - captive-agent
+  - independent-agent
+meta:
+  source: editorial

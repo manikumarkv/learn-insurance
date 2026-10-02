@@ -1,0 +1,17 @@
+term: Investment Income
+contentStatus: basic
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Money an insurer earns by investing premiums and reserves before claims are paid.
+example: Interest from bonds held to back reserves.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - float
+  - operating-ratio
+meta:
+  source: editorial

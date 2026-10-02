@@ -1,0 +1,5 @@
+name: Motor Truck Cargo
+parent: auto.commercial_auto.trucking
+description: Covers goods being carried in a truck against loss or damage.
+example: A trucker's load of TVs is stolen and cargo cover pays.
+segment: Commercial

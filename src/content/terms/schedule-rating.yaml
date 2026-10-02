@@ -1,0 +1,20 @@
+term: Schedule Rating
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Advanced
+definition: Adjusting a commercial premium up or down within limits based on the underwriter's judgment of specific characteristics.
+example: A 15% credit for excellent housekeeping and safety programs.
+whereYoullSeeIt:
+  - Rating engine
+relatedTerms:
+  - experience-rating
+  - rating-factor
+usNotes: Maximum schedule credits and debits are filed with each state.
+meta:
+  source: editorial

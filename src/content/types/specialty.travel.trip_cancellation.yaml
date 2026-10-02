@@ -1,0 +1,5 @@
+name: Trip Cancellation & Interruption
+parent: specialty.travel
+description: Refunds prepaid, non-refundable costs if you must cancel or cut short a trip for a covered reason.
+example: A trip is cancelled due to a family death and costs are refunded.
+segment: Personal

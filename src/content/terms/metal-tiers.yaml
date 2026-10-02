@@ -1,0 +1,18 @@
+term: Metal Tiers
+contentStatus: basic
+alsoKnownAs:
+  - Bronze, Silver, Gold, Platinum
+category: Line-Specific
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: "ACA plan categories based on how much of costs the plan pays on average: bronze 60%, silver 70%, gold 80%, platinum 90%."
+example: A bronze plan has low premiums but high deductibles.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - actuarial-value
+  - health-insurance-marketplace
+meta:
+  source: editorial

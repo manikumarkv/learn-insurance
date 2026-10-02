@@ -1,0 +1,7 @@
+name: Creditor-Placed / Force-Placed Insurance
+parent: financial.credit
+alsoKnownAs: Lender-placed insurance
+description: Insurance a lender buys and charges to the borrower when the borrower lets required cover lapse.
+example: A lender force-places hazard cover on a home after the owner's policy lapsed.
+segment: Personal
+usNotes: Subject to CFPB (RESPA) rules for mortgages and state regulation.

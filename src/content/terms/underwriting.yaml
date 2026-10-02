@@ -1,0 +1,19 @@
+term: Underwriting
+contentStatus: basic
+alsoKnownAs: []
+category: Underwriting
+lines:
+  - all
+usageFrequency: High
+difficulty: Beginner
+definition: The process of evaluating a risk to decide whether to insure it and on what terms and price.
+example: An underwriter reviews a restaurant's fire safety and loss history.
+whereYoullSeeIt:
+  - Underwriting system
+relatedTerms:
+  - underwriter
+  - underwriting-guidelines
+  - risk-selection
+  - rate
+meta:
+  source: editorial

@@ -1,0 +1,19 @@
+term: Retention
+contentStatus: basic
+alsoKnownAs: []
+category: Reinsurance
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The amount of loss kept by the insured or by an insurer before insurance or reinsurance pays.
+example: A reinsurer pays losses above the insurer's $1M retention.
+whereYoullSeeIt:
+  - Reinsurance contract
+  - Declarations page
+relatedTerms:
+  - self-insured-retention
+  - attachment-point
+  - deductible
+meta:
+  source: editorial

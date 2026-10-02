@@ -1,0 +1,6 @@
+name: Risk Purchasing Group (RPG)
+parent: art.self_insurance
+description: A group of similar businesses that buy insurance together from an insurer, without owning it.
+example: Restaurants join an RPG to buy liability cover at group rates.
+segment: Commercial
+usNotes: Authorized by the Liability Risk Retention Act.

@@ -1,0 +1,22 @@
+term: Excess of Policy Limits
+contentStatus: basic
+abbreviation: XPL
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A judgment above the policy limit that the insurer may have to pay if it acted in bad faith.
+example: A $1M verdict on a $100,000 policy after the insurer refused to settle.
+whereYoullSeeIt:
+  - Claim documents
+  - Reinsurance contract
+relatedTerms:
+  - extra-contractual-obligations
+  - bad-faith
+  - excess-verdict
+meta:
+  source: editorial

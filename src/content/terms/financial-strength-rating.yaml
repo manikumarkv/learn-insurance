@@ -1,0 +1,19 @@
+term: Financial Strength Rating
+contentStatus: basic
+abbreviation: FSR
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - AM Best Rating
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Intermediate
+definition: An independent opinion on an insurer's ability to pay claims, from agencies like AM Best, S&P and Moody's.
+example: A lender requires an insurer rated A- or better by AM Best.
+whereYoullSeeIt: []
+relatedTerms:
+  - am-best
+  - solvency
+meta:
+  source: editorial

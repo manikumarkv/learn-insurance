@@ -1,0 +1,21 @@
+term: Commercial Package Policy
+contentStatus: basic
+abbreviation: CPP
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Line-Specific
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A policy combining two or more commercial coverage parts, like property, GL and inland marine.
+example: A manufacturer's CPP includes property, GL and crime.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - coverage-part
+  - business-owners-policy
+meta:
+  source: editorial

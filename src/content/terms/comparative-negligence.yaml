@@ -1,0 +1,21 @@
+term: Comparative Negligence
+contentStatus: basic
+alsoKnownAs:
+  - Comparative Fault
+category: Legal/Latin
+lines:
+  - casualty
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A rule that reduces the money you can recover by the percentage you were at fault.
+example: You are 20% at fault in a crash with $10,000 of damage, so you recover $8,000.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - contributory-negligence
+  - negligence
+  - liability
+usNotes: Most states use pure or modified comparative negligence; a few use contributory negligence.
+meta:
+  source: editorial

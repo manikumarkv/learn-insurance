@@ -1,0 +1,6 @@
+name: Residual Value Insurance
+parent: financial
+alsoKnownAs: Residual value guarantee (RVG); RVI
+description: Guarantees that an asset such as a plane, vehicle or building will be worth at least an agreed amount on a future date, paying the shortfall if it is worth less.
+example: A lessor insures that a leased jet will be worth $20 million at lease end and is paid the difference when it sells for $16 million.
+segment: Commercial

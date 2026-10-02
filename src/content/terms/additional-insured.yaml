@@ -1,0 +1,23 @@
+term: Additional Insured
+contentStatus: basic
+abbreviation: AI
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - property
+  - casualty
+  - commercial
+usageFrequency: High
+difficulty: Intermediate
+definition: A person or company added to someone else's policy so they are also protected, often required by a contract.
+example: A landlord requires a tenant's liability policy to list the landlord as an additional insured.
+whereYoullSeeIt:
+  - Policy document
+  - Declarations page
+relatedTerms:
+  - named-insured
+  - certificate-of-insurance
+  - endorsement
+meta:
+  source: editorial

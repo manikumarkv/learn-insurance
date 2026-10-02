@@ -1,0 +1,6 @@
+name: Privacy & Network Security Liability
+parent: specialty.cyber.cyber_third_party
+description: Covers lawsuits for failing to protect data or for passing malware to others.
+example: Patients whose records leaked file a class action.
+segment: Commercial
+usNotes: Exposure driven by laws like HIPAA, CCPA/CPRA (California) and BIPA (Illinois biometrics).

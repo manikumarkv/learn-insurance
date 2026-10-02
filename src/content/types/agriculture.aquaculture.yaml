@@ -1,0 +1,5 @@
+name: Aquaculture Insurance
+parent: agriculture
+description: Covers fish and shellfish farms against stock loss from disease, storms or equipment failure.
+example: An oyster farm loses stock after a harmful algal bloom.
+segment: Commercial

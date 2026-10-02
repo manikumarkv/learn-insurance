@@ -1,0 +1,17 @@
+term: Qualifying Life Event
+contentStatus: basic
+abbreviation: QLE
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Lifecycle
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Beginner
+definition: A change such as marriage, birth, moving or losing coverage that allows a special enrollment.
+example: Having a baby is a qualifying life event.
+whereYoullSeeIt: []
+relatedTerms:
+  - special-enrollment-period
+meta:
+  source: editorial

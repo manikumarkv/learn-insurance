@@ -1,0 +1,18 @@
+term: Drop Down
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - casualty
+  - commercial
+usageFrequency: Low
+difficulty: Advanced
+definition: When an umbrella or excess policy steps in to act as primary coverage because underlying limits are used up or don't cover a loss.
+example: An umbrella drops down to cover a claim excluded by the primary GL.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - umbrella-insurance
+  - self-insured-retention
+meta:
+  source: editorial

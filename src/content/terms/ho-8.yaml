@@ -1,0 +1,18 @@
+term: HO-8
+contentStatus: basic
+alsoKnownAs:
+  - Modified Coverage Form
+category: Line-Specific
+lines:
+  - property
+usageFrequency: Low
+difficulty: Advanced
+definition: A homeowners form for older homes whose market value is below rebuild cost, usually paying repair with common materials or ACV.
+example: A 1900s house with plaster walls insured under HO-8.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - ho-3
+  - actual-cash-value
+meta:
+  source: editorial

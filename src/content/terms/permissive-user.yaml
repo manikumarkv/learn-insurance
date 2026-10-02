@@ -1,0 +1,17 @@
+term: Permissive User
+contentStatus: basic
+alsoKnownAs: []
+category: Policy Wording
+lines:
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: Someone who drives your car with your permission and is generally covered by your policy.
+example: A friend borrows your car and crashes; your policy responds.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - named-insured
+  - excluded-driver
+meta:
+  source: editorial

@@ -1,0 +1,16 @@
+term: Bona Fide
+contentStatus: basic
+alsoKnownAs: []
+category: Legal/Latin
+lines:
+  - all
+usageFrequency: Low
+difficulty: Intermediate
+definition: Latin for 'in good faith'; genuine and without fraud.
+example: A bona fide purchaser bought the car without knowing it was stolen.
+whereYoullSeeIt:
+  - Policy document
+relatedTerms:
+  - utmost-good-faith
+meta:
+  source: editorial

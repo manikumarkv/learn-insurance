@@ -1,0 +1,21 @@
+term: Credit-Based Insurance Score
+contentStatus: basic
+alsoKnownAs:
+  - Insurance Score
+category: Underwriting
+lines:
+  - property
+  - auto
+usageFrequency: Medium
+difficulty: Intermediate
+definition: A score built from your credit report that predicts insurance losses, used in pricing in many states.
+example: A strong insurance score lowers your auto premium.
+whereYoullSeeIt:
+  - Underwriting system
+  - Rating engine
+relatedTerms:
+  - rating-factor
+  - underwriting
+usNotes: Banned or restricted in some states, e.g., California, Hawaii and Massachusetts for auto.
+meta:
+  source: editorial

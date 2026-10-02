@@ -1,0 +1,20 @@
+term: Loss Development Factor
+contentStatus: basic
+abbreviation: LDF
+abbreviationIsCommonName: false
+alsoKnownAs:
+  - Age-to-Age Factor
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Low
+difficulty: Advanced
+definition: A multiplier showing how much losses are expected to grow from one evaluation age to the next or to ultimate.
+example: A 12-to-24 month LDF of 1.40.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-development-triangle
+  - ultimate-loss
+meta:
+  source: editorial

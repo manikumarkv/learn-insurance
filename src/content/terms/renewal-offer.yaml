@@ -1,0 +1,18 @@
+term: Renewal Offer
+contentStatus: basic
+alsoKnownAs:
+  - Renewal Notice
+category: Lifecycle
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Beginner
+definition: Notice from the insurer of the price and terms for the next policy term.
+example: You receive a renewal offer 45 days before expiration.
+whereYoullSeeIt:
+  - Renewal notice
+relatedTerms:
+  - renewal
+  - conditional-renewal
+meta:
+  source: editorial

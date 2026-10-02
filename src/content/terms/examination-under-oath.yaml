@@ -1,0 +1,20 @@
+term: Examination Under Oath
+contentStatus: basic
+abbreviation: EUO
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - property
+  - auto
+usageFrequency: Low
+difficulty: Advanced
+definition: A formal interview where the insured answers the insurer's questions under oath about a claim.
+example: An insurer suspects fraud and requests an EUO.
+whereYoullSeeIt:
+  - Claim documents
+relatedTerms:
+  - special-investigations-unit
+  - insurance-fraud
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Allocated Loss Adjustment Expense
+contentStatus: basic
+abbreviation: ALAE
+abbreviationIsCommonName: true
+alsoKnownAs:
+  - DCC (Defense and Cost Containment)
+category: Finance & Actuarial
+lines:
+  - all
+usageFrequency: Medium
+difficulty: Advanced
+definition: Claim expenses that can be tied to a specific claim, such as defense lawyers and experts.
+example: $20,000 paid to a defense firm on one lawsuit is ALAE.
+whereYoullSeeIt:
+  - Financial statements
+relatedTerms:
+  - loss-adjustment-expense
+  - unallocated-loss-adjustment-expense
+usNotes: Since 1998 NAIC statutory reporting uses Defense and Cost Containment (DCC), which is close to but not identical to ALAE.
+meta:
+  source: editorial

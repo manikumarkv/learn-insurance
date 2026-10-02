@@ -1,0 +1,20 @@
+term: Total Loss Threshold
+contentStatus: basic
+abbreviation: TLT
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Claims
+lines:
+  - auto
+usageFrequency: Low
+difficulty: Intermediate
+definition: The percentage of vehicle value at which a state requires or allows a car to be declared a total loss.
+example: In a 75% state, $7,500 damage to a $10,000 car is a total loss.
+whereYoullSeeIt:
+  - Claims system
+relatedTerms:
+  - total-loss
+  - salvage-title
+usNotes: Set by each state, often 60–100%; some states use a total loss formula.
+meta:
+  source: editorial

@@ -1,0 +1,21 @@
+term: Medical Loss Ratio
+contentStatus: basic
+abbreviation: MLR
+abbreviationIsCommonName: false
+alsoKnownAs: []
+category: Finance & Actuarial
+lines:
+  - health
+usageFrequency: Medium
+difficulty: Intermediate
+definition: The share of health premiums spent on medical care and quality improvement.
+example: A plan spends 82 cents of each premium dollar on care.
+whereYoullSeeIt:
+  - Financial statements
+  - Regulatory filings
+relatedTerms:
+  - loss-ratio
+  - affordable-care-act
+usNotes: The ACA requires 80% MLR for individual and small group, 85% for large group, or rebates are paid.
+meta:
+  source: editorial

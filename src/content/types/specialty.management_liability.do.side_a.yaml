@@ -1,0 +1,6 @@
+name: Side A
+parent: specialty.management_liability.do
+alsoKnownAs: Non-indemnifiable loss
+description: Covers directors personally when the company can't or won't indemnify them, such as in bankruptcy.
+example: A director's defense costs are paid after the company goes bankrupt.
+segment: Commercial

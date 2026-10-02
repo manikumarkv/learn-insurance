@@ -4,6 +4,7 @@ import react from '@astrojs/react';
 import keystatic from '@keystatic/astro';
 import vercel from '@astrojs/vercel';
 import tailwindcss from '@tailwindcss/vite';
+import { loadRedirects } from './src/content/redirects.ts';
 
 // Keystatic saves to local files (default) or, with KEYSTATIC_STORAGE=github, commits to GitHub.
 // The editor (/keystatic) runs on the dev server, and in production only in GitHub mode.
@@ -21,6 +22,8 @@ export default defineConfig({
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : 'http://localhost:4321',
   adapter: vercel(),
+  // Old IDs and /terms/<abbreviation> → term pages (301). See src/content/redirects.ts.
+  redirects: loadRedirects(),
   integrations: [react(), ...(withKeystatic ? [keystatic()] : [])],
   vite: {
     plugins: [tailwindcss()],

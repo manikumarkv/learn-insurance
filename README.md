@@ -34,6 +34,7 @@ Terms, insurance types, learning paths and the About, Privacy, Terms of use and 
 
 - Run `pnpm dev` and open http://localhost:4321/keystatic. Saving writes the file; commit it like code.
 - By default the editor is only on the dev server. With `KEYSTATIC_STORAGE=github` it also runs on the live site and saves edits as commits. Setup: `docs/keystatic-github-mode.md`.
+- Redirects (301) are built from the content at build time: old IDs from `docs/verification/*id-changes.csv` and short URLs like `/terms/acv`. See `src/content/redirects.ts`.
 - Field rules are in `docs/content/term-schema.md`. Allowed values are shared in `src/content/schema/values.ts`.
 
 ## Design system

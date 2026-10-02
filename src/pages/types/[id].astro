@@ -7,6 +7,7 @@ import Disclaimer from '../../features/terms/Disclaimer.astro';
 import Section from '../../features/terms/Section.astro';
 import { ancestorsOf, rootOf } from '../../features/types/tree';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { breadcrumbList, faqPage } from '../../features/seo/jsonld';
 
 export async function getStaticPaths() {
   const types = await getCollection('types');
@@ -48,10 +49,24 @@ const paths = await getCollection('paths');
 const path = paths.find((p) => p.data.type === entry.id) ?? paths.find((p) => p.data.type === root);
 
 const quickAnswer = t.quickAnswer ?? t.description;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const jsonLd = [
+  breadcrumbList(site, [
+    { name: 'Insurance types', path: '/types' },
+    ...ancestors.map((id) => ({ name: name(id), path: `/types/${id}` })),
+    { name: t.name, path: `/types/${entry.id}` },
+  ]),
+  faqPage(t.faqs),
+].filter((x): x is Record<string, unknown> => x !== null);
 const description = truncate(quickAnswer, 160);
 ---
 
-<SiteLayout title={`${t.name}: What It Covers · LearnInsurance`} description={description}>
+<SiteLayout
+  title={`${t.name}: What It Covers · LearnInsurance`}
+  description={description}
+  ogType="article"
+  jsonLd={jsonLd}
+>
   <nav aria-label="Breadcrumb" class="text-body-sm text-ink-muted mb-4">
     <a href="/types">Insurance types</a>
     {ancestors.map((id) => (

@@ -7,12 +7,20 @@ interface Props {
   title: string;
   description: string;
   noindex?: boolean;
+  ogType?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>[];
 }
 
-const { title, description, noindex } = Astro.props;
+const { title, description, noindex, ogType, jsonLd } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} noindex={noindex}>
+<BaseLayout
+  title={title}
+  description={description}
+  noindex={noindex}
+  ogType={ogType}
+  jsonLd={jsonLd}
+>
   <a href="#main" class="pd-btn pd-btn-primary sr-only focus:not-sr-only focus:absolute focus:m-2">
     Skip to content
   </a>

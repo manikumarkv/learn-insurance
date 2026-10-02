@@ -57,7 +57,7 @@ Write `src/content/terms/<id>.yaml` with every required field from the schema:
 
 1. `quickAnswer` (40–60 words), `definition`, `example`.
 2. `flowStages`, then a `story` whose highlighted step shows the term in action, with simple numbers that add up.
-3. One `visual`: pick the template that fits best (`before-after`, `timeline`, `who-pays`, `split` or `flow`) and fill in its data. Check that amounts add up to `total` and timeline shares add up to 100.
+3. One `visual`: pick the template that fits best (`before-after`, `timeline`, `who-pays`, `split` or `flow`), put its name in `visual.diagram.discriminant` and its data in `visual.diagram.value`. Check that amounts add up to `total` and timeline shares add up to 100.
 4. `questions`: a pool of 10 (High usage), 6 (Medium) or 4 (Low) multiple-choice questions, following the schema's **Questions** rules: mix of `scenario`, `meaning` and `difference` (at least half `scenario`), 3–4 options each, exactly one correct, each from a different angle, no near-duplicates, with an `explanation`. If you can't write enough genuinely distinct questions for a rare term, write fewer good ones and say so in the summary rather than padding.
 5. `faqs` (2–4), `seo.metaTitle` (≤ 60 chars), `seo.metaDescription` (140–160 chars).
 6. `sources` (the ones you actually used), and `meta` with `source: ai`, today's dates and `requestIssue` if given. Leave `reviewedBy` out; the pipeline sets it after approval.
@@ -71,7 +71,7 @@ Term links: the site links other terms automatically (schema **Term links**). Us
 ## Step 5 — Self-check
 
 Before finishing, re-read your file and confirm:
-- Valid YAML, `id` matches the file name, all required fields present, only allowed values used.
+- Valid YAML, file name is the `id` (no `id` field inside), `contentStatus: full`, all required fields present, only allowed values used.
 - Word and character limits met.
 - Story math and visual numbers add up; exactly one story step has `highlight: true`.
 - The question count matches the usage level, every `answer` index points to the correct option, and no two questions are near-duplicates.

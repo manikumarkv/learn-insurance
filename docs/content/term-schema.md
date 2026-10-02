@@ -2,7 +2,7 @@
 
 Every glossary term is one YAML file. The term writer agent creates it, the term reviewer agent checks it, and the site renders it.
 
-- **Location:** `src/content/terms/<id>.yaml` (to be confirmed when the Astro + Keystatic app is scaffolded)
+- **Location:** `src/content/terms/<id>.yaml`. Edited in Keystatic (`/keystatic`) or written by the term agents; both produce the same format.
 - **Market:** US only
 - **Seed data:** `data/insurance-glossary.csv` (existing terms; its "Abbreviation" and "Abbreviation Is Common Name" columns map to `abbreviation` and `abbreviationIsCommonName`), `data/insurance-taxonomy.csv` (insurance types). The CSV's "Most Relevant For" column is not imported; the site doesn't show role tags.
 
@@ -10,7 +10,8 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 
 | Field | Required | Rules |
 |---|---|---|
-| `id` | yes | Lowercase slug of the full-form `term`, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
+| `id` | yes | **The file name**, not a field inside the file: `src/content/terms/<id>.yaml`. Lowercase slug of the full-form `term`, `a-z0-9-`. Also the URL: `/terms/<id>`. Unique. |
+| `contentStatus` | yes | `basic` (seed fields only: the site shows the short page) or `full` (every field below written and reviewed). Fields marked *full* are required only when `contentStatus: full`. |
 | `term` | yes | The **full form**, e.g. `Actual Cash Value`, `Health Maintenance Organization`. See **Abbreviations**. |
 | `abbreviation` | no | The abbreviation or acronym, e.g. `ACV`, `HMO`. |
 | `abbreviationIsCommonName` | if `abbreviation` | `true` when people mostly say the abbreviation (HMO, COBRA, FNOL); the page then shows "HMO (Health Maintenance Organization)". `false` otherwise (ACV). |
@@ -19,20 +20,20 @@ Every glossary term is one YAML file. The term writer agent creates it, the term
 | `lines` | yes | List of **line IDs** below. Use `[all]` when the term applies everywhere. |
 | `usageFrequency` | yes | `High`, `Medium` or `Low`: how often the term shows up in US policies, quotes, claims and industry work. Not the same as difficulty. |
 | `difficulty` | yes | `Beginner`, `Intermediate` or `Advanced`. |
-| `quickAnswer` | yes | 40–60 words. Answers "What is X?" directly in the first sentence. Used for AEO. |
+| `quickAnswer` | full | 40–60 words. Answers "What is X?" directly in the first sentence. Used for AEO. |
 | `definition` | yes | Plain-English explanation, 2–4 short sentences. |
 | `example` | yes | One concrete, everyday example. |
 | `whereYoullSeeIt` | yes | List from **places** below. |
-| `flowStages` | yes | List from **flow stages** below: where the term matters in a policy's life. |
-| `story` | yes | Real-life story, see **Story**. |
-| `visual` | yes | One diagram template, see **Visual**. |
-| `questions` | yes | Pool of multiple-choice questions: 10 for High usage, 6 for Medium, 4 for Low. See **Questions**. |
-| `faqs` | yes | 2–4 items of `{ question, answer }`. The first question is "What is <term> in insurance?". Answers ≤ 50 words. |
-| `relatedTerms` | yes | 2–6 IDs of terms that already exist. |
+| `flowStages` | full | List from **flow stages** below: where the term matters in a policy's life. |
+| `story` | full | Real-life story, see **Story**. |
+| `visual` | full | One diagram template, see **Visual**. |
+| `questions` | full | Pool of multiple-choice questions: 10 for High usage, 6 for Medium, 4 for Low. See **Questions**. |
+| `faqs` | full | 2–4 items of `{ question, answer }`. The first question is "What is <term> in insurance?". Answers ≤ 50 words. |
+| `relatedTerms` | yes | IDs of terms that already exist. 2–6 for full terms. |
 | `usNotes` | no | Federal or state differences. Only facts you can back with a source. |
-| `seo.metaTitle` | yes | ≤ 60 characters, e.g. `What Is an Endorsement? Insurance Definition & Example`. |
-| `seo.metaDescription` | yes | 140–160 characters. |
-| `sources` | yes | 2+ `{ title, url }` from credible sources (see **Sources**). Not shown on the page as-is; used for review. |
+| `seo.metaTitle` | full | ≤ 60 characters, e.g. `What Is an Endorsement? Insurance Definition & Example`. |
+| `seo.metaDescription` | full | 140–160 characters. |
+| `sources` | full | 2+ `{ title, url }` from credible sources (see **Sources**). Not shown on the page as-is; used for review. |
 | `meta.source` | yes | `ai` for agent-written, `editorial` for human-written or seed data. |
 | `meta.createdAt` / `meta.updatedAt` | yes | ISO date, e.g. `2026-09-30`. |
 | `meta.requestIssue` | no | GitHub issue number that requested the term. |
@@ -75,6 +76,10 @@ The seed glossary CSV uses older names. Map them when importing:
 
 `Quote`, `Underwriting`, `Bind`, `Issue`, `Changes`, `Claim`, `Renewal`
 
+## Basic terms
+
+A `basic` term holds the seed fields only: `term`, `abbreviation`, `abbreviationIsCommonName`, `alsoKnownAs`, `category`, `lines`, `usageFrequency`, `difficulty`, `definition`, `example`, `whereYoullSeeIt`, `relatedTerms`, `usNotes` and `meta`. The other fields may be empty. When a writer fills a term in, it sets `contentStatus: full` and completes every field.
+
 ## Abbreviations
 
 - `term` is always the full form. Exception: names that are officially just letters or form numbers (AM Best, CMS-1500, HO-3, SR-22) stay as written with no `abbreviation`.
@@ -111,7 +116,7 @@ Rules:
 
 ## Visual
 
-Pick one template and fill in its data. The site draws the diagram.
+Pick one template and fill in its data. The site draws the diagram. The template and its data sit under `visual.diagram` as `discriminant` (the template name) and `value` (its data), which is how Keystatic stores a choice between field sets.
 
 | Template | Use for | Data |
 |---|---|---|
@@ -123,13 +128,14 @@ Pick one template and fill in its data. The site draws the diagram.
 
 ```yaml
 visual:
-  template: who-pays
   caption: A $5,000 claim with a $1,000 deductible.
-  data:
-    total: 5000
-    parts:
-      - { label: Your deductible, amount: 1000, paidBy: you }
-      - { label: Insurer pays, amount: 4000, paidBy: insurer }
+  diagram:
+    discriminant: who-pays
+    value:
+      total: 5000
+      parts:
+        - { label: Your deductible, amount: 1000, paidBy: you }
+        - { label: Insurer pays, amount: 4000, paidBy: insurer }
 ```
 
 Numbers in `who-pays` parts must add up to `total`. `timeline` shares must add up to 100.
@@ -197,9 +203,11 @@ Never use: forums, SEO content farms, AI-generated pages, or a single insurer's 
 
 ## Full example
 
+File: `src/content/terms/endorsement.yaml`
+
 ```yaml
-id: endorsement
 term: Endorsement
+contentStatus: full
 alsoKnownAs: [Policy change, Mid-term adjustment, Rider (life and health)]
 category: Policy Wording
 lines: [all]
@@ -222,12 +230,13 @@ story:
     - { stage: Result, text: "His premium goes up to $120/month from the 20th." }
     - { stage: Renewal, text: "At renewal, the policy continues with the new address and coverage." }
 visual:
-  template: before-after
   caption: Same policy, updated. No new policy is bought.
-  data:
-    before: { label: "Policy · Jan 1", lines: ["$100/month", "Old address", "Liability only"] }
-    change: Endorsement
-    after: { label: "Policy · Jan 20", lines: ["$120/month", "New address", "Liability + collision"] }
+  diagram:
+    discriminant: before-after
+    value:
+      before: { label: "Policy · Jan 1", lines: ["$100/month", "Old address", "Liability only"] }
+      change: Endorsement
+      after: { label: "Policy · Jan 20", lines: ["$120/month", "New address", "Liability + collision"] }
 questions:                # Medium usage: 6 questions
   - type: scenario
     question: Halfway through his policy, Tom adds his daughter as a driver. What is this change called?

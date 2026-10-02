@@ -37,8 +37,8 @@ Go through every group. Collect all findings before deciding.
 - `usNotes` claims about specific states or laws are backed by a source; if not, they must be removed.
 
 ### 3. Schema
-- Valid YAML; `id` is a lowercase slug and matches the file name.
-- Every required field is present; only allowed values are used for `category`, `lines`, `usageFrequency`, `difficulty`, `whereYoullSeeIt`, `flowStages` and the visual `template`.
+- Valid YAML; the file name (the `id`) is a lowercase slug; `contentStatus` is `full`.
+- Every required field is present; only allowed values are used for `category`, `lines`, `usageFrequency`, `difficulty`, `whereYoullSeeIt`, `flowStages` and the visual template (`visual.diagram.discriminant`).
 - Limits: `quickAnswer` 40–60 words, `seo.metaTitle` ≤ 60 characters, `seo.metaDescription` 140–160 characters, FAQ answers ≤ 50 words, 2–4 FAQs, 2–6 related terms.
 - Every `relatedTerms` ID exists.
 - `meta.source` is `ai`, dates are valid ISO dates.

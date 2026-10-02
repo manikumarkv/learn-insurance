@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import { LINE_IDS } from '../../content/schema/values';
+import { GlossaryBrowser } from '../../features/glossary/GlossaryBrowser';
+import { glossaryItems } from '../../features/glossary/items';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const items = await glossaryItems();
+const types = await getCollection('types');
+const lineName = (id: string) => types.find((t) => t.id === id)?.data.name ?? id;
+const lines: [string, string][] = LINE_IDS.filter((l) => l !== 'all').map((l) => [l, lineName(l)]);
+---
+
+<SiteLayout
+  title="Insurance terms A–Z · LearnInsurance"
+  description={`Browse ${items.length.toLocaleString('en-US')} US insurance terms explained in plain English. Filter by usage, difficulty, insurance type and abbreviations.`}
+>
+  <div class="flex flex-col gap-6">
+    <header>
+      <h1 class="text-headline m-0">Insurance terms A–Z</h1>
+      <p class="text-body text-ink-muted m-0">
+        {items.length.toLocaleString('en-US')} US insurance terms, explained in plain English.
+      </p>
+    </header>
+
+    <GlossaryBrowser client:only="react" lines={lines}>
+      <!-- Without JavaScript (and for search engines): every term as a plain list. -->
+      <ul slot="fallback" class="m-0 columns-1 list-none p-0 sm:columns-2 lg:columns-3">
+        {items.map((t) => (
+          <li class="mb-2 break-inside-avoid">
+            <a href={`/terms/${t.id}`}>{t.title}</a>
+          </li>
+        ))}
+      </ul>
+    </GlossaryBrowser>
+  </div>
+</SiteLayout>

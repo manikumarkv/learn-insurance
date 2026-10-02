@@ -30,6 +30,17 @@ First time running browser tests: `pnpm exec playwright install chromium`. To us
 
 Every pull request runs `.github/workflows/ci.yml`: lint, typecheck, unit tests and build in one job, and browser tests in another. Both must pass before merging to `main`.
 
+## Deploys
+
+Vercel deploys the site through its GitHub app:
+
+- Every pull request gets a preview URL, posted on the PR.
+- Every merge to `main` goes to production.
+
+Pages are static by default. A page that needs per-request data, such as sign-in or admin, adds `export const prerender = false` and runs as a Vercel function.
+
+Environment variables are listed in `.env.example`. Copy it to `.env` for local work. Set the real values in Vercel under Project → Settings → Environment Variables. Never commit secrets.
+
 ## Branches
 
 - `feature/<issue>-<short-name>` for features, e.g. `feature/11-ci-pipeline`

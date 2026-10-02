@@ -1,6 +1,7 @@
 export interface NavItem {
   href: string;
   label: string;
+  action?: 'cookie-settings';
 }
 
 export const MAIN_NAV: NavItem[] = [
@@ -9,12 +10,12 @@ export const MAIN_NAV: NavItem[] = [
   { href: '/paths', label: 'Learning paths' },
 ];
 
-// TODO(story 5.4): "Cookie settings" should reopen the consent banner once it exists.
 export const FOOTER_NAV: NavItem[] = [
   { href: '/about', label: 'About' },
   { href: '/privacy', label: 'Privacy' },
   { href: '/terms-of-use', label: 'Terms of use' },
-  { href: '/privacy#cookies', label: 'Cookie settings' },
+  // Reopens the cookie banner (see SiteFooter). Without JavaScript it opens the privacy policy.
+  { href: '/privacy', label: 'Cookie settings', action: 'cookie-settings' },
 ];
 
 /** True when `pathname` is the nav item's page or one of its sub-pages. */

@@ -11,7 +11,7 @@ import { FOOTER_NAV } from './nav';
       <ul class="m-0 flex list-none flex-wrap gap-x-6 gap-y-2 p-0">
         {FOOTER_NAV.map((item) => (
           <li>
-            <a href={item.href} class="text-label">
+            <a href={item.href} class="text-label" data-action={item.action}>
               {item.label}
             </a>
           </li>
@@ -20,3 +20,15 @@ import { FOOTER_NAV } from './nav';
     </nav>
   </div>
 </footer>
+
+<script>
+  import { OPEN_SETTINGS_EVENT } from '../../lib/consent';
+
+  // "Cookie settings" reopens the cookie banner instead of following the link.
+  document.querySelectorAll('a[data-action="cookie-settings"]').forEach((link) =>
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.dispatchEvent(new Event(OPEN_SETTINGS_EVENT));
+    }),
+  );
+</script>

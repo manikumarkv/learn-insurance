@@ -1,0 +1,20 @@
+---
+import { SearchPage } from '../features/search/SearchPage';
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="Search · LearnInsurance"
+  description="Search US insurance terms and insurance types explained in plain English."
+  noindex
+>
+  <div class="flex max-w-3xl flex-col gap-6">
+    <h1 class="text-headline m-0">Search</h1>
+    <SearchPage client:only="react">
+      <p slot="fallback" class="text-body">
+        Search needs JavaScript. You can also browse <a href="/terms">all terms A–Z</a> or the
+        <a href="/types">insurance types</a>.
+      </p>
+    </SearchPage>
+  </div>
+</SiteLayout>

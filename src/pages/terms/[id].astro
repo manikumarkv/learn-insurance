@@ -49,12 +49,19 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
 
   <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
     <article class="flex min-w-0 flex-col gap-10" data-content-status={t.contentStatus}>
-      <header class="flex flex-col gap-3">
+      <!-- Search indexes the name, abbreviation, other names and quick answer (or definition). -->
+      <header
+        class="flex flex-col gap-3"
+        data-pagefind-body
+        data-pagefind-filter="kind:Term"
+        data-pagefind-meta="kind:Term"
+      >
+        <span hidden data-pagefind-meta={`usage:${t.usageFrequency}`}></span>
         <h1 class="text-headline m-0">{title}</h1>
         {t.alsoKnownAs.length > 0 && (
           <p class="text-body-sm text-ink-muted m-0">Also known as: {t.alsoKnownAs.join(', ')}</p>
         )}
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap gap-2" data-pagefind-ignore>
           <Badge>{t.usageFrequency} usage</Badge>
           <Badge tone="muted">{t.difficulty}</Badge>
           <Badge tone="muted">{t.category}</Badge>
@@ -63,7 +70,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
       </header>
 
       {full && t.quickAnswer && (
-        <section aria-labelledby="quick-answer" class="pd-card">
+        <section aria-labelledby="quick-answer" class="pd-card" data-pagefind-body>
           <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
             Quick answer
           </h2>
@@ -92,7 +99,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
       )}
 
       <Section title="In plain English" id="definition">
-        <p class="text-body-lg m-0">
+        <p class="text-body-lg m-0" data-pagefind-body={full ? undefined : ''}>
           <TermText text={t.definition} selfId={entry.id} />
         </p>
       </Section>

@@ -62,7 +62,7 @@ Astro (static by default) with React islands, TypeScript strict, Tailwind 4, pnp
 
 ## Content and the term agents
 
-- Term content will live in `src/content/terms/<id>.yaml` and follow `docs/content/term-schema.md` exactly.
+- Terms live in `src/content/terms/<id>.yaml` (the file name is the id) and follow `docs/content/term-schema.md` exactly. Edit content in Keystatic at `/keystatic` (dev server). Allowed values: `src/content/schema/values.ts`.
 - AI-written terms have `meta.source: ai` and show the "AI-generated · AI-reviewed" badge.
 - **`term-writer`** (`.claude/agents/term-writer.md`) writes or revises one term from a request.
   - Example: "write term subrogation", or "handle term request #123".

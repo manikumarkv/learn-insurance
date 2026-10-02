@@ -20,7 +20,8 @@
     "test:e2e": "playwright test",
     "validate:content": "tsx scripts/validate-content.ts",
     "import:content": "tsx scripts/import-content.ts",
-    "test:lighthouse": "lhci autorun --config=lighthouserc.cjs"
+    "test:lighthouse": "lhci autorun --config=lighthouserc.cjs",
+    "test:smoke": "playwright test --grep @smoke"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",

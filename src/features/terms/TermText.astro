@@ -1,0 +1,30 @@
+---
+import { linkify } from './links';
+import { getTermLinks } from './linkIndex';
+
+interface Props {
+  text: string;
+  /** The page's own term, which is never linked. */
+  selfId: string;
+}
+
+const { text, selfId } = Astro.props;
+const { index, previews } = await getTermLinks();
+const segments = linkify(text, index, selfId);
+---
+
+{segments.map((s) => {
+  if (!('termId' in s)) return s.text;
+  const preview = previews.get(s.termId);
+  return (
+    <a
+      href={`/terms/${s.termId}`}
+      class="term-link"
+      data-term-link
+      data-preview-title={preview?.title}
+      data-preview-text={preview?.text}
+    >
+      {s.text}
+    </a>
+  );
+})}

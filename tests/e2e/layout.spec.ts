@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('header shows the main navigation on desktop', async ({ page }) => {
+test('header shows the main navigation on wide screens', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto('/');
   const header = page.getByRole('banner');

@@ -265,3 +265,21 @@
   border: var(--border) solid var(--ink);
   border-radius: var(--radius-sm);
 }
+
+/* Term links: dotted underline (normal links keep a solid one), with a quick preview. */
+.term-link {
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+}
+.term-preview {
+  position: absolute;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  background: var(--paper);
+  color: var(--ink);
+  border: var(--border-thick) solid var(--ink);
+  border-radius: var(--radius-md);
+}

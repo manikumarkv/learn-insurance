@@ -1,0 +1,24 @@
+---
+import { FOOTER_NAV } from './nav';
+---
+
+<footer class="border-ink mt-16 border-t-2">
+  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8">
+    <p class="text-title-sm m-0">LearnInsurance · US insurance, in plain English</p>
+    <p class="text-body-sm text-ink-muted m-0 max-w-prose" data-testid="disclaimer">
+      Educational only. Not insurance, legal or financial advice. Your policy wording decides what
+      is covered.
+    </p>
+    <nav aria-label="Footer">
+      <ul class="m-0 flex list-none flex-wrap gap-x-6 gap-y-2 p-0">
+        {FOOTER_NAV.map((item) => (
+          <li>
+            <a href={item.href} class="text-label">
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</footer>

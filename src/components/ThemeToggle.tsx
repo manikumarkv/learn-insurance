@@ -10,6 +10,9 @@ import {
 
 const CHOICES: ThemeChoice[] = ['system', ...THEMES];
 
+/** Fired on window when any picker changes, so every picker on the page shows the same choice. */
+const CHANGE_EVENT = 'themechoicechange';
+
 function readChoice(): ThemeChoice {
   try {
     const saved = localStorage.getItem(THEME_STORAGE_KEY);
@@ -38,9 +41,20 @@ function applyChoice(choice: ThemeChoice): void {
  * Theme picker. The choice is remembered on this device; "Match my device" follows system settings.
  * Reads localStorage, so render it with client:only="react".
  */
-export function ThemeToggle() {
+export interface ThemeToggleProps {
+  /** Hide the visible label (it stays available to screen readers), e.g. in the header. */
+  compact?: boolean;
+}
+
+export function ThemeToggle({ compact = false }: ThemeToggleProps) {
   const id = useId();
   const [choice, setChoice] = useState<ThemeChoice>(readChoice);
+
+  useEffect(() => {
+    const sync = (e: Event) => setChoice((e as CustomEvent<ThemeChoice>).detail);
+    window.addEventListener(CHANGE_EVENT, sync);
+    return () => window.removeEventListener(CHANGE_EVENT, sync);
+  }, []);
 
   useEffect(() => {
     if (choice !== 'system') return;
@@ -56,16 +70,17 @@ export function ThemeToggle() {
     setChoice(next);
     saveChoice(next);
     applyChoice(next);
+    window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: next }));
   }
 
   return (
     <div className="pd-field">
-      <label className="pd-label" htmlFor={id}>
+      <label className={compact ? 'sr-only' : 'pd-label'} htmlFor={id}>
         Theme
       </label>
       <select
         id={id}
-        className="pd-input"
+        className={compact ? 'pd-input pd-input-sm' : 'pd-input'}
         value={choice}
         onChange={(e) => onChange(e.target.value as ThemeChoice)}
       >

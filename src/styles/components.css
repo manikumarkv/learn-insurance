@@ -108,6 +108,10 @@
   background: var(--paper);
   color: var(--ink);
 }
+.pd-input-sm {
+  height: 44px;
+  font-size: 15px;
+}
 .pd-input::placeholder {
   color: var(--ink-faint);
 }

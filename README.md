@@ -24,6 +24,7 @@ pnpm dev          # http://localhost:4321
 | `pnpm test`             | Unit tests (Vitest)                                                               |
 | `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first.                     |
 | `pnpm test:lighthouse`  | Lighthouse budget (90+ performance, accessibility, SEO) on the built site         |
+| `pnpm test:smoke`       | Smoke test. `BASE_URL=https://<domain> pnpm test:smoke` checks a deployed site.   |
 | `pnpm validate:content` | Checks every file in `src/content/` against the term schema                       |
 | `pnpm import:content`   | Creates term and insurance type files from `data/*.csv` (safe to re-run)          |
 

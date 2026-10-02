@@ -36,3 +36,21 @@ test('the header search box goes to the results page', async ({ page }) => {
   ).toHaveValue('premium');
   await expect(page.getByRole('status')).toHaveText(/results for “premium”/);
 });
+
+test('a misspelled search suggests the right term', async ({ page }) => {
+  await page.goto('/search?q=deductable');
+  await expect(page.getByText('Did you mean')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Deductible', exact: true }).first()).toHaveAttribute(
+    'href',
+    '/terms/deductible',
+  );
+});
+
+test('a search with no results offers to request the term', async ({ page }) => {
+  await page.goto('/search?q=zzqxv');
+  await expect(page.getByRole('heading', { name: 'No terms match “zzqxv”' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Request this term' })).toHaveAttribute(
+    'href',
+    '/request?term=zzqxv',
+  );
+});

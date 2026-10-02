@@ -1,6 +1,8 @@
 import { useEffect, useId, useState } from 'react';
 import { Badge } from '../../components/ui/Badge';
-import { loadPagefind, rankHits, toHit, type SearchHit } from './pagefind';
+import type { GlossaryItem } from '../glossary/filter';
+import { isExactMatch, loadPagefind, rankHits, toHit, type SearchHit } from './pagefind';
+import { suggest, type Suggestable } from './suggest';
 
 const MAX_RESULTS = 30;
 
@@ -84,9 +86,12 @@ export function SearchPage() {
 
       {state.status === 'done' && (
         <div className="flex flex-col gap-8">
+          {![...state.terms, ...state.types].some((h) => isExactMatch(h, state.query)) && (
+            <DidYouMean query={state.query} />
+          )}
           {state.terms.length > 0 && <Results title="Terms" hits={state.terms} />}
           {state.types.length > 0 && <Results title="Insurance types" hits={state.types} />}
-          {/* TODO(story 4.3): "Did you mean" suggestions and "Request this term" when nothing matches. */}
+          {total === 0 && <NoResults query={state.query} />}
         </div>
       )}
     </div>
@@ -119,5 +124,65 @@ function Results({ title, hits }: { title: string; hits: SearchHit[] }) {
         ))}
       </ul>
     </section>
+  );
+}
+
+let glossary: Promise<Suggestable[]> | undefined;
+
+/** Term names for "Did you mean", loaded only when a search finds nothing. */
+function loadGlossary(): Promise<Suggestable[]> {
+  glossary ??= fetch('/terms/index.json')
+    .then((r) => (r.ok ? (r.json() as Promise<GlossaryItem[]>) : []))
+    .catch(() => []);
+  return glossary;
+}
+
+/** "Did you mean…" when nothing matches the query exactly. Shows nothing when there's no close term. */
+function DidYouMean({ query }: { query: string }) {
+  const [suggestions, setSuggestions] = useState<Suggestable[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadGlossary().then((items) => {
+      if (!cancelled) setSuggestions(suggest(query, items));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [query]);
+
+  if (suggestions.length === 0) return null;
+  return (
+    <p className="text-body-lg m-0">
+      Did you mean{' '}
+      {suggestions.map((s, i) => (
+        <span key={s.id}>
+          {i > 0 && (i === suggestions.length - 1 ? ' or ' : ', ')}
+          <a href={`/terms/${s.id}`} className="font-bold">
+            {s.title}
+          </a>
+        </span>
+      ))}
+      ?
+    </p>
+  );
+}
+
+function NoResults({ query }: { query: string }) {
+  // TODO(story 6.6): record the missed search for analytics after cookie consent.
+  return (
+    <div className="pd-card flex flex-col gap-4">
+      <h2 className="text-title-md m-0">No terms match “{query}”</h2>
+      <p className="text-body m-0">
+        If it’s an insurance word we haven’t explained yet, ask for it and we’ll add it.
+      </p>
+      {/* TODO(story 8.1): /request creates the term request; until then it shows the request page. */}
+      <a
+        href={`/request?term=${encodeURIComponent(query)}`}
+        className="pd-btn pd-btn-primary self-start"
+      >
+        Request this term
+      </a>
+    </div>
   );
 }

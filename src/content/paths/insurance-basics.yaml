@@ -1,0 +1,216 @@
+title: Insurance basics
+description: 'Start here. The words you meet in almost every policy, in the order you meet them: what
+  insurance is, buying a policy, its life from quote to renewal, reading it, making a claim, the main
+  kinds of insurance, and the money and rules behind it.'
+type: null
+modules:
+- title: What insurance is
+  terms:
+  - insurance
+  - insured
+  - insurer
+  - premium
+  - coverage
+  - deductible
+  - policyholder
+  - limit-of-liability
+  - risk
+  - actual-cash-value
+  - beneficiary
+  - commercial-lines
+  - liability
+  - loss
+  - peril
+  - personal-lines
+  - property-and-casualty
+  - replacement-cost
+  - third-party
+  - casualty-insurance
+  - first-party-coverage
+  - group-insurance
+  - hazard
+  - indemnity
+  - insurable-interest
+  - risk-management
+  - third-party-coverage
+  - utmost-good-faith
+  - risk-pooling
+  - social-insurance
+- title: Core ideas, one step further
+  terms:
+  - aggregate-limit
+  - catastrophe
+  - per-occurrence-limit
+  - captive-insurance-company
+  - contribution
+  - mutual-insurance-company
+  - self-insurance
+  - specialty-insurance
+  - subrogation
+  - alternative-risk-transfer
+  - fraternal-benefit-society
+  - insurable-risk
+  - parametric-trigger
+  - pure-risk
+  - risk-retention
+  - risk-transfer
+  - speculative-risk
+  - stock-insurance-company
+  - proximate-cause
+  - attorney-in-fact
+  - demutualization
+  - finite-risk-insurance
+  - purchasing-group
+  - reciprocal-exchange
+  - risk-retention-group
+- title: Buying a policy
+  terms:
+  - insurance-agent
+  - broker
+  - certificate-of-insurance
+  - commission
+  - loss-history
+  - pre-existing-condition
+  - underwriter
+  - underwriting
+  - exposure
+  - producer
+  - rate
+  - rating-factor
+  - third-party-administrator
+- title: 'A policy''s life: from quote to renewal'
+  terms:
+  - quote
+  - renewal
+  - application
+  - binding
+  - cancellation
+  - effective-date
+  - expiration-date
+  - free-look-period
+  - grace-period
+  - in-force
+  - installment-plan
+  - issuance
+  - lapse
+  - new-business
+  - non-renewal
+  - open-enrollment-period
+  - return-premium
+  - additional-premium
+  - notice-of-cancellation
+  - policy-anniversary
+  - qualifying-life-event
+  - renewal-offer
+  - reinstatement
+  - submission
+  - binder
+  - conditional-renewal
+  - indication
+  - annual-enrollment-period
+  - policy-delivery
+  - premium-audit
+  - pro-rata-cancellation
+  - short-rate-cancellation
+  - special-enrollment-period
+  - auditable-policy
+  - flat-cancellation
+  - mid-term-adjustment
+  - void-policy
+  - rescission
+  - backdating
+  - voidable-policy
+- title: Reading your policy
+  terms:
+  - insurance-policy
+  - exclusion
+  - accident
+  - bodily-injury
+  - bodily-injury-liability
+  - collision-coverage
+  - comprehensive-coverage
+  - conditions
+  - declarations-page
+  - definitions-section
+  - dwelling-coverage
+  - named-insured
+  - personal-property-coverage
+  - policy-period
+  - property-damage
+  - property-damage-liability
+  - schedule
+  - uninsured-motorist-coverage
+  - waiting-period
+  - additional-insured
+  - damages
+  - form
+  - negligence
+  - occurrence
+  - sublimit
+- title: Making a claim
+  terms:
+  - claim
+  - appeal
+  - claim-denial
+  - claim-settlement
+  - claimant
+  - claims-adjuster
+  - depreciation
+  - estimate
+  - explanation-of-benefits
+  - first-notice-of-loss
+  - notice-of-loss
+  - total-loss
+- title: Kinds of insurance
+  terms:
+  - annuity
+  - business-owners-policy
+  - cash-value
+  - coinsurance-health
+  - commercial-auto-insurance
+  - commercial-general-liability
+  - commercial-property-insurance
+  - copayment
+  - death-benefit
+  - flood-insurance
+  - formulary
+  - general-liability-insurance
+  - health-insurance
+  - health-maintenance-organization
+  - ho-4
+  - homeowners-insurance
+  - in-network
+  - life-insurance
+  - medicaid
+  - medicare
+  - out-of-network
+  - out-of-pocket-maximum
+  - personal-auto-policy
+  - preferred-provider-organization
+  - provider-network
+  - term-life-insurance
+  - umbrella-insurance
+  - whole-life-insurance
+  - workers-compensation-insurance
+  - cyber-insurance
+  - errors-and-omissions-insurance
+  - ho-3
+  - prior-authorization
+  - professional-liability-insurance
+- title: Money, rules and the bigger picture
+  terms:
+  - affordable-care-act
+  - claim-number
+  - combined-ratio
+  - insurance-id-card
+  - line-of-business
+  - policy-number
+  - policy-status
+  - reinsurance
+  - state-department-of-insurance
+  - consolidated-omnibus-budget-reconciliation-act
+  - earned-premium
+  - health-insurance-portability-and-accountability-act
+  - policy-administration-system
+  - reserves
+  - written-premium

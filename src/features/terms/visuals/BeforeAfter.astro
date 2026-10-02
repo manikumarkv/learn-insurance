@@ -1,0 +1,18 @@
+---
+import type { Diagram } from '../../../content/schema/term';
+import { Icon } from '../../../components/ui/Icon';
+import Box from './Box.astro';
+
+type Props = Extract<Diagram, { discriminant: 'before-after' }>['value'];
+const { before, change, after } = Astro.props;
+---
+
+<div class="flex flex-col items-stretch gap-3 sm:flex-row sm:items-center">
+  <Box label={before.label} lines={before.lines} />
+  <div class="flex flex-row items-center justify-center gap-2 sm:flex-col">
+    <span class="pd-badge pd-badge-solid">{change}</span>
+    <Icon name="arrow-right" className="hidden sm:inline-block" />
+    <Icon name="chevron-down" className="sm:hidden" />
+  </div>
+  <Box label={after.label} lines={after.lines} emphasis />
+</div>

@@ -1,0 +1,18 @@
+---
+interface Props {
+  label: string;
+  lines: string[];
+  emphasis?: boolean;
+}
+
+const { label, lines, emphasis = false } = Astro.props;
+---
+
+<div class:list={['border-ink flex-1 rounded-md p-4', emphasis ? 'border-3' : 'border-2']}>
+  <p class="text-label m-0">{label}</p>
+  <ul class="m-0 mt-2 flex list-none flex-col gap-1 p-0">
+    {lines.map((line) => (
+      <li class="text-body">{line}</li>
+    ))}
+  </ul>
+</div>

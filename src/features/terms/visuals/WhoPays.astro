@@ -1,0 +1,34 @@
+---
+import type { Diagram } from '../../../content/schema/term';
+import { formatMoney, PAID_BY_LABEL } from './describe';
+
+type Props = Extract<Diagram, { discriminant: 'who-pays' }>['value'];
+const { total, parts } = Astro.props;
+---
+
+<div class="flex flex-col gap-3">
+  <p class="text-label m-0">Total {formatMoney(total)}</p>
+  <div class="border-ink flex h-10 overflow-hidden rounded-md border-2">
+    {parts.map((p, i) => (
+      <div
+        class:list={[`pd-fill-${p.paidBy}`, i > 0 && 'border-ink border-l-2']}
+        style={`flex: ${p.amount} 1 0%`}
+      />
+    ))}
+  </div>
+  <ul class="m-0 flex list-none flex-col gap-1 p-0 sm:flex-row sm:gap-6">
+    {parts.map((p) => (
+      <li class="flex items-center gap-2">
+        <span class={`pd-swatch pd-fill-${p.paidBy}`} />
+        <span>
+          <span class="text-label">{formatMoney(p.amount)}</span>
+          <span class="text-body-sm text-ink-muted">
+            {' '}
+            · {p.label}
+            {!/\bpays?\b/i.test(p.label) && ` (${PAID_BY_LABEL[p.paidBy].toLowerCase()})`}
+          </span>
+        </span>
+      </li>
+    ))}
+  </ul>
+</div>

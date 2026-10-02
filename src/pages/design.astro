@@ -1,5 +1,68 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+import type { Diagram } from '../content/schema/term';
+import TermVisual from '../features/terms/visuals/TermVisual.astro';
+
+const diagrams: { caption: string; diagram: Diagram }[] = [
+  {
+    caption: 'A $5,000 claim with a $1,000 deductible.',
+    diagram: {
+      discriminant: 'who-pays',
+      value: {
+        total: 5000,
+        parts: [
+          { label: 'Your deductible', amount: 1000, paidBy: 'you' },
+          { label: 'Insurer pays', amount: 4000, paidBy: 'insurer' },
+        ],
+      },
+    },
+  },
+  {
+    caption: 'A 90-day waiting period before disability benefits start.',
+    diagram: {
+      discriminant: 'timeline',
+      value: {
+        start: 'Day 1: you become disabled',
+        end: 'Day 365',
+        segments: [
+          { label: 'Waiting period (90 days)', share: 25, paidBy: 'you' },
+          { label: 'Benefits paid', share: 75, paidBy: 'insurer' },
+        ],
+      },
+    },
+  },
+  {
+    caption: 'Same policy, updated. No new policy is bought.',
+    diagram: {
+      discriminant: 'before-after',
+      value: {
+        before: { label: 'Policy · Jan 1', lines: ['$100/month', 'Old address', 'Liability only'] },
+        change: 'Endorsement',
+        after: {
+          label: 'Policy · Jan 20',
+          lines: ['$120/month', 'New address', 'Liability + collision'],
+        },
+      },
+    },
+  },
+  {
+    caption: 'Who the coverage protects.',
+    diagram: {
+      discriminant: 'split',
+      value: {
+        left: { label: 'First-party', lines: ['Covers you', 'Your car, your home'] },
+        right: {
+          label: 'Third-party',
+          lines: ['Covers others you harm', 'Their injuries, their property'],
+        },
+      },
+    },
+  },
+  {
+    caption: 'Underwriting happens before the policy is bound.',
+    diagram: { discriminant: 'flow', value: { highlight: ['Underwriting'] } },
+  },
+];
 import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '../components/ui';
 ---
 
@@ -72,6 +135,17 @@ import { Badge, Button, Card, Checkbox, Icon, ICON_NAMES, Input, Switch } from '
           <Button variant="primary">Read more</Button>
         </Fragment>
       </Card>
+    </section>
+
+    <section aria-labelledby="diagrams" class="flex flex-col gap-6">
+      <h2 id="diagrams" class="text-title-lg m-0">
+        Diagrams
+      </h2>
+      {diagrams.map((d) => (
+        <div class="pd-card">
+          <TermVisual diagram={d.diagram} caption={d.caption} />
+        </div>
+      ))}
     </section>
 
     <section aria-labelledby="icons" class="flex flex-col gap-3">

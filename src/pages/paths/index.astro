@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import { Icon } from '../../components/ui/Icon';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const paths = await getCollection('paths');
+const typeNames = new Map((await getCollection('types')).map((t) => [t.id, t.data.name]));
+const termCount = (p: (typeof paths)[number]) =>
+  p.data.modules.reduce((n, m) => n + m.terms.length, 0);
+const allTerms = (p: (typeof paths)[number]) => p.data.modules.flatMap((m) => m.terms);
+
+// Insurance basics (no type) first, then one path per insurance type, A–Z.
+const basics = paths.filter((p) => !p.data.type);
+const byType = paths
+  .filter((p) => p.data.type)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<SiteLayout
+  title="Learning paths · LearnInsurance"
+  description="Learn US insurance step by step: start with Insurance basics, then follow a path for each insurance type."
+>
+  <div class="flex flex-col gap-10">
+    <header class="flex flex-col gap-2">
+      <h1 class="text-headline m-0">Learning paths</h1>
+      <p class="text-body text-ink-muted m-0 max-w-2xl">
+        Learn one term at a time, in a sensible order. Progress counts terms you answer correctly.
+      </p>
+    </header>
+
+    {[
+      { heading: 'Start here', list: basics },
+      { heading: 'By insurance type', list: byType },
+    ]
+      .filter((g) => g.list.length > 0)
+      .map((g) => (
+        <section aria-labelledby={`group-${g.heading}`} class="flex flex-col gap-4">
+          <h2 id={`group-${g.heading}`} class="text-title-lg m-0">
+            {g.heading}
+          </h2>
+          <ul class="m-0 grid list-none gap-4 p-0 md:grid-cols-2">
+            {g.list.map((p) => (
+              <li
+                class="ui-card flex flex-col gap-3"
+                data-path-card
+                data-terms={JSON.stringify(allTerms(p))}
+              >
+                <div class="flex flex-col gap-1">
+                  <h3 class="text-title-md m-0">
+                    <a href={`/paths/${p.id}`}>{p.data.title}</a>
+                  </h3>
+                  {p.data.type && (
+                    <span class="text-label-sm text-ink-muted">
+                      {typeNames.get(p.data.type) ?? p.data.type}
+                    </span>
+                  )}
+                </div>
+                {p.data.description && <p class="text-body-sm m-0">{p.data.description}</p>}
+                <div class="mt-auto flex flex-wrap items-center justify-between gap-3">
+                  <span class="text-label-sm text-ink-muted flex items-center gap-1">
+                    <span data-status-icon hidden>
+                      <Icon name="check" size={16} />
+                    </span>
+                    <span data-status>
+                      {termCount(p)} terms · {p.data.modules.length} modules
+                    </span>
+                  </span>
+                  <a href={`/paths/${p.id}`} class="ui-btn ui-btn-primary ui-btn-sm">
+                    <span data-action>Start</span>
+                    <span class="sr-only"> {p.data.title}</span>
+                  </a>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    {byType.length === 0 && (
+      <p class="text-body-sm text-ink-muted m-0">
+        Paths for each insurance type are being written. Start with Insurance basics.
+      </p>
+    )}
+  </div>
+</SiteLayout>
+
+<script>
+  import { showPathProgress } from '../../features/paths/progress-ui';
+
+  void showPathProgress();
+</script>

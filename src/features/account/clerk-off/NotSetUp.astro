@@ -1,0 +1,12 @@
+---
+// Stand-in for Clerk's sign-in, sign-up and profile forms when Clerk isn't configured.
+import { Icon } from '../../../components/ui/Icon';
+---
+
+<p class="ui-callout text-body m-0 flex max-w-md items-start gap-3">
+  <Icon name="info" />
+  <span>
+    Sign-in isn't set up on this copy of the site. Add the Clerk keys from <code>.env.example</code>
+    to turn it on.
+  </span>
+</p>

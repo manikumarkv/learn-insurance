@@ -1,0 +1,20 @@
+---
+import { SignUp } from '@clerk/astro/components';
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="Create an account · LearnInsurance"
+  description="Create a free account to save your progress across devices."
+  noindex
+>
+  <div class="flex flex-col items-center gap-6">
+    <div class="flex max-w-md flex-col gap-2 text-center">
+      <h1 class="text-headline m-0">Create an account</h1>
+      <p class="text-body text-ink-muted m-0">
+        Free. Sign up with Google or your email to save your progress.
+      </p>
+    </div>
+    <SignUp routing="hash" signInUrl="/sign-in" />
+  </div>
+</SiteLayout>

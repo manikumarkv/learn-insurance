@@ -1,0 +1,22 @@
+---
+import { SignIn } from '@clerk/astro/components';
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="Sign in · LearnInsurance"
+  description="Sign in to save your progress across devices."
+  noindex
+>
+  <div class="flex flex-col items-center gap-6">
+    <div class="flex max-w-md flex-col gap-2 text-center">
+      <h1 class="text-headline m-0">Sign in</h1>
+      <p class="text-body text-ink-muted m-0">
+        Save your quiz answers and progress, and pick up on any device. You can keep learning
+        without an account.
+      </p>
+    </div>
+    <!-- Hash routing keeps this a static page; after sign-in Clerk returns to redirect_url. -->
+    <SignIn routing="hash" signUpUrl="/sign-up" />
+  </div>
+</SiteLayout>

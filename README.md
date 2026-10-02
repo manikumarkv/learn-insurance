@@ -13,20 +13,20 @@ pnpm dev          # http://localhost:4321
 
 ## Scripts
 
-| Script                  | What it does                                                                      |
-| ----------------------- | --------------------------------------------------------------------------------- |
-| `pnpm dev`              | Start the dev server                                                              |
-| `pnpm build`            | Build the site into `dist/` and `.vercel/output/`, then the Pagefind search index |
-| `pnpm preview`          | Serve the built site                                                              |
-| `pnpm lint`             | ESLint, then a Prettier check                                                     |
-| `pnpm format`           | Format all files with Prettier                                                    |
-| `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)                       |
-| `pnpm test`             | Unit tests (Vitest)                                                               |
-| `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first.                     |
-| `pnpm test:lighthouse`  | Lighthouse budget (90+ performance, accessibility, SEO) on the built site         |
-| `pnpm test:smoke`       | Smoke test. `BASE_URL=https://<domain> pnpm test:smoke` checks a deployed site.   |
-| `pnpm validate:content` | Checks every file in `src/content/` against the term schema                       |
-| `pnpm import:content`   | Creates term and insurance type files from `data/*.csv` (safe to re-run)          |
+| Script                  | What it does                                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| `pnpm dev`              | Start the dev server                                                                                    |
+| `pnpm build`            | Build the site into `dist/` and `.vercel/output/`, then the Pagefind search index                       |
+| `pnpm preview`          | Serve the built static site (`dist/client/`). Pages rendered on request (e.g. /account) need `pnpm dev` |
+| `pnpm lint`             | ESLint, then a Prettier check                                                                           |
+| `pnpm format`           | Format all files with Prettier                                                                          |
+| `pnpm typecheck`        | Type-check `.ts`, `.tsx` and `.astro` files (`astro check`)                                             |
+| `pnpm test`             | Unit tests (Vitest)                                                                                     |
+| `pnpm test:e2e`         | Browser tests (Playwright). Builds and serves the site first.                                           |
+| `pnpm test:lighthouse`  | Lighthouse budget (90+ performance, accessibility, SEO) on the built site                               |
+| `pnpm test:smoke`       | Smoke test. `BASE_URL=https://<domain> pnpm test:smoke` checks a deployed site.                         |
+| `pnpm validate:content` | Checks every file in `src/content/` against the term schema                                             |
+| `pnpm import:content`   | Creates term and insurance type files from `data/*.csv` (safe to re-run)                                |
 
 First time running browser tests: `pnpm exec playwright install chromium`. To use a Chromium that's already installed, set `PLAYWRIGHT_CHROMIUM_PATH` to its path.
 
@@ -47,6 +47,13 @@ The UI uses **Clear Blue**: white pages, one confident blue, soft cards with a l
 - Components: `src/components/ui/` (Button, Badge, Card, Input, Checkbox, Switch, Icon). Styles are in `src/styles/components.css` with the `ui-` prefix (`ui-btn`, `ui-card`, `ui-callout`, `ui-badge`, …).
 - Themes: light, dark, high contrast light and dark. They follow the device by default, and the theme picker (`ThemeToggle`) remembers a choice on the device.
 - See every component at `/design` (not indexed by search engines).
+
+## Sign-in (Clerk)
+
+- Clerk handles sign-up and sign-in (Google or email). Keys: `PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` (in Vercel, or in `.env` locally).
+- Pages: `/sign-in`, `/sign-up` (static) and `/account` (rendered on request, signed-in only). The header shows "Sign in", or the account menu once signed in.
+- Protected pages are listed in `src/middleware.ts`. A signed-out visitor goes to `/sign-in` and comes back after signing in.
+- Without the publishable key (CI, a fresh clone), the build uses stand-ins from `src/features/account/clerk-off/`: everything else works and the sign-in page says sign-in isn't set up.
 
 ## Search
 

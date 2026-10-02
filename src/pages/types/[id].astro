@@ -66,18 +66,23 @@ const description = truncate(quickAnswer, 160);
 
   <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
     <article class="flex min-w-0 flex-col gap-10">
-      <header class="flex flex-col gap-3">
+      <header
+        class="flex flex-col gap-3"
+        data-pagefind-body
+        data-pagefind-filter="kind:Insurance type"
+        data-pagefind-meta="kind:Insurance type"
+      >
         <h1 class="text-headline m-0">{t.name}</h1>
         {t.alsoKnownAs && (
           <p class="text-body-sm text-ink-muted m-0">Also known as: {t.alsoKnownAs}</p>
         )}
-        <div class="flex flex-wrap gap-2">
+        <div class="flex flex-wrap gap-2" data-pagefind-ignore>
           <Badge>{t.segment === 'Both' ? 'Personal and commercial' : t.segment}</Badge>
           {children.length > 0 && <Badge tone="muted">{children.length} sub-types</Badge>}
         </div>
       </header>
 
-      <section aria-labelledby="quick-answer" class="pd-card">
+      <section aria-labelledby="quick-answer" class="pd-card" data-pagefind-body>
         <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
           Quick answer
         </h2>

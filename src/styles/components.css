@@ -283,3 +283,10 @@
   border: var(--border-thick) solid var(--ink);
   border-radius: var(--radius-md);
 }
+
+/* Search excerpts: matched words in bold, no colour. */
+mark {
+  background: none;
+  color: inherit;
+  font-weight: 700;
+}

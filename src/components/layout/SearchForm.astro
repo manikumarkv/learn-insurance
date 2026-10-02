@@ -12,7 +12,6 @@ interface Props {
 const { id, placeholder = 'Search terms', showLabel = false } = Astro.props;
 ---
 
-<!-- TODO(story 4.2): /search shows results. Until then the form submits to a page that doesn't exist yet. -->
 <form action="/search" method="get" role="search" class="flex items-end gap-2">
   <div class="pd-field min-w-0 flex-1">
     <label for={id} class={showLabel ? 'pd-label' : 'sr-only'}>

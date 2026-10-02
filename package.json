@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build --force",
+    "build": "astro build --force && tsx scripts/index-search.ts",
     "preview": "astro preview",
     "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
@@ -46,6 +46,7 @@
     "eslint-plugin-astro": "^3.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.13.0",
+    "pagefind": "^1.5.2",
     "prettier": "^3.9.9",
     "prettier-plugin-astro": "^1.1.0",
     "prettier-plugin-tailwindcss": "^0.8.1",

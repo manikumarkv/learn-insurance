@@ -10,7 +10,7 @@ import { loadRedirects } from './src/content/redirects.ts';
 import { termLastModified } from './src/content/lastModified.ts';
 
 // Pages kept out of search engines (they also have a noindex meta tag).
-const NOT_IN_SITEMAP = ['/search', '/design', '/404', '/sign-in', '/sign-up', '/account'];
+const NOT_IN_SITEMAP = ['/search', '/design', '/404', '/sign-in', '/sign-up', '/account', '/403'];
 const lastModified = termLastModified();
 
 // Keystatic saves to local files (default) or, with KEYSTATIC_STORAGE=github, commits to GitHub.

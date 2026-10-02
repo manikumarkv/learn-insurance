@@ -5,7 +5,11 @@
 import type { APIContext, MiddlewareNext } from 'astro';
 
 type Auth = { userId: null; redirectToSignIn: () => Response };
-type Handler = (auth: () => Auth, context: APIContext) => Response | undefined;
+type Handler = (
+  auth: () => Auth,
+  context: APIContext,
+  next: MiddlewareNext,
+) => Response | undefined | Promise<Response>;
 
 export function clerkMiddleware(handler: Handler) {
   return (context: APIContext, next: MiddlewareNext) => {
@@ -17,11 +21,16 @@ export function clerkMiddleware(handler: Handler) {
         return context.redirect(url.pathname + url.search);
       },
     });
-    return handler(auth, context) ?? next();
+    return handler(auth, context, next) ?? next();
   };
 }
 
-/** Without Clerk nobody is signed in, so account endpoints never get this far. */
+/** Without Clerk nobody is signed in, so account and admin checks never get this far. */
 export function clerkClient() {
-  return { users: { deleteUser: async () => {} } };
+  return {
+    users: {
+      deleteUser: async () => {},
+      getUser: async () => ({ publicMetadata: {} as Record<string, unknown> }),
+    },
+  };
 }

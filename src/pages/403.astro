@@ -1,0 +1,19 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+// Shown by src/middleware.ts when a signed-in person who isn't an admin opens /admin.
+export const prerender = false;
+Astro.response.status = 403;
+---
+
+<SiteLayout title="No access · LearnInsurance" description="This page is for admins only." noindex>
+  <div class="flex max-w-xl flex-col gap-4">
+    <h1 class="text-headline m-0">You don't have access to this page</h1>
+    <p class="text-body-lg m-0">
+      It's for site admins only. You're signed in with an account that isn't an admin.
+    </p>
+    <a href="/" class="ui-btn ui-btn-primary self-start">
+      Go to the home page
+    </a>
+  </div>
+</SiteLayout>

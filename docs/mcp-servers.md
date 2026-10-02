@@ -40,7 +40,7 @@ Sizes are XS–XL, as in the product plan.
 
 | Server | Covers | Maker | In `.mcp.json` |
 |---|---|---|---|
-| GitHub MCP | publish, request issues | GitHub (official) | Yes |
+| GitHub MCP | publish, request issues | GitHub (official) | Yes, as `github-agents` (named so it does not replace a Claude session's own `github` connection) |
 | Neon MCP | request and progress status | Neon (official) | Yes (needs authorization via `/mcp`) |
 | PostHog MCP | analytics | PostHog (official) | Not yet |
 | Vercel MCP | deploy status and logs | Vercel (official) | Not yet |

@@ -85,7 +85,7 @@ Admin-only screen (Clerk role `admin`) with everything that needs a human look:
 | Search | Pagefind |
 | Hosting | Vercel |
 | Auth | Clerk |
-| Database | **Neon Postgres**: learning progress, quiz results, term requests and reports status |
+| Database | **Neon Postgres** with **Drizzle** (schema and migrations): learning progress, quiz results, term requests and reports status. Stores only the Clerk user ID. |
 | Analytics | PostHog + Google Search Console |
 | Automation | GitHub Issues + GitHub Actions running Claude agents (`.claude/agents/term-writer.md`, `term-reviewer.md`) |
 | Coding standards | devrunway Claude Code plugin, project scope (`.claude/settings.json`, `stack.json`). Policy: no direct commits to `main`. |

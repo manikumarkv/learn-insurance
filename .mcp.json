@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "github": {
+    "github-agents": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {

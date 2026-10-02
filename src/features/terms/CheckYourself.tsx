@@ -1,6 +1,7 @@
 import { useId, useState } from 'react';
 import { Button } from '../../components/ui/Button';
 import { Icon } from '../../components/ui/Icon';
+import { track } from '../../lib/analytics';
 import { pickRandom } from './pickQuestions';
 
 export interface QuizQuestion {
@@ -14,13 +15,15 @@ interface Props {
   questions: QuizQuestion[];
   /** How many questions to show from the pool. */
   count?: number;
+  /** For analytics: which term the questions belong to. */
+  termId?: string;
 }
 
 /**
  * "Check yourself": shows `count` random questions from the term's pool, one at a time.
  * Picks at random in the browser, so render it with client:only="react".
  */
-export function CheckYourself({ questions, count = 3 }: Props) {
+export function CheckYourself({ questions, count = 3, termId }: Props) {
   const [picked] = useState(() => pickRandom(questions, count));
   const [index, setIndex] = useState(0);
   const [choice, setChoice] = useState<number | null>(null);
@@ -50,6 +53,7 @@ export function CheckYourself({ questions, count = 3 }: Props) {
     if (choice === null) return;
     setChecked(true);
     if (choice === q?.answer) setCorrect((c) => c + 1);
+    track('answer', { term_id: termId ?? '', correct: choice === q?.answer });
   }
 
   function next() {

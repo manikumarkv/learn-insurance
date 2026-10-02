@@ -27,7 +27,21 @@ const { wide = false } = Astro.props;
 </div>
 
 <script>
-  import { $authStore } from '@clerk/astro/client';
+  import { $authStore, $userStore } from '@clerk/astro/client';
+  import { track } from '../../lib/analytics';
+
+  // Sign-up event: a user created in the last 5 minutes, sent once per device (story 6.6).
+  $userStore.subscribe((user) => {
+    if (!user?.createdAt || Date.now() - user.createdAt.getTime() > 5 * 60_000) return;
+    const key = `signup-tracked:${user.id}`;
+    try {
+      if (localStorage.getItem(key)) return;
+      localStorage.setItem(key, '1');
+    } catch {
+      return;
+    }
+    track('sign_up');
+  });
 
   $authStore.subscribe(({ userId }) => {
     for (const link of document.querySelectorAll<HTMLElement>('[data-signed-out]')) {

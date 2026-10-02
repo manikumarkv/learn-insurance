@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react';
 import { Badge } from '../../components/ui/Badge';
 import type { GlossaryItem } from '../glossary/filter';
+import { track } from '../../lib/analytics';
 import { isExactMatch, loadPagefind, rankHits, toHit, type SearchHit } from './pagefind';
 import { suggest, type Suggestable } from './suggest';
 
@@ -44,7 +45,8 @@ export function SearchPage() {
           terms: hits.filter((h) => h.kind === 'Term'),
           types: hits.filter((h) => h.kind === 'Insurance type'),
         });
-        // TODO(story 6.6): send a search event to analytics after cookie consent.
+        track('search', { query: q, results: hits.length });
+        if (hits.length === 0) track('search_missed', { query: q });
       } catch {
         if (!cancelled) setState({ status: 'unavailable' });
       }

@@ -63,7 +63,11 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
   </nav>
 
   <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
-    <article class="flex min-w-0 flex-col gap-10" data-content-status={t.contentStatus}>
+    <article
+      class="flex min-w-0 flex-col gap-10"
+      data-content-status={t.contentStatus}
+      data-term-id={entry.id}
+    >
       <!-- Search indexes the name, abbreviation, other names and quick answer (or definition). -->
       <header
         class="flex flex-col gap-3"
@@ -165,7 +169,7 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
       {full && t.questions.length > 0 && (
         <Section title="Check yourself" id="check-yourself">
           <div class="ui-card">
-            <CheckYourself client:only="react" questions={t.questions} />
+            <CheckYourself client:only="react" questions={t.questions} termId={entry.id} />
           </div>
         </Section>
       )}
@@ -251,4 +255,8 @@ const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string
 
 <script>
   import '../../features/terms/term-preview';
+  import { track } from '../../lib/analytics';
+
+  const termId = document.querySelector<HTMLElement>('[data-term-id]')?.dataset.termId;
+  if (termId) track('term_view', { term_id: termId });
 </script>

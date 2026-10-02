@@ -34,3 +34,9 @@ const { title, description, noindex, ogType, jsonLd } = Astro.props;
   </div>
   <CookieBanner client:only="react" />
 </BaseLayout>
+
+<script>
+  import { startAnalytics } from '../lib/analytics';
+
+  startAnalytics();
+</script>

@@ -1,0 +1,212 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Badge } from '../../components/ui/Badge';
+import { Icon } from '../../components/ui/Icon';
+import { displayTitle, truncate } from '../../features/terms/display';
+import Disclaimer from '../../features/terms/Disclaimer.astro';
+import Section from '../../features/terms/Section.astro';
+import { ancestorsOf, rootOf } from '../../features/types/tree';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+export async function getStaticPaths() {
+  const types = await getCollection('types');
+  return types.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<'types'>;
+}
+
+const { entry } = Astro.props;
+const t = entry.data;
+
+const types = await getCollection('types');
+const byId = new Map(types.map((x) => [x.id, x.data]));
+const name = (id: string) => byId.get(id)?.name ?? id;
+const ancestors = ancestorsOf(entry.id, byId);
+const children = types
+  .filter((x) => x.data.parent === entry.id)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name, 'en'));
+const siblings = types
+  .filter((x) => x.id !== entry.id && (x.data.parent ?? null) === (t.parent ?? null))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name, 'en'))
+  .slice(0, 6);
+
+// Key terms: terms tagged with this type's line, most used first.
+const root = rootOf(entry.id);
+const usageRank = { High: 0, Medium: 1, Low: 2 } as const;
+const terms = (await getCollection('terms'))
+  .filter((x) => (x.data.lines as string[]).includes(root))
+  .sort(
+    (a, b) =>
+      usageRank[a.data.usageFrequency] - usageRank[b.data.usageFrequency] ||
+      a.data.term.localeCompare(b.data.term, 'en'),
+  );
+const keyTerms = terms.slice(0, 12);
+
+const paths = await getCollection('paths');
+const path = paths.find((p) => p.data.type === entry.id) ?? paths.find((p) => p.data.type === root);
+
+const quickAnswer = t.quickAnswer ?? t.description;
+const description = truncate(quickAnswer, 160);
+---
+
+<SiteLayout title={`${t.name}: What It Covers · LearnInsurance`} description={description}>
+  <nav aria-label="Breadcrumb" class="text-body-sm text-ink-muted mb-4">
+    <a href="/types">Insurance types</a>
+    {ancestors.map((id) => (
+      <span>
+        {' / '}
+        <a href={`/types/${id}`}>{name(id)}</a>
+      </span>
+    ))}
+    <span> / </span>
+    <span aria-current="page">{t.name}</span>
+  </nav>
+
+  <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
+    <article class="flex min-w-0 flex-col gap-10">
+      <header class="flex flex-col gap-3">
+        <h1 class="text-headline m-0">{t.name}</h1>
+        {t.alsoKnownAs && (
+          <p class="text-body-sm text-ink-muted m-0">Also known as: {t.alsoKnownAs}</p>
+        )}
+        <div class="flex flex-wrap gap-2">
+          <Badge>{t.segment === 'Both' ? 'Personal and commercial' : t.segment}</Badge>
+          {children.length > 0 && <Badge tone="muted">{children.length} sub-types</Badge>}
+        </div>
+      </header>
+
+      <section aria-labelledby="quick-answer" class="pd-card">
+        <h2 id="quick-answer" class="text-title-sm m-0 mb-2">
+          Quick answer
+        </h2>
+        <p class="text-body-lg m-0">{quickAnswer}</p>
+      </section>
+
+      <Section title="Where it sits" id="where-it-sits">
+        <figure class="m-0 flex flex-col gap-2">
+          <ol
+            class="m-0 flex list-none flex-wrap items-center gap-2 p-0"
+            aria-label="Path in the insurance types tree"
+          >
+            {ancestors.map((id) => (
+              <li class="flex items-center gap-2">
+                <a href={`/types/${id}`} class="pd-badge pd-badge-muted no-underline">
+                  {name(id)}
+                </a>
+                <Icon name="chevron-right" size={16} />
+              </li>
+            ))}
+            <li>
+              <span class="pd-badge pd-badge-solid" aria-current="page">
+                {t.name}
+              </span>
+            </li>
+          </ol>
+          {children.length > 0 && (
+            <p class="text-body-sm text-ink-muted m-0">
+              Below it: {children.map((c) => c.data.name).join(', ')}.
+            </p>
+          )}
+        </figure>
+      </Section>
+
+      {t.quickAnswer && (
+        <Section title="In plain English" id="description">
+          <p class="text-body-lg m-0">{t.description}</p>
+        </Section>
+      )}
+
+      {t.example && (
+        <Section title="Example" id="example">
+          <p class="text-body-lg m-0">{t.example}</p>
+        </Section>
+      )}
+
+      {children.length > 0 && (
+        <Section title="Sub-types" id="sub-types">
+          <ul class="m-0 grid list-none gap-3 p-0 sm:grid-cols-2">
+            {children.map((c) => (
+              <li class="border-ink rounded-md border-2 p-4">
+                <a href={`/types/${c.id}`} class="text-title-sm">
+                  {c.data.name}
+                </a>
+                <p class="text-body-sm mt-1 mb-0">{truncate(c.data.description, 140)}</p>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+
+      {keyTerms.length > 0 && (
+        <Section title="Key terms" id="key-terms">
+          <p class="text-body-sm text-ink-muted m-0">Most used first.</p>
+          <ul class="m-0 flex list-none flex-wrap gap-2 p-0">
+            {keyTerms.map((k) => (
+              <li>
+                <a href={`/terms/${k.id}`} class="pd-btn pd-btn-secondary pd-btn-sm">
+                  {displayTitle(k.data)}
+                </a>
+              </li>
+            ))}
+          </ul>
+          {terms.length > keyTerms.length && (
+            <a href={`/terms?type=${root}&sort=most-used`}>
+              See all {terms.length} terms for {name(root)}
+            </a>
+          )}
+        </Section>
+      )}
+
+      {t.faqs.length > 0 && (
+        <Section title="Frequently asked questions" id="faqs">
+          <div class="flex flex-col gap-2">
+            {t.faqs.map((f, i) => (
+              <details class="border-ink rounded-md border-2 px-4 py-3" open={i === 0}>
+                <summary class="text-label-lg cursor-pointer">{f.question}</summary>
+                <p class="text-body mt-2 mb-0">{f.answer}</p>
+              </details>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {t.usNotes && (
+        <Section title="US notes" id="us-notes">
+          <p class="text-body m-0">{t.usNotes}</p>
+        </Section>
+      )}
+
+      <Disclaimer />
+    </article>
+
+    <aside class="flex flex-col gap-6" aria-label="More">
+      <div class="pd-card flex flex-col gap-2">
+        <h2 class="text-title-sm m-0">Learning path</h2>
+        {path ? (
+          <a href={`/paths/${path.id}`} class="pd-btn pd-btn-primary pd-btn-sm self-start">
+            Start: {path.data.title}
+          </a>
+        ) : (
+          <p class="text-body-sm m-0">A learning path for {name(root)} is coming soon.</p>
+        )}
+      </div>
+
+      {siblings.length > 0 && (
+        <nav class="pd-card flex flex-col gap-3" aria-labelledby="related-types">
+          <h2 id="related-types" class="text-title-sm m-0">
+            Related types
+          </h2>
+          <ul class="m-0 flex list-none flex-col gap-2 p-0">
+            {siblings.map((s) => (
+              <li>
+                <a href={`/types/${s.id}`}>{s.data.name}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+    </aside>
+  </div>
+</SiteLayout>

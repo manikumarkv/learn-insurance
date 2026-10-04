@@ -2,7 +2,8 @@ import { useId, useState } from 'react';
 import { Button } from '../../components/ui/Button';
 import { Icon } from '../../components/ui/Icon';
 import { track } from '../../lib/analytics';
-import { pickRandom } from './pickQuestions';
+import { recordAnswer } from '../learning/answers';
+import { pickFresh, recentQuestions, rememberShown } from './pickQuestions';
 
 export interface QuizQuestion {
   question: string;
@@ -15,16 +16,25 @@ interface Props {
   questions: QuizQuestion[];
   /** How many questions to show from the pool. */
   count?: number;
-  /** For analytics: which term the questions belong to. */
+  /** The term the questions belong to. Answers are saved to progress only when it's set. */
   termId?: string;
 }
 
 /**
- * "Check yourself": shows `count` random questions from the term's pool, one at a time.
- * Picks at random in the browser, so render it with client:only="react".
+ * "Check yourself" (story 7.3): shows `count` random questions from the term's pool, one at a
+ * time, skipping ones seen recently on this device. Each answer is saved to the account when
+ * signed in, otherwise on this device. Uses localStorage, so render it with client:only="react".
  */
 export function CheckYourself({ questions, count = 3, termId }: Props) {
-  const [picked] = useState(() => pickRandom(questions, count));
+  const [picked] = useState(() => {
+    const recent = termId ? recentQuestions(termId) : new Set<number>();
+    const positions = pickFresh(questions.length, count, recent);
+    if (termId) rememberShown(termId, positions, questions.length, count);
+    return positions.flatMap((i) => {
+      const question = questions[i];
+      return question ? [{ ...question, position: i }] : [];
+    });
+  });
   const [index, setIndex] = useState(0);
   const [choice, setChoice] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
@@ -54,6 +64,14 @@ export function CheckYourself({ questions, count = 3, termId }: Props) {
     setChecked(true);
     if (choice === q?.answer) setCorrect((c) => c + 1);
     track('answer', { term_id: termId ?? '', correct: choice === q?.answer });
+    if (termId && q) {
+      void recordAnswer({
+        termId,
+        questionIndex: q.position,
+        chosenIndex: choice,
+        isCorrect: choice === q.answer,
+      });
+    }
   }
 
   function next() {

@@ -2,8 +2,9 @@
  * Fills in progress on the static paths pages once we know what the person has learned.
  *  - [data-path-card][data-terms]  → status text and button label on the paths list
  *  - [data-path-detail][data-modules] → percent, counts, Continue link, per-module and per-term marks
+ *  - [data-learn-card][data-terms] → "N answered correctly · P%" on a learn card
  */
-import { getLearnedTermIds, pathProgress } from './progress';
+import { getLearnedTermIds, learnUrl, pathProgress } from './progress';
 
 const json = <T>(value: string | undefined, fallback: T): T => {
   try {
@@ -31,6 +32,12 @@ export async function showPathProgress(): Promise<void> {
     setText(card, '[data-action]', done ? 'Review' : 'Continue');
   }
 
+  const card = document.querySelector<HTMLElement>('[data-learn-card]');
+  if (card) {
+    const p = pathProgress([{ terms: json<string[]>(card.dataset.terms, []) }], learned);
+    setText(card, '[data-learn-progress]', ` · ${p.done} answered correctly · ${p.percent}%`);
+  }
+
   const detail = document.querySelector<HTMLElement>('[data-path-detail]');
   if (!detail) return;
   const modules = json<{ terms: string[] }[]>(detail.dataset.modules, []);
@@ -42,7 +49,7 @@ export async function showPathProgress(): Promise<void> {
   const next = detail.querySelector<HTMLAnchorElement>('[data-next]');
   if (next) {
     if (p.nextTermId) {
-      next.href = `/terms/${p.nextTermId}`;
+      next.href = learnUrl(detail.dataset.pathId ?? '', p.nextTermId);
       next.textContent = p.done === 0 ? 'Start learning' : 'Continue learning';
     } else {
       next.textContent = 'Review the path';

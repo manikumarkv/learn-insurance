@@ -5,6 +5,9 @@
 
 export const GUEST_LEARNED_KEY = 'learned-terms';
 
+/** The learn card for one term of a path (story 7.4). */
+export const learnUrl = (pathId: string, termId: string) => `/paths/${pathId}/learn/${termId}`;
+
 export interface ModuleProgress {
   done: number;
   total: number;

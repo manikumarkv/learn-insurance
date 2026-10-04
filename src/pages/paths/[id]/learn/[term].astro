@@ -1,0 +1,225 @@
+---
+import { getCollection, getEntries, type CollectionEntry } from 'astro:content';
+import { Badge } from '../../../../components/ui/Badge';
+import { Icon } from '../../../../components/ui/Icon';
+import { FLOW_STAGES } from '../../../../content/schema/values';
+import { learnUrl } from '../../../../features/paths/progress';
+import { CheckYourself } from '../../../../features/terms/CheckYourself';
+import { displayTitle, shortName } from '../../../../features/terms/display';
+import TermText from '../../../../features/terms/TermText.astro';
+import FlowStrip from '../../../../features/terms/visuals/FlowStrip.astro';
+import TermVisual from '../../../../features/terms/visuals/TermVisual.astro';
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+
+/** One learn card per term of each path (story 7.4): text and visual, then a question. */
+export async function getStaticPaths() {
+  const paths = await getCollection('paths');
+  const pages = await Promise.all(
+    paths.map(async (path) => {
+      const items = path.data.modules.flatMap((m, moduleIndex) =>
+        m.terms.map((id) => ({ id, moduleIndex, moduleTitle: m.title })),
+      );
+      // TODO(edge-cases): a term listed twice in one path gets one card; Previous/Next follow its first place.
+      const unique = items.filter((item, i) => items.findIndex((x) => x.id === item.id) === i);
+      const terms = await getEntries(
+        unique.map(({ id }) => ({ collection: 'terms' as const, id })),
+      );
+      const ids = unique.map((u) => u.id);
+      return unique.flatMap((item, i) => {
+        const term = terms[i];
+        if (!term) return [];
+        return [
+          {
+            params: { id: path.id, term: item.id },
+            props: {
+              path,
+              term,
+              position: i + 1,
+              ids,
+              moduleIndex: item.moduleIndex,
+              moduleTitle: item.moduleTitle,
+              prevId: ids[i - 1],
+              nextId: ids[i + 1],
+            },
+          },
+        ];
+      });
+    }),
+  );
+  return pages.flat();
+}
+
+interface Props {
+  path: CollectionEntry<'paths'>;
+  term: CollectionEntry<'terms'>;
+  position: number;
+  ids: string[];
+  moduleIndex: number;
+  moduleTitle: string;
+  prevId?: string;
+  nextId?: string;
+}
+
+const { path, term, position, ids, moduleIndex, moduleTitle, prevId, nextId } = Astro.props;
+const t = term.data;
+const full = t.contentStatus === 'full';
+const title = displayTitle(t);
+const pathUrl = `/paths/${path.id}`;
+const next = nextId
+  ? { href: learnUrl(path.id, nextId), label: 'Next term' }
+  : { href: pathUrl, label: 'Finish' };
+const summary = full && t.quickAnswer ? t.quickAnswer : t.definition;
+const highlight = t.story?.steps.find((s) => s.highlight);
+const flowHighlight = t.flowStages.filter((s) => (FLOW_STAGES as readonly string[]).includes(s));
+const diagram = full ? t.visual?.diagram : undefined;
+const questions = full ? t.questions : [];
+---
+
+<SiteLayout
+  title={`${shortName(t)} · ${path.data.title} · LearnInsurance`}
+  description={summary}
+  noindex
+>
+  <div
+    class="mx-auto flex max-w-5xl flex-col gap-6"
+    data-learn-card
+    data-terms={JSON.stringify(ids)}
+  >
+    <div class="flex flex-wrap items-center justify-between gap-2">
+      <a href={pathUrl} class="text-label flex items-center gap-1">
+        <Icon name="arrow-left" size={20} />
+        {path.data.title}
+      </a>
+      <p class="text-label-sm text-ink-muted m-0">
+        Term {position} of {ids.length}
+        <span data-learn-progress></span>
+      </p>
+    </div>
+    <div class="bg-surface-sunken h-2 overflow-hidden rounded-full" aria-hidden="true">
+      <div
+        class="bg-primary h-full rounded-full"
+        style={`width: ${(position / ids.length) * 100}%`}
+      ></div>
+    </div>
+
+    <header class="flex flex-col gap-3">
+      <p class="text-label-sm text-ink-muted m-0">
+        Module {moduleIndex + 1} · {moduleTitle}
+      </p>
+      <h1 class="text-headline m-0">{title}</h1>
+      <div class="flex flex-wrap gap-2">
+        <Badge>{t.usageFrequency} usage</Badge>
+        <Badge tone="success">{t.difficulty}</Badge>
+      </div>
+    </header>
+
+    <!-- Text and visual side by side; stacked on small screens. -->
+    <div class="grid gap-6 lg:grid-cols-2">
+      <div class="flex min-w-0 flex-col gap-4">
+        <p class="text-body-lg m-0">
+          <TermText text={summary} selfId={term.id} />
+        </p>
+        {highlight ? (
+          <div class="ui-callout flex flex-col gap-1">
+            <h2 class="text-label m-0">{t.story?.person ?? 'A'}’s story</h2>
+            <p class="text-body m-0">
+              <TermText text={highlight.text} selfId={term.id} />
+            </p>
+          </div>
+        ) : (
+          <div class="ui-callout flex flex-col gap-1">
+            <h2 class="text-label m-0">Example</h2>
+            <p class="text-body m-0">
+              <TermText text={t.example} selfId={term.id} />
+            </p>
+          </div>
+        )}
+        <a href={`/terms/${term.id}`} class="text-label self-start">
+          Read the full term page →
+        </a>
+      </div>
+
+      <div class="flex min-w-0 flex-col gap-4">
+        {diagram ? (
+          <section class="ui-card flex flex-col gap-3" aria-labelledby="see-it">
+            <h2 id="see-it" class="text-title-sm m-0">
+              See it
+            </h2>
+            <TermVisual diagram={diagram} caption={t.visual?.caption} />
+          </section>
+        ) : (
+          // TODO(edge-cases): basic terms have no visual yet; show the example in its place.
+          highlight && (
+            <section class="ui-card flex flex-col gap-2" aria-labelledby="example">
+              <h2 id="example" class="text-title-sm m-0">
+                Example
+              </h2>
+              <p class="text-body m-0">
+                <TermText text={t.example} selfId={term.id} />
+              </p>
+            </section>
+          )
+        )}
+        {full && flowHighlight.length > 0 && (
+          <section class="ui-card flex flex-col gap-3" aria-labelledby="flow">
+            <h2 id="flow" class="text-title-sm m-0">
+              Where it happens
+            </h2>
+            <FlowStrip highlight={flowHighlight} />
+          </section>
+        )}
+      </div>
+    </div>
+
+    {questions.length > 0 ? (
+      <section class="ui-card flex flex-col gap-3" aria-labelledby="check-yourself">
+        <h2 id="check-yourself" class="text-title-sm m-0">
+          Check yourself
+        </h2>
+        <CheckYourself
+          client:only="react"
+          questions={questions}
+          count={1}
+          termId={term.id}
+          next={next}
+        />
+      </section>
+    ) : (
+      <p class="text-body-sm text-ink-muted m-0 flex items-center gap-2" role="note">
+        <Icon name="info" size={20} />
+        Questions for this term are coming soon.
+      </p>
+    )}
+
+    <nav
+      class="border-line flex flex-wrap items-center gap-2 border-t pt-4"
+      aria-label="Learn card"
+    >
+      {prevId ? (
+        <a href={learnUrl(path.id, prevId)} class="ui-btn ui-btn-secondary">
+          <Icon name="arrow-left" size={20} /> Previous
+        </a>
+      ) : (
+        <a href={pathUrl} class="ui-btn ui-btn-secondary">
+          <Icon name="arrow-left" size={20} /> Back to path
+        </a>
+      )}
+      {questions.length > 0 ? (
+        <a href={next.href} class="ui-btn ui-btn-ghost ml-auto">
+          {nextId ? 'Skip' : 'Skip and finish'}
+        </a>
+      ) : (
+        <a href={next.href} class="ui-btn ui-btn-primary ml-auto">
+          {next.label} <Icon name="arrow-right" size={20} />
+        </a>
+      )}
+    </nav>
+  </div>
+</SiteLayout>
+
+<script>
+  import '../../../../features/terms/term-preview';
+  import { showPathProgress } from '../../../../features/paths/progress-ui';
+
+  void showPathProgress();
+</script>

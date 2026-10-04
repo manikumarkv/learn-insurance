@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntries, type CollectionEntry } from 'astro:content';
 import { Icon } from '../../components/ui/Icon';
+import { learnUrl } from '../../features/paths/progress';
 import { displayTitle } from '../../features/terms/display';
 import { breadcrumbList } from '../../features/seo/jsonld';
 import SiteLayout from '../../layouts/SiteLayout.astro';
@@ -48,6 +49,7 @@ const description =
   <div
     class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]"
     data-path-detail
+    data-path-id={entry.id}
     data-modules={JSON.stringify(p.modules.map((m) => ({ terms: m.terms })))}
   >
     <div class="flex min-w-0 flex-col gap-8">
@@ -102,9 +104,8 @@ const description =
         <div class="bg-surface-sunken h-2 overflow-hidden rounded-full" aria-hidden="true">
           <div class="bg-primary h-full w-0 rounded-full" data-bar></div>
         </div>
-        {/* TODO(story 7.4): Continue opens the learn card for the next term; for now, its term page. */}
         <a
-          href={firstTerm ? `/terms/${firstTerm}` : '/terms'}
+          href={firstTerm ? learnUrl(entry.id, firstTerm) : '/terms'}
           class="ui-btn ui-btn-primary"
           data-next
         >

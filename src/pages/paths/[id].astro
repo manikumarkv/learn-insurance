@@ -1,0 +1,126 @@
+---
+import { getCollection, getEntries, type CollectionEntry } from 'astro:content';
+import { Icon } from '../../components/ui/Icon';
+import { displayTitle } from '../../features/terms/display';
+import { breadcrumbList } from '../../features/seo/jsonld';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+export async function getStaticPaths() {
+  const paths = await getCollection('paths');
+  return paths.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+interface Props {
+  entry: CollectionEntry<'paths'>;
+}
+
+const { entry } = Astro.props;
+const p = entry.data;
+const modules = await Promise.all(
+  p.modules.map(async (m) => ({
+    title: m.title,
+    terms: (await getEntries(m.terms.map((id) => ({ collection: 'terms' as const, id }))))
+      .filter((t) => t !== undefined)
+      .map((t) => ({ id: t.id, name: displayTitle(t.data), difficulty: t.data.difficulty })),
+  })),
+);
+const total = modules.reduce((n, m) => n + m.terms.length, 0);
+const firstTerm = modules[0]?.terms[0]?.id;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const description =
+  p.description ?? `Learn ${p.title.toLowerCase()} step by step, ${total} terms in plain English.`;
+---
+
+<SiteLayout
+  title={`${p.title} · Learning path · LearnInsurance`}
+  description={description}
+  jsonLd={[
+    breadcrumbList(site, [
+      { name: 'Learning paths', path: '/paths' },
+      { name: p.title, path: `/paths/${entry.id}` },
+    ]),
+  ]}
+>
+  <nav aria-label="Breadcrumb" class="text-body-sm text-ink-muted mb-4">
+    <a href="/paths">Learning paths</a> / <span aria-current="page">{p.title}</span>
+  </nav>
+
+  <div
+    class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_20rem]"
+    data-path-detail
+    data-modules={JSON.stringify(p.modules.map((m) => ({ terms: m.terms })))}
+  >
+    <div class="flex min-w-0 flex-col gap-8">
+      <header class="flex flex-col gap-2">
+        <h1 class="text-headline m-0">{p.title}</h1>
+        {p.description && <p class="text-body-lg text-ink-muted m-0 max-w-2xl">{p.description}</p>}
+        <p class="text-label-sm text-ink-muted m-0">
+          {total} terms in {modules.length} modules
+        </p>
+      </header>
+
+      <ol class="m-0 flex list-none flex-col gap-4 p-0">
+        {modules.map((m, i) => (
+          <li class="ui-card flex flex-col gap-3" data-module={i}>
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 class="text-title-md m-0">
+                <span class="text-label-sm text-ink-muted block">Module {i + 1}</span>
+                {m.title}
+              </h2>
+              <span class="text-label-sm text-ink-muted" data-module-status>
+                {m.terms.length} terms
+              </span>
+            </div>
+            <ul class="m-0 grid list-none gap-x-6 gap-y-1 p-0 sm:grid-cols-2">
+              {m.terms.map((t) => (
+                <li class="text-body-sm flex items-center gap-2" data-term-id={t.id}>
+                  <span data-learned hidden class="text-success-ink flex items-center">
+                    <Icon name="check" size={16} strokeWidth={2.5} />
+                    <span class="sr-only">Learned:</span>
+                  </span>
+                  <a href={`/terms/${t.id}`}>{t.name}</a>
+                </li>
+              ))}
+            </ul>
+            {/* TODO(story 7.7): module quiz. */}
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <aside class="flex flex-col gap-4 lg:sticky lg:top-6 lg:self-start" aria-label="Your progress">
+      <div class="ui-card flex flex-col gap-3">
+        <h2 class="text-title-sm m-0">Your progress</h2>
+        <p class="m-0 flex items-baseline gap-2">
+          <span class="text-headline" data-percent>
+            0%
+          </span>
+          <span class="text-body-sm text-ink-muted" data-count>
+            0 / {total} answered correctly
+          </span>
+        </p>
+        <div class="bg-surface-sunken h-2 overflow-hidden rounded-full" aria-hidden="true">
+          <div class="bg-primary h-full w-0 rounded-full" data-bar></div>
+        </div>
+        {/* TODO(story 7.4): Continue opens the learn card for the next term; for now, its term page. */}
+        <a
+          href={firstTerm ? `/terms/${firstTerm}` : '/terms'}
+          class="ui-btn ui-btn-primary"
+          data-next
+        >
+          Start learning
+        </a>
+        <p class="text-body-sm text-ink-muted m-0">
+          Terms go from beginner to advanced, most used first. Progress counts terms you answer
+          correctly.
+        </p>
+      </div>
+    </aside>
+  </div>
+</SiteLayout>
+
+<script>
+  import { showPathProgress } from '../../features/paths/progress-ui';
+
+  void showPathProgress();
+</script>

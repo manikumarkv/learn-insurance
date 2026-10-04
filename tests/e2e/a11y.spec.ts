@@ -10,6 +10,8 @@ const PAGES = [
   '/types',
   '/types/life.term',
   '/search?q=deductible',
+  '/paths',
+  '/paths/insurance-basics',
   '/about',
   '/privacy',
   '/no-such-page',

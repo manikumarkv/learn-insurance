@@ -66,7 +66,11 @@ export default defineConfig({
       : []),
     react(),
     sitemap({
-      filter: (page) => !NOT_IN_SITEMAP.includes(new URL(page).pathname.replace(/\/$/, '')),
+      // Learn cards repeat the term pages, so only the term pages are listed.
+      filter: (page) => {
+        const path = new URL(page).pathname.replace(/\/$/, '');
+        return !NOT_IN_SITEMAP.includes(path) && !path.includes('/learn/');
+      },
       // Same URL form as the canonical links: no trailing slash (except the home page).
       serialize: (item) => {
         const url = new URL(item.url);

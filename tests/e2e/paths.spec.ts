@@ -13,7 +13,7 @@ test('paths list starts with Insurance basics and opens its detail page', async 
   await expect(page.getByText('Module 1')).toBeVisible();
   await expect(page.getByRole('link', { name: 'Start learning' })).toHaveAttribute(
     'href',
-    '/terms/insurance',
+    '/paths/insurance-basics/learn/insurance',
   );
 });
 
@@ -27,7 +27,7 @@ test("a guest's progress on this device shows on both pages", async ({ page }) =
   await expect(progress.getByText('2 / 194 answered correctly')).toBeVisible();
   await expect(progress.getByRole('link', { name: 'Continue learning' })).toHaveAttribute(
     'href',
-    '/terms/insurer',
+    '/paths/insurance-basics/learn/insurer',
   );
   await expect(page.getByText('2 of 30 learned')).toBeVisible();
 

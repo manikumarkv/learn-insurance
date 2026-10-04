@@ -18,6 +18,8 @@ interface Props {
   count?: number;
   /** The term the questions belong to. Answers are saved to progress only when it's set. */
   termId?: string;
+  /** On a learn card: after the last answer is checked, go here instead of showing a result. */
+  next?: { href: string; label: string };
 }
 
 /**
@@ -25,7 +27,7 @@ interface Props {
  * time, skipping ones seen recently on this device. Each answer is saved to the account when
  * signed in, otherwise on this device. Uses localStorage, so render it with client:only="react".
  */
-export function CheckYourself({ questions, count = 3, termId }: Props) {
+export function CheckYourself({ questions, count = 3, termId, next }: Props) {
   const [picked] = useState(() => {
     const recent = termId ? recentQuestions(termId) : new Set<number>();
     const positions = pickFresh(questions.length, count, recent);
@@ -74,7 +76,7 @@ export function CheckYourself({ questions, count = 3, termId }: Props) {
     }
   }
 
-  function next() {
+  function nextQuestion() {
     setIndex((i) => i + 1);
     setChoice(null);
     setChecked(false);
@@ -128,8 +130,12 @@ export function CheckYourself({ questions, count = 3, termId }: Props) {
         </div>
       )}
       <div>
-        {checked ? (
-          <Button variant="primary" iconRight="arrow-right" onClick={next}>
+        {checked && next && index + 1 >= picked.length ? (
+          <a href={next.href} className="ui-btn ui-btn-primary">
+            {next.label} <Icon name="arrow-right" size={20} />
+          </a>
+        ) : checked ? (
+          <Button variant="primary" iconRight="arrow-right" onClick={nextQuestion}>
             {index + 1 < picked.length ? 'Next question' : 'See result'}
           </Button>
         ) : (

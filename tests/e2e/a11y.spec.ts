@@ -12,6 +12,7 @@ const PAGES = [
   '/search?q=deductible',
   '/paths',
   '/paths/insurance-basics',
+  '/paths/insurance-basics/learn/insurance',
   '/about',
   '/privacy',
   '/no-such-page',
